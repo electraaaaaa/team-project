@@ -5,10 +5,9 @@
 ### Team Members
 - Seoyun Ju
 - Name
-- Name
+- Donggyu Oh
 - Name
 - Electra Chan
-- Name
 
 ---
 
@@ -29,6 +28,7 @@ As a player, I want to enter my current pull history, so that I can see my proba
 ### User Story 2
 
 ### User Story 3
+As a player, I want to see the estimated cost of a given number of pulls in my chosen currency, so that I understand the real spending involved.
 
 ### User Story 5
 As a user, I want to be able to enter my pull history easily from a link so that I don’t have to type everything in manually.
@@ -69,7 +69,29 @@ As a user, I want to be able to see the standardized probabilities of getting a 
 
 ### Use Case 2
 
-### Use Case 3
+### Use Case 3: Calculate Pull Cost in Chosen Currency
+**Primary actor:** Player
+
+**Precondition:** System has at least one game with configured pull types, in-game currency per pull for the pull types, and real money pricing for in-game currency.
+
+**Trigger:** The player chooses to calculate the cost of pulls.
+
+**Main success scenario:** 
+1. Player selects game, pull type, number of pulls, and currency.
+2. System retrieves in-game currency cost per pull.
+3. System calculates total in-game currency required.
+4. System retrieves pricing information in original currency and calculates real money cost.
+5. System retrieves exchange rates and converts cost into chosen currency.
+6. System displays calculated cost.
+
+**Extensions:**
+ - Invalid input: system explains error, asks for another input.
+ - Chosen currency is the same as original currency: system skips exchange rate retrieval and conversion
+ - Failed exchange rate retrieval: system informs user, system skips conversion, system displays result in original currency
+ - User cancels: use case ends
+
+**Success outcome:** Player sees calculated cost of selected game, pull type, and number of pulls in chosen currency.
+
 
 ### Use Case 5 : Get Pull Data and Compare
 **Primary actor:** Player
@@ -120,7 +142,7 @@ Get data from games other than Hoyoverse games, such as Reverse 1999, Pokemon TC
 |-------------|--------------|
 | Seoyun | Use Case 1: Calculate Pull Probability |
 | Name | Use Case |
-| Name | Use Case |
+| Donggyu | Use Case 3: Calculate Pull Cost in Chosen Currency |
 | Electra | Use Case 5 and 6: Getting pull data, probabilities, and information on characters. |
  
 

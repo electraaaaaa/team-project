@@ -4,10 +4,8 @@
 
 ### Team Members
 - Seoyun Ju
-- Name
-- Donggyu Oh
 - Justin Ng
-- Name
+- Donggyu Oh
 - Rebecca Tian 
 - Electra Chan
 
@@ -214,11 +212,9 @@ Get data from games other than Hoyoverse games, such as Reverse 1999, Pokemon TC
 | Team Member | MVP Use Case |
 |-------------|--------------|
 | Seoyun | Use Case 1: Calculate Pull Probability |
-| Name | Use Case |
-| Rebecca | Use Case 4: Compare Across Games |
-| Donggyu | Use Case 3: Calculate Pull Cost in Chosen Currency |
 | Justin | Use Case 2: Pull Simulation |
-| Name | Use Case |
+| Donggyu | Use Case 3: Calculate Pull Cost in Chosen Currency |
+| Rebecca | Use Case 4: Compare Across Games |
 | Electra | Use Case 5 and 6: Getting pull data, probabilities, and information on characters. |
  
 

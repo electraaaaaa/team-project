@@ -26,7 +26,7 @@
 As a player, I want to enter my current pull history, so that I can see my probability of pulling a 5-star within N pulls.
 - As a user, I want to figure out how many pulls give me the best chance of getting a 5-star without spending too much money (minimum problem).
 
-### User Story 2
+### User Story 2 Pull Simulation
 As a player, I want to simulate thousands of pull sessions from my current state (default = 0 pulls) , so that I can see the distribution of outcomes.
 
 ### User Story 3

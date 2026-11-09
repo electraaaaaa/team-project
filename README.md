@@ -47,9 +47,7 @@ As a player, I want to simulate thousands of pull sessions from my current state
 As a player, I want to see the estimated cost of a given number of pulls in my chosen currency, so that I understand the real spending involved.
 
 ### User Story 4 
-As a player, I want to compare the pity systems of Genshin and Honkai: Star Rail side by side, so that I can see which is more favourable. 
-- As a user I want to easily swap between different simulations and analyses easily without having to open them in different windows.
-- As a user I want my imported pull history and past analyses to be saved locally, so that I don't have to re-enter or re-import them next time
+As a user, I want to compare the pity systems of Hoyoverse games side by side, so that I can see which is more favourable. 
 
 ### User Story 5
 As a user, I want to be able to enter my pull history easily from a link so that I don’t have to type everything in manually.
@@ -145,23 +143,21 @@ As a user, I want to be able to see the standardized probabilities of getting a 
 
 **Precondition:** App must have access to both games’ pity systems 
 
-**Trigger:** Player selects 2 distinct games to compare and clicks “compare” button
+**Trigger:** Player selects 2 games and 2 respective banners to compare and clicks “compare” button. 
 
-**Success Outcome:** Player is able to see side-by-side comparison of 2 games 
+**Success Outcome:** Player is able to see side-by-side comparison of 2 games.  
 
 **Main success scenario**
-1. Player selects 2 distinct games and clicks compare button 
-2. The player enters the amount of pulls they want to compare in the text field (maybe by default simulate 200 ish pulls?) 
-3. Player enters current pity count (pulls since last 5-star)  for each game (if applicable, otherwise default none) 
+1. Player selects 2 games and clicks compare button 
+2. The player enters the amount of pulls they want to compare in the text field (Across Hoyoverse games they cost the same) 
+3. Player enters current pity count (pulls since last 5-star)  for each game (if applicable, otherwise default is 0) 
 4. The system retrieves the pity rules for both selected games.
-5. The system calculates the probability of obtaining a 5-star reward within the specified number of pulls for each game.
+5. The system calculates the probability of obtaining a 5-star reward within the specified number of pulls for each game. (Refer to User Story 1) 
 6. The system displays the results side by side, allowing the player to compare the two pity system in the same window 
 
 **Extensions**
-1a. Same game chosen: Player chooses same game for 2nd game triggers error message
 2a. Invalid pull count (only accept positive integers) : Player entered an invalid pull count triggers error message
 3a. Invalid pity count (only accept positive integers 0-90) : Player entered an invalid pull count triggers error message
-
 
 
 ### Use Case 5 : Get Pull Data and Compare

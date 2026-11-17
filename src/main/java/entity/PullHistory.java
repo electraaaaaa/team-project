@@ -16,9 +16,9 @@ public class PullHistory {
     public void addPull(Collectable pull){
         this.pullList.add(pull);
     }
-    public int getCurrentPity(Banner bannerType){
-        //TODO implement get current Pity
-    }
+//    public int getCurrentPity(Banner bannerType){
+//        //TODO implement get current Pity
+//    }
 
     public int countByRarity(int rarity){
         int count = 0;

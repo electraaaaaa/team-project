@@ -42,9 +42,9 @@ public class SimulateInteractor implements SimulateInputBoundary{
         this.results = runSimulation(simulateInputData);
         double[] quartiles = statisticsHandler.findQuartiles(results);
         double mean = statisticsHandler.mean(results);
-        this.Q1 = quartiles[0];
-        this.Q2 = quartiles[1];
-        this.Q3 = quartiles[2];
+        double Q1 = quartiles[0];
+        double Q2 = quartiles[1];
+        double Q3 = quartiles[2];
 
 //        this.simulatePresenter.prepareSuccessView();
     }

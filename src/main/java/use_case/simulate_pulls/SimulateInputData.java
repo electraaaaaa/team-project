@@ -1,5 +1,7 @@
 package use_case.simulate_pulls;
 
+import entity.PitySystem;
+
 public class SimulateInputData {
 //    private int pityNumber
 //    private int numOfSims

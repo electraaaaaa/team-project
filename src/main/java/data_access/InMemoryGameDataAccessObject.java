@@ -1,5 +1,4 @@
 package data_access;
-
 import entity.PitySystem;
 import entity.PitySystemFactory;
 import use_case.calculate_probability.ProbabilityPityDataAccessInterface;
@@ -9,10 +8,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * In-memory game data. The base rates and hard pity come from the in-game rate details.
- * The soft pity start and increase are community estimates, since the games do not publish them.
- */
+
 public class InMemoryGameDataAccessObject implements ProbabilityPityDataAccessInterface {
     public static final String GENSHIN = "Genshin Impact";
     public static final String STAR_RAIL = "Honkai: Star Rail";
@@ -50,10 +46,11 @@ public class InMemoryGameDataAccessObject implements ProbabilityPityDataAccessIn
     }
 
     public List<String> getGameNames() {
+
         return new ArrayList<>(pitySystems.keySet());
     }
-
     public List<String> getBannerTypes() {
+
         return List.of(CHARACTER, WEAPON, STANDARD);
     }
 }

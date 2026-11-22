@@ -20,9 +20,7 @@ public class ProbabilityViewModel {
         listeners.add(listener);
     }
 
-    /**
-     * Tells every listener that the state was updated.
-     */
+     // Tells every listener that the state was updated.
     public void fireStateChanged() {
         for (ProbabilityViewModelListener listener : listeners) {
             listener.stateChanged();

@@ -33,8 +33,7 @@ public class InMemoryGameDataAccessObject implements ProbabilityPityDataAccessIn
 
         final Map<String, PitySystem> starRail = new LinkedHashMap<>();
         starRail.put(CHARACTER, pitySystemFactory.create(0.006f, 74, 0.06f, 90));
-        // No exact soft pity increase was found for the Light Cone banner, so this uses the Genshin
-        // rule (the rate increases by base rate x 10 every pull): 0.8% x 10 = 8%.
+        // couldn't find the soft pity increase for light cones, using genshin's rule (base rate x 10 = 8%)
         starRail.put(WEAPON, pitySystemFactory.create(0.008f, 66, 0.08f, 80));
         starRail.put(STANDARD, pitySystemFactory.create(0.006f, 74, 0.06f, 90));
         pitySystems.put(STAR_RAIL, starRail);

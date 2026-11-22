@@ -1,0 +1,1697 @@
+{
+  "_id": 10000036,
+  "id": "chongyun",
+  "name": "Chongyun",
+  "title": "Frozen Ardor",
+  "description": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
+  "weapon_type": {
+    "id": "claymore",
+    "name": "Claymore"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1601244000,
+  "substat": "ATK%",
+  "stats": {
+    "base": {
+      "hp": 920.90894,
+      "attack": 18.6984,
+      "defense": 54.36375
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 687.9661,
+        "attack": 13.96899,
+        "defense": 40.6125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1176.7842,
+        "attack": 23.894325,
+        "defense": 69.46875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1828.5415,
+        "attack": 37.128105,
+        "defense": 107.94375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2317.3596,
+        "attack": 47.05344,
+        "defense": 136.8,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2806.1775,
+        "attack": 56.978775,
+        "defense": 165.65625,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3294.9956,
+        "attack": 66.90411,
+        "defense": 194.5125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Tianheng Thaumaturges",
+  "region": {
+    "id": "liyue",
+    "name": "Liyue"
+  },
+  "rarity": 4,
+  "birthday": [
+    7,
+    9
+  ],
+  "constellation": "Nubis Caesor",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Beau Bridgland",
+    "chinese": "kinsen",
+    "japanese": "斉藤壮馬",
+    "korean": "Yang Jeong-hwa"
+  },
+  "skills": [
+    {
+      "_id": 10401,
+      "id": "demonbane",
+      "name": "Demonbane",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br/>At the end of the sequence, performs a more powerful slash. <br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "70%",
+            "75.7%",
+            "81.4%",
+            "89.5%",
+            "95.2%",
+            "101.8%",
+            "110.7%",
+            "119.7%",
+            "128.6%",
+            "138.4%",
+            "148.1%",
+            "157.9%",
+            "167.7%",
+            "177.5%",
+            "187.2%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "63.1%",
+            "68.3%",
+            "73.4%",
+            "80.7%",
+            "85.9%",
+            "91.8%",
+            "99.8%",
+            "107.9%",
+            "116%",
+            "124.8%",
+            "133.6%",
+            "142.4%",
+            "151.2%",
+            "160%",
+            "168.8%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "80.3%",
+            "86.9%",
+            "93.4%",
+            "102.7%",
+            "109.3%",
+            "116.8%",
+            "127%",
+            "137.3%",
+            "147.6%",
+            "158.8%",
+            "170%",
+            "181.2%",
+            "192.4%",
+            "203.6%",
+            "214.8%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "101.2%",
+            "109.5%",
+            "117.7%",
+            "129.5%",
+            "137.7%",
+            "147.1%",
+            "160.1%",
+            "173%",
+            "186%",
+            "200.1%",
+            "214.2%",
+            "228.3%",
+            "242.5%",
+            "256.6%",
+            "270.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack Cyclic DMG",
+          "values": [
+            "56.3%",
+            "60.9%",
+            "65.4%",
+            "72%",
+            "76.6%",
+            "81.8%",
+            "89%",
+            "96.2%",
+            "103.4%",
+            "111.3%",
+            "119.1%",
+            "127%",
+            "134.8%",
+            "142.7%",
+            "150.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack Final DMG",
+          "values": [
+            "101.8%",
+            "110.1%",
+            "118.3%",
+            "130.2%",
+            "138.5%",
+            "147.9%",
+            "161%",
+            "174%",
+            "187%",
+            "201.2%",
+            "215.4%",
+            "229.6%",
+            "243.8%",
+            "258%",
+            "272.2%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        },
+        {
+          "label": "Max Duration",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "74.6%",
+            "80.7%",
+            "86.7%",
+            "95.4%",
+            "101.5%",
+            "108.4%",
+            "118%",
+            "127.5%",
+            "137%",
+            "147.4%",
+            "157.8%",
+            "168.3%",
+            "178.7%",
+            "189.1%",
+            "199.5%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "149.1% / 186.3%",
+            "161.3% / 201.5%",
+            "173.4% / 216.6%",
+            "190.8% / 238.3%",
+            "202.9% / 253.4%",
+            "216.8% / 270.8%",
+            "235.9% / 294.6%",
+            "254.9% / 318.4%",
+            "274% / 342.3%",
+            "294.8% / 368.2%",
+            "315.6% / 394.2%",
+            "336.4% / 420.2%",
+            "357.3% / 446.2%",
+            "378.1% / 472.2%",
+            "398.9% / 498.2%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10402,
+      "id": "spirit_blade_chonghuas_layered_frost",
+      "name": "Spirit Blade: Chonghua's Layered Frost",
+      "description": "Chongyun strikes the ground with his greatsword, causing a Cryo explosion in a circular AoE in front of him that deals <span style=\"color:#99FFFFFF\">Cryo DMG</span>.<br/>After a short delay, the cold air created by the Cryo explosion will coalesce into a Chonghua Frost Field, within which all Sword, Claymore and Polearm-wielding characters' weapons will be infused with <span style=\"color:#99FFFFFF\">Cryo</span>.",
+      "info": "\"A crystal-clear ring, and all is silent. The rivers move not, and the clouds are heavy with frost. The altar gates open, and evil is banished.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "172%",
+            "184.9%",
+            "197.8%",
+            "215.1%",
+            "228%",
+            "240.9%",
+            "258.1%",
+            "275.3%",
+            "292.5%",
+            "309.7%",
+            "326.9%",
+            "344.1%",
+            "365.6%",
+            "387.1%",
+            "408.6%"
+          ]
+        },
+        {
+          "label": "Infusion Duration",
+          "values": [
+            "2s",
+            "2.1s",
+            "2.2s",
+            "2.3s",
+            "2.4s",
+            "2.5s",
+            "2.6s",
+            "2.7s",
+            "2.8s",
+            "2.9s",
+            "3s",
+            "3s",
+            "3s",
+            "3s",
+            "3s"
+          ]
+        },
+        {
+          "label": "Field Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10403,
+      "id": "spirit_blade_cloudparting_star",
+      "name": "Spirit Blade: Cloud-Parting Star",
+      "description": "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.<br/>When the spirit blades explode, they will deal <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> and launch opponents.",
+      "info": "\"As ice doth give the biting frost birth, My transcendent blade shakes heaven and earth. Heed my summons and come hence!\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "142.4%",
+            "153.1%",
+            "163.8%",
+            "178%",
+            "188.7%",
+            "199.4%",
+            "213.6%",
+            "227.8%",
+            "242.1%",
+            "256.3%",
+            "270.6%",
+            "284.8%",
+            "302.6%",
+            "320.4%",
+            "338.2%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "steady_breathing",
+      "name": "Steady Breathing",
+      "description": "Sword, Claymore, or Polearm-wielding characters within the field created by <span style=\"color:#FFD780FF\">Spirit Blade: Chonghua's Layered Frost</span> have their Normal ATK SPD increased by 8%.",
+      "level": 1
+    },
+    {
+      "id": "rimechaser_blade",
+      "name": "Rimechaser Blade",
+      "description": "When the field created by <span style=\"color:#FFD780FF\">Spirit Blade: Chonghua's Layered Frost</span> disappears, another spirit blade will be summoned to strike nearby opponents, dealing 100% of Chonghua's Layered Frost's Skill DMG as <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>. Opponents hit by this blade will have their <span style=\"color:#99FFFFFF\">Cryo RES</span> decreased by 10% for 8s.",
+      "level": 4
+    },
+    {
+      "id": "gallant_journey",
+      "name": "Gallant Journey",
+      "description": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 361,
+      "id": "ice_unleashed",
+      "name": "Ice Unleashed",
+      "description": "The last attack of Chongyun's Normal Attack combo releases 3 ice blades. Each blade deals 50% of Chongyun's ATK as <span style=\"color:#99FFFFFF\">Cryo DMG</span> to all opponents in its path.",
+      "level": 1
+    },
+    {
+      "_id": 362,
+      "id": "atmospheric_revolution",
+      "name": "Atmospheric Revolution",
+      "description": "Elemental Skills and Elemental Bursts cast within the Frost Field created by <span style=\"color:#FFD780FF\">Spirit Blade: Chonghua's Layered Frost</span> have their CD time decreased by 15%.",
+      "level": 2
+    },
+    {
+      "_id": 363,
+      "id": "cloudburst",
+      "name": "Cloudburst",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Spirit Blade: Cloud-Parting Star</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 364,
+      "id": "frozen_skies",
+      "name": "Frozen Skies",
+      "description": "Chongyun regenerates 1 Energy every time he hits an opponent affected by <span style=\"color:#99FFFFFF\">Cryo</span>.<br/>This effect can only occur once every 2s.",
+      "level": 4
+    },
+    {
+      "_id": 365,
+      "id": "the_true_path",
+      "name": "The True Path",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Spirit Blade: Chonghua's Layered Frost</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 366,
+      "id": "rally_of_four_blades",
+      "name": "Rally of Four Blades",
+      "description": "<span style=\"color:#FFD780FF\">Spirit Blade: Cloud-Parting Star</span> deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun.<br/>This skill will also summon 1 additional spirit blade.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "921"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "19"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "54"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2366",
+            "3054"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "48",
+            "62"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "140",
+            "180"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4574",
+            "5063"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "93",
+            "103"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "270",
+            "299"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100058,
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112005,
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5824",
+            "6475"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "118",
+            "131"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "344",
+            "382"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100058,
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112005,
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7236",
+            "7725"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "147",
+            "157"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "427",
+            "456"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100058,
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112006,
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8485",
+            "8974"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "172",
+            "182"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "501",
+            "530"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100058,
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112006,
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9734",
+            "10223"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "198",
+            "208"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "575",
+            "603"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100058,
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112007,
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10984",
+            "10984"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "223",
+            "223"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "648",
+            "648"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100058,
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112007,
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104313,
+          "id": "teachings_of_diligence",
+          "name": "Teachings of Diligence",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112005,
+          "id": "damaged_mask",
+          "name": "Damaged Mask",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113005,
+          "id": "dvalins_sigh",
+          "name": "Dvalin's Sigh",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113005,
+          "id": "dvalins_sigh",
+          "name": "Dvalin's Sigh",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113005,
+          "id": "dvalins_sigh",
+          "name": "Dvalin's Sigh",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113005,
+          "id": "dvalins_sigh",
+          "name": "Dvalin's Sigh",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 203600,
+      "name": "Pure Spirit",
+      "description": "Chongyun's outfit. A traditional thaumaturge's trappings.",
+      "isDefault": true,
+      "characterName": "Chongyun",
+      "characterId": 10000036,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Chongyun_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "My name is Chongyun. My family has practiced the art of exorcism in Liyue for many generations. Fate has been generous in allowing my path to cross with that of your distinguished self. ...Oh, no — my services are free of charge!"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: The Art of Exorcism",
+      "text": "Exorcism uses thaumaturgy and martial arts to conquer evil. There are other means to the same end, but they are not the true way."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Diet",
+      "text": "I take my meals cold to quiet the spirit and calm my vital energies. Qingxin-infused water with ice is the most effective."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Mantras",
+      "text": "\"Heart be pure, evil be erased. Mind be purged, world be...\" Um... Ugh, I always forget that last part."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "There is no purer form of water than rain. It can aid us greatly in the purging of evil."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Before the resounding thunder, evil must cower in fear."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Ah, this weather is delightful."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "It is unwise to waste the precious morning hours. Time to train!"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "One's spiritual energies are at their peak at noon. We must take that time to practice."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "As the day winds down and the quiet of evening sets in, the atmosphere is ripe for focusing your mind. There is no better time than this for training."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Whew. What a tiring day. You should get some rest. Don't forget what we agreed — we will investigate that haunted house tomorrow."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Chongyun: Exorcists",
+      "text": "We exorcists have been protectors of Liyue since ancient times, and our techniques have been passed down from generation to generation. Purging evil is second nature to us."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Chongyun: Commissions",
+      "text": "*sigh* I didn't actually do anything. I just walked into that haunted house, and the problem was resolved... Do you think I should still take payment for this exorcism?"
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Companions",
+      "text": "Your skills are impressive. When you finish with a hilichurl— I mean, an evil spirit, it is surely banished from this world for good. How about we team up?"
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Us: Ghost Stories",
+      "text": "By now, you must be well acquainted with Liyue's supernatural phenomena. Now, about the evil beings you speak of in lands beyond... I would very much like to see them too."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Visions are powerful, but one would be foolish to place blind faith in them. Personally, I trust more in thaumaturgy and martial arts. In the end, one cannot become truly proficient without vigorous training."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "There are rumors abound concerning evil spirits in Liyue, but not all have truth to them. In fact, some strange commissions wind up having nothing to do with them at all."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "I have heard there are many strange and rare things sealed within the amber from Mt. Hulao. Could some of them be the fabled demons of which the ancient legends speak? I would love to investigate."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Zhongli",
+      "text": "That Zhongli from the Wangsheng Funeral Parlor seems to be quite an incredible man. Just think, common folk might gang up to commit a murder, we exorcists vanquish demons — but he alone buries the bodies of the adepti."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Xingqiu",
+      "text": "I do admire Xingqiu for his devotion to chivalry and his martial arts proficiency. However — I must warn you that he definitely has a mean side, too. If you find that you fall foul of any of his antics, come to me and we'll form a \"Victims of Xingqiu\" alliance. There is strength in numbers."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Xiao",
+      "text": "The Conqueror of Demons himself has defended Liyue side-by-side with we exorcists for generations, day after day, night after night. I have the utmost respect for Adeptus Xiao. It's just... Why must he be so disparaging toward us? He says our repertoire is lacking and our power is trivial. I'm sorry, but I just can't accept that."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Hu Tao",
+      "text": "The Wangsheng Funeral Parlor is a reputable institution that acts with integrity. But whenever I see that cheeky smile that says, \"It's nothing you exorcists need to worry about,\" it just makes my blood boil... Whoa, deep breaths, Chongyun. Stay calm."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Qiqi",
+      "text": "She looks like a zombie, but as an exorcist, I feel there's... something different about her. Hmm, her name is also absent from all the praised names I've seen... Where exactly does she fit in among the deities?"
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Xinyan",
+      "text": "I avoid Xinyan's performances like the plague. That heated atmosphere... Even if you don't intend to get involved, it still... Let's just say that it gets me all hot and bothered."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Xiangling",
+      "text": "Xiangling's cooking is universally praised, but I personally don't touch any of her spicy dishes. Why? Oh, you know — just, uh... personal preference, that's all. I mean, come on, Mushroom Slime Stew... Does that sound appetizing to you?"
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Shenhe",
+      "text": "The elders in my clan have mentioned her before. The fate of her family... *sigh* It's something we can all sympathize with. I originally thought we would be able to bring a long-lost relative back into our clan. The elders were overjoyed, too, when they heard she was still alive — they even prepared gifts for her, and picked an auspicious day for a grand reunion. What we hadn't counted on was that most of the time, she's extremely difficult to track down. Wait a minute, based on our relative positions in the family tree, does that mean that I... There's no way I'd have to call her \"Auntie Shenhe\"... right?"
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Yelan",
+      "text": "I met her once, back when I'd just become an exorcist. I'd taken a commission to perform an exorcism in someone's home, and was just leaving at the end when I ran into her. She wrote my name down in a booklet — I guess she just wanted to confirm I wasn't doing anything suspicious... Anyway, it was just that one time, I never saw her again after that.\\nNow that I think about it, it's probably because the sight of me meditating motionless must be pretty boring to watch. Not exactly suspicious."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Chongyun: I",
+      "text": "Discipline is everything. Unbridled passion can have disastrous consequences. Trust me, I would know. ...Oh, no no no, not from personal experience, of course. Haha... Uh... I'm just stating my observations from what I've seen in my travels around Liyue."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Chongyun: II",
+      "text": "I was born with a pure yang spirit, meaning I have too much positive energy... Apparently it's so rare it only happens once every thousand generations or so. It means I repel all evil for miles around... *sigh* Actually, that's a bad thing. I must be the only exorcist in history who can't get within ten miles of an evil spirit."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Chongyun: III",
+      "text": "One of the main consequences of having a pure yang spirit is excess passion, something which has gotten me into many embarrassing situations. In an effort to alleviate these symptoms, I have to abstain from eating chilis and all hot food. I also have to take a parasol with me everywhere, and I avoid listening to rousing music. I wonder, will I ever find a way to work around my condition?"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Chongyun: IV",
+      "text": "Waiting for evil to show up at the doorstep will get you nowhere — you have to go out and hunt it down. By purging Liyue of evil spirits, I bring peace of mind to people and also broaden my horizons. If an evil spirit ever bothers you, just let me know. I'll come and help you out right away."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Chongyun: V",
+      "text": "To permanently banish the forces of evil from the world is my ultimate goal as an exorcist. If that grand day ever comes, I suppose I should be able to consider trying many new things, such as hot springs, Jueyun Chilis, and... partaking in other activities of a more passionate nature. Ugh, what am I doing... Ugh, I shouldn't be dwelling on these things, even thinking about them is too stimulating for me..."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Chongyun's Hobbies",
+      "text": "I like listening to Tea Master Liu's stories. His narration really brings the hair-raising tales of the supernatural to life. Why not come with me some time?"
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Chongyun's Troubles",
+      "text": "After making numerous inquiries and putting in an enormous amount of effort, I finally tracked down the location of an old haunted temple. So I camped out there for four whole days, ready to exorcise the hell out of that place... and nothing happened. Not even the faintest glimpse of an evil spirit. *sigh* Sadly, this is a regular occurrence for me."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Nothing makes me happier than sitting down to an authentic Inazuman meal, ingredients imported of course. After training hard all day, the ice-cold freshness of Inazuman cuisine takes the exhaustion away."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Anything piping hot and laden with chilis is an absolute no-go for me. The mere thought of a Jueyun Chili gives me hot flashes."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Cold dishes are just to my liking! I'll save some for after my training."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "I'm sorry, I know you mean well, but I really need to wait for it to cool off before I eat it."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Oh no! Did you put Jueyun Chilis in this?"
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "On the anniversary of your birth, please accept this gift of a flower, made of ice crystals. I carved it myself. If you ever encounter an evil spirit, cast this toward it — the spell I have cast upon it will immediately come into effect and hopefully get you out alive. Also... Happy birthday."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "We often use these materials for thaumaturgy during exorcisms — I never knew they could be used to purify one's own spirit, too."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Martial arts and thaumaturgy are alike in that there are always new dimensions to explore. Thanks to your guidance, I can see myself making progress."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Never before have I fathomed such lofty heights of martial prowess! For eye and hand, man and blade to act in unity... Truly, I have been enlightened."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "With all the secrets arts that I have learned, my goal of banishing all evil from the world is finally in view. I will never forget how much you have done for me. Maybe now I even have what it takes to face the flames of my positive energy, and see if I can take the heat."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "A touch of frost!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Forth, my blade!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Swift and merciful!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "One with my blade!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "From whence you came!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Spirit blade, attack!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Submit for judgment!"
+    },
+    {
+      "id": "700001",
+      "type": 2,
+      "title": "Deploying Wind Glider: I",
+      "text": "I ride on wind and cloud alike."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Hmm, objects like this may prove useful when purging evil spirits."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "It was worth the trouble!"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Unexpected, but welcome."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Barely a scratch."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "I cannot underestimate my enemy."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Curb your fury!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "I'm in position."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Hang on!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "After all that training..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "The scourge of evil remains..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "This spells the end of the exorcists..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "But how!?"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Present."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "My demon-expelling mantra is ready."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Time for some training?"
+    }
+  ]
+}

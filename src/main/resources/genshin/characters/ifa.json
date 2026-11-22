@@ -1,0 +1,1697 @@
+{
+  "_id": 10000113,
+  "id": "ifa",
+  "name": "Ifa",
+  "title": "In the Wake of Wandering Winds",
+  "description": "A vet from the Flower-Feather Clan who cherishes the life he leads alongside all manner of living things — people, animals, you name it.",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "anemo",
+    "name": "Anemo"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1746478800,
+  "substat": "Elemental Mastery",
+  "stats": {
+    "base": {
+      "hp": 845.2303,
+      "attack": 14.95872,
+      "defense": 50.758575
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 631.4303,
+        "attack": 11.175192,
+        "defense": 37.91925,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1080.0781,
+        "attack": 19.11546,
+        "defense": 64.86188,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 24
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1678.2753,
+        "attack": 29.702484,
+        "defense": 100.78538,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 48
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2126.923,
+        "attack": 37.642754,
+        "defense": 127.728,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 48
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2575.5708,
+        "attack": 45.58302,
+        "defense": 154.67062,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 72
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3024.2188,
+        "attack": 53.52329,
+        "defense": 181.61325,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 96
+        }
+      }
+    ]
+  },
+  "affiliation": "Tlalocan",
+  "region": {
+    "id": "natlan",
+    "name": "Natlan"
+  },
+  "rarity": 4,
+  "birthday": [
+    23,
+    3
+  ],
+  "constellation": "Catena Opele",
+  "domain": "Blazing Ruins",
+  "cv": {
+    "english": "Jonny Loquasto & Dominic Catrambone",
+    "chinese": "吕书君",
+    "japanese": "寺島惇太&小松昌平",
+    "korean": "Park Ki-wook"
+  },
+  "skills": [
+    {
+      "_id": 11131,
+      "id": "rite_of_dispelling_winds",
+      "name": "Rite of Dispelling Winds",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 3 attacks, dealing <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina and fires off a shot, dealing <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges towards the ground from mid-air, damaging all opponents along the path. Deals <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "53.6%",
+            "57.6%",
+            "61.6%",
+            "67%",
+            "71%",
+            "75.1%",
+            "80.4%",
+            "85.8%",
+            "91.1%",
+            "96.5%",
+            "101.9%",
+            "107.2%",
+            "113.9%",
+            "120.6%",
+            "127.3%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "47.5%",
+            "51%",
+            "54.6%",
+            "59.3%",
+            "62.9%",
+            "66.5%",
+            "71.2%",
+            "75.9%",
+            "80.7%",
+            "85.4%",
+            "90.2%",
+            "94.9%",
+            "100.9%",
+            "106.8%",
+            "112.7%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "74.8%",
+            "80.4%",
+            "86%",
+            "93.4%",
+            "99.1%",
+            "104.7%",
+            "112.1%",
+            "119.6%",
+            "127.1%",
+            "134.6%",
+            "142%",
+            "149.5%",
+            "158.9%",
+            "168.2%",
+            "177.6%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "147%",
+            "158.1%",
+            "169.1%",
+            "183.8%",
+            "194.8%",
+            "205.9%",
+            "220.6%",
+            "235.3%",
+            "250%",
+            "264.7%",
+            "279.4%",
+            "294.1%",
+            "312.5%",
+            "330.8%",
+            "349.2%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11132,
+      "id": "airborne_disease_prevention",
+      "name": "Airborne Disease Prevention",
+      "description": "It's time for the real bash bros to step up! Ifa calls Cacucu in as backup.<br/>After using this skill, Ifa gains 80 Nightsoul points and enters the <link kind=\"effect\" id=\"11130003\"><span style=\"color:#FFD780FF\">Nightsoul's Blessing</span></link> state. In the Nightsoul's Blessing state, Ifa will hover with Cacucu's help. When he uses Normal Attacks in this state, he will use different kinds of <link kind=\"effect\" id=\"11130001\"><span style=\"color:#FFD780FF\">Supporting Fire</span></link> depending on whether you Tap or Hold, firing Tonicshots that are capable of healing all party members.<br/><br/>Additionally, Holding the Elemental Skill <span style=\"color:#FFD780FF\">Airborne Disease Prevention</span> while Ifa is in Nightsoul's Blessing will cause him to use a Nightsoul-aligned Plunging Attack. Letting go of the skill button will interrupt this Plunging Attack to maintain his hover. If Ifa lands due to this Plunging Attack, his Nightsoul's Blessing state will end.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Tonicshot DMG",
+          "values": [
+            "133.4%",
+            "143.4%",
+            "153.4%",
+            "166.7%",
+            "176.7%",
+            "186.7%",
+            "200%",
+            "213.4%",
+            "226.7%",
+            "240%",
+            "253.4%",
+            "266.7%",
+            "283.4%",
+            "300.1%",
+            "316.7%"
+          ]
+        },
+        {
+          "label": "Tonicshot Healing On Hit",
+          "values": [
+            "20.2% Elemental Mastery + 48.1",
+            "21.7% Elemental Mastery + 53",
+            "23.2% Elemental Mastery + 58.2",
+            "25.2% Elemental Mastery + 63.8",
+            "26.7% Elemental Mastery + 69.8",
+            "28.2% Elemental Mastery + 76.2",
+            "30.2% Elemental Mastery + 83.1",
+            "32.3% Elemental Mastery + 90.3",
+            "34.3% Elemental Mastery + 97.9",
+            "36.3% Elemental Mastery + 105.9",
+            "38.3% Elemental Mastery + 114.4",
+            "40.3% Elemental Mastery + 123.2",
+            "42.8% Elemental Mastery + 132.4",
+            "45.4% Elemental Mastery + 142.1",
+            "47.9% Elemental Mastery + 152.1"
+          ]
+        },
+        {
+          "label": "Nightsoul Point Limit",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11135,
+      "id": "compound_sedation_field",
+      "name": "Compound Sedation Field",
+      "description": "Fires a Therapeutic Sedative at a (temporarily aggressive) opponent. The sedative will explode on impact, creating a restraining wind current that pulls nearby objects and opponents in while dealing Nightsoul-aligned <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span>.<br/>When the Therapeutic Sedative hits an opponent affected by <span style=\"color:#80C0FFFF\">Hydro</span>/<span style=\"color:#FF9999FF\">Pyro</span>/<span style=\"color:#99FFFFFF\">Cryo</span>/<span style=\"color:#FFACFFFF\">Electro</span>, it will apply a <link kind=\"effect\" id=\"11130004\"><span style=\"color:#FFD780FF\">Sedation Mark</span></link> to them.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "508.5%",
+            "546.6%",
+            "584.8%",
+            "635.6%",
+            "673.7%",
+            "711.9%",
+            "762.7%",
+            "813.6%",
+            "864.4%",
+            "915.3%",
+            "966.1%",
+            "1017%",
+            "1080.5%",
+            "1144.1%",
+            "1207.6%"
+          ]
+        },
+        {
+          "label": "Sedation Mark DMG",
+          "values": [
+            "109%",
+            "117.1%",
+            "125.3%",
+            "136.2%",
+            "144.4%",
+            "152.5%",
+            "163.4%",
+            "174.3%",
+            "185.2%",
+            "196.1%",
+            "207%",
+            "217.9%",
+            "231.5%",
+            "245.2%",
+            "258.8%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "field_medics_vision",
+      "name": "Field Medic's Vision",
+      "description": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the current total in his entire party will grant him 1 <link kind=\"effect\" id=\"11130002\"><span style=\"color:#FFD780FF\">Rescue Essentials</span></link> point. Rescue Essentials will increase the Swirl, Stellar Swirl, Electro-Charged, and Lunar-Charged reaction DMG dealt by nearby party members.",
+      "level": 1
+    },
+    {
+      "id": "mutual_aid_agreement",
+      "name": "Mutual Aid Agreement",
+      "description": "When nearby party members trigger Nightsoul Bursts, Ifa's Elemental Mastery increases by 80 for 10s.",
+      "level": 4
+    },
+    {
+      "id": "night_realms_gift_focused_emergency_rescue",
+      "name": "Night Realm's Gift: Focused Emergency Rescue",
+      "description": "After his Nightsoul points are exhausted, Ifa will switch to consuming Phlogiston to maintain his Nightsoul's Blessing.<br/>While in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Ifa. When the active character is a certain height in the air, the following will occur when switching to Ifa: Ifa will enter the Nightsoul's Blessing state and gain 32 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.",
+      "level": 0
+    },
+    {
+      "id": "tactical_warm_compress_bandaging",
+      "name": "Tactical Warm Compress Bandaging",
+      "description": "While in an area with Phlogiston Mechanics within Natlan, when the current active party member or indwelt saurian has less than 40% HP, Ifa will consume 10 Phlogiston and restore 40% of their HP. This effect can trigger once every 10s, and does not take effect in Domains, Trounce Domains, or the Spiral Abyss.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1131,
+      "id": "vitiferous_elixirs_concoction",
+      "name": "Vitiferous Elixir's Concoction",
+      "description": "When <link kind=\"effect\" id=\"11130001\"><span style=\"color:#FFD780FF\">Supporting Fire</span></link> hits an opponent, it will restore 6 Energy for Ifa. One such Energy restoration can be triggered once every 8s.",
+      "level": 1
+    },
+    {
+      "_id": 1132,
+      "id": "guiding_spirit_of_ballistic_prayer",
+      "name": "Guiding Spirit of Ballistic Prayer",
+      "description": "When Ifa is in the Nightsoul's Blessing state, every Nightsoul point the party has above a total of 60 will grant Ifa 4 additional <link kind=\"effect\" id=\"11130002\"><span style=\"color:#FFD780FF\">Rescue Essentials</span></link> points.<br/>Additionally, Ifa's Rescue Essentials limit is increased by 50.<br/>You must first unlock the Ascension Talent <link kind=\"passive\" to=\"field_medics_vision\"><span style=\"color:#FFD780FF\">Field Medic's Vision</span></link>.",
+      "level": 2
+    },
+    {
+      "_id": 1133,
+      "id": "rebuttal_in_negotiations_with_the_night",
+      "name": "Rebuttal in Negotiations With the Night",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"airborne_disease_prevention\">Airborne Disease Prevention</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1134,
+      "id": "decayed_vessels_permutation",
+      "name": "Decayed Vessel's Permutation",
+      "description": "The restraining wind current created by the Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"compound_sedation_field\">Compound Sedation Field</link></span> has its duration extended to 3s.<br/>Additionally, Ifa gains 100 Elemental Mastery for 15s after using his Elemental Burst <span style=\"color:#FFD780FF\">Compound Sedation Field</span>.",
+      "level": 4
+    },
+    {
+      "_id": 1135,
+      "id": "vow_of_universal_coexistence",
+      "name": "Vow of Universal Coexistence",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"compound_sedation_field\">Compound Sedation Field</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1136,
+      "id": "oath_on_a_feathered_knot",
+      "name": "Oath on a Feathered Knot",
+      "description": "When Ifa uses the Hold version of his <link kind=\"effect\" id=\"11130001\"><span style=\"color:#FFD780FF\">Supporting Fire</span></link>, there is a 50% chance that he will fire an additional Tonicshot that deals 120% of Ifa's ATK as Anemo DMG. This DMG is considered Normal Attack DMG.<br/>Additionally, when he is not in combat, Ifa will consume 20% less Nightsoul points and Phlogiston in his Nightsoul's Blessing state.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "845"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "15"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "51"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "-",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2171",
+            "2803"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "38",
+            "50"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "130",
+            "168"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4198",
+            "4647"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "74",
+            "82"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "252",
+            "279"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "0",
+            "24"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104151,
+        "id": "vayuda_turquoise_sliver",
+        "name": "Vayuda Turquoise Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101250,
+        "id": "saurian_claw_succulent",
+        "name": "Saurian Claw Succulent",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112101,
+        "id": "juvenile_fang",
+        "name": "Juvenile Fang",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5345",
+            "5943"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "95",
+            "105"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "321",
+            "357"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "24",
+            "48"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113072,
+        "id": "sparkless_statue_core",
+        "name": "Sparkless Statue Core",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101250,
+        "id": "saurian_claw_succulent",
+        "name": "Saurian Claw Succulent",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112101,
+        "id": "juvenile_fang",
+        "name": "Juvenile Fang",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6641",
+            "7090"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "118",
+            "125"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "399",
+            "426"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "48",
+            "48"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113072,
+        "id": "sparkless_statue_core",
+        "name": "Sparkless Statue Core",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101250,
+        "id": "saurian_claw_succulent",
+        "name": "Saurian Claw Succulent",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112102,
+        "id": "seasoned_fang",
+        "name": "Seasoned Fang",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7787",
+            "8236"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "138",
+            "146"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "468",
+            "495"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "48",
+            "72"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113072,
+        "id": "sparkless_statue_core",
+        "name": "Sparkless Statue Core",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101250,
+        "id": "saurian_claw_succulent",
+        "name": "Saurian Claw Succulent",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112102,
+        "id": "seasoned_fang",
+        "name": "Seasoned Fang",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8934",
+            "9383"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "158",
+            "166"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "537",
+            "563"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "72",
+            "96"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113072,
+        "id": "sparkless_statue_core",
+        "name": "Sparkless Statue Core",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101250,
+        "id": "saurian_claw_succulent",
+        "name": "Saurian Claw Succulent",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112103,
+        "id": "tyrants_fang",
+        "name": "Tyrant's Fang",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10081",
+            "10081"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "178",
+            "178"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "605",
+            "605"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "96",
+            "96"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104154,
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Vayuda Turquoise Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113072,
+        "id": "sparkless_statue_core",
+        "name": "Sparkless Statue Core",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101250,
+        "id": "saurian_claw_succulent",
+        "name": "Saurian Claw Succulent",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112103,
+        "id": "tyrants_fang",
+        "name": "Tyrant's Fang",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104353,
+          "id": "teachings_of_conflict",
+          "name": "Teachings of Conflict",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112101,
+          "id": "juvenile_fang",
+          "name": "Juvenile Fang",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104354,
+          "id": "guide_to_conflict",
+          "name": "Guide to Conflict",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Seasoned Fang",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104354,
+          "id": "guide_to_conflict",
+          "name": "Guide to Conflict",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Seasoned Fang",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104354,
+          "id": "guide_to_conflict",
+          "name": "Guide to Conflict",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Seasoned Fang",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104354,
+          "id": "guide_to_conflict",
+          "name": "Guide to Conflict",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Seasoned Fang",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104355,
+          "id": "philosophies_of_conflict",
+          "name": "Philosophies of Conflict",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Tyrant's Fang",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113074,
+          "id": "ascended_sample_rook",
+          "name": "Ascended Sample: Rook",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104355,
+          "id": "philosophies_of_conflict",
+          "name": "Philosophies of Conflict",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Tyrant's Fang",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113074,
+          "id": "ascended_sample_rook",
+          "name": "Ascended Sample: Rook",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104355,
+          "id": "philosophies_of_conflict",
+          "name": "Philosophies of Conflict",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Tyrant's Fang",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113074,
+          "id": "ascended_sample_rook",
+          "name": "Ascended Sample: Rook",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104355,
+          "id": "philosophies_of_conflict",
+          "name": "Philosophies of Conflict",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Tyrant's Fang",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113074,
+          "id": "ascended_sample_rook",
+          "name": "Ascended Sample: Rook",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 211300,
+      "name": "Whistledart Wings",
+      "description": "Ifa's outfit. You've never seen Ifa change his hat, but he has done so many times — just, you know, to an identical-looking one on each occasion. \"Don't forget to tie a string on a hat you're fixin' to wear, bro. Never know when the wind might nick it — or a pesky saurian, for that matter.\" So Ifa says with a sigh of exasperation each time the subject is broached.",
+      "isDefault": true,
+      "characterName": "Ifa",
+      "characterId": 10000113,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Ifa_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "<color=#37FFFF>Ifa:</color> Hey there. I'm Ifa, a sauro-vet from the Flower-Feather Clan. You've probably heard some things about me already, but it's all good. Whatever impression you have of me, I say let's wipe the slate clean and just get to know each other.\\n<color=#37FFFF>Ifa:</color> Oh yeah, then there's this little dude... that's Cacucu, my assistant. A... \"sauro-vet\" in a different sense of the word, I guess. I hope the two of you will get along.\\n<color=#37FFFF>Cacucu:</color> Nice to meet you, bro!"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Rest",
+      "text": "*sigh* Most things in life aren't one and done. Soon as you're rested up, let's make a move."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Snacks",
+      "text": "Whenever I get to take a break, I always want a snack... Hmm, I got some candy, fruit, and jerky. You want some?"
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Calls",
+      "text": "Did you hear that? Sounded like an animal call. ...Hmm, or maybe I'm just hearing things."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Watch out for when Cacucu shakes off his feathers, or you'll get drenched... Although, actually, you're probably soaked through already. Yeah, never mind."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Did you know that a lot of saurians are actually scared of thunder? It always takes so long to calm them down, hehe. They're so funny sometimes."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Whew, I can barely open my eyes in this wind, it's so cold... No flying for me in this weather."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Looks like I can either lose my hat or lose my breath... The wind demands a sacrifice."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning. Don't be fooled, I'm not a morning person. But I have to get to the clinic to feed the critters, or they'll start making a real racket."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Oh hey, I was just about to break for lunch too. Wanna come with?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "I tend to stay home at night. That way, people — and saurians — know where to find me in an emergency. Or if it's a quiet night, then I can just chill out and rest."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "G'night. There's no predicting what life's gonna throw at you tomorrow, all you can do is make sure you're well-rested by the time it rolls around."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Ifa: Friends",
+      "text": "I'd say I've got quite a big circle of friends. Some cause me headaches, some relieve my headaches, and some of them kinda alternate between the two, depending on the day. It's a nice mix, though. They're all great people."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Ifa: Fulfillment",
+      "text": "I dunno if everyone's this way, but me personally, I like feeling needed. I find it fulfilling. Maybe the key to a fulfilling life is just having plenty of moments that make me feel that way. But everyone needs to figure out for themselves what makes them tick."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Reminder",
+      "text": "<color=#37FFFF>Ifa:</color> All set for your next trip? You know where you're going, feeling okay, got everything you need?\\n<color=#37FFFF>Ifa:</color> Cool, well, you're looking good to me, and Paimon's fed, so I think you're good to go... Actually, wait — there's just one last thing I wanna check first...\\n<color=#37FFFF>Cacucu:</color> No way, bro!"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Making Sure",
+      "text": "You've known me for a while now, so be honest — do you ever feel like I get naggy or overprotective? ...No? Fine just the way I am? Phew... That's a relief 'cause I have a tendency to double- and triple-check everything, probably because I deal with animals so much, and they can't talk to me. Anyway, just wanted to make sure that I'm not being a bother."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "This thing is actually pretty useful. Sometimes, if a saurian gets tired from flying, I send a little gust of Anemo to prop them up for a little while. Discreetly, though, so they don't notice I'm doing it."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Bribing animals with food is pretty effective, bro. But if you do it too much, they start wanting more treats for the same behavior, or even demanding the reward without working for it. So, whenever I can, I prefer to try and teach them how the world works instead: If you get caught in a trap, you'll get injured, and if you eat the wrong thing, you'll get sick — that sort of thing.\\nIt takes more effort that way, but I think it's worth it. Especially since, in some cases, animals can actually be smarter than humans."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "If you really pay attention to the world around you, you'll notice it's full of fascinating things. I could spend the whole day just nature-watching if I had the time. But unfortunately, work always finds its way to my doorstep."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Kachina",
+      "text": "I can tell that Kachina has a real soft spot for saurians. If she put in the work, I'm sure she'd make an excellent vet. But since she's already proven herself as a warrior, she's probably better off focusing on that than trying to study medicine with me on the side."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Xilonen",
+      "text": "I love chatting with Xilonen. She's always brimming with all sorts of fantastic creative ideas. Sometimes, her insistence on raw functionality can result in contraptions that look a little... intimidating, but then again, intimidation is kind of a function in its own right."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Kinich",
+      "text": "Serious question: Does Ajaw technically count as a living being?\\nWhen he came to see me for treatment, I gave him a very thorough checkup but couldn't find anything wrong with him. So I told Kinich, \"Just bash him on the head a few times until he starts working again.\"\\nAnd the moment Ajaw heard that, bro, he was suddenly fine again. Strange coincidence, huh?"
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Chasca",
+      "text": "Her work as a peacemaker is extremely important. She cures a lot of ills that are beyond my reach."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Ororon: Try Not to Overthink",
+      "text": "That guy has a very peculiar way of thinking. You just gotta go with the flow around him. I wouldn't bother trying to figure him out, because honestly he never makes all that much sense.\\nAnyway, he's not a bad person or anything, and he has his own unique ways of showing that he cares. You'll know what I mean once you've gotten to know him."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Ororon: But I Can't Help It",
+      "text": "...Okay, even though I'm used to him by now, there are still days when I wish I could get inside his head, just to see what is actually going on in there!"
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Citlali",
+      "text": "Granny's... Yeah, she's a tough cookie. With a colorful pajama collection, hahaha...\\nI try not to get dragged into her and Ororon's drama, so whenever she gives me a message for him, I just pass it right on, word-for-word, no questions asked. I figure if I wanna stay out of her line of fire, the less I know, the better."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Mavuika",
+      "text": "The Pyro Archon gave me a ride once when I had to get to an emergency visit. Bro, it was so crazy. We get there, my head's still spinning at a million miles an hour, and somehow, I have to patch up this injured saurian... I pulled it off, much to my own surprise. I guess sometimes we don't know our own potential until we're pushed out of our comfort zone."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Neuvillette",
+      "text": "...What's that? You want me to take care of him if he ever gets sick? Um... you know I'm a vet and not a doctor, right?\\nHmm... Well, Cacucu's certainly taken a shine to him... Alright, fine, bro. I'll do my best."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Ifa: I",
+      "text": "<color=#37FFFF>Ifa:</color> That painting on the board outside my clinic — wasn't me, I swear.\\n<color=#37FFFF>Cacucu:</color> Hahahaha!"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Ifa: II",
+      "text": "I can't actually remember what Cacucu's first word was. What I do remember is being startled awake one morning at five o'clock to the screeching sound of \"Rise and shine, bro!\" ...Heck of a way to be woken up, lemme tell you."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Ifa: III",
+      "text": "I passed the flying trials a long time ago now, so theoretically I could call on any qucusaur for help. But ever since Cacucu came along, he's been a little possessive of me — doesn't like seeing me with another qucusaur, I guess. It's all good though. He's a little young for it, sure, but since he feels up to the task, I'm happy to trust him with it."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Ifa: IV",
+      "text": "I want to be the kind of guy who makes everyone feel safe when I'm around. It's a rare privilege to be trusted by other people — not everyone's up to it."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Ifa: V",
+      "text": "Being a vet's pretty cool. There's always gonna be those moments where you have to say goodbye, but nothing's ever made me regret my choice. Animals are a lot like kids — they're rowdy little rascals, and they can be hard to get through to. But when all's said and done, they're the future, and I'll always protect them."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Ifa's Hobbies",
+      "text": "Singing's a pretty popular hobby in the Flower-Feather Clan. I like to strum a tune and write a song once in a while, too. It could be a good emotional release."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Ifa's Troubles",
+      "text": "<color=#37FFFF>Ifa:</color> I think I have it pretty good, to be honest. Nothing keeping me up at night. ...Oh, but it would be nice if Cacucu learned some more useful phrases.\\n<color=#37FFFF>Cacucu:</color> The heck are you on about?"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Fresh fruit's the best, bro — staves off hunger and quenches your thirst in one go. Plus, I can give a few little chunks to Cacucu."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Fresh fruit is great, but when people add it to a dish, I'm like dude... why can't I just eat it as-is?"
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "<color=#37FFFF>Cacucu:</color> Hit me up, bro!\\n<color=#37FFFF>Ifa:</color> Where'd you learn how to call dibs, huh? Alright, alright, you can have half."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Mm, really good. I'm gonna grab some fruit juice to wash it down, what flavor do you want?"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "<color=#37FFFF>Cacucu:</color> For real, now? Bro, look at the mess you made...\\n<color=#37FFFF>Ifa:</color> No, no! Cacucu... It looks perfectly edible to me. Thanks, bro."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday! Wishing you good health and eternal youth.\\nSure, you can't stop the relentless march of time, but you can always stay young at heart — and besides, dude, a bad mood doesn't do your health any good. So come on, just for today, cast your worries aside and let's have some fun!\\nOh yeah, also, what kind of music are you into? I'll play a song."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Is this, like, a warm-up or something?"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "You gotta take care of yourself before you can take care of other people, right?"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "The gun least drawn is the one you'd better keep in good working order... Oh, dude, what am I saying — I'm a medic, not a warrior. I leave my guns holstered unless I absolutely need them."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "<color=#37FFFF>Ifa:</color> Thanks, bro! If you ever need a hand with anything, don't be shy — hit me up anytime!\\n<color=#37FFFF>Cacucu:</color> Hit me up, bro!"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Let's go!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Mind the wind!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "<color=#37FFFF>Cacucu:</color> Up and away!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "<color=#37FFFF>Cacucu:</color> Oh dear! Oh dear!\\n<color=#37FFFF>Ifa:</color> Come on, buddy!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Mind your step!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Nothing personal."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "C'mere, you little rascal!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Nice one! You got a knack for tracking these down."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Guess today's my lucky day!"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "If you need help with carrying this stuff, I'll get Cacucu on it."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "I can barely breathe..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "One last try, c'mon..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "<color=#37FFFF>Cacucu:</color> Ifa? Ifa!\\n<color=#37FFFF>Ifa:</color> I know, I know..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "I'm right here."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "You should get that looked at."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "I thought the war was over..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Sorry, I tried..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "I could've saved more..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Quit it..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "No way, bro!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "*grimace*... Why can't you play nice?"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Long trip ahead?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "First aid kit at the ready."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Here's to a safe journey."
+    }
+  ],
+  "effects": {
+    "11130001": {
+      "name": "Supporting Fire",
+      "description": "In the Nightsoul's Blessing State, Ifa's Normal Attacks will turn into Supporting Fire.<br/><span style=\"color:#FFD780FF\">Tap</span><br/>Fires a Tonicshot.<br/><span style=\"color:#FFD780FF\">Hold</span><br/>Continuously fires Tonicshots.<br/><span style=\"color:#FFD780FF\">Tonicshot</span><br/>Deals Nightsoul-aligned <span style=\"color:#80FFD7FF\">Anemo DMG</span>, and will heal all nearby party members based on Ifa's Elemental Mastery upon hitting an opponent.",
+      "color": ""
+    },
+    "11130002": {
+      "name": "Rescue Essentials",
+      "description": "Max 150 points. Each Rescue Essentials point Ifa has will increase the Swirl and Electro-Charged DMG dealt by nearby party members by 1.5%, and Lunar-Charged DMG dealt by 0.2%, and Stellar Swirl reaction DMG dealt by 0.2%. These points will be cleared when his Nightsoul's Blessing state ends.",
+      "color": ""
+    },
+    "11130003": {
+      "name": "Nightsoul's Blessing: Ifa",
+      "description": "Continuously consumes Nightsoul points. This state will end when Ifa runs out of Nightsoul points or if he uses this skill again. His Nightsoul's Blessing state has the following properties:<br/>· Hovers with Cacucu's help, increasing Ifa's Movement SPD and interruption resistance. In this state, Ifa will continuously consume Nightsoul points to maintain this hovering state. If he sprints or accelerates, he will consume additional points.<br/>· When he uses Normal Attacks, he will use different kinds of Supporting Fire depending on whether you Tap or Hold.",
+      "color": ""
+    },
+    "11130004": {
+      "name": "Sedation Mark",
+      "description": "This effect will explode after a short delay and disappear, dealing AoE DMG aligned with the corresponding element. The Therapeutic Sedative can apply Sedation Marks to a maximum of 4 hit opponents. A single opponent cannot receive Marks of different elements simultaneously.",
+      "color": ""
+    }
+  }
+}

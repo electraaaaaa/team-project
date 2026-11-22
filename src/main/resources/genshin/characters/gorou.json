@@ -1,0 +1,1741 @@
+{
+  "_id": 10000055,
+  "id": "gorou",
+  "name": "Gorou",
+  "title": "Canine Warrior",
+  "description": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+  "weapon_type": {
+    "id": "bow",
+    "name": "Bow"
+  },
+  "element": {
+    "id": "geo",
+    "name": "Geo"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1639497600,
+  "substat": "Geo DMG Bonus",
+  "stats": {
+    "base": {
+      "hp": 802.3761,
+      "attack": 15.31488,
+      "defense": 54.36375
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 599.416,
+        "attack": 11.441268,
+        "defense": 40.6125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1025.3169,
+        "attack": 19.57059,
+        "defense": 69.46875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1593.1847,
+        "attack": 30.409685,
+        "defense": 107.94375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2019.0856,
+        "attack": 38.53901,
+        "defense": 136.8,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2444.9863,
+        "attack": 46.66833,
+        "defense": 165.65625,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 2870.8872,
+        "attack": 54.797653,
+        "defense": 194.5125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Watatsumi Island",
+  "region": {
+    "id": "inazuma",
+    "name": "Inazuma"
+  },
+  "rarity": 4,
+  "birthday": [
+    18,
+    5
+  ],
+  "constellation": "Canis Bellatoris",
+  "domain": "Violet Court",
+  "cv": {
+    "english": "Cory Yee",
+    "chinese": "杨昕燃",
+    "japanese": "畠中祐",
+    "korean": "Lee Sae-byeok"
+  },
+  "skills": [
+    {
+      "_id": 10551,
+      "id": "ripping_fang_fletching",
+      "name": "Ripping Fang Fletching",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive shots with a bow.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Performs a more precise <span style=\"color:#FFD780FF\">Aimed Shot</span> with increased DMG.<br/>While aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal <span style=\"color:#FFE699FF\">Geo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "37.8%",
+            "40.8%",
+            "43.9%",
+            "48.3%",
+            "51.4%",
+            "54.9%",
+            "59.7%",
+            "64.5%",
+            "69.4%",
+            "74.6%",
+            "79.9%",
+            "85.2%",
+            "90.4%",
+            "95.7%",
+            "101%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "37.2%",
+            "40.2%",
+            "43.2%",
+            "47.5%",
+            "50.5%",
+            "54%",
+            "58.8%",
+            "63.5%",
+            "68.3%",
+            "73.4%",
+            "78.6%",
+            "83.8%",
+            "89%",
+            "94.2%",
+            "99.4%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "49.5%",
+            "53.5%",
+            "57.5%",
+            "63.2%",
+            "67.3%",
+            "71.9%",
+            "78.2%",
+            "84.5%",
+            "90.8%",
+            "97.8%",
+            "104.7%",
+            "111.5%",
+            "118.5%",
+            "125.4%",
+            "132.3%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "59%",
+            "63.8%",
+            "68.6%",
+            "75.5%",
+            "80.3%",
+            "85.8%",
+            "93.3%",
+            "100.8%",
+            "108.4%",
+            "116.6%",
+            "124.9%",
+            "133.1%",
+            "141.3%",
+            "149.5%",
+            "157.8%"
+          ]
+        },
+        {
+          "label": "Aimed Shot",
+          "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.7%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "92.8%",
+            "98.9%",
+            "105.1%",
+            "111.2%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Fully-Charged Aimed Shot",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10552,
+      "id": "inuzaka_allround_defense",
+      "name": "Inuzaka All-Round Defense",
+      "description": "Deals <span style=\"color:#FFE699FF\">AoE Geo DMG</span> and sets up a General's War Banner.<br/><br/><span style=\"color:#FFD780FF\">General's War Banner</span><br/>Provides up to 3 buffs to active characters within the skill's AoE based on the number of <span style=\"color:#FFE699FF\">Geo</span> characters in the party at the time of casting:<br/>· 1 Geo character: Adds \"Standing Firm\" - DEF Bonus.<br/>· 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption.<br/>· 3 Geo characters: Adds \"Crunch\" - <span style=\"color:#FFE699FF\">Geo DMG Bonus</span>.<br/><br/>Gorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Adjust the location of the skill.",
+      "info": "\"Take up this formation and we'll be safe — I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "107.2%",
+            "115.2%",
+            "123.3%",
+            "134%",
+            "142%",
+            "150.1%",
+            "160.8%",
+            "171.5%",
+            "182.2%",
+            "193%",
+            "203.7%",
+            "214.4%",
+            "227.8%",
+            "241.2%",
+            "254.6%"
+          ]
+        },
+        {
+          "label": "DEF Increase",
+          "values": [
+            "206",
+            "222",
+            "237",
+            "258",
+            "273",
+            "289",
+            "309",
+            "330",
+            "350",
+            "371",
+            "392",
+            "412",
+            "438",
+            "464",
+            "490"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10555,
+      "id": "juuga_forward_unto_victory",
+      "name": "Juuga: Forward Unto Victory",
+      "description": "Displaying his valor as a general, Gorou deals <span style=\"color:#FFE699FF\">AoE Geo DMG</span> and creates a field known as General's Glory to embolden his comrades.<br/><br/><span style=\"color:#FFD780FF\">General's Glory</span><br/>This field has the following properties:<br/>· Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of <span style=\"color:#FFE699FF\">Geo</span> characters in the party. Also moves together with your active character.<br/>· Generates 1 Crystal Collapse every 1.5s that deals <span style=\"color:#FFE699FF\">AoE Geo DMG</span> to 1 opponent within the skill's AoE.<br/>· Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).<br/><br/>If a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.<br/> If Gorou falls, the effects of General's Glory will be cleared.",
+      "info": "\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "98.2% DEF",
+            "105.6% DEF",
+            "112.9% DEF",
+            "122.8% DEF",
+            "130.1% DEF",
+            "137.5% DEF",
+            "147.3% DEF",
+            "157.1% DEF",
+            "167% DEF",
+            "176.8% DEF",
+            "186.6% DEF",
+            "196.4% DEF",
+            "208.7% DEF",
+            "221% DEF",
+            "233.3% DEF"
+          ]
+        },
+        {
+          "label": "Crystal Collapse DMG",
+          "values": [
+            "61.3% DEF",
+            "65.9% DEF",
+            "70.5% DEF",
+            "76.6% DEF",
+            "81.2% DEF",
+            "85.8% DEF",
+            "92% DEF",
+            "98.1% DEF",
+            "104.2% DEF",
+            "110.3% DEF",
+            "116.5% DEF",
+            "122.6% DEF",
+            "130.3% DEF",
+            "137.9% DEF",
+            "145.6% DEF"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "heedless_of_the_wind_and_weather",
+      "name": "Heedless of the Wind and Weather",
+      "description": "After using <span style=\"color:#FFD780FF\">Juuga: Forward Unto Victory</span>, all nearby party members' DEF is increased by 25% for 12s.",
+      "level": 1
+    },
+    {
+      "id": "a_favor_repaid",
+      "name": "A Favor Repaid",
+      "description": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:<br/>· <span style=\"color:#FFD780FF\">Inuzaka All-Round Defense</span>: Skill DMG increased by 156% of DEF<br/>· <span style=\"color:#FFD780FF\">Juuga: Forward Unto Victory</span>: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF",
+      "level": 4
+    },
+    {
+      "id": "seeker_of_shinies",
+      "name": "Seeker of Shinies",
+      "description": "Displays the location of nearby <span style=\"color:#FFD780FF\">resources unique to Inazuma</span> on the mini-map.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 551,
+      "id": "rushing_hound_swift_as_the_wind",
+      "name": "Rushing Hound: Swift as the Wind",
+      "description": "When characters (other than Gorou) within the AoE of Gorou's <span style=\"color:#FFD780FF\">General's War Banner</span> or <span style=\"color:#FFD780FF\">General's Glory</span> deal Geo DMG to opponents, the CD of Gorou's <span style=\"color:#FFD780FF\">Inuzaka All-Round Defense</span> is decreased by 2s.<br/>This effect can occur once every 10s.",
+      "level": 1
+    },
+    {
+      "_id": 552,
+      "id": "sitting_hound_steady_as_a_clock",
+      "name": "Sitting Hound: Steady as a Clock",
+      "description": "While <span style=\"color:#FFD780FF\">General's Glory</span> is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction, or triggers a Lunar-Crystallize reaction. <br/>This effect can occur once every 0.1s. Max extension is 3s.",
+      "level": 2
+    },
+    {
+      "_id": 553,
+      "id": "mauling_hound_fierce_as_fire",
+      "name": "Mauling Hound: Fierce as Fire",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Inuzaka All-Round Defense</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 554,
+      "id": "lapping_hound_warm_as_water",
+      "name": "Lapping Hound: Warm as Water",
+      "description": "When <span style=\"color:#FFD780FF\">General's Glory</span> is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s.",
+      "level": 4
+    },
+    {
+      "_id": 555,
+      "id": "striking_hound_thunderous_force",
+      "name": "Striking Hound: Thunderous Force",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Juuga: Forward Unto Victory</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 556,
+      "id": "valiant_hound_mountainous_fealty",
+      "name": "Valiant Hound: Mountainous Fealty",
+      "description": "For 12s after using <span style=\"color:#FFD780FF\">Inuzaka All-Round Defense</span> or <span style=\"color:#FFD780FF\">Juuga: Forward Unto Victory</span>, increases the CRIT DMG of all nearby party members' <span style=\"color:#FFE699FF\">Geo DMG</span> based on the buff level of the skill's field at the time of use:<br/>· \"Standing Firm\": +10%<br/>· \"Impregnable\": +20%<br/>· \"Crunch\": +40%<br/><br/>This effect cannot stack and will take reference from the last instance of the effect that is triggered.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "802"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "15"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "54"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2061",
+            "2661"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "39",
+            "51"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "140",
+            "180"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "3985",
+            "4411"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "76",
+            "84"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "270",
+            "299"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104171,
+        "id": "prithiva_topaz_sliver",
+        "name": "Prithiva Topaz Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101207,
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112053,
+        "id": "spectral_husk",
+        "name": "Spectral Husk",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5074",
+            "5642"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "97",
+            "108"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "344",
+            "382"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113023,
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101207,
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112053,
+        "id": "spectral_husk",
+        "name": "Spectral Husk",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6305",
+            "6731"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "120",
+            "128"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "427",
+            "456"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113023,
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101207,
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112054,
+        "id": "spectral_heart",
+        "name": "Spectral Heart",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7393",
+            "7818"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "141",
+            "149"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "501",
+            "530"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113023,
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101207,
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112054,
+        "id": "spectral_heart",
+        "name": "Spectral Heart",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8481",
+            "8907"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "162",
+            "170"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "575",
+            "603"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113023,
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101207,
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112055,
+        "id": "spectral_nucleus",
+        "name": "Spectral Nucleus",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9570",
+            "9570"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "183",
+            "183"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "648",
+            "648"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104174,
+        "id": "prithiva_topaz_gemstone",
+        "name": "Prithiva Topaz Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113023,
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101207,
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112055,
+        "id": "spectral_nucleus",
+        "name": "Spectral Nucleus",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104326,
+          "id": "teachings_of_light",
+          "name": "Teachings of Light",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112053,
+          "id": "spectral_husk",
+          "name": "Spectral Husk",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104327,
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104327,
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104327,
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104327,
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104328,
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113025,
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104328,
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113025,
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104328,
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113025,
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104328,
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113025,
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 205500,
+      "name": "Panoply of a Hundred Hunts",
+      "description": "Gorou's outfit. This light armor is designed to allow the marksman-general Gorou to handle his bow with ease. The armoring at the shoulder and elbow is also designed with this in mind.",
+      "isDefault": true,
+      "characterName": "Gorou",
+      "characterId": 10000055,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Gorou_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "General Gorou of the Watatsumi Island resistance, ready and waiting! I've long heard of your sterling reputation and I look forward to fighting our way to victory side-by-side! ...Heh, so what do you think? Did that sound inspiring?"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Tactics",
+      "text": "Keep your weapon at the ready. You never know what's around the corner..."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Training",
+      "text": "The fighting has ceased for now... Commence physical training!"
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Physique",
+      "text": "A strong body shows strength and instills confidence in others around you. I must always stay at the top of my game!"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Ugh, my tail's getting wet... Let's find a fire and dry off."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Stay alert!"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Whew *shivering*... it's cold. These conditions are unsuitable for outdoor maneuvers."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "It'd be nice to just lie in the sun... Ahem, but I must set an example for the others."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "We can attack downwind and press the advantage. Or, bolster our courage and fight upwind!"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "The sun is up and it is time to train. Shall we go climb a mountain?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Let's have Radish and Fish Stew with plain rice for lunch today. It's been a favorite among the troops lately, so I suggest you try it, too."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Though the sun is setting, our guard must remain high. We should let our eyes adapt to the dark... Even in the darkness of night, a battle may be looming."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "If you're feeling fatigued, then best turn in for the night. I'll take watch! Don't worry, you have my word that everything will still be in good order on your return."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Gorou: Top Dog",
+      "text": "Huh? \"Top Dog Gorou\"? Where did you hear that? *sigh* To be honest, I've grown quite close with my fellow officers, and always share any good news I might have with them. In private, they've all started calling me Top Dog out of respect... But in terms of age, they are all my seniors."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Gorou: Advice",
+      "text": "The troops seem to picture me as someone of extraordinary abilities — I think it might be because of our streak of victories lately. Now they always come to me for advice on even the most trivial matters. When I see the expectant look in their eyes, it's impossible for me to turn them away, but at the same time, my strategic ability is limited... All I can do is give some general pointers, or failing that, respond based on my gut feeling alone. *sigh* I just hope I'm not letting them down."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Speaking Your Mind",
+      "text": "If there's anything ever troubling you, don't keep it all muzzled up inside. You can always speak your mind with me! Although I can't guarantee that I'll always have an answer, I'll certainly offer you my best advice! Even when I can't muster much of a response, you can always count on me to be a good listener. Whatever it is, I'm all ears."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Camaraderie",
+      "text": "We train together, eat together, and relax together. There's no better way to strengthen communication and build tacit understanding between everyone on the team. In the heat of battle, just a simple glance can transmit crucial information. Hmm? You don't think it's very appropriate? Huh... Well, I mean, that's how the troops and I have been bonding as a team."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "My Vision amplifies my abilities in battle. It allows me to take greater responsibility on the battlefield and forge a way forward for the troops. But I also understand that one person alone, no matter how strong, is never enough to turn the tide of a battle. The key to victory is everyone's united effort, fighting for a common cause."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share: Dressed for Battle",
+      "text": "I don't like to enter battle wearing lots of heavy equipment. I travel light, that's my style. My strength is in moving quickly around the battlefield, seeking out opportunities to take control of the fight. I always target the strongest warriors first to weaken the enemy's morale."
+    },
+    {
+      "id": "3004",
+      "type": 1,
+      "title": "Something to Share: Ever-Victorious General",
+      "text": "The troops have come up with a nickname for me, the \"ever-victorious pointy-eared general.\" Now there's even a rumor going around saying that \"if you want Top Dog Gorou's victorious luck, give his pointy ears a rub.\" Grrr, there will be no rubbing of my ears, and that's final. If they think they can smile their way into persuading me otherwise, well, they've got another thing... Hmm? Hey, wh—what are you doing? Not you too...? Come on now, I... I thought I... Mm... Mm..."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "I've heard that there's a mountain range in Liyue that reaches all the way up into the clouds. Ah, I'd relish a chance to go climbing there!"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Beidou",
+      "text": "Captain Beidou values camaraderie, and her exceptional abilities command respect. She once said that she prefers to avoid involving her companions in disputes that don't concern them, which I can completely understand. That's why I only request her help when we have no one else to turn to."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Kaedehara Kazuha",
+      "text": "I've seen all kinds of wandering samurai before, and Kazuha is categorically a different breed from the others. He's like a gust of wind that sweeps through the land. Though he never stays for long, he is always able to contribute something to those who are around him. When I fought alongside him, I learned more about what it means to be truly carefree and without constraints. In any case, I think that Kazuha and I make a great team together!"
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Sangonomiya Kokomi: Duties",
+      "text": "As the leader of Watatsumi Island, Her Excellency is responsible for assessing the scenario and formulating a plan. It is then my duty to put every detail of the plan into action and to keep the situation under control on the front line. We are united with the whole resistance in achieving a single purpose: victory."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Sangonomiya Kokomi: Attitude",
+      "text": "I have only the utmost respect for Her Excellency. Without her ingenious and insightful strategies, the resistance could never have come as far as it has today. But if you ask me, it seems that deep down she prefers a much quieter existence. So when there's no pressing military matters, I try not to disturb her too much."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About the Raiden Shogun",
+      "text": "Grr, the Raiden Shogun... I could never bring myself to accept her past actions, no matter what her reasoning may have been. Though a peace treaty has been signed between Watatsumi Island and the Shogunate, I refuse to let my guard down. If conflict ever breaks out again, I will resume my place back on the front line."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Kujou Sara",
+      "text": "I have nothing good to say about the Shogun's Army, but Kujou Sara is perhaps the most honorable officer among their ranks. We've met each other countless times in battle, emerging both victorious and defeated at different times. *sigh* I know now that it's not realistic to think this way, but I did use to wonder what things would be like if those like her could value the wishes of the people and be free from the grip of the Shogunate."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Yae Miko",
+      "text": "Oh, her... I'd prefer not to talk about her. Can we change the topic? Or, if there are any tasks I can take off your hand, I'll gladly oblige! Anything at all? ...Ahem, let's just say it'd be best for my general well-being if we can we avoid talking about her..."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Kamisato Ayaka",
+      "text": "The Yashiro Commission operates as part of the Shogunate, but on many issues they tend to side with the people of Inazuma. In fact, the Shirasagi Himegimi has managed to establish an excellent reputation for herself, despite facing pressure from both sides. I suppose she must know how to keep her composure at all times and navigate sensitive situations tactfully... There's much I could learn from her."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Sayu",
+      "text": "Hmm, according to our intel, she is a ninja proficient in the art of infiltration — a skill set which could prove very useful in some of Her Excellency's special operations... However, our intel also indicates that she could be difficult to recruit as she is rather unruly, and often disappears without a trace. Hmm? She's with the Yashiro Commission? Oh, well forget it then."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Shikanoin Heizou",
+      "text": "You mean that sneaky detective that never seems to actually be working on a case? Well, no one from the Shogunate can be fully trusted, so I'll be keeping my eyes and ears on him! On a separate note, he does have some talent for investigation. But how can we know that this isn't all part of some nefarious scheme? Hmm. Only time will tell, I suppose."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Gorou: I",
+      "text": "Hmm, I'm afraid that most of my days have been spent on the battlefield, so there's not much to tell about me. But if you'd really like to hear my stories, I'm happy to sit down and tell you everything!"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Gorou: II",
+      "text": "I may not have superior cunning or intelligence, but what I do have is my own two hands and my life to lay on the line. Countless battles in, I'm still here, so I guess these hands and my will to survive were both strong enough to see me through. Some even say that no matter how dire the battle may be, everyone will emerge unscathed as long as they follow me. And with that, I've somehow gained enough reputation among our forces to become the leader that I am now."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Gorou: III",
+      "text": "At first, our only enemies were roaming bandits, pirates, and monsters. But then, everything changed when the Raiden Shogun enacted the Vision Hunt Decree. The Shogun's Army marched up expecting to put us in our place, but we were ready for them, and we hit them hard. Hehe, I bet they never expected to meet such fierce resistance."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Gorou: IV",
+      "text": "Her Excellency once warned me of my fatal flaw... I tend to get too engrossed in battle, fighting deep into enemy lines and forgetting about everything else. She told me that my bravery is commendable, but as a ranking officer, it's not my place to do this. I'm doing my best to improve, but... Would you also be able to keep an eye on me?"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Gorou: V",
+      "text": "We are not fighting against any particular group or faction. No, we fight against a destructive malice — a malice that has trampled the aspirations of the people and destroyed the peaceful lives they once knew. After I rid the land of such evil I will be able to peacefully lay down my weapon. Only then will I trade my uniform for civilian attire... and finally stroll the beautiful landscape of Watatsumi Island together with you."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Gorou's Hobbies",
+      "text": "I love mountain climbing! The steeper, the better. Climbing trains my body and mind, making me stronger with every grip and every foothold. Better yet is climbing mountains with fellow companions. After hours of dirt and sweat scaling the summit, we can sit down and enjoy the view together. It's one of life's greatest joys! Ahem, however, I have absolutely no desire to scale the tallest peak in Inazuma..."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Gorou's Troubles",
+      "text": "There are times when being lightly armored has its shortcomings... For example, I have to be particularly careful of my tail when the enemy attacks with fire."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "My favorites are cake and Tricolor Dango, probably because I seldom get the chance to enjoy the luxury of sweets. The rations we have in the field are intended to be simple, effective, and quick, and are seldom served with any seasonings at all, let alone sugar... It's probably the most precious commodity of all. Ah, what can I say — I guess I just have a sweet tooth!"
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I'll pretty much eat anything, but onions are an exception. One time, the logistics division added ground onion to my food and I bawled in front of everyone, right there at the mess table... *sigh* Talk about embarrassing. The soldiers from logistics felt terrible about it, too."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Mm! I become powerless in the face of sweets!"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Oh, I feel invigorated! Is there anything I can help you with?"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "It's a little spicier than I expected... *sniff* I—I don't think I can keep going."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Today's a momentous occasion, your birthday! Allow me to arrange all the celebrations for you! We can make a bonfire on the beach and catch some fresh fish and crabs. I'll personally prepare a morale-boosting meal that would make even the highest-ranking generals jealous."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "With this newfound strength, I will defend those who fight alongside me."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Protecting my soldiers doesn't just mean having a robust defense in place. Sometimes, it means going on the attack!"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "The key to seizing victory in battle lies in remembering the meaning of battle and employing the right tactics to generate momentum, making your forces unstoppable."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "With momentum on our side and close camaraderie, we are unstoppable. Thank you for your guidance. This is a victory that belongs to the both of us."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Advance!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Charge!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Fall in!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Everyone on me!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Press the advantage!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Rally!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "The tide of battle is in our favor!"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Let's distribute these among our forces."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Careful, it could be a trap... Oh? Never mind."
+    },
+    {
+      "id": "700001",
+      "type": 2,
+      "title": "Sprint Start: I",
+      "text": "Follow my lead!"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "I can still fight!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "I got careless!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Surrender is not an option!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Fall back!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Stay in formation!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "We're... defeated..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "For... Watatsumi Island..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "All forces... retreat..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Shake it off!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "C'mon!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Ready and waiting!"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Prepare to move out!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Company, fall in!"
+    }
+  ]
+}

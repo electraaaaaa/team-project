@@ -1,0 +1,1942 @@
+{
+  "_id": 10000119,
+  "id": "lauma",
+  "name": "Lauma",
+  "title": "Evermoon's Sacrament Song",
+  "description": "A Maiden blessed by moonlight and the grove alike, hope born to the Frostmoon Scions.",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "dendro",
+    "name": "Dendro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1757365200,
+  "substat": "Elemental Mastery",
+  "stats": {
+    "base": {
+      "hp": 829.3884,
+      "attack": 19.84892,
+      "defense": 52.0521
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 711.12555,
+        "attack": 17.01741,
+        "defense": 44.631,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1216.3989,
+        "attack": 29.108728,
+        "defense": 76.3425,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 28.8
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1890.0969,
+        "attack": 45.230488,
+        "defense": 118.6245,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 57.6
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2395.3704,
+        "attack": 57.321804,
+        "defense": 150.336,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 57.6
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2900.6438,
+        "attack": 69.413124,
+        "defense": 182.0475,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 86.4
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3405.9172,
+        "attack": 81.50444,
+        "defense": 213.759,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 115.2
+        }
+      }
+    ]
+  },
+  "affiliation": "Frostmoon Scions",
+  "region": {
+    "id": "nodkrai",
+    "name": "Nod-Krai"
+  },
+  "rarity": 5,
+  "birthday": [
+    1,
+    3
+  ],
+  "constellation": "Cerva Nivea",
+  "domain": "Domain of Mastery: Overturned Roost",
+  "cv": {
+    "english": "Alexandra Guelff",
+    "chinese": "张安琪",
+    "japanese": "桑島法子",
+    "korean": "Jang Chae-yeon"
+  },
+  "skills": [
+    {
+      "_id": 11191,
+      "id": "peregrination_of_linnunrata",
+      "name": "Peregrination of Linnunrata",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 3 attacks that deal <span style=\"color:#99FF88FF\">Dendro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Lauma undergoes Spirit Envoy Metamorphosis, transforming into an envoy of the tranquil forest and consuming Stamina to charge forward for up to 10s. While in this state, Lauma's interruption resistance is increased, and she can consume additional Stamina to perform up to two consecutive jumps.<br/>When exiting the Spirit Envoy state, Spirit Envoy Metamorphosis will enter cooldown, during which time, Lauma's Charged Attack will be transformed into Spiritcall Prayer: Consumes a certain amount of Stamina to deal <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> to opponents in front of her after a short casting time.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Calling upon the might of Dendro, Lauma plunges towards the ground from mid-air, damaging all opponents in her path and dealing <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "33.7%",
+            "36.2%",
+            "38.8%",
+            "42.1%",
+            "44.7%",
+            "47.2%",
+            "50.6%",
+            "53.9%",
+            "57.3%",
+            "60.7%",
+            "64%",
+            "67.4%",
+            "71.6%",
+            "75.8%",
+            "80%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "31.8%",
+            "34.2%",
+            "36.6%",
+            "39.8%",
+            "42.1%",
+            "44.5%",
+            "47.7%",
+            "50.9%",
+            "54.1%",
+            "57.2%",
+            "60.4%",
+            "63.6%",
+            "67.6%",
+            "71.6%",
+            "75.5%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "44.5%",
+            "47.8%",
+            "51.2%",
+            "55.6%",
+            "59%",
+            "62.3%",
+            "66.7%",
+            "71.2%",
+            "75.6%",
+            "80.1%",
+            "84.5%",
+            "89%",
+            "94.6%",
+            "100.1%",
+            "105.7%"
+          ]
+        },
+        {
+          "label": "Spirit Envoy Form Movement Stamina Cost",
+          "values": [
+            "25/s",
+            "25/s",
+            "25/s",
+            "25/s",
+            "25/s",
+            "25/s",
+            "25/s",
+            "25/s",
+            "25/s",
+            "25/s",
+            "25/s",
+            "25/s",
+            "25/s",
+            "25/s",
+            "25/s"
+          ]
+        },
+        {
+          "label": "Spirit Envoy Form Jumping Stamina Cost",
+          "values": [
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10"
+          ]
+        },
+        {
+          "label": "Spirit Envoy Form Max Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "Spirit Envoy Metamorphosis CD",
+          "values": [
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s"
+          ]
+        },
+        {
+          "label": "Spiritcall Prayer Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Spiritcall Prayer DMG",
+          "values": [
+            "129%",
+            "138.7%",
+            "148.4%",
+            "161.3%",
+            "171%",
+            "180.7%",
+            "193.6%",
+            "206.5%",
+            "219.4%",
+            "232.3%",
+            "245.2%",
+            "258.1%",
+            "274.2%",
+            "290.3%",
+            "306.5%"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11192,
+      "id": "runo_dawnless_rest_of_karsikko",
+      "name": "Runo: Dawnless Rest of Karsikko",
+      "description": "Silently incants an ancient hymn, summoning a <link kind=\"effect\" id=\"11190001\"><span style=\"color:#FFD780FF\">Frostgrove Sanctuary</span></link> with different effects depending on whether you Tap or Hold.<br/><br/><span style=\"color:#FFD780FF\">Tap</span><br/>Intone a Hymn of Hunting, dealing <span style=\"color:#99FF88FF\">AoE Dendro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Can be unleashed when you have at least 1 <link kind=\"effect\" id=\"11190008\"><span style=\"color:#FFD780FF\">Verdant Dew</span></link>. Lauma consumes all Verdant Dew and intones a Hymn of Eternal Rest, dealing one regular instance of <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> and another instance of <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> that is considered Lunar-Bloom DMG. Each Verdant Dew consumed will give Lauma one stack of <link kind=\"effect\" id=\"11190002\"><span style=\"color:#FFD780FF\">Moon Song</span></link>. Each time you Hold to cast an Elemental Skill, a maximum of 3 Verdant Dew can be consumed in this way.<br/><br/>Additionally, when Lauma's Elemental Skill or attacks from Frostgrove Sanctuary hit an opponent, that opponent's <span style=\"color:#99FF88FF\">Dendro RES</span> and <span style=\"color:#80C0FFFF\">Hydro RES</span> will be decreased for 10s.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Press DMG",
+          "values": [
+            "121.6%",
+            "130.7%",
+            "139.8%",
+            "152%",
+            "161.1%",
+            "170.2%",
+            "182.4%",
+            "194.6%",
+            "206.7%",
+            "218.9%",
+            "231%",
+            "243.2%",
+            "258.4%",
+            "273.6%",
+            "288.8%"
+          ]
+        },
+        {
+          "label": "1-Hit Hold DMG",
+          "values": [
+            "158.1%",
+            "169.9%",
+            "181.8%",
+            "197.6%",
+            "209.5%",
+            "221.3%",
+            "237.1%",
+            "252.9%",
+            "268.7%",
+            "284.5%",
+            "300.4%",
+            "316.2%",
+            "335.9%",
+            "355.7%",
+            "375.4%"
+          ]
+        },
+        {
+          "label": "2-Hit Hold DMG",
+          "values": [
+            "152% Elemental Mastery Per Verdant Dew",
+            "163.4% Elemental Mastery Per Verdant Dew",
+            "174.8% Elemental Mastery Per Verdant Dew",
+            "190% Elemental Mastery Per Verdant Dew",
+            "201.4% Elemental Mastery Per Verdant Dew",
+            "212.8% Elemental Mastery Per Verdant Dew",
+            "228% Elemental Mastery Per Verdant Dew",
+            "243.2% Elemental Mastery Per Verdant Dew",
+            "258.4% Elemental Mastery Per Verdant Dew",
+            "273.6% Elemental Mastery Per Verdant Dew",
+            "288.8% Elemental Mastery Per Verdant Dew",
+            "304% Elemental Mastery Per Verdant Dew",
+            "323% Elemental Mastery Per Verdant Dew",
+            "342% Elemental Mastery Per Verdant Dew",
+            "361% Elemental Mastery Per Verdant Dew"
+          ]
+        },
+        {
+          "label": "Frostgrove Sanctuary Attack DMG",
+          "values": [
+            "96% ATK + 192% Elemental Mastery",
+            "103.2% ATK + 206.4% Elemental Mastery",
+            "110.4% ATK + 220.8% Elemental Mastery",
+            "120% ATK + 240% Elemental Mastery",
+            "127.2% ATK + 254.4% Elemental Mastery",
+            "134.4% ATK + 268.8% Elemental Mastery",
+            "144% ATK + 288% Elemental Mastery",
+            "153.6% ATK + 307.2% Elemental Mastery",
+            "163.2% ATK + 326.4% Elemental Mastery",
+            "172.8% ATK + 345.6% Elemental Mastery",
+            "182.4% ATK + 364.8% Elemental Mastery",
+            "192% ATK + 384% Elemental Mastery",
+            "204% ATK + 408% Elemental Mastery",
+            "216% ATK + 432% Elemental Mastery",
+            "228% ATK + 456% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Frostgrove Sanctuary Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Moon Song Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Elemental RES Decrease",
+          "values": [
+            "2.5%",
+            "5%",
+            "7.5%",
+            "10%",
+            "12.5%",
+            "15%",
+            "17.5%",
+            "20%",
+            "22.5%",
+            "25%",
+            "28%",
+            "31%",
+            "34%",
+            "37%",
+            "40%"
+          ]
+        },
+        {
+          "label": "Elemental RES Decrease Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11195,
+      "id": "runo_all_hearts_become_the_beating_moon",
+      "name": "Runo: All Hearts Become the Beating Moon",
+      "description": "Let the wishes of all beings become as moonlight that bathes the earth. Lauma incants a sacred song of the far north, gaining 18 stacks of <link kind=\"effect\" id=\"11190003\"><span style=\"color:#FFD780FF\">Pale Hymn</span></link>.<br/>Additionally, if Lauma uses her Elemental Burst while she has <link kind=\"effect\" id=\"11190002\"><span style=\"color:#FFD780FF\">Moon Song</span></link>, or she gains Moon Song within 15s of using her Elemental Burst, she will consume all Moon Song stacks and gain 6 stacks of Pale Hymn for every Moon Song stack consumed. This effect can only be triggered once for each Elemental Burst used, including the 15 seconds following its use.<br/><br/><span style=\"color:#FFD780FF\">Pale Hymn</span><br/>When nearby party members deal Bloom, Hyperbloom, Burgeon, or Lunar-Bloom DMG, 1 stack of Pale Hymn will be consumed and the DMG dealt will be increased based on Lauma's Elemental Mastery. If this DMG hits multiple opponents at once, then multiple stacks of Pale Hymn will be consumed, depending on how many opponents are hit.<br/>The duration for each stack of Pale Hymn is counted independently.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Pale Hymn Stacks Gained From Elemental Burst",
+          "values": [
+            "18",
+            "18",
+            "18",
+            "18",
+            "18",
+            "18",
+            "18",
+            "18",
+            "18",
+            "18",
+            "18",
+            "18",
+            "18",
+            "18",
+            "18"
+          ]
+        },
+        {
+          "label": "Moon Song to Pale Hymn Conversion",
+          "values": [
+            "6 Stacks Per Moon Song",
+            "6 Stacks Per Moon Song",
+            "6 Stacks Per Moon Song",
+            "6 Stacks Per Moon Song",
+            "6 Stacks Per Moon Song",
+            "6 Stacks Per Moon Song",
+            "6 Stacks Per Moon Song",
+            "6 Stacks Per Moon Song",
+            "6 Stacks Per Moon Song",
+            "6 Stacks Per Moon Song",
+            "6 Stacks Per Moon Song",
+            "6 Stacks Per Moon Song",
+            "6 Stacks Per Moon Song",
+            "6 Stacks Per Moon Song",
+            "6 Stacks Per Moon Song"
+          ]
+        },
+        {
+          "label": "Bloom, Hyperbloom, and Burgeon DMG Increase",
+          "values": [
+            "277.8% Elemental Mastery",
+            "298.6% Elemental Mastery",
+            "319.4% Elemental Mastery",
+            "347.2% Elemental Mastery",
+            "368% Elemental Mastery",
+            "388.9% Elemental Mastery",
+            "416.6% Elemental Mastery",
+            "444.4% Elemental Mastery",
+            "472.2% Elemental Mastery",
+            "500% Elemental Mastery",
+            "527.7% Elemental Mastery",
+            "555.5% Elemental Mastery",
+            "590.2% Elemental Mastery",
+            "625% Elemental Mastery",
+            "659.7% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Lunar-Bloom DMG Increase",
+          "values": [
+            "222.2% Elemental Mastery",
+            "238.9% Elemental Mastery",
+            "255.6% Elemental Mastery",
+            "277.8% Elemental Mastery",
+            "294.5% Elemental Mastery",
+            "311.1% Elemental Mastery",
+            "333.4% Elemental Mastery",
+            "355.6% Elemental Mastery",
+            "377.8% Elemental Mastery",
+            "400% Elemental Mastery",
+            "422.3% Elemental Mastery",
+            "444.5% Elemental Mastery",
+            "472.3% Elemental Mastery",
+            "500% Elemental Mastery",
+            "527.8% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Pale Hymn Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "light_for_the_frosty_night",
+      "name": "Light for the Frosty Night",
+      "description": "For the next 20s after Lauma uses her Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"runo_dawnless_rest_of_karsikko\">Runo: Dawnless Rest of Karsikko</link></span>, corresponding differing buff effects will be granted depending on the party's <span style=\"color:#FFD780FF\">Moonsign</span>. The buffs provided by different Moonsign levels cannot stack.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Nascent Gleam</span><br/>Bloom, Hyperbloom, and Burgeon DMG dealt by all nearby party members can score CRIT Hits, with CRIT Rate fixed at 15%, and CRIT DMG fixed at 100%. CRIT Rate from this effect stacks with CRIT Rate from similar effects that allow these Elemental Reactions to CRIT.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span><br/>All nearby party members' Lunar-Bloom DMG CRIT Rate +10%, CRIT DMG +20%.",
+      "level": 1
+    },
+    {
+      "id": "cleansing_for_the_spring",
+      "name": "Cleansing for the Spring",
+      "description": "Each point of Elemental Mastery Lauma has will give her the following bonuses:<br/>· DMG dealt by her Elemental Skill is increased by 0.04%. The maximum increase obtainable this way is 32%.<br/>· The cooldown of her Charged Attack <span style=\"color:#FFD780FF\">Spirit Envoy Metamorphosis</span> is reduced by 0.02%. The maximum reduction obtainable this way is 20%.",
+      "level": 4
+    },
+    {
+      "id": "moonsign_benediction_natures_chorus",
+      "name": "Moonsign Benediction: Nature's Chorus",
+      "description": "When a Bloom reaction is triggered by a party member, it will be converted into the Lunar-Bloom reaction, with every point of Elemental Mastery that Lauma has increasing Lunar-Bloom's Base DMG by 0.0175%, up to a maximum of 14%.<br/><br/>Additionally, when Lauma is in the party, the party's <span style=\"color:#FFD780FF\">Moonsign</span> will increase by 1 level.",
+      "level": 0
+    },
+    {
+      "id": "prayers_for_the_forest",
+      "name": "Prayers for the Forest",
+      "description": "Displays the location of nearby <span style=\"color:#FFD780FF\">resources unique to Nod-Krai</span> on the mini-map.<br/>Additionally, Lauma appears to have a special affinity with some small animals affected by kuuvahki...",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1191,
+      "id": "o_lips_weave_me_songs_and_psalms",
+      "name": "\"O Lips, Weave Me Songs and Psalms\"",
+      "description": "After Lauma uses her Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"runo_dawnless_rest_of_karsikko\">Runo: Dawnless Rest of Karsikko</link></span> or her Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"runo_all_hearts_become_the_beating_moon\">Runo: All Hearts Become the Beating Moon</link></span>, she will gain Threads of Life for 20s.<br/>During this time, when nearby party members trigger Lunar-Bloom reactions, nearby active characters will recover HP equal to 500% of Lauma's Elemental Mastery. This effect can be triggered once every 1.9s.<br/>Additionally, the Stamina cost for Lauma's Spirit Envoy Form will be reduced by 40%, and its Max Duration will be extended by 5s.",
+      "level": 1
+    },
+    {
+      "_id": 1192,
+      "id": "twine_warnings_and_tales_from_the_north",
+      "name": "\"Twine Warnings and Tales From the North\"",
+      "description": "The Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"runo_all_hearts_become_the_beating_moon\">Runo: All Hearts Become the Beating Moon</link></span> is enhanced:<br/>· <link kind=\"effect\" id=\"11190003\"><span style=\"color:#FFD780FF\">Pale Hymn</span></link> effects are increased: All nearby party members' Bloom, Hyperbloom, and Burgeon DMG is further increased by 500% of Lauma's Elemental Mastery, and their Lunar-Bloom DMG is further increased by 400% of Lauma's Elemental Mastery.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span>: All nearby party members' Lunar-Bloom DMG is increased by 40%.",
+      "level": 2
+    },
+    {
+      "_id": 1193,
+      "id": "seek_not_to_tread_the_sly_foxs_path",
+      "name": "\"Seek Not to Tread the Sly Fox's Path\"",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"runo_all_hearts_become_the_beating_moon\">Runo: All Hearts Become the Beating Moon</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1194,
+      "id": "nor_yearn_for_the_great_bears_might",
+      "name": "\"Nor Yearn for the Great Bear's Might\"",
+      "description": "When attacks from the <link kind=\"effect\" id=\"11190001\"><span style=\"color:#FFD780FF\">Frostgrove Sanctuary</span></link> summoned by her Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"runo_dawnless_rest_of_karsikko\">Runo: Dawnless Rest of Karsikko</link></span> hit opponents, Lauma will regain 4 Elemental Energy. This effect can be triggered once every 5s.",
+      "level": 4
+    },
+    {
+      "_id": 1195,
+      "id": "if_truth_may_be_subject_to_witness",
+      "name": "\"If Truth May Be Subject to Witness\"",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"runo_dawnless_rest_of_karsikko\">Runo: Dawnless Rest of Karsikko</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1196,
+      "id": "i_offer_blood_and_tears_to_the_moonlight",
+      "name": "\"I Offer Blood and Tears to the Moonlight\"",
+      "description": "When the <link kind=\"effect\" id=\"11190001\"><span style=\"color:#FFD780FF\">Frostgrove Sanctuary</span></link> attacks opponents, it will deal 1 additional instance of <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> equal to 185% of Lauma's Elemental Mastery. This DMG is considered Lunar-Bloom DMG. This instance of DMG will not consume any <link kind=\"effect\" id=\"11190003\"><span style=\"color:#FFD780FF\">Pale Hymn</span></link> stacks and will provide Lauma with 2 stacks of Pale Hymn, as well as refreshing the duration of Pale Hymn stacks gained in this manner.<br/>This effect can occur up to 8 times during each Frostgrove Sanctuary. When using the Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"runo_dawnless_rest_of_karsikko\">Runo: Dawnless Rest of Karsikko</link></span>, all Pale Hymn stacks gained in this manner will be removed.<br/><br/>Additionally, when Lauma uses a Normal Attack while she has Pale Hymn stacks, she will consume 1 stack to convert this to deal <span style=\"color:#99FF88FF\">Dendro DMG</span> equal to 150% of her Elemental Mastery. This DMG is considered Lunar-Bloom DMG.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span>: All nearby party members' Lunar-Bloom DMG is <link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">elevated</span></link> by 25%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "829"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "20"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "52"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "-",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2151",
+            "2863"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "51",
+            "69"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "135",
+            "180"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4283",
+            "4789"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "103",
+            "115"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "269",
+            "301"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "0",
+            "29"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104131,
+        "id": "nagadus_emerald_sliver",
+        "name": "Nagadus Emerald Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101263,
+        "id": "moonfall_silver",
+        "name": "Moonfall Silver",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112125,
+        "id": "tattered_warrant",
+        "name": "Tattered Warrant",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5509",
+            "6183"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "132",
+            "148"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "346",
+            "388"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "29",
+            "58"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104132,
+        "id": "nagadus_emerald_fragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113078,
+        "id": "lightbearing_scalefeather",
+        "name": "Lightbearing Scale-Feather",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101263,
+        "id": "moonfall_silver",
+        "name": "Moonfall Silver",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112125,
+        "id": "tattered_warrant",
+        "name": "Tattered Warrant",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6911",
+            "7416"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "165",
+            "177"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "434",
+            "465"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "58",
+            "58"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104132,
+        "id": "nagadus_emerald_fragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113078,
+        "id": "lightbearing_scalefeather",
+        "name": "Lightbearing Scale-Feather",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101263,
+        "id": "moonfall_silver",
+        "name": "Moonfall Silver",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112126,
+        "id": "immaculate_warrant",
+        "name": "Immaculate Warrant",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8151",
+            "8657"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "195",
+            "207"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "512",
+            "543"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "58",
+            "86"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104133,
+        "id": "nagadus_emerald_chunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113078,
+        "id": "lightbearing_scalefeather",
+        "name": "Lightbearing Scale-Feather",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101263,
+        "id": "moonfall_silver",
+        "name": "Moonfall Silver",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112126,
+        "id": "immaculate_warrant",
+        "name": "Immaculate Warrant",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9400",
+            "9905"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "225",
+            "237"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "590",
+            "622"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "86",
+            "115"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104133,
+        "id": "nagadus_emerald_chunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113078,
+        "id": "lightbearing_scalefeather",
+        "name": "Lightbearing Scale-Feather",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101263,
+        "id": "moonfall_silver",
+        "name": "Moonfall Silver",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112127,
+        "id": "frostetched_warrant",
+        "name": "Frost-Etched Warrant",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10654",
+            "10654"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "255",
+            "255"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "669",
+            "669"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "115",
+            "115"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104134,
+        "id": "nagadus_emerald_gemstone",
+        "name": "Nagadus Emerald Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113078,
+        "id": "lightbearing_scalefeather",
+        "name": "Lightbearing Scale-Feather",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101263,
+        "id": "moonfall_silver",
+        "name": "Moonfall Silver",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112127,
+        "id": "frostetched_warrant",
+        "name": "Frost-Etched Warrant",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104356,
+          "id": "teachings_of_moonlight",
+          "name": "Teachings of Moonlight",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112125,
+          "id": "tattered_warrant",
+          "name": "Tattered Warrant",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104357,
+          "id": "guide_to_moonlight",
+          "name": "Guide to Moonlight",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104357,
+          "id": "guide_to_moonlight",
+          "name": "Guide to Moonlight",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104357,
+          "id": "guide_to_moonlight",
+          "name": "Guide to Moonlight",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104357,
+          "id": "guide_to_moonlight",
+          "name": "Guide to Moonlight",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104358,
+          "id": "philosophies_of_moonlight",
+          "name": "Philosophies of Moonlight",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113070,
+          "id": "eroded_scalefeather",
+          "name": "Eroded Scale-Feather",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104358,
+          "id": "philosophies_of_moonlight",
+          "name": "Philosophies of Moonlight",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113070,
+          "id": "eroded_scalefeather",
+          "name": "Eroded Scale-Feather",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104358,
+          "id": "philosophies_of_moonlight",
+          "name": "Philosophies of Moonlight",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113070,
+          "id": "eroded_scalefeather",
+          "name": "Eroded Scale-Feather",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104358,
+          "id": "philosophies_of_moonlight",
+          "name": "Philosophies of Moonlight",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113070,
+          "id": "eroded_scalefeather",
+          "name": "Eroded Scale-Feather",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 211900,
+      "name": "Verdant Moon",
+      "description": "Lauma's outfit. As the moon's priestess, she moves gracefully between deer and human form. But no matter her shape, her devotion and compassion for all living things remain unchanged.",
+      "isDefault": true,
+      "characterName": "Lauma",
+      "characterId": 10000119,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Lauma_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Open your eyes. My name is Lauma, and here in the stillness of these woods, the light of the frost moon shines down generously on all. The gaze of the heavens will fall on you wherever you go. Now, close your eyes... you are no longer lost."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Moonlight",
+      "text": "Even when the night is gone, and even when the sky is hidden from view, still the moon shines its light upon you."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Animals",
+      "text": "If ever you find that the animals in Nod-Krai behave in ways you do not understand, just ask me, and I will explain."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Journey",
+      "text": "Have you decided where you will go from here? If not, why not find a patch of soft grass and rest awhile?"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Ah, the season of verdure draws near once again..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Gone in a flash... A light harder to grasp even than that of the moon."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "I heard that you're not supposed to stare at bright-white surfaces for too long... is that really true? It's so beautiful, I can't look away..."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "When Nefer told me about this place, I could hardly imagine it... But here I am, seeing it with my own two eyes."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning. Come night or day, may the blessings of the Moon Goddess shine down upon you."
+    },
+    {
+      "id": "1005",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning. Come night or day, may the moonlight connect us."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "...Oh, I must have drifted off. Sorry. If you need anything, please ask."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "The moonlight is so calm tonight. Join me for a walk in the woods."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "The stars above have bidden each other good night. Now, it falls to us to do the same."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Lauma: Responsibility",
+      "text": "A doctrine without laws is but a book of tricks, and a leader without conscience is a false god. Wherever communities of people gather, rules are needed. Even for the Frostmoon Scions, who share a common faith, rules are indispensable to guide them."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Lauma: Soothing Troubled Minds",
+      "text": "As the Moonchanter, I'm supposed to listen while my flock shares their woes, then soothe their troubled minds. But I seem to spend most of my time listening to the chatter of the animals instead... hehe..."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Streams",
+      "text": "Perhaps fate ordained that our paths would cross, just as it ensures that every stream in the forest finds its way to the sea."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Trees",
+      "text": "Trees send roots down deep into the earth, towards the unfathomable Abyss, while their branches climb up towards the stars, far beyond the sky. May our future, too, provide endless room to grow and to flourish."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Moon Wheel",
+      "text": "This is a sign of the gods' mercy, which is, allegedly, a measure of human aspiration.\\nWhy \"allegedly\"? Well... because there's no way to verify it."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Place a dish beneath the moon and fill it with water, then tell it all your joys and sorrows. If a reflection of the moon appears on the water's surface, you have the moonlight's blessing."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "You want to know what the animals think of you? Haha... that tale is one that would take many moons to tell."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Ineffa",
+      "text": "It's not unusual to come across prosthetically augmented people in Nod-Krai, but a wholly mechanical person from the inside out is quite a different story... And yet, she has far more humanity than many of the errant souls out there. She's gentle, kind, and full of curiosity. You could say she's as human as can be."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Aino",
+      "text": "She is a very precocious child, but fate has not given her an easy ride. Her inventions have helped many people — Nod-Krai should feel honored to count her as one of their own. If she ever wished to come and live among the Frostmoon Scions, I would make sure that all her nutritional needs are met, starting with plenty of fresh fruit, vegetables, and spring water."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Flins",
+      "text": "He comes across as very polite and courteous, but for some reason the animals seem to fear him... I will keep my guard up around him — but since I barely know him and have no evidence of wrongdoing, I will also reserve judgment. Whenever he passes by the Frostmoon Enclave, I will share some of the daily harvest with him.\\n...What? His name's too long, but otherwise he's fine..? Uh... Are you sure?"
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Nefer",
+      "text": "Clearly, we are different people with different ways of doing things, but I have never taken that to mean that we cannot get along.\\nNo matter what, the light of the moon will always fall favorably upon her."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Jahoda",
+      "text": "I didn't know much about her before we partnered up to infiltrate the Experimental Design Bureau — only that she worked for the Curatorium of Secrets as Nefer's trusted assistant. It can't be easy, being caught between Nefer on the one hand and all manner of clients on the other. I've always wished I could show her some proper Frostmoon Scions hospitality one day... Heh, I'm also a little curious to know what Nefer has said to her about me."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Varka",
+      "text": "As cosmopolitan as Nod-Krai may be, it's rare to see an outsider integrate as readily as he has. There is a natural warmth to the way he treats people, which I highly admire. I remember the first time we met, he was full of praise for the Frostmoon Scions' delicious food... Oddly enough, I don't recall ever having shared any food with him, and yet I still believe he was being sincere."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Kuutar",
+      "text": "No one teaches a newborn god how to live in harmony with their followers. She must have had a very difficult past...\\nIn the hopes of achieving some sort of reconciliation, I made a request of her that must have seemed a little rude. She claims that she prefers living alone, but I still dream of a day that Kuutar and the Frostmoon Scions, the moon and her believers, can come together and share a toast."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Lauma: I",
+      "text": "Look at the moon. It is always there, ever still and ever silent."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Lauma: II",
+      "text": "In many places, a waning moon is seen as an omen of ill fortune.\\nPerhaps people forget that the moons, too, are the victims of misfortune... Their destruction was not a fate that they wished upon themselves."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Lauma: III",
+      "text": "Sometimes, it feels like people expect more \"godliness\" from me than the god I represent. Believers seem to have infinite tolerance for unruly or capricious behavior by their god, but not by that same god's emissaries."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Lauma: IV",
+      "text": "Fruit start to give off an alcoholic smell when they've been left out for too long. I don't drink, but I always find that scent relaxes me... Probably a sign that I shouldn't take up drinking, don't you think?"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Lauma: V",
+      "text": "Among the Frostmoon Scions, you'll often see kids running around holding a white sheet above their heads. The adults tell them that it protects them from bad luck, since being draped in white cloth looks a lot like being covered in moonlight. Of course, they get to a certain age and stop doing that — instead, they start praying to the moon at nightfall.\\nMe? Of course, it's a rite of passage. We were all children once."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Lauma's Hobbies",
+      "text": "I enjoy spending time in solitude in the darkness of night. The birds and beasts quiet down, and the only sound I can hear is the wind blowing gently through the trees... Everything is so peaceful."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Lauma's Troubles",
+      "text": "My head... it's so heavy to carry around."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Simple food, with minimal seasoning. It has nothing to do with my beliefs or dietary restrictions, I just find that lighter food is what agrees with me."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Anything too greasy, or too dry... It's just not for me."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Such fresh ingredients... I can't imagine the lengths you went to. I will gladly share it with my flock... What? All for me...?"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Thank you for your kind gift. Let us both share it."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "There must surely be those in greater need than I of sustenance. I will watch out for them."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "To you, our honored guest, cherished by the moonlight and our tranquil forest, I give this blessed dagger. For a dagger does not have to be an object of violence — indeed, they are often used as symbolic items in prayer ceremonies.\\nThat said, you're of course free to use it for whatever purpose you wish."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "I seek not to tread the expedient path..."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Nor do I yearn to wield great power..."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "But if our goal in all of this is to find the truth..."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "I shall offer my blood and tears as a truth seeker."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Forest, protect us."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "You poor, lost lamb..."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Leave this place."
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Lush as the moonlight."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Branch into song."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Receive my blessing."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "By the Frostmoon of old."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "For the everlasting forest."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "With one heart, we pray."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Take heart. You toil not in vain."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "The world wishes you well."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Perhaps this treasure has been waiting for you all along."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "*pant*"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "I am being tested..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Have I brought this on myself?"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Seek refuge in the shade of the forest."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Return to the Frostmoon's embrace."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "O forest, take my broken crown..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "The ebb and flow... is over..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "A moonless night... approaches..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Stay your hand..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "...A grave transgression."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Follow me, and bask in the soft light of the moon."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Even when darkness falls, the faithful shall not stray from the righteous path."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Do not be afraid, for I am with you."
+    }
+  ],
+  "effects": {
+    "11190001": {
+      "name": "Frostgrove Sanctuary",
+      "description": "A magical array that protects the Moonchanters and can be summoned by using the Elemental Skill <span style=\"color:#FFD780FF\">Runo: Dawnless Rest of Karsikko</span>.<br/>The Frostgrove Sanctuary will follow the active character, dealing a single instance of <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> to opponents within the array every 2s. This DMG is considered Elemental Skill DMG.",
+      "color": ""
+    },
+    "11190002": {
+      "name": "Moon Song",
+      "description": "A melody used to weave together hymns. When an Elemental Burst is used, or for a period of time after an Elemental Burst has been used, it can be converted into Pale Hymn stacks that increase the DMG from Bloom, Hyperbloom, Burgeon, and Lunar-Bloom reactions.<br/>When Lauma consumes Verdant Dew to perform the Hold version of her Elemental Skill <span style=\"color:#FFD780FF\">Runo: Dawnless Rest of Karsikko</span>, each Verdant Dew consumed will provide Lauma with 1 stack of Moon Song.",
+      "color": ""
+    },
+    "11190003": {
+      "name": "Pale Hymn",
+      "description": "A hymn passed down by generations of Moonchanters that increases the DMG dealt by Bloom, Hyperbloom, Burgeon, and Lunar-Bloom reactions.<br/><br/>Lauma can gain Pale Hymn stacks in the following ways:<br/>· When using her Elemental Burst <span style=\"color:#FFD780FF\">Runo: All Hearts Become the Beating Moon</span>.<br/>· When consuming Moon Song stacks due to using her Elemental Burst <span style=\"color:#FFD780FF\">Runo: All Hearts Become the Beating Moon</span>.<br/>· When the Frostgrove Sanctuary triggers the effect of her Constellation <span style=\"color:#FFD780FF\">\"I Offer Blood and Tears to the Moonlight\"</span>.<br/><br/>When party members deal Bloom, Hyperbloom, Burgeon, or Lunar-Bloom DMG, 1 stack of Pale Hymn will be consumed and the DMG dealt will be increased based on Lauma's Elemental Mastery. If this DMG hits multiple opponents at once, then multiple stacks of Pale Hymn will be consumed, depending on how many opponents are hit.<br/>The duration for each stack of Pale Hymn is counted independently.",
+      "color": ""
+    },
+    "11190007": {
+      "name": "Elevation",
+      "description": "Special DMG Boost effect. It is calculated independently of other DMG Boost effects.",
+      "color": ""
+    },
+    "11190008": {
+      "name": "Verdant Dew",
+      "description": "When party members trigger Lunar-Bloom reactions, the party will receive such a resource.<br/>Your party will receive 1 Verdant Dew every 2.5s for 2.5s after triggering a Lunar-Bloom reaction. Your party can have up to 3 Verdant Dew. If you trigger another Lunar-Bloom reaction during this time, the duration of this effect will be reset.",
+      "color": ""
+    }
+  }
+}

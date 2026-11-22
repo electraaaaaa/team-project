@@ -1,0 +1,1755 @@
+{
+  "_id": 10000054,
+  "id": "sangonomiya_kokomi",
+  "name": "Sangonomiya Kokomi",
+  "title": "Pearl of Wisdom",
+  "description": "The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "hydro",
+    "name": "Hydro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1632236400,
+  "substat": "Hydro DMG Bonus",
+  "stats": {
+    "base": {
+      "hp": 1048.652,
+      "attack": 18.2476,
+      "defense": 51.15465
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 899.12427,
+        "attack": 15.644524,
+        "defense": 43.8615,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1537.9757,
+        "attack": 26.76037,
+        "defense": 75.02625,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0.072
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2389.7776,
+        "attack": 41.581497,
+        "defense": 116.57925,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 70,
+        "hp": 3028.6292,
+        "attack": 52.697346,
+        "defense": 147.744,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3667.4805,
+        "attack": 63.81319,
+        "defense": 178.90875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0.216
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4306.332,
+        "attack": 74.92904,
+        "defense": 210.0735,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0.288
+        }
+      }
+    ]
+  },
+  "affiliation": "Watatsumi Island",
+  "region": {
+    "id": "inazuma",
+    "name": "Inazuma"
+  },
+  "rarity": 5,
+  "birthday": [
+    22,
+    2
+  ],
+  "constellation": "Dracaena Somnolenta",
+  "domain": "Violet Court",
+  "cv": {
+    "english": "Risa Mei",
+    "chinese": "龟娘",
+    "japanese": "三森すずこ",
+    "korean": "Yeo Yoon-mi"
+  },
+  "skills": [
+    {
+      "_id": 10541,
+      "id": "the_shape_of_water",
+      "name": "The Shape of Water",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 3 consecutive attacks that take the form of swimming fish, dealing <span style=\"color:#80C0FFFF\">Hydro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to deal <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> after a short casting time.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Gathering the might of Hydro, Kokomi plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "68.4%",
+            "73.5%",
+            "78.6%",
+            "85.5%",
+            "90.6%",
+            "95.7%",
+            "102.6%",
+            "109.4%",
+            "116.2%",
+            "123.1%",
+            "129.9%",
+            "136.8%",
+            "145.3%",
+            "153.8%",
+            "162.4%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "61.5%",
+            "66.2%",
+            "70.8%",
+            "76.9%",
+            "81.5%",
+            "86.2%",
+            "92.3%",
+            "98.5%",
+            "104.6%",
+            "110.8%",
+            "116.9%",
+            "123.1%",
+            "130.8%",
+            "138.5%",
+            "146.2%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "94.3%",
+            "101.4%",
+            "108.5%",
+            "117.9%",
+            "125%",
+            "132%",
+            "141.5%",
+            "150.9%",
+            "160.3%",
+            "169.8%",
+            "179.2%",
+            "188.6%",
+            "200.4%",
+            "212.2%",
+            "224%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "148.3%",
+            "159.4%",
+            "170.6%",
+            "185.4%",
+            "196.5%",
+            "207.6%",
+            "222.5%",
+            "237.3%",
+            "252.1%",
+            "267%",
+            "281.8%",
+            "296.6%",
+            "315.2%",
+            "333.7%",
+            "352.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10542,
+      "id": "kurages_oath",
+      "name": "Kurage's Oath",
+      "description": "Summons a \"Bake-Kurage\" created from water that can heal her allies.<br/>Using this skill will apply the <span style=\"color:#80C0FFFF\">Wet</span> status to Sangonomiya Kokomi.<br/><br/><span style=\"color:#FFD780FF\">Bake-Kurage</span><br/>Deals <span style=\"color:#80C0FFFF\">Hydro DMG</span> to surrounding opponents and heals nearby active characters at fixed intervals. This healing is based on Kokomi's Max HP.",
+      "info": "Kokomi needs timely \"refreshment\" in order to maintain optimal work efficiency.",
+      "attributes": [
+        {
+          "label": "Regeneration",
+          "values": [
+            "4.4% Max HP + 424",
+            "4.7% Max HP + 466",
+            "5.1% Max HP + 512",
+            "5.5% Max HP + 561",
+            "5.8% Max HP + 614",
+            "6.2% Max HP + 671",
+            "6.6% Max HP + 731",
+            "7% Max HP + 795",
+            "7.5% Max HP + 862",
+            "7.9% Max HP + 932",
+            "8.4% Max HP + 1006",
+            "8.8% Max HP + 1084",
+            "9.3% Max HP + 1165",
+            "9.9% Max HP + 1250",
+            "10.4% Max HP + 1338"
+          ]
+        },
+        {
+          "label": "Ripple DMG",
+          "values": [
+            "109.2%",
+            "117.4%",
+            "125.6%",
+            "136.5%",
+            "144.7%",
+            "152.9%",
+            "163.8%",
+            "174.7%",
+            "185.6%",
+            "196.5%",
+            "207.5%",
+            "218.4%",
+            "232%",
+            "245.7%",
+            "259.3%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10545,
+      "id": "nereids_ascension",
+      "name": "Nereid's Ascension",
+      "description": "Summons the might of Watatsumi, dealing <span style=\"color:#80C0FFFF\">Hydro DMG</span> to surrounding opponents, before robing Kokomi in a Ceremonial Garment made from the flowing waters of Sangonomiya.<br/><br/><span style=\"color:#FFD780FF\">Ceremonial Garment</span><br/>·Sangonomiya Kokomi's Normal Attack, Charged Attack and Bake-Kurage DMG are increased based on her Max HP.<br/>·When her Normal and Charged Attacks hit opponents, Kokomi will restore HP for all nearby party members, and the amount restored is based on her Max HP.<br/>·Increases Sangonomiya Kokomi's resistance to interruption and allows her to walk on the water's surface.<br/><br/>These effects will be cleared once Sangonomiya Kokomi leaves the field.",
+      "info": "Clear light coalesces into robes around Her Excellency, Sangonomiya Kokomi, reflecting her magnificent form.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "10.4% Max HP",
+            "11.2% Max HP",
+            "12% Max HP",
+            "13% Max HP",
+            "13.8% Max HP",
+            "14.6% Max HP",
+            "15.6% Max HP",
+            "16.7% Max HP",
+            "17.7% Max HP",
+            "18.7% Max HP",
+            "19.8% Max HP",
+            "20.8% Max HP",
+            "22.1% Max HP",
+            "23.4% Max HP",
+            "24.7% Max HP"
+          ]
+        },
+        {
+          "label": "Normal Attack DMG Bonus",
+          "values": [
+            "4.8% Max HP",
+            "5.2% Max HP",
+            "5.6% Max HP",
+            "6% Max HP",
+            "6.4% Max HP",
+            "6.8% Max HP",
+            "7.3% Max HP",
+            "7.7% Max HP",
+            "8.2% Max HP",
+            "8.7% Max HP",
+            "9.2% Max HP",
+            "9.7% Max HP",
+            "10.3% Max HP",
+            "10.9% Max HP",
+            "11.5% Max HP"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG Bonus",
+          "values": [
+            "6.8% Max HP",
+            "7.3% Max HP",
+            "7.8% Max HP",
+            "8.5% Max HP",
+            "9% Max HP",
+            "9.5% Max HP",
+            "10.2% Max HP",
+            "10.8% Max HP",
+            "11.5% Max HP",
+            "12.2% Max HP",
+            "12.9% Max HP",
+            "13.6% Max HP",
+            "14.4% Max HP",
+            "15.2% Max HP",
+            "16.1% Max HP"
+          ]
+        },
+        {
+          "label": "Bake-Kurage DMG Bonus",
+          "values": [
+            "7.1% Max HP",
+            "7.6% Max HP",
+            "8.2% Max HP",
+            "8.9% Max HP",
+            "9.4% Max HP",
+            "9.9% Max HP",
+            "10.6% Max HP",
+            "11.4% Max HP",
+            "12.1% Max HP",
+            "12.8% Max HP",
+            "13.5% Max HP",
+            "14.2% Max HP",
+            "15.1% Max HP",
+            "16% Max HP",
+            "16.9% Max HP"
+          ]
+        },
+        {
+          "label": "HP Regeneration Per Hit",
+          "values": [
+            "0.81% Max HP + 77",
+            "0.87% Max HP + 85",
+            "0.93% Max HP + 93",
+            "1.01% Max HP + 102",
+            "1.07% Max HP + 112",
+            "1.13% Max HP + 122",
+            "1.21% Max HP + 133",
+            "1.29% Max HP + 144",
+            "1.37% Max HP + 157",
+            "1.45% Max HP + 169",
+            "1.54% Max HP + 183",
+            "1.62% Max HP + 197",
+            "1.72% Max HP + 212",
+            "1.82% Max HP + 227",
+            "1.92% Max HP + 243"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "tamakushi_casket",
+      "name": "Tamakushi Casket",
+      "description": "If Sangonomiya Kokomi's own Bake-Kurage is on the field when she uses <span style=\"color:#FFD780FF\">Nereid's Ascension</span>, the Bake-Kurage's duration will be refreshed.",
+      "level": 1
+    },
+    {
+      "id": "song_of_pearls",
+      "name": "Song of Pearls",
+      "description": "While donning the Ceremonial Garment created by <span style=\"color:#FFD780FF\">Nereid's Ascension</span>, the Normal and Charged Attack DMG Bonus Sangonomiya Kokomi gains based on her Max HP will receive a further increase based on 15% of her Healing Bonus.",
+      "level": 4
+    },
+    {
+      "id": "princess_of_watatsumi",
+      "name": "Princess of Watatsumi",
+      "description": "Decreases swimming Stamina consumption for your own party members by 20%.<br/>Not stackable with Passive Talents that provide the exact same effects.",
+      "level": 0
+    },
+    {
+      "id": "flawless_strategy",
+      "name": "Flawless Strategy",
+      "description": "Sangonomiya Kokomi has a 25% Healing Bonus, but a 100% decrease in CRIT Rate.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 541,
+      "id": "at_waters_edge",
+      "name": "At Water's Edge",
+      "description": "While donning the Ceremonial Garment created by <span style=\"color:#FFD780FF\">Nereid's Ascension</span>, the final Normal Attack in Sangonomiya Kokomi's combo will unleash a swimming fish to deal 30% of her Max HP as <span style=\"color:#80C0FFFF\">Hydro DMG</span>.<br/>This DMG is not considered Normal Attack DMG.",
+      "level": 1
+    },
+    {
+      "_id": 542,
+      "id": "the_clouds_like_waves_rippling",
+      "name": "The Clouds Like Waves Rippling",
+      "description": "Sangonomiya Kokomi gains the following Healing Bonuses with regard to characters with 50% or less HP via the following methods:<br/>·<span style=\"color:#FFD780FF\">Kurage's Oath</span> Bake-Kurage: 4.5% of Kokomi's Max HP.<br/>·<span style=\"color:#FFD780FF\">Nereid's Ascension</span> Normal and Charged Attacks: 0.6% of Kokomi's Max HP.",
+      "level": 2
+    },
+    {
+      "_id": 543,
+      "id": "the_moon_a_ship_oer_the_seas",
+      "name": "The Moon, A Ship O'er the Seas",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Nereid's Ascension</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 544,
+      "id": "the_moon_overlooks_the_waters",
+      "name": "The Moon Overlooks the Waters",
+      "description": "While donning the Ceremonial Garment created by <span style=\"color:#FFD780FF\">Nereid's Ascension</span>, Sangonomiya Kokomi's Normal Attack SPD is increased by 10%, and Normal Attacks that hit opponents will restore 0.8 Energy for her.<br/>This effect can occur once every 0.2s.",
+      "level": 4
+    },
+    {
+      "_id": 545,
+      "id": "all_streams_flow_to_the_sea",
+      "name": "All Streams Flow to the Sea",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Kurage's Oath</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 546,
+      "id": "sango_isshin",
+      "name": "Sango Isshin",
+      "description": "While donning the Ceremonial Garment created by <span style=\"color:#FFD780FF\">Nereid's Ascension</span>, Sangonomiya Kokomi gains a 40% <span style=\"color:#80C0FFFF\">Hydro DMG Bonus</span> for 4s when her Normal and Charged Attacks heal, or would heal, any party member with 80% or more HP.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1049"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "18"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "51"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2720",
+            "3619"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "47",
+            "63"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "133",
+            "177"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5416",
+            "6055"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "94",
+            "105"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "264",
+            "295"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "0.0%",
+            "7.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104121,
+        "id": "varunada_lazurite_sliver",
+        "name": "Varunada Lazurite Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101207,
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112053,
+        "id": "spectral_husk",
+        "name": "Spectral Husk",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6966",
+            "7818"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "121",
+            "136"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "340",
+            "381"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "7.2%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113028,
+        "id": "dew_of_repudiation",
+        "name": "Dew of Repudiation",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101207,
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112053,
+        "id": "spectral_husk",
+        "name": "Spectral Husk",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8738",
+            "9377"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "152",
+            "163"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "426",
+            "457"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "14.4%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113028,
+        "id": "dew_of_repudiation",
+        "name": "Dew of Repudiation",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101207,
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112054,
+        "id": "spectral_heart",
+        "name": "Spectral Heart",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10306",
+            "10945"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "179",
+            "190"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "503",
+            "534"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "14.4%",
+            "21.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113028,
+        "id": "dew_of_repudiation",
+        "name": "Dew of Repudiation",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101207,
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112054,
+        "id": "spectral_heart",
+        "name": "Spectral Heart",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11885",
+            "12524"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "207",
+            "218"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "580",
+            "611"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "21.6%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113028,
+        "id": "dew_of_repudiation",
+        "name": "Dew of Repudiation",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101207,
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112055,
+        "id": "spectral_nucleus",
+        "name": "Spectral Nucleus",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "13471",
+            "13471"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "234",
+            "234"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "657",
+            "657"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "28.8%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104124,
+        "id": "varunada_lazurite_gemstone",
+        "name": "Varunada Lazurite Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113028,
+        "id": "dew_of_repudiation",
+        "name": "Dew of Repudiation",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101207,
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112055,
+        "id": "spectral_nucleus",
+        "name": "Spectral Nucleus",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104320,
+          "id": "teachings_of_transience",
+          "name": "Teachings of Transience",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112053,
+          "id": "spectral_husk",
+          "name": "Spectral Husk",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113026,
+          "id": "hellfire_butterfly",
+          "name": "Hellfire Butterfly",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113026,
+          "id": "hellfire_butterfly",
+          "name": "Hellfire Butterfly",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113026,
+          "id": "hellfire_butterfly",
+          "name": "Hellfire Butterfly",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113026,
+          "id": "hellfire_butterfly",
+          "name": "Hellfire Butterfly",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 205400,
+      "name": "Sparkling Coralbone",
+      "description": "Sangonomiya Kokomi's outfit. A noble's dress decorated with little precious objects produced in Watatsumi Island.",
+      "isDefault": true,
+      "characterName": "Sangonomiya Kokomi",
+      "characterId": 10000054,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Kokomi_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "I am Sangonomiya Kokomi, the Divine Priestess of Watatsumi Island. My journey with you will be an opportunity to unwind... Ahem, I mean... to survey beyond our borders. Don't worry, I've left behind ample directives in my absence, and have also completed the island's projected development plans. Departing for a brief period will be of little consequence."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Reading",
+      "text": "Yae Publishing House has released numerous works that lay out military strategy in a simple and pragmatic way. Those are my favorite."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Fish",
+      "text": "Respect must be given to the will of every creature. Each fish in the ocean swims in its own direction."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Preparation",
+      "text": "To survive hardship, you must prepare for hardship."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Marching in the rain conceals the sound of our arrival, but is also a test of stamina..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "The snow... have you ever seen such beauty?"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Such fortunate weather... Care for a walk?"
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Mm... High winds. An incendiary attack would be particularly effective."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning. I've just read a fascinating stratagem, would you like to study it together?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Mmmm... to improve efficiency, we must make some adjustments to our battle plan for the afternoon."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Mm? Night already? Time seems to slip away when I'm with you."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Good night. Garner your strength for the battles ahead."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Sangonomiya Kokomi: Directives",
+      "text": "The battlefield is unpredictable — one false move could mark utter defeat. Before the onset of battle, I bring every possible scenario into consideration, and turn my thoughts into written directives. These are then issued to the troops. ...It does seem at present like they're somewhat over-reliant on the directives, which worries me... If they read up on military strategy themselves, they could begin to rely on their own ability to read the battlefield. I need them to be able to identify and seize opportunities in the heat of the moment."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Sangonomiya Kokomi: Relaxing",
+      "text": "Mm... I hope we can put an end to this battle quickly. The Yae Publishing House has just released a new volume of \"A Legend of Sword.\" Ah, I'd like nothing more than to curl up with a copy in my room and read it front to back."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Experience",
+      "text": "My mother once taught me that it takes a broad outlook to become a qualified leader. However, my younger years were mostly spent traveling between Sangonomiya and the army. I never had time to embark on my own adventure. So... there are many aspects of adventuring that I've yet to fully understand. Mm, you'll have to excuse my lack of experience in this area."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Confusion",
+      "text": "It's said that the depths of a person's heart run deep indeed. Yet, as the Divine Priestess of Watatsumi Island, it is my duty to strive to understand each person's thoughts. Let's start with you, Traveler. What are you thinking about now? Let me take a guess..."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "In my book, Visions are symbols of aspiration, and aspiration is a precious thing indeed. This is exactly why the resistance was formed — to oppose the Vision Hunt Decree. Aspiration should never be abandoned or forcibly taken away."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share: Periodicals",
+      "text": "Among Yae Publishing House's various publications, my personal favorite is the \"Teyvat Art of War.\" See, it has articles on classic military campaigns, as well as detailed analysis and commentary from famous strategists. There are a few that I particularly enjoy... Here, let me read them to you."
+    },
+    {
+      "id": "3004",
+      "type": 1,
+      "title": "Something to Share: Diving",
+      "text": "The world below water is not bright and sunny like that of dry land. Still, whenever I lend myself to the deep, my heart gradually fills with a permeating sense of peace. Fish move in faraway shoals, jellyfish dance around me, and my troubles start to simply wash away. Mmm... I could take you to see it sometime, what do you think?"
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "I simply love Watatsumi Sango Pearls... They're not just a source of income for Watatsumi Island, but a gift from the sea itself."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Gorou",
+      "text": "Gorou is an exceptional general... sincere, determined, and courageous. He has a strong camaraderie with the troops and is able to come up with creative battle plans. He does, however, have one shortcoming... He often lets the excitement of battle get to his head. If you are ever deployed to the battlefield together, be sure to have a good rein on him when things get underway."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Kujou Sara",
+      "text": "Mmm... I must admit, Kujou Sara is an opponent that cannot be taken lightly. She seldom employs cunning strategy, but her performance in open warfare is always admirable. The Shogun's Army places great trust in her abilities — they are united and ready to fight valiantly under her command, even to the death. Her forces have been a serious threat to the resistance on multiple occasions."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Yae Miko",
+      "text": "I have also heard of Guuji Yae's great deeds. In all fairness, I hold her to be an outstanding shrine maiden, and she has performed her duties marvelously. I even heard that she holds responsibility where Yae Publishing House's light novels are concerned. An enigmatic individual to say the least..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About the Raiden Shogun",
+      "text": "Now that the Vision Hunt Decree is over, Watatsumi Island has once again returned to normal life. It has never been my intent to scrutinize the rights and wrongs of the Shogun's actions, even to this day. What I do care about is the future of our island. It is my hope that the Shogun will fulfill her promise and that we can live with the Shogunate in peace. However, if there comes a day when she once again casts aside the aspirations of the people, I can assure you that we won't sit by and watch."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Beidou",
+      "text": "Ah... back when Beidou and I were carrying out ambushes against the Shogun's Army together, I raised my concerns that the enemy might detect our approach. But Beidou assured me of her fleet's unwavering discipline, and that raids could be carried out without detection. In the end, she was right, and that's exactly what happened. Now, every time the Watatsumi fleet encounters some sort of bottleneck, I consider inviting her to come and give them her instruction. There's no doubt, she runs a tight ship..."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Kaedehara Kazuha",
+      "text": "Kazuha once came and bunked with the resistance for a time. If I'm not mistaken, he got along very well with Gorou — they would often fight side-by-side in battle. Kazuha has a carefree personality and doesn't like constraints, but he would follow every command to the letter when he was among our ranks. In my opinion, not only is he an outstanding swordsman, but a very refined character."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Shikanoin Heizou",
+      "text": "Initially, I was astonished to see anyone coming to Watatsumi Island wearing a Tenryou Commission uniform. A Tenryou Commission samurai would never be that brazen, and a Tenryou Commission spy would never be that conspicuous. Shortly after, I discovered that he was a self-proclaimed \"detective\" by the name of Shikanoin, and that he took no interest in military, government, or commercial affairs. Instead, he seemed to have arrived for a bit of sightseeing. As such, I set a few eyes on him, but refrained from taking any action to remove him from the island. Be sure to talk to him if the chance ever presents itself."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Yumemizuki Mizuki",
+      "text": "Miss Mizuki's talents are well-known throughout the land. I had some ideas for a few projects around Watatsumi Island and was hoping to bring her on as a consultant. But, after talking with her, it became clear that she has much bigger dreams in mind. I'm looking forward to the day when she brings that vision to fruition. In the meantime, Watatsumi Island is always open to her."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Sangonomiya Kokomi: I",
+      "text": "No matter how pressing the situation may become, I must remain composed. If I let the stress get to me, then what can I expect from others around me?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Sangonomiya Kokomi: II",
+      "text": "Legend has it that our ancestors lived in a palace in the depths of the ocean, and that the god, Orobashi, brought us to the surface. I've often wondered, wouldn't a palace like that be too dark? Every time I think about it, I start to really appreciate the light..."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Sangonomiya Kokomi: III",
+      "text": "After you left, the soldiers of Swordfish II nominated a temporary captain, but everyone was hoping that you'd return. I could only tell them that you'd been tasked with an important solo mission. If you get the chance, you should go visit them, I'm sure they'd love to see you."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Sangonomiya Kokomi: IV",
+      "text": "A long time ago, I had no intention of becoming the Divine Priestess. My only goal was to study military strategy and become an adviser. That way, I could remain behind the scenes and lessen my overall burden. *sigh* Fate had other ideas in store... You can't defy that which flows in your veins."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Sangonomiya Kokomi: V",
+      "text": "After becoming the Divine Priestess, I gradually grew accustomed to this life. At the very least, I have the power to change something when it doesn't sit well with me. More importantly, this title allowed me to meet you, did it not?"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Sangonomiya Kokomi's Hobbies",
+      "text": "Huh? What do I enjoy? Simple. I like to find a quiet place by myself and read books on strategy... Ahh, the whole day, without interruption. I'd be even happier if we looked over some of it together. One thing though... You'd have to sleep on the floor."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Sangonomiya Kokomi's Troubles",
+      "text": "To be quite honest, I'm not particularly skilled at communicating with others. Putting on my \"Divine Priestess airs\" certainly makes things easier, but once I run out of energy, I start to get a bit negative. I prevent others from seeing that side of me at all costs. The people of Watatsumi Island need a perfect leader, not some girl who likes to wile away her time at home."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I just love eating Bird Egg Sushi. The ingredients are easy to find, and it's simple to prepare... Ah... perfect for military life. Sitting down to eat Bird Egg Sushi in the midst of war might seem a bit extravagant, but in most cases, simple food like this brings great satisfaction to the soldiers."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Mm... If I had to say, I'm not fond of any sort of seafood. But please, keep this strictly confidential. The fishing industry is essential to Watatsumi Island, and if word were to get out that seafood wasn't my thing, I'm afraid morale would be gravely affected."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Yummy, this is delicious! And it seems my energy is also... Ahem, I mean... Never mind..."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "I like to take my time and eat slowly, that way I can enjoy it for longer."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Oh, it seems we're at an impasse."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday! So, what are your plans for the day? Oh, why don't we celebrate on Watatsumi Island? First, I'll take you out at daybreak to see the sunrise, then we can go diving during the heat of the day. In the evening, we can go for a stroll around Sangonomiya Shrine. If it rains, we'll find somewhere cozy to hide out with a few strategy books, and try to bake a cake together! In any case, no need to plan anything, the grand strategist has everything thought out for you!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Brute force is not my modus operandi. But becoming stronger isn't a bad thing."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "I'm just bubbling with energy... We'll make a formidable force in our next fight."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "The moon shines bright over the depths of the seas as the tides come and go. It seems that as I go from strength to strength, so does my state of mind flow."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "I often used to succumb to self-doubt. I would think to myself, \"Can a person like me really hold the title of Divine Priestess?\" Now, the thought hardly crosses my mind. When I'm with you, I seem to be able to cut straight through most problems."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Allow me!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Hold the line."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Rest and rebuild."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Covenant of the Deep."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Billowing surge!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Torrents, bring refuge!"
+    },
+    {
+      "id": "700001",
+      "type": 2,
+      "title": "Sprint Start: I",
+      "text": "Let's move out."
+    },
+    {
+      "id": "800001",
+      "type": 2,
+      "title": "Deploying Wind Glider: I",
+      "text": "Breathtaking."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Provisions are vital."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "We should make the most of these supplies."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Mm... So this is the thrill of adventure..."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Fatigue is setting in..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Time to switch tactics."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Foresight brings victory."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Reinforcements have arrived!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Fall back."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "New strategy needed..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "A lapse in judgment..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Must learn from my mistakes..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "A brash maneuver!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Uphill battle..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "We'll need a strategy..."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Take heart, victory will be ours."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "All is accounted for, let's move out."
+    }
+  ]
+}

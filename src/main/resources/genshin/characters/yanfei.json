@@ -1,0 +1,1697 @@
+{
+  "_id": 10000048,
+  "id": "yanfei",
+  "name": "Yanfei",
+  "title": "Wise Innocence",
+  "description": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1619470800,
+  "substat": "Pyro DMG Bonus",
+  "stats": {
+    "base": {
+      "hp": 784.14026,
+      "attack": 20.12304,
+      "defense": 49.2135
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_FIRE_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 585.7929,
+        "attack": 15.033294,
+        "defense": 36.765,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_FIRE_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1002.0142,
+        "attack": 25.714846,
+        "defense": 62.8875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_FIRE_ADD_HURT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1556.976,
+        "attack": 39.956913,
+        "defense": 97.7175,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_FIRE_ADD_HURT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 1973.1973,
+        "attack": 50.638466,
+        "defense": 123.84,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_FIRE_ADD_HURT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2389.4185,
+        "attack": 61.320015,
+        "defense": 149.9625,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_FIRE_ADD_HURT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 2805.64,
+        "attack": 72.001564,
+        "defense": 176.085,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_FIRE_ADD_HURT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Yanfei Legal Consultancy",
+  "region": {
+    "id": "liyue",
+    "name": "Liyue"
+  },
+  "rarity": 4,
+  "birthday": [
+    28,
+    7
+  ],
+  "constellation": "Bestia Iustitia",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Lizzie Freeman",
+    "chinese": "苏子芜",
+    "japanese": "花守ゆみり",
+    "korean": "Jo Kyeong-i"
+  },
+  "skills": [
+    {
+      "_id": 10481,
+      "id": "seal_of_approval",
+      "name": "Seal of Approval",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Shoots fireballs that deal up to three counts of <span style=\"color:#FF9999FF\">Pyro DMG</span>.<br/>When Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh.<br/>Each Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes Stamina and all Scarlet Seals before dealing <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> to opponents after a short casting time.<br/>This Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Gathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "58.3%",
+            "62.7%",
+            "67.1%",
+            "72.9%",
+            "77.3%",
+            "81.7%",
+            "87.5%",
+            "93.3%",
+            "99.2%",
+            "105%",
+            "110.8%",
+            "116.7%",
+            "124%",
+            "131.3%",
+            "138.6%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "52.1%",
+            "56%",
+            "59.9%",
+            "65.2%",
+            "69.1%",
+            "73%",
+            "78.2%",
+            "83.4%",
+            "88.6%",
+            "93.8%",
+            "99%",
+            "104.3%",
+            "110.8%",
+            "117.3%",
+            "123.8%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "76%",
+            "81.7%",
+            "87.4%",
+            "95%",
+            "100.7%",
+            "106.4%",
+            "114%",
+            "121.6%",
+            "129.2%",
+            "136.8%",
+            "144.4%",
+            "152%",
+            "161.5%",
+            "171%",
+            "180.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack",
+          "values": [
+            "98.2% / 115.6% / 132.9% / 150.2% / 167.6%",
+            "104.1% / 122.5% / 140.9% / 159.2% / 177.6%",
+            "110% / 129.4% / 148.8% / 168.2% / 187.6%",
+            "117.6% / 138.4% / 159.2% / 179.9% / 200.7%",
+            "123.5% / 145.3% / 167.1% / 188.9% / 210.7%",
+            "129.4% / 152.2% / 175.1% / 197.9% / 220.7%",
+            "137.1% / 161.2% / 185.4% / 209.6% / 233.8%",
+            "144.7% / 170.2% / 195.8% / 221.3% / 246.8%",
+            "152.3% / 179.2% / 206.1% / 233% / 259.9%",
+            "160% / 188.2% / 216.5% / 244.7% / 272.9%",
+            "167.6% / 197.2% / 226.8% / 256.4% / 286%",
+            "175.3% / 206.2% / 237.1% / 268.1% / 299%",
+            "182.9% / 215.2% / 247.5% / 279.8% / 312.1%",
+            "190.6% / 224.2% / 257.8% / 291.5% / 325.1%",
+            "198.2% / 233.2% / 268.2% / 303.2% / 338.1%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Scarlet Seal Stamina Consumption Decrease",
+          "values": [
+            "15% Per Seal",
+            "15% Per Seal",
+            "15% Per Seal",
+            "15% Per Seal",
+            "15% Per Seal",
+            "15% Per Seal",
+            "15% Per Seal",
+            "15% Per Seal",
+            "15% Per Seal",
+            "15% Per Seal",
+            "15% Per Seal",
+            "15% Per Seal",
+            "15% Per Seal",
+            "15% Per Seal",
+            "15% Per Seal"
+          ]
+        },
+        {
+          "label": "Scarlet Seal Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10482,
+      "id": "signed_edict",
+      "name": "Signed Edict",
+      "description": "Summons blistering flames that deal <span style=\"color:#FF9999FF\">AoE Pyro DMG</span>.<br/>Opponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.",
+      "info": "Apart from their legal uses, Yanfei's seals also come with her customized additional terms and conditions. Well, it's not as if the Ministry of Civil Affairs can change the laws of nature.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "169.6%",
+            "182.3%",
+            "195%",
+            "212%",
+            "224.7%",
+            "237.4%",
+            "254.4%",
+            "271.4%",
+            "288.3%",
+            "305.3%",
+            "322.2%",
+            "339.2%",
+            "360.4%",
+            "381.6%",
+            "402.8%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10485,
+      "id": "done_deal",
+      "name": "Done Deal",
+      "description": "Triggers a spray of intense flames that rush at nearby opponents, dealing <span style=\"color:#FF9999FF\">AoE Pyro DMG</span>, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.<br/><br/><span style=\"color:#FFD780FF\">Brilliance</span><br/>Has the following effects:<br/>·Grants Yanfei a Scarlet Seal at fixed intervals.<br/>·Increases the DMG dealt by her Charged Attacks.<br/>The effects of Brilliance will end if Yanfei leaves the field or falls in battle.",
+      "info": "\"Here are the full terms for this matter of life and death — by which I mean my life and your death!\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "182.4%",
+            "196.1%",
+            "209.8%",
+            "228%",
+            "241.7%",
+            "255.4%",
+            "273.6%",
+            "291.8%",
+            "310.1%",
+            "328.3%",
+            "346.6%",
+            "364.8%",
+            "387.6%",
+            "410.4%",
+            "433.2%"
+          ]
+        },
+        {
+          "label": "Scarlet Seal Grant Interval",
+          "values": [
+            "1s",
+            "1s",
+            "1s",
+            "1s",
+            "1s",
+            "1s",
+            "1s",
+            "1s",
+            "1s",
+            "1s",
+            "1s",
+            "1s",
+            "1s",
+            "1s",
+            "1s"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG Bonus",
+          "values": [
+            "33.4%",
+            "35.4%",
+            "37.4%",
+            "40%",
+            "42%",
+            "44%",
+            "46.6%",
+            "49.2%",
+            "51.8%",
+            "54.4%",
+            "57%",
+            "59.6%",
+            "62.2%",
+            "64.8%",
+            "67.4%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "proviso",
+      "name": "Proviso",
+      "description": "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's <span style=\"color:#FF9999FF\">Pyro DMG Bonus</span> by 5%. This effect lasts for 6s. When a Charged Attack is used again during the effect's duration, it will dispel the previous effect.",
+      "level": 1
+    },
+    {
+      "id": "blazing_eye",
+      "name": "Blazing Eye",
+      "description": "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> equal to 80% of her ATK. This DMG counts as Charged Attack DMG.",
+      "level": 4
+    },
+    {
+      "id": "encyclopedic_expertise",
+      "name": "Encyclopedic Expertise",
+      "description": "Displays the location of nearby <span style=\"color:#FFD780FF\">resources unique to Liyue</span> on the mini-map.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 481,
+      "id": "the_law_knows_no_kindness",
+      "name": "The Law Knows No Kindness",
+      "description": "When Yanfei uses her Charged Attack, each existing Scarlet Seal additionally reduces the stamina cost of this Charged Attack by 10% and increases resistance against interruption during its release.",
+      "level": 1
+    },
+    {
+      "_id": 482,
+      "id": "right_of_final_interpretation",
+      "name": "Right of Final Interpretation",
+      "description": "Increases Yanfei's Charged Attack CRIT Rate by 20% against enemies below 50% HP.",
+      "level": 2
+    },
+    {
+      "_id": 483,
+      "id": "samadhi_fireforged",
+      "name": "Samadhi Fire-Forged",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Signed Edict</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 484,
+      "id": "supreme_amnesty",
+      "name": "Supreme Amnesty",
+      "description": "When <span style=\"color:#FFD780FF\">Done Deal</span> is used:<br/>Creates a shield that absorbs up to 45% of Yanfei's Max HP for 15s.<br/>This shield absorbs <span style=\"color:#FF9999FF\">Pyro DMG</span> 250% more effectively.",
+      "level": 4
+    },
+    {
+      "_id": 485,
+      "id": "abiding_affidavit",
+      "name": "Abiding Affidavit",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Done Deal</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 486,
+      "id": "extra_clause",
+      "name": "Extra Clause",
+      "description": "Increases the maximum number of Scarlet Seals by 1.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "784"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "20"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "49"
+          ]
+        },
+        {
+          "label": "Pyro DMG Bonus",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2014",
+            "2600"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "52",
+            "67"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "126",
+            "163"
+          ]
+        },
+        {
+          "label": "Pyro DMG Bonus",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "3895",
+            "4311"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "100",
+            "111"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "244",
+            "271"
+          ]
+        },
+        {
+          "label": "Pyro DMG Bonus",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104111,
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100028,
+        "id": "noctilucous_jade",
+        "name": "Noctilucous Jade",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112035,
+        "id": "treasure_hoarder_insignia",
+        "name": "Treasure Hoarder Insignia",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4959",
+            "5514"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "127",
+            "141"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "311",
+            "346"
+          ]
+        },
+        {
+          "label": "Pyro DMG Bonus",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100028,
+        "id": "noctilucous_jade",
+        "name": "Noctilucous Jade",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112035,
+        "id": "treasure_hoarder_insignia",
+        "name": "Treasure Hoarder Insignia",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6161",
+            "6578"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "158",
+            "169"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "387",
+            "413"
+          ]
+        },
+        {
+          "label": "Pyro DMG Bonus",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100028,
+        "id": "noctilucous_jade",
+        "name": "Noctilucous Jade",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112036,
+        "id": "silver_raven_insignia",
+        "name": "Silver Raven Insignia",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7225",
+            "7641"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "185",
+            "196"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "453",
+            "480"
+          ]
+        },
+        {
+          "label": "Pyro DMG Bonus",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100028,
+        "id": "noctilucous_jade",
+        "name": "Noctilucous Jade",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112036,
+        "id": "silver_raven_insignia",
+        "name": "Silver Raven Insignia",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8289",
+            "8705"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "213",
+            "223"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "520",
+            "546"
+          ]
+        },
+        {
+          "label": "Pyro DMG Bonus",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100028,
+        "id": "noctilucous_jade",
+        "name": "Noctilucous Jade",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112037,
+        "id": "golden_raven_insignia",
+        "name": "Golden Raven Insignia",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9352",
+            "9352"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "240",
+            "240"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "587",
+            "587"
+          ]
+        },
+        {
+          "label": "Pyro DMG Bonus",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104114,
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100028,
+        "id": "noctilucous_jade",
+        "name": "Noctilucous Jade",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112037,
+        "id": "golden_raven_insignia",
+        "name": "Golden Raven Insignia",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104316,
+          "id": "teachings_of_gold",
+          "name": "Teachings of Gold",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112035,
+          "id": "treasure_hoarder_insignia",
+          "name": "Treasure Hoarder Insignia",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113018,
+          "id": "bloodjade_branch",
+          "name": "Bloodjade Branch",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113018,
+          "id": "bloodjade_branch",
+          "name": "Bloodjade Branch",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113018,
+          "id": "bloodjade_branch",
+          "name": "Bloodjade Branch",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113018,
+          "id": "bloodjade_branch",
+          "name": "Bloodjade Branch",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 204800,
+      "name": "Golden Rule",
+      "description": "Yanfei's outfit. The dress that the legal adviser Yanfei wears when she heads out to visit clients.",
+      "isDefault": true,
+      "characterName": "Yanfei",
+      "characterId": 10000048,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Feiyan_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "My name is Yanfei, top legal expert in Liyue — and for the avoidance of doubt, no one else comes close! From commercial litigation, to civil mediation, to criminal lawsuits, I'm fully versed in every area of the law, and I guarantee you a swift and satisfactory conclusion to your case! My contact details... Where should I write this down? ...Hmm, paper will just get lost, and it'll only rub off if I write it on the back of your hand, so... Aha! I know, I'll just write it here, on the clothes of this... whatever this thing is that follows you around."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: The Law",
+      "text": "I'll remind you again: The law can be both a help and a hindrance."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Work",
+      "text": "Sometimes the law is compatible with human nature, but sometimes the two conflict. Balancing the two is a discipline in its own right..."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Reading",
+      "text": "The case before us... is a strange and unprecedented one indeed."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Rain! Oh, Lord of Geo, please, do us a favor and clear this up at your earliest convenience... I submit that we cannot afford for the codices to get damp..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "What the... What kind of injurious weather is this!? It's c—cold... Achoo..."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Ah, this weather's got me in the mood for reciting some laws. Let's see... \"Commercial Law of Liyue,\" Chapter 27, Section 6, Article 3 stipulates that— Wait, what was it...? Oh my goodness, I've completely forgotten! What is wrong with me today...?"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "I have to head out this morning to meet a client about a creditor dispute, but I also have to follow up on a consultation from last week by noon... Alright, time to get to work!"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "*yawn* I'm a little sleepy... I know, a vigorous debate should wake me up! And I've got just the topic: \"The Northland Bank's presence in Liyue does more harm than good for our economy.\" ...So, are you for or against?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "The night market? Hmm... I was planning on organizing some files this evening, but if you're going, I can join you. Oh, I should mention — lots of vendors go for the hard sell in the evenings, because they want to be able to start with fresh produce the next day, but also don't want to lose profit on what they have left today.\\nSo, leave the negotiating to me. And... If you have any leftovers, those can be my fee."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Need a cure for insomnia? Let me read you the history of the development of Liyue's legal system! None of my friends have ever lasted longer than 20 minutes... Oh, you want something more fast-acting? Then I'll recite from the legal codices! Let me know in the morning which section I got to before you fell asleep! Okay, here I go..."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Yanfei: Atmosphere",
+      "text": "You think I come across as quite imposing when I'm reading through case files? Huh. Well, that's only when I'm in work mode. It's like... I have an invisible switch, flick it one way and I'm in normal mode, flick it the other way and I switch to work mode. Surely you must have a switch like that, too?"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Yanfei: Weakness",
+      "text": "Civil cases are the ones I dread the most. Divorces, custody disputes... It's a thankless task trying to unpack these kinds of cases with logic and reason. You have to be kind, courteous, and patient with your clients, even though half the time they are completely incapable of participating in a constructive discussion. *sigh* I know I advertise myself as being fully versed in every area of the law, but honestly, if it were up to me, I'd rather everyone could just get along, so we wouldn't have so many of these cases."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Rates",
+      "text": "You want legal advice from me? Sure. For legal opinions, I charge a flat rate of 6,000 Mora, for advisory services, my hourly rate is 180,000 Mora, and for commercial law, I charge 710,000 Mora per case — final quote and commission rate depending on the details of your case. Not a bad deal, right?"
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Us: Relationships",
+      "text": "If you're concerned about what kind of complicated issues you might get tied up in during your travels, your best bet is to bring someone with you who knows and understands the law. Someone like me, for example, whose expertise goes beyond just the law of Liyue... Well, actually, having said that, Fontaine's law is notoriously complicated... Though, with my level of intelligence, getting acquainted with it should be no problem! Anyway... My point is, you can always rely on me!"
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Visions appear in response to strong desire, so as someone with ideals, it's only natural that I should have received one. Because, above all, I wish for all people to live honest lives and abide by the law. But some people will always insist on playing by their own rules and causing havoc for everyone else... Hah, those people can expect to be prosecuted so hard, they won't know what hit them!"
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share: Balance",
+      "text": "This steelyard balance was a gift from my father. It weighs objects to determine their value. I usually use Mora for the weight, but it can only give the original price. For example, a thousand years ago, Liyue was covered in Glaze Lilies, and they weren't worth anything in monetary terms. Then, when they suddenly declined in number, the price shot up in response, but the value shown by this steelyard wasn't updated. It still shows them as their original value... in other words, dirt cheap.\\nSo, most of the time, this isn't a very useful tool for work purposes... Hmm? You want to try weighing something? How about... We could weigh your little friend here, will that do?"
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Something to Share: The Rule of Law",
+      "text": "I have a self-defense method that I call \"Wrath of the Flame,\" based on a punishment called the \"Wrath of the Rock,\" which is detailed in the ancient work \"The Comprehensive Compendium of Liyue Law.\" The Lord of Geo is the God of Contracts, and contracts, too, can be seen as a way of restraining people. Haha, ergo, Liyue Harbor has been the City of Contracts since time immemorial."
+    },
+    {
+      "id": "3004",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "The Historia Naturalis Liyue has an entry about a waterborne plant called the Horsetail. It claims that \"The Horsetail is a medicinal herb that stands alone on the banks of Dihua Marsh. Its color is that of the clouds at sunset.\" Apparently, if you grind it into a powder and mix it into your ink, it makes your writing water-resistant. But it's a shame, I've been to Dihua Marsh at least a hundred times, and each time I end up with baskets and baskets of the common purple variety, but not a single one of the kind that the book describes."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Qiqi",
+      "text": "I heard that little herb gatherer has written out a whole set of behavioral rules for herself. She may be small, but boy, has she got her head screwed on! She's definitely destined for greatness...\\n\"The young of today shall outperform us tomorrow,\" as they say. I must admit, she has my respect."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Ganyu",
+      "text": "Ganyu is kind and thoughtful, it's just a shame she's so busy all the time. Most of the time, she's buried in an endless pile of paperwork — the only exception being her nap at noon. Don't get me wrong, I have to put in some hours at work, too. But I'm happy with the job I've chosen, and it's certainly a lot less taxing than hers."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Xingqiu",
+      "text": "The Feiyun Commerce Guild is one of my oldest clients. Their approach to business is meticulous and thorough, and every business meeting I've had with them has always been attended by the head of the house himself. Last time, though, I happened to meet their youngest, Xingqiu. To my complete surprise, the lad had no trouble whatsoever keeping up with my train of thought. He was very eloquent, too, and had excellent manners. Mm, definitely not a simpleton."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Hu Tao",
+      "text": "I always hear people saying that the director of the Wangsheng Funeral Parlor has an unorthodox approach to business. They think she's gone a little non compos mentis after being in the funeral business so long... What are these people talking about? The Wangsheng Funeral Parlor provides a legitimate and necessary service, which is the cornerstone of any successful enterprise. Work is just work — there are no good and bad jobs, or lucky and unlucky jobs, just jobs that need doing.\\nIf I had one gripe, it would be that the director rarely comes to me for legal advice, hmph..."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Zhongli",
+      "text": "Mr. Zhongli has so much in-depth knowledge on so many topics, he's like a walking library, you know what I mean? He's a total savant, though he never flaunts it. I could tell just by looking at him. People like him rarely shy away from taking on complex problems alone, so in my estimation he's certainly not a potential client.\\nAnd yet, somehow, I can't help but think I know him from somewhere, it's hard to describe the feeling... I asked my father about it, and he just said something to the effect of he didn't know either, though he seemed a little evasive. It was so strange... Anyway, makes me wonder if my father is hiding something from me. Hmph, alright then — if he won't tell me what's going on, I'll just have to find out for myself..."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Ningguang",
+      "text": "You must have heard of the Tianquan, Ningguang? She's the highest authority where the law is concerned, and often makes amendments to the legal codices. Every round of additions, retractions, and revisions generates mountains of material. Why, the latest edition of the legal codices contained three new laws, 121 revised legal annotations, and an array of new legal precedents. Archons know how long it's going to take me to commit them to memory...\\nHmph... still, she's a businesswoman at heart, I'm not about to let her beat me when it comes to the law. Once I've finished memorizing these, I need to step up my productivity..."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Keqing",
+      "text": "The Yuheng doesn't deal with matters of the law, and thank goodness... Knowing Keqing's attitude toward work and ruthless efficiency, I'd end up losing a lot of work. Although... No, surely it wouldn't come to that. She's a stickler for doing things the right way — no doubt she'd offend people... but if she had someone like me as her legal assistant... No way! Why should an eminent legal expert such as myself be relegated to the role of assistant!? If she needs legal counsel, she can come and find me."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Eula",
+      "text": "Eula saved me once, and we've kept up correspondence ever since. She's very familiar with the Knights of Favonius' legislation, but has never been one to be bound by convention. She uses cunning logic to deal with problems flexibly... Perhaps the reason we get along so easily is that I'm a similar type myself. Still, I'll never acquire that carefree spirit of hers. We are in very different professions, after all."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Yelan",
+      "text": "Yelan is an employee of the Ministry of Civil Affairs — she once helped me crack a tough accounting fraud case. I treated her to dinner afterward. The only thing is... I feel like she's able to read my mind at any given moment when talking to her... Yes, in the future, I need to make absolutely sure I don't get on the wrong side of her."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Kuki Shinobu",
+      "text": "Shinobu? I remember her, she's the Inazuman girl that came to Liyue as an exchange student to specialize in law. When she was doing her coursework, she used to meet with me to discuss some cases, and after we were done, she'd always bow and thank me, which would always make me a little embarrassed. I always felt like she was going to make an excellent lawyer in the future. Thinking about it, Inazuma went into lockdown right around the time she would have graduated. I wonder how she's been doing since she went back..."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Yanfei: I",
+      "text": "A client? Very pleased to meet you, here's my card. I'm afraid I can't leave my desk today, if it's a dispute we're dealing with then please bring the relevant parties here to see me. Let me just give you a breakdown of my fees — one moment...\\nHuh? You came just to chat? Uh... no fee necessary then. So just to clarify... you came to chat as friends with a legal expert that you've never met before... care to explain?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Yanfei: II",
+      "text": "These antlers? Oh... well my father is an adeptus, so I have adeptus blood myself. Still, I was born during peacetime here in Liyue — I never signed a contract with Rex Lapis. Naturally, I don't have to concern myself with adeptal affairs — I'm free to focus on the life I want to live. Works for me! Hee-hee."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Yanfei: III",
+      "text": "Contracts of that magnitude — lifelong commitments... I've only ever signed one with my father. Uh... it's about living happily, I suppose. That's the kind of person he is. I'm proud of him for that. If he'd wanted me to sign a different contract, say... one about working myself into the ground, or stepping on others to achieve success... I would've ran away by now!"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Yanfei: IV",
+      "text": "Sometimes, the commercial disputes I handle don't end very pleasantly. The other party might win compensation way in excess of the damages, or pay damages far exceeding the costs... Such is the price of violating a contract. Some people say I'm pretty terrifying, others try to avoid me altogether, but I don't need to explain myself to anyone. Since the very beginning, the welfare of Liyue has been my primary concern!\\nThink about it — the origin of disputes can be traced back to the violation of contracts. People are a lot less likely to violate contracts when they see the fallout. Making sure that people realize the importance of contracts is a crucial part of my work!"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Yanfei: V",
+      "text": "Most of the time, I feel that I have a happy and laid back existence. I have a successful career, clothes on my back, and the freedom to go wherever I please. I've also got quite a way with words — nobody can beat me in a debate. And yet, there is no law or standard that can define a happy life.\\nFor me... interesting people and engaging affairs, knowing where to go and which path to choose... these are all enough to bring me happiness. And on that note, you too are a source of happiness for me.\\nIn any case, whatever the life you live, the most important thing is to respect and understand the law. After all, as soon as you stray from the law, the world begins to fall to ruin."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Yanfei's Hobbies",
+      "text": "My hobbies are reading and appraisal. Reading begets knowledge, appraisal improves judgment. As such, I read everything and appraise anything. If you don't believe me, bring something over sometime. If there's a market for it, my estimate won't be far off. Take this stone for example... must be... 600 Mora."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Yanfei's Troubles",
+      "text": "My friends from the Communications Office often get me to go fishing with them. They say it's to exchange angling tips, but deep down everyone's keen to show off. I've gotten the better of everyone a hundred different ways, but they continue to scrutinize my business... After so much success, it's gotten a little embarrassing... So every time, I end up taking advantage of my ingenious acting skills to make myself seem humble, you know? What's with the face — are you doubting me?"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Oh! On that note, let me recommend my one true love. Tofu — tofu all the way! Light in flavor, tender in texture, not to mention smooth and nourishing. It goes well with all manner of soups and dishes, and more importantly — it's available throughout the seasons! Beauty over complexity... tofu dishes are my kind of flavor."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I don't like cold dishes... maybe it's because I rarely eat them. When I would get home late, my father used to keep a lantern lit for me. He'd hear me coming and ask me if I was hungry. In his words: \"The best dishes are served hot.\""
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Tastes pretty great! Seems like you did your homework when it comes to the unwritten Law of Tofu."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "There's a saying in Liyue: \"Food is life.\" I gotta admit, the supporting evidence is pretty compelling."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "...I got it! I'll put it back on the fire for a bit, that'll do the trick."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday! Here, this is for you. I've collated legislation from all the nations — you're planning to go traveling, right? It will serve you well to familiarize yourself with the law of the different lands.\\nDon't study too hard mind you, or else... I won't be of any use to you."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "\"Do not seek to emulate the past, for there is no law that can suffice for all time\"... This is a lesson I must always bear in mind."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Only by adhering to the law can the people solve life's myriad of problems."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Studying the law allows one to have grounded conversations, whilst learning martial arts allows one to prevail against groundless violence. Hey, wait a minute... does this count as martial arts...?"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Well, I guess I've mastered both the pen and the sword! I've been lucky to have you with me through to the end of my training. Compensation? Uhh... a twenty-four-hour specialist personal advisor? Sounds good... But no haggling!"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Boom boom!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Incinerate!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Motion to compel!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Time for your arraignment!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Wrath of the Flame!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Inadmissible evidence!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Ooh, we can definitely write this off as \"incidental gains.\""
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Remarkable condition!"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Huh, let's appraise the value on this..."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Objection!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Keep within the law..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "But my defense was watertight..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Hey, leave it to me!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "The verdict is... emergency measures!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "It's a... hung jury..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "The law... has loopholes..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "I... object..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Ugh..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Next time, be sure to make a proper appointment."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "I charge a higher rate to meet outside the office."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Ready for trial."
+    }
+  ]
+}

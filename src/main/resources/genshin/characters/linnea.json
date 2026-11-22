@@ -1,0 +1,1739 @@
+{
+  "_id": 10000130,
+  "id": "linnea",
+  "name": "Linnea",
+  "title": "Augur of Wonders",
+  "description": "Naturalist and Advisor to the Nod-Krai Branch of the Adventurers' Guild.",
+  "weapon_type": {
+    "id": "bow",
+    "name": "Bow"
+  },
+  "element": {
+    "id": "geo",
+    "name": "Geo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1775509200,
+  "substat": "CRIT Rate",
+  "stats": {
+    "base": {
+      "hp": 770.28253,
+      "attack": 11.172,
+      "defense": 70.5994
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 660.44763,
+        "attack": 9.57828,
+        "defense": 60.534,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1129.7131,
+        "attack": 16.3839,
+        "defense": 103.545,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.048
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1755.4003,
+        "attack": 25.45806,
+        "defense": 160.893,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2224.6658,
+        "attack": 32.26368,
+        "defense": 203.904,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2693.9312,
+        "attack": 39.0693,
+        "defense": 246.915,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3163.1965,
+        "attack": 45.87492,
+        "defense": 289.926,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.192
+        }
+      }
+    ]
+  },
+  "affiliation": "Adventurers' Guild",
+  "region": {
+    "id": "nodkrai",
+    "name": "Nod-Krai"
+  },
+  "rarity": 5,
+  "birthday": [
+    23,
+    5
+  ],
+  "constellation": "Alcyon",
+  "domain": "Domain of Mastery: Fallen City",
+  "cv": {
+    "english": "Savanna Menzel",
+    "chinese": "周侗",
+    "japanese": "白石晴香",
+    "korean": "Kim Yun-chae"
+  },
+  "skills": [
+    {
+      "_id": 11301,
+      "id": "capture_protocol",
+      "name": "Capture Protocol",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 3 consecutive shots with a bow.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Performs a more precise <span style=\"color:#FFD780FF\">Aimed Shot</span> with increased DMG.<br/>While aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal <span style=\"color:#FFE699FF\">Geo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "59%",
+            "63.8%",
+            "68.6%",
+            "75.5%",
+            "80.3%",
+            "85.8%",
+            "93.3%",
+            "100.8%",
+            "108.4%",
+            "116.6%",
+            "124.9%",
+            "133.1%",
+            "141.3%",
+            "149.6%",
+            "157.8%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "51.2%",
+            "55.3%",
+            "59.5%",
+            "65.4%",
+            "69.6%",
+            "74.3%",
+            "80.9%",
+            "87.4%",
+            "94%",
+            "101.1%",
+            "108.3%",
+            "115.4%",
+            "122.5%",
+            "129.7%",
+            "136.8%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "81.6%",
+            "88.3%",
+            "94.9%",
+            "104.4%",
+            "111.1%",
+            "118.7%",
+            "129.1%",
+            "139.5%",
+            "150%",
+            "161.4%",
+            "172.8%",
+            "184.1%",
+            "195.5%",
+            "206.9%",
+            "218.3%"
+          ]
+        },
+        {
+          "label": "Aimed Shot",
+          "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.7%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "92.8%",
+            "98.9%",
+            "105.1%",
+            "111.2%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Fully-Charged Aimed Shot",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11302,
+      "id": "countermeasure_lumis_battle_cry",
+      "name": "Countermeasure: Lumi's Battle Cry!",
+      "description": "Adventure with Lumi! Depending on how you Tap, Lumi attacks in different forms.<br/><br/><span style=\"color:#FFD780FF\">Tap</span><br/>Lumi strikes in a <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11300001\">Super Power Form</link></span>, attacking nearby enemies continuously, dealing <span style=\"color:#FFE699FF\">AoE Geo DMG</span>. If there are Moondrifts nearby, Lumi will also deal <span style=\"color:#FFE699FF\">AoE Geo DMG</span> to nearby enemies, which will be considered Lunar-Crystallize Reaction DMG.<br/><br/><span style=\"color:#FFD780FF\">Continuous Tapping</span><br/>Time to show what we're really capable of! After using her Elemental Skill, Linnea will feed Lumi sparkling gemstones when her Elemental Skill or Normal Attack is Tapped repeatedly. A full-bellied Lumi will strike in her <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11300001\">Ultimate Power Form</link></span>, dealing an especially powerful instance of <span style=\"color:#FFE699FF\">AoE Geo DMG</span> that is considered Lunar-Crystallize Reaction DMG, switching to <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11300001\">Standard Power Form</link></span>.<br/>Additionally, tapping the Elemental Skill increases Linnea's interruption resistance.",
+      "info": "\"You're up, Lumi!\"",
+      "attributes": [
+        {
+          "label": "Lumi Pound-Pound Pummeler DMG",
+          "values": [
+            "96% DEF ×2",
+            "103.2% DEF ×2",
+            "110.4% DEF ×2",
+            "120% DEF ×2",
+            "127.2% DEF ×2",
+            "134.4% DEF ×2",
+            "144% DEF ×2",
+            "153.6% DEF ×2",
+            "163.2% DEF ×2",
+            "172.8% DEF ×2",
+            "182.4% DEF ×2",
+            "192% DEF ×2",
+            "204% DEF ×2",
+            "216% DEF ×2",
+            "228% DEF ×2"
+          ]
+        },
+        {
+          "label": "Lumi Heavy Overdrive Hammer DMG",
+          "values": [
+            "100% DEF",
+            "107.5% DEF",
+            "115% DEF",
+            "125% DEF",
+            "132.5% DEF",
+            "140% DEF",
+            "150% DEF",
+            "160% DEF",
+            "170% DEF",
+            "180% DEF",
+            "190% DEF",
+            "200% DEF",
+            "212.5% DEF",
+            "225% DEF",
+            "237.5% DEF"
+          ]
+        },
+        {
+          "label": "Lumi Million Ton Crush DMG",
+          "values": [
+            "400% DEF",
+            "430% DEF",
+            "460% DEF",
+            "500% DEF",
+            "530% DEF",
+            "560% DEF",
+            "600% DEF",
+            "640% DEF",
+            "680% DEF",
+            "720% DEF",
+            "760% DEF",
+            "800% DEF",
+            "850% DEF",
+            "900% DEF",
+            "950% DEF"
+          ]
+        },
+        {
+          "label": "Lumi Duration",
+          "values": [
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11305,
+      "id": "memo_survival_guide_in_extreme_conditions",
+      "name": "Memo: Survival Guide in Extreme Conditions",
+      "description": "Even master adventurers need proper rest! Linnea summons Lumi to strike in <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11300001\">Super Power Form</link></span>, healing nearby party members. For a short duration, she will continuously heal nearby active party members based on Linnea's DEF.<br/>If Lumi is already on the field when Linnea unleashes Elemental Burst, Lumi's active duration will be reset instead and her Strike Form will not change.",
+      "info": "\"Any professional adventurer worth their salt prizes making it out of a serious jam over making discoveries, however unprecedented!\"",
+      "attributes": [
+        {
+          "label": "Initial Healing Amount",
+          "values": [
+            "160% DEF + 770",
+            "172% DEF + 847",
+            "184% DEF + 931",
+            "200% DEF + 1021",
+            "212% DEF + 1117",
+            "224% DEF + 1220",
+            "240% DEF + 1329",
+            "256% DEF + 1445",
+            "272% DEF + 1567",
+            "288% DEF + 1695",
+            "304% DEF + 1830",
+            "320% DEF + 1971",
+            "340% DEF + 2119",
+            "360% DEF + 2273",
+            "380% DEF + 2433"
+          ]
+        },
+        {
+          "label": "Continuous Healing",
+          "values": [
+            "32% DEF + 154",
+            "34.4% DEF + 169",
+            "36.8% DEF + 186",
+            "40% DEF + 204",
+            "42.4% DEF + 223",
+            "44.8% DEF + 244",
+            "48% DEF + 266",
+            "51.2% DEF + 289",
+            "54.4% DEF + 313",
+            "57.6% DEF + 339",
+            "60.8% DEF + 366",
+            "64% DEF + 394",
+            "68% DEF + 424",
+            "72% DEF + 455",
+            "76% DEF + 487"
+          ]
+        },
+        {
+          "label": "Healing Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "field_observation_notes",
+      "name": "Field Observation Notes",
+      "description": "When Lumi is present on the field, the <span style=\"color:#FFE699FF\">Geo RES</span> of opponents near Lumi will decrease by 15%.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span>: Linnea's Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"countermeasure_lumis_battle_cry\">Countermeasure: Lumi's Battle Cry!</link></span> and Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"memo_survival_guide_in_extreme_conditions\">Memo: Survival Guide in Extreme Conditions</link></span> are enhanced. After summoning Lumi, the <span style=\"color:#FFE699FF\">Geo RES</span> of opponents near Lumi will be further decreased by 15%.",
+      "level": 1
+    },
+    {
+      "id": "universal_naturalist_archive",
+      "name": "Universal Naturalist Archive",
+      "description": "Linnea will increase the Elemental Mastery of certain characters in your party according to your current active character. Increase in Elemental Mastery is based on 5% of Linnea's DEF. If your current active character:<br/>· Is a Moonsign character: Increase this character's Elemental Mastery.<br/>· Is not a Moonsign character: Increase Linnea's own Elemental Mastery.",
+      "level": 4
+    },
+    {
+      "id": "moonsign_benediction_habitat_survey",
+      "name": "Moonsign Benediction: Habitat Survey",
+      "description": "When a party member triggers a Hydro Crystallize reaction, it will be converted into the Lunar-Crystallize reaction, with every 100 DEF that Linnea has increasing Lunar-Crystallize's Base DMG by 0.7%, up to a maximum of 14%.<br/><br/>Additionally, when Linnea is in the party, the party's <span style=\"color:#FFD780FF\">Moonsign</span> will increase by 1 level.",
+      "level": 0
+    },
+    {
+      "id": "master_adventurer",
+      "name": "Master Adventurer",
+      "description": "When Linnea is not in combat, the charge time of her <span style=\"color:#FFD780FF\">Aimed Shot</span> is greatly decreased, and she will shoot an <span style=\"color:#FFD780FF\">Ultra Convenient Quick Arrow</span> instead. Different effects will occur depending on the targets hit:<br/>· Specific animals: <span style=\"color:#FFD780FF\">Ultra Convenient Quick Arrow</span> will be transformed into a special \"Net\" that can capture the essence and form of these animals, using them as a medium to manifest the animal's physical form again. The \"Net\" can only be used for a limited number of times each week. <br/>· Ore veins used in forging: Linnea will dispatch Lumi, who will quickly strike at the ore marked by the <span style=\"color:#FFD780FF\">Ultra Convenient Quick Arrow</span>, then collect the dislodged ore. If Lumi is not on the field, Linnea will summon her for a short duration to help obtain the ore.<br/><br/>The DMG dealt to opponents by Linnea's <span style=\"color:#FFD780FF\">Ultra Convenient Quick Arrow</span> is reduced to 20% of her original Charged Arrow. Additionally, after firing a certain number of <span style=\"color:#FFD780FF\">Ultra Convenient Quick Arrows</span> within a short period of time, Linnea needs to take a temporary break before she can continue using them.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1301,
+      "id": "provisional_classification",
+      "name": "Provisional Classification",
+      "description": "When unleashing Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"countermeasure_lumis_battle_cry\">Countermeasure: Lumi's Battle Cry!</link></span>, or when triggering Moondrift Harmony, Linnea gains 6 stacks of the <span style=\"color:#FFD780FF\">Field Catalog</span> effect for 10s. Max 18 stacks. When nearby party members deal Lunar-Crystallize Reaction DMG, consume 1 stack of Field Catalog to increase the DMG dealt. The increase in DMG is equal to 75% of Linnea's DEF.<br/>Additionally, when Lumi uses <span style=\"color:#FFD780FF\">Million Ton Crush</span> in her <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11300001\">Ultimate Power Form</link></span>, Linnea can consume up to 5 stacks of Field Catalog. Each stack will increase the DMG dealt by 150% of Linnea's DEF.",
+      "level": 1
+    },
+    {
+      "_id": 1302,
+      "id": "tidings_of_joy_and_sorrow",
+      "name": "Tidings of Joy and Sorrow",
+      "description": "Within 8s after triggering Moondrift Harmony, all <span style=\"color:#80C0FFFF\">Hydro</span> and <span style=\"color:#FFE699FF\">Geo</span> party members have their CRIT DMG increased by 40%. Additionally, when Lumi uses <span style=\"color:#FFD780FF\">Million Ton Crush</span> in her <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11300001\">Ultimate Power Form</link></span>, the CRIT DMG of that attack increases by an additional 150%. <br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span>: When Lumi uses <span style=\"color:#FFD780FF\">Heavy Overdrive Hammer</span> in her <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11300001\">Super Power Form</link></span>, or when she uses <span style=\"color:#FFD780FF\">Million Ton Crush</span> in her Ultimate Power Form, an instance of Moondrift Harmony will be triggered. For this instance of Moondrift Harmony, all <span style=\"color:#80C0FFFF\">Hydro</span> and <span style=\"color:#FFE699FF\">Geo</span> characters in the party will be considered to have applied their Elements in the reaction.",
+      "level": 2
+    },
+    {
+      "_id": 1303,
+      "id": "eventful_log_page",
+      "name": "Eventful Log Page",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"countermeasure_lumis_battle_cry\">Countermeasure: Lumi's Battle Cry!</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1304,
+      "id": "expert_instinct",
+      "name": "Expert Instinct",
+      "description": "Within 5s after Moondrift Harmony is triggered, increase the DEF of Linnea and your current active character by 25% respectively. When Linnea is on field, the DEF-increasing effect can be stacked.",
+      "level": 4
+    },
+    {
+      "_id": 1305,
+      "id": "fairylands_farewell_gift",
+      "name": "Fairyland's Farewell Gift",
+      "description": "Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"memo_survival_guide_in_extreme_conditions\">Memo: Survival Guide in Extreme Conditions</link></span> increases by 3 Levels.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1306,
+      "id": "golden_beagles_dream",
+      "name": "Golden Beagle's Dream",
+      "description": "The effects of the Constellation, <span style=\"color:#FFD780FF\">Provisional Classification</span>, are enhanced: When unleashing Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"countermeasure_lumis_battle_cry\">Countermeasure: Lumi's Battle Cry!</link></span>, or when triggering Moondrift Harmony, Linnea will directly gain the maximum number of <span style=\"color:#FFD780FF\">Field Catalog</span> stacks. When consuming <span style=\"color:#FFD780FF\">Field Catalog</span>, consume twice the original number of stacks, such that the increase in DMG will be boosted to 150% of the original value.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span>: Lunar-Crystallize Reaction DMG dealt by nearby party members is <link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">elevated</span></link> by 25%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "770"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "11"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "71"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "-",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "1998",
+            "2659"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "29",
+            "39"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "183",
+            "244"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "3978",
+            "4447"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "58",
+            "65"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "365",
+            "408"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "9.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104171,
+        "id": "prithiva_topaz_sliver",
+        "name": "Prithiva Topaz Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101272,
+        "id": "etherwing_moth",
+        "name": "Etherwing Moth",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112125,
+        "id": "tattered_warrant",
+        "name": "Tattered Warrant",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5117",
+            "5742"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "74",
+            "83"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "469",
+            "526"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "9.8%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113086,
+        "id": "plume_of_the_fallen_watcher",
+        "name": "Plume of the Fallen Watcher",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101272,
+        "id": "etherwing_moth",
+        "name": "Etherwing Moth",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112125,
+        "id": "tattered_warrant",
+        "name": "Tattered Warrant",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6419",
+            "6888"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "93",
+            "100"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "588",
+            "631"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113086,
+        "id": "plume_of_the_fallen_watcher",
+        "name": "Plume of the Fallen Watcher",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101272,
+        "id": "etherwing_moth",
+        "name": "Etherwing Moth",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112126,
+        "id": "immaculate_warrant",
+        "name": "Immaculate Warrant",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7570",
+            "8040"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "110",
+            "117"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "694",
+            "737"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "19.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113086,
+        "id": "plume_of_the_fallen_watcher",
+        "name": "Plume of the Fallen Watcher",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101272,
+        "id": "etherwing_moth",
+        "name": "Etherwing Moth",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112126,
+        "id": "immaculate_warrant",
+        "name": "Immaculate Warrant",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8730",
+            "9199"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "127",
+            "133"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "800",
+            "843"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "19.4%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113086,
+        "id": "plume_of_the_fallen_watcher",
+        "name": "Plume of the Fallen Watcher",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101272,
+        "id": "etherwing_moth",
+        "name": "Etherwing Moth",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112127,
+        "id": "frostetched_warrant",
+        "name": "Frost-Etched Warrant",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9895",
+            "9895"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "144",
+            "144"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "907",
+            "907"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "24.2%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104174,
+        "id": "prithiva_topaz_gemstone",
+        "name": "Prithiva Topaz Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113086,
+        "id": "plume_of_the_fallen_watcher",
+        "name": "Plume of the Fallen Watcher",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101272,
+        "id": "etherwing_moth",
+        "name": "Etherwing Moth",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112127,
+        "id": "frostetched_warrant",
+        "name": "Frost-Etched Warrant",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104362,
+          "id": "teachings_of_vagrancy",
+          "name": "Teachings of Vagrancy",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112125,
+          "id": "tattered_warrant",
+          "name": "Tattered Warrant",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104363,
+          "id": "guide_to_vagrancy",
+          "name": "Guide to Vagrancy",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104363,
+          "id": "guide_to_vagrancy",
+          "name": "Guide to Vagrancy",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104363,
+          "id": "guide_to_vagrancy",
+          "name": "Guide to Vagrancy",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104363,
+          "id": "guide_to_vagrancy",
+          "name": "Guide to Vagrancy",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104364,
+          "id": "philosophies_of_vagrancy",
+          "name": "Philosophies of Vagrancy",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113083,
+          "id": "elixir_of_the_heretic",
+          "name": "Elixir of the Heretic",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104364,
+          "id": "philosophies_of_vagrancy",
+          "name": "Philosophies of Vagrancy",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113083,
+          "id": "elixir_of_the_heretic",
+          "name": "Elixir of the Heretic",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104364,
+          "id": "philosophies_of_vagrancy",
+          "name": "Philosophies of Vagrancy",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113083,
+          "id": "elixir_of_the_heretic",
+          "name": "Elixir of the Heretic",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104364,
+          "id": "philosophies_of_vagrancy",
+          "name": "Philosophies of Vagrancy",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113083,
+          "id": "elixir_of_the_heretic",
+          "name": "Elixir of the Heretic",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 213000,
+      "name": "Lone Feather's Omen",
+      "description": "Linnea's outfit. A custom-made costume for adventure that combines aesthetics with practicality. It even includes a small, portable cabin for Lumi (and any other friends who might visit in the future). The only problem is, there's just a single window to the outside world. Who gets the window seat is a matter that may call for some serious deliberation between Linnea and her friends.",
+      "isDefault": true,
+      "characterName": "Linnea",
+      "characterId": 10000130,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Linnea_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Hey there! I'm Linnea, an advisor with the Adventurers' Guild, and this little thing is my buddy, Lumi. If you've got any questions about adventuring in the wild, I'm your gal! Oh yeah — and if you ever come across any strange or unusual creatures on your adventures, be sure to tell me all about it!"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Lumi",
+      "text": "Lumi is just too cute. But she does have a bad habit of swallowing any shiny thing she lays her eyes on! So keep your valuables well away, or you might never see them again, hehe..."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: \"Speranza\"",
+      "text": "If you ask me what's the one place you should visit in Nasha Town... Obviously, I'm gonna say \"Speranza.\" I know I'm biased, but seriously — you should give it a try. Katya's cooking will not disappoint you."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Archive",
+      "text": "You wanna see my archive? Of course! I'm always happy to show off my masterpiece, hehe. I even did the illustrations."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "Ah, the scent of wet soil... That's the world waking up."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "So cold... Hey, you wanna build a snowman? Lumi can come help out! ...Ah! No need for the hammers!"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It's Windy",
+      "text": "I wonder where the dandelion seeds will fly to this time..."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "\"Sleep, close your eyes. Yon golden slumber summons thee, wandering sand. Drink not that bitter salt water, for the sorrows of tomorrow have gone away.\""
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning! Take a whiff of the air outside. Nothing beats the fresh scent of dewy grass."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "It's about time I ate something to boost my energy levels. The day's still young, and there's so much I want to accomplish!"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "If you're not sleepy yet... How about we stay here and stargaze for a while?"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Phew, we did a lot of walking today. I should get some sleep... Good night, and sweet dreams!"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Linnea: Seeking and Waiting",
+      "text": "There are so many weird and wonderful creatures in this world, but trying to uncover their secrets is like playing hide-and-seek with a really shy friend... Luckily for me, I'm good at seeking, and good at the waiting game, too."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Linnea: Childhood",
+      "text": "Even though I didn't get to live with my real family, I know they loved me in their own way... I grew up nurtured by a very different kind of love from what most kids experience."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Travel Experiences",
+      "text": "Wow... It's amazing that so many incredible stories can even fit inside one person's head! I've learned so much from talking with you... Heck, maybe I should recommend you to the Adventurers' Guild as an advisor, too!"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Sharing",
+      "text": "You pretty much know my whole story by now, but I've only gotten a tiny glimpse into your world... If you're open to it, I'd love to hear all about your past adventures that I wasn't there for. In return... I'll save you a spot on the Golden Beagle!"
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Moon Wheel",
+      "text": "I'm gonna let you in on a secret... I actually don't even need that thing. My powers work just fine without it. But I kept it as a decoration since Lumi seems to like it... probably 'cause it's so shiny."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "It's said that Nod-Krai was once covered by a vast, primeval forest. Pine Amber was the resin that flowed from the towering trees, colorfully dubbed \"Tears of the Grand Pines.\" Centuries on, the forest has vanished but the tears have never dried... Still, if I can just collect enough of these fragments of history, I can recreate how the ancient world looked in my mind's eye. It fills me with the same sense of wonder you get from admiring ancient relics. I live for that feeling... which is why I'll never be able to stop adventuring."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Hehe... Melusines are soooo cute! I'd give anything to spend some time living among them in Merusea Village... Sadly, I've begged and begged, but the answer is always no. I wonder why they're so against it?"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Aino",
+      "text": "Oh, we were in the Conch Gang together, you know. Aino was such a cutie when she was little. Then at some point, she became all about her machines... Oh, uh, Aino's still pretty little, I guess — and still super cute. Her hobbies though? Not so much... Don't get me wrong, I totally support her no matter what she's into! It's just... I can't really handle being around moving machines... Probably something to do with me being a changeling."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Ineffa",
+      "text": "I hear she makes the sweetest, most delicious krumkakes around. Sadly, I've never had a chance to try one, because I instinctively run away the moment she shows up... Even though I'm pretty sure she just wants to ask me a question. *sigh* Maybe next time I visit, I should get Aino to tie me to a chair so I can finally hear what she has to say, hehe..."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Lauma",
+      "text": "Her antlers are so pretty... Once, I very politely asked her if I could touch them. She, uh, very politely refused. Turns out the Frostmoon Scions are even stricter than the Melusines..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Flins",
+      "text": "I feel like Mr. Flins has to be one of the most knowledgeable Fae out there. I haven't even spoken with him that much, but I learned a lot from the few conversations we've had."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Nefer",
+      "text": "Anyone who's active in Nod-Krai is bound to end up crossing paths with the Curatorium of Secrets eventually. Miss Nefer is incredibly efficient — you won't find a more reliable partner than her. But I'm actually more interested in her cat than her intel. Ashru, oh Ashru... you are no ordinary kitty, that's for sure..."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Illuga",
+      "text": "He's pretty young for a squad leader in the Lightkeepers. Must be a pretty talented guy. Unfortunately, we met under slightly chaotic circumstances, so I probably didn't make a great impression... I really hope he'll still let me do the archive entry for Aedon..."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Sandrone",
+      "text": "I dunno if you knew this, but Katheryne from the Adventurers' Guild was actually created by the Fatui Harbinger, Marionette. Strangely enough, I don't feel any kind of aversion towards Katheryne, even though I usually can't handle moving machines... Must be something to do with the technology Marionette used — whatever that could be. Anyway, it's just as well, 'cause otherwise I'd have to get Sarin or someone else to pick up my commissions from the Guild for me. If I ever get the chance to meet Marionette, I owe her a huge thank-you!"
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Vodyanitsa",
+      "text": "Audiences at the opera house go crazy for her, completely unaware that all they're hearing is the echo of the ocean waves. I'm sure she has her reasons... but I can sense an allure hidden deep within her singing voice that, if ever unleashed, would bewitch everyone within earshot and sentence them to certain doom!"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Linnea: I",
+      "text": "Wait, you have questions about me? Not my archive, or adventuring tips? Huh, well that's a perspective I don't think about every day. If I was the object of my own observations... what conclusions would I draw?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Linnea: II",
+      "text": "Even though I'm no longer a member of the Conch Gang, I still go back and see everyone when I have the time. Speranza is like a home to me, and I suspect that having that one place I could always go back to was the only reason I found the courage to explore this world. The selfless love that they showed me when I was feeling lost and desperate helped me to realize that the world hadn't rejected me after all..."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Linnea: III",
+      "text": "Something I used to worry about was, how Lumi would cope outside of the tundra? Especially when I was getting ready for my trip to Natlan. I was so scared, I could barely sleep... What if Lumi slowly melted like a snowman in high temperatures? *shudder*... just thinking about it now still scares me! Fortunately, from what I've observed, temperature doesn't really affect Lumi. Even one time when she nearly fell into lava, she was still grinning away happily. Pretty incredible for a Jack Frost, I gotta say."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Linnea: IV",
+      "text": "\"Go, child of the fae. Make your way to the villages and towns and seek kinship with the humans. The world of the fae is rife with a sorrow you do not understand...\" My parents tried to free me from the river of fate by placing me in a human cradle, hoping that humanity's ignorance of their fate would shield me like a cocoon, protecting me against the damage of premature grief. There was a time when I didn't understand, but now I know the truth — theirs was a love born of sorrow... Perhaps the scars will never fade, but better a scar than a bleeding wound."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Linnea: V",
+      "text": "Like my sister says, it's possible that one day in the future, the fate of the Augury Birds will come for me eventually. But until then, I just want to enjoy the process of exploring the world and understanding the unknown. I want to sail the Golden Beagle to every corner of Teyvat, and fill every page in my archive... Who knows, maybe when that day comes, I'll be able to understand my sister's pain and loneliness for myself... I'll give her a big old hug, and we'll be closer than ever."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Linnea's Hobbies",
+      "text": "When I'm observing other creatures, I like to imagine being one of them, living a totally different life from my own... Just think what it would be like to be a Melusine! I'd be able to see all the colors that they see. Although, things like that are kind of impossible to imagine without seeing it for yourself."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Linnea's Troubles",
+      "text": "I put a lot of time and effort into building my ore collection, but somehow, a few samples always seem to go missing... Wait, maybe... is Lumi eating them...? Lumi, open your mouth! Say \"Aaah\"!"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I like sweet stuff. Newly picked berries with beads of dew on them, sugar sculptures made of fresh honey, cakes hot out of the oven... Just wish they were more readily available when I'm out adventuring in the wild."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I wouldn't say that there's any food I really hate, apart from the stuff that's super unhealthy. The idea of throwing away perfectly edible food just because it's not quite to my personal tastes seems very wasteful."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Mmm! This is delicious! How did you make it? Can you teach me?"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Yum! Next time, it's my turn. I wanna see what you think of my cooking."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Uhh... Well... at least it's not a health risk."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy Birthday... This isn't the most valuable gift, but it's something I've had in my collection for a long time... Please accept this fossil. See this? These are bone and feather impressions from a long-extinct bird species. They'll never fly again, and yet the moment that this one spread its wings has left an imprint that will last long into the future. So, even if life fades in the end, there will always be some proof of our existence left behind. May your life be as tenacious as an old tree, with each and every ring telling a beautiful tale."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "My senses have become keener."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "I've gained a deeper understanding of the things in this world."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "I can feel the flow of energy... Like a sailor who has mastered the patterns of the ocean currents. This voyage will be much smoother from here on out."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "My knowledge is transforming into intuition... I believe in this world as I do in a daisy."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Go, Lumi!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Come say hi!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Show 'em, Lumi!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Take this!"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Like it or lump it!"
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Comin' in hot!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "A gift from the Land of the Young."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Shine like a gemstone!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "As you like it!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Well? Any good stuff in there?"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "So shiny... Lumi, no! You can't eat that!"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "This is a pretty good haul! Lucky you!"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "I still got this..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "That wasn't supposed to happen..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Need to be more careful..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Hey, I got you!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Bandages at the ready!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "I chose wrong..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "It's just a nightmare..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "But... my future..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Uh oh..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: II",
+      "text": "Oof...!"
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "That's nothing!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Okay, that hurt..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Lumi! Time to go!"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Where are we gonna explore today?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Looking for me? Ready whenever!"
+    }
+  ],
+  "effects": {
+    "11190007": {
+      "name": "Elevation",
+      "description": "Special DMG Boost effect. It is calculated independently of other DMG Boost effects.",
+      "color": ""
+    },
+    "11300001": {
+      "name": "Lumi: Strike Forms",
+      "description": "Lumi has three different Strike Forms.<br/><br/><span style=\"color:#FFD780FF\">Super Power Form</span><br/>Lumi will use <span style=\"color:#FFD780FF\">Pound-Pound Pummeler</span> to attack nearby opponents continuously. Every attack will deal 2 instances of <span style=\"color:#FFE699FF\">AoE Geo DMG</span>.<br/>If there are Moondrifts nearby, Lumi will alternate between <span style=\"color:#FFD780FF\">Pound-Pound Pummeler</span> and <span style=\"color:#FFD780FF\">Heavy Overdrive Hammer</span> to continuously attack nearby opponents . <span style=\"color:#FFD780FF\">Heavy Overdrive Hammer</span> will deal <span style=\"color:#FFE699FF\">AoE Geo DMG</span> which will be considered Lunar-Crystallize Reaction DMG.<br/><br/><span style=\"color:#FFD780FF\">Ultimate Power Form</span><br/>Lumi will use the ultimate <span style=\"color:#FFD780FF\">Million Ton Crush</span>, dealing an especially powerful instance of <span style=\"color:#FFE699FF\">AoE Geo DMG</span> that is considered Lunar-Crystallize Reaction DMG, switching to <span style=\"color:#FFD780FF\">Standard Power Form</span>.<br/><br/><span style=\"color:#FFD780FF\">Standard Power Form</span><br/>It might not be as flashy as the other forms, but it still packs a serious punch.<br/>Lumi will use <span style=\"color:#FFD780FF\">Pound-Pound Pummeler</span> at longer intervals to attack nearby opponents continuously. Every attack will deal 2 instances of <span style=\"color:#FFE699FF\">AoE Geo DMG</span>.",
+      "color": ""
+    }
+  }
+}

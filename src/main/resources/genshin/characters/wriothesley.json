@@ -1,0 +1,1711 @@
+{
+  "_id": 10000086,
+  "id": "wriothesley",
+  "name": "Wriothesley",
+  "title": "Emissary of Solitary Iniquity",
+  "description": "Duke of the Fortress of Meropide, Lord Incognito of the murky depths.",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1697554800,
+  "substat": "CRIT DMG",
+  "stats": {
+    "base": {
+      "hp": 1058.1852,
+      "attack": 24.206,
+      "defense": 59.41119
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 907.29816,
+        "attack": 20.75294,
+        "defense": 50.9409,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1551.9573,
+        "attack": 35.49845,
+        "defense": 87.13575,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2411.503,
+        "attack": 55.15913,
+        "defense": 135.39555,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 70,
+        "hp": 3056.162,
+        "attack": 69.90464,
+        "defense": 171.5904,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3700.8213,
+        "attack": 84.65015,
+        "defense": 207.78525,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.288
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4345.4805,
+        "attack": 99.39566,
+        "defense": 243.9801,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.384
+        }
+      }
+    ]
+  },
+  "affiliation": "Fortress of Meropide",
+  "region": {
+    "id": "fontaine",
+    "name": "Fontaine"
+  },
+  "rarity": 5,
+  "birthday": [
+    23,
+    11
+  ],
+  "constellation": "Cerberus",
+  "domain": "Pale Forgotten Glory",
+  "cv": {
+    "english": "Joe Zieja",
+    "chinese": "刘北辰",
+    "japanese": "小野大輔",
+    "korean": "Kwon Chang-wook"
+  },
+  "skills": [
+    {
+      "_id": 10861,
+      "id": "forceful_fists_of_frost",
+      "name": "Forceful Fists of Frost",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Coalescing frost about his fist, Wriothesley will unleash powerful <span style=\"color:#FFD780FF\">Repelling Fists</span>, performing up to 5 rapid attacks that deal <span style=\"color:#99FFFFFF\">Cryo DMG</span>.<br/>Apart from this, Normal Attack combo count will not reset for a short time after using Icefang Rush or sprinting.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a fixed amount of Stamina to leap and unleash a <span style=\"color:#FFD780FF\">Vaulting Fist</span>, dealing <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "53.4%",
+            "57.7%",
+            "62%",
+            "68.3%",
+            "72.6%",
+            "77.6%",
+            "84.4%",
+            "91.2%",
+            "98%",
+            "105.5%",
+            "112.9%",
+            "120.4%",
+            "127.8%",
+            "135.3%",
+            "142.7%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "51.8%",
+            "56%",
+            "60.2%",
+            "66.3%",
+            "70.5%",
+            "75.3%",
+            "81.9%",
+            "88.5%",
+            "95.2%",
+            "102.4%",
+            "109.6%",
+            "116.8%",
+            "124.1%",
+            "131.3%",
+            "138.5%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "67.2%",
+            "72.7%",
+            "78.2%",
+            "86%",
+            "91.5%",
+            "97.7%",
+            "106.3%",
+            "114.9%",
+            "123.5%",
+            "132.9%",
+            "142.3%",
+            "151.6%",
+            "161%",
+            "170.4%",
+            "179.8%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "37.9% + 37.9%",
+            "41% + 41%",
+            "44.1% + 44.1%",
+            "48.5% + 48.5%",
+            "51.6% + 51.6%",
+            "55.1% + 55.1%",
+            "59.9% + 59.9%",
+            "64.8% + 64.8%",
+            "69.6% + 69.6%",
+            "74.9% + 74.9%",
+            "80.2% + 80.2%",
+            "85.5% + 85.5%",
+            "90.8% + 90.8%",
+            "96.1% + 96.1%",
+            "101.4% + 101.4%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "90.7%",
+            "98.1%",
+            "105.5%",
+            "116.1%",
+            "123.5%",
+            "131.9%",
+            "143.5%",
+            "155.1%",
+            "166.7%",
+            "179.4%",
+            "192%",
+            "204.7%",
+            "217.4%",
+            "230%",
+            "242.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "153%",
+            "164.4%",
+            "175.9%",
+            "191.2%",
+            "202.7%",
+            "214.1%",
+            "229.4%",
+            "244.7%",
+            "260%",
+            "275.3%",
+            "290.6%",
+            "305.9%",
+            "325%",
+            "344.2%",
+            "363.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10862,
+      "id": "icefang_rush",
+      "name": "Icefang Rush",
+      "description": "Adjusting his breathing, rhythm, and pace, Wriothesley sprints forward a short distance, entering the <span style=\"color:#FFD780FF\">Chilling Penalty</span> state and unleashing more powerful attacks than before.<br/><br/><span style=\"color:#FFD780FF\">Chilling Penalty</span><br/>·Increases Wriothesley's interruption resistance<br/>·When his HP is above 50%, it will enhance the Repelling Fists of <span style=\"color:#FFD780FF\">Normal Attack: Forceful Fists of Frost</span> and increase its DMG. When such an attack hits, it will consume a fixed amount of Wriothesley's HP. HP can be lost this way once every 0.1s.<br/>This effect will be canceled should Wriothesley leave the field.",
+      "info": "\"Past convictions are past. It is our future choices that we must grasp.\"<br/>\"Defy your fate, or else this glutton be, to pay your fate's due, by the crime and thee.\"",
+      "attributes": [
+        {
+          "label": "Enhanced Repelling Fist DMG",
+          "values": [
+            "143.2% Normal Attack DMG",
+            "145.8% Normal Attack DMG",
+            "148.3% Normal Attack DMG",
+            "151.7% Normal Attack DMG",
+            "154.3% Normal Attack DMG",
+            "156.9% Normal Attack DMG",
+            "160.2% Normal Attack DMG",
+            "163.6% Normal Attack DMG",
+            "167% Normal Attack DMG",
+            "170.3% Normal Attack DMG",
+            "173.7% Normal Attack DMG",
+            "177% Normal Attack DMG",
+            "180.4% Normal Attack DMG",
+            "183.8% Normal Attack DMG",
+            "187.1% Normal Attack DMG"
+          ]
+        },
+        {
+          "label": "HP Cost",
+          "values": [
+            "4.5% Max HP",
+            "4.5% Max HP",
+            "4.5% Max HP",
+            "4.5% Max HP",
+            "4.5% Max HP",
+            "4.5% Max HP",
+            "4.5% Max HP",
+            "4.5% Max HP",
+            "4.5% Max HP",
+            "4.5% Max HP",
+            "4.5% Max HP",
+            "4.5% Max HP",
+            "4.5% Max HP",
+            "4.5% Max HP",
+            "4.5% Max HP"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10865,
+      "id": "darkgold_wolfbite",
+      "name": "Darkgold Wolfbite",
+      "description": "Activating his boxing gloves, Wriothesley strikes out with an icy straight, then uses Icicle Impact to cause multiple instances of <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> in a frontal area.<br/><br/><span style=\"color:#FFD780FF\">Arkhe: Ousia</span><br/>After Icicle Impact ends, a Surging Blade will descend upon the opponent's position, dealing Ousia-aligned <span style=\"color:#99FFFFFF\">Cryo DMG</span>.",
+      "info": "There are some things that even the Duke of the Fortress of Meropide can do little about — for example, complicated paperwork, the trivialities of a supervisor, or even... little kids pasting a whole host of cute but difficult-to-remove stickers on his boxing gloves.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "127.2%×5",
+            "136.74%×5",
+            "146.28%×5",
+            "159%×5",
+            "168.54%×5",
+            "178.08%×5",
+            "190.8%×5",
+            "203.52%×5",
+            "216.24%×5",
+            "228.96%×5",
+            "241.68%×5",
+            "254.4%×5",
+            "270.3%×5",
+            "286.2%×5",
+            "302.1%×5"
+          ]
+        },
+        {
+          "label": "Surging Blade DMG",
+          "values": [
+            "42.4%",
+            "45.58%",
+            "48.76%",
+            "53%",
+            "56.18%",
+            "59.36%",
+            "63.6%",
+            "67.84%",
+            "72.08%",
+            "76.32%",
+            "80.56%",
+            "84.8%",
+            "90.1%",
+            "95.4%",
+            "100.7%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Surging Blade CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "there_shall_be_a_plea_for_justice",
+      "name": "There Shall Be a Plea for Justice",
+      "description": "When Wriothesley's HP is less than 60%, he will obtain a Gracious Rebuke. The next Charged Attack of his <span style=\"color:#FFD780FF\">Normal Attack: Forceful Fists of Frost</span> will be enhanced to become Rebuke: Vaulting Fist. It will not consume Stamina, will deal 50% increased DMG, and after hitting will restore HP for Wriothesley equal to 30% of his Max HP.<br/>You can gain a Gracious Rebuke this way once every 5s.",
+      "level": 1
+    },
+    {
+      "id": "there_shall_be_a_reckoning_for_sin",
+      "name": "There Shall Be a Reckoning for Sin",
+      "description": "When Wriothesley's current HP increases or decreases, if he is in the Chilling Penalty state conferred by <span style=\"color:#FFD780FF\">Icefang Rush</span>, Chilling Penalty will gain one stack of Prosecution Edict. Max 5 stacks. Each stack will increase Wriothesley's ATK by 6%.",
+      "level": 4
+    },
+    {
+      "id": "the_dukes_grace",
+      "name": "The Duke's Grace",
+      "description": "When Wriothesley crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 861,
+      "id": "terror_for_the_evildoers",
+      "name": "Terror for the Evildoers",
+      "description": "The Gracious Rebuke from the Ascension Talent \"There Shall Be a Plea for Justice\" is changed to this:<br/>When Wriothesley's HP is less than 60% or while he is in the Chilling Penalty state caused by <span style=\"color:#FFD780FF\">Icefang Rush</span>, when the fifth attack of Repelling Fists hits, it will create a Gracious Rebuke. 1 Gracious Rebuke effect can be obtained every 2.5s.<br/><br/>Additionally, Rebuke: Vaulting Fist will obtain the following enhancement:<br/>· The DMG Bonus gained will be further increased to 200%.<br/>· When it hits while Wriothesley is in the Chilling Penalty state, that state's duration is extended by 4s. 1 such extension can occur per 1 Chilling Penalty duration.<br/><br/>You must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\"",
+      "level": 1
+    },
+    {
+      "_id": 862,
+      "id": "shackles_for_the_arrogant",
+      "name": "Shackles for the Arrogant",
+      "description": "When using <span style=\"color:#FFD780FF\">Darkgold Wolfbite</span>, each Prosecution Edict stack from the Ascension Talent \"There Shall Be a Reckoning for Sin\" will increase said ability's DMG dealt by 40%.<br/>You must first unlock the Ascension Talent \"There Shall Be a Reckoning for Sin.\"",
+      "level": 2
+    },
+    {
+      "_id": 863,
+      "id": "punishment_for_the_frauds",
+      "name": "Punishment for the Frauds",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Normal Attack: Forceful Fists of Frost</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 864,
+      "id": "redemption_for_the_suffering",
+      "name": "Redemption for the Suffering",
+      "description": "The HP restored to Wriothesley through Rebuke: Vaulting Fist will be increased to 50% of his Max HP. You must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\"<br/>Additionally, when Wriothesley is healed, if the amount of healing overflows, the following effects will occur depending on whether he is on the field or not. If he is on the field, his ATK SPD will be increased by 20% for 4s. If he is off-field, all of your own party members' ATK SPD will be increased by 10% for 6s. These two methods of increasing ATK SPD cannot stack.",
+      "level": 4
+    },
+    {
+      "_id": 865,
+      "id": "mercy_for_the_wronged",
+      "name": "Mercy for the Wronged",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Darkgold Wolfbite</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 866,
+      "id": "esteem_for_the_innocent",
+      "name": "Esteem for the Innocent",
+      "description": "The CRIT Rate of Rebuke: Vaulting Fist will be increased by 10%, and its CRIT DMG by 80%. When unleashed, it will also create an additional icicle that deals 100% of Rebuke: Vaulting Fist's Base DMG as <span style=\"color:#99FFFFFF\">Cryo DMG</span>. DMG dealt this way is regarded as Charged Attack DMG.<br/>You must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\"",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1058"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "24"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "59"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2745",
+            "3652"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "63",
+            "84"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "154",
+            "205"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5465",
+            "6110"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "125",
+            "140"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "307",
+            "343"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101239,
+        "id": "subdetection_unit",
+        "name": "Subdetection Unit",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112083,
+        "id": "meshing_gear",
+        "name": "Meshing Gear",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7029",
+            "7889"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "161",
+            "180"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "395",
+            "443"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113052,
+        "id": "tourbillon_device",
+        "name": "\"Tourbillon Device\"",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101239,
+        "id": "subdetection_unit",
+        "name": "Subdetection Unit",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112083,
+        "id": "meshing_gear",
+        "name": "Meshing Gear",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8818",
+            "9462"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "202",
+            "216"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "495",
+            "531"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113052,
+        "id": "tourbillon_device",
+        "name": "\"Tourbillon Device\"",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101239,
+        "id": "subdetection_unit",
+        "name": "Subdetection Unit",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112084,
+        "id": "mechanical_spur_gear",
+        "name": "Mechanical Spur Gear",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10400",
+            "11045"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "238",
+            "253"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "584",
+            "620"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113052,
+        "id": "tourbillon_device",
+        "name": "\"Tourbillon Device\"",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101239,
+        "id": "subdetection_unit",
+        "name": "Subdetection Unit",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112084,
+        "id": "mechanical_spur_gear",
+        "name": "Mechanical Spur Gear",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11993",
+            "12637"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "274",
+            "289"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "673",
+            "710"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113052,
+        "id": "tourbillon_device",
+        "name": "\"Tourbillon Device\"",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101239,
+        "id": "subdetection_unit",
+        "name": "Subdetection Unit",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112085,
+        "id": "artificed_dynamic_gear",
+        "name": "Artificed Dynamic Gear",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "13593",
+            "13593"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "311",
+            "311"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "763",
+            "763"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113052,
+        "id": "tourbillon_device",
+        "name": "\"Tourbillon Device\"",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101239,
+        "id": "subdetection_unit",
+        "name": "Subdetection Unit",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112085,
+        "id": "artificed_dynamic_gear",
+        "name": "Artificed Dynamic Gear",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104344,
+          "id": "teachings_of_order",
+          "name": "Teachings of Order",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112083,
+          "id": "meshing_gear",
+          "name": "Meshing Gear",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104345,
+          "id": "guide_to_order",
+          "name": "Guide to Order",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104345,
+          "id": "guide_to_order",
+          "name": "Guide to Order",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104345,
+          "id": "guide_to_order",
+          "name": "Guide to Order",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104345,
+          "id": "guide_to_order",
+          "name": "Guide to Order",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104346,
+          "id": "philosophies_of_order",
+          "name": "Philosophies of Order",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113047,
+          "id": "primordial_greenbloom",
+          "name": "Primordial Greenbloom",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104346,
+          "id": "philosophies_of_order",
+          "name": "Philosophies of Order",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113047,
+          "id": "primordial_greenbloom",
+          "name": "Primordial Greenbloom",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104346,
+          "id": "philosophies_of_order",
+          "name": "Philosophies of Order",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113047,
+          "id": "primordial_greenbloom",
+          "name": "Primordial Greenbloom",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104346,
+          "id": "philosophies_of_order",
+          "name": "Philosophies of Order",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113047,
+          "id": "primordial_greenbloom",
+          "name": "Primordial Greenbloom",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 208600,
+      "name": "Night's Chilling Howl",
+      "description": "Wriothesley's outfit. It radiates both dignity and strength, with the rugged gray wolf chain serving as the mark of his rulership over the Fortress of Meropide.",
+      "isDefault": true,
+      "characterName": "Wriothesley",
+      "characterId": 10000086,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Wriothesley_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Hello, please try to quickly summarize your intents and goals for this meeting. Oh? You're not here for business? Well, that just makes me even more nervous.\\nAlright, then perhaps we should sit down and discuss things in a little more detail... Oh, and you can call me \"Your Grace.\" That's what they all call me down in the Fortress, and... well, I kinda got used to it."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Stickers",
+      "text": "If you ever see any stickers on my back, do me a favor and take them off... Melusines like to play pranks sometimes."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Pets",
+      "text": "I once considered keeping some pets in my office, but soon gave up on the idea. It's just not right to keep small animals where they won't be able to see the sun."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Words of Advice",
+      "text": "Word of advice: Don't break the law. Hmm, is there anything else? Oh, yeah... Seriously, don't break the law."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Oh, it's raining? That's alright. A real problem would be if we could feel water dripping on our heads in the Fortress of Meropide."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "You know, they say if you're scared of the thunder, it's really because you've got something else to hide."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Hmm... This is a different kind of cold than what I'm used to."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "They say there's nothing new under the sun, but somehow a picnic in the warm sunshine never gets old."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning. What do the papers have to say about today's weather forecast?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "The Coupon Cafeteria is probably crowded right now. I'll have someone deliver the food straight to my office."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Huh, is it evening already? Could have sworn I'd just had my afternoon tea."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Good night. I'll be staying up for a little while yet — want to run some numbers while everything's nice and quiet."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Wriothesley: Misunderstanding",
+      "text": "People have this tendency to see me as an all-knowing figure with mystical powers. In reality, I'm just one man with two eyes and two ears. How can I possibly know everything that's happening in the Fortress of Meropide?"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Wriothesley: Small Breaks",
+      "text": "I finished serving my sentence long ago, so there's nothing stopping me from taking an occasional breather in the overworld as a free citizen.\\nAh, there's no need to worry... The Fortress of Meropide doesn't currently have any problem so big as to require my round-the-clock presence to operate effectively."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Committing to Jail",
+      "text": "I form my first impressions of many people based on the contents of their inmate registration papers. Seems like you're no exception to the rule."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Finishing the Jail Term",
+      "text": "They say it's best to begin a friendship when there's no conflict of interest. Seems like the appropriate time has come."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Some inmates once taught me a way to wield the elements by throwing around chemical potions. I guess whoever's in charge of handing out Visions doesn't care too much about a little rule-bending."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Want a tip on how to escape from the Gardes? Just give yourself a name that's really long and difficult to pronounce. They'll be stumbling over your name as soon as they try to announce that you are under arrest."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "\"If a man will not work, he shall not eat.\" This phrase has been on the walls of the Fortress of Meropide for as long as anyone can remember. I don't know who first came up with it, but it's been pretty useful in the underworld."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Neuvillette",
+      "text": "I was once summoned by Neuvillette to discuss some matters with him in his office. When I approached the Palais Mermonia, I saw him standing by the road, completely drenched in the rain. I held out an umbrella for him, and while he thanked me politely, his expression was a little... distressed, I guess. I can only assume that I had disturbed him in the middle of something."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Furina",
+      "text": "Miss Furina displayed a severe lack of interest in my trial and excused herself early, probably because I pleaded guilty to all charges as soon as they were announced. Disappointing the Hydro Archon is a big deal, so... suppose I've got no choice but to keep gifting her copious amounts of the highest quality tea."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Sigewinne",
+      "text": "Sigewinne the head nurse possesses all the virtues associated with the medical profession and genuinely cares for the well-being of everyone around her.\\nShe seems to have picked up some bad habits from me, though, like frequently betting with her Melusine friends over who'd be able to put more stickers on my belongings. Hm? No, I'm not actually bothered by it."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Clorinde",
+      "text": "Clorinde is the best Champion Duelist you can find. Her combat prowess is already the stuff of legend. I've never fought her myself, but that's because there's never been a need for it."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Lyney",
+      "text": "I'll admit that when I removed the House of the Hearth's spies in the underworld, that was kind of an intentional provocation to the Fatui. But their only response was to send down a bunch of children... Was it because they truly saw those kids as disposable? Or because they knew I wouldn't have it in me to let them come to serious harm? *sigh*"
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Navia",
+      "text": "The Fortress of Meropide works with Spina di Rosula on some matters regarding supplies and logistics, but we don't have any other dealings. This isn't because I don't trust Navia or her abilities, in fact, I hold her in quite high regard. The only reason we continue to stay out of each other's way is because I wanna honor the agreement I made with the late Mr. Callas."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Emilie",
+      "text": "The Fortress of Meropide doesn't need her services. Yet some things are best preserved the way they are, warts and all, so people don't make the same mistakes twice... I say warts, but yeah. I mean the smell."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Chevreuse",
+      "text": "Most inmates seem to gain a new level of respect for the rules after receiving attention from the Special Security and Surveillance Patrol. As the captain, Chevreuse is an instrumental part of that team."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Wriothesley: I",
+      "text": "As a general rule, the less a person sees of me, the happier their life is."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Wriothesley: II",
+      "text": "Hmm? Oh the scar on my body? It's from a gash I got while battling a gigantic undersea monster that tried to take over the Fortress of Meropide. ...Hah, just kidding."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Wriothesley: III",
+      "text": "Did you know, many similar models of handcuffs can all be unlocked using the same master key? Except mine, of course. They're different."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Wriothesley: IV",
+      "text": "Honestly, my personal abilities are pretty limited. I got no talent in medicine, inventions, or ship-making. But what I do know how to do is find those people with those talents, and get 'em to come work for me."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Wriothesley: V",
+      "text": "I've managed to get myself to a pretty comfortable place in life, but there's still some things I want that are outside my reach, like a peaceful and happy childhood, or the ability to trust other people. Maybe some people would see those feelings as shameful or contradictory, but I don't see a problem with sharing them. After all, why should anybody be afraid to admit what they want?"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Wriothesley's Hobbies",
+      "text": "Boxing? To me, that's more of a necessity than a hobby. You got some suggestions for actual hobbies?"
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Wriothesley's Troubles",
+      "text": "While I do possess some stereotypical Fontainian looks, when you're an orphan, you can never really be sure where you're from. Who knows, maybe I'll take a dip in the Primordial Sea one of these days just to check..."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I usually take some milk with my coffee and two cubes of sugar with my tea."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Have you ever had one of Sigewinne's milkshakes? The taste that comes to mind is... what's that flavor... desolation."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "What a perfect blend of flavors. I could have never made this myself."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Lovely. I'll be sure to treat you to something next time."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Please excuse me, I'm... I'm gonna brew a cup of tea."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Our tradition says that all children of Fontaine are born amid their parents' wishes and blessings, but I'd like to think that all children are born from such wonderful feelings. Anything that I can say to celebrate your birth would feel a little trivial next to that, right?\\nUnfortunately, I won't be able to reduce your prison sentence if you were to commit a crime — the only thing I would be able to pull off would be a special Welfare Meal for your birthday dinner. With all that in mind, why don't you try to respect the law a bit more around your birthday, so we'll be able to celebrate somewhere nice on the surface?"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "It is my honor to win your trust."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Uh oh, looks like I'll owe you a favor now."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Ha, why do you look even more pleased about this than me?"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "I like signs of strength and hope. They give me reassurance that tomorrow will be better than today. This isn't to be pessimistic, but it's impossible for the present to be without its doubts and troubles — that's just the truth. But come hell or high water, if nothing else then at least we'll be able to figure it out together, right?"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Let's begin."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Don't run away now."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "A moment, please."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Have a safe trip."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "This could get a little chilly."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Stay cool and face your guilt!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Oh, this wasn't locked? How convenient."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "I'd take it if I were you. I'm sure it'll come in handy."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "All unclaimed articles should be turned in, so... neither of us saw anything here, right?"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "No need to fear."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "No backup, huh? Fine by me."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Time to improvise."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Step back."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Get to the infirmary."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Sorry... I couldn't protect..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Instead of going big, guess I'm going home..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "I have... no objections."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Going easy on me?"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "...Not bad."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Let's get to work."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Got a side job for me? Sure thing."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "I'll do my best, but I can't guarantee you victory."
+    }
+  ]
+}

@@ -1,0 +1,1737 @@
+{
+  "_id": 10000065,
+  "id": "kuki_shinobu",
+  "name": "Kuki Shinobu",
+  "title": "Mender of Tribulations",
+  "description": "The capable and reliable Arataki Gang deputy leader. Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "electro",
+    "name": "Electro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1655823600,
+  "substat": "HP%",
+  "stats": {
+    "base": {
+      "hp": 1030.3239,
+      "attack": 17.808,
+      "defense": 62.9475
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 769.70465,
+        "attack": 13.3038,
+        "defense": 47.025,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1316.6001,
+        "attack": 22.7565,
+        "defense": 80.4375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2045.794,
+        "attack": 35.3601,
+        "defense": 124.9875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2592.6895,
+        "attack": 44.8128,
+        "defense": 158.4,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3139.5847,
+        "attack": 54.2655,
+        "defense": 191.8125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3686.4802,
+        "attack": 63.7182,
+        "defense": 225.225,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Arataki Gang",
+  "region": {
+    "id": "inazuma",
+    "name": "Inazuma"
+  },
+  "rarity": 4,
+  "birthday": [
+    27,
+    7
+  ],
+  "constellation": "Tribulatio Demptio",
+  "domain": "Violet Court",
+  "cv": {
+    "english": "Kira Buckland",
+    "chinese": "杨凝",
+    "japanese": "水橋かおり",
+    "korean": "Kim Yool"
+  },
+  "skills": [
+    {
+      "_id": 10651,
+      "id": "shinobus_shadowsword",
+      "name": "Shinobu's Shadowsword",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 rapid strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "48.8%",
+            "52.7%",
+            "56.7%",
+            "62.4%",
+            "66.3%",
+            "70.9%",
+            "77.1%",
+            "83.3%",
+            "89.6%",
+            "96.4%",
+            "103.2%",
+            "110%",
+            "116.8%",
+            "123.6%",
+            "130.4%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "44.5%",
+            "48.2%",
+            "51.8%",
+            "57%",
+            "60.6%",
+            "64.8%",
+            "70.4%",
+            "76.1%",
+            "81.8%",
+            "88.1%",
+            "94.3%",
+            "100.5%",
+            "106.7%",
+            "112.9%",
+            "119.1%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "59.3%",
+            "64.2%",
+            "69%",
+            "75.9%",
+            "80.7%",
+            "86.3%",
+            "93.8%",
+            "101.4%",
+            "109%",
+            "117.3%",
+            "125.6%",
+            "133.9%",
+            "142.1%",
+            "150.4%",
+            "158.7%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "76.1%",
+            "82.3%",
+            "88.5%",
+            "97.4%",
+            "103.5%",
+            "110.6%",
+            "120.4%",
+            "130.1%",
+            "139.8%",
+            "150.4%",
+            "161.1%",
+            "171.7%",
+            "182.3%",
+            "192.9%",
+            "203.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "55.6% + 66.8%",
+            "60.2% + 72.2%",
+            "64.7% + 77.6%",
+            "71.2% + 85.4%",
+            "75.7% + 90.8%",
+            "80.9% + 97%",
+            "88% + 105.6%",
+            "95.1% + 114.1%",
+            "102.2% + 122.7%",
+            "110% + 132%",
+            "117.7% + 141.3%",
+            "125.5% + 150.6%",
+            "133.3% + 159.9%",
+            "141% + 169.2%",
+            "148.8% + 178.6%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10652,
+      "id": "sanctifying_ring",
+      "name": "Sanctifying Ring",
+      "description": "Creates a Grass Ring of Sanctification at the cost of part of her HP, dealing <span style=\"color:#FFACFFFF\">Electro DMG</span> to nearby opponents.<br/><br/><span style=\"color:#FFD780FF\">Grass Ring of Sanctification</span><br/>Follows your current active character around. Deals <span style=\"color:#FFACFFFF\">Electro DMG</span> to nearby opponents every 1.5s and restores HP for active character(s) within the ring's AoE based on Kuki Shinobu's Max HP.<br/><br/>The HP consumption from using this skill can only bring her to 20% HP.<br/><br/>\"<i>Band the Naku Weed into a loop around your waist, and it shall exorcise evil.</i>\"",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "75.7%",
+            "81.4%",
+            "87.1%",
+            "94.6%",
+            "100.3%",
+            "106%",
+            "113.6%",
+            "121.1%",
+            "128.7%",
+            "136.3%",
+            "143.9%",
+            "151.4%",
+            "160.9%",
+            "170.4%",
+            "179.8%"
+          ]
+        },
+        {
+          "label": "Grass Ring of Sanctification Healing",
+          "values": [
+            "3% Max HP + 289",
+            "3.2% Max HP + 318",
+            "3.5% Max HP + 349",
+            "3.8% Max HP + 383",
+            "4% Max HP + 419",
+            "4.2% Max HP + 457",
+            "4.5% Max HP + 498",
+            "4.8% Max HP + 542",
+            "5.1% Max HP + 587",
+            "5.4% Max HP + 636",
+            "5.7% Max HP + 686",
+            "6% Max HP + 739",
+            "6.4% Max HP + 795",
+            "6.8% Max HP + 852",
+            "7.1% Max HP + 913"
+          ]
+        },
+        {
+          "label": "Grass Ring of Sanctification DMG",
+          "values": [
+            "25.2%",
+            "27.1%",
+            "29%",
+            "31.6%",
+            "33.4%",
+            "35.3%",
+            "37.9%",
+            "40.4%",
+            "42.9%",
+            "45.4%",
+            "48%",
+            "50.5%",
+            "53.6%",
+            "56.8%",
+            "59.9%"
+          ]
+        },
+        {
+          "label": "Activation Cost",
+          "values": [
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10655,
+      "id": "gyoei_narukami_kariyama_rite",
+      "name": "Gyoei Narukami Kariyama Rite",
+      "description": "Stabs an evil-excoriating blade into the ground, creating a field that cleanses the area of all that is foul, dealing continuous <span style=\"color:#FFACFFFF\">Electro DMG</span> to opponents within its AoE based on Shinobu's Max HP.<br/>If Shinobu's HP is less than or equal to 50% when this skill is used, the field will last longer.",
+      "info": "This was originally a technique used in weeding and in ritual prayers for the yearly harvest, but Shinobu has not forgotten it, though her career as a shrine maiden may have ended.",
+      "attributes": [
+        {
+          "label": "Single Instance DMG",
+          "values": [
+            "3.6% Max HP",
+            "3.9% Max HP",
+            "4.1% Max HP",
+            "4.5% Max HP",
+            "4.8% Max HP",
+            "5% Max HP",
+            "5.4% Max HP",
+            "5.8% Max HP",
+            "6.1% Max HP",
+            "6.5% Max HP",
+            "6.8% Max HP",
+            "7.2% Max HP",
+            "7.7% Max HP",
+            "8.1% Max HP",
+            "8.6% Max HP"
+          ]
+        },
+        {
+          "label": "Total DMG",
+          "values": [
+            "25.2% / 43.3% Max HP",
+            "27.1% / 46.5% Max HP",
+            "29% / 49.7% Max HP",
+            "31.5% / 54.1% Max HP",
+            "33.4% / 57.3% Max HP",
+            "35.3% / 60.6% Max HP",
+            "37.9% / 64.9% Max HP",
+            "40.4% / 69.2% Max HP",
+            "42.9% / 73.5% Max HP",
+            "45.4% / 77.9% Max HP",
+            "47.9% / 82.2% Max HP",
+            "50.5% / 86.5% Max HP",
+            "53.6% / 91.9% Max HP",
+            "56.8% / 97.3% Max HP",
+            "59.9% / 102.7% Max HP"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "2s / 3.5s",
+            "2s / 3.5s",
+            "2s / 3.5s",
+            "2s / 3.5s",
+            "2s / 3.5s",
+            "2s / 3.5s",
+            "2s / 3.5s",
+            "2s / 3.5s",
+            "2s / 3.5s",
+            "2s / 3.5s",
+            "2s / 3.5s",
+            "2s / 3.5s",
+            "2s / 3.5s",
+            "2s / 3.5s",
+            "2s / 3.5s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "breaking_free",
+      "name": "Breaking Free",
+      "description": "When Shinobu's HP is not higher than 50%, her Healing Bonus is increased by 15%.",
+      "level": 1
+    },
+    {
+      "id": "hearts_repose",
+      "name": "Heart's Repose",
+      "description": "<span style=\"color:#FFD780FF\">Sanctifying Ring</span>'s abilities will be boosted based on Shinobu's Elemental Mastery:<br/>·Healing amount will be increased by 75% of Elemental Mastery.<br/>·DMG dealt is increased by 25% of Elemental Mastery.",
+      "level": 4
+    },
+    {
+      "id": "protracted_prayers",
+      "name": "Protracted Prayers",
+      "description": "Gains 25% more rewards when dispatched on an Inazuma Expedition for 20 hours.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 651,
+      "id": "to_cloister_compassion",
+      "name": "To Cloister Compassion",
+      "description": "<span style=\"color:#FFD780FF\">Gyoei Narukami Kariyama Rite</span>'s AoE is increased by 50%.",
+      "level": 1
+    },
+    {
+      "_id": 652,
+      "id": "to_forsake_fortune",
+      "name": "To Forsake Fortune",
+      "description": "<span style=\"color:#FFD780FF\">Grass Ring of Sanctification</span>'s duration is increased by 3s.",
+      "level": 2
+    },
+    {
+      "_id": 653,
+      "id": "to_sequester_sorrow",
+      "name": "To Sequester Sorrow",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Sanctifying Ring</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 654,
+      "id": "to_sever_sealing",
+      "name": "To Sever Sealing",
+      "description": "When the Normal, Charged, or Plunging Attacks of the character affected by Shinobu's <span style=\"color:#FFD780FF\">Grass Ring of Sanctification</span> hit opponents, a Thundergrass Mark will land on the opponent's position and deal <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> based on 9.7% of Shinobu's Max HP.<br/>This effect can occur once every 5s.",
+      "level": 4
+    },
+    {
+      "_id": 655,
+      "id": "to_cease_courtesies",
+      "name": "To Cease Courtesies",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Gyoei Narukami Kariyama Rite</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 656,
+      "id": "to_ward_weakness",
+      "name": "To Ward Weakness",
+      "description": "When Kuki Shinobu takes lethal DMG, this instance of DMG will not take her down. This effect will automatically trigger when her HP reaches 1 and will trigger once every 60s.<br/>When Shinobu's HP drops below 25%, she will gain 150 Elemental Mastery for 15s. This effect will trigger once every 60s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1030"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "18"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "63"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2647",
+            "3417"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "46",
+            "59"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "162",
+            "209"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5118",
+            "5665"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "88",
+            "98"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "313",
+            "346"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104141,
+        "id": "vajrada_amethyst_sliver",
+        "name": "Vajrada Amethyst Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101205,
+        "id": "naku_weed",
+        "name": "Naku Weed",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112053,
+        "id": "spectral_husk",
+        "name": "Spectral Husk",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6516",
+            "7245"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "113",
+            "125"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "398",
+            "443"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101205,
+        "id": "naku_weed",
+        "name": "Naku Weed",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112053,
+        "id": "spectral_husk",
+        "name": "Spectral Husk",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8096",
+            "8643"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "140",
+            "149"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "495",
+            "528"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101205,
+        "id": "naku_weed",
+        "name": "Naku Weed",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112054,
+        "id": "spectral_heart",
+        "name": "Spectral Heart",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9493",
+            "10040"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "164",
+            "174"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "580",
+            "613"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101205,
+        "id": "naku_weed",
+        "name": "Naku Weed",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112054,
+        "id": "spectral_heart",
+        "name": "Spectral Heart",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10891",
+            "11438"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "188",
+            "198"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "665",
+            "699"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101205,
+        "id": "naku_weed",
+        "name": "Naku Weed",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112055,
+        "id": "spectral_nucleus",
+        "name": "Spectral Nucleus",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12289",
+            "12289"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "212",
+            "212"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "751",
+            "751"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104144,
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Vajrada Amethyst Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101205,
+        "id": "naku_weed",
+        "name": "Naku Weed",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112055,
+        "id": "spectral_nucleus",
+        "name": "Spectral Nucleus",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104323,
+          "id": "teachings_of_elegance",
+          "name": "Teachings of Elegance",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112053,
+          "id": "spectral_husk",
+          "name": "Spectral Husk",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113033,
+          "id": "tears_of_the_calamitous_god",
+          "name": "Tears of the Calamitous God",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113033,
+          "id": "tears_of_the_calamitous_god",
+          "name": "Tears of the Calamitous God",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113033,
+          "id": "tears_of_the_calamitous_god",
+          "name": "Tears of the Calamitous God",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113033,
+          "id": "tears_of_the_calamitous_god",
+          "name": "Tears of the Calamitous God",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 206500,
+      "name": "Arataki's Demonic Deputy",
+      "description": "Kuki Shinobu's outfit. The iconic oni mask she wears symbolizes her role as the Arataki Gang's terrifying \"demonic deputy.\"",
+      "isDefault": true,
+      "characterName": "Kuki Shinobu",
+      "characterId": 10000065,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Shinobu_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "Oh... Hey there! I'm Kuki Shinobu, deputy leader of the Arataki Gang. We offer a wide range of services, including but not limited to transport and logistics, security, home repair, and musical performances. Please feel free to contact me if you need anything. Here's my card."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: In a Pinch",
+      "text": "Just let me know if you ever find yourself in a pinch. I can help you out."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Certificates",
+      "text": "The criteria for certificate exams are straightforward enough, what it really comes down to is whether you are willing to put in the time. If you study and practice, then it's really not all that difficult."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: The Arataki Gang",
+      "text": "If the Arataki Gang stirs up any trouble, I'll drag every last one of them back to apologize."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "We don't need an umbrella, just pick up the pace."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Be careful. No one wants to get struck by lightning."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Let's just finish the job and leave. There's no need to waste time."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "It's a nice day, but I can't seem to shake this strange feeling... Huh, let's just hope it's my imagination."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Hmm... what a pleasant breeze."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning. Going out to train? Huh, I didn't know you were so diligent."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Hey, what would you like to eat? I've been saving up lately, so lunch is on me."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Some commissions are better done by night. I can't trust the gang with such tasks though, so I usually do them myself."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Go ahead and take a rest if you need. Don't worry about me."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Kuki Shinobu: Gang's Deputy Leader",
+      "text": "My primary responsibilities are to bring in business and maintain a stable team... uh, as well as bailing out the gang from the Police Station, returning snacks and toys to kids, and catching anyone secretly slacking off during a job... I guess you could say all this extra work comes with being part of the Arataki Gang. I suppose that leaders of other groups wouldn't have to put up with that kind of stuff. But then again, no one else could do the job like me."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Kuki Shinobu: Backup Plan",
+      "text": "Hmm? What would happen if the gang ever disbanded? First of all, that would never happen. Secondly, even if that did happen, I've got nothing to worry about. I've always got a way to make ends meet."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Notes",
+      "text": "Come find me if you ever suddenly want to become certified in anything. I'll lend you all my notes for the exam. Believe me, my notes are detailed enough to help anybody pass."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Cleaning Up the Mess",
+      "text": "Whether you are in the Arataki Gang or not, I'll never treat you as an outsider. Just go ahead and leave the logistics and planning to me. Trust me, I'm an expert. I can handle anything, no matter how complicated it might seem. Huh? You're concerned about my safety? Hehe, don't worry, all these years of experience aren't just for show."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Just like a certificate, this Vision is solid proof of my capabilities. The only difference is that I'm still not certain about a Vision's assessment criteria."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share: Face Mask",
+      "text": "I wear a mask because I don't want to be recognized by anybody, especially when I'm working with the Arataki Gang. If someone I know manages to recognize me, they're sure to make a big fuss about it... It gives me a headache just thinking about it. I won't ever let it happen again! Ahem, never mind..."
+    },
+    {
+      "id": "3005",
+      "type": 1,
+      "title": "Something to Share: Gang Bylaws",
+      "text": "I came up with the Gang Bylaws so everyone would have a set of guidelines to follow. Huh? Why are they willing to follow my rules? Because both my words and my fists are very persuasive."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "There is a saying circulating among the shrines claiming that if you weave Naku Weed into a ring and wrap it around your body, it can dispel disaster and bring good fortune. So, do you believe that? I, however, personally find the plant's paralyzing effect a little more practical."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About the Raiden Shogun",
+      "text": "After the Sakoku Decree was lifted, the Raiden Shogun issued many decrees aimed at supporting the development of various industries. All those certificates I received during the Sakoku Decree are coming in real handy now, and the gang is finally out of the red... Fate really does have its ways. Who would've thought after all that, I'd still have her to thank?"
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Kujou Sara",
+      "text": "Madam Kujou? Yes, she's a friend of mine. Hmm? You're surprised that I know her? Oh, you must've misunderstood, I knew her from before I joined the Arataki Gang. Heh, in fact, it's hard to tell who's the winner whenever we spar."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Yae Miko",
+      "text": "You can't imagine how boring it is to be a shrine maiden. Even Lady Guuji from the Grand Narukami Shrine has her publishing gig to break up the monotony. I will never go back to being a shrine maiden. Never."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Arataki Itto",
+      "text": "The boss has a lot of unpleasant memories from his past, but he still manages to stay positive. I'd say that kind of resilience is pretty rare. He treats us well and his character has a good effect on everyone in the gang. Of course, it's never an excuse for him to run amok with no consideration for others. Just let me know if he ever causes you any trouble and I'll be sure to make him regret ever being rude to you."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Yanfei",
+      "text": "Back then I had an argument with my family and I only wanted to run away as far as I could. So, I went to study law in Liyue, but thanks to this experience, I got to meet Yanfei. She's like a walking law encyclopedia. Huh? Me? I have a certificate but there are a lot of restrictions for practicing law... It's not really the right field for me."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Shikanoin Heizou",
+      "text": "He's different from the other Doushin of the Tenryou Commission. I have yet to see him on patrol or apprehend anyone, and he occasionally comes to me to buy intelligence. In exchange, I asked him to put in a good word for me whenever I'm bailing people out of the Police Station. He gladly agreed. I'd say that's a pretty good deal... After all, getting the boys to keep their eyes and ears open on the streets is easy enough."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Kuki Shinobu: I",
+      "text": "I've worked many different jobs and I'm certified in a variety of fields. In terms of management, I've led a small team and have been responsible for delegating tasks and allocating resources according to... Uh, sorry, don't mind me... Sometimes I still slip into interview mode."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Kuki Shinobu: II",
+      "text": "I come from a family of shrine maidens but I'm not cut out for that kind of work at all. When I ran away from home, I immediately thought I should learn as much as possible to support myself. I studied everything from cooking, tailoring, and fighting, to legal consulting, publishing, and editing... It wasn't until I really settled into society that I realized I've learned everything I need."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Kuki Shinobu: III",
+      "text": "Hmm? You think I've got good social skills? Well, you could say I've seen a lot of the world by now. I've learned how to read people based on their expressions and body language. Besides, nine times out of ten, it's the gang getting in trouble. I don't mind putting on a face to get us out of a sticky predicament, but I still prefer not to smile."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Kuki Shinobu: IV",
+      "text": "When I first joined the Arataki Gang, the boss told me to teach the others how to fight. So the first thing I did was beat them up, one by one. I was a little surprised that even in their bruised and swollen state they still respectfully called me Shinobu and asked me to lead them. Hmph, at that moment, I knew they really were a big bunch of idiots... But that's fine, even a group like this won't slow me down, I'll just take care of everything myself."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Kuki Shinobu: V",
+      "text": "It's my own decision to stay in the Arataki Gang. It can be pretty annoying having to clean up their mess all the time, but in return, they treat me with a sincerity that is irreplaceable... They always save the best things for me and never leave me feeling down. When I announced my decision to stay in the gang, they all cheered for me. I know outsiders don't think very highly of the Arataki Gang, and the members themselves don't really care what others think. But, I still want to strive to change the impression we leave. I might complain about them from time to time as my family, but I'll never let anyone badmouth them."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Kuki Shinobu's Hobbies",
+      "text": "Being in the gang means having lots of free time. I often finish reading a whole book or even pass a certificate exam before I even realize it. Kinda nice, wouldn't you agree? When my family asks about me, at least I can tell them I don't waste my time, and when I go job hunting, I have lots of qualifications to rely on. In this ultra-competitive society, a misfit like myself with all these certificates will never go hungry."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Kuki Shinobu's Troubles",
+      "text": "Back then, I wanted to avoid getting dragged back to the shrine at all cost, so I had to find a way to stand on my own two feet. So far, I think I'm doing alright."
+    },
+    {
+      "id": "6005",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Even after eating something really filling like ramen or gyoza, I still always want to finish my meal with a small bowl of rice. Rice is just delicious, that's all. Is there a problem with that?"
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "There's a saying I heard in Liyue: \"There is no bad food, only bad cooks.\" After getting my license as a chef, I became even more convinced that this is absolutely true."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "This is truly exceptional. Ehem... I'll just have another bite."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Did you make this? Hmm... you're more than qualified to be a chef."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Honestly, did you use the wrong seasonings?"
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday! Here, take this special dart made from Naku Weed. Be careful, yep, that's the way to hold it... Make sure you predict the trajectory before you throw it... Hehe, I'm happy that you like it. Oh, don't treat it like a toy, it's still quite dangerous. If you want to practice a little more, I can teach you."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "If you haven't mastered the basics, then there's no point in even trying to discuss it. That's the purpose of a basic-level certificate, to show you actually know something."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "I have an intermediate certificate, which means that I'm qualified to handle most problems. Is there anything I can help you with?"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Earning an advanced certificate is not easy, it requires both talent and actual combat experience."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Certificates are useful for judging professional skills but they fail to measure the amount of effort or emotional investment involved. Our friendship has gone beyond something that can be expressed with a simple \"thank you.\" Let me express my feelings by always giving the very best of my abilities."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Our bond is strong!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Dissipate!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Stand with me."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "I'll settle this!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Lightning... purifies!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Out of my way."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Every little bit counts."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Alright, this'll do."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "It's all yours."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Stop right there."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Now I'm mad..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Alright, it's my turn..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "I'll clean this up."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "I'm qualified to handle this."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Sorry... for the trouble..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Take care of... the gang..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "What a humiliation..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Again."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Just you wait!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Looking for a fight?"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Wait for my signal."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "What'd they do this time?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Don't tell me they did it again..."
+    }
+  ]
+}

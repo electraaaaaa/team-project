@@ -1,0 +1,1717 @@
+{
+  "_id": 10000014,
+  "id": "barbara",
+  "name": "Barbara",
+  "title": "Shining Idol",
+  "description": "Every citizen of Mondstadt adores Barbara. She learned the word \"idol\" from a magazine.",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "hydro",
+    "name": "Hydro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1601244000,
+  "substat": "HP%",
+  "stats": {
+    "base": {
+      "hp": 820.6119,
+      "attack": 13.356,
+      "defense": 56.0805
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 613.0391,
+        "attack": 9.97785,
+        "defense": 41.895,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1048.6195,
+        "attack": 17.067375,
+        "defense": 71.6625,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1629.3934,
+        "attack": 26.520075,
+        "defense": 111.3525,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2064.9739,
+        "attack": 33.6096,
+        "defense": 141.12,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2500.5542,
+        "attack": 40.699123,
+        "defense": 170.8875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 2936.1348,
+        "attack": 47.78865,
+        "defense": 200.655,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Church of Favonius",
+  "region": {
+    "id": "mondstadt",
+    "name": "Mondstadt"
+  },
+  "rarity": 4,
+  "birthday": [
+    5,
+    7
+  ],
+  "constellation": "Crater",
+  "domain": "Forsaken Rift",
+  "cv": {
+    "english": "Laura Stahl",
+    "chinese": "宋媛媛",
+    "japanese": "鬼頭明里",
+    "korean": "Yoon Ah-young"
+  },
+  "skills": [
+    {
+      "_id": 10070,
+      "id": "whisper_of_water",
+      "name": "Whisper of Water",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 water splash attacks that deal <span style=\"color:#80C0FFFF\">Hydro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to deal <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> after a short casting time.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Gathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "37.8%",
+            "40.7%",
+            "43.5%",
+            "47.3%",
+            "50.1%",
+            "53%",
+            "56.8%",
+            "60.5%",
+            "64.3%",
+            "68.1%",
+            "72%",
+            "77.2%",
+            "82.3%",
+            "87.5%",
+            "92.6%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "35.5%",
+            "38.2%",
+            "40.8%",
+            "44.4%",
+            "47.1%",
+            "49.7%",
+            "53.3%",
+            "56.8%",
+            "60.4%",
+            "63.9%",
+            "67.6%",
+            "72.5%",
+            "77.3%",
+            "82.1%",
+            "87%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "41%",
+            "44.1%",
+            "47.2%",
+            "51.3%",
+            "54.4%",
+            "57.5%",
+            "61.6%",
+            "65.7%",
+            "69.8%",
+            "73.9%",
+            "78.1%",
+            "83.7%",
+            "89.3%",
+            "94.9%",
+            "100.5%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "55.2%",
+            "59.3%",
+            "63.5%",
+            "69%",
+            "73.1%",
+            "77.3%",
+            "82.8%",
+            "88.3%",
+            "93.8%",
+            "99.4%",
+            "105.1%",
+            "112.6%",
+            "120.1%",
+            "127.6%",
+            "135.1%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "166.2%",
+            "178.7%",
+            "191.2%",
+            "207.8%",
+            "220.3%",
+            "232.7%",
+            "249.4%",
+            "266%",
+            "282.6%",
+            "299.2%",
+            "316.5%",
+            "339.1%",
+            "361.7%",
+            "384.3%",
+            "407%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10071,
+      "id": "let_the_show_begin",
+      "name": "Let the Show Begin♪",
+      "description": "Summons water droplets resembling musical notes that form a Melody Loop, dealing <span style=\"color:#80C0FFFF\">Hydro DMG</span> to surrounding opponents and applying the <span style=\"color:#80C0FFFF\">Wet</span> status to them.<br/><br/><span style=\"color:#FFD780FF\">Melody Loop</span><br/>·On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.<br/>·On hit, Barbara's Charged Attack generates 4 times the amount of healing.<br/>·Periodically regenerates your own active character's HP.<br/>·Applies the <span style=\"color:#80C0FFFF\">Wet</span> status to the character and to opponents who come in contact with them.",
+      "info": "Barbara's music is the magic that heals her companions.",
+      "attributes": [
+        {
+          "label": "HP Regeneration Per Hit",
+          "values": [
+            "0.75% Max HP + 72",
+            "0.81% Max HP + 79",
+            "0.86% Max HP + 87",
+            "0.94% Max HP + 96",
+            "0.99% Max HP + 105",
+            "1.05% Max HP + 114",
+            "1.13% Max HP + 125",
+            "1.2% Max HP + 135",
+            "1.27% Max HP + 147",
+            "1.35% Max HP + 159",
+            "1.43% Max HP + 172",
+            "1.5% Max HP + 185",
+            "1.59% Max HP + 199",
+            "1.69% Max HP + 213",
+            "1.78% Max HP + 228"
+          ]
+        },
+        {
+          "label": "Continuous Regeneration",
+          "values": [
+            "4% Max HP + 385",
+            "4.3% Max HP + 424",
+            "4.6% Max HP + 465",
+            "5% Max HP + 510",
+            "5.3% Max HP + 559",
+            "5.6% Max HP + 610",
+            "6% Max HP + 664",
+            "6.4% Max HP + 722",
+            "6.8% Max HP + 783",
+            "7.2% Max HP + 847",
+            "7.6% Max HP + 915",
+            "8% Max HP + 986",
+            "8.5% Max HP + 1059",
+            "9% Max HP + 1136",
+            "9.5% Max HP + 1217"
+          ]
+        },
+        {
+          "label": "Droplet DMG",
+          "values": [
+            "58.4%",
+            "62.8%",
+            "67.2%",
+            "73%",
+            "77.4%",
+            "81.8%",
+            "87.6%",
+            "93.4%",
+            "99.3%",
+            "105.1%",
+            "111%",
+            "116.8%",
+            "124.1%",
+            "131.4%",
+            "138.7%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10072,
+      "id": "shining_miracle",
+      "name": "Shining Miracle♪",
+      "description": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.",
+      "info": "Barbara's desire to heal strengthens her will to fight and sing.",
+      "attributes": [
+        {
+          "label": "Regeneration",
+          "values": [
+            "17.6% Max HP + 1694",
+            "18.9% Max HP + 1864",
+            "20.2% Max HP + 2047",
+            "22% Max HP + 2245",
+            "23.3% Max HP + 2457",
+            "24.6% Max HP + 2683",
+            "26.4% Max HP + 2923",
+            "28.2% Max HP + 3177",
+            "29.9% Max HP + 3445",
+            "31.7% Max HP + 3728",
+            "33.4% Max HP + 4024",
+            "35.2% Max HP + 4335",
+            "37.4% Max HP + 4660",
+            "39.6% Max HP + 4999",
+            "41.8% Max HP + 5352"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "glorious_season",
+      "name": "Glorious Season",
+      "description": "The Stamina Consumption of characters within <span style=\"color:#FFD780FF\">Let the Show Begin♪</span>'s Melody Loop is reduced by 12%.",
+      "level": 1
+    },
+    {
+      "id": "encore",
+      "name": "Encore",
+      "description": "When your active character gains an Elemental Orb/Particle, the duration of the Melody Loop of <span style=\"color:#FFD780FF\">Let the Show Begin♪</span> is extended by 1s.<br/>The maximum extension is 5s.",
+      "level": 4
+    },
+    {
+      "id": "with_my_whole_heart",
+      "name": "With My Whole Heart♪",
+      "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 141,
+      "id": "gleeful_songs",
+      "name": "Gleeful Songs",
+      "description": "Barbara regenerates 1 Energy every 10s.",
+      "level": 1
+    },
+    {
+      "_id": 142,
+      "id": "vitality_burst",
+      "name": "Vitality Burst",
+      "description": "Decreases the CD of <span style=\"color:#FFD780FF\">Let the Show Begin♪</span> by 15%.<br/>During the ability's duration, your active character gains a 15% <span style=\"color:#80C0FFFF\">Hydro DMG Bonus</span>.",
+      "level": 2
+    },
+    {
+      "_id": 143,
+      "id": "star_of_tomorrow",
+      "name": "Star of Tomorrow",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Shining Miracle♪</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 144,
+      "id": "attentiveness_be_my_power",
+      "name": "Attentiveness Be My Power",
+      "description": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.<br/>A maximum of 5 energy can be regenerated in this manner with any one Charged Attack.",
+      "level": 4
+    },
+    {
+      "_id": 145,
+      "id": "the_purest_companionship",
+      "name": "The Purest Companionship",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Let the Show Begin♪</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 146,
+      "id": "dedicating_everything_to_you",
+      "name": "Dedicating Everything to You",
+      "description": "When Barbara is in the party but not on the field, and one of your own party members falls:<br/>·Automatically revives the fallen character.<br/>·Fully restores the revived character's HP to 100%.<br/>This effect can only occur once every 15 mins.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "821"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "13"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "56"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2108",
+            "2721"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "34",
+            "44"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "144",
+            "186"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4076",
+            "4512"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "66",
+            "73"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "279",
+            "308"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104121,
+        "id": "varunada_lazurite_sliver",
+        "name": "Varunada Lazurite Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100025,
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Divining Scroll",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5189",
+            "5770"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "84",
+            "94"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "355",
+            "394"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113012,
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100025,
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Divining Scroll",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6448",
+            "6884"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "105",
+            "112"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "441",
+            "470"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113012,
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100025,
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7561",
+            "7996"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "123",
+            "130"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "517",
+            "546"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113012,
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100025,
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8674",
+            "9110"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "141",
+            "148"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "593",
+            "623"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113012,
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100025,
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Forbidden Curse Scroll",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9787",
+            "9787"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "159",
+            "159"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "669",
+            "669"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104124,
+        "id": "varunada_lazurite_gemstone",
+        "name": "Varunada Lazurite Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113012,
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100025,
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Forbidden Curse Scroll",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104301,
+          "id": "teachings_of_freedom",
+          "name": "Teachings of Freedom",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112008,
+          "id": "divining_scroll",
+          "name": "Divining Scroll",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113007,
+          "id": "ring_of_boreas",
+          "name": "Ring of Boreas",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113007,
+          "id": "ring_of_boreas",
+          "name": "Ring of Boreas",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113007,
+          "id": "ring_of_boreas",
+          "name": "Ring of Boreas",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113007,
+          "id": "ring_of_boreas",
+          "name": "Ring of Boreas",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 201401,
+      "name": "Summertime Sparkle",
+      "description": "Barbara's beach attire. This pretty skirt brims with summer vitality and carries with it a cool ocean breeze.",
+      "isDefault": false,
+      "characterName": "Barbara",
+      "characterId": 10000014,
+      "source": [
+        "Purchased from the Shop"
+      ],
+      "filename_card": "UI_AvatarIcon_BarbaraCostumeSummertime_Card",
+      "filename_icon": "UI_AvatarIcon_BarbaraCostumeSummertime",
+      "filename_iconCircle": "UI_AvatarIcon_BarbaraCostumeSummertime_Circle",
+      "filename_splash": "UI_Costume_BarbaraCostumeSummertime",
+      "filename_sideIcon": "UI_AvatarIcon_Side_BarbaraCostumeSummertime"
+    },
+    {
+      "id": 201400,
+      "name": "Innocent Longing",
+      "description": "Barbara's outfit. A Deaconess's uniform from the Church of Favonius with a unique Barbara streak running through it.",
+      "isDefault": true,
+      "characterName": "Barbara",
+      "characterId": 10000014,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Barbara_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "Tada! *giggles* Barbara is here~ Leave the healing to me, I will not disappoint you!"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Sleepiness",
+      "text": "*yawn* All this standing around is making me so sleepy..."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Encouragement",
+      "text": "Everyone is working super hard, we should be too!"
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Keeping One Refreshed",
+      "text": "Are you tired? Try my new spicy energy drink, I'm sure it'll wake you up!"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Don't stay out in the rain for too long, you'll catch a cold!"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Whoa!"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Ooh, snowflakes! Look at them dance!"
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "This weather is so amazing! I could burst into song."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Don't worry! I will not... be blown away!"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning~ Let's do our best today."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Oh? You want to hear me sing...? Sorry, the show is... It hasn't started yet."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "I really want to eat some spicy squid at Good Hunter... but my stomach, er... Never mind..."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "We had a great day today! Get some rest."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Barbara",
+      "text": "\"To the wind that guides me: When I'm exhausted, bless me with the strength to keep going forward. When I'm uncertain, bless me with the wisdom to distinguish good from evil. When I suffer from injustice, bless me with the courage to fight back...\" ...Oops, my apologies, I was just doing my prayers. *giggles* You need something?"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Hopes",
+      "text": "My dream is to bring a smile to the faces of all the people in my life! As long as I can help you on your journey, I'm happy~"
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Dreams",
+      "text": "Thank you for being with me for all this time, I can feel that I'm getting closer to my dream. Hope we can keep this up in the future~!"
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Everyone has their own desires. To bring together and fulfill those desires and make everyone happy — that is the purpose my Archon has bestowed upon me."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "I could never get bored of the breathtakingly beautiful nature that surrounds Mondstadt. I've heard that there are blue trees that exist by the sea shore near Inazuma City. I just need to save up a little more, and... What's that? You want to know what I'm saving up for? *chuckles* That's my little secret."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Sunflowers always face the sun. They're so bright. In fact, my mother sent me a sunflower-style dress... I wonder when I'll finally get to wear it on stage?"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Jean",
+      "text": "Acting Grand Master... Leader of the Knights of Favonius... Everyone seems to like her a lot. Oh? Me? I... Of course I have nothing but admiration for her!"
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Lisa",
+      "text": "I always take good care of Lisa. If she ever wants to become a star, she'll have my unconditional support, I'll cheer at the top of my lungs until my voice goes hoarse... Hmm, that might scare off her other fans though..."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Amber",
+      "text": "I've seen Amber rushing out of Mondstadt on a mission countless times. Being an Outrider doesn't look easy."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Diluc",
+      "text": "Oh, Master Diluc? Last time, when I was performing at Angel's Share, he kept frowning... Maybe he doesn't like my singing?"
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Venti",
+      "text": "Venti's voice is amazing! But all the songs he sings and the ones I'm good at are very different. I tried to learn them but... the melodies are just so complicated."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Bennett",
+      "text": "Bennett always comes to the cathedral covered in scrapes and bruises... Though it clearly never bothers him a bit, given the big grin he always has on his face. He really should take better care of himself."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Varka",
+      "text": "My father left on the expedition with Grand Master Varka... I hope they are okay. Oh, what am I worried about? The Grand Master is none other than the Knight of Boreas, of course they will be fine! Still, I will be sure to pray for their safe return."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Rosaria",
+      "text": "Sister Rosaria is hard to get to know, especially given she never joins in on prayers, but... Oh, I'm sure she believes in the Anemo Archon! Although, I still don't really have the courage to try to talk to her..."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Noelle",
+      "text": "Noelle is just the cutest! She's so kind and patient, you just feel totally relaxed when you're around her. ...Oh yeah, and she makes the tastiest snacks! Best part is, they're also healthy. Hehehe!"
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Dahlia",
+      "text": "I really look up to Dahlia. We rely on him to share the word of Barbatos, and it's always a great help to us all. He never sticks around long at the Cathedral, though. Maybe it's too quiet for him? He seems to love the markets and the taverns. And he can be hard to find sometimes... same as Rosaria."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Barbara: I",
+      "text": "Knights look so cool when they swing their sword in combat! Don't you think so? I tried using a sword before but... *sigh* Uh, let's just say I have zero talent with a sword."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Barbara: II",
+      "text": "I want to heal everyone. This simple thought was all the motivation I needed to become a Deaconess. As long as I'm able to help everyone, I'll be content."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Barbara: III",
+      "text": "Being an idol, I learned from Alice that \"A true idol should always try to heal the soul of the people...\" Yes, I completely agree."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Barbara: IV",
+      "text": "I'm doing my best everyday... I hope my efforts earn the trust of the people of Mondstadt."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Barbara: V",
+      "text": "Every time I get on stage I always start to doubt myself — can I really heal every person in Mondstadt? But I look at you now, and I feel that as long as we keep marching forward, maybe one day I might just— Huh? I've already healed you? Well, one's not enough! I've already healed a lot of people? I suppose..."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Barbara's Hobbies",
+      "text": "The smiles on the faces of the people I've helped keeps me going."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Barbara's Troubles",
+      "text": "My companions keep getting injured, but I'm unable to share the burden of their pain. The only thing I can do is my absolute very best to heal their wounds! I'll make sure that everyone is healthy."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Do you like spicy dried fish? I have two in my bag. Here, have one!"
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I don't like anything bitter, especially... ugh, bitter gourd."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "It's a rare pleasure to eat food that suits my tastes so well. Today is a blessed day! Hehehe."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Thank you for cooking these for me. This time around, you are the one healing me!"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Oh, uh, oh dear..."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Here you go! This is the gift I got for your birthday, along with my exclusive autograph! Hehe, when my next song comes out, I'll make sure you're the first one to hear it! Happy birthday!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "A dance from Barbara, to bring you more healing!"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Aw, thank you so much for your support! Oh no, I'm too excited, my heart just can't stop racing!"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Please, tell me how I can be stronger! Just leave it up to you? No, no, that won't do! I want to help too!"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Traveling with you, I have discovered that the world is my stage! Thank you so much! *giggles* Ok! Let's shout it out one more time! Three, two, one — Go Barbara, go!"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "I'll protect us!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Let's dance!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Let the show begin!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "♪La la-la-la-la~"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Ready, steady, go!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Come on, we can do it!"
+    },
+    {
+      "id": "700001",
+      "type": 2,
+      "title": "Sprint Start: I",
+      "text": "Go Barbara, go!"
+    },
+    {
+      "id": "710001",
+      "type": 2,
+      "title": "Sprint End: I",
+      "text": "*pant*... I'm fine!"
+    },
+    {
+      "id": "710002",
+      "type": 2,
+      "title": "Sprint End: II",
+      "text": "*pant* Keep going..."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "This is the kind of surprise I could sing about."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Oh, look at it sparkle!"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Hmm hmm hmm♪ Things are going so smoothly today~"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Don't worry about me!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "I can't stop now, they need me!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Gotta keep trying!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "I don't want to see you hurt..."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Please, let me tend to your wounds!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "I feel... a little weak..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Why has everyone stopped singing?"
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Sister..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Ouchie!"
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Oh no!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "I'll take care of it."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Wish me luck!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "We can do this!"
+    }
+  ]
+}

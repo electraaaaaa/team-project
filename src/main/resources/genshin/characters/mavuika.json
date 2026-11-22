@@ -1,0 +1,1985 @@
+{
+  "_id": 10000106,
+  "id": "mavuika",
+  "name": "Mavuika",
+  "title": "Night-Igniting Flame",
+  "description": "The leader of Natlan who inherited the Ancient Name of \"Kiongozi.\" She made a vow to illuminate the future of the nation of war with the Sacred Flame.",
+  "weapon_type": {
+    "id": "claymore",
+    "name": "Claymore"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1735596000,
+  "substat": "CRIT DMG",
+  "stats": {
+    "base": {
+      "hp": 977.153,
+      "attack": 27.93,
+      "defense": 61.6249
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 837.8203,
+        "attack": 23.9457,
+        "defense": 52.839,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1433.1138,
+        "attack": 40.95975,
+        "defense": 90.3825,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2226.8384,
+        "attack": 63.64515,
+        "defense": 140.4405,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2822.1316,
+        "attack": 80.6592,
+        "defense": 177.984,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3417.425,
+        "attack": 97.67325,
+        "defense": 215.5275,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.288
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4012.7185,
+        "attack": 114.6873,
+        "defense": 253.071,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.384
+        }
+      }
+    ]
+  },
+  "affiliation": "Huitztlan",
+  "region": {
+    "id": "natlan",
+    "name": "Natlan"
+  },
+  "rarity": 5,
+  "birthday": [
+    28,
+    8
+  ],
+  "constellation": "Sol Invictus",
+  "domain": "Blazing Ruins",
+  "cv": {
+    "english": "Katiana Sarkissian",
+    "chinese": "李晔",
+    "japanese": "小松未可子",
+    "korean": "Kim Na-yul"
+  },
+  "skills": [
+    {
+      "_id": 11061,
+      "id": "flames_weave_life",
+      "name": "Flames Weave Life",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive claymore strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to perform an especially powerful Severing Splendor strike toward the front.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "80%",
+            "86.5%",
+            "93.1%",
+            "102.4%",
+            "108.9%",
+            "116.3%",
+            "126.6%",
+            "136.8%",
+            "147%",
+            "158.2%",
+            "169.4%",
+            "180.5%",
+            "191.7%",
+            "202.9%",
+            "214%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "36.5%×2",
+            "39.4%×2",
+            "42.4%×2",
+            "46.7%×2",
+            "49.6%×2",
+            "53%×2",
+            "57.7%×2",
+            "62.4%×2",
+            "67%×2",
+            "72.1%×2",
+            "77.2%×2",
+            "82.3%×2",
+            "87.4%×2",
+            "92.5%×2",
+            "97.6%×2"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "33.2%×3",
+            "35.9%×3",
+            "38.6%×3",
+            "42.5%×3",
+            "45.2%×3",
+            "48.3%×3",
+            "52.5%×3",
+            "56.8%×3",
+            "61%×3",
+            "65.7%×3",
+            "70.3%×3",
+            "74.9%×3",
+            "79.6%×3",
+            "84.2%×3",
+            "88.9%×3"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "116.2%",
+            "125.7%",
+            "135.1%",
+            "148.6%",
+            "158.1%",
+            "168.9%",
+            "183.7%",
+            "198.6%",
+            "213.5%",
+            "229.7%",
+            "245.9%",
+            "262.1%",
+            "278.3%",
+            "294.5%",
+            "310.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "193.8%",
+            "209.6%",
+            "225.4%",
+            "247.9%",
+            "263.7%",
+            "281.8%",
+            "306.5%",
+            "331.3%",
+            "356.1%",
+            "383.2%",
+            "410.2%",
+            "437.3%",
+            "464.3%",
+            "491.4%",
+            "518.4%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "74.6%",
+            "80.7%",
+            "86.7%",
+            "95.4%",
+            "101.5%",
+            "108.4%",
+            "118%",
+            "127.5%",
+            "137%",
+            "147.4%",
+            "157.8%",
+            "168.3%",
+            "178.7%",
+            "189.1%",
+            "199.5%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "149.1% / 186.3%",
+            "161.3% / 201.5%",
+            "173.4% / 216.6%",
+            "190.8% / 238.3%",
+            "202.9% / 253.4%",
+            "216.8% / 270.8%",
+            "235.9% / 294.6%",
+            "254.9% / 318.4%",
+            "274% / 342.3%",
+            "294.8% / 368.2%",
+            "315.6% / 394.2%",
+            "336.4% / 420.2%",
+            "357.3% / 446.2%",
+            "378.1% / 472.2%",
+            "398.9% / 498.2%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11062,
+      "id": "the_named_moment",
+      "name": "The Named Moment",
+      "description": "Calling upon her authority over \"conflict,\" Mavuika summons the All-Fire Armaments passed down through the line of human Archons, dealing Nightsoul-aligned <span style=\"color:#FF9999FF\">Pyro DMG</span>.<br/>After using this, Mavuika's Nightsoul points are restored to max value, and she enters the Nightsoul's Blessing state.<br/><br/><span style=\"color:#FFD780FF\">All-Fire Armaments</span><br/>Has different forms when Tapped or Held.<br/><br/><span style=\"color:#FFD780FF\">Tap</span><br/>\"Divine Name Unleashed\": The All-Fire Armaments manifest as a Ring of Searing Radiance. The Ring follows the current active character and attacks nearby opponents at intervals, dealing Nightsoul-aligned <span style=\"color:#FF9999FF\">Pyro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>\"Ancient Name Unbound\": The All-Fire Armaments manifest as a Flamestrider. In this state, Mavuika can ride the Flamestrider at high speed, or activate its hidden backup propulsion module to temporarily cross various terrain types and glide in mid-air. Mavuika's Normal, Charged, and Plunging Attacks will also be converted to deal Nightsoul-aligned <span style=\"color:#FF9999FF\">Pyro DMG</span> which cannot be overridden. When sprinting, she also deals Nightsoul-aligned <span style=\"color:#FF9999FF\">Pyro DMG</span> to opponents along her path.<br/><br/>While in the Nightsoul's Blessing state, Tapping the Elemental Skill can switch the All-Fire Armaments' form. The Armaments will disappear once Mavuika's Nightsoul's Blessing state ends.<br/><br/><span style=\"color:#FFD780FF\">Nightsoul's Blessing: Mavuika</span><br/>Continuously consumes Nightsoul points according to the All-Fire Armaments' form. Mavuika's Nightsoul's Blessing state ends once her Nightsoul points are exhausted.",
+      "info": "If you told Mavuika that in another world vehicles like the Flamestrider required license plates for identification, that would make her happy too:<br/>\"Well, mine's the only one that exists here. Guess that means I get to pick whatever plate number I want, huh?\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "74.4%",
+            "80%",
+            "85.6%",
+            "93%",
+            "98.6%",
+            "104.2%",
+            "111.6%",
+            "119%",
+            "126.5%",
+            "133.9%",
+            "141.4%",
+            "148.8%",
+            "158.1%",
+            "167.4%",
+            "176.7%"
+          ]
+        },
+        {
+          "label": "Ring of Searing Radiance DMG",
+          "values": [
+            "128%",
+            "137.6%",
+            "147.2%",
+            "160%",
+            "169.6%",
+            "179.2%",
+            "192%",
+            "204.8%",
+            "217.6%",
+            "230.4%",
+            "243.2%",
+            "256%",
+            "272%",
+            "288%",
+            "304%"
+          ]
+        },
+        {
+          "label": "Ring of Searing Radiance Attack Interval",
+          "values": [
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s"
+          ]
+        },
+        {
+          "label": "Flamestrider Normal Attack 1-Hit DMG",
+          "values": [
+            "57.3%",
+            "61.9%",
+            "66.6%",
+            "73.2%",
+            "77.9%",
+            "83.2%",
+            "90.6%",
+            "97.9%",
+            "105.2%",
+            "113.2%",
+            "121.2%",
+            "129.2%",
+            "137.2%",
+            "145.2%",
+            "153.2%"
+          ]
+        },
+        {
+          "label": "Flamestrider Normal Attack 2-Hit DMG",
+          "values": [
+            "59.1%",
+            "63.9%",
+            "68.8%",
+            "75.6%",
+            "80.4%",
+            "85.9%",
+            "93.5%",
+            "101.1%",
+            "108.6%",
+            "116.9%",
+            "125.1%",
+            "133.4%",
+            "141.6%",
+            "149.9%",
+            "158.1%"
+          ]
+        },
+        {
+          "label": "Flamestrider Normal Attack 3-Hit DMG",
+          "values": [
+            "70%",
+            "75.7%",
+            "81.4%",
+            "89.5%",
+            "95.2%",
+            "101.7%",
+            "110.7%",
+            "119.6%",
+            "128.6%",
+            "138.3%",
+            "148.1%",
+            "157.9%",
+            "167.6%",
+            "177.4%",
+            "187.2%"
+          ]
+        },
+        {
+          "label": "Flamestrider Normal Attack 4-Hit DMG",
+          "values": [
+            "69.7%",
+            "75.4%",
+            "81.1%",
+            "89.2%",
+            "94.8%",
+            "101.3%",
+            "110.2%",
+            "119.1%",
+            "128.1%",
+            "137.8%",
+            "147.5%",
+            "157.2%",
+            "167%",
+            "176.7%",
+            "186.4%"
+          ]
+        },
+        {
+          "label": "Flamestrider Normal Attack 5-Hit DMG",
+          "values": [
+            "91%",
+            "98.4%",
+            "105.8%",
+            "116.4%",
+            "123.8%",
+            "132.3%",
+            "143.9%",
+            "155.6%",
+            "167.2%",
+            "179.9%",
+            "192.6%",
+            "205.3%",
+            "218%",
+            "230.7%",
+            "243.4%"
+          ]
+        },
+        {
+          "label": "Flamestrider Sprint DMG",
+          "values": [
+            "80.8%",
+            "87.4%",
+            "94%",
+            "103.4%",
+            "110%",
+            "117.5%",
+            "127.8%",
+            "138.2%",
+            "148.5%",
+            "159.8%",
+            "171.1%",
+            "182.4%",
+            "193.6%",
+            "204.9%",
+            "216.2%"
+          ]
+        },
+        {
+          "label": "Flamestrider Charged Attack Cyclic DMG",
+          "values": [
+            "98.9%",
+            "106.9%",
+            "115%",
+            "126.5%",
+            "134.5%",
+            "143.8%",
+            "156.4%",
+            "169%",
+            "181.7%",
+            "195.5%",
+            "209.3%",
+            "223.1%",
+            "236.9%",
+            "250.7%",
+            "264.5%"
+          ]
+        },
+        {
+          "label": "Flamestrider Charged Attack Final DMG",
+          "values": [
+            "137.6%",
+            "148.8%",
+            "160%",
+            "176%",
+            "187.2%",
+            "200%",
+            "217.6%",
+            "235.2%",
+            "252.8%",
+            "272%",
+            "291.2%",
+            "310.4%",
+            "329.6%",
+            "348.8%",
+            "368%"
+          ]
+        },
+        {
+          "label": "Flamestrider Plunge DMG",
+          "values": [
+            "160%",
+            "173%",
+            "186%",
+            "204.6%",
+            "217.6%",
+            "232.5%",
+            "253%",
+            "273.4%",
+            "293.9%",
+            "316.2%",
+            "338.5%",
+            "360.8%",
+            "383.2%",
+            "405.5%",
+            "427.8%"
+          ]
+        },
+        {
+          "label": "Nightsoul Point Limit",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11065,
+      "id": "hour_of_burning_skies",
+      "name": "Hour of Burning Skies",
+      "description": "Let the people's inner voices reach the divine throne in the heavens.<br/><span style=\"color:#FFD780FF\">Mavuika's Elemental Burst is not reliant on Energy, but instead, on \"Fighting Spirit.\"</span><br/><br/><span style=\"color:#FFD780FF\">Fighting Spirit</span><br/>When Mavuika has at least 50% Fighting Spirit, she can consume it all to unleash her Elemental Burst.<br/>Mavuika can obtain Fighting Spirit via the following methods:<br/>· When in combat, Nightsoul points consumed by nearby party members are converted to Fighting Spirit.<br/>· When nearby party members' Normal Attacks hit opponents, Mavuika gains 1.5 Fighting Spirit. This can trigger once every 0.1s.<br/><br/>After using this, Mavuika gains 10 Nightsoul points and enters the Nightsoul's Blessing state. Riding her Flamestrider high in the air, she uses a powerful Sunfell Slice against opponents on the ground, dealing Nightsoul-aligned <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> and entering the \"Crucible of Death and Life\" state.<br/><br/><span style=\"color:#FFD780FF\">Crucible of Death and Life</span><br/>During this time, Mavuika's various actions will no longer consume Nightsoul points, and her interruption resistance is increased. Also, the DMG dealt by Sunfell Slice and \"Ancient Name Unbound\"'s Normal and Charged Attacks is increased based on the amount of Fighting Spirit she has when using the Elemental Burst.<br/>Crucible of Death and Life will be canceled when Mavuika leaves the field.",
+      "info": "\"—But this time, I want to break the cycle and free us from this fate for good.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "444.8%",
+            "478.2%",
+            "511.5%",
+            "556%",
+            "589.4%",
+            "622.7%",
+            "667.2%",
+            "711.7%",
+            "756.2%",
+            "800.6%",
+            "845.1%",
+            "889.6%",
+            "945.2%",
+            "1000.8%",
+            "1056.4%"
+          ]
+        },
+        {
+          "label": "Crucible of Death and Life Duration",
+          "values": [
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s"
+          ]
+        },
+        {
+          "label": "Sunfell Slice DMG Bonus",
+          "values": [
+            "1.6% ATK per Fighting Spirit",
+            "1.7% ATK per Fighting Spirit",
+            "1.8% ATK per Fighting Spirit",
+            "2% ATK per Fighting Spirit",
+            "2.1% ATK per Fighting Spirit",
+            "2.2% ATK per Fighting Spirit",
+            "2.4% ATK per Fighting Spirit",
+            "2.6% ATK per Fighting Spirit",
+            "2.7% ATK per Fighting Spirit",
+            "2.9% ATK per Fighting Spirit",
+            "3% ATK per Fighting Spirit",
+            "3.2% ATK per Fighting Spirit",
+            "3.4% ATK per Fighting Spirit",
+            "3.6% ATK per Fighting Spirit",
+            "3.8% ATK per Fighting Spirit"
+          ]
+        },
+        {
+          "label": "Flamestrider Normal Attack DMG Bonus",
+          "values": [
+            "0.26% ATK per Fighting Spirit",
+            "0.28% ATK per Fighting Spirit",
+            "0.3% ATK per Fighting Spirit",
+            "0.33% ATK per Fighting Spirit",
+            "0.35% ATK per Fighting Spirit",
+            "0.38% ATK per Fighting Spirit",
+            "0.41% ATK per Fighting Spirit",
+            "0.44% ATK per Fighting Spirit",
+            "0.47% ATK per Fighting Spirit",
+            "0.51% ATK per Fighting Spirit",
+            "0.55% ATK per Fighting Spirit",
+            "0.58% ATK per Fighting Spirit",
+            "0.62% ATK per Fighting Spirit",
+            "0.65% ATK per Fighting Spirit",
+            "0.69% ATK per Fighting Spirit"
+          ]
+        },
+        {
+          "label": "Flamestrider Charged Attack DMG Bonus",
+          "values": [
+            "0.52% ATK per Fighting Spirit",
+            "0.56% ATK per Fighting Spirit",
+            "0.6% ATK per Fighting Spirit",
+            "0.66% ATK per Fighting Spirit",
+            "0.7% ATK per Fighting Spirit",
+            "0.75% ATK per Fighting Spirit",
+            "0.82% ATK per Fighting Spirit",
+            "0.88% ATK per Fighting Spirit",
+            "0.95% ATK per Fighting Spirit",
+            "1.02% ATK per Fighting Spirit",
+            "1.09% ATK per Fighting Spirit",
+            "1.16% ATK per Fighting Spirit",
+            "1.24% ATK per Fighting Spirit",
+            "1.31% ATK per Fighting Spirit",
+            "1.38% ATK per Fighting Spirit"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Fighting Spirit Limit",
+          "values": [
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "gift_of_flaming_flowers",
+      "name": "Gift of Flaming Flowers",
+      "description": "When a nearby party member triggers a Nightsoul Burst, Mavuika's ATK increases by 30% for 10s.",
+      "level": 1
+    },
+    {
+      "id": "kiongozi",
+      "name": "\"Kiongozi\"",
+      "description": "After using her Elemental Burst, <span style=\"color:#FFD780FF\">Hour of Burning Skies</span>, every point of Fighting Spirit present when it is used increases the DMG that the current active party member deals by 0.2%. The maximum increase obtainable this way is 40%, and this effect lasts 20s, decaying over this duration until it reaches 0.",
+      "level": 4
+    },
+    {
+      "id": "night_realms_gift_exhaust_mode",
+      "name": "Night Realm's Gift: Exhaust Mode",
+      "description": "After Nightsoul points have been fully depleted, Mavuika will switch to using Phlogiston to maintain the All-Fire Armaments' Flamestrider form.<br/>While in an area with Phlogiston Mechanics within Natlan, Nightsoul Transmission: Mavuika can be used. When the current active character is sprinting, climbing, swimming, in movement modes caused by certain Talents, or at a certain height in the air, switching to Mavuika will trigger the following: Mavuika enters the Nightsoul's Blessing state and obtains 50% of her maximum Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own party.",
+      "level": 0
+    },
+    {
+      "id": "nightshattering_radiance",
+      "name": "Night-Shattering Radiance",
+      "description": "The party's Nightsoul Transmission CD is decreased by 20%.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1061,
+      "id": "the_nightlords_explication",
+      "name": "The Night-Lord's Explication",
+      "description": "Mavuika's maximum Nightsoul points are increased to 120, and she gains Fighting Spirit 25% more efficiently.<br/>Additionally, she gains 40% ATK for 8s after gaining Fighting Spirit.",
+      "level": 1
+    },
+    {
+      "_id": 1062,
+      "id": "the_ashen_price",
+      "name": "The Ashen Price",
+      "description": "When in the Nightsoul's Blessing State, Mavuika's Base ATK is increased by 200, and she obtains the following effects based on All-Fire Armaments' form:<br/>· Ring of Searing Radiance: Nearby opponents' DEF is decreased by 20%.<br/>· Flamestrider: Mavuika's Normal Attacks, Charged Attacks, and her Sunfell Slice from the Elemental Burst <span style=\"color:#FFD780FF\">Hour of Burning Skies</span> deal 60%, 90%, and 120% of her ATK as increased DMG respectively.",
+      "level": 2
+    },
+    {
+      "_id": 1063,
+      "id": "the_burning_sun",
+      "name": "The Burning Sun",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Hour of Burning Skies</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1064,
+      "id": "the_leaders_resolve",
+      "name": "The Leader's Resolve",
+      "description": "Enhances the effects of the Ascension Talent \"Kiongozi\":<br/>The DMG increase gained after using the Elemental Burst <span style=\"color:#FFD780FF\">Hour of Burning Skies</span> will not decay over time, and an additional 10% DMG Bonus will be gained.<br/>You must first unlock the Ascension Talent \"Kiongozi.\"",
+      "level": 4
+    },
+    {
+      "_id": 1065,
+      "id": "the_meaning_of_truth",
+      "name": "The Meaning of Truth",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">The Named Moment</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1066,
+      "id": "humanitys_name_unfettered",
+      "name": "\"Humanity's Name\" Unfettered",
+      "description": "The All-Fire Armaments from the Elemental Skill <span style=\"color:#FFD780FF\">The Named Moment</span> receive all-round improvements:<br/>· Ring of Searing Radiance: When the Ring's attacks hit opponents, a Flamestrider will crash into the struck opponent, dealing 200% of ATK as Nightsoul-aligned <span style=\"color:#FF9999FF\">AoE Pyro DMG</span>.<br/>· Flamestrider: When Mavuika is riding the Flamestrider, she will also summon a Scorching Ring of Searing Radiance to follow her, which will decrease nearby opponents' DEF by 20% and deal 500% of ATK as Nightsoul-aligned <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> to nearby opponents once every 3s. Mavuika's terrain-crossing abilities will also be further improved.<br/><br/>Additionally, when Mavuika is riding her Flamestrider and is not in combat, when her Nightsoul points drop to 5, she will gain 80 Nightsoul points. This effect can trigger once every 15s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "977"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "28"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "62"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2535",
+            "3373"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "72",
+            "96"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "160",
+            "213"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5046",
+            "5642"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "144",
+            "161"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "318",
+            "356"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104111,
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101253,
+        "id": "withering_purpurbloom",
+        "name": "Withering Purpurbloom",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112104,
+        "id": "sentrys_wooden_whistle",
+        "name": "Sentry's Wooden Whistle",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6491",
+            "7285"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "186",
+            "208"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "409",
+            "459"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101253,
+        "id": "withering_purpurbloom",
+        "name": "Withering Purpurbloom",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112104,
+        "id": "sentrys_wooden_whistle",
+        "name": "Sentry's Wooden Whistle",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8143",
+            "8738"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "233",
+            "250"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "514",
+            "551"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101253,
+        "id": "withering_purpurbloom",
+        "name": "Withering Purpurbloom",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112105,
+        "id": "warriors_metal_whistle",
+        "name": "Warrior's Metal Whistle",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9604",
+            "10199"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "274",
+            "292"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "606",
+            "643"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101253,
+        "id": "withering_purpurbloom",
+        "name": "Withering Purpurbloom",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112105,
+        "id": "warriors_metal_whistle",
+        "name": "Warrior's Metal Whistle",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11074",
+            "11670"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "317",
+            "334"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "698",
+            "736"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101253,
+        "id": "withering_purpurbloom",
+        "name": "Withering Purpurbloom",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112106,
+        "id": "sauriancrowned_warriors_golden_whistle",
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12552",
+            "12552"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "359",
+            "359"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "792",
+            "792"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104114,
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101253,
+        "id": "withering_purpurbloom",
+        "name": "Withering Purpurbloom",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112106,
+        "id": "sauriancrowned_warriors_golden_whistle",
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104347,
+          "id": "teachings_of_contention",
+          "name": "Teachings of Contention",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112104,
+          "id": "sentrys_wooden_whistle",
+          "name": "Sentry's Wooden Whistle",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104348,
+          "id": "guide_to_contention",
+          "name": "Guide to Contention",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104348,
+          "id": "guide_to_contention",
+          "name": "Guide to Contention",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104348,
+          "id": "guide_to_contention",
+          "name": "Guide to Contention",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104348,
+          "id": "guide_to_contention",
+          "name": "Guide to Contention",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104349,
+          "id": "philosophies_of_contention",
+          "name": "Philosophies of Contention",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113068,
+          "id": "eroded_horn",
+          "name": "Eroded Horn",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104349,
+          "id": "philosophies_of_contention",
+          "name": "Philosophies of Contention",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113068,
+          "id": "eroded_horn",
+          "name": "Eroded Horn",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104349,
+          "id": "philosophies_of_contention",
+          "name": "Philosophies of Contention",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113068,
+          "id": "eroded_horn",
+          "name": "Eroded Horn",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104349,
+          "id": "philosophies_of_contention",
+          "name": "Philosophies of Contention",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113068,
+          "id": "eroded_horn",
+          "name": "Eroded Horn",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 210600,
+      "name": "Undying Sun",
+      "description": "Mavuika's outfit. She is the sun that walks among us, the beacon that shines through every night, and the spark by which all kindling is ignited, bestowing courage upon us all. Such is her radiance that it shall never fade away.",
+      "isDefault": true,
+      "characterName": "Mavuika",
+      "characterId": 10000106,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Mavuika_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "With the flames to guide us across time, we took a land shrouded in darkness, and used our own blood and tears to forge it into a home. Now, our journey continues, and a new chapter awaits. As the current Pyro Archon, allow me, Mavuika, to light your way forward."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Adventures",
+      "text": "Exploration and trials... Heh, adventuring is right up my alley."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Experience",
+      "text": "Instead of confining themselves to the heavens, gods should broaden their horizons in the world below."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Light",
+      "text": "Many insects have a compulsion to follow the light, and humans are the same — except we call that light, \"hope.\""
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Ah, nice and cool. Natlan doesn't have places like this."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Weather like this is perfect for enjoying the outdoors. Wanna go for a spin? Here, hop on."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "Ah, you're dripping wet. That must be uncomfortable... Let's take a break. I'll use my fire to dry you off."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "Sand is the natural enemy of fire and civilization. In the desert, ruins are all that remain to tell the story of the past."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "After waking up, I always go over the plan for the day in my head... Unfortunately, sleeping in is never on the agenda."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Have you had lunch? The Collective of Plenty sent over some fresh fruit — the perfect thing to round out a meal. Here, try some."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Hm, so this is the proposal and approximate budget to rebuild the roads in the Children of Echoes... Oh, good evening. Is it that late already?"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Good Night! I'm going to take it easy and wrap up some work. Oh, don't worry — I see keeping busy as a great way to relax."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Mavuika: Hair",
+      "text": "Oh, my hair? Don't worry, these are friendly flames — they won't burn you or incinerate anything. Although, I think our enemies will find that it's a bad idea to play with fire, if you know what I mean."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Mavuika: Message",
+      "text": "Every Pyro Archon throughout Natlan's history has left behind important knowledge and memories within the Sacred Flame, for the benefit of future successors. When inherited, the sheer amount of information can impact your sense of self. So, I chose to leave behind this phrase, \"Before you become one with flame, be proud of who you are now.\""
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Fighting Side By Side",
+      "text": "A plan is a reliable guide, but it's not an unchangeable or divine decree. Five hundred years ago, I could never have anticipated your arrival. But, after meeting you, I knew factoring you into my plan would be worth it. Judging from the outcome, choosing to fight by your side was unequivocally the right choice."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Ancient Names",
+      "text": "You may not have realized this, but your ancient name, Tumaini, will have a significant impact on Natlan for years to come. When future generations speak this name, they will think about this battle and the efforts of all our heroes. Our names — Tumaini and Kiongozi — are now linked and will live on in perpetuity."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "For humans, Visions and Ancient Names are both gifts from the gods, where the former bestows Elemental power and the latter spiritual inspiration. However, I have always believed that no external factor is a condition for greatness — heroism comes from within."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "When I was little, my father told me that a barrel can only hold as much water as the shortest plank. If you want to reach your full potential, you need to be willing to become the weakest link, to acknowledge your shortcomings and learn from others. That doesn't make you a failure, it pushes you to succeed."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Baby Yumkasaurs are incredibly cute, and my Saurian companion, Hitata, was especially clingy. He used to jump into my arms the minute he saw me, even from quite a distance. My sister, Hine, would get so jealous — whenever she saw Hitata run towards me, she would do the same. Before I knew it, I would have an armful of baby Saurian and baby sister at the same time, haha."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Xilonen",
+      "text": "Xilonen is one of the best craftsmen in Natlan. She has the ability to forge Ancient Names and is well-versed in Secret Source technology. Not to mention, she never backs away from a challenge, even when it's completely uncharted territory. The process isn't without twists and turns — like design changes and other modifications — but the results speak for themselves."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Citlali",
+      "text": "Many people find her strange or difficult to get along with. But, this is how I see it — Citlali doesn't concern herself with trivial matters, but she's always there when it counts. I'm sure you've seen that for yourself. She's someone who can easily tunnel vision and get herself embroiled in trouble, so I try to keep certain things from her. But, she can see right through me... She's too sharp."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Chasca",
+      "text": "Being able to survive under the influence of Abyssal corrosion was already a miracle, but thanks to the people and Saurians of this land, she even found a reason not just to survive, but to live. I have every faith in her fortitude, but I will still do what I can to make this land a \"gentler\" place — even the strongest among us need a break sometimes."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Ororon",
+      "text": "In my opinion, Ororon's true personality is very different from what he projects on the outside — like lava covered in ice. His tribe and his friends bring him peace, but his drive to protect them and his need to become a hero leave him restless. It's inadvisable to act on impulse, but these are precious qualities all the same."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Iansan: Being Targeted",
+      "text": "A lot of people underestimated Iansan during her first few Pilgrimages after receiving her Ancient Name, and singled her out during the team stage as an easy target. Even though she never lost, the constant challengers drained her stamina and affected her ranking, which only made people more likely to target her..."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Iansan: Proving Yourself",
+      "text": "My advice to her was this — people are less likely to mess with someone whose strength is undeniable, so all she needed to do was to prove it. Well, she decided to do just that... by challenging me in the arena, hahaha. Yeah, I definitely didn't see that coming! In the end, she put up quite the fight, and no one underestimated her again."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Mualani",
+      "text": "In terms of personality, Mualani and Tupac are completely different, and yet both inherited the name, Umoja. Unity lies not in a particular action, but in a state of mind — a willingness to give your all for your nation, family and friends. But, I doubt Mualani was thinking about any of that back then. She knew one thing to be true — that Kachina's life was worth any risk to her own."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Kinich",
+      "text": "In addition to the Turnfire, Malipo has another meaning, \"cost\" or \"price.\" It may seem less overtly heroic compared to the other Ancient Names, but in truth, Malipo teaches us to be calm and analytical — to ask the questions people may not want to hear. Without people who possess these qualities, it's just too easy for the rest of us to act on impulse and emotion, and make decisions we'll come to regret."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Kachina",
+      "text": "After you rescued Kachina from the Night Kingdom, I visited her family with Chief Pacal, and brought a few gifts to once again apologize for what happened. Kachina's time in the Night Kingdom left her with many scars she will have to carry into the future — scars she should never have had to bear... And for that, the fault is mine."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Varesa",
+      "text": "During the Pilgrimage, I cover all the expenses at the Weary Inn, and without fail, there's always an order for a party tray for eighty. I used to assume it was someone ordering for a large group of friends, but as it turns out... Varesa ordered it all for herself."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Ifa",
+      "text": "The truly great doctors often possess vast medical knowledge as well as great communication skills. And, when the patient and the doctor do not speak the same language, observation and empathy become even more important. That's why Ifa can make friends with just about anyone.\\nSuffice it to say, if someone is on bad terms with Ifa — human or saurian — I doubt the problem lies with him, haha."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About The Captain",
+      "text": "For him, I suspect the past five hundred years felt endless. When someone is deprived of death, life becomes a journey with no end, and the human spirit easily grows weary. And yet, he managed to seize the only chance of victory to arrive at the end he sought all along. I have great respect for warriors like him."
+    },
+    {
+      "id": "4013",
+      "type": 1,
+      "title": "About The Seven",
+      "text": "To be quite honest, you likely know them better than me. However, their nations continue to survive and thrive to this day, and that would be impossible without strong leadership. Once this chapter of Natlan's history comes to a close, I plan on strengthening our relationship with other nations so that Natlan can continue to grow."
+    },
+    {
+      "id": "4014",
+      "type": 1,
+      "title": "About Yumemizuki Mizuki",
+      "text": "Ah, she left a very positive impression. When she first arrived in Natlan, I heard that she had a great deal of interest in our hot springs and spent quite some time studying their properties. But, it wasn't for profit. She was interested in their role in improving mental health. Such a pure cause deserved our support and respect.\\nSpeaking of which... Is it true that the current Archon of Inazuma enjoys hot springs as well? If that's the case, I believe I've found a good starting point for our next conversation."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Mavuika: I",
+      "text": "Oh, you want to know more about me? Sure, I'm actually quite fond of telling stories. Still, I think this will be a lot more fun over a few drinks."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More about Mavuika: II",
+      "text": "Riding the flamestrider isn't complicated, it just takes some practice. If I want to go fast, though, I would need to install some safety components. What was that? I'm already going quite fast? Well, when I asked, this is what Xilonen told me — \"It's safe enough — not like you're made of glass.\""
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More about Mavuika: III",
+      "text": "Of course, I also have many regrets. Thanks to my knowledge and strength, I'm an effective problem-solver, but most of the time, all people really need is companionship... I've disappointed many people in that regard, but duty stops for no one. Questioning my path will only bring more pain — I owe it to myself to stick to my convictions."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More about Mavuika: IV",
+      "text": "Unleashing the power of the divine throne bound my soul to the Ley Lines. As I rose up into the air, I could feel the passion of our warriors, the determination of our people, and the pain of our fallen... It's a scene I've witnessed once before. But, with the help of our heroes, this time it had a very different ending. That is how we know this struggle was not in vain."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More about Mavuika: V",
+      "text": "With our triumph over the Abyss, my most important duty as Pyro Archon came to an end. Five hundred years ago, I chose to fight for a future that likely wouldn't include me — so I was prepared for that result. So, when that future actually arrived, I was at a loss... But, you've inspired me. Exploration, curiosity, and dedication to others — that's the path forward."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Mavuika's Hobbies",
+      "text": "Getting stronger. Completing a difficult challenge, solving a complicated puzzle, defeating a powerful enemy... I don't have a singular hobby — the sense of accomplishment is what I enjoy the most."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Mavuika's Troubles",
+      "text": "\"Due to lack of popularity, all future expansions and additions to 'The Saurian Sleuth' have been suspended...\" That was my favorite tabletop puzzle game. It can't be because it was too hard or the rules were too complicated, right? That doesn't make it bad... *sigh* If it comes down to sales, there's not much I can do. I hope the creator will come out with a new game. Maybe I'll write an anonymous letter to support him..."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Even when it comes to the simplest home-cooked meals, every family has their own recipe, and the flavor can change a lot. I've tried a bunch of different stews around the Stadium, each unique and delicious in its own way. But, if I'm cooking for myself, I still prefer my family recipe."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I like most ingredients, but I don't really appreciate dishes that are more form than substance, like a full course dinner that will take three whole hours to get through... I respect culinary innovation, of course, but I prefer to spend my time on something more productive."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Just what I like, thank you. Do you have the recipe? I'd love to learn."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Not bad overall, but there's still room for improvement."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Oh, it's surprisingly edible. Definitely not as bad as it looks."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Starting from today, you should write down all your accomplishments on a piece of paper. Then, when you take it out on your next birthday, you'll have a gift from yourself! That way, you'll never forget how amazing you are. Happy Birthday, {NICKNAME}."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Perfect! I feel nice and loose."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "I can feel myself getting stronger. But, my power doesn't stop here."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "My fire grows hotter, and my body and spirit more aligned. This power shall allow me to fulfill all my duties as a leader."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Ever since we met, my power has grown by leaps and bounds. Though different missions drive us forward, a shared sense of duty and justice binds us together. Your help to Natlan is immeasurable, and I am more grateful than words can say."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Light it up."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Burn it down!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Rise with the sun."
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Rev the engines!"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Full throttle!"
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Try and stop me."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Light of the blazing sun!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Wrath from the skies!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Pyroclastic surge!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "The rewards of an adventure worth remembering."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Ah, something to add to my collection."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Hey, not a bad haul."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "No more mistakes."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Switching gears."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Time to buckle down."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Leave the fighting to me."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Take a breather."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "The flame... burns on..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "The end... of our legacy..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Is this... our fate?"
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Not bad."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Archon reporting for battle."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Any time, any place."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Ready to ride."
+    }
+  ]
+}

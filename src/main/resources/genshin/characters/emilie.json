@@ -1,0 +1,1749 @@
+{
+  "_id": 10000099,
+  "id": "emilie",
+  "name": "Emilie",
+  "title": "A Thousand Scents Traced",
+  "description": "A Fontainian perfumer, one who bottles secrets.",
+  "weapon_type": {
+    "id": "polearm",
+    "name": "Polearm"
+  },
+  "element": {
+    "id": "dendro",
+    "name": "Dendro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1722956400,
+  "substat": "CRIT DMG",
+  "stats": {
+    "base": {
+      "hp": 1056.2786,
+      "attack": 26.068,
+      "defense": 56.8385
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 905.6633,
+        "attack": 22.34932,
+        "defense": 48.735,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1549.161,
+        "attack": 38.2291,
+        "defense": 83.3625,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2407.158,
+        "attack": 59.40214,
+        "defense": 129.5325,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 70,
+        "hp": 3050.6555,
+        "attack": 75.28192,
+        "defense": 164.16,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3694.153,
+        "attack": 91.1617,
+        "defense": 198.7875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.288
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4337.651,
+        "attack": 107.04148,
+        "defense": 233.415,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.384
+        }
+      }
+    ]
+  },
+  "affiliation": "Court of Fontaine",
+  "region": {
+    "id": "fontaine",
+    "name": "Fontaine"
+  },
+  "rarity": 5,
+  "birthday": [
+    22,
+    9
+  ],
+  "constellation": "Pomum de Ambra",
+  "domain": "Pale Forgotten Glory",
+  "cv": {
+    "english": "Amber Aviles",
+    "chinese": "木子橙",
+    "japanese": "日笠陽子",
+    "korean": "Kwon Da-ye"
+  },
+  "skills": [
+    {
+      "_id": 10991,
+      "id": "shadowhunting_spear_custom",
+      "name": "Shadow-Hunting Spear (Custom)",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive spear strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to perform an upward slash.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "48.6%",
+            "52.5%",
+            "56.5%",
+            "62.1%",
+            "66.1%",
+            "70.6%",
+            "76.8%",
+            "83%",
+            "89.2%",
+            "96%",
+            "102.8%",
+            "109.5%",
+            "116.3%",
+            "123.1%",
+            "129.9%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "44.9%",
+            "48.5%",
+            "52.2%",
+            "57.4%",
+            "61.1%",
+            "65.3%",
+            "71%",
+            "76.7%",
+            "82.5%",
+            "88.7%",
+            "95%",
+            "101.3%",
+            "107.5%",
+            "113.8%",
+            "120.1%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "59.3%",
+            "64.1%",
+            "69%",
+            "75.8%",
+            "80.7%",
+            "86.2%",
+            "93.8%",
+            "101.4%",
+            "108.9%",
+            "117.2%",
+            "125.5%",
+            "133.8%",
+            "142%",
+            "150.3%",
+            "158.6%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "75.1%",
+            "81.2%",
+            "87.3%",
+            "96.1%",
+            "102.2%",
+            "109.2%",
+            "118.8%",
+            "128.4%",
+            "138%",
+            "148.5%",
+            "158.9%",
+            "169.4%",
+            "179.9%",
+            "190.4%",
+            "200.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "91.3%",
+            "98.8%",
+            "106.2%",
+            "116.8%",
+            "124.3%",
+            "132.8%",
+            "144.4%",
+            "156.1%",
+            "167.8%",
+            "180.5%",
+            "193.3%",
+            "206%",
+            "218.8%",
+            "231.5%",
+            "244.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10992,
+      "id": "fragrance_extraction",
+      "name": "Fragrance Extraction",
+      "description": "Creates a Lumidouce Case that deals <span style=\"color:#99FF88FF\">AoE Dendro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Lumidouce Case</span><br/>·Fires Puffs of Puredew at nearby opponents at intervals, dealing <span style=\"color:#99FF88FF\">Dendro DMG</span>.<br/>·When nearby opponents are affected by Burning, they will give off Scents at intervals, and 1 Scent can be created this way every 2s. The Lumidouce Case collects nearby Scents. The Lumidouce Case will level up after gathering 2 of them, after which it will fire 1 extra Puff of Puredew when firing, while the DMG dealt by and DMG AoE of the above attack will also be increased.<br/>·1 Lumidouce Case created by Emilie herself can exist at any one time. The Case starts at Level 1 and can go up to Level 2. If the Case does not collect any Scents for 8s while it is on the field, it will go back to Level 1.<br/><br/><span style=\"color:#FFD780FF\">Arkhe: Pneuma</span><br/>At intervals, after Emilie creates a Lumidouce Case this way, a Spiritbreath Thorn will descend in front of her and pierce her opponent, dealing Pneuma-aligned <span style=\"color:#99FF88FF\">Dendro DMG</span>.",
+      "info": "\"The world is an endless harmony of fragrance, color, and song.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "47.1%",
+            "50.6%",
+            "54.1%",
+            "58.9%",
+            "62.4%",
+            "65.9%",
+            "70.6%",
+            "75.3%",
+            "80%",
+            "84.7%",
+            "89.5%",
+            "94.2%",
+            "100%",
+            "105.9%",
+            "111.8%"
+          ]
+        },
+        {
+          "label": "Level 1 Lumidouce Case Attack DMG",
+          "values": [
+            "39.6%",
+            "42.6%",
+            "45.5%",
+            "49.5%",
+            "52.5%",
+            "55.4%",
+            "59.4%",
+            "63.4%",
+            "67.3%",
+            "71.3%",
+            "75.2%",
+            "79.2%",
+            "84.2%",
+            "89.1%",
+            "94%"
+          ]
+        },
+        {
+          "label": "Level 2 Lumidouce Case Attack DMG",
+          "values": [
+            "84%×2",
+            "90.3%×2",
+            "96.6%×2",
+            "105%×2",
+            "111.3%×2",
+            "117.6%×2",
+            "126%×2",
+            "134.4%×2",
+            "142.8%×2",
+            "151.2%×2",
+            "159.6%×2",
+            "168%×2",
+            "178.5%×2",
+            "189%×2",
+            "199.5%×2"
+          ]
+        },
+        {
+          "label": "Lumidouce Case Duration",
+          "values": [
+            "22s",
+            "22s",
+            "22s",
+            "22s",
+            "22s",
+            "22s",
+            "22s",
+            "22s",
+            "22s",
+            "22s",
+            "22s",
+            "22s",
+            "22s",
+            "22s",
+            "22s"
+          ]
+        },
+        {
+          "label": "Spiritbreath Thorn DMG",
+          "values": [
+            "38.5%",
+            "41.4%",
+            "44.3%",
+            "48.1%",
+            "51%",
+            "53.9%",
+            "57.8%",
+            "61.6%",
+            "65.5%",
+            "69.3%",
+            "73.2%",
+            "77%",
+            "81.9%",
+            "86.7%",
+            "91.5%"
+          ]
+        },
+        {
+          "label": "Spiritbreath Thorn Interval",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "Skill CD",
+          "values": [
+            "14s",
+            "14s",
+            "14s",
+            "14s",
+            "14s",
+            "14s",
+            "14s",
+            "14s",
+            "14s",
+            "14s",
+            "14s",
+            "14s",
+            "14s",
+            "14s",
+            "14s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10995,
+      "id": "aromatic_explication",
+      "name": "Aromatic Explication",
+      "description": "Guiding the fragrances collected within the Case, Emilie converts them into pure Dendro energy, creating a Level 3 Lumidouce Case and stowing existing Cases away.<br/>While it exists, the Level 3 Lumidouce Case will not gather nearby Scents, but it will continuously cause Scented Dew to descend, attacking opponents within range and dealing <span style=\"color:#99FF88FF\">Dendro DMG</span>. During this time, 1 drop of Scented Dew will descend every 0.3 seconds, and 1 opponent can become the target every 0.7 seconds.<br/>When the duration ends, a Level 1 Lumidouce Case will be recreated. If a Lumidouce Case was stowed away when using Aromatic Explication, then the Case that was stowed away will be deployed instead, and its duration will be reset.<br/>While <span style=\"color:#FFD780FF\">Aromatic Explication</span> is active, the Elemental Skill \"Fragrance Extraction\" will not create a Lumidouce Case.",
+      "info": "No matter the perfume, it will begin to change the instant it comes into contact with the air, before finally dissipating amidst the whispers of wind, trees, and grass. In that sense, no two people will appreciate the exact same fragrance.<br/>So it is for the paths taken by all who live. In that sense, you can consider perfumes an explication of human life.",
+      "attributes": [
+        {
+          "label": "Level 3 Lumidouce Case Attack DMG",
+          "values": [
+            "217.2%",
+            "233.5%",
+            "249.8%",
+            "271.5%",
+            "287.8%",
+            "304.1%",
+            "325.8%",
+            "347.5%",
+            "369.2%",
+            "391%",
+            "412.7%",
+            "434.4%",
+            "461.6%",
+            "488.7%",
+            "515.9%"
+          ]
+        },
+        {
+          "label": "Level 3 Lumidouce Case Duration",
+          "values": [
+            "2.8s",
+            "2.8s",
+            "2.8s",
+            "2.8s",
+            "2.8s",
+            "2.8s",
+            "2.8s",
+            "2.8s",
+            "2.8s",
+            "2.8s",
+            "2.8s",
+            "2.8s",
+            "2.8s",
+            "2.8s",
+            "2.8s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "lingering_fragrance",
+      "name": "Lingering Fragrance",
+      "description": "Each time it collects 2 <span style=\"color:#FFD780FF\">Scents</span>, the Level 2 Lumidouce Case will consume Scents and release Cleardew Cologne that deals <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> equal to 600% of Emilie's ATK to opponents. This DMG is not considered Elemental Skill DMG.",
+      "level": 1
+    },
+    {
+      "id": "rectification",
+      "name": "Rectification",
+      "description": "Emilie deals increased DMG to Burning opponents based on her ATK, with every 1,000 ATK increasing DMG dealt by 15%. The maximum DMG bonus that can be gained this way is 36%.",
+      "level": 4
+    },
+    {
+      "id": "headspace_capture",
+      "name": "Headspace Capture",
+      "description": "When the Lumidouce Case created by Emilie is on the field, all party members gain 85% <span style=\"color:#FF9999FF\">Pyro RES</span> against Burning DMG.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 991,
+      "id": "light_fragrance_leaching",
+      "name": "Light Fragrance Leaching",
+      "description": "Increases the DMG dealt by <span style=\"color:#FFD780FF\">Fragrance Extraction</span> and her Ascension Talent's Cleardew Cologne \"Lingering Fragrance\" by 20%. The latter requires unlocking said Ascension Talent first.<br/>Additionally, when nearby party members trigger the Burning reaction on opponents or deal <span style=\"color:#99FF88FF\">Dendro DMG</span> to Burning opponents, they will generate an additional <span style=\"color:#FFD780FF\">Scent</span>. This effect can be triggered once every 2.9s.",
+      "level": 1
+    },
+    {
+      "_id": 992,
+      "id": "lakelight_top_note",
+      "name": "Lakelight Top Note",
+      "description": "When <span style=\"color:#FFD780FF\">Fragrance Extraction</span>, <span style=\"color:#FFD780FF\">Aromatic Explication</span>, or Cleardew Cologne produced by the Ascension Talent \"Lingering Fragrance\" (the last of which requires Ascension Talent activation) hits opponents, those opponents' <span style=\"color:#99FF88FF\">Dendro RES</span> is decreased by 30% for 10s.",
+      "level": 2
+    },
+    {
+      "_id": 993,
+      "id": "exquisite_essence",
+      "name": "Exquisite Essence",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Fragrance Extraction</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 994,
+      "id": "lumidouce_heart_note",
+      "name": "Lumidouce Heart Note",
+      "description": "<span style=\"color:#FFD780FF\">Aromatic Explication</span>'s duration is increased by 2s. The interval between opponents being selected as the target for Scented Dew is decreased by 0.3s.",
+      "level": 4
+    },
+    {
+      "_id": 995,
+      "id": "puredew_aroma",
+      "name": "Puredew Aroma",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Aromatic Explication</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 996,
+      "id": "marcotte_sillage",
+      "name": "Marcotte Sillage",
+      "description": "When using <span style=\"color:#FFD780FF\">Fragrance Extraction</span> or <span style=\"color:#FFD780FF\">Aromatic Explication</span>, Emilie will gain Abiding Fragrance for 5s.<br/>While this is active, after Emilie uses Normal or Charged Attacks, she will generate 1 Scent, and her Normal and Charged Attack DMG will be converted into <span style=\"color:#99FF88FF\">Dendro DMG</span> that cannot be overridden, and the DMG dealt will be increased by 300% of Emilie's ATK.<br/><br/>The Abiding Fragrance effect will be removed after 4 Scents are created this way or after its duration expires. Abiding Fragrance can be triggered once every 12s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1056"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "26"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "57"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2740",
+            "3646"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "68",
+            "90"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "147",
+            "196"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5455",
+            "6099"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "135",
+            "151"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "294",
+            "328"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104131,
+        "id": "nagadus_emerald_sliver",
+        "name": "Nagadus Emerald Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101238,
+        "id": "lakelight_lily",
+        "name": "Lakelight Lily",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112083,
+        "id": "meshing_gear",
+        "name": "Meshing Gear",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7016",
+            "7874"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "173",
+            "194"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "378",
+            "424"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104132,
+        "id": "nagadus_emerald_fragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113059,
+        "id": "fragment_of_a_golden_melody",
+        "name": "Fragment of a Golden Melody",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101238,
+        "id": "lakelight_lily",
+        "name": "Lakelight Lily",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112083,
+        "id": "meshing_gear",
+        "name": "Meshing Gear",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8802",
+            "9445"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "217",
+            "233"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "474",
+            "508"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104132,
+        "id": "nagadus_emerald_fragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113059,
+        "id": "fragment_of_a_golden_melody",
+        "name": "Fragment of a Golden Melody",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101238,
+        "id": "lakelight_lily",
+        "name": "Lakelight Lily",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112084,
+        "id": "mechanical_spur_gear",
+        "name": "Mechanical Spur Gear",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10381",
+            "11025"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "256",
+            "272"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "559",
+            "593"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104133,
+        "id": "nagadus_emerald_chunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113059,
+        "id": "fragment_of_a_golden_melody",
+        "name": "Fragment of a Golden Melody",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101238,
+        "id": "lakelight_lily",
+        "name": "Lakelight Lily",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112084,
+        "id": "mechanical_spur_gear",
+        "name": "Mechanical Spur Gear",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11971",
+            "12615"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "295",
+            "311"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "644",
+            "679"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104133,
+        "id": "nagadus_emerald_chunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113059,
+        "id": "fragment_of_a_golden_melody",
+        "name": "Fragment of a Golden Melody",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101238,
+        "id": "lakelight_lily",
+        "name": "Lakelight Lily",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112085,
+        "id": "artificed_dynamic_gear",
+        "name": "Artificed Dynamic Gear",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "13568",
+            "13568"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "335",
+            "335"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "730",
+            "730"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104134,
+        "id": "nagadus_emerald_gemstone",
+        "name": "Nagadus Emerald Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113059,
+        "id": "fragment_of_a_golden_melody",
+        "name": "Fragment of a Golden Melody",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101238,
+        "id": "lakelight_lily",
+        "name": "Lakelight Lily",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112085,
+        "id": "artificed_dynamic_gear",
+        "name": "Artificed Dynamic Gear",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104344,
+          "id": "teachings_of_order",
+          "name": "Teachings of Order",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112083,
+          "id": "meshing_gear",
+          "name": "Meshing Gear",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104345,
+          "id": "guide_to_order",
+          "name": "Guide to Order",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104345,
+          "id": "guide_to_order",
+          "name": "Guide to Order",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104345,
+          "id": "guide_to_order",
+          "name": "Guide to Order",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104345,
+          "id": "guide_to_order",
+          "name": "Guide to Order",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104346,
+          "id": "philosophies_of_order",
+          "name": "Philosophies of Order",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113061,
+          "id": "silken_feather",
+          "name": "Silken Feather",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104346,
+          "id": "philosophies_of_order",
+          "name": "Philosophies of Order",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113061,
+          "id": "silken_feather",
+          "name": "Silken Feather",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104346,
+          "id": "philosophies_of_order",
+          "name": "Philosophies of Order",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113061,
+          "id": "silken_feather",
+          "name": "Silken Feather",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104346,
+          "id": "philosophies_of_order",
+          "name": "Philosophies of Order",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113061,
+          "id": "silken_feather",
+          "name": "Silken Feather",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 209900,
+      "name": "Ambrosial Verdance",
+      "description": "Emilie's outfit. In homage to the launch of a classic perfume, the designer of this emerald-green dress drew inspiration from the concept of \"tactual fragrances.\" It is now part of Emilie's collection.",
+      "isDefault": true,
+      "characterName": "Emilie",
+      "characterId": 10000099,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Emilie_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Hello, my name is Emilie. Is your inquiry perfume-related by any chance?\\nIf your inquiry is of a different nature, I suggest we find a quieter place to talk."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Inspiration",
+      "text": "Ah, now there's an idea... Just a moment, please. I need to jot this down."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Perfume Fan",
+      "text": "Many ladies in the Court of Fontaine like to spray their perfume onto a delicate lace fan, allowing them to generate a pleasant fragrance with each flick of the wrist. It's quite an ingenious method."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Newspaper",
+      "text": "Would you mind coming with me to buy a copy of today's newspaper?"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Rain can be quite troublesome sometimes. It washes too many things away..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "When lightning strikes, it always leaves behind a unique scent in the air."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "What an extraordinary environment. I'd imagine there are many precious materials to be found here."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Ah, the sunshine is so nice. The sign of a good day ahead, I hope."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "High-quality ingredients can be found everywhere, even in the barren desert. Wenut fat, for example, can be refined into a very valuable perfume component."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "I like to start off my day by drinking a glass of ice-cold water. It helps me wake up."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "A casual stroll after a meal aids digestion and increases blood circulation. So, would you like to join?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Certain perfume ingredients can only be gathered at specific times of the day. So, sometimes, I need to head out in the middle of the night."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Good night. I could recommend quite a few fragrances to help with sleep, if you want. But, letting your body fall asleep naturally is always best."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Emilie",
+      "text": "I must admit, I'm not very good at coming up with topics to talk about. Simply put, I'm not the best conversationalist. But, if there's anything you want to share, good or bad, I'm always willing to listen."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Emilie: Forensic Cleaner",
+      "text": "When the authorities finish investigating a homicide or a fatal accident, there's still a lot of clean up work to be done at the scene. This includes disposing of organic matter, removing blood stains, sanitizing the area... All of which are the responsibility of a Forensic Cleaner. Interestingly enough, I'm not actually affiliated with any organization in the Court of Fontaine. I'm an independent contractor. I do have a long-standing work agreement with the Gardes, but I also accept private commissions.\\nThat's pretty much all there is to say about my line of work, but if you any questions, by all means, ask away."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Recommendations",
+      "text": "What perfume do I usually wear? Ah, sorry to disappoint, but I don't normally wear perfume while I'm working. It can get in the way of other scents when working, you see. But, if you tell me a little bit about your current mood, I can certainly give you a few recommendations."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Visit",
+      "text": "You'd like to visit my studio? You're more than welcome to. I can teach you a bit about perfumery, and I have quite a sizable collection for you to peruse. My mother was a perfume enthusiast as well. In fact, many of the perfumes in my collection are gifts from her. If there's time, we could even try them all one by one."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "I once tried to use my Vision to create a plant species that could grow without any nourishment. Unfortunately, my attempts were entirely unsuccessful. It just goes to show, even with the power of a Vision, there's still a limit to what is possible. You can't defy the laws of nature."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "The five senses aren't completely independent. The color red, for example, might evoke a feeling of warmth, and fragrances can induce specific sensations as well. This property is mainly exploited on the sales front, though. If a customer is feeling down, for example, they can be easily persuaded to choose a perfume with an herbal or sweet scent."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Nothing can be more interesting than encountering new things. You've traveled to so many places, and I'm sure your range of experience is much broader than my own, so I was wondering if I could make a request... Have you ever encountered a flower, or spice maybe, that left a particularly strong impression on you? Could you tell me about it?\\nThe \"Inteyvat\" flower... Huh, can't say I've ever heard of it, but that's certainly a grand-sounding name. Alright, well, I've made a note of it. If I'm lucky enough to ever see it in person, I'll certainly let you know."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Chevreuse",
+      "text": "I'm not sure if she ever mentioned it, but we met each other through work. Although, most of our conversations aren't nearly as serious as our jobs would suggest. One time, she told me she read a novel about a perfumer who makes a scent using human tissue. Fictional, of course, but in the story it turns out to be astonishingly successful — the finest perfume ever made. Based on my own experience, I find it hard to believe the scent would turn out quite so wonderful in real life...\\nChevreuse wasn't too focused on the feasibility, though. She was too busy trying to unravel all the legal liabilities involved in a situation like that."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Chiori",
+      "text": "As a designer, Chiori has a keen eye for trends. Although we deal in completely different products, I still enjoy listening to her talk about the creative thought process behind her designs. Not to mention, she has a pretty good eye when it comes to perfume. Whenever I have her test out my new products, she always manages to pick the one that ends up selling the best."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Charlotte",
+      "text": "Ah, a truly energetic young lady. Being a journalist, I would imagine quite a few people see her as nothing but trouble, but that hasn't been my experience. Even after discovering the true nature of my work, she still chose to keep it to herself. This despite the fact that she had no reason to help me, and it probably wasn't in her professional interests to do so. So, I have quite a high opinion of her. If she ever needed my help, I would certainly not refuse."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Clorinde",
+      "text": "I'm fairly certain everyone in Fontaine knows that name. She's a formidable Champion Duelist, after all. Although, I find her quite easy to get along with. In my experience, the stronger a person is in combat, the more open they are in conversation."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Sigewinne",
+      "text": "If I'm not mistaken, I believe Miss Sigewinne met me when I was very young — too young to remember... Ah, I probably haven't told you, my father works for the Marechaussee Phantom, so we often have Melusines over as guests. Apparently, the Melusines were often the ones looking after me as a baby.\\nBut, Miss Sigewinne has never treated me as her junior. She always speaks highly of my perfumes, so whenever I make a new sample, I usually set aside an extra for her."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Neuvillette",
+      "text": "As a perfumer, if your sense of smell starts to become dull, there's actually quite an easy solution — drinking fresh water. I'm not usually strict about the water I drink, but, out of curiosity, I once attended a water-tasting event organized by Monsieur Neuvillette.\\nHe had such an abstract yet distinctive understanding of the distinguishing features of different types of water. It almost reminded me of the way magazine articles talk about perfume. He took the time to understand my needs, and recommended a few water sources to me with utmost sincerity. He was so considerate, sometimes, I choose to buy the varieties he recommended, even if just out of respect for him."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Wriothesley",
+      "text": "You know Wriothesley? Haha, well aren't you full of surprises. From what I know, the Duke tries to keep a very low profile — most people don't even know he exists. Monsieur Neuvillette once tried to recommend my services to him, but apparently he thought that the Fortress of Meropide would have no occasion for them.\\nI can't know what his reasons were for turning me down, as I've never met him in person. But if I was to speculate... I would say perhaps there are certain things he doesn't want washed away. Perhaps he prefers to leave them there... as a warning."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Tighnari",
+      "text": "I've only met him in person a few times, but we communicate by letter often. He reached out to me first, writing a letter after tracking down my details through some roundabout way. He was extremely polite, and it was incredibly flattering to have such a renowned botanist ask for my flower-related expertise. But, I also saw it as a chance to learn from him. I decided to ask some of my own questions, particularly about perfume ingredients from Sumeru, and he gave me thorough answers to each and every one.\\nNow, our correspondence is much more casual. He even tells me about his companions sometimes. I really am delighted I got this opportunity to make a new friend."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Escoffier",
+      "text": "Miss Escoffier is a diligent and studious chef. Normally, dry lectures about perfumery would put someone to sleep, but not her. On top of that, her mind is so quick — she can recognize subtle links between pieces of information and can instantly put her knowledge into practice. Some people think she was blessed with a natural culinary gift. But, I believe the secret to her success is self-evident."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Emilie: I",
+      "text": "People often romanticize perfume, assigning it all sorts of poetic qualities. But, in reality, perfume-making is much closer to a science. It can be boiled down to a simple chemistry experiment, really. It's up to the perfumer to bridge the gap between the product's artistic and scientific qualities, and doing that with any degree of success takes quite a bit of skill."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Emilie: II",
+      "text": "People can describe how a certain scent makes them feel, sure. But, it's very difficult to recreate a scent just based off of a written description, even for me. So, I do apologize, but I don't take custom orders. That said, if you find any of my other perfumes to be to your liking, it would of course be my honor to do business with you."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Emilie: III",
+      "text": "A perfume must undergo a series of tests before it's released, including a shelf-life test. This can help answer several questions: How long does the product last? Is it prone to deterioration? Will it become toxic or even dissipate over time?\\nHuh, now that I think about it... Wouldn't it be nice if there were a way of doing a shelf-life test for interpersonal relationships?"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Emilie: IV",
+      "text": "I don't deliberately hide my real profession, but I do prefer to be discreet whenever possible. Not because I'm worried that it'll turn customers off my perfume, I'm just cognizant of the fact that my work as a forensic cleaner subjects me to a lot of sensitive information, things that can't be disclosed to the public. The people who commission my services place a lot of trust in me. I don't want them to receive any unwanted attention because of me."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Emilie: V",
+      "text": "Perfume-making has only ever been a hobby for me. Something I do in my spare time, just like how some people learn to play a musical instrument or make crafts.\\nStill, my goal in life wasn't always to be a forensic cleaner. My mother works as a forensic pathologist, and ever since I was little, I knew I wanted to work in criminal investigations just like her. For a long time, my talent for chemistry inspired me to pursue trace evidence analysis. But as I progressed further in my studies, I started to encounter real-life crime scenes. I'll never forget one scene I saw... A young child had been murdered, there was blood soaked into the carpet and splattered all over the walls... And after the investigators finished their assessment, they just left. I couldn't imagine what those poor parents were going through... it didn't seem right that they had to clean up after their own child's murder, all by themselves.\\nSo, yeah. That's what led me into forensic cleaning."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Emilie's Hobbies",
+      "text": "I like to collect newspaper clippings. Whenever I come across an unbelievable story in the newspaper, I cut out a clipping and add it to my collection. I've filled up several thick binders that way. Flipping through them is almost like reading one of those short story series that Chevreuse is so fond of."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Emilie's Troubles",
+      "text": "All the dogs in the park are so sweet. But if you want to pet them, you have to indulge them with some playtime first. Hehe, I suppose it's a good problem to have."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Fresh shrimp sprinkled with sea salt, lightly poached, then dipped in melted butter — simple and delicious. You should try it sometime."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I don't eat a lot of red meat. Controversial, I know."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Mmm, it tastes just as good as it smells. Thank you for sharing it with me. I enjoyed it very much."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Hm, it looks delightful, and the texture is fairly pleasing as well."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Are there really people who are particularly partial to this kind of flavor...?"
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday! I know perfume preferences are extremely personal, but I took the liberty of choosing one I think you'll like. It's one of my own creations, actually, but it's not available to purchase yet.\\nI tried to combine the floral and fruity notes found in nature around this time of year. I was going for more of a subtle scent. Anyway, I hope it brings you a little peace and comfort whenever you wear it."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Thank you ever so much. Ah, no need to be so modest. Of course you deserve thanks."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Thank you for your suggestions. They give me a lot of food for thought."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Power is only useful when wielded by the right person. I'll do my best to honor your trust in me."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Many things can only be seen clearly when you shine a strong light on them, and now, it's like you've handed that light to me. Are you inviting me to join you on your journey? Then please, lead the way. I'll be right by your side."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Reconstitute."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Extract."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Neutralize."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Fresh and floral."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "This'll brighten up the place."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "A little ambience."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Hehe, do the spoils live up to your expectations?"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Shall I help share the load?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Huh, not a shred of information about the owner..."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "My sense of smell is fading..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "That was an adverse reaction..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Time to reassess the scene..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Take a moment."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Don't worry, I'm here."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "I can smell... blood..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "The lantern is... extinguished..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Is it... my time to go?"
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "My weakness."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "I was poorly prepared..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "I must be more prudent."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "It would be my honor."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "The pleasure is all mine."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "I'm quite flattered."
+    }
+  ]
+}

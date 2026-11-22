@@ -1,0 +1,1921 @@
+{
+  "_id": 10000089,
+  "id": "furina",
+  "name": "Furina",
+  "title": "Endless Solo of Solitude",
+  "description": "The absolute focus of the stage of judgment, until the final applause sounds.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "hydro",
+    "name": "Hydro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1699308000,
+  "substat": "CRIT Rate",
+  "stats": {
+    "base": {
+      "hp": 1191.65,
+      "attack": 18.9924,
+      "defense": 54.14615
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 1021.7321,
+        "attack": 16.283075,
+        "defense": 46.4265,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1747.6997,
+        "attack": 27.85263,
+        "defense": 79.41375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.048
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2715.6565,
+        "attack": 43.2787,
+        "defense": 123.39675,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 70,
+        "hp": 3441.624,
+        "attack": 54.848255,
+        "defense": 156.384,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 80,
+        "hp": 4167.592,
+        "attack": 66.41781,
+        "defense": 189.37125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4893.559,
+        "attack": 77.987366,
+        "defense": 222.3585,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.192
+        }
+      }
+    ]
+  },
+  "affiliation": "Court of Fontaine",
+  "region": {
+    "id": "fontaine",
+    "name": "Fontaine"
+  },
+  "rarity": 5,
+  "birthday": [
+    13,
+    10
+  ],
+  "constellation": "Animula Choragi",
+  "domain": "Pale Forgotten Glory",
+  "cv": {
+    "english": "Amber Lee Connors",
+    "chinese": "钱琛",
+    "japanese": "水瀬いのり",
+    "korean": "Kim Ha-young"
+  },
+  "skills": [
+    {
+      "_id": 10891,
+      "id": "soloists_solicitation",
+      "name": "Soloist's Solicitation",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash a solo dance, dealing Physical DMG to nearby opponents and changing her Arkhe alignment. If Salon Members or the Singer of Many Waters summoned by her Elemental Skill \"Salon Solitaire\" is present, their lineup will switch in response.<br/><br/><span style=\"color:#FFD780FF\">Arkhe: Seats Sacred and Secular</span><br/>At intervals, when Furina's Normal Attacks hit, a Spiritbreath Thorn or a Surging Blade will descend based on her current Arkhe alignment, dealing Pneuma- or Ousia-aligned <span style=\"color:#80C0FFFF\">Hydro DMG</span>.<br/>When Furina takes the field, her starting Arkhe alignment will be Ousia.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "48.4%",
+            "52.3%",
+            "56.3%",
+            "61.9%",
+            "65.8%",
+            "70.3%",
+            "76.5%",
+            "82.7%",
+            "88.9%",
+            "95.6%",
+            "102.4%",
+            "109.2%",
+            "115.9%",
+            "122.7%",
+            "129.4%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "43.7%",
+            "47.3%",
+            "50.8%",
+            "55.9%",
+            "59.5%",
+            "63.6%",
+            "69.2%",
+            "74.7%",
+            "80.3%",
+            "86.4%",
+            "92.5%",
+            "98.6%",
+            "104.7%",
+            "110.8%",
+            "117%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "55.1%",
+            "59.6%",
+            "64.1%",
+            "70.5%",
+            "75%",
+            "80.1%",
+            "87.2%",
+            "94.2%",
+            "101.3%",
+            "109%",
+            "116.6%",
+            "124.3%",
+            "132%",
+            "139.7%",
+            "147.4%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "73.3%",
+            "79.3%",
+            "85.2%",
+            "93.8%",
+            "99.7%",
+            "106.5%",
+            "115.9%",
+            "125.3%",
+            "134.7%",
+            "144.9%",
+            "155.1%",
+            "165.3%",
+            "175.6%",
+            "185.8%",
+            "196%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "74.2%",
+            "80.3%",
+            "86.3%",
+            "94.9%",
+            "101%",
+            "107.9%",
+            "117.4%",
+            "126.9%",
+            "136.4%",
+            "146.7%",
+            "157.1%",
+            "167.4%",
+            "177.8%",
+            "188.1%",
+            "198.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        },
+        {
+          "label": "Spiritbreath Thorn/Surging Blade DMG",
+          "values": [
+            "9.5%",
+            "10.2%",
+            "11%",
+            "12.1%",
+            "12.9%",
+            "13.8%",
+            "15%",
+            "16.2%",
+            "17.4%",
+            "18.7%",
+            "20%",
+            "21.3%",
+            "22.7%",
+            "24%",
+            "25.3%"
+          ]
+        },
+        {
+          "label": "Spiritbreath Thorn/Surging Blade DMG Interval",
+          "values": [
+            "6s / 6s",
+            "6s / 6s",
+            "6s / 6s",
+            "6s / 6s",
+            "6s / 6s",
+            "6s / 6s",
+            "6s / 6s",
+            "6s / 6s",
+            "6s / 6s",
+            "6s / 6s",
+            "6s / 6s",
+            "6s / 6s",
+            "6s / 6s",
+            "6s / 6s",
+            "6s / 6s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10892,
+      "id": "salon_solitaire",
+      "name": "Salon Solitaire",
+      "description": "Invites the guests of the Salon Solitaire to come forth and aid in Furina's performance. Will summon either the Salon Members or the Singer of Many Waters based on Furina's current <span style=\"color:#FFD780FF\">Arkhe alignment</span>.<br/><br/><span style=\"color:#FFD780FF\">Ousia</span><br/>Foaming bubbles like celebrants shall dance, dealing <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> based on Furina's Max HP and summoning 3 Salon Members: the Ball Octopus-shaped Gentilhomme Usher, the Bubbly Seahorse-shaped Surintendante Chevalmarin, and the Armored Crab-shaped Mademoiselle Crabaletta.<br/>They will attack nearby opponents at intervals, prioritizing the target of the active character, dealing <span style=\"color:#80C0FFFF\">Hydro</span> DMG based on Max HP.<br/>When they attack, if character(s) with more than 50% HP are nearby, the Members will increase their current attack's power based on the number of such characters, and consume said characters' HP. If 1/2/3/4 (or more) characters meet these requirements, the Members' attacks will deal 110%/120%/130%/140% of their original DMG.<br/><br/><span style=\"color:#FFD780FF\">Pneuma</span><br/>Summons the Singer of Many Waters, who will heal nearby active character(s) based on Max HP at intervals.<br/><br/>The Salon Members and Singer of Many Waters share a duration, and when Furina uses her Charged Attack to change the guest type, the new guests will inherit the remaining duration.<br/>While the Salon Members or the Singer of Many Waters is on the field, Furina can move on the water's surface.",
+      "info": "A fixed roster of regulars frequent Furina's Salon Solitaire. At other times, Mademoiselle Crabaletta, Surintendante Chevalmarin, and Gentilhomme Usher shall visit, and on gloomy Wednesdays, it is the singer who comes by.",
+      "attributes": [
+        {
+          "label": "Ousia Bubble DMG",
+          "values": [
+            "7.9% Max HP",
+            "8.5% Max HP",
+            "9% Max HP",
+            "9.8% Max HP",
+            "10.4% Max HP",
+            "11% Max HP",
+            "11.8% Max HP",
+            "12.6% Max HP",
+            "13.4% Max HP",
+            "14.2% Max HP",
+            "14.9% Max HP",
+            "15.7% Max HP",
+            "16.7% Max HP",
+            "17.7% Max HP",
+            "18.7% Max HP"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s"
+          ]
+        },
+        {
+          "label": "Gentilhomme Usher DMG",
+          "values": [
+            "5.96% Max HP",
+            "6.41% Max HP",
+            "6.85% Max HP",
+            "7.45% Max HP",
+            "7.9% Max HP",
+            "8.34% Max HP",
+            "8.94% Max HP",
+            "9.54% Max HP",
+            "10.13% Max HP",
+            "10.73% Max HP",
+            "11.32% Max HP",
+            "11.92% Max HP",
+            "12.67% Max HP",
+            "13.41% Max HP",
+            "14.16% Max HP"
+          ]
+        },
+        {
+          "label": "Surintendante Chevalmarin DMG",
+          "values": [
+            "3.23% Max HP",
+            "3.47% Max HP",
+            "3.72% Max HP",
+            "4.04% Max HP",
+            "4.28% Max HP",
+            "4.52% Max HP",
+            "4.85% Max HP",
+            "5.17% Max HP",
+            "5.49% Max HP",
+            "5.82% Max HP",
+            "6.14% Max HP",
+            "6.46% Max HP",
+            "6.87% Max HP",
+            "7.27% Max HP",
+            "7.68% Max HP"
+          ]
+        },
+        {
+          "label": "Mademoiselle Crabaletta DMG",
+          "values": [
+            "8.29% Max HP",
+            "8.91% Max HP",
+            "9.53% Max HP",
+            "10.36% Max HP",
+            "10.98% Max HP",
+            "11.6% Max HP",
+            "12.43% Max HP",
+            "13.26% Max HP",
+            "14.09% Max HP",
+            "14.92% Max HP",
+            "15.75% Max HP",
+            "16.58% Max HP",
+            "17.61% Max HP",
+            "18.65% Max HP",
+            "19.68% Max HP"
+          ]
+        },
+        {
+          "label": "Gentilhomme Usher HP Consumption",
+          "values": [
+            "2.4% Max HP",
+            "2.4% Max HP",
+            "2.4% Max HP",
+            "2.4% Max HP",
+            "2.4% Max HP",
+            "2.4% Max HP",
+            "2.4% Max HP",
+            "2.4% Max HP",
+            "2.4% Max HP",
+            "2.4% Max HP",
+            "2.4% Max HP",
+            "2.4% Max HP",
+            "2.4% Max HP",
+            "2.4% Max HP",
+            "2.4% Max HP"
+          ]
+        },
+        {
+          "label": "Surintendante Chevalmarin HP Consumption",
+          "values": [
+            "1.6% Max HP",
+            "1.6% Max HP",
+            "1.6% Max HP",
+            "1.6% Max HP",
+            "1.6% Max HP",
+            "1.6% Max HP",
+            "1.6% Max HP",
+            "1.6% Max HP",
+            "1.6% Max HP",
+            "1.6% Max HP",
+            "1.6% Max HP",
+            "1.6% Max HP",
+            "1.6% Max HP",
+            "1.6% Max HP",
+            "1.6% Max HP"
+          ]
+        },
+        {
+          "label": "Mademoiselle Crabaletta HP Consumption",
+          "values": [
+            "3.6% Max HP",
+            "3.6% Max HP",
+            "3.6% Max HP",
+            "3.6% Max HP",
+            "3.6% Max HP",
+            "3.6% Max HP",
+            "3.6% Max HP",
+            "3.6% Max HP",
+            "3.6% Max HP",
+            "3.6% Max HP",
+            "3.6% Max HP",
+            "3.6% Max HP",
+            "3.6% Max HP",
+            "3.6% Max HP",
+            "3.6% Max HP"
+          ]
+        },
+        {
+          "label": "Singer of Many Waters Healing",
+          "values": [
+            "4.8% Max HP + 462",
+            "5.16% Max HP + 508",
+            "5.52% Max HP + 559",
+            "6% Max HP + 612",
+            "6.36% Max HP + 670",
+            "6.72% Max HP + 732",
+            "7.2% Max HP + 797",
+            "7.68% Max HP + 867",
+            "8.16% Max HP + 940",
+            "8.64% Max HP + 1017",
+            "9.12% Max HP + 1098",
+            "9.6% Max HP + 1183",
+            "10.2% Max HP + 1271",
+            "10.8% Max HP + 1364",
+            "11.4% Max HP + 1460"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10895,
+      "id": "let_the_people_rejoice",
+      "name": "Let the People Rejoice",
+      "description": "Rouses the impulse to revel, creating a stage of foam that will deal <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> based on Furina's Max HP and cause nearby party members to enter the Universal Revelry state: During this time, when nearby party members' HP increases or decreases, 1 Fanfare point will be granted to Furina for each percentage point of their Max HP by which their HP changes.<br/>At the same time, Furina will increase the DMG dealt by and Incoming Healing Bonus of all nearby party members based on the amount of Fanfare she has.<br/>When the duration ends, Furina's Fanfare points will be cleared.",
+      "info": "\"Cheer! Give praise! Be awed! Raise your glasses! Every night bereft of banqueting is a sordid squandering of sore, sober daylight... And, uh, those who are not yet of age may have grape juice instead!\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "11.4% Max HP",
+            "12.3% Max HP",
+            "13.1% Max HP",
+            "14.3% Max HP",
+            "15.1% Max HP",
+            "16% Max HP",
+            "17.1% Max HP",
+            "18.3% Max HP",
+            "19.4% Max HP",
+            "20.5% Max HP",
+            "21.7% Max HP",
+            "22.8% Max HP",
+            "24.2% Max HP",
+            "25.7% Max HP",
+            "27.1% Max HP"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Maximum Fanfare",
+          "values": [
+            "300",
+            "300",
+            "300",
+            "300",
+            "300",
+            "300",
+            "300",
+            "300",
+            "300",
+            "300",
+            "300",
+            "300",
+            "300",
+            "300",
+            "300"
+          ]
+        },
+        {
+          "label": "Fanfare to DMG Increase Conversion Ratio",
+          "values": [
+            "0.07%",
+            "0.09%",
+            "0.11%",
+            "0.13%",
+            "0.15%",
+            "0.17%",
+            "0.19%",
+            "0.21%",
+            "0.23%",
+            "0.25%",
+            "0.27%",
+            "0.29%",
+            "0.31%",
+            "0.33%",
+            "0.35%"
+          ]
+        },
+        {
+          "label": "Fanfare to Incoming Healing Bonus Conversion Ratio",
+          "values": [
+            "0.01%",
+            "0.02%",
+            "0.03%",
+            "0.04%",
+            "0.05%",
+            "0.06%",
+            "0.07%",
+            "0.08%",
+            "0.09%",
+            "0.1%",
+            "0.11%",
+            "0.12%",
+            "0.13%",
+            "0.14%",
+            "0.15%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "endless_waltz",
+      "name": "Endless Waltz",
+      "description": "When the active character in your party receives healing, if the source of the healing is not Furina herself and the healing overflows, then Furina will heal nearby party members for 2% of their Max HP once every 2s for the next 4s.",
+      "level": 1
+    },
+    {
+      "id": "unheard_confession",
+      "name": "Unheard Confession",
+      "description": "Every 1,000 points of Furina's Max HP can buff the different Arkhe-aligned <span style=\"color:#FFD780FF\">Salon Solitaire</span> in the following ways:<br/>Will increase Salon Members' DMG dealt by 0.7%, up to a maximum of 28%.<br/>Will decrease the Singer of Many Waters' healing interval for nearby active characters by 0.4%, up to a maximum of 16%.",
+      "level": 4
+    },
+    {
+      "id": "the_sea_is_my_stage",
+      "name": "The Sea Is My Stage",
+      "description": "Xenochromatic Fontemer Aberrant ability CD decreased by 30%.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 891,
+      "id": "love_is_a_rebellious_bird_that_none_can_tame",
+      "name": "\"Love Is a Rebellious Bird That None Can Tame\"",
+      "description": "When using <span style=\"color:#FFD780FF\">Let the People Rejoice</span>, Furina will gain 150 Fanfare.<br/>Additionally, Furina's Fanfare limit is increased by 100.",
+      "level": 1
+    },
+    {
+      "_id": 892,
+      "id": "a_woman_adapts_like_duckweed_in_water",
+      "name": "\"A Woman Adapts Like Duckweed in Water\"",
+      "description": "While <span style=\"color:#FFD780FF\">Let the People Rejoice</span> lasts, Furina's Fanfare gain from increases or decreases in nearby characters' HP is increased by 250%. Each point of Fanfare above the limit will increase Furina's Max HP by 0.35%. Her maximum Max HP increase is 140%.",
+      "level": 2
+    },
+    {
+      "_id": 893,
+      "id": "my_secret_is_hidden_within_me_no_one_will_know_my_name",
+      "name": "\"My Secret Is Hidden Within Me, No One Will Know My Name\"",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Let the People Rejoice</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 894,
+      "id": "they_know_not_life_who_dwelt_in_the_netherworld_not",
+      "name": "\"They Know Not Life, Who Dwelt in the Netherworld Not!\"",
+      "description": "When the Salon Members from <span style=\"color:#FFD780FF\">Salon Solitaire</span> hit an opponent, or the Singer of Many Waters restores HP to nearby active characters, Furina will restore 4 Energy. This effect can be triggered once every 5s.",
+      "level": 4
+    },
+    {
+      "_id": 895,
+      "id": "his_name_i_now_know_it_is",
+      "name": "\"His Name I Now Know, It Is...!\"",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Salon Solitaire</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 896,
+      "id": "hear_me_let_us_raise_the_chalice_of_love",
+      "name": "\"Hear Me — Let Us Raise the Chalice of Love!\"",
+      "description": "When using <span style=\"color:#FFD780FF\">Salon Solitaire</span>, Furina gains \"Center of Attention\" for 10s.<br/>Throughout the duration, Furina's Normal Attacks, Charged Attacks, and Plunging Attacks are converted into <span style=\"color:#80C0FFFF\">Hydro DMG</span> which cannot be overridden by any other elemental infusion. DMG is also increased by an amount equivalent to 18% of Furina's max HP.<br/>Throughout the duration, Furina's Normal Attacks (not including Arkhe: Seats Sacred and Secular Attacks), Charged Attacks, and the impact of Plunging Attacks will cause different effects up to every 0.1s after hitting opponents depending on her current Arkhe alignment:<br/><br/>Arkhe: Ousia<br/>Every 1s, all nearby characters in the party will be healed by 4% of Furina's max HP, for a duration of 2.9s. Triggering this effect again will extend its duration.<br/>Arkhe: Pneuma<br/>This Normal Attack (not including Arkhe: Seats Sacred and Secular Attacks), Charged Attack, or Plunging Attack ground impact DMG will be further increased by an amount equivalent to 25% of Furina's max HP. When any of the attacks mentioned previously hit an opponent, all nearby characters in the party will consume 1% of their current HP.<br/><br/>During the duration of each instance of \"Center of Attention,\" the above effects can be triggered up to 6 times. \"Center of Attention\" will end when its effects have triggered 6 times or when the duration expires.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1192"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "19"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "54"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "-",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "3091",
+            "4113"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "49",
+            "66"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "140",
+            "187"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6154",
+            "6880"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "98",
+            "110"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "280",
+            "313"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "9.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104121,
+        "id": "varunada_lazurite_sliver",
+        "name": "Varunada Lazurite Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101238,
+        "id": "lakelight_lily",
+        "name": "Lakelight Lily",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112038,
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7916",
+            "8884"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "126",
+            "142"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "360",
+            "404"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "9.8%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113057,
+        "id": "water_that_failed_to_transcend",
+        "name": "Water That Failed To Transcend",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101238,
+        "id": "lakelight_lily",
+        "name": "Lakelight Lily",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112038,
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9930",
+            "10656"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "158",
+            "170"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "451",
+            "484"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113057,
+        "id": "water_that_failed_to_transcend",
+        "name": "Water That Failed To Transcend",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101238,
+        "id": "lakelight_lily",
+        "name": "Lakelight Lily",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112039,
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11712",
+            "12438"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "187",
+            "198"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "532",
+            "565"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "19.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113057,
+        "id": "water_that_failed_to_transcend",
+        "name": "Water That Failed To Transcend",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101238,
+        "id": "lakelight_lily",
+        "name": "Lakelight Lily",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112039,
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "13505",
+            "14231"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "215",
+            "227"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "614",
+            "647"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "19.4%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113057,
+        "id": "water_that_failed_to_transcend",
+        "name": "Water That Failed To Transcend",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101238,
+        "id": "lakelight_lily",
+        "name": "Lakelight Lily",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112040,
+        "id": "energy_nectar",
+        "name": "Energy Nectar",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "15307",
+            "15307"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "244",
+            "244"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "696",
+            "696"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "24.2%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104124,
+        "id": "varunada_lazurite_gemstone",
+        "name": "Varunada Lazurite Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113057,
+        "id": "water_that_failed_to_transcend",
+        "name": "Water That Failed To Transcend",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101238,
+        "id": "lakelight_lily",
+        "name": "Lakelight Lily",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112040,
+        "id": "energy_nectar",
+        "name": "Energy Nectar",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104341,
+          "id": "teachings_of_justice",
+          "name": "Teachings of Justice",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112038,
+          "id": "whopperflower_nectar",
+          "name": "Whopperflower Nectar",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113056,
+          "id": "lightless_mass",
+          "name": "Lightless Mass",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113056,
+          "id": "lightless_mass",
+          "name": "Lightless Mass",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113056,
+          "id": "lightless_mass",
+          "name": "Lightless Mass",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113056,
+          "id": "lightless_mass",
+          "name": "Lightless Mass",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 208900,
+      "name": "Coronated Prima Donna",
+      "description": "Furina's outfit. When the curtain rises, the star of the show is meant to shine bright on the stage, and even gorgeous costumes adorned with diamonds pale in comparison to her own dazzling brilliance.",
+      "isDefault": true,
+      "characterName": "Furina",
+      "characterId": 10000089,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Furina_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Why are you just standing there with your mouth gaping? Ah, you must be stunned and at a loss for words... Understandable, it is I after all... Fontaine's most beloved star, Furina. I'm on a very tight schedule, so you're lucky to even get an appointment with me."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Tea Party",
+      "text": "Tea parties are a must for the well-mannered. If you'd like to learn the proper etiquette, I'd be happy to teach you."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Fun",
+      "text": "Boring... Isn't there anything else more interesting to do?"
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Popularity",
+      "text": "*sigh* Being too popular can be such a hassle. Who knew the people would adore me so much?"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "It's pouring out here! Wait, the water levels aren't rising, are they?"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Wow, this would be the perfect location for shooting a film."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "The sun feels almost as hot as those studio lights I'm in front of all the time... Good thing there can only be one sun."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "\"Listen, there is a disturbing growling in the wind. That's the sound of a long-forgotten sea monster having a nightmare.\" Huh? Why is it having a nightmare? Uh... I dunno, because fear has to manifest itself somehow?"
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "What a wild and desolate sight... Allow me to grant you the blessing of water!"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning... Must I really get up this early? Just let me sleep a little longer..."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Good afternoon! Where's my cake? What? I just had cake for breakfast? Well, I think it's been long enough!"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Good evening. *sigh* Mademoiselle Crabaletta has been muttering about getting in shape lately and even said that she wanted to drag me along with her. Hmph, I'm already eating much healthier than last month. I work very hard to maintain my figure. Hey, you can tell, can't you!?"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Whew, I'm getting sleepy myself. See you tomorrow. Remember to wake me up on time..."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Furina: Besties",
+      "text": "Hmm? Who are these people at the tea party? Why, they are my loyal followers of course! *sigh* Alright, I suppose I'll introduce them to you. This is Mademoiselle Crabaletta, my most adorable maid... although she accidentally cuts my outfits from time to time... This is Surintendante Chevalmarin, my reliable housekeeper who keeps my busy life in order. And finally, the one keeping everybody in line is Gentilhomme Usher, my loyal conferencier. Hehe, I may have allowed you to participate in my tea party, but you'll still need to work hard to gain their approval!"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Furina: Singing",
+      "text": "I'm very confident in my singing skills, but there aren't many pieces of music that are worthy of my vocal prowess. I hope the creatives in the theater troupe get their act together and don't keep me waiting in vain..."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Relationships",
+      "text": "*sigh* Given that we know each other, you may relax a little and needn't act so respectfully in my presence. Wait, what's that expression on your face? Don't tell me that you've never respected me from the very beginning!?"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Our Story Together",
+      "text": "My story has already come to an end, and so the next act shall be about OUR story... In which case, we should probably start charging double for public appearances... Oh, I'm so happy!"
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Once the ancient prophecy came to an end and everything was over, I fell into low spirits for a very long time. People who stand on the stage basking in the adulation of their audience must also bear the pressures of being in the public eye and living up to everyone's expectations. But I knew very well my person wouldn't be enough, and that putting on the act of a god would be the only way to satisfy their adoration... And at the end of the day, all I ever experienced was loneliness. So there came a point when I loathed the very thought of acting and locked myself in my room. It wasn't until the moment I stood on stage and faced the audience again that I realized the anxiety in my heart had dissipated. The reason I can now stand before the crowd's watchful gaze is perhaps because... I have finally started to act as myself."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share: Opera",
+      "text": "Fontaine's opera house has seen several reforms, and with each reform, opposition was to be expected. As I remember, crowds would often gather in the opera house making a ruckus... That one time, it became so loud my ears were ringing. I frightened them by stating, \"I forbid anyone from discussing such pointless matters!\", I clearly remember Neuvillette tapping his cane on the ground at that precise moment while the whole place immediately fell silent. Sometimes I can't help but inadvertently show my intimidating side... I hope my people understand."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things: Lumitoile",
+      "text": "I really like the Lumitoile. Those creatures can glow and shine even in places where no one sees them... That's what I call a true \"star.\" Ah, if only there were an opera about the Lumitoile, then I could literally play the role of a lovely rogue starfish on stage."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Lyney and Lynette",
+      "text": "Of course I know Lyney and Lynette. I used to frequently attend their magic shows. Though they're very popular, they're still much less popular than me. Only my performances would draw a completely sold-out crowd... even standing tickets would be out. But now... Uh... I've already decided to hang up my acting career, so it's perfectly normal for my popularity to decline!"
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Neuvillette",
+      "text": "I'm very grateful to Neuvillette for all the hard work he's done for Fontaine in the past few centuries. It seems he doesn't intend to investigate my crimes of deceiving the people. Anyway, we're no longer working in tandem, and it's been a long time since I've been to the Palais Mermonia. I imagine that this is good for both of us, right?"
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Navia: Desserts",
+      "text": "Have you tried Navia's macarons? I have to admit that her skills in dessert-making are comparable to mine. The design she paints on the macarons is so cute, don't you think? Not to mention the texture and sweetness... They truly are a work of art! How does she do it? Does it really all boil down to talent? Ugh, I can't believe I'm feeling a little jealous... I'll have to ask her for some tips next time!"
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Navia: Inner Thoughts",
+      "text": "She's a very strong person. Strong people will always manage to keep themselves together no matter what happens, acting like everything is fine. Doing so prevents other people around them from needlessly bearing additional pressure. I saw the duel between Callas and Clorinde... and I can say that in this respect, Navia is becoming more and more like her father."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About The Knave",
+      "text": "The Knave? Wh—Who's that? Oh... Uh, I'd already forgotten about her... Keeping such a terrible figure like her in your mind will only give you nightmares."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Charlotte",
+      "text": "I've often seen Charlotte busily running back and forth lately. She still seems to be hoping to arrange an exclusive interview with me. No matter how many times I refuse, she still hasn't given up. To be honest, her persistence made me angry at first... but then she told me with a resolute look in her eyes that she wanted to let people understand the real Furina, and that she believed people would understand my troubles. I don't know how to respond to her kind intentions... I suppose she might be right, but I'm just not ready yet..."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Wriothesley",
+      "text": "I haven't communicated with him much, but Neuvillette claims he's trustworthy, so I suppose he must be a good person. Oh, come to think of it, I've received some tea from Wriothesley before and it was exquisite!"
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Clorinde",
+      "text": "As I remember, Clorinde isn't very talkative, but she has stood by me and protected me on several occasions, so I trust her very much. Hmm... I do miss her ever so slightly, but I don't have any real reason to see her now. Oh, right! I should invite her to my next tea party!"
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Escoffier",
+      "text": "Oh? You've met my Patissiere Supreme? Thanks to Escoffier, I used to have my pick of delectable confections, even beyond Gateau Debord. Unfortunately, after everything that happened, I can no longer afford what the Palais Mermonia was paying her. Hm? Oh, don't worry, we're still in touch. I like to send her homemade dishes of my own. I even invented a new one not too long ago — \"Harra Fruit Fish Jelly Macaroni\"... Sounds good, right? I'll make it for you sometime."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Furina: I",
+      "text": "You're interested in hearing about me? *sigh* I suppose there's no helping that... After all, I was once the biggest celebrity of all Fontaine! Every day, countless journalists would come flocking around me, trying to get the inside scoop on my personal life, so I have loads of experience rejecting them. Of course, I don't intend to use this experience on you. With the right delicacies, I might be willing to exchange some of my secrets."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Furina: II",
+      "text": "Someone recently recommended me to try surfing, so I went and gave it a shot. Keeping balance on the rolling waves was a little tricky at first, but I managed to get the hang of it pretty quickly. Maybe I'm just a natural surfer... Anyway, feeling the wind and waves up close and riding along the horizon was rather amazing. You should give it a try!"
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Furina: III",
+      "text": "If you have time, could you tell me more about your journey? I would love to hear all your fantastic stories. How should I put it... I easily feel interested in all kinds of things, but it isn't long before I feel bored again. Perhaps the more easily enthusiasm sparks, the more quickly it fades. But, when I'm with you, I seem to constantly feel happy... Such an amazing feeling!"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Furina: IV",
+      "text": "Recently, I've been wondering if I've been a little too hard on myself in the past. In my efforts to maintain the reserved manner of a deity, I never got the chance to enjoy my life, which is why I've become obsessed with shopping lately. I've bought many new precious things... like dazzling rainbow-colored tea bags, fully-automated extendable cutlery, and a saddle specially made for riding Seahorses... But in the end, I realized that most of the stuff I bought was useless, so I sent them all to the troupe to be used as props in performances. Strange... before I bought those things, I was certain they would all be of good use to me..."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Furina: V",
+      "text": "People love talking about the past and often regret the beautiful things that have now faded into history. They also love to talk about the future, as if they're willing to sacrifice everything for an uncertain tomorrow. I don't agree with their way of thinking, yet I also feel very envious... I once lived in a world without a past or a future. To cope with that anxiety, I tried to create and act out a stronger, more god-like version of myself. Over the centuries, the stronger role I tried to play gradually merged with my real self. Even I can't separate the two now... but perhaps there's no need to distinguish them. Experiences of the past have formed who I am now, and that flawed performance has also become the most important part of me."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Furina's Hobbies",
+      "text": "The Queen's Crown still doesn't have a sequel yet? Pity, a classic like that where justice overcomes evil never gets old."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Furina's Troubles",
+      "text": "Hmm, what sauce should I pick for my macaroni tonight?"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "No one complains about exquisite confectioneries, but it'll take a lot of effort to make some that I like. Listen carefully, desserts are like operas... Everything from choosing the characters to imagining the setting requires a lot of effort in order to make the final performance a hit!"
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Simply put, I detest most of those \"creative\" dishes. I have tasted many wonderful dishes throughout the years which did nothing but leave me with some moments that I never want to look back on."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Oh? What a rich aroma and delicate texture... I didn't expect you to be such an accomplished cook... with refined taste, as well!"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Too ordinary! Hmph, such an uninspired dish will never have my approval!"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Ugh. Is this what you usually eat? *sigh* Seems I'll have to share some of my macaroni with you."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy Birthday! Here, please take this ticket as your gift. It's a VIP seat to see Happy Day, just don't forget to show up to the performance! Hmm? What's \"Happy Day\"? *sigh* Well, I wanted to keep it a surprise... But it's an opera that I've rehearsed personally. It's about a big group of people that gather together to celebrate a certain very important person. You understand now, right? Just don't forget to come!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "I'm really not accustomed to using a Vision. Why don't you teach me? Ah, I nearly forgot... you've never used a Vision either."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "The strength gained through my own hard work is truly fulfilling. Hehe, thanks for your support."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "That's more like it! As expected, my dazzling side comes through in any situation."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "I didn't know you cared so much about me. Does that mean that you still need my power? But given the way I am now... there's a chance I won't be able to give you everything you need. Hmm? All you really care about is... me? In that case, then let us act out our future journey together!"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Shower me with praise!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Strike a pose!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Yoo-hoo~!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "The show begins."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "How brilliant."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "May I present...!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Let the world come alive, hehe!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Time to shine!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Let my name echo in song!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "What a pleasant surprise, truly an extra slice of joy."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Take it... *sigh* Go on, you have my approval!"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Splendid! More interesting trinkets for me."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Let's call a ceasefire..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "This is trouble!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Ah! Someone help me!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Witness my power!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "My turn to take the spotlight!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Am I... free?"
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "I still... couldn't do it..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Don't look at me... like this..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "How dare you!?"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Stop that!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "I knew you'd miss me."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "I have high hopes for this journey!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Witness my magnificence!"
+    }
+  ]
+}

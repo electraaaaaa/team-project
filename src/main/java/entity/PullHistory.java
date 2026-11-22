@@ -3,12 +3,12 @@ package entity;
 import java.util.List;
 
 public class PullHistory {
-    private final Game game;
+    private final String type;
     private final int totalPulls;
     private final int currentPity;
     private final List<Collectable> pullList;
-    public PullHistory(Game game, int totalPulls, int currentPity, List<Collectable> pullList){
-        this.game = game;
+    public PullHistory(String type, int totalPulls, int currentPity, List<Collectable> pullList){
+        this.type = type;
         this.totalPulls = totalPulls;
         this.currentPity = currentPity;
         this.pullList = pullList;
@@ -28,5 +28,15 @@ public class PullHistory {
             }
         }
         return count;
+    }
+
+    public int getTotalPulls() {
+        return totalPulls;
+    }
+
+    public int getCurrentPity() { return currentPity; };
+
+    public String getType() {
+        return type;
     }
 }

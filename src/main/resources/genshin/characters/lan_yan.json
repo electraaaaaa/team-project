@@ -1,0 +1,1663 @@
+{
+  "_id": 10000108,
+  "id": "lan_yan",
+  "name": "Lan Yan",
+  "title": "Spring Woven From Jade",
+  "description": "A rattan weaver from Chenyu Vale. Clear-minded and well-tempered, she is as lively as a mountain spring.",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "anemo",
+    "name": "Anemo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1737475200,
+  "substat": "ATK%",
+  "stats": {
+    "base": {
+      "hp": 775.02234,
+      "attack": 21.01344,
+      "defense": 48.64125
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 578.9814,
+        "attack": 15.698484,
+        "defense": 36.3375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 990.36285,
+        "attack": 26.85267,
+        "defense": 62.15625,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1538.8716,
+        "attack": 41.72492,
+        "defense": 96.58125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 1950.253,
+        "attack": 52.879105,
+        "defense": 122.4,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2361.6345,
+        "attack": 64.03329,
+        "defense": 148.21875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 2773.016,
+        "attack": 75.18748,
+        "defense": 174.0375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Chenyu Vale",
+  "region": {
+    "id": "liyue",
+    "name": "Liyue"
+  },
+  "rarity": 4,
+  "birthday": [
+    6,
+    1
+  ],
+  "constellation": "Hirundo Lazuli",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Anna Devlin",
+    "chinese": "刘十四",
+    "japanese": "若山詩音",
+    "korean": "Kim Soon-mi"
+  },
+  "skills": [
+    {
+      "_id": 11081,
+      "id": "black_pheasant_strides_on_water",
+      "name": "Black Pheasant Strides on Water",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Wields her Feathermoon Rings to perform up to 4 attacks, dealing <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to throw out a Feathermoon Ring, dealing <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Gathers the power of Anemo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "41.4%",
+            "44.5%",
+            "47.7%",
+            "51.8%",
+            "54.9%",
+            "58%",
+            "62.2%",
+            "66.3%",
+            "70.4%",
+            "74.6%",
+            "78.7%",
+            "82.9%",
+            "88.1%",
+            "93.2%",
+            "98.4%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "20.4% + 24.9%",
+            "21.9% + 26.8%",
+            "23.5% + 28.7%",
+            "25.5% + 31.2%",
+            "27% + 33.1%",
+            "28.6% + 34.9%",
+            "30.6% + 37.4%",
+            "32.7% + 39.9%",
+            "34.7% + 42.4%",
+            "36.7% + 44.9%",
+            "38.8% + 47.4%",
+            "40.8% + 49.9%",
+            "43.4% + 53%",
+            "45.9% + 56.1%",
+            "48.5% + 59.3%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "26.9% + 26.9%",
+            "28.9% + 28.9%",
+            "31% + 31%",
+            "33.7% + 33.7%",
+            "35.7% + 35.7%",
+            "37.7% + 37.7%",
+            "40.4% + 40.4%",
+            "43.1% + 43.1%",
+            "45.8% + 45.8%",
+            "48.5% + 48.5%",
+            "51.1% + 51.1%",
+            "53.8% + 53.8%",
+            "57.2% + 57.2%",
+            "60.6% + 60.6%",
+            "63.9% + 63.9%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "64.6%",
+            "69.4%",
+            "74.2%",
+            "80.7%",
+            "85.5%",
+            "90.4%",
+            "96.8%",
+            "103.3%",
+            "109.8%",
+            "116.2%",
+            "122.7%",
+            "129.1%",
+            "137.2%",
+            "145.3%",
+            "153.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "37.8%×3",
+            "40.7%×3",
+            "43.5%×3",
+            "47.3%×3",
+            "50.1%×3",
+            "53%×3",
+            "56.8%×3",
+            "60.5%×3",
+            "64.3%×3",
+            "68.1%×3",
+            "71.9%×3",
+            "75.7%×3",
+            "80.4%×3",
+            "85.1%×3",
+            "89.9%×3"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11082,
+      "id": "swallowwisp_pinion_dance",
+      "name": "Swallow-Wisp Pinion Dance",
+      "description": "Summoning forth the Swallow-Wisp Shield, a secret art passed down across generations, Lan Yan dashes forward and, upon making contact with her target, will leap back into the air.<br/>The Swallow-Wisp Shield's DMG absorption scales based on her ATK, and has a 250% absorption efficiency against <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/>While in mid-air due to the effects of her Elemental Skill: Swallow-Wisp Pinion Dance, pressing her Elemental Skill again or pressing Normal Attack will cause Lan Yan to hurl her Feathermoon Rings at an opponent, and they will spin between nearby opponents twice upon hit, dealing <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/>Holding the Skill will cause it to behave differently.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Enter Aiming Mode to adjust the dash direction.",
+      "info": "\"The clouds cut the lunar light, like shadows silver gracing one's sight.\"",
+      "attributes": [
+        {
+          "label": "Feathermoon Ring DMG",
+          "values": [
+            "96.3%",
+            "103.5%",
+            "110.7%",
+            "120.3%",
+            "127.5%",
+            "134.8%",
+            "144.4%",
+            "154%",
+            "163.6%",
+            "173.3%",
+            "182.9%",
+            "192.5%",
+            "204.5%",
+            "216.6%",
+            "228.6%"
+          ]
+        },
+        {
+          "label": "Shield DMG Absorption",
+          "values": [
+            "276.5% ATK + 1156",
+            "297.2% ATK + 1271",
+            "318% ATK + 1396",
+            "345.6% ATK + 1531",
+            "366.3% ATK + 1676",
+            "387.1% ATK + 1830",
+            "414.7% ATK + 1993",
+            "442.4% ATK + 2167",
+            "470% ATK + 2350",
+            "497.7% ATK + 2542",
+            "525.3% ATK + 2745",
+            "553% ATK + 2957",
+            "587.5% ATK + 3178",
+            "622.1% ATK + 3409",
+            "656.6% ATK + 3650"
+          ]
+        },
+        {
+          "label": "Shield Duration",
+          "values": [
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11085,
+      "id": "lustrous_moonrise",
+      "name": "Lustrous Moonrise",
+      "description": "Lan Yan creates a Feathermoon Swallow Array, pulling in nearby opponents and objects and dealing multiple instances of <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span>.",
+      "info": "Strictly speaking, with only Lan Yan herself present, it cannot properly be called an \"array.\" However, if her Rattan Figures are brought into the picture, she can sort of fulfill the requirements... Probably.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "241.1%×3",
+            "259.1%×3",
+            "277.2%×3",
+            "301.3%×3",
+            "319.4%×3",
+            "337.5%×3",
+            "361.6%×3",
+            "385.7%×3",
+            "409.8%×3",
+            "433.9%×3",
+            "458%×3",
+            "482.1%×3",
+            "512.3%×3",
+            "542.4%×3",
+            "572.5%×3"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "four_sealing_divination_charms",
+      "name": "Four Sealing Divination Charms",
+      "description": "When the dash from the Elemental Skill <span style=\"color:#FFD780FF\">Swallow-Wisp Pinion Dance</span> hits a target, if it interacts with <span style=\"color:#80C0FFFF\">Hydro</span>/<span style=\"color:#FF9999FF\">Pyro</span>/<span style=\"color:#99FFFFFF\">Cryo</span>/<span style=\"color:#FFACFFFF\">Electro</span>, the Swallow-Wisp Shield will undergo Elemental Absorption, with the converted shield absorbing DMG from the corresponding element with 250% efficiency.<br/>Additionally, if this use of <span style=\"color:#FFD780FF\">Swallow-Wisp Pinion Dance</span> causes the Swallow-Wisp Shield to undergo Elemental Absorption, the Feathermoon Rings that Lan Yan throws at her foes additionally deal Elemental DMG equal to 50% of the original in the corresponding Elemental Type. This DMG is considered Elemental Skill DMG.",
+      "level": 1
+    },
+    {
+      "id": "skyfeather_evilsubduing_charm",
+      "name": "Skyfeather Evil-Subduing Charm",
+      "description": "The Elemental Skill <span style=\"color:#FFD780FF\">Swallow-Wisp Pinion Dance</span> and the Elemental Burst <span style=\"color:#FFD780FF\">Lustrous Moonrise</span> deal increased DMG equal to 309% and 774% of Lan Yan's Elemental Mastery respectively.",
+      "level": 4
+    },
+    {
+      "id": "thought_and_intent_like_silken_scent",
+      "name": "Thought and Intent, Like Silken Scent",
+      "description": "When Lan Yan is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.<br/>Check the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1081,
+      "id": "as_one_might_stride_betwixt_the_clouds",
+      "name": "\"As One Might Stride Betwixt the Clouds\"",
+      "description": "After triggering the Elemental Absorption from the Ascension Talent \"Four Sealing Divination Charms,\" this instance of Lan Yan's Elemental Skill <span style=\"color:#FFD780FF\">Swallow-Wisp Pinion Dance</span> will produce another Feathermoon Ring when they are thrown at opponents.<br/>You must first unlock the Ascension Talent \"Four Sealing Divination Charms.\"",
+      "level": 1
+    },
+    {
+      "_id": 1082,
+      "id": "dance_vestments_billow_like_rainbow_jade",
+      "name": "\"Dance Vestments Billow Like Rainbow Jade\"",
+      "description": "While the <span style=\"color:#FFD780FF\">Swallow-Wisp Shield</span> is active, when your active party member's Normal Attacks deal DMG, 40% of the Shield's DMG absorption will be restored, up to its original maximum absorption. This effect can occur once every 2s.",
+      "level": 2
+    },
+    {
+      "_id": 1083,
+      "id": "on_white_wings_pierce_through_cloud_and_fog",
+      "name": "\"On White Wings Pierce Through Cloud and Fog\"",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Swallow-Wisp Pinion Dance</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1084,
+      "id": "with_drakefalcons_bloodpearls_adorned",
+      "name": "\"With Drakefalcon's Blood-Pearls Adorned\"",
+      "description": "After Lan Yan uses her Elemental Burst <span style=\"color:#FFD780FF\">Lustrous Moonrise</span>, the Elemental Mastery of all nearby party members increases by 60 for 12s.",
+      "level": 4
+    },
+    {
+      "_id": 1085,
+      "id": "having_met_you_my_heart_is_gladdened",
+      "name": "\"Having Met You, My Heart is Gladdened\"",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Lustrous Moonrise</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1086,
+      "id": "let_us_away_on_sylphic_wing_the_silvered_ornaments_to_ring",
+      "name": "\"Let Us Away on Sylphic Wing, the Silvered Ornaments to Ring\"",
+      "description": "<span style=\"color:#FFD780FF\">Swallow-Wisp Pinion Dance</span> gains 1 additional charge.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "775"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "21"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "49"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "1991",
+            "2570"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "54",
+            "70"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "125",
+            "161"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "3850",
+            "4261"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "104",
+            "116"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "242",
+            "267"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104151,
+        "id": "vayuda_turquoise_sliver",
+        "name": "Vayuda Turquoise Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101241,
+        "id": "clearwater_jade",
+        "name": "Clearwater Jade",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112038,
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4901",
+            "5450"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "133",
+            "148"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "308",
+            "342"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101241,
+        "id": "clearwater_jade",
+        "name": "Clearwater Jade",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112038,
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6090",
+            "6501"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "165",
+            "176"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "382",
+            "408"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101241,
+        "id": "clearwater_jade",
+        "name": "Clearwater Jade",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112039,
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7141",
+            "7552"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "194",
+            "205"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "448",
+            "474"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101241,
+        "id": "clearwater_jade",
+        "name": "Clearwater Jade",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112039,
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8192",
+            "8604"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "222",
+            "233"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "514",
+            "540"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101241,
+        "id": "clearwater_jade",
+        "name": "Clearwater Jade",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112040,
+        "id": "energy_nectar",
+        "name": "Energy Nectar",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9244",
+            "9244"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "251",
+            "251"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "580",
+            "580"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104154,
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Vayuda Turquoise Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101241,
+        "id": "clearwater_jade",
+        "name": "Clearwater Jade",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112040,
+        "id": "energy_nectar",
+        "name": "Energy Nectar",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104313,
+          "id": "teachings_of_diligence",
+          "name": "Teachings of Diligence",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112038,
+          "id": "whopperflower_nectar",
+          "name": "Whopperflower Nectar",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113069,
+          "id": "eroded_sunfire",
+          "name": "Eroded Sunfire",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113069,
+          "id": "eroded_sunfire",
+          "name": "Eroded Sunfire",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113069,
+          "id": "eroded_sunfire",
+          "name": "Eroded Sunfire",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113069,
+          "id": "eroded_sunfire",
+          "name": "Eroded Sunfire",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 210800,
+      "name": "Argent Chimes",
+      "description": "Lan Yan's outfit. The Lans of Chenyu Vale traditionally wear silver, and every piece that Lan Yan carries is a gift from her family. As she rambles through the mountains adorned from head to toe, they jingle merrily away like the joyful songs of spring swallows.",
+      "isDefault": true,
+      "characterName": "Lan Yan",
+      "characterId": 10000108,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Lanyan_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Hello, I'm Lan Yan, from the Chenyu Vale Artisans Association! Can I interest you in any decorations or baskets? Or perhaps a vase or piece of furniture? Ah, I'm almost out of rattan. I should head back to the mountains to get more... Oh, you want to come with me? Hehe, that's so nice of you! I'll throw in a free rattan hat! How does that sound?"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Daily Planning",
+      "text": "Oh, my plan for the day? Hm... Doing whatever I feel like, I suppose! Same with tomorrow, and the day after that, hehe."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Family Heirloom",
+      "text": "The best rattan furniture is made from strands that are smooth, thin, and strong like silk. Furniture like that can be just as precious as a silver family heirloom... That's no exaggeration!"
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Swallows",
+      "text": "Swallows nest when skies are fair, but hide when storms are in the air."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Well, since we're already caught in the rain, we might as well enjoy it! Saves us the energy of running for shelter, at least."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Whoa! C—Can I hold your hand?"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Look! Everything the sun touches is coated in gold!"
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When It's Windy",
+      "text": "Hear that? Ding a ling... Ding a ling... My silver hairpiece is ringing like a bell! The wind is nice and gentle today."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Ding a ling a ling a ling... Sounds like the wind is angry this time."
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "Need some water? Here, take a sip of mine. It's infused with mint leaves, so it's extra refreshing!"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Oh, did the birds wake you up? Haha, let me have a quick talk with them. We'll see if it works — they don't always listen to me."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "I picked some fresh flowers! I was just about to head back and cook something for my mom... You should come, too! My family would love to see you!"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "The night market sells grilled insects! Wanna give them a try?"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "So sleepy... I'm gonna turn in for the night. I can't stay up any longer."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Lan Yan: Happiness",
+      "text": "To me, happiness is... savoring every bite of rice down to the very last grain, listening to the sound of the wind while taking a nap on the grass, and reading all ten volumes of a supernatural novel in a single sitting!"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Lan Yan: Inheritors of Qimen Arts",
+      "text": "The legendary Wind Reader is indeed listed as an ancestor of the Lan clan, but my family split from the main branch a long time ago. The Qimen arts are complex and varied, and I've only learned a few tricks so far. Anything harder, and I need to ask my elders and cousins for help. Still, I'm really good at making rattan figures — even grandpa is no match for me! Hehe, I guess it's the one area where I really hold my own."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Let's Shake Hands?",
+      "text": "Sit. Friend. Handshake~\\nOh, no, I wasn't telling YOU to sit — I was talking to our animal friends! Ahh, I'm so sorry! Please, get up... I was trying to tell them, \"Look over here, everyone! We have a new friend with us today!\" Oh, that wasn't clear? Well... \"Sit\" can mean \"listen to me\" or \"stay where you are\" or even \"stop what you're doing.\" Hm? How are you supposed to know? You just need to come to the mountains more often. You'll pick it up in no time!"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Let's Shake Hands!",
+      "text": "Come on, shake my hand! Gimme a hug!\\nHuh...? Well go on, let's shake hands! ...Isn't this how friends encourage each other? ...Oh wait, haha, yes, you this time! Sorry, it's my fault for confusing you. No worries, though! The more we hang out, the more we'll understand each other!"
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Thanks to my Vision, I can toss my chakram into the air and catch it with ease... Ah, but don't try it at home, kids! The blade is actually really sharp! Although, you could probably give it a go, {NICKNAME}! Just stand still, keep your arm steady, and give a nice, swift throw. I'm sure you can do it!"
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "You can never be too careful when it comes to wild mushrooms. Many are completely inedible, and others have to be stir-fried and cooked fully to be safe. And, if you don't finish them in one sitting, you have to do the same to the leftovers before consuming them — a lot of people forget that step. So, if you eat a few bites, and your dog starts telling you to put away the laundry, or your chickens start ordering you around the house, seek medical attention right away!"
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Once, I was resting in a tree after finishing some weaving, and a squirrel stole the rattan pinecones I just made! Thankfully, I was able to get them back by trading for double the amount of real pinecones. Honestly, I didn't really care about losing my work, I was more worried about ruining the squirrel's entire day! Just imagine — you spend all day collecting pinecones only to get home and realize they're fake! All their squirrel friends would probably laugh at them..."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Xiangling",
+      "text": "Everyone says first impressions are important, and the first time I ate at Wanmin Restaurant, I had so much regret... regret that it took me so long to visit Liyue Harbor! I could have met Xiangling way sooner... In any case, as soon as she heard me talk about all the rare ingredients in the mountains of my hometown, she started planning a trip to Chenyu Vale! I'll make sure she doesn't go home empty-handed!"
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Hu Tao",
+      "text": "Director Hu always seems so upbeat and cheerful. Even when the situation was desperate, she was always there with a joke to cheer me up. I haven't known her long, so I was wondering... Is she always like that? Hmm... In any case, starting from today, I hope all her smiles are out of genuine happiness, rather than an effort to reassure other people."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Keqing",
+      "text": "When will the Yuheng finally take a break? She was running all over the place during the Lantern Rite. I wanted to treat her to a meal to thank her for her kindness, but I never had the chance... I was also hoping she could do my hair into a pair of cat ears just like hers. But... maybe that's asking too much. Although, something tells me she wouldn't mind..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Xingqiu",
+      "text": "I've run into master Xingqiu several times in the mountains. He wasn't accompanied by anyone from the Feiyun Commerce Guild, so it never seemed like official business. After those chance encounters, he often brought me copies of the newest supernatural novels, and I promised to never tell anyone. Except... I definitely just told you, didn't I? Please keep that secret for the both of us, {NICKNAME}!"
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Chongyun",
+      "text": "One time, I was out with grandpa on one of his house calls, when I saw Chongyun leave the house with a dejected look on his face. Given how helpless he looked, I assumed the situation must have been bad, but I didn't sense an ominous presence within the house. Grandpa's reading didn't predict any misfortune, either. Maybe he spent a lot of energy getting rid of the problem and was too tired to talk... Huh? You think it's possible he didn't do anything at all? That makes me even more confused..."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Gaming",
+      "text": "I've known Gaming since we were kids! He was quite the neighborhood terror back then, haha. Hm? That doesn't sound like him? Well, he's matured a lot since then, just like I have. One thing hasn't changed, though — he still carries snacks with him wherever he goes. He always comes back from his travels with a ton of goodies to share with his friends. And, of course, he never leaves without stocking up on his hometown favorites..."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Qiqi",
+      "text": "Qiqi likes finches, right? I'm thinking of making her one out of rattan! Do you know her favorite color?"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Lan Yan: I",
+      "text": "Hold it! One moment... Almost there... Just need to finish this handle, and... Phew... Done! Hehe, sorry about that. I'm not the best multitasker — I can only focus on one thing at a time. Now, you have my undivided attention!"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Lan Yan: II",
+      "text": "Wanna spend some time in the mountains? We can try to dodge Fluff-Fleece Goats as they headbutt us. Or, we can pretend the Red-Beaked Pelicans are bandits and try to rescue Jade Heartfeather Bass from their beaks... Oh, you want to play Windtrace? You'll be the Hunter? Hehe, someone's confident. Alright, if you end up running in circles, I'll ring my silver bell to help you find me. If you manage to touch even the tip of my hair, I'll count that as your win! I'm pretty good at this game, too, you know."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Lan Yan: III",
+      "text": "My silver hairpiece is in the shape of a \"Jade-Plumed Silverwing,\" and it's a family heirloom. My silver hairpin, necklace, and brooch are all birthday presents from my parents. Oh, the bracelet is a Lantern Rite gift from my grandpa, and the earrings are from the last Moonchase Festival, I think... There are also others that were given to me when I mastered the wind glider, received my Vision, and managed to down three whole bowls of rice in one meal...\\nHehe, my family believes that silver accessories are auspicious and can ward off evil, so I'm constantly receiving new ones!\\nWearing them all at once is pretty heavy, but... I suppose that's the weight of a family's love!"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Lan Yan: IV",
+      "text": "When I was little, rattan figures used to creep me out... How should I describe it? I mean, a bunch of misshapen black and gray dolls throughout the house... it's the stuff of nightmares for a kid! When grandpa used to send me to study with the head family of our clan, I thought he was possessed. I thought my cousin was teaching me the dark arts! So, one night, I worked up the courage to burn all the figures I could find. Luckily, their purpose was to absorb evil energy, so they were always meant to be destroyed.\\nBut, that got me thinking — if rattan figures looked cuter, maybe people wouldn't mistake them for some kind of evil sorcery..."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Lan Yan: V",
+      "text": "Rattan weaving isn't hard, I swear! Even the most intricate figures are made one strand at a time. All you need is a little patience, and you'll get there in the end! Compared to the technique itself, precision is the hard part, and persistence can be even harder. If you ask me, though, the most important element is happiness. If you don't enjoy the process, you'll never do a good job — that's true for more than just weaving. Happiness is key! That goes for both of us!"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Lan Yan's Hobbies",
+      "text": "According to folklore, spirits of drowned people exist in haunted bodies of water, so I tried to see if it was true by shoving a stick in a lake... And it actually got stuck! In all the seaweed, I mean. I can only imagine what would happen if you tried to go swimming. Not getting stuck would be more unusual...\\nOh, I also heard that you shouldn't eat sunsettias after sunset or peel an apple in front of a mirror at midnight... Huh, I wonder if there's truth to any of those folk legends..."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Lan Yan's Troubles",
+      "text": "I hate removing splinters. You have to squint so hard to see them, and I always end up hurting myself... I've cut all ten of my fingers that way... *whimper*"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Fresh flowers not only look and smell amazing, but they also make delicious pastries! The flavor is refreshing, but not too sweet. Ah, and it goes so well with a pot of floral tea... Ooh, let's go flower-picking right now! No need to bring a basket — I'll just weave one once we're in the mountains!"
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "As the saying goes, even sugar is only sweet when you're happy. Everything tastes worse when you're in a bad mood. Hehe, luckily, I rarely have that problem."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "This is delicious! Hold on, a dish like this calls for special utensils made of pure silver! Be right back!"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Ah, thank you! Here, try it with this dipping sauce! The flavor is even better!"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Wait, you ate some of this? Is your stomach okay? You're not seeing things, are you?"
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "In my family, we always give silver accessories as birthday gifts. So, here, these two figures are for you. The one with the silver swallow on the head is me, and the one with the small silver sword is you. Hehe, looks just like us, right?\\nI infused the rattan strands with incense, so hanging them on your knapsack should repel insects. Oh, and I designed the silver accessories, too. The silversmith polished them once, and I made sure to smooth out the edges a second time, so you don't have to worry about cutting yourself.\\nWell, happy birthday, {NICKNAME}! May luck always be on your side!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Wait, I barely got two strands in this project, and you already... Either you work super fast, or I'm slower than I thought..."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "If silver needs to be polished to shine, it only makes sense that we need to keep honing our skills to become as light and swift as a swallow."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Let's shake hands! Again! Again! Still remember? It's an expression of happiness and gratitude — a way to express joy at all the good things in life!"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "\"The humble swallow builds with mud, and yet, is never without a nest.\" So, don't underestimate me! With how strong I've become, I should be more than capable of protecting you now. Hehe, it's all thanks to your help, of course! Thank you so much!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Flip and fly."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Closing in."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Up and away."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Ills, be gone!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Swift as the swallow."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Dancing in the wind~"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Whoa, can I have some? Spread the luck around!"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Score! Let's see what's inside!"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Just a moment, let's tally this up..."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Need some time..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Little help here~"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "This is tricky..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Get back! I'll cover for you!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "I've got this! I'm faster than them."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Can't... fall now..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "The bell rings... no more..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Grounded... for good..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Stop!"
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Something's off!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Nasty temper!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Doesn't matter where, I'll be there!"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Let's hit the town!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Coming!"
+    }
+  ]
+}

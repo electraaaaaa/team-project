@@ -1,0 +1,1969 @@
+{
+  "_id": 10000051,
+  "id": "eula",
+  "name": "Eula",
+  "title": "Dance of the Shimmering Wave",
+  "description": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+  "weapon_type": {
+    "id": "claymore",
+    "name": "Claymore"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1621350000,
+  "substat": "CRIT DMG",
+  "stats": {
+    "base": {
+      "hp": 1029.5856,
+      "attack": 26.6266,
+      "defense": 58.45391
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 882.77655,
+        "attack": 22.828234,
+        "defense": 50.1201,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1510.0126,
+        "attack": 39.048294,
+        "defense": 85.73175,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2346.3271,
+        "attack": 60.67504,
+        "defense": 133.21394,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2973.5632,
+        "attack": 76.8951,
+        "defense": 168.8256,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3600.799,
+        "attack": 93.115166,
+        "defense": 204.43726,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.288
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4228.035,
+        "attack": 109.33523,
+        "defense": 240.0489,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.384
+        }
+      }
+    ]
+  },
+  "affiliation": "Knights of Favonius",
+  "region": {
+    "id": "mondstadt",
+    "name": "Mondstadt"
+  },
+  "rarity": 5,
+  "birthday": [
+    25,
+    10
+  ],
+  "constellation": "Aphros Delos",
+  "domain": "Forsaken Rift",
+  "cv": {
+    "english": "Suzie Yeung",
+    "chinese": "子音",
+    "japanese": "佐藤利奈",
+    "korean": "Kim Hyeon-ji"
+  },
+  "skills": [
+    {
+      "_id": 10511,
+      "id": "favonius_bladework_edel",
+      "name": "Favonius Bladework - Edel",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 consecutive strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Drains Stamina over time to perform continuous slashes.<br/>At the end of the sequence, performs a more powerful slash.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "89.7%",
+            "97%",
+            "104.3%",
+            "114.8%",
+            "122.1%",
+            "130.4%",
+            "141.9%",
+            "153.4%",
+            "164.9%",
+            "177.4%",
+            "191.7%",
+            "208.6%",
+            "225.5%",
+            "242.3%",
+            "260.7%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "93.6%",
+            "101.2%",
+            "108.8%",
+            "119.7%",
+            "127.3%",
+            "136%",
+            "147.9%",
+            "159.9%",
+            "171.9%",
+            "184.9%",
+            "199.9%",
+            "217.5%",
+            "235.1%",
+            "252.7%",
+            "271.8%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "56.8% + 56.8%",
+            "61.4% + 61.4%",
+            "66% + 66%",
+            "72.6% + 72.6%",
+            "77.3% + 77.3%",
+            "82.6% + 82.6%",
+            "89.8% + 89.8%",
+            "97.1% + 97.1%",
+            "104.4% + 104.4%",
+            "112.3% + 112.3%",
+            "121.4% + 121.4%",
+            "132% + 132%",
+            "142.7% + 142.7%",
+            "153.4% + 153.4%",
+            "165% + 165%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "112.6%",
+            "121.8%",
+            "131%",
+            "144.1%",
+            "153.2%",
+            "163.7%",
+            "178.1%",
+            "192.5%",
+            "206.9%",
+            "222.7%",
+            "240.7%",
+            "261.9%",
+            "283%",
+            "304.2%",
+            "327.3%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "71.8% + 71.8%",
+            "77.7% + 77.7%",
+            "83.5% + 83.5%",
+            "91.9% + 91.9%",
+            "97.7% + 97.7%",
+            "104.4% + 104.4%",
+            "113.6% + 113.6%",
+            "122.8% + 122.8%",
+            "132% + 132%",
+            "142% + 142%",
+            "153.5% + 153.5%",
+            "167% + 167%",
+            "180.5% + 180.5%",
+            "194% + 194%",
+            "208.7% + 208.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack Spinning DMG",
+          "values": [
+            "68.8%",
+            "74.4%",
+            "80%",
+            "88%",
+            "93.6%",
+            "100%",
+            "108.8%",
+            "117.6%",
+            "126.4%",
+            "136%",
+            "147%",
+            "159.9%",
+            "172.9%",
+            "185.8%",
+            "199.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack Final DMG",
+          "values": [
+            "124.4%",
+            "134.5%",
+            "144.6%",
+            "159.1%",
+            "169.2%",
+            "180.8%",
+            "196.7%",
+            "212.6%",
+            "228.5%",
+            "245.9%",
+            "265.8%",
+            "289.2%",
+            "312.6%",
+            "336%",
+            "361.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        },
+        {
+          "label": "Max Duration",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "74.6%",
+            "80.7%",
+            "86.7%",
+            "95.4%",
+            "101.5%",
+            "108.4%",
+            "118%",
+            "127.5%",
+            "137%",
+            "147.4%",
+            "159.4%",
+            "173.4%",
+            "187.4%",
+            "201.4%",
+            "216.7%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "149.1% / 186.3%",
+            "161.3% / 201.5%",
+            "173.4% / 216.6%",
+            "190.8% / 238.3%",
+            "202.9% / 253.4%",
+            "216.8% / 270.8%",
+            "235.9% / 294.6%",
+            "254.9% / 318.4%",
+            "274% / 342.3%",
+            "294.8% / 368.2%",
+            "318.7% / 398%",
+            "346.7% / 433.1%",
+            "374.8% / 468.1%",
+            "402.8% / 503.1%",
+            "433.4% / 541.3%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10512,
+      "id": "icetide_vortex",
+      "name": "Icetide Vortex",
+      "description": "Sharp frost, swift blade.<br/><br/><span style=\"color:#FFD780FF\">Press</span><br/>Slashes swiftly, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span>.<br/>When it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.<br/><br/><span style=\"color:#FFD780FF\">Grimheart</span><br/>Increases Eula's resistance to interruption and DEF.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Wielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> to opponents in front of her.<br/>If Grimheart stacks are consumed, surrounding opponents will have their Physical RES and <span style=\"color:#99FFFFFF\">Cryo RES</span> decreased.<br/>Each consumed stack of Grimheart will be converted into an Icewhirl Brand that deals <span style=\"color:#99FFFFFF\">Cryo DMG</span> to nearby opponents.",
+      "info": "\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"",
+      "attributes": [
+        {
+          "label": "Press DMG",
+          "values": [
+            "146.4%",
+            "157.4%",
+            "168.4%",
+            "183%",
+            "194%",
+            "205%",
+            "219.6%",
+            "234.2%",
+            "248.9%",
+            "263.5%",
+            "278.2%",
+            "292.8%",
+            "311.1%",
+            "329.4%",
+            "347.7%"
+          ]
+        },
+        {
+          "label": "Hold DMG",
+          "values": [
+            "245.6%",
+            "264%",
+            "282.4%",
+            "307%",
+            "325.4%",
+            "343.8%",
+            "368.4%",
+            "393%",
+            "417.5%",
+            "442.1%",
+            "466.6%",
+            "491.2%",
+            "521.9%",
+            "552.6%",
+            "583.3%"
+          ]
+        },
+        {
+          "label": "Icewhirl Brand DMG",
+          "values": [
+            "96%",
+            "103.2%",
+            "110.4%",
+            "120%",
+            "127.2%",
+            "134.4%",
+            "144%",
+            "153.6%",
+            "163.2%",
+            "172.8%",
+            "182.4%",
+            "192%",
+            "204%",
+            "216%",
+            "228%"
+          ]
+        },
+        {
+          "label": "DEF Bonus",
+          "values": [
+            "30% Per Stack",
+            "30% Per Stack",
+            "30% Per Stack",
+            "30% Per Stack",
+            "30% Per Stack",
+            "30% Per Stack",
+            "30% Per Stack",
+            "30% Per Stack",
+            "30% Per Stack",
+            "30% Per Stack",
+            "30% Per Stack",
+            "30% Per Stack",
+            "30% Per Stack",
+            "30% Per Stack",
+            "30% Per Stack"
+          ]
+        },
+        {
+          "label": "Grimheart Duration",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Physical RES Decrease",
+          "values": [
+            "16%",
+            "17%",
+            "18%",
+            "19%",
+            "20%",
+            "21%",
+            "22%",
+            "23%",
+            "24%",
+            "25%",
+            "25%",
+            "25%",
+            "25%",
+            "25%",
+            "25%"
+          ]
+        },
+        {
+          "label": "Cryo RES Decrease",
+          "values": [
+            "16%",
+            "17%",
+            "18%",
+            "19%",
+            "20%",
+            "21%",
+            "22%",
+            "23%",
+            "24%",
+            "25%",
+            "25%",
+            "25%",
+            "25%",
+            "25%",
+            "25%"
+          ]
+        },
+        {
+          "label": "RES Decrease Duration",
+          "values": [
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s"
+          ]
+        },
+        {
+          "label": "Press CD",
+          "values": [
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s"
+          ]
+        },
+        {
+          "label": "Hold CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10515,
+      "id": "glacial_illumination",
+      "name": "Glacial Illumination",
+      "description": "Brandishes her greatsword, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span> to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.<br/>While present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.<br/>Once its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.<br/>This DMG scales on the number of energy stacks the Lightfall Sword has accumulated.<br/>If Eula leaves the field, the Lightfall Sword will explode immediately.",
+      "info": "It is easy to sink. But even so, she desires to freeze this oncoming tide.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "245.6%",
+            "264%",
+            "282.4%",
+            "307%",
+            "325.4%",
+            "343.8%",
+            "368.4%",
+            "393%",
+            "417.5%",
+            "442.1%",
+            "466.6%",
+            "491.2%",
+            "521.9%",
+            "552.6%",
+            "583.3%"
+          ]
+        },
+        {
+          "label": "Lightfall Sword Base DMG",
+          "values": [
+            "367%",
+            "396.9%",
+            "426.8%",
+            "469.5%",
+            "499.4%",
+            "533.5%",
+            "580.4%",
+            "627.4%",
+            "674.3%",
+            "725.6%",
+            "784.2%",
+            "853.3%",
+            "922.3%",
+            "991.3%",
+            "1066.6%"
+          ]
+        },
+        {
+          "label": "DMG Per Stack",
+          "values": [
+            "75%",
+            "81.1%",
+            "87.2%",
+            "95.9%",
+            "102%",
+            "109%",
+            "118.6%",
+            "128.2%",
+            "137.8%",
+            "148.2%",
+            "160.2%",
+            "174.3%",
+            "188.4%",
+            "202.5%",
+            "217.9%"
+          ]
+        },
+        {
+          "label": "Maximum Stacks",
+          "values": [
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "roiling_rime",
+      "name": "Roiling Rime",
+      "description": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of <span style=\"color:#FFD780FF\">Icetide Vortex</span>, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by <span style=\"color:#FFD780FF\">Glacial Illumination</span>.",
+      "level": 1
+    },
+    {
+      "id": "wellspring_of_warlust",
+      "name": "Wellspring of War-Lust",
+      "description": "When <span style=\"color:#FFD780FF\">Glacial Illumination</span> is cast, the CD of <span style=\"color:#FFD780FF\">Icetide Vortex</span> is reset and Eula gains 1 stack of Grimheart.",
+      "level": 4
+    },
+    {
+      "id": "aristocratic_introspection",
+      "name": "Aristocratic Introspection",
+      "description": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 511,
+      "id": "tidal_illusion",
+      "name": "Tidal Illusion",
+      "description": "Every time <span style=\"color:#FFD780FF\">Icetide Vortex</span>'s Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.<br/>Each stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
+      "level": 1
+    },
+    {
+      "_id": 512,
+      "id": "lady_of_seafoam",
+      "name": "Lady of Seafoam",
+      "description": "Decreases the CD of <span style=\"color:#FFD780FF\">Icetide Vortex</span>'s Holding Mode, rendering it identical to Press CD.",
+      "level": 2
+    },
+    {
+      "_id": 513,
+      "id": "lawrence_pedigree",
+      "name": "Lawrence Pedigree",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Glacial Illumination</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 514,
+      "id": "the_obstinacy_of_ones_inferiors",
+      "name": "The Obstinacy of One's Inferiors",
+      "description": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
+      "level": 4
+    },
+    {
+      "_id": 515,
+      "id": "chivalric_quality",
+      "name": "Chivalric Quality",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Icetide Vortex</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 516,
+      "id": "noble_obligation",
+      "name": "Noble Obligation",
+      "description": "Lightfall Swords created by <span style=\"color:#FFD780FF\">Glacial Illumination</span> start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1030"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "27"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "58"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2671",
+            "3554"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "69",
+            "92"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "152",
+            "202"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5317",
+            "5944"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "138",
+            "154"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "302",
+            "337"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100057,
+        "id": "dandelion_seed",
+        "name": "Dandelion Seed",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112005,
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6839",
+            "7675"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "177",
+            "198"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "388",
+            "436"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113020,
+        "id": "crystalline_bloom",
+        "name": "Crystalline Bloom",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100057,
+        "id": "dandelion_seed",
+        "name": "Dandelion Seed",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112005,
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8579",
+            "9207"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "222",
+            "238"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "487",
+            "523"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113020,
+        "id": "crystalline_bloom",
+        "name": "Crystalline Bloom",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100057,
+        "id": "dandelion_seed",
+        "name": "Dandelion Seed",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112006,
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10119",
+            "10746"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "262",
+            "278"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "574",
+            "610"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113020,
+        "id": "crystalline_bloom",
+        "name": "Crystalline Bloom",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100057,
+        "id": "dandelion_seed",
+        "name": "Dandelion Seed",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112006,
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11669",
+            "12296"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "302",
+            "318"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "662",
+            "698"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113020,
+        "id": "crystalline_bloom",
+        "name": "Crystalline Bloom",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100057,
+        "id": "dandelion_seed",
+        "name": "Dandelion Seed",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112007,
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "13226",
+            "13226"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "342",
+            "342"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "751",
+            "751"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113020,
+        "id": "crystalline_bloom",
+        "name": "Crystalline Bloom",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100057,
+        "id": "dandelion_seed",
+        "name": "Dandelion Seed",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112007,
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104304,
+          "id": "teachings_of_resistance",
+          "name": "Teachings of Resistance",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112005,
+          "id": "damaged_mask",
+          "name": "Damaged Mask",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113017,
+          "id": "dragon_lords_crown",
+          "name": "Dragon Lord's Crown",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113017,
+          "id": "dragon_lords_crown",
+          "name": "Dragon Lord's Crown",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113017,
+          "id": "dragon_lords_crown",
+          "name": "Dragon Lord's Crown",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113017,
+          "id": "dragon_lords_crown",
+          "name": "Dragon Lord's Crown",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 205100,
+      "name": "Wavecrest Waltz",
+      "description": "Eula's outfit. Consummate elegance shines through in this neat and smart knight's uniform.",
+      "isDefault": true,
+      "characterName": "Eula",
+      "characterId": 10000051,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Eula_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "Captain Eula Lawrence, Spindrift Knight, Knights of Favonius Reconnaissance Company. I extend to you my greetings. Huh? What's that...? Yes, Lawrence, the evil aristocrats of historical infamy. Oh, we're still very much evil. Just look at me, I'm infiltrating the inner ranks of the Knights of Favonius, all as part of a diabolical plan to exact our revenge and reclaim our former glory!"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Etiquette",
+      "text": "Knights and aristocrats share the same cultural heritage, but the knights had enough sense to do away with all the superfluous detail."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Bladework",
+      "text": "You want to learn some Favonius Bladework? Heh, alright then, I'll teach you... Oh yes, I'll teach you, alright, mark my words..."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Rules",
+      "text": "Aristocratic etiquette is all just for show... Just smile and nod along! I was forced to learn all of the rules by heart, but even I don't take them that seriously."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Quick, under the umbrella, or you'll get soaked! You can't risk catching a cold, because it might turn into something more serious, and if that happens... Well, I can't go avenging my clan by picking on the sick now, can I?"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "This weather is a hindrance. The thunder drowns out all other sounds, hampering my perception of the surrounding environment."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Visibility is excellent! If we head to higher ground, we can do a full recon of enemy activity in the area."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Rise and shine! The two-hour period before sunrise is the perfect time to strike, because the sentries are getting drowsy towards the end of their long night shift."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Go easy on the grains at lunch and fill up on lean meat instead. If you get drowsy in the afternoon, anyone who's looking for an opportunity to take you down will make their move."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "\"May the gentle breeze softly send thee into a sweet sleep.\" ...One of a select few aristocratic pleasantries that's actually quite lovely."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Would you like to hear a lullaby on the bone whistle? It'll send you into a deep and everlasting sleep... Hmm, no. When it comes to my revenge, far more imaginative means of retribution are in order..."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Eula: The Knights",
+      "text": "The easiest way to destroy your enemy is to take them down from the inside, right? That's why I joined the Knights of Favonius."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Eula: Bearing",
+      "text": "Since I'm a genuine Knight of Favonius, I fulfill my duties like any other self-respecting individual would. Look, I may be a descendant of a disgraced ruling elite, but I'm not a total degenerate!"
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Eula: Scout",
+      "text": "The role of a scout is to hunt down enemy troops, or fend off the enemy in side skirmishes away from the main battle. There aren't a whole lot of rules, which suits my style very well indeed!"
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Eula: Dance",
+      "text": "Not all customs of the Lawrence Clan are despicable. At least the \"Dance of Sacrifice\" is pure and noble. It puts my mind at ease and gives me comfort. It's been years, but it's still dear to me. My body remembers every step that I... Well anyway, to end this digression, those who wish to master my signature \"Favonius Bladework\" technique have to pass my dance class first."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Us: Commonality",
+      "text": "We're not so different, you and I. We're both outsiders in Mondstadt. Difference is, Mondstadt welcomes you with open arms, but they treat me with hostility and suspicion..."
+    },
+    {
+      "id": "2006",
+      "type": 1,
+      "title": "About Us: Feud",
+      "text": "Our feud is for the long term, so rather than get payback on a piecemeal basis, I think I'll make things easier for myself and wait for a day when I can settle the score once and for all. It could be in ten years, could even be twenty... But don't worry, I won't forget. In the meantime, I'll need you to take good care of yourself and have a happy, healthy life, okay?"
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "\"Descendant of a depraved dynasty\" isn't the most flattering reputation to have. The only way I can shake it for good is if I keep avenging my kin in my own way. Those who desire vengeance need power first, so it makes sense that I would get a Vision."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share: Bone Whistle",
+      "text": "My bone whistle makes a versatile range of sounds, which comes in handy for confusing the enemy. I often use it to imitate the sound of the sea, which is where I get my title of \"Spindrift Knight\" — this despite the fact that the bone whistle is actually a Liyue tradition... But then again, no one seems to look too closely into that kind of thing. I'm mean, they took me on, and I'm an exile of Mondstadt trained by an outcast of Liyue..."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Something to Share: Wine-Tasting",
+      "text": "Technically, aged Dandelion Wine should be poured into a silver goblet and allowed to breathe for 12 minutes, then you're supposed to add ice cubes, ideally so 60% of the ice is submerged beneath the wine. I refuse to do all that though, it's not worth the hassle."
+    },
+    {
+      "id": "3004",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Why do Mist Flowers have to be so rare? The powder they produce works wonders for the bone whistle. It gives it a crisper, clearer sound."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Amber",
+      "text": "Amber's someone who thinks for herself. On the day I first joined the Knights, she cleaned my dormitory and gave me a tour of the headquarters, and she's helped me with a myriad of other things in the time since. Now, everyone looks at me like the older sibling who needs the younger sibling to do everything for them! Hmph. For this, she must pay!"
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Jean",
+      "text": "The Acting Grand Master's family and mine are sworn enemies. But she draws a clear line between professional and personal matters. She saw I was capable, admitted me into the Knights, and gave me lots of opportunities. So, when the time comes for vengeance, I'll afford her a reasonably soft landing."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Lisa",
+      "text": "She's so annoying. She must have read thousands of books... could even be tens of thousands. Meaning, she can effortlessly recall any number of vile tales about the Lawrence Clan's corruption off the top of her head, accurate down to the exact date. Logically speaking, she'd be the perfect person to talk to about someone I'd like to track down, but... swallowing my pride would be too great a challenge."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Barbara",
+      "text": "Everyone loves her. What's her secret? Maybe I could learn a thing or two from her... Hmm, or maybe not. I can't imagine a \"Shining Idol\" would want anything to do with a descendant of a depraved dynasty."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Varka",
+      "text": "Hmph, the Grand Master... He doesn't like to beat around the bush and has no care for rumors or trivial matters. A good guy, I guess. I sparred with him once, which ended in a tie, but his relaxed expression and leisurely attitude clearly indicated that he had been holding back the whole time... Such indignity! I will not let it go!"
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Venti",
+      "text": "I heard that bard sing a few songs about the Lawrence Clan... They were lighthearted and funny stories that mocked the clan in a way I've never heard anyone else do. Even I couldn't help but burst out laughing... And for this, he must pay!"
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Razor",
+      "text": "Free from social mores and other people's opinions, and no family obligations... Must be an easy life!"
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Sucrose",
+      "text": "The alchemist... She once gave me a piece of equipment and told me it would help me infiltrate an Abyss Order camp undetected. In reality, it caused a huge explosion that completely blew my cover and before I knew it I was being accosted by 13 mitachurls... Afterwards, I marched straight back there, intending to make her pay for what she had done, but when I saw how panicked and sheepish she looked, and watched her post her results on the wall with the word \"Fail,\" I couldn't bring myself to go through with it... After all, I didn't get hurt, just a little disheveled... and a little humiliated."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Diluc",
+      "text": "I don't get along with some of the knights, and he doesn't think much of them in general, so you'd think that would make us allies. But the way he always acts so aloof — he's even worse than Acting Grand Master Jean. I want nothing to do with him."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Diona",
+      "text": "Diona? She's a miracle worker when it comes to making cocktails, and to my surprise, we get along really well. She infiltrated a tavern with the hopes of tearing down the wine industry, while I infiltrated the knights to exact my revenge on them. A kindred spirit it seems..."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Yanfei: Encounter",
+      "text": "This one's a long story... We ended up saving her life once when we were tracking down a batch of dangerous cargo that belonged to the Abyss Order. The Abyss Order had packed it up like regular cargo and wanted it shipped from Dornman Port to Liyue Harbor. She was acting as a consultant for the merchant vessel, where she discovered something in the cargo — and then began to investigate, putting herself in grave danger. Had we arrived just a few minutes later, it's likely she wouldn't have been so fortunate."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Yanfei: Assessment",
+      "text": "We've kept in touch ever since. I like how smart she is. She knows the rules, but she also knows how to be flexible and act according to the situation. A few of the Knights would do well to take a leaf out of her book... Also, with her smarts, maybe she could help me track someone down that I've been looking for... She does owe me a favor from last time, after all."
+    },
+    {
+      "id": "4013",
+      "type": 1,
+      "title": "About Mika: Communication",
+      "text": "When Mika was assigned to the Reconnaissance Company, I thought that he'd only last a few days, just like the others before him. But he surprised me. He never made a peep, but he completed all of his tasks quite admirably. He even volunteered to run errands for me, and assist with communication... Hmph... I don't know who is going around telling people that I need looking after..."
+    },
+    {
+      "id": "4014",
+      "type": 1,
+      "title": "About Mika: Returning",
+      "text": "Mika's personality hasn't changed one bit since he's been out with the expedition, though his abilities have improved significantly. The Grand Master is clearly making sure nobody neglects their training... Hmm? Mika's unaware of his own improvement? It must be one of his blind spots... or perhaps he's just being humble. Either way, things like this don't escape me. I know my team."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Eula: I",
+      "text": "The life of a Lawrence doesn't include much worth talking about... Basically, whatever you say, whatever you do, people will always despise you and treat you like a potential threat to society. It's nowhere near as bad as it used to be, though. Before I'd joined the Knights, good grief... I couldn't even buy groceries. Even Good Hunter and Mondstadt General Goods wouldn't take my money. I literally had to go out and hunt my own food and cook it over a campfire if I wanted to eat dinner."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Eula: II",
+      "text": "People tell me that if I just spoke more softly, or was more polite, or acted more deferentially, others may find it easier to forgive me, but the only reason they think that way is because they've never been branded a pariah before. There is no easy path to redemption when you're a social pariah. I'm more inclined to stop tiptoeing around everyone all the time and just get out there and make them respect me the old-fashioned way! As in, we square off and if they win, I humbly accept my punishment, but if they lose, they must acquiesce to my demands... Such as... Well, I mean, if I want to buy a loaf of bread, take my darn money, for crying out loud!"
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Eula: III",
+      "text": "The Knights of Favonius are actually fairly reasonable, at the very least they reward merit and not social status. The reason they invited me to join their ranks is because I'd sparred with some of their crack troops and won through my own sheer skill. Being an insider in the organization will make getting revenge much easier, as it removes many of life's complications, so what's not to love?"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Eula: IV",
+      "text": "The name Lawrence only became a social stigma after the clan fell from grace. It was once an honor to be called a Lawrence, but unfortunately, most people have forgotten about that part of history. The Grand Master says that I am performing rather well as a knight, and that if it's not enough to restore the honor of the Lawrence name, it's certainly a strong rebuttal against the one-sided opinions so many people throw around. I'm quite satisfied with that appraisal."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Eula: V",
+      "text": "If my family members refuse to change their corrupt ways, or worse, continue to cause active harm in Mondstadt... I should be the one to end them, along with the Lawrence name itself. For once, it'd be a family obligation I'd actually enjoy. And once the deed was done, I'd be free to pick any name I wanted. Or even let you pick one for me!"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Eula's Hobbies",
+      "text": "I'm into all sorts of cool things. Sipping a nice cold drink, sitting in a canyon feeling the biting wind howl past my face, or diving into the lake at the foot of Dragonspine... Waiting for you to stroll by unsuspectingly, so I can sneak up behind you and drag you down into the icy depths..."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Eula's Troubles",
+      "text": "Sometimes, when it's busy in the tavern, they ask me to share a table with other customers. But once they find out that I'm a Lawrence, suddenly everyone gets indignant and provocative, and starts trying to bait me out in some way. I just want to have a drink, is that too much to ask!?"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I like making my own treats. Not always your typical sweet treats, though. For example, a Chilled Tomato and Aspic Jelly Egg Roll pairs very nicely with an ice-cold glass of Berry & Mint Punch. The most important thing is that they leave the people who like eating them with big smiles on their faces."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I can't stand a rich broth. The flavor is too overpowering, it's so filling you can't train or fight afterward, and also, it doesn't really work as field rations... Simply put, broth and I are sworn enemies!"
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Oh? Are you putting me to the test? Challenge accepted."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Eh, not that great... How about you try it?"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "The nerve on you, are you exacting revenge?"
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Today is a day worth observing, though you shouldn't mark your development in age alone. Accept my gift of a bone whistle, and allow me to teach you its secrets. When your day of reckoning comes, see how long you can fend me off with it... It'll make the whole thing much more exciting."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "My fighting skills just got a whole lot stronger... But I shouldn't get too conceited just yet. There are some truly formidable knights among our ranks, and I must outperform them immeasurably if I wish to defeat them and avenge my clan!"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Good! With this much power, I daresay even the Acting Grand Master herself would be no match for me!"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "How strange... In the time I've spent with you, my strength seems to have improved exceptionally quickly. I suppose I was rather fortunate to make an enemy of you. I'd better dig my teeth in to make sure you can't get away!"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Excellent! The unstoppable power of an immovable glacier dwells within me now and no grand master, acting or otherwise, can stand in my way! There is no time to delay. I must devise my plan, and unleash my attack! Once I have crushed the Knights of Favonius beneath my heel, my next target... is you. Don't try to run. Stand beside me and witness all that must come to pass."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Beg for mercy."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Shudder!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Crush!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "I condemn you!"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Rack and ruin!"
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Eye for an eye!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Flood of frost!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Freeze to the core!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Vengeance will be mine!"
+    },
+    {
+      "id": "700001",
+      "type": 2,
+      "title": "Sprint Start: I",
+      "text": "More speed."
+    },
+    {
+      "id": "800001",
+      "type": 2,
+      "title": "Deploying Wind Glider: I",
+      "text": "Time to scout!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "What do we have here..."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "I can put these to good use."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Ha, at least good luck doesn't discriminate by clan."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "The odds are against us..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Let us cross swords..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Well met!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "I'll take it from here!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Disengage, that's an order!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "What a sorry sight..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "I'll be back... with a vengeance..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Guess I got my comeuppance..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Touché!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Good grief..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Ready for reconnaissance."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "I'll scout ahead."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "What's your battle plan?"
+    }
+  ]
+}

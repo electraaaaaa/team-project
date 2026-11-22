@@ -1,0 +1,1671 @@
+{
+  "_id": 10000074,
+  "id": "layla",
+  "name": "Layla",
+  "title": "Fantastical Evening Star",
+  "description": "A Rtawahist student who specializes in Theoretical Astrology. Heavily prone to somnambulism and locked in a grinding war with sleep deprivation, the problem of restful slumber is a most troubling one to her.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1668787200,
+  "substat": "HP%",
+  "stats": {
+    "base": {
+      "hp": 930.0268,
+      "attack": 18.16416,
+      "defense": 54.936
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 694.77765,
+        "attack": 13.569876,
+        "defense": 41.04,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1188.4354,
+        "attack": 23.21163,
+        "defense": 70.2,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1846.6459,
+        "attack": 36.067303,
+        "defense": 109.08,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2340.3037,
+        "attack": 45.709057,
+        "defense": 138.24,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2833.9614,
+        "attack": 55.35081,
+        "defense": 167.4,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3327.6194,
+        "attack": 64.99256,
+        "defense": 196.56,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Rtawahist",
+  "region": {
+    "id": "sumeru",
+    "name": "Sumeru"
+  },
+  "rarity": 4,
+  "birthday": [
+    19,
+    12
+  ],
+  "constellation": "Luscinia",
+  "domain": "Steeple of Ignorance",
+  "cv": {
+    "english": "Ashely Biski",
+    "chinese": "侯小菲",
+    "japanese": "富田美憂",
+    "korean": "Kang Sae-bom"
+  },
+  "skills": [
+    {
+      "_id": 10741,
+      "id": "sword_of_the_radiant_path",
+      "name": "Sword of the Radiant Path",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 3 rapid strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "51.2%",
+            "55.4%",
+            "59.6%",
+            "65.5%",
+            "69.7%",
+            "74.4%",
+            "81%",
+            "87.5%",
+            "94.1%",
+            "101.2%",
+            "108.4%",
+            "115.5%",
+            "122.7%",
+            "129.8%",
+            "137%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "48.5%",
+            "52.4%",
+            "56.4%",
+            "62%",
+            "66%",
+            "70.5%",
+            "76.7%",
+            "82.9%",
+            "89.1%",
+            "95.8%",
+            "102.6%",
+            "109.4%",
+            "116.1%",
+            "122.9%",
+            "129.7%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "73%",
+            "78.9%",
+            "84.9%",
+            "93.3%",
+            "99.3%",
+            "106.1%",
+            "115.4%",
+            "124.7%",
+            "134.1%",
+            "144.3%",
+            "154.4%",
+            "164.6%",
+            "174.8%",
+            "185%",
+            "195.2%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "47.7% + 52.5%",
+            "51.6% + 56.8%",
+            "55.5% + 61.1%",
+            "61.1% + 67.2%",
+            "64.9% + 71.5%",
+            "69.4% + 76.4%",
+            "75.5% + 83.1%",
+            "81.6% + 89.8%",
+            "87.7% + 96.5%",
+            "94.3% + 103.9%",
+            "101% + 111.2%",
+            "107.7% + 118.5%",
+            "114.3% + 125.9%",
+            "121% + 133.2%",
+            "127.6% + 140.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10742,
+      "id": "nights_of_formal_focus",
+      "name": "Nights of Formal Focus",
+      "description": "Puts forth a shield known as the Curtain of Slumber, dealing <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>.<br/>The Curtain of Slumber's DMG Absorption is based on Layla's Max HP and absorbs <span style=\"color:#99FFFFFF\">Cryo DMG</span> with 250% effectiveness. When the shield is deployed, Layla will have <span style=\"color:#99FFFFFF\">Cryo</span> applied to her briefly.<br/><br/><span style=\"color:#FFD780FF\">Night Stars and Shooting Stars</span><br/>While the Curtain of Slumber is active, it will create 1 Night Star that will be attached to it every 1.5s. When a character protected by this shield uses an Elemental Skill, 2 Night Stars will be created. Night Stars can be created once every 0.3s in this way. A maximum of 4 Night Stars can be accumulated at any one time.<br/>Once the Curtain of Slumber has accumulated 4 Night Stars and there are opponents nearby, these Night Stars will transform into homing Shooting Stars that will be fired off in sequence, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span> to any opponents hit.<br/>If the Curtain of Slumber's duration ends or it is destroyed, the Night Stars will disappear. If they are already being fired off as Shooting Stars, these Shooting Stars will last until this wave of shots ends.<br/><br/>New Night Stars cannot be created until the previous wave of Shooting Stars has been fired completely.",
+      "info": "\"She and I are like two master artisans who have never met, yet who sit at the same cushioned seat, embroidering the same dream-flower.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "12.8%",
+            "13.8%",
+            "14.7%",
+            "16%",
+            "17%",
+            "17.9%",
+            "19.2%",
+            "20.5%",
+            "21.8%",
+            "23%",
+            "24.3%",
+            "25.6%",
+            "27.2%",
+            "28.8%",
+            "30.4%"
+          ]
+        },
+        {
+          "label": "Shooting Star DMG",
+          "values": [
+            "14.7%",
+            "15.8%",
+            "16.9%",
+            "18.4%",
+            "19.5%",
+            "20.6%",
+            "22.1%",
+            "23.6%",
+            "25%",
+            "26.5%",
+            "28%",
+            "29.4%",
+            "31.3%",
+            "33.1%",
+            "35%"
+          ]
+        },
+        {
+          "label": "Base Shield DMG Absorption",
+          "values": [
+            "10.8% Max HP + 1040",
+            "11.6% Max HP + 1144",
+            "12.4% Max HP + 1257",
+            "13.5% Max HP + 1378",
+            "14.3% Max HP + 1508",
+            "15.1% Max HP + 1647",
+            "16.2% Max HP + 1794",
+            "17.3% Max HP + 1950",
+            "18.4% Max HP + 2115",
+            "19.4% Max HP + 2288",
+            "20.5% Max HP + 2470",
+            "21.6% Max HP + 2661",
+            "22.9% Max HP + 2860",
+            "24.3% Max HP + 3068",
+            "25.7% Max HP + 3285"
+          ]
+        },
+        {
+          "label": "Shield Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10745,
+      "id": "dream_of_the_starstream_shaker",
+      "name": "Dream of the Star-Stream Shaker",
+      "description": "Unleashes a Celestial Dreamsphere that constantly fires Starlight Slugs at opponents within its AoE, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span>.<br/>When a Starlight Slug hits, it will generate 1 Night Star for nearby Curtains of Slumber. Each Curtain of Slumber can gain 1 Night Star this way every 0.5s.",
+      "info": "\"Sleep now, sleep now; and may many destinies be revealed before your slumbering eyes, within your star-paved dreams.\"",
+      "attributes": [
+        {
+          "label": "Starlight Slug DMG",
+          "values": [
+            "4.6% Max HP",
+            "5% Max HP",
+            "5.3% Max HP",
+            "5.8% Max HP",
+            "6.2% Max HP",
+            "6.5% Max HP",
+            "7% Max HP",
+            "7.4% Max HP",
+            "7.9% Max HP",
+            "8.4% Max HP",
+            "8.8% Max HP",
+            "9.3% Max HP",
+            "9.9% Max HP",
+            "10.5% Max HP",
+            "11% Max HP"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "like_nascent_light",
+      "name": "Like Nascent Light",
+      "description": "While the <span style=\"color:#FFD780FF\">Curtain of Slumber</span> is active, the Deep Sleep effect will activate each time the Curtain gains 1 Night Star:<br/>·The Shield Strength of a character under the effect of the Curtain of Slumber increases by 6%.<br/>·This effect can have a maximum of 4 stacks and persists until the Curtain of Slumber disappears.",
+      "level": 1
+    },
+    {
+      "id": "sweet_slumber_undisturbed",
+      "name": "Sweet Slumber Undisturbed",
+      "description": "The DMG dealt by the Shooting Stars fired by <span style=\"color:#FFD780FF\">Nights of Formal Focus</span> is increased by 1.5% of Layla's Max HP.",
+      "level": 4
+    },
+    {
+      "id": "shadowy_dreamsigns",
+      "name": "Shadowy Dream-Signs",
+      "description": "When Layla crafts Character Talent Materials, she has a 10% chance to receive double the product.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 741,
+      "id": "fortress_of_fantasy",
+      "name": "Fortress of Fantasy",
+      "description": "The Shield Absorption of the Curtain of Slumber generated by <span style=\"color:#FFD780FF\">Nights of Formal Focus</span> is increased by 20%.<br/>Additionally, when unleashing Nights of Formal Focus, she will generate a shield for any nearby party members who are not being protected by a Curtain of Slumber. This shield will have 35% of the absorption of a Curtain of Slumber, will last for 12s, and will absorb <span style=\"color:#99FFFFFF\">Cryo DMG</span> with 250% effectiveness.",
+      "level": 1
+    },
+    {
+      "_id": 742,
+      "id": "lights_remit",
+      "name": "Light's Remit",
+      "description": "When Shooting Stars from <span style=\"color:#FFD780FF\">Nights of Formal Focus</span> strike opponents, they will each restore 1 Energy to Layla. Each Shooting Star can restore Energy to her in this manner once.",
+      "level": 2
+    },
+    {
+      "_id": 743,
+      "id": "secrets_of_the_night",
+      "name": "Secrets of the Night",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Nights of Formal Focus</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 744,
+      "id": "starry_illumination",
+      "name": "Starry Illumination",
+      "description": "When <span style=\"color:#FFD780FF\">Nights of Formal Focus</span> starts to fire off Shooting Stars, it will grant all nearby party members the Dawn Star effect, causing their Normal and Charged Attack DMG to increase based on 5% of Layla's Max HP.<br/>Dawn Star can last up to 3s and will be removed 0.05s after dealing Normal or Charged Attack DMG.",
+      "level": 4
+    },
+    {
+      "_id": 745,
+      "id": "stream_of_consciousness",
+      "name": "Stream of Consciousness",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Dream of the Star-Stream Shaker</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 746,
+      "id": "radiant_soulfire",
+      "name": "Radiant Soulfire",
+      "description": "Shooting Stars from <span style=\"color:#FFD780FF\">Nights of Formal Focus</span> deal 40% increased DMG, and Starlight Slugs from <span style=\"color:#FFD780FF\">Dream of the Star-Stream Shaker</span> deal 40% increased DMG.<br/>Additionally, the interval between the creation of Night Stars via Nights of Formal Focus is decreased by 20%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "930"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "18"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "55"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2389",
+            "3084"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "47",
+            "60"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "141",
+            "182"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4619",
+            "5113"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "90",
+            "100"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "273",
+            "302"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Nilotpala Lotus",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Divining Scroll",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5881",
+            "6540"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "115",
+            "128"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "347",
+            "386"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Nilotpala Lotus",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Divining Scroll",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7308",
+            "7801"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "143",
+            "152"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "432",
+            "461"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Nilotpala Lotus",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8569",
+            "9062"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "167",
+            "177"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "506",
+            "535"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Nilotpala Lotus",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9831",
+            "10324"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "192",
+            "202"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "581",
+            "610"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Nilotpala Lotus",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Forbidden Curse Scroll",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11092",
+            "11092"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "217",
+            "217"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "655",
+            "655"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Nilotpala Lotus",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Forbidden Curse Scroll",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104332,
+          "id": "teachings_of_ingenuity",
+          "name": "Teachings of Ingenuity",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112008,
+          "id": "divining_scroll",
+          "name": "Divining Scroll",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Mirror of Mushin",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Mirror of Mushin",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Mirror of Mushin",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Mirror of Mushin",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 207400,
+      "name": "Dreaming Star",
+      "description": "Layla's outfit. In the depths of quiet nights, the stars that dot the sky wrap her like a cloak, guiding her into sweet dreams — well, or so she dearly wishes might happen.",
+      "isDefault": true,
+      "characterName": "Layla",
+      "characterId": 10000074,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Layla_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "*yawn* ...Hi, I'm Layla, a Rtawahist student... Hmm? Sorry, I didn't sleep well last night, so I'm a bit out of it today — what did you say, again? ...You wanna team up with me? No, no, it's not that I don't want to, I'm just not sure my crazy sleep schedule will really work for you... But uh, I guess... I look forward to working with you!"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Gaze",
+      "text": "Even when we're not looking up at the stars, they're always there, watching over us."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Sleepwalking",
+      "text": "My legs are so sore... *sigh* Guess I must have been sleepwalking last night... again."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Woe Is Me",
+      "text": "*groan* ...Why do I have to write so many papers, whyyy..."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Oh, the weather's terrible. Shoot, if I can't see the sky tonight... Ugh, I really can't put off my star mapping homework any longer..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "The snow is sparkling. Just like the stars in the night sky."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Mm, this sun's making me so... *yawn* sleepy... Mkay, lemme grab a pillow and rest my eyes before this wears off... It's been two, two days since I last, last... Zzz..."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "Scorching hot days and freezing cold nights... I—I don't think I'm gonna make it..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Did you get enough sleep? If you're still tired, you should go back to sleep for a bit... Me? *sigh* I'm... used to it..."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "I'm in the middle of a stellar kinematics calculation right now, just go to lunch without me... Wait, th—this angle isn't right... No, no, no... Shoot, how far in was I when this mistake crept in..."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "I'm going to turn in early tonight, hope I can actually get to sleep... Dear Mighty God of Wisdom, please bless my slumber, I pray. Okay. Closing my eyes now."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "*yawn* ...Right, let's see what's stumped Daylight Layla this time. Hmm... she hasn't touched the third year of old Starlogs yet, they definitely need working through. And there's a few charts to be appended to the mid-term report, which... yep, she hasn't even started drawing up yet. Alright, time to get to work. ...Huh? What're you doing up? You should be asleep right now. Me? Sleepwalking, of course."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Layla: Theoretical Astrology",
+      "text": "According to my textbook, \"Using theoretical astrology to solve specific problems in our daily lives should not be our primary goal.\" But whether we should or not, the real reason nobody does it is that... well, it's just... it's not worth the effort. When we do a prediction, we usually have to use multiple celestial globes and consult at least one whole year's worth of Star Charts to get any... precise answers. To go through all that just to find out whether the price of spices will go up tomorrow... I mean, it's just not worth it..."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Layla: Reasoning",
+      "text": "Since I found something I like and that I'm good at, I think I should try and stick with it. Even if the journey is difficult, even if the competition is fierce, even if there's no guarantee I'll graduate, and even if I have to return all my scholarships if I fail my final exams... Huh, maybe I should just drop out and go back home."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Companionship",
+      "text": "I agree. I don't like having to pull an all-nighter to catch up on schoolwork either, but they just keep piling on the assignments, don't they? That's how things go here, so obviously I have to help her out... Wanna keep me company?"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Traveling the World",
+      "text": "If I don't end up staying at the Akademiya after graduation, I think I'll come travel the world with you. What do you think?"
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "*yawn*... Where's that glowing coming from? I coulda sworn I turned the lights off before I fell asleep... Huh, it's just my Vision. No wonder... Wait, but... didn't I leave this on my nightstand?"
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "The chief editor of our Darshan keeps Starlogs that show the fates of all living beings. They are, without a shadow of a doubt, the apex of astronomical knowledge. The first time I saw one, I was scared speechless! Huh? Are you interested? If you just want to take a quick look... lemme put in an application for you, I think it should be fine... I think...?"
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Are there any plants that can catch bugs, because if so, I need their help. I don't fall asleep easily to begin with, but now there's this little flying bug somewhere in my room... The buzzing is so loud, and it never stops... but I—I've tried, but I just can't find it... *groan*"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Mona",
+      "text": "Mona Megistus, the Astrologist... Her astrology column in The Steambird is well-known among Rtawahist scholars. Her articles always cover super specialized topics, but can still be appreciated by non-academics. That's no easy feat... Huh? Her name seems to just roll off my tongue? Uh, that's just because... I have a lot of respect for... amazing people."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Lisa",
+      "text": "Oh, I know who you're talking about. Lisa Minci — the legendary Spantamad prodigy who graduated in just two years. If only I had her brains... Huh? You met her in person when you were in Mondstadt? R—Really? So... what's her studying process like? What books does she read, and what kind of work does she do? Where... Where should I start if I want to learn from her?"
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Dori",
+      "text": "Oh... D—Dori... ahem... I took the plunge and bought something from her once. She looked euphoric as I was settling the bill — I think she assumed I was some sort of mega-rich person. Kept relentlessly sending product ads to me in the mail afterwards. Ugh... biggest mistake of my life! I paid such a huge price for it... 'cause not only did I spend all of my scholarship money in one go, but for most of the next year, I had to survive mainly on cheap vegetables, and I couldn't buy textbooks unless they were on sale..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Cyno",
+      "text": "The General Mahamatra is really good at Genius Invokation TCG? Ooh, I wonder if... I mean, if I ever got the chance, maybe I could play a game with him. Card games like Genius Invokation TCG are always easier when you're good at mental math, so actually, I... I dunno, but... I might not necessarily lose to him."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Candace",
+      "text": "...Huh, I saw someone who matches that description when I woke up after sleepwalking for the first time. \"Candace,\" huh? Now I know. I still remember the moment I woke up... All of my reports and essays were done. At the time, it felt like... like after pleading to the stars for days and days, now they'd finally heard me, and sent a messenger to help me... I felt so touched!"
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Alhaitham",
+      "text": "I bet someone who's good enough to get a job like Scribe never has to worry about whether their projects will get approved or be successful. Wait... Oh shoot, if he's a Scribe, he probably doesn't have to do any projects in the first place. So lucky..."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Lesser Lord Kusanali",
+      "text": "Dear Mighty God of Wisdom, I've been studying late into the night for days on end, please let me pass this exam! Please, please... Zzz..."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Faruzan",
+      "text": "Has Professor Faruzan managed to get any students? People from the Haravatat Darshan say that she always has difficulty getting funding for her projects, so it's hard for her to attract students, too. *sigh*..."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Layla: I",
+      "text": "I'm not naturally talented, nor am I a fast learner... I only got into the Akademiya by studying like crazy for the entrance exam... Oh shoot, I—I'm sorry, I can't chat right now. Mentioning the Akademiya reminds me that my academic progress report is due soon... and I still haven't got any progress to write about yet."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Layla: II",
+      "text": "My relationship with my adviser? Um... how should I put it... Oh, don't get me wrong, she's been good to me. She even gave me a recommendation when I started at the school. And every time I feel like I just can't go on, she's there to give me s—some much-needed encouragement... and then to assign me another essay right after..."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Layla: III",
+      "text": "Almost all of Sumeru's best and brightest have attended the Akademiya, and there are a ton of scarily intelligent international students, too... so you can imagine how competitive it is here! Studying alongside some of these people, sometimes it makes me wonder... am I really cut out for this?"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Layla: IV",
+      "text": "Shh, be quiet... Don't wake her up, just let her sleep peacefully. ...Who's \"her\"? Ah, well, a very weary Layla who's constantly stressed about her schoolwork, of course. ...And me? Hehe, I'm Layla too."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Layla: V",
+      "text": "I've heard people say she thinks a \"blessing from the stars\" is the reason why all of her outstanding schoolwork gets magically finished while she's asleep. Ah, she has absolutely no idea. ...Oh, but seriously, don't tell her, okay?"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Layla's Hobbies",
+      "text": "Drawing Star Charts is really tiring work... I really don't think I'd be able to keep at it if it wasn't something I'm interested in. You have to use a ruler, then do some calculations on paper, then check past Starlogs... Before you know it, the whole day is gone. But then when I look at the finished product, a huge, neatly drawn, accurate map of the stars... it always gives me a huge sense of accomplishment."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Layla's Troubles",
+      "text": "I slept okay-ish before I came to the Akademiya, but since I started my studies... there's so much pressure... I just want to be able to sleep the whole night throo-hoo-hoough..."
+    },
+    {
+      "id": "6005",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Every night before I go to bed, I make myself a glass of warm milk, in the hope I'll sleep well tonight, hope I'll sleep well tonight, hope I'll sleep well tonight... Zzz..."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Someone once told me about a mysterious merchant who was selling really effective Sleep Gummies. It cost all my scholarship money, plus all the other Mora I'd saved up, but I bought some. They worked great, and for a while I slept like a baby. But... they're 200 thousand Mora a box... I can't afford that... I—I can't let myself buy them ever again, nope, no way. Not even if they were buy one, get one free, or... well, buy one, get two free, hmm... actually... maybe I'd consider that."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "This is amazing! I'm so jealous, you're good at everything."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Mmm... it's really good."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Um... maybe we should just grab some takeout."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday. I got you this pocket astrolabe... The same stars witness the fate of the human race today as did yesterday, and as will forever. May they cast their gaze upon you, and may they stay with you always, through the desert and across the ocean, until you reach your destination."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Get it together, Layla... You've gotta work harder."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Get it together, Layla... You're doing well so far, but you've still got a lot to learn."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Get it together, Layla... You've been studying hard and reading everything you could get your hands on. Well done. But you can't afford to slack off now. The moment you get lazy, you'll fall behind and end up having to postpone your graduation. Spare yourself the humiliation."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Get it together, Layla! Believe in yourself, and in the person who's helped you come this far. The two of you together can solve any problem that comes your way!\\nWhew... Alright! Time to leave my worries behind. Let's go!"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "The night is cold."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Not now!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "My guiding stars."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Stars, shine for me."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Cold, mine to command."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Don't be scared."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "A little goes a long way."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Huh, glad I saw this. I almost didn't even notice it."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Wow! Suddenly, I don't feel so tired."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "So sleepy..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "No no no no..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Is it too late for an extension?"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Wake up! You look half asleep!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Oh no! Y—You're hurt!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Sweet sleep... at last..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "I'm sorry, Professor..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "This is just a... bad dream..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Come on, that's not fair!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "That's against the rules!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Can't sleep? Let's go for a walk then."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "I applied for vacation... You remembered too, right?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "*sigh* My mind is completely blank... I need to get out and unwind."
+    }
+  ]
+}

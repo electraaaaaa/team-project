@@ -1,0 +1,1675 @@
+{
+  "_id": 10000043,
+  "id": "sucrose",
+  "name": "Sucrose",
+  "title": "Harmless Sweetie",
+  "description": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "anemo",
+    "name": "Anemo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1601244000,
+  "substat": "Anemo DMG Bonus",
+  "stats": {
+    "base": {
+      "hp": 775.02234,
+      "attack": 14.2464,
+      "defense": 58.94175
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 578.9814,
+        "attack": 10.64304,
+        "defense": 44.0325,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 990.36285,
+        "attack": 18.2052,
+        "defense": 75.31875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1538.8716,
+        "attack": 28.28808,
+        "defense": 117.03375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 1950.253,
+        "attack": 35.85024,
+        "defense": 148.32,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2361.6345,
+        "attack": 43.4124,
+        "defense": 179.60625,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 2773.016,
+        "attack": 50.97456,
+        "defense": 210.8925,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Knights of Favonius",
+  "region": {
+    "id": "mondstadt",
+    "name": "Mondstadt"
+  },
+  "rarity": 4,
+  "birthday": [
+    26,
+    11
+  ],
+  "constellation": "Ampulla",
+  "domain": "Forsaken Rift",
+  "cv": {
+    "english": "Maya Graydon",
+    "chinese": "小敢",
+    "japanese": "藤田茜",
+    "korean": "Kim Ha-young"
+  },
+  "skills": [
+    {
+      "_id": 10431,
+      "id": "wind_spirit_creation",
+      "name": "Wind Spirit Creation",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 attacks using Wind Spirits, dealing <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina and deals <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span> after a short casting time.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Calling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "33.5%",
+            "36%",
+            "38.5%",
+            "41.8%",
+            "44.3%",
+            "46.8%",
+            "50.2%",
+            "53.5%",
+            "56.9%",
+            "60.2%",
+            "63.6%",
+            "66.9%",
+            "71.1%",
+            "75.3%",
+            "79.5%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "30.6%",
+            "32.9%",
+            "35.2%",
+            "38.3%",
+            "40.6%",
+            "42.9%",
+            "45.9%",
+            "49%",
+            "52%",
+            "55.1%",
+            "58.2%",
+            "61.2%",
+            "65.1%",
+            "68.9%",
+            "72.7%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "38.4%",
+            "41.3%",
+            "44.2%",
+            "48.1%",
+            "50.9%",
+            "53.8%",
+            "57.7%",
+            "61.5%",
+            "65.4%",
+            "69.2%",
+            "73.1%",
+            "76.9%",
+            "81.7%",
+            "86.5%",
+            "91.3%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "47.9%",
+            "51.5%",
+            "55.1%",
+            "59.9%",
+            "63.5%",
+            "67.1%",
+            "71.9%",
+            "76.7%",
+            "81.5%",
+            "86.3%",
+            "91%",
+            "95.8%",
+            "101.8%",
+            "107.8%",
+            "113.8%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "120.2%",
+            "129.2%",
+            "138.2%",
+            "150.2%",
+            "159.2%",
+            "168.2%",
+            "180.2%",
+            "192.3%",
+            "204.3%",
+            "216.3%",
+            "228.3%",
+            "240.3%",
+            "255.3%",
+            "270.4%",
+            "285.4%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10432,
+      "id": "astable_anemohypostasis_creation_6308",
+      "name": "Astable Anemohypostasis Creation - 6308",
+      "description": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals <span style=\"color:#80FFD7FF\">Anemo DMG</span>.",
+      "info": "This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "211.2%",
+            "227%",
+            "242.9%",
+            "264%",
+            "279.8%",
+            "295.7%",
+            "316.8%",
+            "337.9%",
+            "359%",
+            "380.2%",
+            "401.3%",
+            "422.4%",
+            "448.8%",
+            "475.2%",
+            "501.6%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10435,
+      "id": "forbidden_creation_isomer_75_type_ii",
+      "name": "Forbidden Creation - Isomer 75 / Type II",
+      "description": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.<br/>While it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Elemental Absorption</span><br/>If the Wind Spirit comes into contact with <span style=\"color:#80C0FFFF\">Hydro</span>/<span style=\"color:#FF9999FF\">Pyro</span>/<span style=\"color:#99FFFFFF\">Cryo</span>/<span style=\"color:#FFACFFFF\">Electro</span> energy, it will deal additional elemental DMG of that type.<br/>Elemental Absorption may only occur once per use.",
+      "info": "Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.",
+      "attributes": [
+        {
+          "label": "DoT",
+          "values": [
+            "148%",
+            "159.1%",
+            "170.2%",
+            "185%",
+            "196.1%",
+            "207.2%",
+            "222%",
+            "236.8%",
+            "251.6%",
+            "266.4%",
+            "281.2%",
+            "296%",
+            "314.5%",
+            "333%",
+            "351.5%"
+          ]
+        },
+        {
+          "label": "Additional Elemental DMG",
+          "values": [
+            "44%",
+            "47.3%",
+            "50.6%",
+            "55%",
+            "58.3%",
+            "61.6%",
+            "66%",
+            "70.4%",
+            "74.8%",
+            "79.2%",
+            "83.6%",
+            "88%",
+            "93.5%",
+            "99%",
+            "104.5%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "catalyst_conversion",
+      "name": "Catalyst Conversion",
+      "description": "When Sucrose triggers a Swirl or Stellar Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s.",
+      "level": 1
+    },
+    {
+      "id": "mollis_favonius",
+      "name": "Mollis Favonius",
+      "description": "When <span style=\"color:#FFD780FF\">Astable Anemohypostasis Creation - 6308</span> or <span style=\"color:#FFD780FF\">Forbidden Creation - Isomer 75 / Type II</span> hits an opponent, increases all party members' (excluding Sucrose) Elemental Mastery by an amount equal to 20% of Sucrose's Elemental Mastery for 8s.",
+      "level": 4
+    },
+    {
+      "id": "astable_invention",
+      "name": "Astable Invention",
+      "description": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% chance to obtain double the product.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 431,
+      "id": "clustered_vacuum_field",
+      "name": "Clustered Vacuum Field",
+      "description": "<span style=\"color:#FFD780FF\">Astable Anemohypostasis Creation - 6308</span> gains 1 additional charge.",
+      "level": 1
+    },
+    {
+      "_id": 432,
+      "id": "beth_unbound_form",
+      "name": "Beth: Unbound Form",
+      "description": "The duration of <span style=\"color:#FFD780FF\">Forbidden Creation - Isomer 75 / Type II</span> is increased by 2s.",
+      "level": 2
+    },
+    {
+      "_id": 433,
+      "id": "flawless_alchemistress",
+      "name": "Flawless Alchemistress",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Astable Anemohypostasis Creation - 6308</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 434,
+      "id": "alchemania",
+      "name": "Alchemania",
+      "description": "Sucrose will reduce the CD of <span style=\"color:#FFD780FF\">Astable Anemohypostasis Creation - 6308</span> by 1-7s for every 7 Normal or Charged Attack hits she scores against opponents.<br/>One hit may be counted every 0.1s.",
+      "level": 4
+    },
+    {
+      "_id": 435,
+      "id": "caution_standard_flask",
+      "name": "Caution: Standard Flask",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Forbidden Creation - Isomer 75 / Type II</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 436,
+      "id": "chaotic_entropy",
+      "name": "Chaotic Entropy",
+      "description": "If <span style=\"color:#FFD780FF\">Forbidden Creation - Isomer 75 / Type II</span> triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "775"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "14"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "59"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "1991",
+            "2570"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "37",
+            "47"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "151",
+            "195"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "3850",
+            "4261"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "71",
+            "78"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "293",
+            "324"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104151,
+        "id": "vayuda_turquoise_sliver",
+        "name": "Vayuda Turquoise Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100024,
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112038,
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4901",
+            "5450"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "90",
+            "100"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "373",
+            "414"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113001,
+        "id": "hurricane_seed",
+        "name": "Hurricane Seed",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100024,
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112038,
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6090",
+            "6501"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "112",
+            "120"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "463",
+            "494"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113001,
+        "id": "hurricane_seed",
+        "name": "Hurricane Seed",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100024,
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112039,
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7141",
+            "7552"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "131",
+            "139"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "543",
+            "574"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113001,
+        "id": "hurricane_seed",
+        "name": "Hurricane Seed",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100024,
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112039,
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8192",
+            "8604"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "151",
+            "158"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "623",
+            "654"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113001,
+        "id": "hurricane_seed",
+        "name": "Hurricane Seed",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100024,
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112040,
+        "id": "energy_nectar",
+        "name": "Energy Nectar",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9244",
+            "9244"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "170",
+            "170"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "703",
+            "703"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104154,
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Vayuda Turquoise Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113001,
+        "id": "hurricane_seed",
+        "name": "Hurricane Seed",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100024,
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112040,
+        "id": "energy_nectar",
+        "name": "Energy Nectar",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104301,
+          "id": "teachings_of_freedom",
+          "name": "Teachings of Freedom",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112038,
+          "id": "whopperflower_nectar",
+          "name": "Whopperflower Nectar",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113008,
+          "id": "spirit_locket_of_boreas",
+          "name": "Spirit Locket of Boreas",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113008,
+          "id": "spirit_locket_of_boreas",
+          "name": "Spirit Locket of Boreas",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113008,
+          "id": "spirit_locket_of_boreas",
+          "name": "Spirit Locket of Boreas",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113008,
+          "id": "spirit_locket_of_boreas",
+          "name": "Spirit Locket of Boreas",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 204300,
+      "name": "Germinating Wind",
+      "description": "Sucrose's outfit. A Knights of Favonius alchemist's uniform customized for Sucrose.",
+      "isDefault": true,
+      "characterName": "Sucrose",
+      "characterId": 10000043,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Sucrose_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "I'm Sucrose, a researcher of alchemy. I've heard you've been to a lot of places, so I was wondering if you... Ah, what am I saying! It's only our first time meeting, I shouldn't trouble you. But... if you're willing, I'd love to hear any stories you have about your adventures. I'd... really like that."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Curiosity",
+      "text": "What was that? Oh... it's gone. Can I go take a look?"
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Organization",
+      "text": "I just need a moment to quickly take down some notes."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Deep Breaths",
+      "text": "Ahhh! I haven't been out in a while."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "The windmills are spinning faster than usual today. Hey, do you think if an animal put a propeller on its back and started running... do you think the propeller would make it run faster? Or even, fly?"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Snow this big only falls a few times a year. If I miss it, I'll have to wait until next year to run my experiments, so please give me some space. Ah-Ahchooo! ...Yes, I know, I should wear more layers..."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "The sun is already out? Oh, ah, okay! Just one last experiment, and then we can get some rest. Last one, I promise..."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Humidity levels are increasing. Think we should run some tests?"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning. Did you sleep well? According to research, not getting a good night's sleep can have detrimental effects on your cognition and stamina. What? I'm always working through the night? Yeah, I know... Can't be helped I guess..."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Waaaaa! No, stay back, don't come over here! No, no, it's nothing personal — it's just that this experiment is highly volatile and might cause an explosion."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Good evening. Please wait a moment. Experiment 905 has actually produced two light excretions, which, for clarity's sake, should be labeled No. 1033 and No. 1035 respectively... Right, now, what did you need me for?"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "No need to wait up for me. Please, get some sleep. Something bothering you? Oh, don't worry about me — I'm right at the end of my experiment. I promise I won't stay up late again..."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Sucrose: Bio-Alchemy",
+      "text": "Bio-alchemy, when compared with creation, places more emphasis on transformation. Finding those little secrets that living creatures have and scaling them up, combining them — the results are always such a surprise. Life really is fascinating. Just how much do we really know?"
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Sucrose: Fear of Strangers",
+      "text": "I... um... really don't know how to act around new people. Everyone's personality is different, as are the things they care about. If I slip up and say the wrong thing, I'll offend someone, or sound impolite... Talking is hard, so much harder than alchemy."
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Sucrose: Ears",
+      "text": "Oh, you, ahh... noticed. My ears are a hereditary feature... quite different from everyone else's. So, I try to hide them with my hair as much as possible."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Us: Observing",
+      "text": "I'm curious to know about your background. I was wondering... could I perhaps... observe you for a while? I'll be silent, and I won't interfere with what you're doing. Would... that be okay?"
+    },
+    {
+      "id": "2006",
+      "type": 1,
+      "title": "About Us: Perks",
+      "text": "To be honest, I was a little afraid when we first met, because you don't talk much... I thought I must have offended you somehow. But then as time went on, I discovered you're really easy to get along with. Hehe, just an unexpected outcome of my observations."
+    },
+    {
+      "id": "2007",
+      "type": 1,
+      "title": "About Us: Requests",
+      "text": "I heard it was you that dealt with the Stormterror issue. No doubt it was a dangerous fight — it's a good thing you came out unscathed. I was ahh... also wondering — did Stormterror happen to drop anything during the fight? You know, a scale, some skin — even just a little would be fine. There are some tests I'd like to run..."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "My Vision is my most important research tool. Hmm? Why, without it I'd be unable to proceed with most of my elemental research. Combat? Oh, I suppose I use it for that too when I'm out in the field looking for materials."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "This room is where I keep all the bones I've collected. On the table on the left we have lizards, frogs, and grass carp. To the front we have the bones of a wild boar, and then over there in the right corner is a hilichurl... Oh, don't be nervous, nothing to be afraid of. They're really quite cute once you get used to them."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "If you look closely, you'll notice that the Mist Flowers I've planted here are all different. This one is the most powerful, this one blooms the longest... This one? Oh, this one is project 3, version 17, enlargement trial. Its defining trait is that... it's a bit larger."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Noelle",
+      "text": "She's... a very willing helper, I can't deny that. It's just... she makes me a little anxious is all. One time, she saw three boxes of materials stacked just outside my laboratory door, and proceeded to move them inside for me. A nice gesture, but the thing is... I'd only just finished putting them outside..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Klee",
+      "text": "Jean has put her into solitary confinement so many times, but every time she's let out it's not long before she's back in trouble. *sigh* Something tells me she hasn't done much introspection. I told her I'd make her a bouncing, dancing Jumpy Dumpty that is also safe — but to date there's still a lot of problems with the design."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Jean",
+      "text": "I don't dare talk to Master Jean that much, because she's so strict. I know she's a good person and all — I know that, I do — but... I still find her scary. I don't tend to bother her, and even when I have to... I ask Albedo to go on my behalf."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Lisa",
+      "text": "She really seems to know a great deal. She's obviously never seen my research, and yet on so many occasions she's given me advice on that which is most core to my studies. Just how does she know? Is it observation, or is it ratiocination?"
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Kaeya",
+      "text": "Oh... I know he likes to joke, and isn't trying to make fun of me, but I often struggle to work out which parts of what he says are the truth and which parts are jokes. So whenever he talks to me, the outcome is usually one of two things: morbid embarrassment or unbearable awkwardness."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Albedo: Artistry",
+      "text": "As his assistant I learn so much each and every day. What's key is not his existing knowledge, but his talented way of thinking. No matter how complex the task at hand, his way of thinking ensures he gets to the bottom of it, and is able to explain it thoroughly. His methodologies are amazing... to me, it's where alchemy meets art."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Albedo: Talent",
+      "text": "Talent? Let's hypothesize that he and I were to perform the same research — I'd still spend my whole life playing catch up. But, my studying bio-alchemy has nothing to do with evading his line of research, we just happen to have different interests and dreams — nothing more."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Amber",
+      "text": "I'm curious as to why her doll is called \"Baron Bunny,\" it clearly has nothing to do with a rabbit at all. Oh, the headband makes it look like it has rabbit ears you say? Hmm... That's heavily reliant on the rabbit stereotype, is it not? Many rabbits' ears are floppy."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Fischl",
+      "text": "I take it you're referring to the book series, Flowers for Princess Fischl? Indeed, the world the author came up with is very creative. If only I could go see it with my own eyes. Oh, you're referring to Fischl herself? I am... doubtful that she could really take me there."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Eula",
+      "text": "The role of a scout is a hazardous one, and Ms. Eula throws herself into danger all too easily. So, I made a reconnaissance device for her, so that she wouldn't have to infiltrate enemy camps herself. But Ms. Eula has such an imposing manner, she really puts me on edge, and... I was so nervous that I accidentally left out a few important details while explaining how to use it... As a result, there was an accident...\\nAh, what should I do... I hope she won't hold a grudge against me..."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Sucrose: I",
+      "text": "You... want to know more about me? You... must have an interest in bio-alchemy, then? Whatever you ask, I will be sure to give you the most precise answer possible. Oh, it really is me specifically that you are interested in? I'm... ahh... oh. I'm at a loss for words."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Sucrose: II",
+      "text": "The essence of research is the process of finding the answer. Sometimes, working through that process can be tedious, but every time I see the cumulative result of my efforts... I know that I'm doing what I love."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Sucrose: III",
+      "text": "When I was little, I had two good friends — we kept nothing from each other. I thought I knew everything about them, but then... stuff happened, and we grew distant. As for where they are now, what they're doing, whether or not they remember me... I have no idea. Even though we were best friends, things still turned out this way."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Sucrose: IV",
+      "text": "Let me tell you a little secret, something I've never told anyone. The purpose behind my research is to create my own wonderland. Yes... just like the ones in fairy tales. The kind where all your dreams come true and you live happily ever after. Hehe, it's childish, isn't it? But, I still believe in fairy tales."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Sucrose: V",
+      "text": "If you're busy, please don't let me stand in the way of progress. ...You're not busy? Really? It's fine, I—I get that you have stuff to do. I'm already quite used to working alone. ...You're truly not busy? I—In that case, I don't suppose you could help me with a few things? Or, you know, we could sit and chat about... stuff."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Sucrose's Hobbies",
+      "text": "I like things that look orderly. See? All of my research notes are compiled in notebooks of the exact same thickness. All my potions are lined up according to effect and hue— Wha—What!? What is this purple potion doing here!? Sorry, I—I need to reassess the order of these potions!"
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Sucrose's Troubles",
+      "text": "I wonder... What is it that you do in your free time? Every time I get a break, I can never find anything to do. I just find myself staring off into space. Time goes by so quickly when I'm experimenting, so how is it that when I'm not doing anything, the days all feel like years..."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I extract the nectar from Sweet Flowers to make candy. When I get stuck in a rut, I just pop one in my mouth and my focus returns. Retaining optimal blood sugar levels during research is essential."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Once I came to understand more about bio-alchemy, I stopped eating mushrooms. You're no doubt aware? Mushrooms grow on that which has died, which in turn makes me think of other such things, and my appetite just disappears... Blergh..."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "So delectable! Time to finish my research now that I feel at my best!"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "I must admit, this tastes a lot better than my healthy meals. Time for me to make some modifications to my diet."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Sorry, I have some... reservations about this dish."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday! I've been running experiments for months, and finally I can give you this potion. It will allow you to relive your most beautiful memories of the past year. I call it \"Bio-Potion No. 3916.\" Huh? No, no, not 3196, it's 3916!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Finally! A breakthrough in my bio-alchemy research."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "This trip has allowed me to gather a good number of materials. Thank you, I'll be sure to put them to good use."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Recently during my experiments, I've found myself suddenly wondering when I'll next get to go on an adventure with you. So strange... Why do you think that is? I need to do some scientific investigation to find out."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "I have such an abundant array of research materials now! To spend any more time on me would... would really be a waste of your time! At least... let me use my bio-alchemy to make you up some kind of gift!"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Adsorption test."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Anemo Test 6308!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Stand clear!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Swirl, Mark II!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Enhanced Anemo Module 75!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Anemo Hypostasis Emulation!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Chests appearing out of thin air... This needs research."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "*sigh* If only I stumbled upon lab supplies as often."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Wow! So many raw materials!"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "A minor error..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Unexpected outcome..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Doesn't hurt, doesn't hurt..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Come here, I have meds!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Careful — think, then step!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "My research... has failed."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Need to make... adjustments."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "I should... sleep on it."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "That's not right..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Don't break my glasses!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "I want to help."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "I... I can do it!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "My experiment... will succeed."
+    }
+  ]
+}

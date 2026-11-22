@@ -1,0 +1,1849 @@
+{
+  "_id": 10000063,
+  "id": "shenhe",
+  "name": "Shenhe",
+  "title": "Lonesome Transcendence",
+  "description": "An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue's mountains, she has become every bit as cool and distant as the adepti themselves.",
+  "weapon_type": {
+    "id": "polearm",
+    "name": "Polearm"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1641333600,
+  "substat": "ATK%",
+  "stats": {
+    "base": {
+      "hp": 1011.47253,
+      "attack": 23.6474,
+      "defense": 64.6164
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 867.2462,
+        "attack": 20.274027,
+        "defense": 55.404,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1483.4475,
+        "attack": 34.679256,
+        "defense": 94.77,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.072
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2305.049,
+        "attack": 53.886227,
+        "defense": 147.258,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2921.2505,
+        "attack": 68.29146,
+        "defense": 186.624,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3537.4517,
+        "attack": 82.696686,
+        "defense": 225.99,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.216
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4153.653,
+        "attack": 97.10191,
+        "defense": 265.356,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.288
+        }
+      }
+    ]
+  },
+  "affiliation": "Cloud Retainer's Abode",
+  "region": {
+    "id": "liyue",
+    "name": "Liyue"
+  },
+  "rarity": 5,
+  "birthday": [
+    10,
+    3
+  ],
+  "constellation": "Crista Doloris",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Chelsea Kwoka",
+    "chinese": "秦紫翼",
+    "japanese": "川澄綾子",
+    "korean": "Lee Hyeon-jin"
+  },
+  "skills": [
+    {
+      "_id": 10631,
+      "id": "dawnstar_piercer",
+      "name": "Dawnstar Piercer",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 consecutive spear strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "43.3%",
+            "46.8%",
+            "50.3%",
+            "55.3%",
+            "58.9%",
+            "62.9%",
+            "68.4%",
+            "73.9%",
+            "79.5%",
+            "85.5%",
+            "91.5%",
+            "97.6%",
+            "103.6%",
+            "109.7%",
+            "115.7%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "40.2%",
+            "43.5%",
+            "46.8%",
+            "51.5%",
+            "54.8%",
+            "58.5%",
+            "63.6%",
+            "68.8%",
+            "73.9%",
+            "79.6%",
+            "85.2%",
+            "90.8%",
+            "96.4%",
+            "102%",
+            "107.6%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "53.3%",
+            "57.7%",
+            "62%",
+            "68.2%",
+            "72.5%",
+            "77.5%",
+            "84.3%",
+            "91.1%",
+            "98%",
+            "105.4%",
+            "112.8%",
+            "120.3%",
+            "127.7%",
+            "135.2%",
+            "142.6%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "26.3% + 26.3%",
+            "28.5% + 28.5%",
+            "30.6% + 30.6%",
+            "33.7% + 33.7%",
+            "35.8% + 35.8%",
+            "38.3% + 38.3%",
+            "41.6% + 41.6%",
+            "45% + 45%",
+            "48.3% + 48.3%",
+            "52% + 52%",
+            "55.7% + 55.7%",
+            "59.4% + 59.4%",
+            "63% + 63%",
+            "66.7% + 66.7%",
+            "70.4% + 70.4%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "65.6%",
+            "71%",
+            "76.3%",
+            "83.9%",
+            "89.3%",
+            "95.4%",
+            "103.8%",
+            "112.2%",
+            "120.6%",
+            "129.7%",
+            "138.9%",
+            "148%",
+            "157.2%",
+            "166.3%",
+            "175.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "110.7%",
+            "119.7%",
+            "128.7%",
+            "141.6%",
+            "150.6%",
+            "160.9%",
+            "175%",
+            "189.2%",
+            "203.3%",
+            "218.8%",
+            "234.2%",
+            "249.7%",
+            "265.1%",
+            "280.5%",
+            "296%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10632,
+      "id": "spring_spirit_summoning",
+      "name": "Spring Spirit Summoning",
+      "description": "The frosted dew, silvery and dense, shall exorcise all demons.<br/>Grants all nearby party members the Icy Quill effect and deals <span style=\"color:#99FFFFFF\">Cryo DMG</span> in different ways based on whether it is pressed or held.<br/><br/><span style=\"color:#FFD780FF\">Press</span><br/>Rushes forward together with a Talisman Spirit, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span> to opponents along the path.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Commands the Talisman Spirit to deal <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Icy Quill</span><br/>When Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts deal <span style=\"color:#99FFFFFF\">Cryo DMG</span> to opponents, the DMG dealt is increased based on Shenhe's current ATK.<br/><br/>The Icy Quill's effects will be cleared once its duration ends or after being triggered a certain number of times. When held rather than pressed, the Icy Quill's effect lasts longer and can be triggered more times.<br/>When one <span style=\"color:#99FFFFFF\">Cryo DMG</span> instance strikes multiple opponents, the effect is triggered multiple times based on the number of opponents hit. The number of times the effect is triggered is calculated independently for each party member with the Icy Quill.",
+      "info": "The power of the spirits is no falsehood. Burdened with her orders, the divine maiden hurries on!",
+      "attributes": [
+        {
+          "label": "Press Skill DMG",
+          "values": [
+            "139.2%",
+            "149.6%",
+            "160.1%",
+            "174%",
+            "184.4%",
+            "194.9%",
+            "208.8%",
+            "222.7%",
+            "236.6%",
+            "250.6%",
+            "264.5%",
+            "278.4%",
+            "295.8%",
+            "313.2%",
+            "330.6%"
+          ]
+        },
+        {
+          "label": "Hold Skill DMG",
+          "values": [
+            "188.8%",
+            "203%",
+            "217.1%",
+            "236%",
+            "250.2%",
+            "264.3%",
+            "283.2%",
+            "302.1%",
+            "321%",
+            "339.8%",
+            "358.7%",
+            "377.6%",
+            "401.2%",
+            "424.8%",
+            "448.4%"
+          ]
+        },
+        {
+          "label": "DMG Bonus",
+          "values": [
+            "45.7% ATK",
+            "49.1% ATK",
+            "52.5% ATK",
+            "57.1% ATK",
+            "60.5% ATK",
+            "63.9% ATK",
+            "68.5% ATK",
+            "73% ATK",
+            "77.6% ATK",
+            "82.2% ATK",
+            "86.7% ATK",
+            "91.3% ATK",
+            "97% ATK",
+            "102.7% ATK",
+            "108.4% ATK"
+          ]
+        },
+        {
+          "label": "Press/Hold Duration",
+          "values": [
+            "10s / 15s",
+            "10s / 15s",
+            "10s / 15s",
+            "10s / 15s",
+            "10s / 15s",
+            "10s / 15s",
+            "10s / 15s",
+            "10s / 15s",
+            "10s / 15s",
+            "10s / 15s",
+            "10s / 15s",
+            "10s / 15s",
+            "10s / 15s",
+            "10s / 15s",
+            "10s / 15s"
+          ]
+        },
+        {
+          "label": "Press/Hold Trigger Quota",
+          "values": [
+            "5 / 7",
+            "5 / 7",
+            "5 / 7",
+            "5 / 7",
+            "5 / 7",
+            "5 / 7",
+            "5 / 7",
+            "5 / 7",
+            "5 / 7",
+            "5 / 7",
+            "5 / 7",
+            "5 / 7",
+            "5 / 7",
+            "5 / 7",
+            "5 / 7"
+          ]
+        },
+        {
+          "label": "Press CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "Hold CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10635,
+      "id": "divine_maidens_deliverance",
+      "name": "Divine Maiden's Deliverance",
+      "description": "Unleashes the power of the Talisman Spirit, allowing it to roam free in this plane, dealing <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>.<br/>The Talisman Spirit then creates a field that decreases the <span style=\"color:#99FFFFFF\">Cryo RES</span> and Physical RES of opponents within it. It also deals periodic <span style=\"color:#99FFFFFF\">Cryo DMG</span> to opponents within the field.",
+      "info": "The way of the adepti is not defined only by the mysterious and fantastical. Only by observing the changes in the heavens and the earth, and understanding the laws of cause and effect in this realm, may its essence be understood.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "100.8%",
+            "108.4%",
+            "115.9%",
+            "126%",
+            "133.6%",
+            "141.1%",
+            "151.2%",
+            "161.3%",
+            "171.4%",
+            "181.4%",
+            "191.5%",
+            "201.6%",
+            "214.2%",
+            "226.8%",
+            "239.4%"
+          ]
+        },
+        {
+          "label": "RES Decrease",
+          "values": [
+            "6%",
+            "7%",
+            "8%",
+            "9%",
+            "10%",
+            "11%",
+            "12%",
+            "13%",
+            "14%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%"
+          ]
+        },
+        {
+          "label": "DoT",
+          "values": [
+            "33.1%",
+            "35.6%",
+            "38.1%",
+            "41.4%",
+            "43.9%",
+            "46.4%",
+            "49.7%",
+            "53%",
+            "56.3%",
+            "59.6%",
+            "62.9%",
+            "66.2%",
+            "70.4%",
+            "74.5%",
+            "78.7%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "deific_embrace",
+      "name": "Deific Embrace",
+      "description": "An active character within the field created by <span style=\"color:#FFD780FF\">Divine Maiden's Deliverance</span> gains 15% <span style=\"color:#99FFFFFF\">Cryo DMG Bonus</span>.",
+      "level": 1
+    },
+    {
+      "id": "spirit_communion_seal",
+      "name": "Spirit Communion Seal",
+      "description": "After Shenhe uses <span style=\"color:#FFD780FF\">Spring Spirit Summoning</span>, she will grant all nearby party members the following effects:<br/>· Press: Elemental Skill and Elemental Burst DMG increased by 15% for 10s.<br/>· Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s.",
+      "level": 4
+    },
+    {
+      "id": "precise_comings_and_goings",
+      "name": "Precise Comings and Goings",
+      "description": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 631,
+      "id": "clarity_of_heart",
+      "name": "Clarity of Heart",
+      "description": "<span style=\"color:#FFD780FF\">Spring Spirit Summoning</span> can be used 1 more time.",
+      "level": 1
+    },
+    {
+      "_id": 632,
+      "id": "centered_spirit",
+      "name": "Centered Spirit",
+      "description": "<span style=\"color:#FFD780FF\">Divine Maiden's Deliverance</span> lasts for 6 seconds longer. Active characters within the skill's field deal 15% increased <span style=\"color:#99FFFFFF\">Cryo</span> CRIT DMG.",
+      "level": 2
+    },
+    {
+      "_id": 633,
+      "id": "seclusion",
+      "name": "Seclusion",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Spring Spirit Summoning</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 634,
+      "id": "insight",
+      "name": "Insight",
+      "description": "When characters under the effect of <span style=\"color:#FFD780FF\">Icy Quill</span> applied by Shenhe trigger its DMG Bonus effects, Shenhe will gain a Skyfrost Mantra stack:<br/>· When Shenhe uses <span style=\"color:#FFD780FF\">Spring Spirit Summoning</span>, she will consume all stacks of Skyfrost Mantra, increasing the DMG of that Spring Spirit Summoning by 5% for each stack consumed.<br/>· Max 50 stacks. Stacks last for 60s.",
+      "level": 4
+    },
+    {
+      "_id": 635,
+      "id": "divine_attainment",
+      "name": "Divine Attainment",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Divine Maiden's Deliverance</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 636,
+      "id": "mystical_abandon",
+      "name": "Mystical Abandon",
+      "description": "When characters trigger <span style=\"color:#FFD780FF\">Icy Quill</span>'s effects using Normal and Charged Attack DMG, it does not count toward the Trigger Quota.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1011"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "24"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "65"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2624",
+            "3491"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "61",
+            "82"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "168",
+            "223"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5224",
+            "5840"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "122",
+            "137"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "334",
+            "373"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "7.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100031,
+        "id": "qingxin",
+        "name": "Qingxin",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112038,
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6719",
+            "7540"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "157",
+            "176"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "429",
+            "482"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "7.2%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113031,
+        "id": "dragonheirs_false_fin",
+        "name": "Dragonheir's False Fin",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100031,
+        "id": "qingxin",
+        "name": "Qingxin",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112038,
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8429",
+            "9045"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "197",
+            "211"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "538",
+            "578"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "14.4%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113031,
+        "id": "dragonheirs_false_fin",
+        "name": "Dragonheir's False Fin",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100031,
+        "id": "qingxin",
+        "name": "Qingxin",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112039,
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9941",
+            "10557"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "232",
+            "247"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "635",
+            "674"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "14.4%",
+            "21.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113031,
+        "id": "dragonheirs_false_fin",
+        "name": "Dragonheir's False Fin",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100031,
+        "id": "qingxin",
+        "name": "Qingxin",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112039,
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11463",
+            "12080"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "268",
+            "282"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "732",
+            "772"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "21.6%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113031,
+        "id": "dragonheirs_false_fin",
+        "name": "Dragonheir's False Fin",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100031,
+        "id": "qingxin",
+        "name": "Qingxin",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112040,
+        "id": "energy_nectar",
+        "name": "Energy Nectar",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12993",
+            "12993"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "304",
+            "304"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "830",
+            "830"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "28.8%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113031,
+        "id": "dragonheirs_false_fin",
+        "name": "Dragonheir's False Fin",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100031,
+        "id": "qingxin",
+        "name": "Qingxin",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112040,
+        "id": "energy_nectar",
+        "name": "Energy Nectar",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104310,
+          "id": "teachings_of_prosperity",
+          "name": "Teachings of Prosperity",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112038,
+          "id": "whopperflower_nectar",
+          "name": "Whopperflower Nectar",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113026,
+          "id": "hellfire_butterfly",
+          "name": "Hellfire Butterfly",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113026,
+          "id": "hellfire_butterfly",
+          "name": "Hellfire Butterfly",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113026,
+          "id": "hellfire_butterfly",
+          "name": "Hellfire Butterfly",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113026,
+          "id": "hellfire_butterfly",
+          "name": "Hellfire Butterfly",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 206301,
+      "name": "Frostflower Dew",
+      "description": "This Lantern Rite gift that Shenhe received is a set of elegant formal attire that her master, Cloud Retainer had commissioned for her. Red ropes still adorn her arms, but the bitter cold in Shenhe's heart has faded.",
+      "isDefault": false,
+      "characterName": "Shenhe",
+      "characterId": 10000063,
+      "source": [
+        "Purchased from the Shop"
+      ],
+      "filename_card": "UI_AvatarIcon_ShenheCostumeDai_Card",
+      "filename_icon": "UI_AvatarIcon_ShenheCostumeDai",
+      "filename_iconCircle": "UI_AvatarIcon_ShenheCostumeDai_Circle",
+      "filename_splash": "UI_Costume_ShenheCostumeDai",
+      "filename_sideIcon": "UI_AvatarIcon_Side_ShenheCostumeDai"
+    },
+    {
+      "id": 206300,
+      "name": "The World's Shackles",
+      "description": "Shenhe's outfit. These elegant garments have accompanied her through long years of training. The red ropes that surround her body are fetters and wards simultaneously.",
+      "isDefault": true,
+      "characterName": "Shenhe",
+      "characterId": 10000063,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Shenhe_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "My name is Shenhe. I was born fated to bear the curse of calamity, so I am prone to bring harm to the people around me. The adepti urged me to bind my soul with red ropes to keep my homicidal nature at bay. If you are able to walk alongside me without fear... Hah, very well. Now, give me your hand."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Home",
+      "text": "The assumption that every person has somewhere to call home is naive. I got used to living in the mountains alongside the birds and beasts a long time ago."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Motto",
+      "text": "Mind be purged, world be saved."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: A Blind Polearm",
+      "text": "My polearm doesn't distinguish friend from foe, and there is clearly a limit to the red ropes' power. That's why I loathe crowded areas."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "In the mortal world, at times like these, is it not customary to... use an umbrella?"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "The sky is clearing up, and so is my mood. I just hope no one shows up to bother me... If they do, I'll just make them disappear."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "In this weather, I can freeze monsters in place and simply let the lightning bolts take care of the rest. A good way to not get my clothes dirty."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Yes... This reminds me of Master. She loves to ride the swift winds of Qingyun Peak."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning. The dew is very sweet today, would you like some?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "If you feel fatigued after lunch, you should try meditating. It's very effective."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Do you prefer the artificial light of the cities and towns, or the moonlight in the mountains?"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Feel free to rest. I'm a light sleeper, if I hear anything in the vicinity, I'll investigate it for you."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Shenhe: Instinct",
+      "text": "For all the training I've had — honing my body and mind, learning the adepti arts — I've mostly been guided by my own instincts. It just comes down to self-preservation. I'm not trying to save the world, so if I wipe out some evil presence and it happens to benefit you, don't thank me. It's just a force of habit."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Shenhe: Different",
+      "text": "If I treat people kindly, they call me an adeptus, and if I put them in their place, they call me a witch. Heh... The one thing you'll never hear them call me is \"human.\" They all seem to agree that I'm fundamentally... different from them."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Manners",
+      "text": "I rarely leave the mountains, so I was never taught proper manners. When a conflict arises, I just take care of it the way that comes naturally to me. But if you don't approve of my methods, please do let me know. Even if I don't fully understand your reasoning, I will always defer to you."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Red Ropes",
+      "text": "My master gave me these red ropes in order to restrain my impulses. But during our journey together, I feel I have finally grasped the key to all of this. Somehow, controlling my strength — knowing when to restrain myself, and when to unleash — it comes more naturally to me now. I think that what saves me from myself is not my red ropes... but you. If you understand what that means to me, please stay by my side."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "So this shiny gemstone is called a \"Vision\"? Heh... the gifts that fate brings, fate can just easily take away. If one day my connection to this Vision comes to an end, that'll be it, and the light inside of it will go out."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Driving evil spirits away comes easily to me. Getting rid of my inner demons, however... Unless you can find a way to let go, all the adepti arts and exorcism techniques in the world can't save you."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Why do I always hear people say, \"The first snow of the season is a sight for sore eyes\"? We have snow every single day in the mountains. So which instance counts as the \"first snow\"? I don't understand what they mean. Please explain this to me."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Ningguang",
+      "text": "I have no use for the wealth that ordinary people desire. But in the hands of Lady Ningguang, wealth becomes a means of solving complex issues of the kind that no weapons could ever hope to resolve. She understands the unwritten rules of human society, she knows what's in people's hearts... Master once told me that even the adepti aren't able to achieve this. I hold her and her work in high regard."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Beidou",
+      "text": "I find I don't need to worry about etiquette with her, and unlike with some people, I don't need to rely on non-verbal cues to discern the true meaning of what she's saying. That makes me a lot more comfortable. The only problem is... Well, there are too many people around her all the time, and I heard there's also many crew members on her ship... I need you to go with me. It's the only way I can cope with so many people."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Yun Jin",
+      "text": "Yun Jin performs... It's called \"Liyue opera,\" isn't it? I like this particular type of social interaction. You can get to know about the other person's background without having to actually interact with them one on one. If she ever includes your story in one of her performances, I'm sure the result will end up being quite incredible. I'm looking forward to it."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Ganyu",
+      "text": "I've heard many stories about her from my master. She's really quite different from how I originally imagined her... But don't worry, I'll be keeping this to myself. Speaking of Ganyu, her work in Liyue Harbor is unbelievably busy... It seems that there is a price to pay for those who want to integrate into the mortal world."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Chongyun",
+      "text": "It's hard for me to believe that... I still have living relatives in this world. If he has any difficulties with his training, I am more than willing to help enlighten him. However, he will need to meet me alone in the mountains. Their family is too... sociable. I wouldn't know how to turn down their invitations without being impolite."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Xingqiu",
+      "text": "I've seen him lean over to you and whisper things in your ear. If he dares threaten you, I will make sure he... Hmm? You mean it's just an in-joke between friends? Genuinely...?"
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Zhongli",
+      "text": "That gentleman claims to be a mortal, yet is very familiar with my master, who is an adeptus. Master once said: \"If you see him drinking on a stone stool in front of my abode, do not disturb him. Let him sit quietly for a while.\" And that's precisely what I did."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Baizhu",
+      "text": "The quality of his medicinal herbs is as good as it gets, he is also easy-going and considerate of others. By comparison, the little snake on his neck has no filter at all... Haha, don't worry, I didn't lift a finger against it, I won't go as far as getting into a quarrel with a snake."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Hu Tao",
+      "text": "I often see her wandering in the woods singing strange songs. Actually, I must have heard all of her songs several times each by now. I'm used to her singing, but I still find it strange. That being said, I don't hate it either."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Xiao",
+      "text": "My first impression of him was that he's not one to smile. After meeting him again more recently, however, he's still as reserved as ever, but... he seems a lot more relaxed now. Maybe he... met someone special."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Xianyun",
+      "text": "The last time Master and Shuyu came to dine at Wanmin Restaurant, I noticed that Shuyu seemed to have adopted a number of Master's mannerisms. It gave me pause for thought... I grew up under Master's care, too. Is it possible that I have subconsciously picked up a thing or two from her as well...?"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Shenhe: I",
+      "text": "Please don't pay any heed to the way most people refer to me. I am not an adeptus, and don't possess any divine abilities. I was born in a branch family of a clan of exorcists, and grew up in the mountains far away from Liyue Harbor. I am but an adeptus' disciple, nothing more, nothing less."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Shenhe: II",
+      "text": "When faced with delinquents who are just out to cause trouble, most people will try to reason with them. This course of action perplexes me. Removing the root of the problem and disposing of these ill-intentioned fools seems like the obvious course of action. Why do common folks prefer the labor-intensive route?"
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Shenhe: III",
+      "text": "I am the apprentice of multiple adepti and have trained alongside them. After a certain point, however, they stopped teaching me new techniques and started focusing on how to control my intense homicidal urges. Oh, don't be nervous... Yes, craters have been left in the ground, and giant trees have been uprooted. But these things only ever happen in the mountains, far away from civilization, and certainly have never affected innocent lives. Besides, I can control myself now."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Shenhe: IV",
+      "text": "My father's intent was to trade my flesh and blood for my mother's life. After he abandoned me in that cave, I still held out hope that he'd come back to rescue me. One day went by. Then two days, three days... I used every ounce of energy in my body to fight off that monster. But as I collapsed on the ground, I finally realized that the day I was waiting for would never come. To this day, I don't know which one it is... Was I abandoned because I'm cursed, or is it the way I've been treated in life that has cursed me?"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Shenhe: V",
+      "text": "Once, I secretly left the mountain and returned to my childhood village without telling my master. But it was deserted, and my father had long since passed away. I suddenly realized that the bond between my relatives and I had been completely severed. And nothing that I'd ever cared about in the past could ever have a future. Ever since then, I have abandoned everything related to the mortal world... That is, until I met you."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Shenhe's Hobbies",
+      "text": "The most important aspect of meditation is stillness. Let go of all agitation, and let the air around you flow into your body. This technique allows me to quickly focus in on myself. I heard from my master that after meditating beyond a certain point, there is no need to adopt the meditation posture anymore. Adepti can meditate even when standing up... I still have much more to improve on."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Shenhe's Troubles",
+      "text": "The fear of losing the people most important to me, and the desire to save them... This kind of feeling makes my heart ache, I've never experienced anything like it before. It's a burden, yes, but it's also... something to hold onto."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I've sampled numerous dishes during my time away from the mountains, but the truth is that I don't really remember how they taste. The only dish I can never forget the flavor of is that bowl of noodles I ate at home, so long ago... I shouldn't have to remember that. Why do I have to remember that?"
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Chew medicinal herbs for long enough, and you can only taste the bitterness... In all the years I trained under the adepti, I had to abstain from all kinds of things, and to a point, I got used to it. But them... \"The common delights of the mortal realm pose no hindrance to the adepti, thus, we may indulge in all manner of dishes as we please\"... These are the exact words my master said."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Mmm, this taste... Is it really meant for me?"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "The food you cook is indisputably delicious. I can't refuse it."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "No matter. I'm used to this kind of flavor, after all."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "I've been told that birthdays are important occasions for most people. They give presents to celebrate the anniversary of the other person's birth. Material possessions aren't really my thing, but... The view of the starry night sky in the mountains is the most beautiful thing I've ever seen in my life. I've frozen this lake and turned it into a mirror, so you can appreciate the reflection of the fleeting clouds and distant stars right up close. This is my way of celebrating your birthday... Hope you like it."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "The power I harness... It grows stronger."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "If my master were to learn about this, she'd probably have me add some more red ropes..."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "I haven't been training as single-mindedly lately, and yet it's as if I'm growing stronger and stronger without making a conscious effort... I'm left to assume the only way for me to achieve this is by your side."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "I once believed that freeing my mind from all agitation was the only way to overcome. But after everything I've experienced recently, I finally understand... Only when the right things weigh on your mind can the desire to protect awaken inside of you. And that turns your power into something... meaningful."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Obey!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Manifest!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Unleash!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Transfiguration!"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "My will embodied!"
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Take your true form!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "By ordinance divine!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Cryo incarnate!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Do your master's bidding!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "So this is what the world considers to be \"treasure\"?"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Adepti treasures have special powers... Hmm, what about mortal ones?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "These things... What are they used for?"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "You'll regret that..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "I shall not yield..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "I will wipe them out!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Don't push yourself."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Allow me to finish this."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "No escape... from fate."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "My time has come..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "My curse to bear..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Feeble!"
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "In your dreams!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "You will regret this!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "What exactly is teamwork?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Understood. I just have to stand here, right?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "I will do as you command."
+    }
+  ]
+}

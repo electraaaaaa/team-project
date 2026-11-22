@@ -8,7 +8,7 @@ import java.util.Map;
 public class GameFactory {
 
   public Game create(String name, String gameCurrency, Map<Float, Float> moneyPackages,
-                     List collectables, List<Banner> banners) {
-    return new Game(name, gameCurrency, moneyPackages,collectables, banners);
+                     List<Collectable> collectables, List<Banner> banners) {
+    return new Game(name, gameCurrency, moneyPackages, collectables, banners);
   }
 }

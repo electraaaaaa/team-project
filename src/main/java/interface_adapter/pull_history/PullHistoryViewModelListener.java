@@ -1,4 +1,9 @@
 package interface_adapter.pull_history;
 
-public class PullHistoryViewModelListener {
+public interface PullHistoryViewModelListener {
+    /**
+     * The Pull History state was updated.
+     */
+    void stateChanged();
+
 }

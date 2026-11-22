@@ -109,6 +109,7 @@ public class StarRailPullHistoryDataAccessObject
 
         String endId = "0";
         int currentPity = 0;
+        boolean foundFiveStar = false;
 
         Set<String> visitedEndIds = new HashSet<>();
 
@@ -147,9 +148,8 @@ public class StarRailPullHistoryDataAccessObject
                         collectableFactory.create(name, type, rarity)
                 );
 
-                // need to check later if the pull pages go from most recent or from the oldest
-                if (rarity == 5) {
-                    currentPity = 0;
+                if (rarity == 5 && !foundFiveStar) {
+                    foundFiveStar = true;
                 } else {
                     currentPity++;
                 }

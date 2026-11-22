@@ -1,21 +1,15 @@
 package data_access;
 
 import entity.*;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
+import org.jetbrains.annotations.NotNull;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
+
 import java.time.Instant;
-import java.time.Instant;
+
 import java.util.*;
 
-import java.io.IOException;
-
-import java.util.concurrent.TimeUnit;
 
 public class GenshinGameDataAccessObject extends AbstractGameDataAccessObject{
     private static final String CHARACTER = "Character";
@@ -73,6 +67,15 @@ public class GenshinGameDataAccessObject extends AbstractGameDataAccessObject{
     }
 
     private Map<Integer, Collectable> parseCharacters(List<JSONObject> characterJson) {
+        return getIntegerCollectableMap(characterJson, CHARACTER);
+    }
+
+    private Map<Integer, Collectable> parseWeapons(List<JSONObject> weaponJson) {
+        return getIntegerCollectableMap(weaponJson, WEAPON);
+    }
+
+    @NotNull
+    private Map<Integer, Collectable> getIntegerCollectableMap(List<JSONObject> characterJson, String character2) {
         Map<Integer, Collectable> characters = new HashMap<>();
 
         for (JSONObject character : characterJson) {
@@ -80,28 +83,12 @@ public class GenshinGameDataAccessObject extends AbstractGameDataAccessObject{
             String name = character.getString("name");
             int rarity = character.getInt("rarity");
 
-            Collectable collectable = new Collectable(name, CHARACTER, rarity);
+            Collectable collectable = new Collectable(name, character2, rarity);
 
             characters.put(id, collectable);
         }
 
         return characters;
-    }
-
-    private Map<Integer, Collectable> parseWeapons(List<JSONObject> weaponJson) {
-        Map<Integer, Collectable> weapons = new HashMap<>();
-
-        for (JSONObject weapon : weaponJson) {
-            int id = weapon.getInt("_id");
-            String name = weapon.getString("name");
-            int rarity = weapon.getInt("rarity");
-
-            Collectable collectable = new Collectable(name, WEAPON, rarity);
-
-            weapons.put(id, collectable);
-        }
-
-        return weapons;
     }
 
     private List<Banner> parseBanners(

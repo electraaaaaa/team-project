@@ -7,7 +7,7 @@ public class SimulateViewModel {
     private final List<SimulateViewModelListener> listeners = new ArrayList<>();
 
 
-//    private State state = new LoginState();
+//    private State state = new SimulateState();
 
 //    public SimulateState getState() {
 //        return this.state;

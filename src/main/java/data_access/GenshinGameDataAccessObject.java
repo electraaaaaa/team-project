@@ -20,49 +20,48 @@ import java.util.concurrent.TimeUnit;
 public class GenshinGameDataAccessObject extends AbstractGameDataAccessObject{
     private static final String CHARACTER = "Character";
     private static final String WEAPON = "Weapon";
-    private static final String CONFIG_PATH = "/hsr_config.json";
+    private static final String CONFIG_PATH = "/genshin_config.json";
 
     private static final String BANNER_API =
             "https://stardb.gg/api/gi/banners";
 
-    private static final String CHARACTER_API =
-            "https://stardb.gg/api/characters";
-
-    private static final String WEAPON_API =
-            "https://stardb.gg/api/light-cones";
-
+//    when we find an API, we can use these parameters!
+//    private static final String CHARACTER_API =
+//            "https://stardb.gg/api/characters";
+//
+//    private static final String WEAPON_API =
+//            "https://stardb.gg/api/light-cones";
     public GenshinGameDataAccessObject(GameFactory gameFactory) {
         super(gameFactory, CONFIG_PATH);
     }
-
     public Game getGame() {
-        JSONArray bannerJson = fetchJson(BANNER_API);
-        JSONArray characterJson = fetchJson(CHARACTER_API);
-        JSONArray weaponJson = fetchJson(WEAPON_API);
-
-        Map<String, Collectable> characters =
-                parseCharacters(characterJson);
-
-        Map<String, Collectable> lightCones =
-                parseWeapons(weaponJson);
-
-        List<Banner> banners = parseBanners(
-                bannerJson,
-                characters,
-                lightCones
+        List<JSONObject> characterJson = loadJsonFiles(
+                "/genshin/characters/",
+                "/genshin/character-index.json"
         );
+
+        List<JSONObject> weaponJson = loadJsonFiles(
+                "/genshin/weapons/",
+                "/genshin/weapon-index.json"
+        );
+
+        Map<Integer, Collectable> characters = parseCharacters(characterJson);
+        Map<Integer, Collectable> weapons = parseWeapons(weaponJson);
+
+        JSONArray bannerJson = fetchJson("https://stardb.gg/api/gi/banners");
+
+        List<Banner> banners = parseBanners(bannerJson, characters, weapons);
 
         JSONObject config = fetchConfig();
 
         String name = config.getString("name");
         String gameCurrency = config.getString("gameCurrency");
 
-        Map<Float, Float> moneyPackages =
-                parseMoneyPackages(config);
+        Map<Float, Float> moneyPackages = parseMoneyPackages(config);
 
         List<Collectable> collectables = new ArrayList<>();
         collectables.addAll(characters.values());
-        collectables.addAll(lightCones.values());
+        collectables.addAll(weapons.values());
 
         return gameFactory.create(
                 name,
@@ -73,114 +72,92 @@ public class GenshinGameDataAccessObject extends AbstractGameDataAccessObject{
         );
     }
 
-    private Map<String, Collectable> parseCharacters(JSONArray jsonArray) {
-        Map<String, Collectable> characters = new LinkedHashMap<>();
+    private Map<Integer, Collectable> parseCharacters(List<JSONObject> characterJson) {
+        Map<Integer, Collectable> characters = new HashMap<>();
 
-        for (int i = 0; i < jsonArray.length(); i++) {
-            JSONObject characterData = jsonArray.getJSONObject(i);
+        for (JSONObject character : characterJson) {
+            int id = character.getInt("_id");
+            String name = character.getString("name");
+            int rarity = character.getInt("rarity");
 
-            String id = String.valueOf(characterData.getInt("id"));
-            String name = characterData.getString("name");
-            int rarity = characterData.getInt("rarity");
+            Collectable collectable = new Collectable(name, CHARACTER, rarity);
 
-
-            Collectable character = new Collectable(
-                    name,
-                    CHARACTER,
-                    rarity
-            );
-
-            characters.put(id, character);
+            characters.put(id, collectable);
         }
 
         return characters;
     }
 
-    private Map<String, Collectable> parseWeapons(JSONArray jsonArray) {
-        Map<String, Collectable> lightCones = new LinkedHashMap<>();
+    private Map<Integer, Collectable> parseWeapons(List<JSONObject> weaponJson) {
+        Map<Integer, Collectable> weapons = new HashMap<>();
 
-        for (int i = 0; i < jsonArray.length(); i++) {
-            JSONObject lightConeData = jsonArray.getJSONObject(i);
+        for (JSONObject weapon : weaponJson) {
+            int id = weapon.getInt("_id");
+            String name = weapon.getString("name");
+            int rarity = weapon.getInt("rarity");
 
-            String id = String.valueOf(lightConeData.getInt("id"));
-            String name = lightConeData.getString("name");
-            int rarity = lightConeData.getInt("rarity");
+            Collectable collectable = new Collectable(name, WEAPON, rarity);
 
-            Collectable lightCone = new Collectable(
-                    name,
-                    WEAPON,
-                    rarity
-            );
-
-            lightCones.put(id, lightCone);
+            weapons.put(id, collectable);
         }
 
-        return lightCones;
+        return weapons;
     }
 
     private List<Banner> parseBanners(
-            JSONArray jsonArray,
-            Map<String, Collectable> characters,
-            Map<String, Collectable> lightCones) {
+            JSONArray bannerJson,
+            Map<Integer, Collectable> characters,
+            Map<Integer, Collectable> weapons) {
 
         List<Banner> banners = new ArrayList<>();
 
-        for (int i = 0; i < jsonArray.length(); i++) {
-            JSONObject bannerData = jsonArray.getJSONObject(i);
+        for (int i = 0; i < bannerJson.length(); i++) {
+            JSONObject banner = bannerJson.getJSONObject(i);
 
-            int id = bannerData.getInt("id");
-            String name = bannerData.getString("name");
+            int id = banner.getInt("id");
+            String name = banner.getString("name");
 
-            Instant startDate = Instant.parse(
-                    bannerData.getString("start")
-            );
-
-            Instant endDate = Instant.parse(
-                    bannerData.getString("end")
-            );
+            Instant startDate = Instant.parse(banner.getString("start"));
+            Instant endDate = Instant.parse(banner.getString("end"));
 
             List<Collectable> featuredItems = new ArrayList<>();
             String type;
 
-            if (!bannerData.isNull("character")) {
-                String characterId =
-                        String.valueOf(bannerData.getInt("character"));
-
+            if (!banner.isNull("character")) {
+                int characterId = banner.getInt("character");
                 Collectable character = characters.get(characterId);
 
                 if (character == null) {
                     throw new IllegalStateException(
-                            "Character not found: " + characterId
+                            "Could not find character with ID: " + characterId
                     );
                 }
 
                 featuredItems.add(character);
-                type = "Character";
-            }
-            else if (!bannerData.isNull("light_cone")) {
-                String lightConeId =
-                        String.valueOf(bannerData.getInt("light_cone"));
+                type = CHARACTER;
 
-                Collectable lightCone = lightCones.get(lightConeId);
+            } else if (!banner.isNull("weapon")) {
+                int weaponId = banner.getInt("weapon");
+                Collectable weapon = weapons.get(weaponId);
 
-                if (lightCone == null) {
+                if (weapon == null) {
                     throw new IllegalStateException(
-                            "Light Cone not found: " + lightConeId
+                            "Could not find weapon with ID: " + weaponId
                     );
                 }
 
-                featuredItems.add(lightCone);
-                type = "Weapon";
-            }
-            else {
+                featuredItems.add(weapon);
+                type = WEAPON;
+
+            } else {
                 continue;
             }
 
-            if (name.isBlank() && !featuredItems.isEmpty()) {
+            if (name.isBlank()) {
                 name = featuredItems.get(0).getName();
             }
 
-            Banner banner = new Banner(
+            Banner parsedBanner = new Banner(
                     id,
                     name,
                     startDate,
@@ -191,7 +168,7 @@ public class GenshinGameDataAccessObject extends AbstractGameDataAccessObject{
                     featuredItems
             );
 
-            banners.add(banner);
+            banners.add(parsedBanner);
         }
 
         return banners;

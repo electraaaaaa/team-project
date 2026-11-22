@@ -1,8 +1,8 @@
 package app;
 
-import data_access.InMemoryGameDataAccessObject;
-import data_access.StarRailPullHistoryDataAccessObject;
+import data_access.*;
 import entity.CollectableFactory;
+import entity.GameFactory;
 import entity.GamePullHistoriesFactory;
 import interface_adapter.calculate_probability.ProbabilityController;
 import interface_adapter.calculate_probability.ProbabilityPresenter;
@@ -21,10 +21,7 @@ import view.PullHistoryView;
 
 import javax.swing.*;
 import java.awt.*;
-// temporary
 import entity.Game;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -37,19 +34,27 @@ public class Appbuilder {
 
     CollectableFactory collectableFactory = new CollectableFactory();
     GamePullHistoriesFactory gamePullHistoriesFactory = new GamePullHistoriesFactory();
+    GameFactory gameFactory = new GameFactory();
 
     private final InMemoryGameDataAccessObject gameDataAccessObject = new InMemoryGameDataAccessObject();
     private final StarRailPullHistoryDataAccessObject starRailPullHistoryDataAccessObject =
             new StarRailPullHistoryDataAccessObject(collectableFactory, gamePullHistoriesFactory);
+    private final GenshinGameDataAccessObject genshinGameDataAccessObject =
+            new GenshinGameDataAccessObject(gameFactory);
+    private final StarRailGameDataAccessObject starRailGameDataAccessObject =
+            new StarRailGameDataAccessObject(gameFactory);
+    private final GameDataDataAccessObject gameDataDataAccessObject =
+            new GameDataDataAccessObject(starRailGameDataAccessObject, genshinGameDataAccessObject);
+
+    private final List<Game> games;
 
     private ProbabilityViewModel probabilityViewModel;
     private ProbabilityView probabilityView;
     private PullHistoryViewModel pullHistoryViewModel;
     private PullHistoryView  pullHistoryView;
-    // temp
-    private final List<Game> games = createGames();
 
     public Appbuilder() {
+        this.games = gameDataDataAccessObject.getAllGames();
         cardPanel.setLayout(cardLayout);
     }
 
@@ -83,35 +88,17 @@ public class Appbuilder {
     }
 
     public Appbuilder addPullHistoryUseCase() {
-
-        // Create the factories used by the DAO.
-        CollectableFactory collectableFactory = new CollectableFactory();
-        GamePullHistoriesFactory historiesFactory = new GamePullHistoriesFactory();
-
-        // Create the Data Access Object.
-        StarRailPullHistoryDataAccessObject pullHistoryDAO =
-                new StarRailPullHistoryDataAccessObject(
-                        collectableFactory,
-                        historiesFactory
-                );
-
-        // Create the Presenter.
         PullHistoryOutputBoundary pullHistoryPresenter =
                 new PullHistoryPresenter(pullHistoryViewModel);
-
-        // Create the Interactor.
         PullHistoryInputBoundary pullHistoryInteractor =
                 new PullHistoryInteractor(
-                        pullHistoryDAO,
+                        starRailPullHistoryDataAccessObject,
                         pullHistoryPresenter
                 );
-
-        // Create the Controller and connect it to the View.
         PullHistoryController pullHistoryController =
                 new PullHistoryController(pullHistoryInteractor);
 
         pullHistoryView.setPullHistoryController(pullHistoryController);
-
         return this;
     }
 
@@ -130,14 +117,14 @@ public class Appbuilder {
         navigationPanel.add(probabilityButton);
         navigationPanel.add(pullHistoryButton);
 
-        // Switch between views when buttons are clicked.
-        probabilityButton.addActionListener(evt ->
+        // Switch between views when buttons are clicked
+        probabilityButton.addActionListener(event ->
                 cardLayout.show(cardPanel, ProbabilityViewModel.VIEW_NAME));
 
-        pullHistoryButton.addActionListener(evt ->
+        pullHistoryButton.addActionListener(event ->
                 cardLayout.show(cardPanel, PullHistoryViewModel.VIEW_NAME));
 
-        // Assemble the application.
+        // Assemble the navigation and the cards
         mainPanel.add(navigationPanel, BorderLayout.WEST);
         mainPanel.add(cardPanel, BorderLayout.CENTER);
 
@@ -151,42 +138,6 @@ public class Appbuilder {
         application.setLocationRelativeTo(null);
 
         return application;
-    }
-
-
-    private List<Game> createGames() {
-
-        List<Game> games = new ArrayList<>();
-
-        Game starRail = new Game(
-                "Honkai: Star Rail",
-                "Stellar Jade",
-                new HashMap<>(),
-                new ArrayList<>(),
-                new ArrayList<>()
-        );
-
-        Game genshin = new Game(
-                "Genshin Impact",
-                "Primogem",
-                new HashMap<>(),
-                new ArrayList<>(),
-                new ArrayList<>()
-        );
-
-        Game zenlessZoneZero = new Game(
-                "Zenless Zone Zero",
-                "Polychrome",
-                new HashMap<>(),
-                new ArrayList<>(),
-                new ArrayList<>()
-        );
-
-        games.add(starRail);
-        games.add(genshin);
-        games.add(zenlessZoneZero);
-
-        return games;
     }
 
 }

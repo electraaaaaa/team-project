@@ -128,11 +128,6 @@ public class StarRailPullHistoryDataAccessObject
                 break;
             }
 
-            System.out.println(
-                    bannerName + ": Retrieved "
-                            + records.length() + " records."
-            );
-
             for (int i = 0; i < records.length(); i++) {
 
                 JSONObject record = records.getJSONObject(i);
@@ -152,6 +147,7 @@ public class StarRailPullHistoryDataAccessObject
                         collectableFactory.create(name, type, rarity)
                 );
 
+                // need to check later if the pull pages go from most recent or from the oldest
                 if (rarity == 5) {
                     currentPity = 0;
                 } else {

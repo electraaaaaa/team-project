@@ -1,21 +1,12 @@
 package data_access;
 
 import entity.*;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
+import org.jetbrains.annotations.NotNull;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
-import java.time.Instant;
 import java.time.Instant;
 import java.util.*;
-
-import java.io.IOException;
-
-import java.util.concurrent.TimeUnit;
 
 public class StarRailGameDataAccessObject extends AbstractGameDataAccessObject{
     private static final String CHARACTER = "Character";
@@ -74,7 +65,15 @@ public class StarRailGameDataAccessObject extends AbstractGameDataAccessObject{
     }
 
     private Map<String, Collectable> parseCharacters(JSONArray jsonArray) {
-        Map<String, Collectable> characters = new LinkedHashMap<>();
+        return getStringCollectableMap(jsonArray, CHARACTER);
+    }
+
+    private Map<String, Collectable> parseLightCones(JSONArray jsonArray) {
+        return getStringCollectableMap(jsonArray, WEAPON);
+    }
+    @NotNull
+    private Map<String, Collectable> getStringCollectableMap(JSONArray jsonArray, String type) {
+        Map<String, Collectable> collectables = new LinkedHashMap<>();
 
         for (int i = 0; i < jsonArray.length(); i++) {
             JSONObject characterData = jsonArray.getJSONObject(i);
@@ -84,38 +83,16 @@ public class StarRailGameDataAccessObject extends AbstractGameDataAccessObject{
             int rarity = characterData.getInt("rarity");
 
 
-            Collectable character = new Collectable(
+            Collectable collectable = new Collectable(
                     name,
-                    CHARACTER,
+                    type,
                     rarity
             );
 
-            characters.put(id, character);
+            collectables.put(id, collectable);
         }
 
-        return characters;
-    }
-
-    private Map<String, Collectable> parseLightCones(JSONArray jsonArray) {
-        Map<String, Collectable> lightCones = new LinkedHashMap<>();
-
-        for (int i = 0; i < jsonArray.length(); i++) {
-            JSONObject lightConeData = jsonArray.getJSONObject(i);
-
-            String id = String.valueOf(lightConeData.getInt("id"));
-            String name = lightConeData.getString("name");
-            int rarity = lightConeData.getInt("rarity");
-
-            Collectable lightCone = new Collectable(
-                    name,
-                    WEAPON,
-                    rarity
-            );
-
-            lightCones.put(id, lightCone);
-        }
-
-        return lightCones;
+        return collectables;
     }
 
     private List<Banner> parseBanners(

@@ -25,11 +25,26 @@ public class SimulateInteractor implements SimulateInputBoundary{
     public void execute(SimulateInputData simulateInputData){
         //TODO: if the pity system exists data.pitySystem, update all pity system data with the given pity system objects.
 
+            simulatePresenter.prepareFailView("");
 //        TODO:find out if anything doesn't make sense; respond with the appropriate fail message
+        if(simulateInputData.getNumOfSims()<0){simulatePresenter.prepareFailView("The number of simulations is invalid");}
+        if(simulateInputData.getPullCountPerSim()<0){simulatePresenter.prepareFailView("The Pull Count Per Simulation is invalid");}
+        if(simulateInputData.getHardPity()<=0){simulatePresenter.prepareFailView("The Hard Pity is invalid");}
+        if(simulateInputData.getSoftPity()<=0 || simulateInputData.getSoftPity()>simulateInputData.getHardPity())
+        {simulatePresenter.prepareFailView("The Soft Pity is invalid");}
+        if(simulateInputData.getSoftPityIncreaseRate()<=0){simulatePresenter.prepareFailView("The Soft Pity Increase Rate is invalid");}
+        if(simulateInputData.getBaseRate()<=0|| simulateInputData.getBaseRate()>100){simulatePresenter.prepareFailView("The base rate is invalid");}
+
+
 
 //        this.simulatePresenter.prepareFailView();
         //otherwise run simulation and prepare success view
         this.results = runSimulation(simulateInputData);
+        double[] quartiles = statisticsHandler.findQuartiles(results);
+        double mean = statisticsHandler.mean(results);
+        this.Q1 = quartiles[0];
+        this.Q2 = quartiles[1];
+        this.Q3 = quartiles[2];
 
 //        this.simulatePresenter.prepareSuccessView();
     }
@@ -53,7 +68,7 @@ public class SimulateInteractor implements SimulateInputBoundary{
                 pulls++;
                 pityCounter++;
 
-                // Calculate probability of highest rarity
+                // calculate probability of highest rarity
                 double currentRate = data.getBaseRate();
 
                 if (pityCounter >= data.getSoftPity()) {
@@ -89,6 +104,7 @@ public class SimulateInteractor implements SimulateInputBoundary{
             // Record total pulls required
             results[sim] = pulls;
         }
+        return results;
     }
 
 

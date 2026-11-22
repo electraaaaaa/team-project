@@ -20,7 +20,7 @@ public class Game {
    * @throws IllegalArgumentException if the name is empty
    * @throws IllegalArgumentException if the password or name are empty
    */
-  public Game(String name, String gameCurrency, Map<Float, Float> moneyPackages, List collectables, List<Banner> banners) {
+  public Game(String name, String gameCurrency, Map<Float, Float> moneyPackages, List<Collectable> collectables, List<Banner> banners) {
     if ("".equals(name)) {
       throw new IllegalArgumentException("Name cannot be empty");
     }

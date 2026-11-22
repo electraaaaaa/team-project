@@ -1,0 +1,9 @@
+{
+  "name": "Honkai: Star Rail",
+  "gameCurrency": "Stellar Jade",
+  "moneyPackages": {
+    "60": 0.99,
+    "300": 4.99,
+    "980": 14.99
+  }
+}

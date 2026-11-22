@@ -1,0 +1,1737 @@
+{
+  "_id": 10000060,
+  "id": "yelan",
+  "name": "Yelan",
+  "title": "Valley Orchid",
+  "description": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list.",
+  "weapon_type": {
+    "id": "bow",
+    "name": "Bow"
+  },
+  "element": {
+    "id": "hydro",
+    "name": "Hydro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1653944400,
+  "substat": "CRIT Rate",
+  "stats": {
+    "base": {
+      "hp": 1124.9176,
+      "attack": 18.9924,
+      "defense": 42.65879
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 964.51514,
+        "attack": 16.283075,
+        "defense": 36.5769,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1649.8285,
+        "attack": 27.85263,
+        "defense": 62.56575,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.048
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2563.5796,
+        "attack": 43.2787,
+        "defense": 97.21755,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 70,
+        "hp": 3248.893,
+        "attack": 54.848255,
+        "defense": 123.2064,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3934.2065,
+        "attack": 66.41781,
+        "defense": 149.19525,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4619.52,
+        "attack": 77.987366,
+        "defense": 175.1841,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.192
+        }
+      }
+    ]
+  },
+  "affiliation": "Yanshang Teahouse",
+  "region": {
+    "id": "liyue",
+    "name": "Liyue"
+  },
+  "rarity": 5,
+  "birthday": [
+    20,
+    4
+  ],
+  "constellation": "Umbrabilis Orchis",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Laura Post",
+    "chinese": "徐慧",
+    "japanese": "遠藤綾",
+    "korean": "Min Ah"
+  },
+  "skills": [
+    {
+      "_id": 10606,
+      "id": "stealthy_bowshot",
+      "name": "Stealthy Bowshot",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive shots with a bow.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Performs a more precise <span style=\"color:#FFD780FF\">Aimed Shot</span> with increased DMG.<br/>While aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal <span style=\"color:#80C0FFFF\">Hydro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Breakthrough</span><br/>Yelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> based on Yelan's Max HP.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "40.7%",
+            "44%",
+            "47.3%",
+            "52%",
+            "55.3%",
+            "59.1%",
+            "64.3%",
+            "69.5%",
+            "74.7%",
+            "80.4%",
+            "86.1%",
+            "91.8%",
+            "97.4%",
+            "103.1%",
+            "108.8%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "39%",
+            "42.2%",
+            "45.4%",
+            "49.9%",
+            "53.1%",
+            "56.8%",
+            "61.7%",
+            "66.7%",
+            "71.7%",
+            "77.2%",
+            "82.6%",
+            "88.1%",
+            "93.5%",
+            "99%",
+            "104.4%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "51.6%",
+            "55.8%",
+            "60%",
+            "66%",
+            "70.2%",
+            "75%",
+            "81.6%",
+            "88.2%",
+            "94.8%",
+            "102%",
+            "109.2%",
+            "116.4%",
+            "123.6%",
+            "130.8%",
+            "138%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "32.5% + 32.5%",
+            "35.2% + 35.2%",
+            "37.8% + 37.8%",
+            "41.6% + 41.6%",
+            "44.2% + 44.2%",
+            "47.3% + 47.3%",
+            "51.4% + 51.4%",
+            "55.6% + 55.6%",
+            "59.7% + 59.7%",
+            "64.3% + 64.3%",
+            "68.8% + 68.8%",
+            "73.3% + 73.3%",
+            "77.9% + 77.9%",
+            "82.4% + 82.4%",
+            "86.9% + 86.9%"
+          ]
+        },
+        {
+          "label": "Aimed Shot",
+          "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.7%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "92.8%",
+            "98.9%",
+            "105.1%",
+            "111.2%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Fully-Charged Aimed Shot",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "Breakthrough Barb DMG",
+          "values": [
+            "11.58% Max HP",
+            "12.44% Max HP",
+            "13.31% Max HP",
+            "14.47% Max HP",
+            "15.34% Max HP",
+            "16.21% Max HP",
+            "17.36% Max HP",
+            "18.52% Max HP",
+            "19.68% Max HP",
+            "20.84% Max HP",
+            "21.99% Max HP",
+            "23.15% Max HP",
+            "24.6% Max HP",
+            "26.05% Max HP",
+            "27.49% Max HP"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10607,
+      "id": "lingering_lifeline",
+      "name": "Lingering Lifeline",
+      "description": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path.<br/>When this rapid movement ends, the Lifeline will explode, dealing <span style=\"color:#80C0FFFF\">Hydro DMG</span> to the marked opponents based on Yelan's Max HP.<br/><br/><span style=\"color:#FFD780FF\">Tap</span><br/>Moves a certain distance forward swiftly.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Engages in continuous, swift movement, during which Yelan's resistance to interruption is increased.<br/>During this time, Yelan can control this rapid movement and end it by using this Skill again.<br/><br/>Additionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% chance to reset her Breakthrough state.",
+      "info": "Not until she begins to tug on the strings do evildoers, crooks, and scheming villains alike know that there is no escape.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "22.6% Max HP",
+            "24.3% Max HP",
+            "26% Max HP",
+            "28.3% Max HP",
+            "30% Max HP",
+            "31.7% Max HP",
+            "33.9% Max HP",
+            "36.2% Max HP",
+            "38.4% Max HP",
+            "40.7% Max HP",
+            "43% Max HP",
+            "45.2% Max HP",
+            "48.1% Max HP",
+            "50.9% Max HP",
+            "53.7% Max HP"
+          ]
+        },
+        {
+          "label": "Max Duration (Hold)",
+          "values": [
+            "3s",
+            "3s",
+            "3s",
+            "3s",
+            "3s",
+            "3s",
+            "3s",
+            "3s",
+            "3s",
+            "3s",
+            "3s",
+            "3s",
+            "3s",
+            "3s",
+            "3s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10610,
+      "id": "depthclarion_dice",
+      "name": "Depth-Clarion Dice",
+      "description": "Deals <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> and creates an \"Exquisite Throw,\" which aids her in battle.<br/><br/><span style=\"color:#FFD780FF\">Exquisite Throw</span><br/>Follows the character around and will initiate a coordinated attack under the following circumstances, dealing <span style=\"color:#80C0FFFF\">Hydro DMG</span> based on Yelan's Max HP:<br/>·Can occur once every second when your active character uses a Normal Attack.<br/>·Will occur each time Yelan's Lifeline explodes and hits opponents.",
+      "info": "\"A gambling addiction is going to do you no good. I mean, let me just do the math for you as the dealer. What do you think your odds of beating me are, when I have seven dice and you, only one?\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "7.31% Max HP",
+            "7.86% Max HP",
+            "8.4% Max HP",
+            "9.13% Max HP",
+            "9.68% Max HP",
+            "10.23% Max HP",
+            "10.96% Max HP",
+            "11.69% Max HP",
+            "12.42% Max HP",
+            "13.15% Max HP",
+            "13.89% Max HP",
+            "14.62% Max HP",
+            "15.53% Max HP",
+            "16.44% Max HP",
+            "17.36% Max HP"
+          ]
+        },
+        {
+          "label": "Exquisite Throw DMG",
+          "values": [
+            "4.87% Max HP ×3",
+            "5.24% Max HP ×3",
+            "5.6% Max HP ×3",
+            "6.09% Max HP ×3",
+            "6.46% Max HP ×3",
+            "6.82% Max HP ×3",
+            "7.31% Max HP ×3",
+            "7.8% Max HP ×3",
+            "8.28% Max HP ×3",
+            "8.77% Max HP ×3",
+            "9.26% Max HP ×3",
+            "9.74% Max HP ×3",
+            "10.35% Max HP ×3",
+            "10.96% Max HP ×3",
+            "11.57% Max HP ×3"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "turn_control",
+      "name": "Turn Control",
+      "description": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%.",
+      "level": 1
+    },
+    {
+      "id": "adapt_with_ease",
+      "name": "Adapt With Ease",
+      "description": "So long as an <span style=\"color:#FFD780FF\">Exquisite Throw</span> is in play, your own active character deals 1% more DMG. This increases by a further 3.5% DMG every second. The maximum increase to DMG dealt is 50%.<br/>The pre-existing effect will be dispelled if Depth-Clarion Dice is recast during its duration.",
+      "level": 4
+    },
+    {
+      "id": "necessary_calculation",
+      "name": "Necessary Calculation",
+      "description": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 601,
+      "id": "enter_the_plotters",
+      "name": "Enter the Plotters",
+      "description": "<span style=\"color:#FFD780FF\">Lingering Lifeline</span> gains 1 additional charge.",
+      "level": 1
+    },
+    {
+      "_id": 602,
+      "id": "taking_all_comers",
+      "name": "Taking All Comers",
+      "description": "When <span style=\"color:#FFD780FF\">Exquisite Throw</span> conducts a coordinated attack, it will fire an additional water arrow that will deal 14% of Yelan's Max HP as Hydro DMG.<br/>This effect can trigger once every 1.8s.",
+      "level": 2
+    },
+    {
+      "_id": 603,
+      "id": "beware_the_tricksters_dice",
+      "name": "Beware the Trickster's Dice",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Depth-Clarion Dice</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 604,
+      "id": "baitandswitch",
+      "name": "Bait-and-Switch",
+      "description": "Increases all party members' Max HP by 10% for 25s for every opponent marked by <span style=\"color:#FFD780FF\">Lifeline</span> when the Lifeline explodes. A maximum increase of 40% Max HP can be attained in this manner.",
+      "level": 4
+    },
+    {
+      "_id": 605,
+      "id": "dealers_sleight",
+      "name": "Dealer's Sleight",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Lingering Lifeline</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 606,
+      "id": "winner_takes_all",
+      "name": "Winner Takes All",
+      "description": "After using <span style=\"color:#FFD780FF\">Depth-Clarion Dice</span>, Yelan will enter the Mastermind state.<br/>In this state, all of Yelan's Normal Attacks will be special Breakthrough Barbs. These Breakthrough Barbs will have similar abilities to normal ones and the DMG dealt will be considered Charged Attack DMG, dealing 156% of a normal Breakthrough Barb's DMG.<br/><br/>The Mastermind state lasts 20s and will be cleared after Yelan fires 5 arrows.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1125"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "19"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "43"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "-",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2918",
+            "3883"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "49",
+            "66"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "111",
+            "147"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5810",
+            "6495"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "98",
+            "110"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "220",
+            "246"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "9.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104121,
+        "id": "varunada_lazurite_sliver",
+        "name": "Varunada Lazurite Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112032,
+        "id": "recruits_insignia",
+        "name": "Recruit's Insignia",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7472",
+            "8386"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "126",
+            "142"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "283",
+            "318"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "9.8%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112032,
+        "id": "recruits_insignia",
+        "name": "Recruit's Insignia",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9374",
+            "10059"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "158",
+            "170"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "355",
+            "381"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112033,
+        "id": "sergeants_insignia",
+        "name": "Sergeant's Insignia",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11056",
+            "11741"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "187",
+            "198"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "419",
+            "445"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "19.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112033,
+        "id": "sergeants_insignia",
+        "name": "Sergeant's Insignia",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12749",
+            "13434"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "215",
+            "227"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "483",
+            "509"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "19.4%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112034,
+        "id": "lieutenants_insignia",
+        "name": "Lieutenant's Insignia",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "14450",
+            "14450"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "244",
+            "244"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "548",
+            "548"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "24.2%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104124,
+        "id": "varunada_lazurite_gemstone",
+        "name": "Varunada Lazurite Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112034,
+        "id": "lieutenants_insignia",
+        "name": "Lieutenant's Insignia",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104310,
+          "id": "teachings_of_prosperity",
+          "name": "Teachings of Prosperity",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112032,
+          "id": "recruits_insignia",
+          "name": "Recruit's Insignia",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113019,
+          "id": "gilded_scale",
+          "name": "Gilded Scale",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113019,
+          "id": "gilded_scale",
+          "name": "Gilded Scale",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113019,
+          "id": "gilded_scale",
+          "name": "Gilded Scale",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113019,
+          "id": "gilded_scale",
+          "name": "Gilded Scale",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 206001,
+      "name": "Tranquil Banquet",
+      "description": "The outfit Yelan has prepared for her holiday. Elegant yet neat, it conveys a sense of leisure while somehow still carrying a hint of concealed aggression...",
+      "isDefault": false,
+      "characterName": "Yelan",
+      "characterId": 10000060,
+      "source": [
+        "Purchased from the Shop"
+      ],
+      "filename_card": "UI_AvatarIcon_YelanCostumeSummer_Card",
+      "filename_icon": "UI_AvatarIcon_YelanCostumeSummer",
+      "filename_iconCircle": "UI_AvatarIcon_YelanCostumeSummer_Circle",
+      "filename_splash": "UI_Costume_YelanCostumeSummer",
+      "filename_sideIcon": "UI_AvatarIcon_Side_YelanCostumeSummer"
+    },
+    {
+      "id": 206000,
+      "name": "The Waning Point",
+      "description": "Yelan's outfit. It has lurked alongside its wearer in the shadows over many a year, to the point where the outfit almost has a mysterious temper of its own, like an orchid blooming at midnight.",
+      "isDefault": true,
+      "characterName": "Yelan",
+      "characterId": 10000060,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Yelan_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "Hello, Traveler. Call me Yelan. I think you may need my help, and I just so happen to be interested in some information you have. In other words — you scratch my back, I'll scratch yours."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Tip-Off",
+      "text": "I got a new letter from an informant. Looks like the situation has changed again."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Truancy",
+      "text": "Good roll... Alright, maybe I'll take one more day off, and knock out the rest of the work once I'm feeling up to it."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Identity",
+      "text": "Navigating the world is a whole lot easier with a few different identities to choose from. Need me to come up with some for you?"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "It's raining again? Oh, this isn't good... If the rain washes away the traces, it's gonna set us back a long way..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Only innocent children and timid adults are scared of thunder. But you're not either of those... are you?"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "It's getting a little cold... Time to bundle up."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "This blinding sunlight is such a pain... No way I can get a nap in this weather."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "There's a restlessness in the wind... Hmm..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Mmm~ So early... I usually get up at noon if I don't have any urgent work."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Ah, I'm getting sleepy. Think I'll take a nap... Don't wake me. I'll wake up naturally when it's time to work."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Good evening. Have you had dinner? What did you have, how was it? Oh... Just making conversation. Don't think anything of it."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Come on now, drink your milk and go to sleep. What? You're not a kid? Hehe... Alright, well, I'll just leave it right here, it's yours if you want it. I usually fall asleep well after midnight. Full disclosure — if you're a sleep talker, I can't promise I won't take notes, kay?"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Yelan: Duties",
+      "text": "The Qixing know Liyue like the back of their hands. But there's certain information out there that can only be obtained using more specialized methods. That's my area of expertise, so I generally take care of all those assignments myself."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Yelan: Rumors",
+      "text": "Some say the boss of Yanshang Teahouse is a young entrepreneur who got rich overnight; some say there's a sickly and frail senior employee of the Ministry of Civil Affairs living as a hermit outside the city; others say you should stay away from restricted areas, or you'll get haunted by a blue ghost... Obviously, most civilians have never heard the name Yelan before. So you can safely laugh off all these rumors."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Relationship",
+      "text": "Huh? What's that look on your face for? You don't have to be on guard around me. I never scheme against people who have my stamp of approval."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Deception",
+      "text": "Don't be too ready to believe people when they cross their heart and hope to die. Sweet talkers only say what you want to hear. And think twice before meeting someone else's gaze — your eyes speak volumes about what you're thinking. When it comes down to it, we're friends, and if somebody ever conned you, I'd feel like I'd been cheated, too."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Wherever there's important information to be found, the stakes involved in extracting it are often fatal. It doesn't matter how big or reliable the team under you may be, you can never completely rule out the risk. The bottom line is, have enough force at your fingertips to control the situation. I got lucky — I got my Vision just a few days after realizing that. Otherwise... you'd probably be talking to a very disheveled-looking ghost right now."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Anything to Share: Blocking Out Noise",
+      "text": "If you grind Loach Pearls down to size, they make excellent earplugs. They're very sound-proof — you can sleep away blissfully even when there's someone screaming right in your ear... Of course, I hope for your sake that you don't ever need them for that kind of reason."
+    },
+    {
+      "id": "3004",
+      "type": 1,
+      "title": "Anything to Share: Fascinating Bracelet",
+      "text": "The bracelet on my right hand? I suppose there's no harm in telling you... It contains a kind of magic used by our clan, and it can send simple messages. The meaning of those messages is buried in the blue light, and only I can decipher them."
+    },
+    {
+      "id": "3005",
+      "type": 1,
+      "title": "Anything to Share: Pursuing the Target",
+      "text": "When I'm tracking a target, I like to put psychological pressure on them. In the process of trying to shake me off, they will start to panic, bring in reinforcements, alter their plan... they keep going like this until eventually, they've exposed everything I need to know. Heh..."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Do you know much about Weasel Thieves? They're not especially intelligent creatures, but once you tame them, they can be trained to steal things and even pick locks. Pretty clear-cut case, isn't it — if even animals can be used as pawns with the right methods, the same has to be all the more true of people, who are constantly plotting and scheming against one another to begin with."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Ningguang: Relationship",
+      "text": "I got to know Ningguang a long time ago, before she was a Qixing, and we worked together for a while. Maybe I'm partly to thank for the fact that she became a Qixing so quickly. Hehe, who can say? Anyway, she was the one who recommended this job to me. It was a good choice, I'm very well-suited to it."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Ningguang: Expectations",
+      "text": "Ningguang is good to work with. But I have to be mindful of our identities when I'm out in public. When I meet a Qixing as an employee of the Ministry of Civil Affairs, they're \"Sir\" or \"Lady\" to me."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Ganyu",
+      "text": "Ah, the secretary... I could never work non-stop like she does, certainly not at that level of efficiency. I guess being half-adeptus must have its perks. Imagine not needing sleep to regain your energy levels..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Keqing",
+      "text": "I don't really like people who cram their schedules full, because it doesn't leave any room for negotiation. If something happens that they didn't anticipate, it throws their plans into oblivion, impacting not just themselves but their coworkers, too. But the Yuheng is different. She works in a very methodical way. I always enjoy working with her."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Yanfei",
+      "text": "I like Yanfei a lot. And I'm not talking about our friendship — as a high-profile legal consultant, important intel in Liyue Harbor is constantly flowing in her direction. Whenever I help her out, I always get some invaluable leads in return. I gotta say though, sometimes I think she respects me a little too much."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Xiao",
+      "text": "The elders in my clan once said that we must always show the utmost respect to the Vigilant Yaksha. Apparently, the only time that our ancestor would gain some temporary relief from his insanity was when passing by the Wangshu Inn. It must have been the comforting effect of his presence that wards off evil spirits. That said, if I ever have the honor of fighting side by side with the Conqueror of Demons, I will focus only on the mission. I cannot let myself be distracted by concerns about his status."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Xiangling",
+      "text": "Ah, Xiangling, the lovely little chef. Her ingredients are always top quality, easily as good as Liuli Pavilion and Xinyue Kiosk. Sometimes I go to her for dried Jueyun Chilis... She doesn't seem to understand why I eat them in the way that I do, and I don't feel like trying to explain it to her, either. It's just a family tradition."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Xingqiu",
+      "text": "Of course I remember him — the young master of the Feiyun Commerce Guild. I have dealings with his family all the time. Who knows... maybe one day, he'll be outsmarting everyone around him, too."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Tartaglia",
+      "text": "The Fatui harbinger? He helped me out once — unwittingly. I was planning a deep-reaching investigation into the former owner of the Yanshang Teahouse, but our harbinger friend got to him first. He showed up demanding payment of his debt, and also exposed his accounting fraud, which got him thrown in jail. That made it very easy for me to take over Yanshang Teahouse myself, and it's proven to be a very useful base."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Yelan: I",
+      "text": "The reason I'm willing to bet on you is because of your special status. I think it'll bring me a lot of leads that can get me closer to the truth... Heh, so, got any news for me today?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Yelan: II",
+      "text": "Exchanging information has to be a two-way thing, so I guess I can tell you something about my past. Thanks to my family's connections, I learned some useful skills from the Millelith scouts very early on. Although there are things working against you every step of the way when you're gathering intelligence, as long as I keep myself alive, I'll always emerge as the winner in the end..."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Yelan: III",
+      "text": "Clues are links in a chain. You have to trace them all the way back to where everything began before there can be a resolution. To that end, I need to keep my eyes and ears on every part of society, and often, that means having to be more than one person. People sometimes describe me as \"one person, many faces\" and so on... I take it as a compliment."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Yelan: IV",
+      "text": "Someone once warned me to be careful about digging up certain things from the past. Dig too deep and you might find yourself standing in your own grave, they say... Well, I'm not about to stop, least of all because of anything anyone else has to say. Sure, I can't change the facts, but if it's a choice between the cold, hard truth and blissful unawareness, I'll take the former. What about you? Which would you choose?"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Yelan: V",
+      "text": "Tell me something. If I'm gonna stay around, what kind of person do you want me to be to you? Someone you work with? A competitor, who challenges you to sharpen your game? Just another name on your long list of acquaintances, or... somebody more important than that? Depending on what you're hoping for, I can either play that part or become that person."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Yelan's Hobbies",
+      "text": "In my free time, I live life completely at random. It's quite simple: I make a list of things to do, then I roll the dice to decide which one I'm going to do next. It's a surprisingly fun game, and it's really broadened my mind... in that sense, it's been quite helpful where my job is concerned."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Yelan's Troubles",
+      "text": "My physical fitness isn't actually that great compared with some trained martial artists. It's a hereditary thing that runs in my family. So before getting into really important work, I adjust my schedule to make sure I get enough rest, wait till I have built up enough energy, then strive to finish everything that needs doing in one go. Outside of work, I try my best to live life at a calm and carefree pace. So I'll always decline to take on any strenuous physical labor."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I like to grind dried Jueyun Chilis and Violetgrass stamens into powder, mix them in with some Yunlai White Tea leaves, and then brew a strong pot of tea. It has the most powerful fragrance that makes you instantly fall in love with it. I prefer drinks like this with a long-lasting aftertaste to things like coffee and spirits."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "You have to be very careful with sweets. That powerful sense of satisfaction... it weakens your willpower and makes you relaxed. It only takes a few bites to get addicted, and with long-term consumption, you'll slowly but surely lose your edge."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Hm, not bad. Almost good enough to bribe me with."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Once you get accustomed to spicy food, everything else tastes bland. That's just the way it is."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Shall we roll some dice? Whoever gets the lowest number... gets to eat it."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "If I was to tell you that maybe you shouldn't celebrate too hard today, because you'll let your guard down, and someone out there might just be waiting for that moment to make their move on you... it probably wouldn't go down very well. So, relax and take it easy today. Oh, and you should stop by the Yanshang Teahouse — I whipped up some treats especially for you. Not sweet ones, of course. Just the tiniest little hint of chili."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "In my line of work, combat skills are essential."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Sometimes, you have to strike hard and fast at just the right moment to expose the lies while avoiding any unwanted interference."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Finding the truth might sound simple, but it takes perseverance to stick to the trail of clues and it takes strength to follow them deep into dangerous territory."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "I have long regarded you as my most important informant. Naturally, I need to be fully prepared to face whatever risks come with the final answer when you bring it to me. Come on, let's go get it!"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Busted."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Gotcha."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Quietly now."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Game's up, fun's over!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Here comes the catch."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Things are about to get dicey."
+    },
+    {
+      "id": "700001",
+      "type": 2,
+      "title": "Sprint Start: I",
+      "text": "Take it easy."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Easy money."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Treasure... one way to draw your target out of hiding."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "A chest full of valuables... and a trove of potential clues."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "What a drag..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Winging it wasn't the best idea..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "I didn't factor this in..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Get back, I'll finish this job."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "You're running cold, allow me."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "What are... the odds?"
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "How was I... so wrong..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "But the truth... is still unknown..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Gutsy."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "No..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Who's our target this time?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "It's time to pull the trigger."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Let's go get ourselves some answers."
+    }
+  ]
+}

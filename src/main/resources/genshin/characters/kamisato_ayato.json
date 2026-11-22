@@ -1,0 +1,1815 @@
+{
+  "_id": 10000066,
+  "id": "kamisato_ayato",
+  "name": "Kamisato Ayato",
+  "title": "Pillar of Fortitude",
+  "description": "The young but highly accomplished head of the Yashiro Commission's Kamisato Clan. Cultured and polite, he is a man of many ways and means.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "hydro",
+    "name": "Hydro"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1648587600,
+  "substat": "CRIT DMG",
+  "stats": {
+    "base": {
+      "hp": 1067.7184,
+      "attack": 23.275,
+      "defense": 59.83
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 915.472,
+        "attack": 19.95475,
+        "defense": 51.3,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1565.939,
+        "attack": 34.133125,
+        "defense": 87.75,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2433.2283,
+        "attack": 53.037624,
+        "defense": 136.35,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 70,
+        "hp": 3083.695,
+        "attack": 67.216,
+        "defense": 172.8,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3734.162,
+        "attack": 81.39438,
+        "defense": 209.25,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.288
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4384.629,
+        "attack": 95.57275,
+        "defense": 245.7,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.384
+        }
+      }
+    ]
+  },
+  "affiliation": "Yashiro Commission",
+  "region": {
+    "id": "inazuma",
+    "name": "Inazuma"
+  },
+  "rarity": 5,
+  "birthday": [
+    26,
+    3
+  ],
+  "constellation": "Cypressus Custos",
+  "domain": "Violet Court",
+  "cv": {
+    "english": "Chris Hackney",
+    "chinese": "赵路",
+    "japanese": "石田彰",
+    "korean": "Jang Min-hyeok"
+  },
+  "skills": [
+    {
+      "_id": 10661,
+      "id": "kamisato_art_marobashi",
+      "name": "Kamisato Art: Marobashi",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 rapid strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to dash forward and performs an iai.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "45%",
+            "48.6%",
+            "52.3%",
+            "57.5%",
+            "61.2%",
+            "65.4%",
+            "71.1%",
+            "76.9%",
+            "82.6%",
+            "88.9%",
+            "95.2%",
+            "101.4%",
+            "107.7%",
+            "114%",
+            "120.2%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "47.2%",
+            "51%",
+            "54.8%",
+            "60.3%",
+            "64.2%",
+            "68.5%",
+            "74.6%",
+            "80.6%",
+            "86.6%",
+            "93.2%",
+            "99.8%",
+            "106.4%",
+            "113%",
+            "119.5%",
+            "126.1%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "58.6%",
+            "63.4%",
+            "68.2%",
+            "75%",
+            "79.7%",
+            "85.2%",
+            "92.7%",
+            "100.2%",
+            "107.7%",
+            "115.9%",
+            "124%",
+            "132.2%",
+            "140.4%",
+            "148.6%",
+            "156.8%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "29.4%×2",
+            "31.8%×2",
+            "34.2%×2",
+            "37.7%×2",
+            "40.1%×2",
+            "42.8%×2",
+            "46.6%×2",
+            "50.3%×2",
+            "54.1%×2",
+            "58.2%×2",
+            "62.3%×2",
+            "66.4%×2",
+            "70.5%×2",
+            "74.6%×2",
+            "78.8%×2"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "75.6%",
+            "81.8%",
+            "87.9%",
+            "96.7%",
+            "102.9%",
+            "109.9%",
+            "119.6%",
+            "129.2%",
+            "138.9%",
+            "149.5%",
+            "160%",
+            "170.5%",
+            "181.1%",
+            "191.6%",
+            "202.2%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "129.5%",
+            "140.1%",
+            "150.6%",
+            "165.7%",
+            "176.2%",
+            "188.3%",
+            "204.8%",
+            "221.4%",
+            "238%",
+            "256%",
+            "274.1%",
+            "292.2%",
+            "310.3%",
+            "328.3%",
+            "346.4%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10662,
+      "id": "kamisato_art_kyouka",
+      "name": "Kamisato Art: Kyouka",
+      "description": "Kamisato Ayato shifts positions and enters the Takimeguri Kanka state.<br/>After this shift, he will leave a watery illusion at his original location. After it is formed, the watery illusion will explode if opponents are nearby or after its duration ends, dealing <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Takimeguri Kanka</span><br/>In this state, Kamisato Ayato uses his Shunsuiken to engage in blindingly fast attacks, causing DMG from his Normal Attacks to be converted into <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span>. This cannot be overridden.<br/>It also has the following properties:<br/>·After a Shunsuiken attack hits an opponent, it will grant Ayato the Namisen effect, increasing the DMG dealt by Shunsuiken based on Ayato's current Max HP. The initial maximum number of Namisen stacks is 4, and 1 stack can be gained through Shunsuiken every 0.1s. This effect will be dispelled when Takimeguri Kanka ends.<br/>·Kamisato Ayato's resistance to interruption is increased.<br/>·Unable to use Charged or Plunging Attacks.<br/><br/>Takimeguri Kanka will be cleared when Ayato leaves the field. Using Kamisato Art: Kyouka again while in the Takimeguri Kanka state will reset and replace the pre-existing state.",
+      "info": "\"When, I wonder, did you come under the illusion that you were winning?\"<br/><i>— Ayato is like this in both matter of martial prowess and political intrigue, but to preserve the dignity of his fellow Commissioners, he does not say such things to them. As such, only Thoma, Itto, and Ayaka have ever heard this line.</i>",
+      "attributes": [
+        {
+          "label": "Shunsuiken 1-Hit DMG",
+          "values": [
+            "52.9%",
+            "57.2%",
+            "61.5%",
+            "67.7%",
+            "72%",
+            "76.9%",
+            "83.6%",
+            "90.4%",
+            "97.2%",
+            "104.6%",
+            "111.9%",
+            "119.3%",
+            "126.7%",
+            "134.1%",
+            "141.5%"
+          ]
+        },
+        {
+          "label": "Shunsuiken 2-Hit DMG",
+          "values": [
+            "58.9%",
+            "63.7%",
+            "68.5%",
+            "75.3%",
+            "80.1%",
+            "85.6%",
+            "93.2%",
+            "100.7%",
+            "108.2%",
+            "116.5%",
+            "124.7%",
+            "132.9%",
+            "141.1%",
+            "149.3%",
+            "157.5%"
+          ]
+        },
+        {
+          "label": "Shunsuiken 3-Hit DMG",
+          "values": [
+            "64.9%",
+            "70.2%",
+            "75.5%",
+            "83%",
+            "88.3%",
+            "94.4%",
+            "102.7%",
+            "111%",
+            "119.3%",
+            "128.4%",
+            "137.4%",
+            "146.5%",
+            "155.5%",
+            "164.6%",
+            "173.7%"
+          ]
+        },
+        {
+          "label": "Takimeguri Kanka Duration",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        },
+        {
+          "label": "Namisen DMG Bonus",
+          "values": [
+            "0.56%Max HP / Stack",
+            "0.61%Max HP / Stack",
+            "0.65%Max HP / Stack",
+            "0.72%Max HP / Stack",
+            "0.76%Max HP / Stack",
+            "0.82%Max HP / Stack",
+            "0.89%Max HP / Stack",
+            "0.96%Max HP / Stack",
+            "1.03%Max HP / Stack",
+            "1.11%Max HP / Stack",
+            "1.19%Max HP / Stack",
+            "1.27%Max HP / Stack",
+            "1.34%Max HP / Stack",
+            "1.42%Max HP / Stack",
+            "1.5%Max HP / Stack"
+          ]
+        },
+        {
+          "label": "Water Illusion DMG",
+          "values": [
+            "101.5%",
+            "109.7%",
+            "118%",
+            "129.8%",
+            "138.1%",
+            "147.5%",
+            "160.5%",
+            "173.5%",
+            "186.4%",
+            "200.6%",
+            "214.8%",
+            "228.9%",
+            "243.1%",
+            "257.2%",
+            "271.4%"
+          ]
+        },
+        {
+          "label": "Water Illusion Duration",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10665,
+      "id": "kamisato_art_suiyuu",
+      "name": "Kamisato Art: Suiyuu",
+      "description": "Unveils a garden of purity that silences the cacophony within.<br/>While this space exists, Bloomwater Blades will constantly rain down and attack opponents within its AoE, dealing <span style=\"color:#80C0FFFF\">Hydro DMG</span> and increasing the Normal Attack DMG of characters within.",
+      "info": "\"I can see them, you know. The ripples of your beating heart within this realm of still waters.\"",
+      "attributes": [
+        {
+          "label": "Bloomwater Blade DMG",
+          "values": [
+            "66.5%",
+            "71.4%",
+            "76.4%",
+            "83.1%",
+            "88.1%",
+            "93%",
+            "99.7%",
+            "106.3%",
+            "113%",
+            "119.6%",
+            "126.3%",
+            "132.9%",
+            "141.2%",
+            "149.5%",
+            "157.8%"
+          ]
+        },
+        {
+          "label": "Normal Attack DMG Bonus",
+          "values": [
+            "11%",
+            "12%",
+            "13%",
+            "14%",
+            "15%",
+            "16%",
+            "17%",
+            "18%",
+            "19%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "kamisato_art_mine_wo_matoishi_kiyotaki",
+      "name": "Kamisato Art: Mine Wo Matoishi Kiyotaki",
+      "description": "<span style=\"color:#FFD780FF\">Kamisato Art: Kyouka</span> has the following properties:<br/>·After it is used, Kamisato Ayato will gain 2 Namisen stacks.<br/>·When the water illusion explodes, Ayato will gain a Namisen effect equal to the maximum number of stacks possible.",
+      "level": 1
+    },
+    {
+      "id": "kamisato_art_michiyuku_hagetsu",
+      "name": "Kamisato Art: Michiyuku Hagetsu",
+      "description": "If Kamisato Ayato is not on the field and his Energy is less than 40, he will regenerate 2 Energy for himself every second.",
+      "level": 4
+    },
+    {
+      "id": "kamisato_art_daily_cooking",
+      "name": "Kamisato Art: Daily Cooking",
+      "description": "When Ayato cooks a dish perfectly, he has an 18% chance to receive an additional \"Suspicious\" dish of the same type.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 661,
+      "id": "kyouka_fuushi",
+      "name": "Kyouka Fuushi",
+      "description": "<span style=\"color:#FFD780FF\">Shunsuiken</span> DMG is increased by 40% against opponents with 50% HP or less.",
+      "level": 1
+    },
+    {
+      "_id": 662,
+      "id": "world_source",
+      "name": "World Source",
+      "description": "<span style=\"color:#FFD780FF\">Namisen</span>'s maximum stack count is increased to 5. When Kamisato Ayato has at least 3 Namisen stacks, his Max HP is increased by 50%.",
+      "level": 2
+    },
+    {
+      "_id": 663,
+      "id": "to_admire_the_flowers",
+      "name": "To Admire the Flowers",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Kamisato Art: Kyouka</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 664,
+      "id": "endless_flow",
+      "name": "Endless Flow",
+      "description": "After using <span style=\"color:#FFD780FF\">Kamisato Art: Suiyuu</span>, all nearby party members will have 15% increased Normal Attack SPD for 15s.",
+      "level": 4
+    },
+    {
+      "_id": 665,
+      "id": "bansui_ichiro",
+      "name": "Bansui Ichiro",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Kamisato Art: Suiyuu</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 666,
+      "id": "boundless_origin",
+      "name": "Boundless Origin",
+      "description": "After using <span style=\"color:#FFD780FF\">Kamisato Art: Kyouka</span>, Ayato's next Shunsuiken attack will create 2 extra Shunsuiken strikes when they hit opponents, each one dealing 450% of Ayato's ATK as DMG.<br/>Both these Shunsuiken attacks will not be affected by Namisen.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1068"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "23"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "60"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2770",
+            "3685"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "60",
+            "80"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "155",
+            "206"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5514",
+            "6165"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "120",
+            "134"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "309",
+            "345"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104121,
+        "id": "varunada_lazurite_sliver",
+        "name": "Varunada Lazurite Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101202,
+        "id": "sakura_bloom",
+        "name": "Sakura Bloom",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112044,
+        "id": "old_handguard",
+        "name": "Old Handguard",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7092",
+            "7960"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "155",
+            "174"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "397",
+            "446"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113028,
+        "id": "dew_of_repudiation",
+        "name": "Dew of Repudiation",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101202,
+        "id": "sakura_bloom",
+        "name": "Sakura Bloom",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112044,
+        "id": "old_handguard",
+        "name": "Old Handguard",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8897",
+            "9548"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "194",
+            "208"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "499",
+            "535"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113028,
+        "id": "dew_of_repudiation",
+        "name": "Dew of Repudiation",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101202,
+        "id": "sakura_bloom",
+        "name": "Sakura Bloom",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112045,
+        "id": "kageuchi_handguard",
+        "name": "Kageuchi Handguard",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10494",
+            "11144"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "229",
+            "243"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "588",
+            "624"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113028,
+        "id": "dew_of_repudiation",
+        "name": "Dew of Repudiation",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101202,
+        "id": "sakura_bloom",
+        "name": "Sakura Bloom",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112045,
+        "id": "kageuchi_handguard",
+        "name": "Kageuchi Handguard",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12101",
+            "12751"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "264",
+            "278"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "678",
+            "715"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113028,
+        "id": "dew_of_repudiation",
+        "name": "Dew of Repudiation",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101202,
+        "id": "sakura_bloom",
+        "name": "Sakura Bloom",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112046,
+        "id": "famed_handguard",
+        "name": "Famed Handguard",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "13715",
+            "13715"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "299",
+            "299"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "769",
+            "769"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104124,
+        "id": "varunada_lazurite_gemstone",
+        "name": "Varunada Lazurite Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113028,
+        "id": "dew_of_repudiation",
+        "name": "Dew of Repudiation",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101202,
+        "id": "sakura_bloom",
+        "name": "Sakura Bloom",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112046,
+        "id": "famed_handguard",
+        "name": "Famed Handguard",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104323,
+          "id": "teachings_of_elegance",
+          "name": "Teachings of Elegance",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112044,
+          "id": "old_handguard",
+          "name": "Old Handguard",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113032,
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra of the Malefic General",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113032,
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra of the Malefic General",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113032,
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra of the Malefic General",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113032,
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra of the Malefic General",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 206600,
+      "name": "Silk Splendor",
+      "description": "Kamisato Ayato's outfit. The kimono itself is made using uncommon fabrics, and its patterning recalls a mountain spring, giving off a feeling of calm and stability that matches its wearer.",
+      "isDefault": true,
+      "characterName": "Kamisato Ayato",
+      "characterId": 10000066,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Ayato_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "Greetings. Ayaka has mentioned you on numerous occasions — alas, my schedule has been rather busier than anticipated recently, which belated our first meeting until today. Kamisato Ayato, head of the Kamisato Clan. Delighted to make your acquaintance."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Spoiled",
+      "text": "I'm sure I've forgotten something... Not to worry, I'll simply send someone to fetch it. As soon as I remember what it was."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Reel Them In",
+      "text": "Everything's in place, and they've taken the bait... Yes. Now to start reeling them in..."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Perverse Pleasure",
+      "text": "I have to stifle a smile every time I remember the look on my retainers' faces when I informed them of my plans today... Panic-stricken, but unable to muster the courage to say anything in opposition, hehe. Yes, this was a fine idea."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Let's take shelter for the time being. Don't worry, one of my people will be here with umbrellas momentarily."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Ayaka was always scared of thunder as a child — until one day, mother told her that the sound of thunder is the voice of the Almighty Shogun. After that, she would start focusing intensely every time she heard the sound of thunder, as if by concentrating hard enough, she'd be able to hear exactly what Her Excellency was saying."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "This view reminds me of another time it snowed... that was a long time ago."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Opportunities to bask in the sunlight like this are few and far between."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When It's Windy",
+      "text": "Sometimes, what appears at first to be nothing but a passing breeze can ultimately be that which alters the course of events... Hehe."
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Most people hunker down against a strong headwind. Only a few people know how to utilize it to their advantage."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning. A little sword practice while the day is young is good for the body and mind. I tend to avoid having anything scheduled during these hours... What do you say? Fancy crossing blades with me?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "If there's anything in particular you'd like for lunch, just let one of my staff know in advance. As my honored guest, I'm sure they will do their utmost to accommodate you."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Given the hour of your call, perhaps you might stay for dinner?"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Ready to retire for the night, are we? Yes, go on then, you are excused. I'm not tired yet, so... Oh, it's you? Um, I have a few things to attend to. You should go and get some sleep."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Kamisato Ayato: Price to Pay",
+      "text": "Everything comes at a cost. And if you aspire to things that most could never dream of, then naturally, there will be an unimaginable price to pay."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Kamisato Ayato: Methodology",
+      "text": "I'm no stickler for doing things in a certain way. Whatever method you use, the important thing is that it delivers acceptable results."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Most Entertaining",
+      "text": "Hehe, I heard about the little job you pulled at the Tenryou Commission. Most entertaining... It takes a special kind of person to get old man Kujou riled up enough to start tearing his hair out. Ahh... Oh, to have been a fly on the wall."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Trust",
+      "text": "Trusting another person isn't easy, especially for someone of high status. Place your trust in the wrong person, and it can quite literally cost you your life. But you have placed your trust in me, and of course I will not let you down."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "A Vision is an eminently useful tool, so it only makes sense to put it to good use. Also, I like to think it's happiest in my possession because it has the chance to shine away in all its glory."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "If you throw fallen flowers onto the stove, the searing heat infuses them with one final spark of vitality, and for a brief moment, they radiate a more glorious glow than the flames themselves... it was a short life they lived, but it was by no means a wasted one."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "When it comes to pets... Mm, yes, I'm definitely more of a dog person myself. Cats are very independent, which has its merits, but you'll only find obedience in dogs. They'll do whatever you tell them to. Hehe, what can I say — I suppose I find loyalty to be quite an attractive quality."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Kamisato Ayaka",
+      "text": "I am confident in Ayaka's abilities. But I want her to be able to hold on to her innocence. She shouldn't have to get personally involved in power struggles, or confront the darker side of life head-on. As her older brother, it's my job to shield her from all of that... Heh, just... between the two of us, of course. Sorry, that got a little more private a little more quickly than I'd intended."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Thoma",
+      "text": "There is no doubt in my mind about Thoma's loyalty to the Kamisato Clan. A long time ago, partly to see where he stood, I advised him that he would be better off leaving if he didn't want to get drawn into the never-ending disputes that plague public life. Still, he chose to stay, and in all the time he's been with us, he's spared me much worry. There are very few people I trust completely these days, but Thoma is one of them."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Sayu",
+      "text": "She looks awfully idle the majority of the time, and yet when it counts, she always rises to the occasion and provides indispensable assistance. Of course, you'd know far more about that than me, wouldn't you?"
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Yoimiya",
+      "text": "Ah, the fireworks store owner. Yes, a most... spirited young lady. The Kamisato Clan is on rather close terms with her. She is around the same age as Ayaka, and the two get along very well. I trust her direct and outspoken disposition won't lead Ayaka astray. Ayaka has always been staunchly true to herself, ever since she was a young child."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About the Raiden Shogun",
+      "text": "The cost of pursuing eternity has been great for the Almighty Shogun... and for all of Inazuma. These wounds will take time to heal, and as someone with a mediating role to play in the political process, I will be sure to fulfill that which is required of me."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Yae Miko",
+      "text": "Lady Guuji has been kind to us in the Kamisato Clan, but she has never quite taken to me personally. I trust you'll have heard the way she refers to me... \"the Yashiro rascal\" and other such flattering monikers. We run into each other semi-regularly, given the overlap in our work, and despite whatever private thoughts we each may have, our working relationship is quite a harmonious one. I have no great objection to this state of affairs — working with intelligent people always makes things highly efficient. In any case... However objectionable she might find me, she would be forced to admit that without me, she would have no one to help execute her weird and wonderful ideas."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Kujou Sara",
+      "text": "Old man Kujou capitalized on a golden opportunity to create a most formidable weapon indeed. The only flaw in his plan being, he is now no longer able to wield the weapon of his creation."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Kaedehara Kazuha",
+      "text": "Once upon a time, the Kaedehara Clan was a subordinate branch of the Kamisato Clan. My forebears may have failed to save his family from decline, but even today I have a duty to support him. Now, naturally, there is nothing I can do to restore his clan's former fortunes. But as for helping him avoid arrest by the Tenryou Commission, that is well within my capabilities..."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Arataki Itto",
+      "text": "Now he's an interesting case. Pitting docile Onikabuto against each other in battle... heh, that's a first... I was only speaking in polite platitudes when I gave him that little pep talk, but to my surprise he started calling me \"bro\"... To this day, he calls me \"my bro Ayato\" without the faintest idea of my true identity. It's quite alright by me, though, I have nothing against his... unique character."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Ningguang",
+      "text": "I have heard a thing or two about how Her Eminence, the Tianquan operates. On the subject, I also happen to have a limited-edition copy of Liyue Millennial, if you're interested? What do you say, shall I have someone fetch it, so we can play a game?"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Kamisato Ayato: I",
+      "text": "You want to know about me? Hmm. Things aren't always a case of the more you know, the better. Plenty of proverbs to corroborate that, as I'm sure you're aware. Maybe we'll have the chance to talk more next time."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Kamisato Ayato: II",
+      "text": "Strange tastes, you say...? You seem to misunderstand me. Let me be quite clear: Most of the time, I simply enjoy watching people's facial contortions when they're put in an awkward position. Watching them squirm, you might say. Is that so strange? I would have thought you tease your little friend here on a regular basis for precisely that purpose, no?"
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Kamisato Ayato: III",
+      "text": "The Tri-Commission may appear calm and well-run, but I can assure you it is quite tumultuous beneath the placid surface. There is no pleasure to be had in mixing with the powers that be. I shall spare you the details. Just know that... I have never done anything to dishonor the Kamisato Clan. Neither in the past, when I was working to bring stability to our clan, nor here in the present, where I am working for the sake of all of Inazuma."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Kamisato Ayato: IV",
+      "text": "You want to know about the Shuumatsuban? I suppose there's no harm in divulging a detail or two to you. It's a secret unit that reports directly to the head of the Kamisato Clan. Accordingly, after my father passed, it came to me. There are certain situations I cannot directly involve myself in, and in these cases, being able to rely on the Shuumatsuban is often instrumental in achieving a resolution. Most of its members are orphans whom we take in and raise from a young age. This way, loyalty is guaranteed to the greatest extent possible, and we are spared a great deal of worry."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Kamisato Ayato: V",
+      "text": "Do I have other tricks up my sleeve beyond the Shuumatsuban? Well, naturally. If even the cunning bunny burrows thrice, then what of the cunning human? But anyway, I've shared enough of my secrets. I think it's time I heard your story. Oh, and... you can spare the part about traveling in Teyvat. Tell me about before that."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Kamisato Ayato's Hobbies",
+      "text": "Hobbies... I had one or two as a child, but these days most of my time is taken up by my official duties, so they don't count... Hmm? Some people treat work as a hobby, you say? Goodness me. How very... exceptional."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Kamisato Ayato's Troubles",
+      "text": "Troubles? Whenever something's troubling me, it must be dealt with swiftly and comprehensively. And whenever someone is troubling me... Hehe..."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food: Personal Preference",
+      "text": "Variety is the spice of life. In that sense, the Milk Tea Medley they started serving over in Hanamizaka recently isn't half bad. You should try it sometime. Other than that... I don't have any particular preferences when it comes to the food I eat on a daily basis. I have dedicated staff to arrange my daily meal plan, and whatever they serve, I eat."
+    },
+    {
+      "id": "6005",
+      "type": 1,
+      "title": "Favorite Food: Trying New Things",
+      "text": "You couldn't perchance tell me your own tastes, could you? ...Ah, I see. Okay, I've made a note of that. Now I know what to say the next time I get asked about it."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Hmm... it looks like I mixed up my salt and my sugar. Savory Mizu Manjuu. Yes, this can work. I'll give them to Thoma."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Very novel indeed. Haha, it meets my requirements perfectly..."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "I see. So this is your take on this dish..."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Here's a suggestion: Try using this dish in the hot pot game next time you play."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy Birthday! Now, how would you like to be Yashiro Commissioner for a day, hmm? All the work has been handled already, so you can focus on simply enjoying the feeling of having an enormous amount of executive power at your fingertips. Don't worry, the retainers won't dare question it, I'll be with you the entire time, hehe."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Did I just grow more competent? Goodness, how marvelous..."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "At the end of the day, power is only a source of comfort when it is concentrated in one's own hands."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Hehe, I'm sure certain people are starting to grow rather nervous right about now..."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "I've had very few chances to kick back and put my feet up since taking over leadership of the clan. But things have felt curiously different since having you around. Hmm... Yes, it feels rather like basking in the sun."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Be still."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Cascade."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Mind the deluge."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Hmph... The depths beckon."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Kamisato Art: Suiyuu!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "All yours, should you have any use for them."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Oh... so you collect these?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Mm, yes, very nice."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "This is getting interesting..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Alright. Time to get serious."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "One of us has to go."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Time to withdraw."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Pace yourself before you erase yourself."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "But the plan... was watertight..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "I'm feeling a little washed-out..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Such is life..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "That's far enough."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "I may have overestimated myself..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "What's that? Join you for a walk? Why not."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Very well, I shall put my official duties to one side for the moment."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Hmm... Well, this ought to be entertaining."
+    }
+  ]
+}

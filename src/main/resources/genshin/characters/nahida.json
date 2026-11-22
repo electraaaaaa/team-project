@@ -1,0 +1,1831 @@
+{
+  "_id": 10000073,
+  "id": "nahida",
+  "name": "Nahida",
+  "title": "Physic of Purity",
+  "description": "A caged bird secluded within the confines of the Sanctuary of Surasthana who can only see the world in her dreams.",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "dendro",
+    "name": "Dendro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1667253600,
+  "substat": "Elemental Mastery",
+  "stats": {
+    "base": {
+      "hp": 806.5087,
+      "attack": 23.275,
+      "defense": 49.0606
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 691.5083,
+        "attack": 19.95475,
+        "defense": 42.066,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1182.8431,
+        "attack": 34.133125,
+        "defense": 71.955,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 28.8
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1837.9563,
+        "attack": 53.037624,
+        "defense": 111.807,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 57.6
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2329.291,
+        "attack": 67.216,
+        "defense": 141.696,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 57.6
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2820.626,
+        "attack": 81.39438,
+        "defense": 171.585,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 86.4
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3311.961,
+        "attack": 95.57275,
+        "defense": 201.474,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 115.2
+        }
+      }
+    ]
+  },
+  "affiliation": "Sumeru City",
+  "region": {
+    "id": "sumeru",
+    "name": "Sumeru"
+  },
+  "rarity": 5,
+  "birthday": [
+    27,
+    10
+  ],
+  "constellation": "Sapientia Oromasdis",
+  "domain": "Steeple of Ignorance",
+  "cv": {
+    "english": "Kimberley Anne Campbell",
+    "chinese": "花玲",
+    "japanese": "田村ゆかり",
+    "korean": "Park Shi-yoon"
+  },
+  "skills": [
+    {
+      "_id": 10731,
+      "id": "akara",
+      "name": "Akara",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 attacks that deal <span style=\"color:#99FF88FF\">Dendro DMG</span> to opponents in front of her.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to deal <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> to opponents in front of her after a short casting time.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Calling upon the might of Dendro, Nahida plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "40.3%",
+            "43.3%",
+            "46.4%",
+            "50.4%",
+            "53.4%",
+            "56.4%",
+            "60.5%",
+            "64.5%",
+            "68.5%",
+            "72.5%",
+            "76.6%",
+            "80.6%",
+            "85.6%",
+            "90.7%",
+            "95.7%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "37%",
+            "39.7%",
+            "42.5%",
+            "46.2%",
+            "49%",
+            "51.8%",
+            "55.5%",
+            "59.2%",
+            "62.9%",
+            "66.6%",
+            "70.3%",
+            "73.9%",
+            "78.6%",
+            "83.2%",
+            "87.8%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "45.9%",
+            "49.3%",
+            "52.8%",
+            "57.3%",
+            "60.8%",
+            "64.2%",
+            "68.8%",
+            "73.4%",
+            "78%",
+            "82.6%",
+            "87.2%",
+            "91.7%",
+            "97.5%",
+            "103.2%",
+            "109%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "58.4%",
+            "62.8%",
+            "67.2%",
+            "73%",
+            "77.4%",
+            "81.8%",
+            "87.6%",
+            "93.5%",
+            "99.3%",
+            "105.1%",
+            "111%",
+            "116.8%",
+            "124.1%",
+            "131.4%",
+            "138.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "132%",
+            "141.9%",
+            "151.8%",
+            "165%",
+            "174.9%",
+            "184.8%",
+            "198%",
+            "211.2%",
+            "224.4%",
+            "237.6%",
+            "250.8%",
+            "264%",
+            "280.5%",
+            "297%",
+            "313.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10732,
+      "id": "all_schemes_to_know",
+      "name": "All Schemes to Know",
+      "description": "Sends forth karmic bonds of wood and tree from her side, dealing <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> and marking up to 8 opponents hit with the Seed of Skandha.<br/>When held, this skill will trigger differently.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Enters Aiming Mode, which will allow you to select a limited number of opponents within a limited area. During this time, Nahida's resistance to interruption will be increased.<br/>When released, this skill deals <span style=\"color:#99FF88FF\">Dendro DMG</span> to these opponents and marks them with the Seed of Skandha.<br/>Aiming Mode will last up to 5s and can select a maximum of 8 opponents.<br/><br/><span style=\"color:#FFD780FF\">Seed of Skandha</span><br/>Opponents who have been marked by the Seed of Skandha will be linked to one another up till a certain distance.<br/>After you trigger Elemental Reactions on opponents who are affected by the Seeds of Skandha or when they take DMG from Dendro Cores (including Burgeon and Hyperbloom DMG), Nahida will unleash Tri-Karma Purification on the opponents and all connected opponents, dealing <span style=\"color:#99FF88FF\">Dendro DMG</span> based on her ATK and Elemental Mastery.<br/>You can trigger at most 1 Tri-Karma Purification within a short period of time.",
+      "info": "Lo, the god of grass and trees shines her ultimate truth into the void, illuminating the origin and destruction of the three karmas.",
+      "attributes": [
+        {
+          "label": "Press DMG",
+          "values": [
+            "98.4%",
+            "105.8%",
+            "113.2%",
+            "123%",
+            "130.4%",
+            "137.8%",
+            "147.6%",
+            "157.4%",
+            "167.3%",
+            "177.1%",
+            "187%",
+            "196.8%",
+            "209.1%",
+            "221.4%",
+            "233.7%"
+          ]
+        },
+        {
+          "label": "Hold DMG",
+          "values": [
+            "130.4%",
+            "140.2%",
+            "150%",
+            "163%",
+            "172.8%",
+            "182.6%",
+            "195.6%",
+            "208.6%",
+            "221.7%",
+            "234.7%",
+            "247.8%",
+            "260.8%",
+            "277.1%",
+            "293.4%",
+            "309.7%"
+          ]
+        },
+        {
+          "label": "Tri-Karma Purification DMG",
+          "values": [
+            "103.2% ATK + 206.4% Elemental Mastery",
+            "110.9% ATK + 221.9% Elemental Mastery",
+            "118.7% ATK + 237.4% Elemental Mastery",
+            "129% ATK + 258% Elemental Mastery",
+            "136.7% ATK + 273.5% Elemental Mastery",
+            "144.5% ATK + 289% Elemental Mastery",
+            "154.8% ATK + 309.6% Elemental Mastery",
+            "165.1% ATK + 330.2% Elemental Mastery",
+            "175.4% ATK + 350.9% Elemental Mastery",
+            "185.8% ATK + 371.5% Elemental Mastery",
+            "196.1% ATK + 392.2% Elemental Mastery",
+            "206.4% ATK + 412.8% Elemental Mastery",
+            "219.3% ATK + 438.6% Elemental Mastery",
+            "232.2% ATK + 464.4% Elemental Mastery",
+            "245.1% ATK + 490.2% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Tri-Karma Purification Trigger Interval",
+          "values": [
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s"
+          ]
+        },
+        {
+          "label": "Seed of Skandha Duration",
+          "values": [
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s"
+          ]
+        },
+        {
+          "label": "Press CD",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Hold CD",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10735,
+      "id": "illusory_heart",
+      "name": "Illusory Heart",
+      "description": "Manifests the Court of Dreams and expands the Shrine of Maya.<br/><br/>When the Shrine of Maya field is unleashed, the following effects will be separately unleashed based on the Elemental Types present within the party.<br/>·<span style=\"color:#FF9999FF\">Pyro</span>: While Nahida remains within the Shrine of Maya, the DMG dealt by Tri-Karma Purification from \"All Schemes to Know\" is increased.<br/>·<span style=\"color:#FFACFFFF\">Electro</span>: While Nahida remains within the Shrine of Maya, the interval between each Tri-Karma Purification from \"All Schemes to Know\" is decreased.<br/>·<span style=\"color:#80C0FFFF\">Hydro</span>: The Shrine of Maya's duration is increased.<br/><br/>If there are at least 2 party members of the aforementioned Elemental Types present when the field is deployed, the aforementioned effects will be increased further.<br/><br/>Even if Nahida is not on the field, these bonuses will still take effect so long as party members are within the Shrine of Maya.",
+      "info": "Perhaps all that dwell under the bowers of trees are naught but a fleeting upside-down dream in the eyes of the God of Wisdom.",
+      "attributes": [
+        {
+          "label": "Pyro: DMG Bonus",
+          "values": [
+            "2 Characters 22.3%",
+            "2 Characters 24%",
+            "2 Characters 25.7%",
+            "2 Characters 27.9%",
+            "2 Characters 29.6%",
+            "2 Characters 31.2%",
+            "2 Characters 33.5%",
+            "2 Characters 35.7%",
+            "2 Characters 37.9%",
+            "2 Characters 40.2%",
+            "2 Characters 42.4%",
+            "2 Characters 44.6%",
+            "2 Characters 47.4%",
+            "2 Characters 50.2%",
+            "2 Characters 53%"
+          ]
+        },
+        {
+          "label": "Electro: Trigger Interval Decrease",
+          "values": [
+            "2 Characters 0.37s",
+            "2 Characters 0.4s",
+            "2 Characters 0.43s",
+            "2 Characters 0.47s",
+            "2 Characters 0.49s",
+            "2 Characters 0.52s",
+            "2 Characters 0.56s",
+            "2 Characters 0.6s",
+            "2 Characters 0.63s",
+            "2 Characters 0.67s",
+            "2 Characters 0.71s",
+            "2 Characters 0.74s",
+            "2 Characters 0.79s",
+            "2 Characters 0.84s",
+            "2 Characters 0.88s"
+          ]
+        },
+        {
+          "label": "Hydro: Duration Extension",
+          "values": [
+            "2 Characters 5.02s",
+            "2 Characters 5.39s",
+            "2 Characters 5.77s",
+            "2 Characters 6.27s",
+            "2 Characters 6.65s",
+            "2 Characters 7.02s",
+            "2 Characters 7.52s",
+            "2 Characters 8.03s",
+            "2 Characters 8.53s",
+            "2 Characters 9.03s",
+            "2 Characters 9.53s",
+            "2 Characters 10.03s",
+            "2 Characters 10.66s",
+            "2 Characters 11.29s",
+            "2 Characters 11.91s"
+          ]
+        },
+        {
+          "label": "Base Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "compassion_illuminated",
+      "name": "Compassion Illuminated",
+      "description": "When unleashing <span style=\"color:#FFD780FF\">Illusory Heart</span>, the Shrine of Maya will gain the following effects:<br/>The Elemental Mastery of the active character within the field will be increased by 25% of the Elemental Mastery of the party member with the highest Elemental Mastery.<br/>You can gain a maximum of 250 Elemental Mastery in this manner.",
+      "level": 1
+    },
+    {
+      "id": "awakening_elucidated",
+      "name": "Awakening Elucidated",
+      "description": "Each point of Nahida's Elemental Mastery beyond 200 will grant 0.1% Bonus DMG and 0.03% CRIT Rate to Tri-Karma Purification from <span style=\"color:#FFD780FF\">All Schemes to Know</span>.<br/>A maximum of 80% Bonus DMG and 24% CRIT Rate can be granted to Tri-Karma Purification in this manner.",
+      "level": 4
+    },
+    {
+      "id": "on_all_things_meditated",
+      "name": "On All Things Meditated",
+      "description": "Nahida can use <span style=\"color:#FFD780FF\">All Schemes to Know</span> to interact with some harvestable items within a fixed AoE.<br/>This skill may even have some other effects...",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 731,
+      "id": "the_seed_of_stored_knowledge",
+      "name": "The Seed of Stored Knowledge",
+      "description": "When the <span style=\"color:#FFD780FF\">Shrine of Maya</span> is unleashed and the Elemental Types of the party members are being tabulated, the count will add 1 to the number of Pyro, Electro, and Hydro characters respectively.",
+      "level": 1
+    },
+    {
+      "_id": 732,
+      "id": "the_root_of_all_fullness",
+      "name": "The Root of All Fullness",
+      "description": "Opponents that are marked by <span style=\"color:#FFD780FF\">Seeds of Skandha</span> applied by Nahida herself will be affected by the following effects:<br/>· Burning, Bloom, Hyperbloom, and Burgeon Reaction DMG they receive can score CRIT Hits. CRIT Rate and CRIT DMG are fixed at 20% and 100% respectively. CRIT Rate from this effect stacks with CRIT Rate from similar effects that allow these Elemental Reactions to CRIT.<br/>· Within 8s of being affected by Quicken, Aggravate, or Spread, DEF is decreased by 30%.<br/>· The CRIT Rate and CRIT DMG of Lunar-Bloom DMG received are increased by 10% and 20% respectively.",
+      "level": 2
+    },
+    {
+      "_id": 733,
+      "id": "the_shoot_of_conscious_attainment",
+      "name": "The Shoot of Conscious Attainment",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">All Schemes to Know</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 734,
+      "id": "the_stem_of_manifest_inference",
+      "name": "The Stem of Manifest Inference",
+      "description": "When 1/2/3/4 (or more) nearby opponents are affected by <span style=\"color:#FFD780FF\">All Schemes to Know</span>'s Seeds of Skandha, Nahida's Elemental Mastery will be increased by 100/120/140/160.",
+      "level": 4
+    },
+    {
+      "_id": 735,
+      "id": "the_leaves_of_enlightening_speech",
+      "name": "The Leaves of Enlightening Speech",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Illusory Heart</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 736,
+      "id": "the_fruit_of_reasons_culmination",
+      "name": "The Fruit of Reason's Culmination",
+      "description": "When Nahida hits an opponent affected by <span style=\"color:#FFD780FF\">All Schemes to Know</span>'s Seeds of Skandha with Normal or Charged Attacks after unleashing <span style=\"color:#FFD780FF\">Illusory Heart</span>, she will use Tri-Karma Purification: Karmic Oblivion on this opponent and all connected opponents, dealing <span style=\"color:#99FF88FF\">Dendro DMG</span> based on 200% of Nahida's ATK and 400% of her Elemental Mastery.<br/>DMG dealt by Tri-Karma Purification: Karmic Oblivion is considered Elemental Skill DMG and can be triggered once every 0.2s.<br/>This effect can last up to 10s and will be removed after Nahida has unleashed 6 instances of Tri-Karma Purification: Karmic Oblivion.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "807"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "23"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "49"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "-",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2092",
+            "2784"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "60",
+            "80"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "127",
+            "169"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4165",
+            "4656"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "120",
+            "134"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "253",
+            "283"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "0",
+            "29"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104131,
+        "id": "nagadus_emerald_sliver",
+        "name": "Nagadus Emerald Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112059,
+        "id": "fungal_spores",
+        "name": "Fungal Spores",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5357",
+            "6012"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "155",
+            "174"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "326",
+            "366"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "29",
+            "58"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104132,
+        "id": "nagadus_emerald_fragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112059,
+        "id": "fungal_spores",
+        "name": "Fungal Spores",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6721",
+            "7212"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "194",
+            "208"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "409",
+            "439"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "58",
+            "58"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104132,
+        "id": "nagadus_emerald_fragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112060,
+        "id": "luminescent_pollen",
+        "name": "Luminescent Pollen",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7926",
+            "8418"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "229",
+            "243"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "482",
+            "512"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "58",
+            "86"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104133,
+        "id": "nagadus_emerald_chunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112060,
+        "id": "luminescent_pollen",
+        "name": "Luminescent Pollen",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9140",
+            "9632"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "264",
+            "278"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "556",
+            "586"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "86",
+            "115"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104133,
+        "id": "nagadus_emerald_chunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112061,
+        "id": "crystalline_cyst_dust",
+        "name": "Crystalline Cyst Dust",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10360",
+            "10360"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "299",
+            "299"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "630",
+            "630"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "115",
+            "115"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104134,
+        "id": "nagadus_emerald_gemstone",
+        "name": "Nagadus Emerald Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112061,
+        "id": "crystalline_cyst_dust",
+        "name": "Crystalline Cyst Dust",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104332,
+          "id": "teachings_of_ingenuity",
+          "name": "Teachings of Ingenuity",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112059,
+          "id": "fungal_spores",
+          "name": "Fungal Spores",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112060,
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112060,
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112060,
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112060,
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112061,
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112061,
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112061,
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112061,
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 207300,
+      "name": "For All Knowledge, a Verse",
+      "description": "Nahida's outfit. Only the oracles that interpret knowledge may robe the God of Wisdom, and so even the smallest ornament is viewed by believers as holy writ.",
+      "isDefault": true,
+      "characterName": "Nahida",
+      "characterId": 10000073,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Nahida_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Nice to meet you! Hehe, I've actually been watching you for a long time already. My name's Nahida. I might look like a child, but don't be fooled: I understand this world much better than any grown-up. So... can we trade knowledge? I want to hear all about your travel stories. So, what would you like to know in return?"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Invitation",
+      "text": "If you're not sure what to do next, how about I take you on a walk?"
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Concerns",
+      "text": "Something on your mind again? Let's work through it together. Two heads are better than one."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Feelings",
+      "text": "What they say is true: You have to see the world for yourself to appreciate how beautiful it is."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Quick, let's find shelter, or mushrooms will start growing on our heads."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Did you know that the sound of thunder is the prelude to new life? *sigh* Soon, this land will be brimming with vitality."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Can you hear that? The heavens are whispering to all living things, \"It's time for bed now.\""
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Ah, the weather is lovely and warm. Things are about to start getting lively again."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When It's Windy",
+      "text": "The wind never blows in the Sanctuary of Surasthana... Oh, sorry. That's probably obvious to you."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning. We should get going right away. There are too many things in this world that you'll miss if you don't get there on time."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Ah, time for a break. I'd really like a Berry & Mint Burst... If you get one for me, I'll tell you a couple of stories about the sun. Okay?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "The sun's setting. It's time to wave goodbye and let the creatures of the night take center stage."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "You should go to sleep now. Don't worry, I've made sure there's a sweet dream waiting for you."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Nahida: Knowledge",
+      "text": "Oh, the Mare Jivari? A place without anything at all, completely empty — just like a Shroomboar's brain. Of course I know it. ...Hmm? I, uh... It's true, I've never seen it with my own eyes. It's one of the many places beyond my reach."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Nahida: Obsession",
+      "text": "The gods gave humans barely enough knowledge for them to fill their stomachs. Yet, they used it to craft tools, write books, and build cities, and now they've set their sights on the stars and the abyss... With every moment that goes by, they're creating brand-new knowledge, so I never want to take my eyes off them."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Story Time",
+      "text": "The things you've experienced on your journey are so much more exciting than anything I've ever learned. And now, I get to ask you about all of it any time I want, so I can understand each and every little detail... I couldn't ask for more. Alright, let's not waste any more time. Now where were we...?"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Journey",
+      "text": "Being a listener has never been enough for me. I've always dreamed of going out and seeing things for myself. You're such an experienced adventurer... Can you be my guide? I want to experience all your future tales first-hand."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "The heavens grew eyes to behold the true beauty of the world below, but humans already have eyes to begin with. So, what is it they see when they look at the world not with their eyes, but their vision? You're very smart. Can you figure out what the answer is?"
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Very often, only once we get hurt badly are we finally forced to face our own laziness, ignorance, recklessness, or arrogance. There's nothing to regret, though. We have no way of seeing all the possibilities that lie ahead in the future, so we have to rely on clumsy trial-and-error to gain knowledge. Just think of pain as the tuition you have to pay."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things: A Flower Yet to Blossom",
+      "text": "Sumeru's desert looks more desolate than the rainforest, but it's also home to an ancient civilization, and supports its own stable ecosystem. One day, when it finally stops arguing with the rainforest, I'm sure that flowers will blossom there, the likes of which I've never seen before."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Cyno: Jokes",
+      "text": "His jokes are like buried treasure: gems hidden beneath the surface. They're a lot of fun. Hmm? Well, which part didn't you get? Okay, I can explain it for you."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Cyno: Duty",
+      "text": "Not every General Mahamatra would take such a clear-cut and decisive stance when faced with a conflict between order and justice. He must know only too well that compromise is a path that leads to a dead end, so it's extremely fortunate for all of Sumeru that he's now been able to return to his rightful post."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Tighnari",
+      "text": "The Forest Watchers played an essential role in helping the rainforest to withstand the Withering and continue to flourish, and Tighnari is the best of them all. Still... I do hope he learns to be a little gentler with people. Otherwise, it's gonna be difficult for the Forest Rangers to attract new top talent."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Collei",
+      "text": "When I heard her story for the first time, her tenacity shone through like a dazzling gemstone. She's been through so much... I hope that just as the rainforest supports all kinds of life, Sumeru will always provide a safe and nurturing environment for her, so that she can grow up healthy and strong."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Alhaitham",
+      "text": "He holds a body of knowledge more advanced than most could imagine, and his mind is constantly thinking, so maybe nothing in this world could ever fool him. But is the wise man truly wise to view the mediocre majority as defective? Because without them, there is no us."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Nilou",
+      "text": "I once borrowed someone else's body to ask her if she'd mind allowing Lesser Lord Kusanali to watch her dance... Actually, I had already watched her lots of times before in secret, but I wanted to attend her dance at the Sabzeruz Festival properly, in person, as a sign of respect. Anyway, it turned out that she gently declined the offer... I was a little sad about that."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Dori",
+      "text": "The first thing she said when she saw me was \"Nice palace. How much?\" Of course, I couldn't possibly sell her the Sanctuary of Surasthana. But still, her question had me stumped. I thought about it long and hard, but I still can't figure out how much Mora it's worth..."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Kaveh",
+      "text": "He has an almost-perfect grasp of what it truly means for Sumeru to be a Nation of Wisdom. Sadly, the truth as he understands it will never be accepted as the mainstream. Hmm? He's roommates with Alhaitham? Wow... the world really is full of surprises..."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Faruzan",
+      "text": "She is suffering from exposure to remnants of King Deshret's power. It's as if the great tortoise of time accidentally threw her off its back and left her suspended in the past. If you're interested, you should be able to catch a glimpse of Sumeru from a bygone age through her."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About The Seven: Introduction",
+      "text": "I'm led to believe that long, long ago, the Seven Archons used to stay in regular contact with each other. I'm a bit of a special case though, so I don't have any memory of that time... Now that things have settled down in Sumeru, I think it's about time I made contact with them again. You're on familiar terms with some of them, right? Would you mind introducing me?"
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About The Seven: Games",
+      "text": "I hear that playing games is a good way to quickly bring people closer together. I'm sure it must work for gods, too. How about once everyone meets up, I suggest we play hopscotch together? ...Hmm, on second thought, maybe not. If I draw the squares, it would look like I made them really small on purpose just so I could win. That wouldn't be fair on the others."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About The Balladeer",
+      "text": "When he finally achieved the ambition he thought he'd been pursuing all along, was he content at last, or only emptier still? We only yearn for the skies because we cannot fly... Hmm, perhaps he should reflect on this once he has held the sheer emptiness of the skies in his grasp."
+    },
+    {
+      "id": "4013",
+      "type": 1,
+      "title": "About Furina",
+      "text": "People often say that wisdom isn't about what you know, but knowing what you can change. It is beyond question that the \"prophecy\" was carved into Irminsul long ago... and while it may look like nothing has changed, it also seems like everything has. I think we both know her to be smart enough to turn the fate of the world around."
+    },
+    {
+      "id": "4014",
+      "type": 1,
+      "title": "About Haborym",
+      "text": "The Abyss manifests its power in a manner that is most devastating to the place in question. In Sumeru, it was forbidden knowledge. In Natlan, it was monstrous creatures. Our experience combatting the Abyss is inapplicable to Natlan for that very reason, but I still regret that I was unable to offer aid. Thankfully, the crisis has now been resolved, and Mavuika said many Natlanese are planning to visit Sumeru. I plan to welcome them with open arms!"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Nahida: I",
+      "text": "My past is quite monotonous. I could tell you about it, but it wouldn't be long before you let out a great, big yawn, like a Pufferfish taking in a big gulp of water. But curiosity is worth its weight in gold, and I wouldn't want yours to go to waste... I know — let me tell you about all the dreams I've had."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Nahida: II",
+      "text": "In my dreams, there's often a flower pot. Every time I water it and add fresh fertilizer, the same flower grows. Can you still enjoy the process of growing flowers when you already know the exact outcome in advance? Hehe, well, for me, I'm glad that at least after the flower has blossomed, it attracts different colored butterflies each time, and sometimes even bees."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Nahida: III",
+      "text": "In my dreams, there's often an hourglass. I like to add a few drops of water. Then, I shake it up, and time how long it takes to settle, and see if there's any difference from the last time. There's no reasoning behind it and nothing to gain out of it, but somehow it seems to relieve the exhaustion in my brain. I think that the fact that it's for nothing is what makes it fun for me."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Nahida: IV",
+      "text": "In my dreams, there's often an empty space. No matter how the scenery changes around it, the emptiness always occupies the most important place. Strange, isn't it? I think there used to be something there, but for all the power I have over dreams, I still can't find the answer as to what it was. Ugh, seems like even in my dreams, there are things that I can't control..."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Nahida: V",
+      "text": "In my dreams, there can be anything — anything except people coming and going. But since meeting you, it's gradually started to get more lively here... Maybe you're a guide, adding a human touch to my dreams and leading me out from my cage. Hehe, c'mon, let's go. The journey's only just beginning, and I'd like you to carry on leading the way."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Nahida's Hobbies",
+      "text": "Umm... does watching you count as a hobby? Because everything you do fascinates me. You're traveling the whole world... Where did you come from, and where will you go next? Who will you meet, and what challenges will you have to overcome? I want to know the answers to all these questions and more. So please don't mind me, I just wanna keep on watching you, all the time."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Nahida's Troubles",
+      "text": "I think I'm good at asking the right questions and giving good answers, but I've come to realize that a lot of people just convince themselves they don't understand. The answers to their problems don't help them. It seems to me that as people grow older, they lose the courage to question things and accept the truth..."
+    },
+    {
+      "id": "6005",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Definitely Candied Ajilenakh Nuts. I just need one little bite and my brain starts chugging away at top speed, and suddenly there's no problem too difficult for me to solve. The only thing you need to watch out for is: Don't put the jar somewhere that's too easy to reach."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Sea creatures are born into infinite darkness and live their lives in the depths of the ocean. It's a complete unknown to me. Eating them is like swallowing an icky storm cloud."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Mm, may the world never forget this beautiful flavor. Thank you."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Hehe, I really appreciate this. It tastes lovely."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "...How should I put this? I guess... you wouldn't feed Shroomboars to a Sumpter Beast, would you?"
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "I was thinking, your birthday celebration needs to be at least as grand as the Sabzeruz Festival, so... Hmm? Too much? But everyone's already done preparing for it. C'mon, c'mon, let's go! Just this once — I'll make sure you love it!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "I'm getting smarter!"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "My mind is growing even bigger. It feels like you could fit the entire sky and ocean inside it."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "I feel like a Nilotpala Lotus that's been reunited with its leaves, or a Sango Pearl that's found its shell."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Thank you for allowing me to be your companion, and for teaching me so many new things. As the God of Wisdom, I grant to you my blessing: From here onward, may your journey be free from confusion that clouds your mind and obstacles that block your path."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Committed to memory."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Grow, grow, grow."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "This might hurt a little."
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Hey!"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Everyone hold hands~"
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "I see everything."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Make yourselves at home~"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Share in my knowledge."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "The Temple of Wisdom."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Curiosity deserves a reward."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "I wonder who this gift could be from."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Find anything you like?"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Let's change tactics."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Stop fighting!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "This was unwise..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Let me put my mind to it."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Don't bite off more than you can chew."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "No life... lasts forever..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "I'm... withering..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "I don't... understand..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "That really hurt..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "I'm seeing stars..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "I've been waiting for you for ages."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "There are still so many places for us to explore."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Time to broaden our horizons again."
+    }
+  ]
+}

@@ -1,0 +1,1727 @@
+{
+  "_id": 10000015,
+  "id": "kaeya",
+  "name": "Kaeya",
+  "title": "Frostwind Swordsman",
+  "description": "An accomplished swordsman and a strategic thinker in the Knights of Favonius, rumored to hail from beyond Mondstadt.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1601244000,
+  "substat": "Energy Recharge",
+  "stats": {
+    "base": {
+      "hp": 975.6164,
+      "attack": 18.6984,
+      "defense": 66.381
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 728.8354,
+        "attack": 13.96899,
+        "defense": 49.59,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1246.6921,
+        "attack": 23.894325,
+        "defense": 84.825,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.0667
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1937.1677,
+        "attack": 37.128105,
+        "defense": 131.805,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.1333
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2455.0244,
+        "attack": 47.05344,
+        "defense": 167.04,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.1333
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2972.881,
+        "attack": 56.978775,
+        "defense": 202.275,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.2
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3490.7378,
+        "attack": 66.90411,
+        "defense": 237.51,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.2667
+        }
+      }
+    ]
+  },
+  "affiliation": "Knights of Favonius",
+  "region": {
+    "id": "mondstadt",
+    "name": "Mondstadt"
+  },
+  "rarity": 4,
+  "birthday": [
+    30,
+    11
+  ],
+  "constellation": "Pavo Ocellus",
+  "domain": "Forsaken Rift",
+  "cv": {
+    "english": "Josey Montana McCoy",
+    "chinese": "孙晔",
+    "japanese": "鳥海浩輔",
+    "korean": "Jung Joo-won"
+  },
+  "skills": [
+    {
+      "_id": 10073,
+      "id": "ceremonial_bladework",
+      "name": "Ceremonial Bladework",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 rapid strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "53.8%",
+            "58.1%",
+            "62.5%",
+            "68.8%",
+            "73.1%",
+            "78.1%",
+            "85%",
+            "91.9%",
+            "98.8%",
+            "106.3%",
+            "114.8%",
+            "125%",
+            "135.1%",
+            "145.2%",
+            "156.2%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "51.7%",
+            "55.9%",
+            "60.1%",
+            "66.1%",
+            "70.3%",
+            "75.1%",
+            "81.7%",
+            "88.3%",
+            "95%",
+            "102.2%",
+            "110.4%",
+            "120.2%",
+            "129.9%",
+            "139.6%",
+            "150.2%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "65.3%",
+            "70.6%",
+            "75.9%",
+            "83.5%",
+            "88.8%",
+            "94.9%",
+            "103.2%",
+            "111.6%",
+            "119.9%",
+            "129%",
+            "139.5%",
+            "151.7%",
+            "164%",
+            "176.3%",
+            "189.7%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "70.9%",
+            "76.6%",
+            "82.4%",
+            "90.6%",
+            "96.4%",
+            "103%",
+            "112.1%",
+            "121.1%",
+            "130.2%",
+            "140.1%",
+            "151.4%",
+            "164.7%",
+            "178.1%",
+            "191.4%",
+            "205.9%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "88.2%",
+            "95.4%",
+            "102.6%",
+            "112.9%",
+            "120%",
+            "128.3%",
+            "139.5%",
+            "150.8%",
+            "162.1%",
+            "174.4%",
+            "188.5%",
+            "205.1%",
+            "221.7%",
+            "238.3%",
+            "256.4%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "55% + 73.1%",
+            "59.5% + 79%",
+            "64% + 85%",
+            "70.4% + 93.5%",
+            "74.9% + 99.5%",
+            "80% + 106.3%",
+            "87% + 115.6%",
+            "94.1% + 125%",
+            "101.1% + 134.3%",
+            "108.8% + 144.5%",
+            "117.6% + 156.2%",
+            "127.9% + 169.9%",
+            "138.3% + 183.7%",
+            "148.6% + 197.4%",
+            "159.9% + 212.4%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10074,
+      "id": "frostgnaw",
+      "name": "Frostgnaw",
+      "description": "Unleashes a frigid blast, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span> to opponents in front of Kaeya.",
+      "info": "Kaeya seems affable, but his nature is that of unyielding ice.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "191.2%",
+            "205.5%",
+            "219.9%",
+            "239%",
+            "253.3%",
+            "267.7%",
+            "286.8%",
+            "305.9%",
+            "325%",
+            "344.2%",
+            "363.3%",
+            "382.4%",
+            "406.3%",
+            "430.2%",
+            "454.1%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10075,
+      "id": "glacial_waltz",
+      "name": "Glacial Waltz",
+      "description": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.<br/>These icicles will follow the character around and deal <span style=\"color:#99FFFFFF\">Cryo DMG</span> to opponents in their path for the ability's duration.",
+      "info": "A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "77.6%",
+            "83.4%",
+            "89.2%",
+            "97%",
+            "102.8%",
+            "108.6%",
+            "116.4%",
+            "124.2%",
+            "131.9%",
+            "139.7%",
+            "147.4%",
+            "155.2%",
+            "164.9%",
+            "174.6%",
+            "184.3%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "coldblooded_strike",
+      "name": "Cold-Blooded Strike",
+      "description": "Every hit with <span style=\"color:#FFD780FF\">Frostgnaw</span> regenerates HP for Kaeya equal to 15% of his ATK.",
+      "level": 1
+    },
+    {
+      "id": "glacial_heart",
+      "name": "Glacial Heart",
+      "description": "Opponents <span style=\"color:#99FFFFFF\">Frozen</span> by <span style=\"color:#FFD780FF\">Frostgnaw</span> will drop additional Elemental Particles.<br/>Frostgnaw may only produce a maximum of 2 additional Elemental Particles per use.",
+      "level": 4
+    },
+    {
+      "id": "hidden_strength",
+      "name": "Hidden Strength",
+      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.<br/>Not stackable with Passive Talents that provide the exact same effects.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 151,
+      "id": "excellent_blood",
+      "name": "Excellent Blood",
+      "description": "The CRIT Rate of Kaeya's Normal and Charge Attacks against opponents affected by <span style=\"color:#99FFFFFF\">Cryo</span> is increased by 15%.",
+      "level": 1
+    },
+    {
+      "_id": 152,
+      "id": "neverending_performance",
+      "name": "Never-Ending Performance",
+      "description": "While <span style=\"color:#FFD780FF\">Glacial Waltz</span> is in effect, for each opponent defeated, its duration is increased by 2.5s, up to a maximum of 15s.",
+      "level": 2
+    },
+    {
+      "_id": 153,
+      "id": "dance_of_frost",
+      "name": "Dance of Frost",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Frostgnaw</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 154,
+      "id": "frozen_kiss",
+      "name": "Frozen Kiss",
+      "description": "Triggers automatically when Kaeya's HP falls below 20%:<br/>Creates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.<br/>This shield absorbs <span style=\"color:#99FFFFFF\">Cryo DMG</span> with 250% efficiency.<br/>Can only occur once every 60s.",
+      "level": 4
+    },
+    {
+      "_id": 155,
+      "id": "frostbiting_embrace",
+      "name": "Frostbiting Embrace",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Glacial Waltz</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 156,
+      "id": "glacial_whirlwind",
+      "name": "Glacial Whirlwind",
+      "description": "<span style=\"color:#FFD780FF\">Glacial Waltz</span> will generate 1 additional icicle, and will regenerate 15 Energy when cast.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "976"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "19"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "66"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "-",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2506",
+            "3235"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "48",
+            "62"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "171",
+            "220"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4846",
+            "5364"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "93",
+            "103"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "330",
+            "365"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100056,
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112035,
+        "id": "treasure_hoarder_insignia",
+        "name": "Treasure Hoarder Insignia",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6170",
+            "6860"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "118",
+            "131"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "420",
+            "467"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100056,
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112035,
+        "id": "treasure_hoarder_insignia",
+        "name": "Treasure Hoarder Insignia",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7666",
+            "8184"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "147",
+            "157"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "522",
+            "557"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100056,
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112036,
+        "id": "silver_raven_insignia",
+        "name": "Silver Raven Insignia",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8989",
+            "9507"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "172",
+            "182"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "612",
+            "647"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100056,
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112036,
+        "id": "silver_raven_insignia",
+        "name": "Silver Raven Insignia",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10312",
+            "10830"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "198",
+            "208"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "702",
+            "737"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100056,
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112037,
+        "id": "golden_raven_insignia",
+        "name": "Golden Raven Insignia",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11636",
+            "11636"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "223",
+            "223"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "792",
+            "792"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100056,
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112037,
+        "id": "golden_raven_insignia",
+        "name": "Golden Raven Insignia",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104307,
+          "id": "teachings_of_ballad",
+          "name": "Teachings of Ballad",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112035,
+          "id": "treasure_hoarder_insignia",
+          "name": "Treasure Hoarder Insignia",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104308,
+          "id": "guide_to_ballad",
+          "name": "Guide to Ballad",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104308,
+          "id": "guide_to_ballad",
+          "name": "Guide to Ballad",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104308,
+          "id": "guide_to_ballad",
+          "name": "Guide to Ballad",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104308,
+          "id": "guide_to_ballad",
+          "name": "Guide to Ballad",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104309,
+          "id": "philosophies_of_ballad",
+          "name": "Philosophies of Ballad",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113008,
+          "id": "spirit_locket_of_boreas",
+          "name": "Spirit Locket of Boreas",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104309,
+          "id": "philosophies_of_ballad",
+          "name": "Philosophies of Ballad",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113008,
+          "id": "spirit_locket_of_boreas",
+          "name": "Spirit Locket of Boreas",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104309,
+          "id": "philosophies_of_ballad",
+          "name": "Philosophies of Ballad",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113008,
+          "id": "spirit_locket_of_boreas",
+          "name": "Spirit Locket of Boreas",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104309,
+          "id": "philosophies_of_ballad",
+          "name": "Philosophies of Ballad",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113008,
+          "id": "spirit_locket_of_boreas",
+          "name": "Spirit Locket of Boreas",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 201501,
+      "name": "Sailwind Shadow",
+      "description": "Kaeya's outfit from his role as the \"Dagger Bandit\" in the play. Though flamboyant and designed to be as eye-catching as possible, it isn't difficult to put on, though it does take some time to get all the accessories and daggers sorted.",
+      "isDefault": false,
+      "characterName": "Kaeya",
+      "characterId": 10000015,
+      "source": [
+        "Purchased from the Shop"
+      ],
+      "filename_card": "UI_AvatarIcon_KaeyaCostumeDancer_Card",
+      "filename_icon": "UI_AvatarIcon_KaeyaCostumeDancer",
+      "filename_iconCircle": "UI_AvatarIcon_KaeyaCostumeDancer_Circle",
+      "filename_splash": "UI_Costume_KaeyaCostumeDancer",
+      "filename_sideIcon": "UI_AvatarIcon_Side_KaeyaCostumeDancer"
+    },
+    {
+      "id": 201500,
+      "name": "Icy Featherflight",
+      "description": "Kaeya's outfit. Fashionable clothes festooned with a fur collar.",
+      "isDefault": true,
+      "characterName": "Kaeya",
+      "characterId": 10000015,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Kaeya_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "Kaeya, Knight of Favonius. Please allow me to join you on your journey. Guarding you on your journey sounds far more entertaining than any of the usual Favonius stuff."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Nothing to Do",
+      "text": "I didn't know you were such a slacker."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Knights of Favonius",
+      "text": "Hehe, seems all the other knights already have their hands full."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Laziness",
+      "text": "Come on, let's get moving. We're not frozen in place, after all."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Cryo is always far more effective in the rain. This is going to get interesting..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Snows: Anecdote",
+      "text": "How about a ghost story to go with the snow?"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows: Cold",
+      "text": "What's wrong? Can't handle the cold?"
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When It's Windy",
+      "text": "What a pleasant breeze. I wonder how long it'll last?"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Seize the day."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Hey, fancy joining me at the tavern for a bit?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "You're not scared of the dark, are you? That's... interesting."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Leaving already? See you next time, then. Don't make me wait too long, though."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Kaeya",
+      "text": "Is the Abyss Order causing you trouble? If there's anything bothering you, you know you can talk to me."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Employment Relationship",
+      "text": "If you ever need me, let me know. Let's not make this a transaction relationship."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Strength",
+      "text": "Oh? Well, if you're concerned about keeping things professional, maybe you can find more use for me on the front lines. How 'bout it, boss? Haha, just don't feel intimidated by what I can do."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Still struggling with how Visions work? Let's see... How can I explain it... The apparatus that allows us to see is our eyes. A Vision is the apparatus by which we control the elements. Simple, is it not?"
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Do you drink wine? Dandelion wine has a unique body to it. Oh, you're underage? You should try Mondstadt's apple cider vinegar. I know just the place."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Have you ever seen the owl of Dragonspine? If you look directly at it, it seems to see right through you, while letting go of none of its own secrets... Quite fascinating, don't you think?"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Jean",
+      "text": "What? The Acting Grand Master? You need to give her your full support."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Lisa",
+      "text": "Oh Lisa. Hmm... You'd better not forget to return your books on time. I made that mistake once and boy was she angry. My arm is still numb from last time..."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Amber",
+      "text": "That Outrider is a clever and righteous knight. Be careful not to step out of line in front of her."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Diluc",
+      "text": "Diluc? He was cute as a young lad. But nowadays he just seems to be in a world of his own... Overall, not much fun to hang out with."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Klee",
+      "text": "Klee. Seems she has failed to elude the Acting Grand Master's investigative skills, despite the pointers I gave her... Haha, I'm kidding, no need to go reporting me or anything."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Albedo",
+      "text": "Albedo, eh? Calm, collected, and incredibly talented. He's the type everybody likes, some even more so than others. What, you into him as well?"
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Diona",
+      "text": "Have you tried one of Diona's drinks? Oh right, you're still underage. Haha, such a shame, it truly is — to not be able to revel with you in such bliss. Hehe, I guess all we can do is wait for you to be old enough."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Varka",
+      "text": "Now that you mention him, it is a shame there is no one in the Knights of Favonius to inherit the Grand Master's approach to his work. *sigh* I must say I really do appreciate people like him."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Fischl",
+      "text": "Hmm? You think Fischl having one eye covered is very fitting given her title of Prinzessin der Verurteilung. Hahaha, if that's the case, that must also make me a descendant of some kind of former royal lineage, no?"
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Noelle",
+      "text": "I was entrusted by the Acting Grand Master to work in the background to support Noelle. But there hasn't been much for me to concern myself with — she has a good head on her shoulders. Quite the relief."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Rosaria",
+      "text": "Ahaha, you want to know about the secrets of Sister Rosaria? That... I cannot tell you. Though my impression of her is not bad — certainly better than a certain someone whose name I won't bother to mention. She's honest with herself. She casts off that which she has no time for and she doesn't feign motivation for affairs that do not interest her."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Sucrose",
+      "text": "Sucrose may not be much of an extrovert in public, but as they say — it's always the quiet ones... Apparently, her laboratory is home to quite the eclectic range of implements and her experiments are more than just intellectually stimulating... All hearsay, of course. You don't seriously think I would go snooping around a fair lady's private quarters, do you?"
+    },
+    {
+      "id": "4013",
+      "type": 1,
+      "title": "About Collei",
+      "text": "Oh, Collei? Oho, now there's a name I haven't heard in a while... You came to the right person! Let me tell you her whole story, starting right from the very beginning, with all the delicious details!"
+    },
+    {
+      "id": "4014",
+      "type": 1,
+      "title": "About Mika",
+      "text": "When I first met Mika, he seemed like the nervous type, so I decided to joke around with him a little. I didn't count on that making him even more nervous... His smile looked as if it were plastered onto his face, and in the end, he even wrote me a letter of apology. Tsk-tsk. Does taking everything so seriously run in the Schmidts' blood?"
+    },
+    {
+      "id": "4015",
+      "type": 1,
+      "title": "About Dahlia",
+      "text": "Do you know if he drinks a lot of wine as part of church ceremonies? Because his alcohol tolerance is through the steeple. The first time we got to know each other was when I lost to him in a drinking contest. Well, the Anemo Archon loves his wine, so it's fitting that his spokesperson is such a devoted advocate for the wonders of alcohol... Things like that are what give the City of Freedom its charm."
+    },
+    {
+      "id": "4016",
+      "type": 1,
+      "title": "About Lohen",
+      "text": "That Lohen kid hasn't come to me for a forged signature in a while. I wonder if he's already mastered the art? He's certainly smart enough... Give it a while, and I'll write him a letter in the Grand Master's handwriting. Then we'll see how much he's learned..."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Kaeya: I",
+      "text": "The title of Cavalry Captain is nothing to get excited about. Now that I think about it, the Grand Master took all the cavalry from Mondstadt so there's none left for me to captain..."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Kaeya: II",
+      "text": "There are a total of ten captains within the Knights of Favonius. But truth be told, not all of them have what it takes to be leaders."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Kaeya: III",
+      "text": "My eye? My eye is fine. There's nothing unusual about hiding one's body parts from view. It's the same reason I wear pants... or any other item of clothing, for that matter."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Kaeya: IV",
+      "text": "Khaenri'ah, huh? You sure know a lot! The legacy of Khaenri'ah is long gone. The sinners are all that's left, and they're not worth mentioning."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Kaeya: V",
+      "text": "I didn't realize we'd known each other for so long now. Time flies! You know, following you on your journey might just be the most fun I've had in my whole life. I hope it stays that way."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Kaeya's Hobbies",
+      "text": "Wine tasting is an art form. Mondstadt's wine is a gift from the Anemo Archon. It's only right that one should learn how to appreciate it."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Kaeya's Troubles",
+      "text": "Lonely? Me? Not with someone here nagging me all the time, that's for sure."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Sparkling wine is a specialty of Mondstadt. Mix it with three parts Dandelion Wine and the bitterness disappears completely. This concoction is known as \"Death After Noon.\" Delectable."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I can't believe that some people actually drink grape juice... If they had a little more patience, they would find it ferments into the most exquisite wine. Hmph. So unromantic."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Ho! This is quite exceptional... You are full of surprises."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "You should serve this with wine, it would really add the finishing touch."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Ew... *Ahem* I'm just a slow eater... I'll finish it, don't worry."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Today is a day worth celebrating, I hope this day can bring you true happiness."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Hmm. Not bad."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "You always seem to be around to give me a hand. Thanks."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Hmm, seems I'm getting stronger. I say, how is it you seem happier than me about it?"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "We were just traveling partners. I never thought I'd have you to thank for getting me to this point. Seems I really should respond in kind. Let us carry on, partner. The road ahead is still long."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Cool it!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Freeze!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Dodge this!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Don't get frostbite."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Oh, so sorry!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "This moment will be frozen in time."
+    },
+    {
+      "id": "700001",
+      "type": 2,
+      "title": "Sprint Start: I",
+      "text": "What's the hurry?"
+    },
+    {
+      "id": "710001",
+      "type": 2,
+      "title": "Sprint End: I",
+      "text": "*pant* Haha."
+    },
+    {
+      "id": "800001",
+      "type": 2,
+      "title": "Deploying Wind Glider: I",
+      "text": "Catch the wind."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "How fortunate!"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Fascinating."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Haha, quite the find."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Time to fight back, I s'pose."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "I'm getting tired of this game."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "You're getting on my nerves..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "I'll help out, but you owe me."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Hey, don't die on me. That's no fun."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "I'm not done..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "That was unexpected..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "This doesn't look good..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Urgh!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Don't push your luck!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Oh, I'm looking forward to this."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "This will be interesting."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Ready when you are."
+    }
+  ]
+}

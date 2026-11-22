@@ -1,0 +1,1739 @@
+{
+  "_id": 10000056,
+  "id": "kujou_sara",
+  "name": "Kujou Sara",
+  "title": "Crowfeather Kaburaya",
+  "description": "A general of the Tenryou Commission. Bold, decisive, and skilled in battle.",
+  "weapon_type": {
+    "id": "bow",
+    "name": "Bow"
+  },
+  "element": {
+    "id": "electro",
+    "name": "Electro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1630443600,
+  "substat": "ATK%",
+  "stats": {
+    "base": {
+      "hp": 802.3761,
+      "attack": 16.38336,
+      "defense": 52.647
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 599.416,
+        "attack": 12.239496,
+        "defense": 39.33,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1025.3169,
+        "attack": 20.93598,
+        "defense": 67.275,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1593.1847,
+        "attack": 32.531292,
+        "defense": 104.535,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2019.0856,
+        "attack": 41.227776,
+        "defense": 132.48,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2444.9863,
+        "attack": 49.92426,
+        "defense": 160.425,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 2870.8872,
+        "attack": 58.620743,
+        "defense": 188.37,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Tenryou Commission",
+  "region": {
+    "id": "inazuma",
+    "name": "Inazuma"
+  },
+  "rarity": 4,
+  "birthday": [
+    14,
+    7
+  ],
+  "constellation": "Flabellum",
+  "domain": "Violet Court",
+  "cv": {
+    "english": "Jeannie Tirado",
+    "chinese": "杨梦露",
+    "japanese": "瀬戸麻沙美",
+    "korean": "Moon Ji-young"
+  },
+  "skills": [
+    {
+      "_id": 10561,
+      "id": "tengu_bowmanship",
+      "name": "Tengu Bowmanship",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 consecutive shots with a bow.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Performs a more precise <span style=\"color:#FFD780FF\">Aimed Shot</span> with increased DMG.<br/>While aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal <span style=\"color:#FFACFFFF\">Electro DMG</span>.<br/>When in the Crowfeather Cover state, a fully-charged arrow will leave a Crowfeather behind after it hits.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "36.9%",
+            "39.9%",
+            "42.9%",
+            "47.2%",
+            "50.2%",
+            "53.6%",
+            "58.3%",
+            "63.1%",
+            "67.8%",
+            "72.9%",
+            "78.1%",
+            "83.2%",
+            "88.4%",
+            "93.5%",
+            "98.7%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "38.7%",
+            "41.9%",
+            "45%",
+            "49.5%",
+            "52.6%",
+            "56.3%",
+            "61.2%",
+            "66.1%",
+            "71.1%",
+            "76.5%",
+            "81.9%",
+            "87.3%",
+            "92.7%",
+            "98.1%",
+            "103.5%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "48.5%",
+            "52.5%",
+            "56.4%",
+            "62%",
+            "66%",
+            "70.5%",
+            "76.7%",
+            "82.9%",
+            "89.1%",
+            "95.9%",
+            "102.6%",
+            "109.4%",
+            "116.2%",
+            "123%",
+            "129.7%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "50.4%",
+            "54.5%",
+            "58.6%",
+            "64.5%",
+            "68.6%",
+            "73.3%",
+            "79.7%",
+            "86.1%",
+            "92.6%",
+            "99.6%",
+            "106.7%",
+            "113.7%",
+            "120.7%",
+            "127.7%",
+            "134.8%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "58.1%",
+            "62.8%",
+            "67.5%",
+            "74.3%",
+            "79%",
+            "84.4%",
+            "91.8%",
+            "99.2%",
+            "106.7%",
+            "114.8%",
+            "122.8%",
+            "131%",
+            "139.1%",
+            "147.2%",
+            "155.3%"
+          ]
+        },
+        {
+          "label": "Aimed Shot",
+          "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.7%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "92.8%",
+            "98.9%",
+            "105.1%",
+            "111.2%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Fully-Charged Aimed Shot",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10562,
+      "id": "tengu_stormcall",
+      "name": "Tengu Stormcall",
+      "description": "Retreats rapidly with the speed of a tengu, summoning the protection of the Crowfeather.<br/>Gains Crowfeather Cover for 18s, and when Kujou Sara fires a fully-charged Aimed Shot, Crowfeather Cover will be consumed, and will leave a Crowfeather at the target location.<br/>Crowfeathers will trigger Tengu Juurai: Ambush after a short time, dealing <span style=\"color:#FFACFFFF\">Electro DMG</span> and granting the active character within its AoE an ATK Bonus based on Kujou Sara's Base ATK.<br/><br/>The ATK Bonuses from different Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.",
+      "info": "The tengu race have never lacked for exceptional talents who have received an Electro Vision. It's just that they often habitually chant praises to the Electro Archon while manipulating Electro. The chants go something like this<br/><i>\"Show forth your might, O praiseworthy Narukami, and grant this supplicant your thunderous might! Sowaka!\"</i>",
+      "attributes": [
+        {
+          "label": "Tengu Juurai: Ambush DMG",
+          "values": [
+            "125.8%",
+            "135.2%",
+            "144.6%",
+            "157.2%",
+            "166.6%",
+            "176.1%",
+            "188.6%",
+            "201.2%",
+            "213.8%",
+            "226.4%",
+            "238.9%",
+            "251.5%",
+            "267.2%",
+            "283%",
+            "298.7%"
+          ]
+        },
+        {
+          "label": "ATK Bonus Ratio",
+          "values": [
+            "43%",
+            "46.2%",
+            "49.4%",
+            "53.7%",
+            "56.9%",
+            "60.1%",
+            "64.4%",
+            "68.7%",
+            "73%",
+            "77.3%",
+            "81.6%",
+            "85.9%",
+            "91.3%",
+            "96.7%",
+            "102%"
+          ]
+        },
+        {
+          "label": "ATK Bonus Duration",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10565,
+      "id": "subjugation_koukou_sendou",
+      "name": "Subjugation: Koukou Sendou",
+      "description": "Casts down Tengu Juurai: Titanbreaker, dealing <span style=\"color:#FFACFFFF\">AoE Electro DMG</span>. Afterwards, Tengu Juurai: Titanbreaker spreads out into 4 consecutive bouts of Tengu Juurai: Stormcluster, dealing <span style=\"color:#FFACFFFF\">AoE Electro DMG</span>.<br/>Tengu Juurai: Titanbreaker and Tengu Juurai: Stormcluster can provide the active character within their AoE with the same ATK Bonus as given by the Elemental Skill, Tengu Stormcall.<br/><br/>The ATK Bonus provided by various kinds of Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.",
+      "info": "Sara departed from her people, the tengu, and also temporarily lost her faith in the Tenryou Commission. But once the clouds over her heart cleared, she found her own lightning anew.",
+      "attributes": [
+        {
+          "label": "Tengu Juurai: Titanbreaker DMG",
+          "values": [
+            "409.6%",
+            "440.3%",
+            "471%",
+            "512%",
+            "542.7%",
+            "573.4%",
+            "614.4%",
+            "655.4%",
+            "696.3%",
+            "737.3%",
+            "778.2%",
+            "819.2%",
+            "870.4%",
+            "921.6%",
+            "972.8%"
+          ]
+        },
+        {
+          "label": "Tengu Juurai: Stormcluster DMG",
+          "values": [
+            "34.1%",
+            "36.7%",
+            "39.2%",
+            "42.6%",
+            "45.2%",
+            "47.8%",
+            "51.2%",
+            "54.6%",
+            "58%",
+            "61.4%",
+            "64.8%",
+            "68.2%",
+            "72.5%",
+            "76.8%",
+            "81%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "immovable_will",
+      "name": "Immovable Will",
+      "description": "While in the Crowfeather Cover state provided by <span style=\"color:#FFD780FF\">Tengu Stormcall</span>, Aimed Shot charge times are decreased by 60%.",
+      "level": 1
+    },
+    {
+      "id": "decorum",
+      "name": "Decorum",
+      "description": "When Tengu Juurai: Ambush hits opponents, Kujou Sara will restore 1.2 Energy to all party members for every 100% Energy Recharge she has. This effect can be triggered once every 3s.",
+      "level": 4
+    },
+    {
+      "id": "land_survey",
+      "name": "Land Survey",
+      "description": "When dispatched on an expedition in Inazuma, time consumed is reduced by 25%.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 561,
+      "id": "crows_eye",
+      "name": "Crow's Eye",
+      "description": "When Tengu Juurai grants characters ATK Bonuses or hits opponents, the CD of <span style=\"color:#FFD780FF\">Tengu Stormcall</span> is decreased by 1s.<br/>This effect can be triggered once every 3s.",
+      "level": 1
+    },
+    {
+      "_id": 562,
+      "id": "dark_wings",
+      "name": "Dark Wings",
+      "description": "Unleashing <span style=\"color:#FFD780FF\">Tengu Stormcall</span> will leave a weaker Crowfeather at Kujou Sara's original position that will deal 30% of its original DMG.",
+      "level": 2
+    },
+    {
+      "_id": 563,
+      "id": "the_war_within",
+      "name": "The War Within",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Subjugation: Koukou Sendou</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 564,
+      "id": "conclusive_proof",
+      "name": "Conclusive Proof",
+      "description": "The number of Tengu Juurai: Stormcluster released by <span style=\"color:#FFD780FF\">Subjugation: Koukou Sendou</span> is increased to 6.",
+      "level": 4
+    },
+    {
+      "_id": 565,
+      "id": "spellsinger",
+      "name": "Spellsinger",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Tengu Stormcall</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 566,
+      "id": "sin_of_pride",
+      "name": "Sin of Pride",
+      "description": "The <span style=\"color:#FFACFFFF\">Electro DMG</span> of characters who have had their ATK increased by Tengu Juurai has its CRIT DMG increased by 60%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "802"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "16"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "53"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2061",
+            "2661"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "42",
+            "54"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "135",
+            "175"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "3985",
+            "4411"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "81",
+            "90"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "262",
+            "289"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104141,
+        "id": "vajrada_amethyst_sliver",
+        "name": "Vajrada Amethyst Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101204,
+        "id": "dendrobium",
+        "name": "Dendrobium",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112005,
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5074",
+            "5642"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "104",
+            "115"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "333",
+            "370"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113029,
+        "id": "storm_beads",
+        "name": "Storm Beads",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101204,
+        "id": "dendrobium",
+        "name": "Dendrobium",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112005,
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6305",
+            "6731"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "129",
+            "137"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "414",
+            "442"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113029,
+        "id": "storm_beads",
+        "name": "Storm Beads",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101204,
+        "id": "dendrobium",
+        "name": "Dendrobium",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112006,
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7393",
+            "7818"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "151",
+            "160"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "485",
+            "513"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113029,
+        "id": "storm_beads",
+        "name": "Storm Beads",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101204,
+        "id": "dendrobium",
+        "name": "Dendrobium",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112006,
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8481",
+            "8907"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "173",
+            "182"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "556",
+            "584"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113029,
+        "id": "storm_beads",
+        "name": "Storm Beads",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101204,
+        "id": "dendrobium",
+        "name": "Dendrobium",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112007,
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9570",
+            "9570"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "195",
+            "195"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "628",
+            "628"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104144,
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Vajrada Amethyst Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113029,
+        "id": "storm_beads",
+        "name": "Storm Beads",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101204,
+        "id": "dendrobium",
+        "name": "Dendrobium",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112007,
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104323,
+          "id": "teachings_of_elegance",
+          "name": "Teachings of Elegance",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112005,
+          "id": "damaged_mask",
+          "name": "Damaged Mask",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113027,
+          "id": "ashen_heart",
+          "name": "Ashen Heart",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113027,
+          "id": "ashen_heart",
+          "name": "Ashen Heart",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113027,
+          "id": "ashen_heart",
+          "name": "Ashen Heart",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113027,
+          "id": "ashen_heart",
+          "name": "Ashen Heart",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 205600,
+      "name": "Solemn Purity",
+      "description": "Kujou Sara's outfit. Prim and proper, it is a garment worthy of an Archon's devout servant.",
+      "isDefault": true,
+      "characterName": "Kujou Sara",
+      "characterId": 10000056,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Sara_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "I am Kujou Sara. You may forget my name, but this you must know: On my watch, Inazuma will always be defended, and the will of the Shogun will always be done. Deity or demon, if you make an enemy of me you will be struck down! Oh, ahem... Don't be so nervous. I have agreed to fight by your side, and I will honor that commitment. I may be uncompromising on matters of great importance, but on most other things, you will find me quite easygoing."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Target",
+      "text": "To strike your foe takes unity between mind, arrow, and bow."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Eternity",
+      "text": "To manifest Eternity per the Almighty Shogun's will — that is what I aspire to."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Duty",
+      "text": "The duty of a tengu warrior is to watch over the mountains and forests, while that of the Kujou Clan is to guard Inazuma. These two are of the same ilk."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "The sound of rain masks the enemy's footsteps. Stay alert."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Listen. Thunder speaks the will of the Almighty Shogun."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "I would like to catch a snowflake, but once you have them in the palm of your hand, they melt away all the more quickly."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "The skies are clear and the sun is bright. Fine weather for a showdown."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning...? You mean you only just got out of bed? This is already quite late by my standards. I typically rise well before daybreak."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "I am not in the habit of resting at noon. But if you wish to do so, I will wait for you."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Good evening. You know, in Hanamizaka, the sight of the Sakura by night is quite splendid. I never tire of it."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Go and rest. I will stay here and keep watch."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Kujou Sara: Tenryou Commission",
+      "text": "I am grateful to Takayuki. The Tenryou Commission is all I've ever had to rely on, and I will do everything within my power to defend my family's honor. Hmm? You want to know about the Tenryou Commission's code of conduct? Loyalty to the Raiden Shogun, of course! That is also my life's creed."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Kujou Sara: Preparing for War",
+      "text": "Am I ready to depart? Let me put it to you like this. If you were to make a habit of asking me this question every time before you move out, you would find that you only receive an answer from me one time out of 10. The other nine times, I would already be fighting fiercely on the front line. Not because I am foolhardy, nor because I lack courtesy, but because the battle never waits till you are ready."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Kujou Sara: Aspiration",
+      "text": "My aspirations? I thought you already knew: To assist the Almighty Shogun in manifesting Eternity. That is what I aspire to. Hmm? Personal aspirations? It's not something I have ever thought about before..."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Observation",
+      "text": "Though you present an unstable factor in the Almighty Shogun's Eternity, unstable does not have to mean a threat. So I am not your enemy — but I will be watching you at all times."
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Us: Experiences",
+      "text": "When I confiscated people's Visions, I trampled on their ambitions. Now that the Vision Hunt Decree has been repealed, I must atone for my actions. I am led to believe that you can hear those ambitions...The ones echoing within the Visions embedded on the Statue of the Omnipresent God? I'd like you to tell me more about them. Also... your own ambitions, I would like to hear about those as well."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Only if the gods cast their gaze upon you will you receive a Vision. Since my own Vision was granted by the Almighty Shogun, I shall return it to her in the end, without hesitation and with no regrets."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share: Spinning Top",
+      "text": "During a previous assignment, a vendor in Hanamizaka gifted me a kind of spinning top called the \"Solo.\" It's a toy that you can play with when you're by yourself. I was quite taken with it, so I kept it. ...You want to play with it together? But that would defy the principle on which the Solo is based... Respectfully, I must decline."
+    },
+    {
+      "id": "3004",
+      "type": 1,
+      "title": "Something to Share: Local Specialty",
+      "text": "Do you know what the most distinctively Inazuman item of all is? No, it is not a blade of any sort. It is a lacquerware carving of the Statue of Her Excellency, the Almighty Narukami Ogosho, God of Thunder. They are hand-made by old and skilled lacquerware craftspeople, and nearly every single home in the city has one. My house, you ask? I have five."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Whenever something is bothering me inside, I stand beneath the Sacred Sakura, close my eyes, and try to calm my mind. When I open my eyes again, the falling blossoms will guide my path."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Thoma",
+      "text": "The Tenryou Commission's estate is very large. It would serve us well to have a fine housekeeper like Thoma who could keep all the numerous and disparate household affairs in order. If he ever tires of working for the Kamisato Clan, I would very much like for him to come to us... though I doubt that day will ever come."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Kamisato Ayaka",
+      "text": "In the Kujou household, normally the only sound to be heard is that of soldiers training in the dojo. But in the Kamisato household, there is the sound of music, dance, bickering, and laughter... I have heard that Miss Kamisato is skilled in the game of Go, and have always hoped for an occasion to pay her a visit, but... I also worry that someone of a serious demeanor like myself may not quite fit in there."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Yoimiya",
+      "text": "As long as she is not setting off fireworks in my camp, I will cause her no trouble. Heh, yes, I know — all else aside, her fireworks are spectacular and brilliant, and she deserves all the praise she gets. The issue for me is that fireworks are fleeting in nature. After one brief moment of dazzling light, all that remains is the pitch-black night sky, the same as before. So I often have to caution myself not to become too captivated by this illusory spectacle. It is transient, but Inazuma is eternal, and my mission is to protect Inazuma."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Shikanoin Heizou",
+      "text": "Shikanoin and I may be colleagues, but I have few positive words to say about him. He seems preoccupied with his personal schemes while official duties take second place. The only reason I have not sought to bring him into line so far is that his investigations deliver results... \\n*sigh* He is such a headache."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About the Raiden Shogun: Trust",
+      "text": "As I'm sure you've heard many times before, the Almighty Shogun seeks Eternity — an existence beyond the dominion of thought and longing. \"Abandon mortal ties, strive for an unchanging Eternity\"... The Almighty Shogun's manner is always resolute, and I do not always fully grasp the meaning of her words. But this is her decision, and I trust her."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About the Raiden Shogun: Service",
+      "text": "So, the Vision Hunt Decree was repealed... Yes, it seems that you were right. ...Ahem, but this is not to say that the Almighty Shogun made a mistake. She has simply chosen to pursue eternity by a different route. I do not know whether the Shogun has finally found inner peace after protecting Inazuma over all these millennia. All I know is that however perilous the road ahead may become, I will follow her as I have always done."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Yae Miko",
+      "text": "Guuji Yae's actions often leave me with many questions... Nevertheless, the fact that she is the head shrine maiden of the Grand Narukami Shrine clearly shows the level of trust and approval that the Shogun places in her, and for this reason I also greatly respect her. But... if there ever comes a day when she disobeys the Shogun's will, then please accept my apologies in advance."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Sangonomiya Kokomi",
+      "text": "She is more proficient as a military strategist than a priestess. The way she uses directives to wage war is almost unheard of. I wonder if I should adopt this technique for commanding the Shogun's Army? Hmm... but this could lead us to a situation whereby war is waged at the negotiation table, each side with their pack of strategy cards, playing them one by one until a victor emerges... Then again, perhaps not."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Gorou",
+      "text": "Gorou is to Sangonomiya Kokomi as I am to the Raiden Shogun. He is fiercely loyal, and I have great respect for this. It's a shame we're on opposing sides, so we'll never get to work together... Still, I am glad to have an admirable foe. Also... I hear he's a fifth-born son. That just makes it even better."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Arataki Itto",
+      "text": "Tsk... I can't help but get a little irate when his name comes up. He kicked up a big fuss when I confiscated his Vision, by far the noisiest person... no, the noisiest oni I've ever encountered. He showed he was enough of a man to admit defeat, but the rematch he insisted upon... Tsk... To this day, I still don't want to talk about it. If you really must know, you can go and ask him yourself."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Kuki Shinobu",
+      "text": "With her talent and qualifications, it's a shame she decided to join the Arataki gang. I must concede, however, that at the very least, her presence has effectively prevented idlers from stirring up trouble and disturbing the public, reducing the burden on the Tenryou Commission."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Kirara",
+      "text": "Recently, I often feel a mysterious gaze from the shadows that disappears as soon as I turn to look. What an absurd prank... Huh? A nekomata, you say? Huh... She should've just come right up to me if she needed something."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Kujou Sara: I",
+      "text": "You want to know more about me? ...Know what, exactly? I can't discuss Tenryou Commission business with you, that's strictly confidential, and I certainly can't divulge anything relating to the Almighty Shogun. What exactly are you trying to achieve? Hmm? Me on a personal level...? I suppose that's not out of the question, just... unprecedented."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Kujou Sara: II",
+      "text": "I lead a relatively simple life when I'm not leading an army into battle. I always get out of bed at 5:05 on the dot. Then I go to the courtyard where I take five deep breaths before walking five laps around it. For breakfast, I typically eat five mouthfuls... Five is my lucky number, so I do things in fives. Do you have some objection to that?"
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Kujou Sara: III",
+      "text": "The thing that gave me the most trouble when enforcing the Vision Hunt Decree was those officers of the Shogun's Army who would abuse their authority to be heavy-handed with those we detained. The will of the Almighty Shogun must be executed, but I do not condone violence against innocent people! I have expressly forbidden such behavior on countless occasions but judging by the outcome, it seems difficult to root out. If you have any ideas on how to tackle it, please share them with me."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Kujou Sara: IV",
+      "text": "Although I was fully adopted by the Kujou Clan, I know that Takayuki does not look at me the same way he looks at Kamaji. I might be a little stone-faced sometimes, but even I get lonely... especially when I catch sight of one of my subordinates sharing an intimate moment with their family. ...\\nI'm sorry, I have nothing but gratitude for Takayuki. How could I be so disrespectful..."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Kujou Sara: V",
+      "text": "Now that I think about it, you and I are a good example of achieving concord through conflict. We were on opposite sides — diametrically opposed, you could say. I never imagined I would end up alongside you, either in battle or in long conversation... Fate has been kind to me, no, sorry, ignore that."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Kujou Sara's Hobbies",
+      "text": "To this day, not a day goes by without bow exercises and target practice. From adopting the stance, to aiming, to hearing the twang of the bowstring, none of this is dry and repetitive for me — it is about transcending the me of yesterday! I wouldn't call it a hobby so much as a lifelong discipline."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Kujou Sara's Troubles",
+      "text": "The existence of a tengu warrior's wings is an objective fact, as is the reality that they will take up a certain amount of space when standing side-by-side. So when you say \"come closer,\" I fail to see how exactly I am supposed to achieve that."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I have always had a preference for easy-to-carry foods that provide quick and ample sustenance, such as Onigiri. The top choice for replenishing your stamina in the middle of a battle! But that's just a personal preference. I don't dictate what my subordinates have to eat."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I generally avoid sweet foods, not that I have a strong aversion to them. Why? Well, sweet things put your mind and body at rest, so if I ever eat sweet things it's easy to... Ahem, essentially, I mustn't slack off and that's the end of it. No further questions on this topic!"
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "So, there is a dish that tastes even better than Onigiri? Then I shall be sure to remember its name."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "I have eaten my fill. Thank you for your hospitality."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "No need for dessert..."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Excellent timing. I will dispense with the formalities and get straight to the point — do you have a birthday wish? Providing that it does not conflict with the Almighty Shogun's grand cause, I will make every effort to see it come to fruition. To show that I am being completely serious, I will allow you to make not one, but five birthday wishes."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "My bow sounds in peak condition. One shot is all I need."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Power duly assimilated. Ready to receive instruction."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "The Shogun's Army might as well just be me!"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "The responsibility for honing my strength and advancing my martial abilities lies with me, and yet you have so diligently and willingly helped me... I will become worthy of this power by harnessing it for a higher cause! Also... the favor of the tengu will always be with you!"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Quiver!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Strike!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Flash!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Glory to the Shogun!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "No turning back!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Storm the front!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Excellent. These spoils will boost morale."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Good. Leave nothing of value behind."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Restock and press onward!"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "To the bitter end!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "I will overcome!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "I'm at my limit..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Regroup!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Retreat!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Life is not eternal."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "I willingly yield..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Huh, I am defeated."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Again!"
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: II",
+      "text": "A worthy adversary..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Impossible!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "They're gaining the upper hand..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "I will lead us to victory."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Hm. Let's do this."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "With you all the way!"
+    }
+  ]
+}

@@ -1,0 +1,1831 @@
+{
+  "_id": 10000020,
+  "id": "razor",
+  "name": "Razor",
+  "title": "Wolf Boy",
+  "description": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+  "weapon_type": {
+    "id": "claymore",
+    "name": "Claymore"
+  },
+  "element": {
+    "id": "electro",
+    "name": "Electro"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1601244000,
+  "substat": "Physical DMG Bonus",
+  "stats": {
+    "base": {
+      "hp": 1002.9701,
+      "attack": 19.5888,
+      "defense": 62.9475
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 749.27,
+        "attack": 14.63418,
+        "defense": 47.025,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1281.6461,
+        "attack": 25.03215,
+        "defense": 80.4375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+          "value": 0.075
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1991.4808,
+        "attack": 38.89611,
+        "defense": 124.9875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+          "value": 0.15
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2523.857,
+        "attack": 49.29408,
+        "defense": 158.4,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+          "value": 0.15
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3056.233,
+        "attack": 59.69205,
+        "defense": 191.8125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+          "value": 0.225
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3588.6091,
+        "attack": 70.09002,
+        "defense": 225.225,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+          "value": 0.3
+        }
+      }
+    ]
+  },
+  "affiliation": "Wolvendom",
+  "region": {
+    "id": "mondstadt",
+    "name": "Mondstadt"
+  },
+  "rarity": 4,
+  "birthday": [
+    9,
+    9
+  ],
+  "constellation": "Lupus Minor",
+  "domain": "Forsaken Rift",
+  "cv": {
+    "english": "Todd Haberkorn",
+    "chinese": "周帅",
+    "japanese": "内山昂輝",
+    "korean": "Kim Seo-young"
+  },
+  "skills": [
+    {
+      "_id": 10201,
+      "id": "steel_fang",
+      "name": "Steel Fang",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br/>At the end of the sequence, performs a more powerful slash. <br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "95.9%",
+            "102.5%",
+            "109%",
+            "117.7%",
+            "124.3%",
+            "131.9%",
+            "141.7%",
+            "151.5%",
+            "161.3%",
+            "171.1%",
+            "180.9%",
+            "190.8%",
+            "200.6%",
+            "210.4%",
+            "220.2%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "82.6%",
+            "88.3%",
+            "93.9%",
+            "101.4%",
+            "107%",
+            "113.6%",
+            "122.1%",
+            "130.5%",
+            "139%",
+            "147.4%",
+            "155.9%",
+            "164.3%",
+            "172.8%",
+            "181.2%",
+            "189.7%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "103.3%",
+            "110.4%",
+            "117.4%",
+            "126.8%",
+            "133.8%",
+            "142.1%",
+            "152.6%",
+            "163.2%",
+            "173.8%",
+            "184.3%",
+            "194.9%",
+            "205.4%",
+            "216%",
+            "226.6%",
+            "237.1%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "136%",
+            "145.3%",
+            "154.6%",
+            "167%",
+            "176.2%",
+            "187.1%",
+            "201%",
+            "214.9%",
+            "228.8%",
+            "242.7%",
+            "256.6%",
+            "270.5%",
+            "284.5%",
+            "298.4%",
+            "312.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack Cyclic DMG",
+          "values": [
+            "62.5%",
+            "67.6%",
+            "72.7%",
+            "80%",
+            "85.1%",
+            "90.9%",
+            "98.9%",
+            "106.9%",
+            "114.9%",
+            "123.6%",
+            "132.4%",
+            "141.1%",
+            "149.8%",
+            "158.5%",
+            "167.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack Final DMG",
+          "values": [
+            "113.1%",
+            "122.3%",
+            "131.5%",
+            "144.6%",
+            "153.9%",
+            "164.4%",
+            "178.8%",
+            "193.3%",
+            "207.8%",
+            "223.6%",
+            "239.3%",
+            "255.1%",
+            "270.9%",
+            "286.7%",
+            "302.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        },
+        {
+          "label": "Max Duration",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "82%",
+            "88.7%",
+            "95.4%",
+            "104.9%",
+            "111.6%",
+            "119.3%",
+            "129.7%",
+            "140.2%",
+            "150.7%",
+            "162.2%",
+            "173.6%",
+            "185.1%",
+            "196.5%",
+            "208%",
+            "219.4%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "164.1% / 204.9%",
+            "177.4% / 221.6%",
+            "190.8% / 238.3%",
+            "209.8% / 262.1%",
+            "223.2% / 278.8%",
+            "238.5% / 297.8%",
+            "259.4% / 324.1%",
+            "280.4% / 350.3%",
+            "301.4% / 376.5%",
+            "324.3% / 405.1%",
+            "347.2% / 433.7%",
+            "370.1% / 462.3%",
+            "393% / 490.8%",
+            "415.9% / 519.4%",
+            "438.8% / 548%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10202,
+      "id": "claw_and_thunder",
+      "name": "Claw and Thunder",
+      "description": "Hunts his prey using the techniques taught to him by his master and his lupical.<br/><br/><span style=\"color:#FFD780FF\">Press</span><br/>Swings the Thunder Wolf Claw, dealing <span style=\"color:#FFACFFFF\">Electro DMG</span> to opponents in front of Razor.<br/>Upon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.<br/>Razor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Gathers Electro energy to unleash a lightning storm over a small AoE, causing massive <span style=\"color:#FFACFFFF\">Electro DMG</span>, and clears all of Razor's Electro Sigils.<br/>Each Electro Sigil cleared in this manner will be converted into Energy for Razor.",
+      "info": "In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.",
+      "attributes": [
+        {
+          "label": "Press Skill DMG",
+          "values": [
+            "199.2%",
+            "214.1%",
+            "229.1%",
+            "249%",
+            "263.9%",
+            "278.9%",
+            "298.8%",
+            "318.7%",
+            "338.6%",
+            "358.6%",
+            "378.5%",
+            "398.4%",
+            "423.3%",
+            "448.2%",
+            "473.1%"
+          ]
+        },
+        {
+          "label": "Hold Skill DMG",
+          "values": [
+            "295.2%",
+            "317.3%",
+            "339.5%",
+            "369%",
+            "391.1%",
+            "413.3%",
+            "442.8%",
+            "472.3%",
+            "501.8%",
+            "531.4%",
+            "560.9%",
+            "590.4%",
+            "627.3%",
+            "664.2%",
+            "701.1%"
+          ]
+        },
+        {
+          "label": "Energy Recharge Bonus",
+          "values": [
+            "20% per Electro Sigil",
+            "20% per Electro Sigil",
+            "20% per Electro Sigil",
+            "20% per Electro Sigil",
+            "20% per Electro Sigil",
+            "20% per Electro Sigil",
+            "20% per Electro Sigil",
+            "20% per Electro Sigil",
+            "20% per Electro Sigil",
+            "20% per Electro Sigil",
+            "20% per Electro Sigil",
+            "20% per Electro Sigil",
+            "20% per Electro Sigil",
+            "20% per Electro Sigil",
+            "20% per Electro Sigil"
+          ]
+        },
+        {
+          "label": "Energy Regenerated",
+          "values": [
+            "5 per Electro Sigil Absorbed",
+            "5 per Electro Sigil Absorbed",
+            "5 per Electro Sigil Absorbed",
+            "5 per Electro Sigil Absorbed",
+            "5 per Electro Sigil Absorbed",
+            "5 per Electro Sigil Absorbed",
+            "5 per Electro Sigil Absorbed",
+            "5 per Electro Sigil Absorbed",
+            "5 per Electro Sigil Absorbed",
+            "5 per Electro Sigil Absorbed",
+            "5 per Electro Sigil Absorbed",
+            "5 per Electro Sigil Absorbed",
+            "5 per Electro Sigil Absorbed",
+            "5 per Electro Sigil Absorbed",
+            "5 per Electro Sigil Absorbed"
+          ]
+        },
+        {
+          "label": "Electro Sigil duration",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Press CD",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        },
+        {
+          "label": "Hold CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10203,
+      "id": "lightning_fang",
+      "name": "Lightning Fang",
+      "description": "Summons the Wolf Within, which deals <span style=\"color:#FFACFFFF\">Electro DMG</span> to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.<br/>The Wolf Within will fight alongside Razor for the skill's duration.<br/><br/><span style=\"color:#FFD780FF\">The Wolf Within</span><br/>·Strikes alongside Razor's normal attacks, dealing <span style=\"color:#FFACFFFF\">Electro DMG</span>.<br/>·Raises Razor's ATK SPD and <span style=\"color:#FFACFFFF\">Electro RES</span>.<br/>·Causes Razor to be immune to DMG inflicted by the <span style=\"color:#FFACFFFF\">Electro-Charged</span> status.<br/>·Disables Razor's Charged Attacks.<br/>·Increases Razor's resistance to interruption.<br/><br/>These effects end when Razor leaves the battlefield.<br/>When Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.",
+      "info": "The wolf has awoken. The hunt is on.",
+      "attributes": [
+        {
+          "label": "Burst DMG",
+          "values": [
+            "160%",
+            "172%",
+            "184%",
+            "200%",
+            "212%",
+            "224%",
+            "240%",
+            "256%",
+            "272%",
+            "288%",
+            "304%",
+            "320%",
+            "340%",
+            "360%",
+            "380%"
+          ]
+        },
+        {
+          "label": "Soul Companion DMG",
+          "values": [
+            "24% Normal Attack DMG",
+            "25.8% Normal Attack DMG",
+            "27.6% Normal Attack DMG",
+            "30% Normal Attack DMG",
+            "31.8% Normal Attack DMG",
+            "33.6% Normal Attack DMG",
+            "36% Normal Attack DMG",
+            "38.4% Normal Attack DMG",
+            "40.8% Normal Attack DMG",
+            "43.2% Normal Attack DMG",
+            "45.6% Normal Attack DMG",
+            "48% Normal Attack DMG",
+            "51% Normal Attack DMG",
+            "54% Normal Attack DMG",
+            "57% Normal Attack DMG"
+          ]
+        },
+        {
+          "label": "Normal ATK SPD Bonus",
+          "values": [
+            "26%",
+            "28%",
+            "30%",
+            "32%",
+            "34%",
+            "36%",
+            "37%",
+            "38%",
+            "39%",
+            "40%",
+            "40%",
+            "40%",
+            "40%",
+            "40%",
+            "40%"
+          ]
+        },
+        {
+          "label": "Electro RES Bonus",
+          "values": [
+            "80%",
+            "80%",
+            "80%",
+            "80%",
+            "80%",
+            "80%",
+            "80%",
+            "80%",
+            "80%",
+            "80%",
+            "80%",
+            "80%",
+            "80%",
+            "80%",
+            "80%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "awakening",
+      "name": "Awakening",
+      "description": "Decreases <span style=\"color:#FFD780FF\">Claw and Thunder</span>'s CD by 18%.<br/>Using <span style=\"color:#FFD780FF\">Lightning Fang</span> resets the CD of <span style=\"color:#FFD780FF\">Claw and Thunder</span>.",
+      "level": 1
+    },
+    {
+      "id": "hunger",
+      "name": "Hunger",
+      "description": "When Razor's Energy is below 50%, increases Energy Recharge by 30%.",
+      "level": 4
+    },
+    {
+      "id": "wolvensprint",
+      "name": "Wolvensprint",
+      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.<br/>Not stackable with Passive Talents that provide the exact same effects.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 201,
+      "id": "wolfs_instinct",
+      "name": "Wolf's Instinct",
+      "description": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
+      "level": 1
+    },
+    {
+      "_id": 202,
+      "id": "suppression",
+      "name": "Suppression",
+      "description": "Increases CRIT Rate against opponents with less than 30% HP by 10%.",
+      "level": 2
+    },
+    {
+      "_id": 203,
+      "id": "soul_companion",
+      "name": "Soul Companion",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Lightning Fang</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 204,
+      "id": "bite",
+      "name": "Bite",
+      "description": "When casting <span style=\"color:#FFD780FF\">Claw and Thunder</span> (Press), opponents hit will have their DEF decreased by 15% for 7s.",
+      "level": 4
+    },
+    {
+      "_id": 205,
+      "id": "sharpened_claws",
+      "name": "Sharpened Claws",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Claw and Thunder</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 206,
+      "id": "lupus_fulguris",
+      "name": "Lupus Fulguris",
+      "description": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as <span style=\"color:#FFACFFFF\">Electro DMG</span>.<br/>When Razor is not using <span style=\"color:#FFD780FF\">Lightning Fang</span>, a lightning strike on an opponent will grant Razor an Electro Sigil for <span style=\"color:#FFD780FF\">Claw and Thunder</span>.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1003"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "20"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "63"
+          ]
+        },
+        {
+          "label": "Physical DMG Bonus",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2577",
+            "3326"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "50",
+            "65"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "162",
+            "209"
+          ]
+        },
+        {
+          "label": "Physical DMG Bonus",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4982",
+            "5514"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "97",
+            "108"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "313",
+            "346"
+          ]
+        },
+        {
+          "label": "Physical DMG Bonus",
+          "values": [
+            "0.0%",
+            "7.5%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104141,
+        "id": "vajrada_amethyst_sliver",
+        "name": "Vajrada Amethyst Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100021,
+        "id": "wolfhook",
+        "name": "Wolfhook",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112005,
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6343",
+            "7052"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "124",
+            "138"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "398",
+            "443"
+          ]
+        },
+        {
+          "label": "Physical DMG Bonus",
+          "values": [
+            "7.5%",
+            "15.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113002,
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100021,
+        "id": "wolfhook",
+        "name": "Wolfhook",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112005,
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7881",
+            "8413"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "154",
+            "164"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "495",
+            "528"
+          ]
+        },
+        {
+          "label": "Physical DMG Bonus",
+          "values": [
+            "15.0%",
+            "15.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113002,
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100021,
+        "id": "wolfhook",
+        "name": "Wolfhook",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112006,
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9241",
+            "9773"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "180",
+            "191"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "580",
+            "613"
+          ]
+        },
+        {
+          "label": "Physical DMG Bonus",
+          "values": [
+            "15.0%",
+            "22.5%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113002,
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100021,
+        "id": "wolfhook",
+        "name": "Wolfhook",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112006,
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10602",
+            "11134"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "207",
+            "217"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "665",
+            "699"
+          ]
+        },
+        {
+          "label": "Physical DMG Bonus",
+          "values": [
+            "22.5%",
+            "30.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113002,
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100021,
+        "id": "wolfhook",
+        "name": "Wolfhook",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112007,
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11962",
+            "11962"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "234",
+            "234"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "751",
+            "751"
+          ]
+        },
+        {
+          "label": "Physical DMG Bonus",
+          "values": [
+            "30.0%",
+            "30.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104144,
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Vajrada Amethyst Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113002,
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100021,
+        "id": "wolfhook",
+        "name": "Wolfhook",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112007,
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104304,
+          "id": "teachings_of_resistance",
+          "name": "Teachings of Resistance",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112005,
+          "id": "damaged_mask",
+          "name": "Damaged Mask",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113004,
+          "id": "dvalins_claw",
+          "name": "Dvalin's Claw",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113004,
+          "id": "dvalins_claw",
+          "name": "Dvalin's Claw",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113004,
+          "id": "dvalins_claw",
+          "name": "Dvalin's Claw",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113004,
+          "id": "dvalins_claw",
+          "name": "Dvalin's Claw",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 202000,
+      "name": "Wild Sprint",
+      "description": "Razor's outfit. Rough and ready clothes suited for running out in the wilderness.",
+      "isDefault": true,
+      "characterName": "Razor",
+      "characterId": 10000020,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Razor_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "You smell... *sniff* nice! Let's hunt."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Scent",
+      "text": "*sniff* I smell rabbit."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Hunger",
+      "text": "I'm hungry. Let's hunt."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Wind-gazing",
+      "text": "I keep watch. You leave, you call me."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When Thunder Strikes: Warning",
+      "text": "If you're scared of lightning, hide now."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When Thunder Strikes: Guidance",
+      "text": "Avoid the trees. Follow me."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It's Windy",
+      "text": "Wind... I like the wind."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "The wind... bites hard."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "The sun is up. Time to hunt."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "I had a big lunch. Lots of meat. Mm, I'm happy."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Go to sleep. I watch the moon."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "You sleep now. I keep watch."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Razor",
+      "text": "I have no human family. I am a wolf."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Friends",
+      "text": "You are my friend. We can hunt. Together!"
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Weapons",
+      "text": "I have iron claws and teeth of thunder. I protect you."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Vision helps Razor... fight with lightning tooth! Protect Lupical!"
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "I like the stars at night. So many stars. In the sky, in the lake. And in the city."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "The wolves are my Lupical. My family."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Lisa",
+      "text": "Lisa lightning makes the sky black. She is strong. She is scary."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Barbara",
+      "text": "Shining Barbara is a good child. Very good child."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Diluc",
+      "text": "Diluc is red and black. Hot and cold."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Venti",
+      "text": "Razor doesn't know poems, but... Lupical likes them."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Bennett",
+      "text": "Bennett... Much talking. Eat with him, never full."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Klee",
+      "text": "Klee, friend! Friend, but... big hassle."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Varka: Stranger",
+      "text": "Varka? Razor doesn't know..."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Varka: Memory",
+      "text": "Oh, Varka is... a name. That man big. Big steelclaw, Razor's name — Varka gave him. Oh... want to see him."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Razor: I",
+      "text": "*sniff* Hmm... You smell kind. Do you like meat?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Razor: II",
+      "text": "You are strong. Like a wolf. I like to hunt with you. We catch a lot."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Razor: III",
+      "text": "Lupical means wolf home— no, Lupical means wolf family. My Lupical lives in the woods. They say I am their Lupical."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Razor: IV",
+      "text": "My Lupical is my only family. But I don't have four legs, not like them. Because I'm not a real wolf. Sometimes, this makes me sad."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Razor: V",
+      "text": "When I run with you, when I hunt with you, I am happy. With you, I am not a wolf, I am not a boy, I am just me. I am Razor. Because you are my friend. You are my Lupical. I hope you feel happy, too!"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Razor's Hobbies",
+      "text": "I like Lupical. I like the woods. I like my friend. I like to run!"
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Razor's Troubles",
+      "text": "Talking makes me tired. Talking is... hard. But... I have to try."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I like meat, and... I like potatoes."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Greens are bad. Animal eats green things. Then I eat animal!"
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Smells good, also tastes good, I like it."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Eating this gives me energy, makes me happy."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Eating it, bad. Not eating it, also bad. I'm a bit sad."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Today is your day. You were born on this day, many moons ago. I want to make you happy today. Can we eat meat together?"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Arms... bigger!"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Grr! Sharpen claws. Sharpen teeth. Become stronger!"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Run... Hunt... No. No! Must... become stronger!"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Teeth. Claws. Legs. All bigger. All stronger! To protect you."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Get back!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Ah!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Heyah!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Keep back!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Raaaarrr!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "*howls*"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "*roars*"
+    },
+    {
+      "id": "200004",
+      "type": 2,
+      "title": "Elemental Burst: IV",
+      "text": "Rar!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "These things... useful?"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Empty chest... good for storage."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Smell of treasure... strange."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Argh!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "*grunt* A-a-awoooo!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "I kill you!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "No!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Wake up!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Can't... breathe..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Take me back..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Lupical... my Lupical..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "I taste blood..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "I'll scout ahead."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "We're going to hunt!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "I'll watch your back."
+    }
+  ]
+}

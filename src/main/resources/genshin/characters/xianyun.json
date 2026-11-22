@@ -1,0 +1,1735 @@
+{
+  "_id": 10000093,
+  "id": "xianyun",
+  "name": "Xianyun",
+  "title": "Passerine Herald",
+  "description": "One of the Mighty and Illuminated Adepti of Jueyun, known as \"Cloud Retainer.\" Expert in all kinds of mechanical contraptions, her heart now turns towards the affairs of the mortal world, through which she walks under the name \"Xianyun.\"",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "anemo",
+    "name": "Anemo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1706565600,
+  "substat": "ATK%",
+  "stats": {
+    "base": {
+      "hp": 810.322,
+      "attack": 26.068,
+      "defense": 44.57335
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 694.77783,
+        "attack": 22.34932,
+        "defense": 38.2185,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1188.4358,
+        "attack": 38.2291,
+        "defense": 65.37375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.072
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1846.6464,
+        "attack": 59.40214,
+        "defense": 101.58075,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2340.3042,
+        "attack": 75.28192,
+        "defense": 128.736,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2833.9622,
+        "attack": 91.1617,
+        "defense": 155.89125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.216
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3327.62,
+        "attack": 107.04148,
+        "defense": 183.0465,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.288
+        }
+      }
+    ]
+  },
+  "affiliation": "Mt. Aocang",
+  "region": {
+    "id": "liyue",
+    "name": "Liyue"
+  },
+  "rarity": 5,
+  "birthday": [
+    11,
+    4
+  ],
+  "constellation": "Grus Serena",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Stephanie Panisello",
+    "chinese": "秦紫翼",
+    "japanese": "中臣真菜",
+    "korean": "Kang Si-hyun"
+  },
+  "skills": [
+    {
+      "_id": 10931,
+      "id": "word_of_wind_and_flower",
+      "name": "Word of Wind and Flower",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Summons swirling winds to perform up to 4 attacks, dealing <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina and launches a Breeze Bolt in a straight line that deals <span style=\"color:#80FFD7FF\">Anemo DMG</span> to opponents along its path.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Gathers the power of Anemo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "40.3%",
+            "43.3%",
+            "46.3%",
+            "50.4%",
+            "53.4%",
+            "56.4%",
+            "60.5%",
+            "64.5%",
+            "68.5%",
+            "72.5%",
+            "76.6%",
+            "80.6%",
+            "85.6%",
+            "90.7%",
+            "95.7%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "38.9%",
+            "41.8%",
+            "44.7%",
+            "48.6%",
+            "51.5%",
+            "54.4%",
+            "58.3%",
+            "62.2%",
+            "66.1%",
+            "69.9%",
+            "73.8%",
+            "77.7%",
+            "82.6%",
+            "87.4%",
+            "92.3%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "48.9%",
+            "52.5%",
+            "56.2%",
+            "61.1%",
+            "64.8%",
+            "68.4%",
+            "73.3%",
+            "78.2%",
+            "83.1%",
+            "88%",
+            "92.9%",
+            "97.8%",
+            "103.9%",
+            "110%",
+            "116.1%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "64.9%",
+            "69.8%",
+            "74.7%",
+            "81.1%",
+            "86%",
+            "90.9%",
+            "97.4%",
+            "103.9%",
+            "110.4%",
+            "116.9%",
+            "123.3%",
+            "129.8%",
+            "137.9%",
+            "146.1%",
+            "154.2%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "123.1%",
+            "132.4%",
+            "141.6%",
+            "153.9%",
+            "163.1%",
+            "172.4%",
+            "184.7%",
+            "197%",
+            "209.3%",
+            "221.6%",
+            "233.9%",
+            "246.2%",
+            "261.6%",
+            "277%",
+            "292.4%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10932,
+      "id": "white_clouds_at_dawn",
+      "name": "White Clouds at Dawn",
+      "description": "Xianyun enters the Cloud Transmogrification state, in which she will not take Fall DMG, and uses Skyladder once.<br/>In this state, her Plunging Attack will be converted into Driftcloud Wave instead, which deals <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span> and ends the Cloud Transmogrification state. This DMG is considered Plunging Attack DMG.<br/>Each use of Skyladder while in this state increases the DMG and AoE of the next Driftcloud Wave used.<br/><br/><span style=\"color:#FFD780FF\">Skyladder</span><br/>Can be used while in mid-air. Xianyun leaps forward, dealing <span style=\"color:#80FFD7FF\">Anemo DMG</span> to targets along her path.<br/>During each Cloud Transmogrification state Xianyun enters, Skyladder may be used up to 3 times and only 1 instance of Skyladder DMG can be dealt to any one opponent.<br/>If Skyladder is not used again in a short period, the Cloud Transmogrification state will be canceled.<br/><br/>If Xianyun does not use Driftcloud Wave while in this state, the next CD of White Clouds at Dawn will be decreased by 3s.",
+      "info": "Do not shake Cloud Retainer's hand too tightly; cranes are quite adept at gripping.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "24.8%",
+            "26.66%",
+            "28.52%",
+            "31%",
+            "32.86%",
+            "34.72%",
+            "37.2%",
+            "39.68%",
+            "42.16%",
+            "44.64%",
+            "47.12%",
+            "49.6%",
+            "52.7%",
+            "55.8%",
+            "58.9%"
+          ]
+        },
+        {
+          "label": "Driftcloud Wave DMG",
+          "values": [
+            "116% / 148% / 337.6%",
+            "124.7% / 159.1% / 362.9%",
+            "133.4% / 170.2% / 388.2%",
+            "145% / 185% / 422%",
+            "153.7% / 196.1% / 447.3%",
+            "162.4% / 207.2% / 472.6%",
+            "174% / 222% / 506.4%",
+            "185.6% / 236.8% / 540.2%",
+            "197.2% / 251.6% / 573.9%",
+            "208.8% / 266.4% / 607.7%",
+            "220.4% / 281.2% / 641.4%",
+            "232% / 296% / 675.2%",
+            "246.5% / 314.5% / 717.4%",
+            "261% / 333% / 759.6%",
+            "275.5% / 351.5% / 801.8%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10935,
+      "id": "stars_gather_at_dusk",
+      "name": "Stars Gather at Dusk",
+      "description": "Brings forth a sacred breeze that deals <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span> and heals all nearby characters based on Xianyun's ATK. It will also summon the \"Starwicker\" mechanism.<br/><br/><span style=\"color:#FFD780FF\">Starwicker</span><br/>·Continuously follows the active character and periodically heals all nearby party members based on Xianyun's ATK.<br/>·Starts with 8 stacks of Adeptal Assistance. While Adeptal Assistance is active, nearby active characters in the party will have their jump height increased.<br/>·When the active character completes a Plunging Attack, Starwicker will consume 1 stack of Adeptal Assistance and deal <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span>.<br/>Only 1 Starwicker can exist simultaneously.",
+      "info": "This is the newest invention in the \"Lunastar Artifices\" series, of which previous creations include the Supreme Cuisine Machine, the Snowdrift Mechanism, the Supreme Housekeeping Machine, the Floating Toting Device, and the Bloom Pruner. This series was intended for young humans Cloud Retainer held in great esteem, and so was not designed with a certain half-adeptus in mind. However, when offered Starwicker, a certain female disciple of hers had these emotionless words to say: \"No thank you.\"<br/>Cloud Retainer thus had no choice but to keep it herself.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "108%",
+            "116.1%",
+            "124.2%",
+            "135%",
+            "143.1%",
+            "151.2%",
+            "162%",
+            "172.8%",
+            "183.6%",
+            "194.4%",
+            "205.2%",
+            "216%",
+            "229.5%",
+            "243%",
+            "256.5%"
+          ]
+        },
+        {
+          "label": "Starwicker DMG",
+          "values": [
+            "39.2%",
+            "42.1%",
+            "45.1%",
+            "49%",
+            "51.9%",
+            "54.9%",
+            "58.8%",
+            "62.7%",
+            "66.6%",
+            "70.6%",
+            "74.5%",
+            "78.4%",
+            "83.3%",
+            "88.2%",
+            "93.1%"
+          ]
+        },
+        {
+          "label": "Healing",
+          "values": [
+            "92.2% ATK + 578",
+            "99.1% ATK + 636",
+            "106% ATK + 698",
+            "115.2% ATK + 766",
+            "122.1% ATK + 838",
+            "129% ATK + 915",
+            "138.2% ATK + 997",
+            "147.5% ATK + 1083",
+            "156.7% ATK + 1175",
+            "165.9% ATK + 1271",
+            "175.1% ATK + 1372",
+            "184.3% ATK + 1478",
+            "195.8% ATK + 1589",
+            "207.4% ATK + 1705",
+            "218.9% ATK + 1825"
+          ]
+        },
+        {
+          "label": "Continuous Healing",
+          "values": [
+            "43% ATK + 270",
+            "46.2% ATK + 297",
+            "49.5% ATK + 326",
+            "53.8% ATK + 357",
+            "57% ATK + 391",
+            "60.2% ATK + 427",
+            "64.5% ATK + 465",
+            "68.8% ATK + 506",
+            "73.1% ATK + 548",
+            "77.4% ATK + 593",
+            "81.7% ATK + 640",
+            "86% ATK + 690",
+            "91.4% ATK + 742",
+            "96.8% ATK + 795",
+            "102.1% ATK + 852"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "galefeather_pursuit",
+      "name": "Galefeather Pursuit",
+      "description": "Each opponent hit by Driftcloud Waves from <span style=\"color:#FFD780FF\">White Clouds at Dawn</span> will grant all nearby party members 1 stack of Storm Pinion for 20s. Max 4 stacks. These will cause the characters' Plunging Attack CRIT Rate to increase by 4%/6%/8%/10% respectively.<br/>Each Storm Pinion created by hitting an opponent has an independent duration.",
+      "level": 1
+    },
+    {
+      "id": "consider_the_adeptus_in_her_realm",
+      "name": "Consider, the Adeptus in Her Realm",
+      "description": "When the Starwicker created by <span style=\"color:#FFD780FF\">Stars Gather at Dusk</span> has Adeptal Assistance stacks, nearby active characters' Plunging Attack shockwave DMG will be increased by 200% of Xianyun's ATK. The maximum DMG increase that can be achieved this way is 9,000.<br/>Each Plunging Attack shockwave DMG instance can only apply this increased DMG effect to a single opponent. Each character can trigger this effect once every 0.4s.",
+      "level": 4
+    },
+    {
+      "id": "crane_form",
+      "name": "Crane Form",
+      "description": "Increases gliding SPD for your own party members by 15%.<br/>Not stackable with Passive Talents that provide the exact same effects.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 931,
+      "id": "purifying_wind",
+      "name": "Purifying Wind",
+      "description": "<span style=\"color:#FFD780FF\">White Clouds at Dawn</span> gains 1 additional charge.",
+      "level": 1
+    },
+    {
+      "_id": 932,
+      "id": "aloof_from_the_world",
+      "name": "Aloof From the World",
+      "description": "After using a Skyladder from <span style=\"color:#FFD780FF\">White Clouds at Dawn</span>, Xianyun's ATK will be increased by 20% for 15s.<br/>Additionally, the effects of the Ascension Talent \"Consider, the Adeptus in Her Realm\" will be enhanced: When the Starwicker created by <span style=\"color:#FFD780FF\">Stars Gather at Dusk</span> has Adeptal Assistance stacks, nearby active characters' Plunging Attack shockwave DMG will be increased by 400% of Xianyun's ATK. The maximum DMG increase that can be achieved this way is 18,000.<br/>Each Plunging Attack shockwave DMG instance can only apply this increased DMG effect to a single opponent. Each character can trigger this effect once every 0.4s.<br/>You must first unlock the Ascension Talent \"Consider, the Adeptus in Her Realm.\"",
+      "level": 2
+    },
+    {
+      "_id": 933,
+      "id": "creations_of_star_and_moon",
+      "name": "Creations of Star and Moon",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Stars Gather at Dusk</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 934,
+      "id": "mystery_millet_gourmet",
+      "name": "Mystery Millet Gourmet",
+      "description": "After using Skyladder 1/2/3 times during one <span style=\"color:#FFD780FF\">White Clouds at Dawn</span> Cloud Transmogrification state, when a Driftcloud Wave unleashed during that instance hits an opponent, it will heal all nearby party members for 50%/80%/150% of Xianyun's ATK. This effect can be triggered once every 5s.",
+      "level": 4
+    },
+    {
+      "_id": 935,
+      "id": "astride_rosecolored_clouds",
+      "name": "Astride Rose-Colored Clouds",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">White Clouds at Dawn</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 936,
+      "id": "they_call_her_cloud_retainer",
+      "name": "They Call Her Cloud Retainer",
+      "description": "After Xianyun uses 1/2/3 Skyladders within one Cloud Transmogrification caused by <span style=\"color:#FFD780FF\">White Clouds at Dawn</span>, the CRIT DMG of a Driftcloud Wave created in this instance of Cloud Transmogrification will be increased by 15%/35%/70%.<br/>Within 16s after Xianyun has used <span style=\"color:#FFD780FF\">Stars Gather at Dusk</span>, White Clouds at Dawn will not enter CD. This effect will be canceled once she has used White Clouds at Dawn 8 times.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "810"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "26"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "45"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2102",
+            "2797"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "68",
+            "90"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "116",
+            "154"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4185",
+            "4678"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "135",
+            "151"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "230",
+            "257"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "7.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104151,
+        "id": "vayuda_turquoise_sliver",
+        "name": "Vayuda Turquoise Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101241,
+        "id": "clearwater_jade",
+        "name": "Clearwater Jade",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Divining Scroll",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5383",
+            "6041"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "173",
+            "194"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "296",
+            "332"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "7.2%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113058,
+        "id": "cloudseam_scale",
+        "name": "Cloudseam Scale",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101241,
+        "id": "clearwater_jade",
+        "name": "Clearwater Jade",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Divining Scroll",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6752",
+            "7246"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "217",
+            "233"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "371",
+            "399"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "14.4%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113058,
+        "id": "cloudseam_scale",
+        "name": "Cloudseam Scale",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101241,
+        "id": "clearwater_jade",
+        "name": "Clearwater Jade",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7964",
+            "8458"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "256",
+            "272"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "438",
+            "465"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "14.4%",
+            "21.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113058,
+        "id": "cloudseam_scale",
+        "name": "Cloudseam Scale",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101241,
+        "id": "clearwater_jade",
+        "name": "Clearwater Jade",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9184",
+            "9677"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "295",
+            "311"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "505",
+            "532"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "21.6%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113058,
+        "id": "cloudseam_scale",
+        "name": "Cloudseam Scale",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101241,
+        "id": "clearwater_jade",
+        "name": "Clearwater Jade",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Forbidden Curse Scroll",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10409",
+            "10409"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "335",
+            "335"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "573",
+            "573"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "28.8%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104154,
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Vayuda Turquoise Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113058,
+        "id": "cloudseam_scale",
+        "name": "Cloudseam Scale",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101241,
+        "id": "clearwater_jade",
+        "name": "Clearwater Jade",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Forbidden Curse Scroll",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104316,
+          "id": "teachings_of_gold",
+          "name": "Teachings of Gold",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112008,
+          "id": "divining_scroll",
+          "name": "Divining Scroll",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113055,
+          "id": "lightless_eye_of_the_maelstrom",
+          "name": "Lightless Eye of the Maelstrom",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113055,
+          "id": "lightless_eye_of_the_maelstrom",
+          "name": "Lightless Eye of the Maelstrom",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113055,
+          "id": "lightless_eye_of_the_maelstrom",
+          "name": "Lightless Eye of the Maelstrom",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113055,
+          "id": "lightless_eye_of_the_maelstrom",
+          "name": "Lightless Eye of the Maelstrom",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 209300,
+      "name": "A Guest's August Omen",
+      "description": "Xianyun's outfit. These garments were not designed by any famous tailor, though at first glance, they appear to be made of the finest silks. Yet closer inspection reveals that the weave is not of silk, cotton, or linen, and a glow runs through it like an adeptus's feather coat. One can only imagine from what provenance she obtained such clothes...",
+      "isDefault": true,
+      "characterName": "Xianyun",
+      "characterId": 10000093,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Liuyun_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "What? A cursory change in one's appearance, and you barely recognize me? Hah, then let one dispel any doubt — one is in all things unconstrained and unabashed, free to live as one pleases, go where one desires, and journey with whomsoever one wishes. Nevertheless, ahem... In light of one's considerable renown... please call me \"Xianyun\" in public."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: The Study of Mechanisms",
+      "text": "The secrets of the mechanical arts are too profound to convey in a few simple words... But why must the listener grow weary whenever I begin to divulge them?"
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: The Mortal World",
+      "text": "Peace prevails throughout the land, and all things are made new, as buds in the Spring. This is an auspicious era for humanity."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Interesting Experiences",
+      "text": "If you are presently unoccupied, perhaps we could stop awhile at one's abode for some repose and conversation?"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "In this era of fair winds and gentle rains, one needs not marshal the winds to deliver the rainclouds."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Ugh, what a dreadful racket..."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "On this fine day, the view from the heavens must be magnificent... Oh, don't fret, one has no intent to fly off and leave you on your own."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Oh, what a soothing wind. Shall one attach some adepti sigils to your person, so that you may join me for a flight in the firmament?"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "In fact, one awoke quite some time ago, and simply had one's eyes closed in meditation. A most beneficial practice for spiritual cultivation — you might try it for yourself some time."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Hmm? Spare me that look, is it not your turn to prepare luncheon today?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "You wish to attend the night market together? Hah, one shall engage in no such fool's errand. Whatever novelty or knick-knack you desire, one can simply make for you."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "One is still wide awake... *yawn* But you look dead on your feet. Go on, off to bed with you."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Xianyun: Disciples",
+      "text": "One has always been a staunch defier of convention and expectation, preferring instead the freedom to live life precisely how one pleases. It is only natural for disciples to follow in their master's footsteps. So focused are they on their individual endeavors that they are quite content to go weeks without writing... Lonely? One is most certainly not! Hm... Still, were one to find time to pay them a visit — you don't suppose they would be unduly inconvenienced by one's presence, do you...?"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Xianyun: Cooking",
+      "text": "To be sure, a Supreme Cuisine Machine is no substitute for a human touch if one wishes to prepare a truly magnificent meal. Nevertheless, using it frees up one's time to work on a new, improved model, which in turn saves more time, and so on and so forth... Hah, there will come a day, once this machine has been iterated to impeccability, that the power to cook all the delicacies known to humankind shall be within one's grasp."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Companions",
+      "text": "One took the liberty of surveying the land from the skies above so as to fashion this route-finding compass for your future traveling convenience. Heh, when have you ever met such a considerate companion as oneself, hmm? ... ...Already intimately acquainted with said terrain, you say? Hmph... Well, be that as it may, human memory is notoriously error-prone. One of these days, you'll get yourself hopelessly lost, and then you shall be thanking one profusely for one's foresight."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Bonds",
+      "text": "Despite one's lack of interest in worldly attachments, one is quite conscious indeed of the importance of \"bonds.\" Such a simple word for a thing so profound that it all but defies articulation... Take oneself and those old fossils, for example. Ah, sometimes we go years without meeting, and even then we find no shortage of things to quarrel about at our next reunion. Yet so deep runs our bond that no matter the physical distance between us, one will never feel alone and adrift in this world... One holds you in high esteem, child, and is pleased to count you as a friend. Do you also treasure the bond we share?"
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Rex Lapis once said that a Vision is a call to duty — to act as a guardian, watching over humankind, and that whether we choose to withdraw into the mountains or embrace the clamor of the city, we must never shirk that duty. Now, the age of humankind is upon us, but one will continue to cherish this duty long into the future."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "That mechanical bird of mine is only a prototype. One had aspirations for a much larger model, hollow inside so that it could unfurl into a vehicle with which to embark on sight-seeing journeys with one's old friends... The challenges of powering and operating such a device, however, proved somewhat insurmountable. After all, it required pitch control, the ability to change form, not to mention the safety features... *sigh* If only Guizhong were still here. She, no doubt, would offer many baffling but ingenious solutions to this conundrum."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Mt. Aocang is an ideal place for spiritual cultivation. It possesses natural beauty beyond compare, and the pure, unalloyed essence of nature flows strong all around. Once upon a time, many curious birds and beasts would gather and watch as one meditated, and very soon the peace and tranquility would be replaced by a chaotic chorus of chirping and screeching... and yet, one never found it offended the ear."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Ganyu",
+      "text": "One once asked Ganyu what she typically works on during her overtime hours. Her response was filled with hideous-sounding words, such as \"meeting minutes,\" \"summaries,\" \"annual reports,\" \"financial projections\"... Hmph, were she not of qilin blood, and had one not taught to her the secrets of cultivating health, this avalanche of bureaucratic writ would have surely overwhelmed her... When you see her next, would you check that she's been drinking her Qingxin Infusion of Clear Sight on a daily basis?"
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Shenhe",
+      "text": "Shenhe told me that once, when she was delivering an order for Wanmin Restaurant, she ran across the rooftops to save time. Her customer was terrified when she jumped down onto their doorstep, and was about to call for the Millelith... Fortunately, Shenhe disappeared as quickly as she arrived, leaving the food delivery behind and making haste before the customer had time to react. It seems she is growing more proficient at handling crises all the time — one could not be more pleased."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Zhongli",
+      "text": "When Rex Lapis first heard of one's plan to take up residence in Liyue Harbor, he recited a long and detailed list of considerations for the furnishing and adornment of a home. Natural lighting, ventilation, bespoke woodwork, procuring porcelain, placement of plants and flowers... One's mind felt ready to explode from the deluge of information. Do all facets of life in the human world take so much effort?"
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Xiao",
+      "text": "The Conqueror of Demons is even more withdrawn than oneself — he has been sighted a mere handful of times at social gatherings over the centuries... One was interested to learn that you are on rather good terms with him — what sort of conversations do the two of you tend to have? Oh, and do let me know when you next plan to see him. Perhaps one could make some tofu pudding for you to pass on to him."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Hu Tao",
+      "text": "That young lady says the most bizarre-sounding things, yet she appears to be rather highly regarded by the staff of the Wangsheng Funeral Parlor — even Rex Lapis himself saw fit to serve under her in some sort of \"consultancy\" capacity... Allegedly, she is similarly peculiar when it comes to her taste in food. One must admit, one finds eccentrics like her rather intriguing."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Xiangling",
+      "text": "One happened to mention the Supreme Cuisine Machine in conversation with Xiangling once, but one was rather taken aback when she responded by saying that a dish is inauthentic unless it is prepared by hand... Hmph, are one's devices not also the work of one's hands? Inauthentic indeed... A contest is in order! ...Although, her mastery of Liyue cuisine is indeed impressive... Yes — the contest shall have to wait until one has made a few improvements to the device..."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Ningguang",
+      "text": "The Tianquan conducts her business with great adroitness, and is meticulous in her speech. Hmph, one must admit that Liyue is thriving under the governance of the Qixing. One has been observing her closely in the hope of discovering her secret... Ahem, that was for your ears only — please do not relay it to her."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Keqing",
+      "text": "Keqing is a thoughtful child. She visits me on behalf of the Qixing every festival without fail, and always brings a gift. With such a capable and considerate colleague by her side, perhaps one needn't worry too much about Ganyu..."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Yun Jin",
+      "text": "There are many Liyue operas adapted from stories about the adepti, including some based on one's own life and exploits... One has never watched those, of course — what could be more embarrassing than watching someone else play oneself on the stage? One would, however, be interested to evaluate how well Yun Jin did in her adaptation of Shenhe's story, when one has time to go and see it."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Yaoyao",
+      "text": "Yaoyao once pinched my glasses from my face and tried them on for herself — she found it terribly entertaining, and couldn't stop giggling... Ah, children are able to find all sorts of ways to amuse themselves."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Gaming",
+      "text": "One is very fond of Gaming. He is good-hearted and entertaining in conversation, but never grandiloquent. We first met when one was resting by a lake, and he very kindly shared some of his provisions with me. Later, he commented that one seemed to be a wise elder, worthier of respect than even the adepti themselves... Hehe, this wise elder will be sure to look out for him after that."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Zibai",
+      "text": "Zibai has made herself quite a regular visitor lately. She is certainly proficient in mathematics, but... *sigh* On one occasion, Yaoyao showed up to deliver some things from Ping, and Zibai took the opportunity to quiz her with a handful of math problems. Being the bright child that she is, Yaoyao answered them with no issue — much to the delight of Zibai, who then peppered the poor girl with even more math problems. One has never seen Yaoyao sweat so profusely... Goodness knows how much longer this would have continued had one not stepped in and changed the topic... *sigh* But Zibai still hasn't let it go. She insists that Yaoyao's mathematical gift must not be squandered and keeps asking one for her address so that she can deliver some worksheets to her... Hmph. The question is, should I tell her or not?"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More about Xianyun: I",
+      "text": "You wish to know more about one's past? ...One doubts there would be much worth sharing — it's all ancient history by now. One is more interested to hear about your travels to the far-flung corners of the world... What forms do the gods and immortals of other nations take? Are there any of them as amenable to conversation as oneself? Let us brew some tea, and then you can tell me all about it."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More about Xianyun: II",
+      "text": "There was a time when many mortals longed to seek the guidance of the adepti. One knows not how they discovered the location of one's abode, but every other day or so, one would find people leaving offerings of food at the altar on Mt. Aocang... Hmph, why ever would mortals expect an adeptus to interrupt their meditation for the sake of ingesting a mortal meal? Most bemusing. Nevertheless, since their actions were heartfelt, one saw only fit to indulge in— Ahem, to embrace their offerings once they had departed."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More about Xianyun: III",
+      "text": "Then there were those who came right to one's doorstep, requesting to be taken on as disciples. One refused to grant them an audience, but they simply would not leave, and before long, Mt. Aocang had become something of a pilgrims' campsite... One promptly posted a sign outside the abode, decreeing that all would-be disciples must first present ninety-nine dishes over a period of as many days, each dish unique in its recipe and featuring the Qingxin as the main ingredient... Naturally, the crowd soon dispersed. Hmph, to master the adepti arts and the mechanical arts requires supreme talent and the utmost stillness of mind. Training would be a futile endeavor for those who cannot even persevere for a mere three months."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More about Xianyun: IV",
+      "text": "For all the wondrous feats that can be accomplished by one who has mastered the mechanical arts, one often uses it for purely recreational purposes. There was one year when it snowed heavily in Liyue, and Mt. Aocang was covered in several feet of snow. Seeing everyone cooped up in their abodes with nothing to do, one created a Snowdrift Mechanism for skiing on the mountains. One was having a tremendous time of it along with Guizhong and Streetward Rambler... until, of course, Moon Carver noticed as much and decided to join in. Moments later, he had managed to send the mechanism flying off the rails and plummeted deep into a snow bank. It took us hours to dig him out... Later, one introduced a great many safety features to the mechanism, to the point where it could be safely piloted by even a three-year-old child. Although this did entail a compromise on the top speed of the vehicle."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More about Xianyun: V",
+      "text": "One has read a great many works of popular literature since moving to Liyue Harbor. Those of the chivalric martial arts genre have proven the most entertaining, although the heroes within their pages are all works of the imagination. Would it not be even more compelling to tell the stories of the many such real-life figures with whom one is acquainted? It is a pity that one's disciples are so averse to one sharing the tales of their lives with other people... Perhaps you could relay more of the tales from your travels? One could adapt those into a novel instead."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Xianyun's Hobbies",
+      "text": "When idle and in need of diversion, basking in the winds that travel through the mountains always calms the mind."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Xianyun's Troubles",
+      "text": "Since moving to Liyue Harbor, one has had an endless procession of old friends and new arriving at one's doorstep, either to visit or to invite one out for meals. If this continues, one may soon be running short on Mora..."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Eating together with friends always leaves a pleasant taste in the mouth, regardless of what food was consumed."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "An adeptus devotes themselves to spiritual cultivation, to which end the delicacies of the mortal realm are not necessary. When one eats such things, it is not for nourishment, but to enjoy the flavor... So, if you prepare a dish and it does not taste exquisite even to yourself, you may spare yourself the courtesy of offering to share it with me — in fact, you might find you are better off leaving the cooking to me to begin with..."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "A paragon of both freshness and flavor... Tell me, for how long have you been surreptitiously studying one's culinary secrets?"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "The flavor is secondary — what matters is that you felt the inclination to cook for me at all. I commend your consideration."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "One's supreme cuisine machine has been lying idle as of late. You are welcome to borrow it."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Here, open this wooden box. It's a miniature mechanical person for your recreational enjoyment. Try playing with it. Observe — if you clap the hands like this, the lotus petals open, the colored lights turn on one set at a time, and then a melody plays. It is that birthday tune that the young and hip of this generation enjoy so much. Certain to add a touch of merriment and levity to your birthday feast... Have a wonderful day."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Given that one spends so much time indoors, it is rather nice to perform a little exercise once in a while."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Some of these adeptal arts one has not employed in many years... Inevitably, one is a little unpracticed."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Dear me, that expectant look on your face... *sigh* Very well. One shall have to employ one's abilities to a fuller extent from now on."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "It is through our journey in this world that we gain experience. Power is not everything — the skills of communication are more important. If you have time, let us find a place with a pleasant view where we can admire the scenery, converse, slow down our pace, and simply enjoy being alive."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Huh!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Skyward!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Scatter!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Seize the skies."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Make way for the adeptus!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Stray clouds, converge."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "These could be salvaged for parts."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "What trinkets have we here? Present them for one's perusal."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Perhaps one should invent some form of \"Curio Discernment Mechanism.\""
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "The audacity!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "This one is no weakling."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "One shall not back down!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Be wise to your limits."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "You should've called on one."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Doesn't count... I hadn't eaten..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Fiddlesticks..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Wait, my mechanical masterwork..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Derivative."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Inconsequential."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "My contraptions are calibrated. We may now depart."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "I trust you have packed ample foodstuffs?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "One is fast on one's feet — try to keep pace."
+    }
+  ]
+}

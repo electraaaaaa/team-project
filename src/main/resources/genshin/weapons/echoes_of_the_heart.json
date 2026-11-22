@@ -1,0 +1,328 @@
+{
+  "_id": 14436,
+  "id": "echoes_of_the_heart",
+  "name": "Echoes of the Heart",
+  "description": "A Catalyst said to crystallize voice. Within it lies a sealed oath of loyalty, as well as a heart long since forgotten by mankind.",
+  "rarity": 4,
+  "type": {
+    "id": "Catalyst",
+    "name": "Catalyst"
+  },
+  "domain": "Domain of Forgery: Scars of Cursed Obsession",
+  "passive": "Echo of a Vow",
+  "bonus": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <span>60/75/90/105/120</span> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <span>16%/20%/24%/28%/32%</span> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+  "specialProp": "ATK%",
+  "stats": {
+    "primary": "Base ATK",
+    "secondary": "ATK%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 119,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 144,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 226,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 252,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 293,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 319,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 361,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 387,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 429,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 455,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 497,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 523,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 565,
+        "secondary": 27.6
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "_id": 114085,
+          "id": "rise_of_the_pale_star_army",
+          "name": "Rise of the Pale Star Army",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112152,
+          "id": "accreted_fragment",
+          "name": "Accreted Fragment",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112146,
+          "id": "ethereal_glimmershard",
+          "name": "Ethereal Glimmershard",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "_id": 114086,
+          "id": "muster_of_the_pale_star_army",
+          "name": "Muster of the Pale Star Army",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "_id": 112152,
+          "id": "accreted_fragment",
+          "name": "Accreted Fragment",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "_id": 112146,
+          "id": "ethereal_glimmershard",
+          "name": "Ethereal Glimmershard",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "_id": 114086,
+          "id": "muster_of_the_pale_star_army",
+          "name": "Muster of the Pale Star Army",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112153,
+          "id": "accreted_mass",
+          "name": "Accreted Mass",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112147,
+          "id": "ethereal_crystal",
+          "name": "Ethereal Crystal",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "_id": 114087,
+          "id": "clarion_of_the_pale_star_army",
+          "name": "Clarion of the Pale Star Army",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "_id": 112153,
+          "id": "accreted_mass",
+          "name": "Accreted Mass",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 112147,
+          "id": "ethereal_crystal",
+          "name": "Ethereal Crystal",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "_id": 114087,
+          "id": "clarion_of_the_pale_star_army",
+          "name": "Clarion of the Pale Star Army",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112154,
+          "id": "accreted_growth",
+          "name": "Accreted Growth",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "_id": 112148,
+          "id": "ethereal_crystalscale_stone",
+          "name": "Ethereal Crystalscale Stone",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "_id": 114088,
+          "id": "triumph_of_the_pale_star_army",
+          "name": "Triumph of the Pale Star Army",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "_id": 112154,
+          "id": "accreted_growth",
+          "name": "Accreted Growth",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "_id": 112148,
+          "id": "ethereal_crystalscale_stone",
+          "name": "Ethereal Crystalscale Stone",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinement_raw": {
+    "name": "Echo of a Vow",
+    "template": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <span style=\"color:#99FFFFFF\">{0}</span> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <span style=\"color:#99FFFFFF\">{1}</span> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+    "params": [
+      [
+        "60",
+        "16%"
+      ],
+      [
+        "75",
+        "20%"
+      ],
+      [
+        "90",
+        "24%"
+      ],
+      [
+        "105",
+        "28%"
+      ],
+      [
+        "120",
+        "32%"
+      ]
+    ]
+  },
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <span>60</span> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <span>16%</span> for 12s. The aforementioned effects can trigger even when the character is not on the field."
+    },
+    {
+      "refinement": 2,
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <span>75</span> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <span>20%</span> for 12s. The aforementioned effects can trigger even when the character is not on the field."
+    },
+    {
+      "refinement": 3,
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <span>90</span> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <span>24%</span> for 12s. The aforementioned effects can trigger even when the character is not on the field."
+    },
+    {
+      "refinement": 4,
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <span>105</span> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <span>28%</span> for 12s. The aforementioned effects can trigger even when the character is not on the field."
+    },
+    {
+      "refinement": 5,
+      "desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by <span>120</span> for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by <span>32%</span> for 12s. The aforementioned effects can trigger even when the character is not on the field."
+    }
+  ]
+}

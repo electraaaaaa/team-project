@@ -1,0 +1,1923 @@
+{
+  "_id": 10000114,
+  "id": "skirk",
+  "name": "Skirk",
+  "title": "Void Star",
+  "description": "A visitor who once appeared in an Abyssal rift and the Primordial Sea, this solitary warrior mentored Tartaglia in the martial arts.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1750107600,
+  "substat": "CRIT DMG",
+  "stats": {
+    "base": {
+      "hp": 966.6665,
+      "attack": 27.93,
+      "defense": 62.76167
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 828.8291,
+        "attack": 23.9457,
+        "defense": 53.8137,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1417.734,
+        "attack": 40.95975,
+        "defense": 92.04975,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2202.9404,
+        "attack": 63.64515,
+        "defense": 143.03114,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2791.8455,
+        "attack": 80.6592,
+        "defense": 181.2672,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3380.7502,
+        "attack": 97.67325,
+        "defense": 219.50325,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.288
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3969.6553,
+        "attack": 114.6873,
+        "defense": 257.7393,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.384
+        }
+      }
+    ]
+  },
+  "affiliation": "Cosmic Calamity",
+  "region": {
+    "id": "omni_scourge",
+    "name": "OMNI_SCOURGE"
+  },
+  "rarity": 5,
+  "birthday": [
+    5,
+    11
+  ],
+  "constellation": "Crystallina",
+  "domain": "Blazing Ruins",
+  "cv": {
+    "english": "Cat Protano",
+    "chinese": "谢莹",
+    "japanese": "能登麻美子",
+    "korean": "Seo Da-hye"
+  },
+  "skills": [
+    {
+      "_id": 11141,
+      "id": "havoc_sunder",
+      "name": "Havoc: Sunder",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 consecutive attacks.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to hurl a spinning crystal spear, dealing DMG to opponents ahead.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "54.5%",
+            "59%",
+            "63.4%",
+            "69.7%",
+            "74.2%",
+            "79.3%",
+            "86.2%",
+            "93.2%",
+            "100.2%",
+            "107.8%",
+            "115.4%",
+            "123%",
+            "130.6%",
+            "138.2%",
+            "145.8%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "49.8%",
+            "53.8%",
+            "57.9%",
+            "63.7%",
+            "67.7%",
+            "72.4%",
+            "78.7%",
+            "85.1%",
+            "91.5%",
+            "98.4%",
+            "105.4%",
+            "112.3%",
+            "119.3%",
+            "126.2%",
+            "133.2%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "32.4% + 32.4%",
+            "35.1% + 35.1%",
+            "37.7% + 37.7%",
+            "41.5% + 41.5%",
+            "44.1% + 44.1%",
+            "47.1% + 47.1%",
+            "51.3% + 51.3%",
+            "55.4% + 55.4%",
+            "59.6% + 59.6%",
+            "64.1% + 64.1%",
+            "68.6% + 68.6%",
+            "73.1% + 73.1%",
+            "77.7% + 77.7%",
+            "82.2% + 82.2%",
+            "86.7% + 86.7%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "60.8%",
+            "65.8%",
+            "70.7%",
+            "77.8%",
+            "82.7%",
+            "88.4%",
+            "96.2%",
+            "103.9%",
+            "111.7%",
+            "120.2%",
+            "128.7%",
+            "137.2%",
+            "145.6%",
+            "154.1%",
+            "162.6%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "82.9%",
+            "89.7%",
+            "96.4%",
+            "106%",
+            "112.8%",
+            "120.5%",
+            "131.1%",
+            "141.7%",
+            "152.3%",
+            "163.9%",
+            "175.4%",
+            "187%",
+            "198.6%",
+            "210.2%",
+            "221.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "66.8%×2",
+            "72.3%×2",
+            "77.7%×2",
+            "85.5%×2",
+            "90.9%×2",
+            "97.1%×2",
+            "105.7%×2",
+            "114.2%×2",
+            "122.8%×2",
+            "132.1%×2",
+            "141.4%×2",
+            "150.7%×2",
+            "160.1%×2",
+            "169.4%×2",
+            "178.7%×2"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11142,
+      "id": "havoc_warp",
+      "name": "Havoc: Warp",
+      "description": "Imitates the combat style of \"The Foul.\" Produces different effects depending on whether you Tap or Hold.<br/><br/><span style=\"color:#FFD780FF\">Tap</span><br/>Skirk gains 45 <link kind=\"effect\" id=\"11130005\"><span style=\"color:#FFD780FF\">Serpent's Subtlety</span></link> and switches to <link kind=\"effect\" id=\"11130006\"><span style=\"color:#FFD780FF\">Seven-Phase Flash</span></link> mode.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Skirk gains 45 Serpent's Subtlety and will continuously move at high speed. Her interruption resistance is increased in this state.<br/>During this time, Skirk can control her movement direction and move atop water. She can also use this Skill again to end rapid movement prematurely.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "132.8%",
+            "143.6%",
+            "154.4%",
+            "169.9%",
+            "180.7%",
+            "193.1%",
+            "210%",
+            "227%",
+            "244%",
+            "262.6%",
+            "281.1%",
+            "299.6%",
+            "318.2%",
+            "336.7%",
+            "355.2%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "119.8%",
+            "129.6%",
+            "139.3%",
+            "153.2%",
+            "163%",
+            "174.1%",
+            "189.5%",
+            "204.8%",
+            "220.1%",
+            "236.8%",
+            "253.5%",
+            "270.2%",
+            "287%",
+            "303.7%",
+            "320.4%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "75.7% + 75.7%",
+            "81.9% + 81.9%",
+            "88% + 88%",
+            "96.9% + 96.9%",
+            "103% + 103%",
+            "110.1% + 110.1%",
+            "119.7% + 119.7%",
+            "129.4% + 129.4%",
+            "139.1% + 139.1%",
+            "149.7% + 149.7%",
+            "160.3% + 160.3%",
+            "170.8% + 170.8%",
+            "181.4% + 181.4%",
+            "191.9% + 191.9%",
+            "202.5% + 202.5%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "80.5% + 80.5%",
+            "87.1% + 87.1%",
+            "93.7% + 93.7%",
+            "103% + 103%",
+            "109.6% + 109.6%",
+            "117.1% + 117.1%",
+            "127.4% + 127.4%",
+            "137.7% + 137.7%",
+            "148% + 148%",
+            "159.2% + 159.2%",
+            "170.4% + 170.4%",
+            "181.7% + 181.7%",
+            "192.9% + 192.9%",
+            "204.2% + 204.2%",
+            "215.4% + 215.4%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "196.6%",
+            "212.6%",
+            "228.6%",
+            "251.5%",
+            "267.5%",
+            "285.8%",
+            "310.9%",
+            "336.1%",
+            "361.2%",
+            "388.7%",
+            "416.1%",
+            "443.5%",
+            "471%",
+            "498.4%",
+            "525.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "44.5%×3",
+            "48.2%×3",
+            "51.8%×3",
+            "57%×3",
+            "60.6%×3",
+            "64.8%×3",
+            "70.4%×3",
+            "76.1%×3",
+            "81.8%×3",
+            "88.1%×3",
+            "94.3%×3",
+            "100.5%×3",
+            "106.7%×3",
+            "112.9%×3",
+            "119.1%×3"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        },
+        {
+          "label": "Seven-Phase Flash Mode Duration",
+          "values": [
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s",
+            "12.5s"
+          ]
+        },
+        {
+          "label": "Max Serpent's Subtlety",
+          "values": [
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11145,
+      "id": "havoc_ruin",
+      "name": "Havoc: Ruin",
+      "description": "Skirk's Elemental Burst is not reliant on Elemental Energy but instead on <link kind=\"effect\" id=\"11130005\"><span style=\"color:#FFD780FF\">Serpent's Subtlety</span></link>.<br/>When Skirk has at least 50 Serpent's Subtlety, she can expend all her Serpent's Subtlety to unleash her Elemental Burst, ripping the space before her apart and using rapid consecutive slashes that deal <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>. At the same time, the DMG dealt by an instance of this Elemental Burst will be increased by every point of Serpent's Subtlety over 50 when it is unleashed. Up to 12 points can be counted for this purpose.<br/><br/>When Skirk is in <link kind=\"effect\" id=\"11130006\"><span style=\"color:#FFD780FF\">Seven-Phase Flash</span></link> mode, Havoc: Ruin will be replaced by Havoc: Extinction.<br/><br/><span style=\"color:#FFD780FF\">Havoc: Extinction</span><br/>A special Elemental Burst that can be used even without consuming Serpent's Subtlety.<br/>After using it, Skirk will gain the \"All Shall Wither\" effect, which will last until Seven-Phase Flash ends. After unlocking the Ascension Talent <link kind=\"effect\" id=\"11130007\"><span style=\"color:#FFD780FF\">Reason Beyond Reason</span></link>, she can also absorb nearby Void Rifts.<br/>While \"All Shall Wither\" is active, every 0.1s, after Skirk's Normal Attack hits an opponent, that Normal Attack will deal increased DMG. If she absorbed any Void Rifts while using <span style=\"color:#FFD780FF\">Havoc: Extinction</span>, this Normal Attack's DMG will be further increased based on the number of Rifts absorbed.<br/>This effect will be canceled when it has triggered 10 times.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Slash DMG",
+          "values": [
+            "122.8% ×5",
+            "132% ×5",
+            "141.2% ×5",
+            "153.4% ×5",
+            "162.7% ×5",
+            "171.9% ×5",
+            "184.1% ×5",
+            "196.4% ×5",
+            "208.7% ×5",
+            "221% ×5",
+            "233.2% ×5",
+            "245.5% ×5",
+            "260.9% ×5",
+            "276.2% ×5",
+            "291.6% ×5"
+          ]
+        },
+        {
+          "label": "Final Slash DMG",
+          "values": [
+            "204.6%",
+            "219.9%",
+            "235.3%",
+            "255.8%",
+            "271.1%",
+            "286.4%",
+            "306.9%",
+            "327.4%",
+            "347.8%",
+            "368.3%",
+            "388.7%",
+            "409.2%",
+            "434.8%",
+            "460.4%",
+            "485.9%"
+          ]
+        },
+        {
+          "label": "Serpent's Subtlety Bonus",
+          "values": [
+            "19.32% ATK Per Point",
+            "20.77% ATK Per Point",
+            "22.22% ATK Per Point",
+            "24.15% ATK Per Point",
+            "25.6% ATK Per Point",
+            "27.05% ATK Per Point",
+            "28.98% ATK Per Point",
+            "30.92% ATK Per Point",
+            "32.85% ATK Per Point",
+            "34.78% ATK Per Point",
+            "36.71% ATK Per Point",
+            "38.65% ATK Per Point",
+            "41.06% ATK Per Point",
+            "43.48% ATK Per Point",
+            "45.89% ATK Per Point"
+          ]
+        },
+        {
+          "label": "0/1/2/3 Void Rift Absorption DMG Bonus",
+          "values": [
+            "3.5% / 6.6% / 8.8% / 11%",
+            "4% / 7.2% / 9.6% / 12%",
+            "4.5% / 7.8% / 10.4% / 13%",
+            "5% / 8.4% / 11.2% / 14%",
+            "5.5% / 9% / 12% / 15%",
+            "6% / 9.6% / 12.8% / 16%",
+            "6.5% / 10.2% / 13.6% / 17%",
+            "7% / 10.8% / 14.4% / 18%",
+            "7.5% / 11.4% / 15.2% / 19%",
+            "8% / 12% / 16% / 20%",
+            "8.5% / 12.6% / 16.8% / 21%",
+            "9% / 13.2% / 17.6% / 22%",
+            "9.5% / 13.8% / 18.4% / 23%",
+            "10% / 14.4% / 19.2% / 24%",
+            "10.5% / 15% / 20% / 25%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "reason_beyond_reason",
+      "name": "Reason Beyond Reason",
+      "description": "When nearby party members trigger Frozen, Superconduct, Stellar-Conduct, Cryo Swirl, Stellar Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.<br/><br/>Skirk can use the following methods to absorb nearby Void Rifts:<br/>· When she hits an opponent with a Charged Attack in her <link kind=\"effect\" id=\"11130006\"><span style=\"color:#FFD780FF\">Seven-Phase Flash</span></link> mode.<br/>· When she uses the special Elemental Burst <span style=\"color:#FFD780FF\">Havoc: Extinction</span> while in Seven-Phase Flash mode.<br/>· When she Holds her Elemental Skill <span style=\"color:#FFD780FF\">Havoc: Warp</span> to engage in rapid movement.<br/><br/>Each Rift absorbed will grant her 8 <link kind=\"effect\" id=\"11130005\"><span style=\"color:#FFD780FF\">Serpent's Subtlety</span></link> points.",
+      "level": 1
+    },
+    {
+      "id": "return_to_oblivion",
+      "name": "Return to Oblivion",
+      "description": "When nearby <span style=\"color:#80C0FFFF\">Hydro</span> party members' <span style=\"color:#80C0FFFF\">Hydro</span> attacks hit opponents, or when nearby <span style=\"color:#99FFFFFF\">Cryo</span> party members apart from Skirk hit opponents with <span style=\"color:#99FFFFFF\">Cryo</span> attacks, Skirk will gain the \"Death's Crossing\" effect for 20s. Max 3 stacks, each stack's duration is counted independently.<br/>Each character can grant Skirk at most 1 \"Death's Crossing\" stack by this means.<br/>Each \"Death's Crossing\" stack increases the Normal Attack DMG dealt by Skirk in <link kind=\"effect\" id=\"11130006\"><span style=\"color:#FFD780FF\">Seven-Phase Flash</span></link> mode to 110%/120%/170% of its original DMG and the DMG dealt when using her Elemental Burst <span style=\"color:#FFD780FF\">Havoc: Ruin</span> to 105%/115%/160% of its original DMG.",
+      "level": 4
+    },
+    {
+      "id": "mutual_weapons_mentorship",
+      "name": "Mutual Weapons Mentorship",
+      "description": "When all party members are either <span style=\"color:#80C0FFFF\">Hydro</span> or <span style=\"color:#99FFFFFF\">Cryo</span>, and if there is at least 1 Hydro and 1 Cryo character, your own party members' <span style=\"color:#FFD780FF\">Elemental Skill</span> Level is increased by 1.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1141,
+      "id": "far_to_fall",
+      "name": "Far to Fall",
+      "description": "Enhances the effects of the Ascension Talent <link kind=\"effect\" id=\"11130007\"><span style=\"color:#FFD780FF\">Reason Beyond Reason</span></link>: Every Void Rift absorbed will summon a crystal blade to attack nearby opponents, dealing 500% of Skirk's ATK as <span style=\"color:#99FFFFFF\">Cryo DMG</span>. This DMG is considered Charged Attack DMG.<br/>You must first unlock the Ascension Talent Reason Beyond Reason.",
+      "level": 1
+    },
+    {
+      "_id": 1142,
+      "id": "into_the_abyss",
+      "name": "Into the Abyss",
+      "description": "After unleashing her Elemental Skill <span style=\"color:#FFD780FF\">Havoc: Warp</span>, Skirk will gain 10 additional <link kind=\"effect\" id=\"11130005\"><span style=\"color:#FFD780FF\">Serpent's Subtlety</span></link> points.<br/>When using her Elemental Burst <span style=\"color:#FFD780FF\">Havoc: Ruin</span>, the DMG of this Elemental Burst instance will be increased by taking up to 10 more Serpent's Subtlety points into account.<br/>Additionally, within 12.5s after Skirk unleashes the special Elemental Burst <span style=\"color:#FFD780FF\">Havoc: Extinction</span> while in her <link kind=\"effect\" id=\"11130006\"><span style=\"color:#FFD780FF\">Seven-Phase Flash</span></link> mode, her ATK is increased by 70%. This effect will be canceled when she leaves the Seven-Phase Flash mode.",
+      "level": 2
+    },
+    {
+      "_id": 1143,
+      "id": "serendipitous_sin",
+      "name": "Serendipitous Sin",
+      "description": "Increases the Level of <link kind=\"skill\" to=\"havoc_ruin\"><span style=\"color:#FFD780FF\">Havoc: Ruin</span></link> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1144,
+      "id": "fractured_flow",
+      "name": "Fractured Flow",
+      "description": "Enhances the effects of the Ascension Talent <link kind=\"effect\" id=\"11130008\"><span style=\"color:#FFD780FF\">Return to Oblivion</span></link>: Each Death's Crossing stack also increases Skirk's ATK by 10%/20%/40%.<br/>You must first unlock the Ascension Talent Return to Oblivion.",
+      "level": 4
+    },
+    {
+      "_id": 1145,
+      "id": "end_of_wishes",
+      "name": "End of Wishes",
+      "description": "Increases the Level of <link kind=\"skill\" to=\"havoc_warp\"><span style=\"color:#FFD780FF\">Havoc: Warp</span></link> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1146,
+      "id": "to_the_source",
+      "name": "To the Source",
+      "description": "Each Void Rift Skirk absorbs via the effects of the Ascension Talent <link kind=\"effect\" id=\"11130007\"><span style=\"color:#FFD780FF\">Reason Beyond Reason</span></link> will grant her 1 Havoc: Sever stack. She can consume such stacks to initiate coordinated attacks and decrease the DMG she takes while in <link kind=\"effect\" id=\"11130006\"><span style=\"color:#FFD780FF\">Seven-Phase Flash</span></link> mode. These stacks last for 15s, and each stack's duration is counted independently (max 3 stacks).<br/>You must first unlock the Ascension Talent \"Reason Beyond Reason.\"<br/><br/><span style=\"color:#FFD780FF\">Havoc: Sever</span><br/>· When Skirk uses the Elemental Burst <span style=\"color:#FFD780FF\">Havoc: Ruin</span>, she will consume all <span style=\"color:#FFD780FF\">Havoc: Sever</span> stacks to initiate a coordinated attack in which each <span style=\"color:#FFD780FF\">Havoc: Sever</span> stack will deal 750% of Skirk's ATK as <span style=\"color:#99FFFFFF\">Cryo DMG</span>. This DMG is considered Elemental Burst DMG.<br/>· When she uses Normal Attacks while in Seven-Phase Flash mode, 1 <span style=\"color:#FFD780FF\">Havoc: Sever</span> stack will be consumed when her third or fifth sequenced attacks hit an opponent to launch 3 coordinated attacks. Each coordinated attack deals 180% of Skirk's ATK as <span style=\"color:#99FFFFFF\">Cryo DMG</span>. This damage is considered Normal Attack DMG.<br/>· When Skirk takes DMG while in Seven-Phase Flash mode, 1 <span style=\"color:#FFD780FF\">Havoc: Sever</span> stack will be consumed to decrease this DMG instance by 80% and attack nearby opponents 3 times, with each attack dealing 180% of Skirk's ATK as <span style=\"color:#99FFFFFF\">Cryo DMG</span>. This DMG is considered Charged Attack DMG.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "967"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "28"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "63"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2508",
+            "3336"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "72",
+            "96"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "163",
+            "217"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4992",
+            "5581"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "144",
+            "161"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "324",
+            "362"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101254,
+        "id": "skysplit_gembloom",
+        "name": "Skysplit Gembloom",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112083,
+        "id": "meshing_gear",
+        "name": "Meshing Gear",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6421",
+            "7206"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "186",
+            "208"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "417",
+            "468"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113067,
+        "id": "ensnaring_gaze",
+        "name": "Ensnaring Gaze",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101254,
+        "id": "skysplit_gembloom",
+        "name": "Skysplit Gembloom",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112083,
+        "id": "meshing_gear",
+        "name": "Meshing Gear",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8055",
+            "8644"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "233",
+            "250"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "523",
+            "561"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113067,
+        "id": "ensnaring_gaze",
+        "name": "Ensnaring Gaze",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101254,
+        "id": "skysplit_gembloom",
+        "name": "Skysplit Gembloom",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112084,
+        "id": "mechanical_spur_gear",
+        "name": "Mechanical Spur Gear",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9501",
+            "10089"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "274",
+            "292"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "617",
+            "655"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113067,
+        "id": "ensnaring_gaze",
+        "name": "Ensnaring Gaze",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101254,
+        "id": "skysplit_gembloom",
+        "name": "Skysplit Gembloom",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112084,
+        "id": "mechanical_spur_gear",
+        "name": "Mechanical Spur Gear",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10956",
+            "11544"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "317",
+            "334"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "711",
+            "750"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113067,
+        "id": "ensnaring_gaze",
+        "name": "Ensnaring Gaze",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101254,
+        "id": "skysplit_gembloom",
+        "name": "Skysplit Gembloom",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112085,
+        "id": "artificed_dynamic_gear",
+        "name": "Artificed Dynamic Gear",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12417",
+            "12417"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "359",
+            "359"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "806",
+            "806"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113067,
+        "id": "ensnaring_gaze",
+        "name": "Ensnaring Gaze",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101254,
+        "id": "skysplit_gembloom",
+        "name": "Skysplit Gembloom",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112085,
+        "id": "artificed_dynamic_gear",
+        "name": "Artificed Dynamic Gear",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104347,
+          "id": "teachings_of_contention",
+          "name": "Teachings of Contention",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112083,
+          "id": "meshing_gear",
+          "name": "Meshing Gear",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104348,
+          "id": "guide_to_contention",
+          "name": "Guide to Contention",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104348,
+          "id": "guide_to_contention",
+          "name": "Guide to Contention",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104348,
+          "id": "guide_to_contention",
+          "name": "Guide to Contention",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104348,
+          "id": "guide_to_contention",
+          "name": "Guide to Contention",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104349,
+          "id": "philosophies_of_contention",
+          "name": "Philosophies of Contention",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113073,
+          "id": "ascended_sample_knight",
+          "name": "Ascended Sample: Knight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104349,
+          "id": "philosophies_of_contention",
+          "name": "Philosophies of Contention",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113073,
+          "id": "ascended_sample_knight",
+          "name": "Ascended Sample: Knight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104349,
+          "id": "philosophies_of_contention",
+          "name": "Philosophies of Contention",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113073,
+          "id": "ascended_sample_knight",
+          "name": "Ascended Sample: Knight",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104349,
+          "id": "philosophies_of_contention",
+          "name": "Philosophies of Contention",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113073,
+          "id": "ascended_sample_knight",
+          "name": "Ascended Sample: Knight",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 211400,
+      "name": "Shattered Star",
+      "description": "Skirk's outfit. She has witnessed the annihilation of stars, and once danced in the absolute darkness of the universe. All of these moments have faded into the shadows of her endless journey.",
+      "isDefault": true,
+      "characterName": "Skirk",
+      "characterId": 10000114,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_SkirkNew_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "I am Skirk, disciple of Surtalogi, \"The Foul.\" You've proven your strength to me along your journey, and earned the right to speak to me as an equal. Now, let me witness how your fate unfolds."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: The Abyss",
+      "text": "The Abyss is like the world's shadow. It's always there, and it will never perish."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Meditation",
+      "text": "Where do we come from, and where are we going?"
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Final Destination",
+      "text": "All things come to an end, even time itself."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Nice. I like the rain."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "However fearsome the lightning may be, its wrath is limited to the realm beneath the clouds. The high heavens above remain clear."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "They say that at absolute zero, everything falls completely still... Compared to that, this is nothing."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "The wind sweeps away everything that clouds our vision."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Sleep well? Looks like you're back to peak condition. Let's prepare to depart."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "High noon isn't a good time for sword practice, so I usually spend these hours in meditation. While hard work is essential, reflection and review are also important to keep you from straying off course."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Oh... Nighttime already. Time moves so quickly in the outside world — it's all the more important to cherish it."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Get some sleep. I'll be practicing my bladework for a while longer."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Skirk: Reading",
+      "text": "I bought some old books from Liyue recently. A passage in one of them stood out to me: \"The wise man uses his mind as a mirror: Neither grasping out nor drawing in, it receives all yet keeps nothing. In this way, he triumphs over all things, and they can render him no harm.\"\\nThat's a very enlightened state of mind. At first, I assumed it must have been penned by some renowned martial arts master. But after reading further, it turned out that he was just an ordinary traveler. People surprise me with what they're capable of sometimes. I suppose that's what they mean when they talk about \"hidden strengths.\""
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Skirk: Bladework",
+      "text": "Come rain or shine, victory or defeat, I practice the blade whether I'm in the mood for it or not. Only those with true strength can bend fate to their will."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Training",
+      "text": "If you ever want to hone your skills, I can take you to the Abyss. You won't be disturbed there, and time will pass at a slower pace. It's an economical way to train."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Goals",
+      "text": "Perhaps you're right — maybe it will take everyone working together to bring order to the universe. But I can't afford to place my hopes on other people. I have to go a step beyond that, and show them that there really is a way we can get there."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Power of the Abyss",
+      "text": "Master taught me how to wield the power of the Abyss, and from surviving Khaenri'ahn research, I learned how to channel that power and make it mimic the elemental energy of Teyvat. The fact that you and I don't need a Vision to use the elements implies that our aspirations do not require the approval of the gods."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Master tells me he first trained in the traditional Black Serpent Bladework of Khaenri'ah, but by the time he took me on, his style incorporated many techniques from other sources. That is what it means to be a true martial artist: constantly learning and adapting, always testing and overcoming your limits. Otherwise, you will stagnate."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "During my journey through the stars, I came across a species with completely inverted sensory perception. They'd use ice to warm themselves up, and cool down by the fire. They'd be sweating buckets inside a cold, dark cave, but shiver uncontrollably under the blazing sun. So different from all the other creatures around them, and yet they lived quite happily. That's the miracle of life — unfathomably complex, but at the same time so simple."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Surtalogi",
+      "text": "Very few people manage to earn themselves a name like \"The Foul\" and live up to it. I'm sure whoever gave him that name must have truly despised him. Master's certainly done his fair share of disgraceful things, and the fact that he is a former knight who turned his back on the chivalric code doesn't exactly make things any better. And yet, plenty of people still choose to follow him. They're drawn to his strength, composure, and confidence, and the fact that he's candid with everyone regardless of their background. He's not driven by emotion — he's on a mission to become a version of himself that is complete and perfected... That's why he's as powerful as he is. It's also why he's so dangerous."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Alice: Promise",
+      "text": "As the Sustainer of the World's Borders, she tolerates my presence, but she did make me promise not to interfere too much with this world's affairs. That was fine by me, but I had to know the reason why. She said, many ecologists find it emotionally overwhelming when they observe the animal kingdom and see the predators hunting and the prey fleeing — but they'll never interfere in the process. Instead, they allow the laws of nature to take precedence over their own emotions. In her own words, \"some call this being a callous observer, but I think it's merciful at the same time.\""
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Alice: Gratitude",
+      "text": "On one of the times that we met, she urged me to listen to the voice of my heart, and \"learn how to enjoy my present life.\" She was being sincere and showing she cared, and for that I ought to thank her."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Dainsleif",
+      "text": "At one time, he was Master's rival. At another, they were best friends, apparently... I had hoped he might give me some more information about Master, but the moment he recognized my style of bladework, he got very agitated and demanded to know Master's whereabouts. I don't want to deal with him. Hopefully I don't run into him again any time soon."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Dori",
+      "text": "Ah, yeah, the shrewd merchant. She's one of Alice's friends. I occasionally sell rare monster carcasses to her, since I need Mora to get by in Teyvat. She's made a pretty good impression on me so far — never asks about my background, at least. I don't know how fair her prices are, but I also don't care: I only need enough to get by, any extra would be wasted on me."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Tartaglia",
+      "text": "He's improved — next time we spar, I might even use both hands. Ajax has a lot of talent and he is fearless in battle, which gives him the potential to develop great strength. But I've seen many other bright sparks like him fizzle out before ever reaching their prime. If he truly wants to become the person he dreams of being, he still has a long road ahead."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Neuvillette",
+      "text": "Lost power is always reclaimed in the end, in some shape or form. But where will this power lead? To a trial? To revenge? Or toward a new future? It's a question that strikes at the heart of his quest to find the meaning of his existence, and perhaps deep down he already has his answer."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About The Will of the Moon",
+      "text": "I once saw the three moons of Teyvat when I was passing through the false sky. Two are utterly destroyed, their lifeless remains drifting aimlessly through space. The one that remains intact shows no signs of life either, but its will has not faded completely. Maybe there's a chance that one day, a glimmer of truth will emerge in the false sky — a truth belonging to this world alone."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Nicole",
+      "text": "I wonder if becoming human was an evolution or regression to her? How did it feel, witnessing the self-destruction of her species firsthand? I considered asking her these questions when we first met, but... given her personality, I thought better of it. I think I'll just leave her alone to work on her sculptures."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Skirk: I",
+      "text": "I spend most of my time training in the Abyss — there's little that deserves my attention on the outside. You've got nothing to worry about with me, though. I mean this world no harm."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Skirk: II",
+      "text": "The worst part about training for long periods is managing the physical pain and fatigue. You can use Abyssal power to help ease muscle strain, but that's physically draining too. So, I learned a few stretching exercises instead — they're surprisingly effective. If you find yourself having the same issues, I can teach them to you."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Skirk: III",
+      "text": "I met a bard once when I was exploring Mondstadt. He taught me how to play music, then dragged me to the tavern to drink with him. I quickly adapted to the feeling of inebriation, and felt completely fine even as we drank more over the next few days. That bard, though... at some point, I noticed he'd passed out cold in his chair. So I ended up having to pay his bill."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Skirk: IV",
+      "text": "Once in a while, I find myself gazing up at the stars. I know it's just a false sky, but I can sense that the creator had a romantic vision of the cosmos. Faced with the unfathomable vastness of time and space, humanity looks to history books to preserve a piece of themselves for the ages, and I think the creator of this sky shared the same desire. To capture a fleeting moment of the universe and make it last forever."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Skirk: V",
+      "text": "I never got the chance to learn how to play an instrument from my parents before they died. The one thing I do remember my dad teaching me was that the key to unlock your playing is to \"lose yourself in the music.\" After I got to Teyvat, I bought a bunch of different instruments to practice with, but every time I got lost in the music, I'd forget my own strength. Ended up destroying quite a few instruments that way. After that, I figured I might as well build my own since I clearly needed something more robust. So I gathered some strong materials and built a few instruments from memory. Oh, here, take one. If it comes to it, you can even use it as a weapon and it won't break on you."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Skirk's Hobbies",
+      "text": "In my spare time, I play music from my homeland, albeit on instruments from Teyvat. I once thought that those melodies would eventually fade from my memory as the years went by... but they haven't. It's as if they're etched into my very soul. Every time I'm strumming my guitar, I'm so conscious that this music I'm playing is the last trace of that civilization's existence in the entire universe."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Skirk's Troubles",
+      "text": "I tried writing some poetry once. My mother was a good poet, and I wondered if she'd passed that talent onto me. But nope, whatever I tried, it just wouldn't click. I guess it's just not one of my strong suits. So be it. Poetry isn't gonna help me in battle anyway, so I don't have any real incentive to stick at it."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Back when I was training with Master, I'd frequently end up covered in cuts and bruises from head to toe. There was this particular kind of bug — I don't remember what it was called — but he always used to catch some and grill them for me after a session. Said it'd help with my recovery. They were plump little things. You knew they were done on the grill because they'd glow a beautiful golden color. Crispy shell on the outside with savory flesh in the middle... It's been so long that I don't really remember how they tasted, but I do remember I used to love them as a kid."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Food goes down easier when it tastes good, but even when it doesn't it's still edible. Just don't let anything go to waste."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Not bad."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "It's okay."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Ugh... Waste of ingredients. Next time, I'm cooking."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy Birthday. I know some people like to throw a huge party, while others prefer a quieter affair. I don't know which kind of person you are, but for me, birthdays are a time to reflect on the past year — sometimes with pride in my progress, other times with profound regret.\\n...It's probably best not to ascribe so much meaning to birthdays after all. Each place has its own festivals for celebrating the land, one's ancestors, friendship... but your birthday is the one day of the year that is meant just for you. Okay, speech over — once again, I wish you a Happy Birthday, and I hope you keep growing into the person you aspire to become."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Uh... Is that it?"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "An improvement, but it's still not enough for me."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Strength... There was once a time when I neither possessed nor sought it. But now it's in the palm of my hand, I'm never letting go."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "The universe is vast beyond measure, with stars stretching out into infinity. With that perspective in mind, my pursuit of strength seems like an equally endless journey. So, while I will never stop moving forward, I do try to set milestones for myself along the way. And I've reached a new milestone while journeying with you, because I've grown stronger during this time. That means it's now my turn to train you. The only question is... are you ready?"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Annihilated."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Extinguished."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Surge."
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Merciless."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Fearless."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Into the void."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Another star goes out."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Paradigm shift."
+    },
+    {
+      "id": "200004",
+      "type": 2,
+      "title": "Elemental Burst: IV",
+      "text": "Power..."
+    },
+    {
+      "id": "200005",
+      "type": 2,
+      "title": "Elemental Burst: V",
+      "text": "Mine to wield."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Huh. You've earned yourself a reward."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Your hard work is paying off. As it should."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "A treasure buried in time."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Now this is getting interesting."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Keep going."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Wasn't expecting this."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Watch yourself."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "I'm taking over."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "The stars fade to black..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Someone else... has to..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Am I still... too weak?"
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "You overestimate yourself."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "That's more like it."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Need something taken care of?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "I'll only demonstrate this once."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Okay, let's take a walk."
+    }
+  ],
+  "effects": {
+    "11130005": {
+      "name": "Serpent's Subtlety",
+      "description": "Skirk can consume Serpent's Subtlety to maintain her Seven-Phase Flash mode or to use her Elemental Burst, Havoc: Ruin.<br/><br/>Skirk can gain Serpent's Subtlety points in the following ways:<br/>· After using her Elemental Skill, Havoc: Warp.<br/>· After triggering the effect of her Ascension Talent, Reason Beyond Reason, and absorbing Void Rifts.<br/><br/>When Skirk leaves the field while in Seven-Phase Flash mode or when Seven-Phase Flash ends, her Serpent's Subtlety points will be removed.",
+      "color": ""
+    },
+    "11130006": {
+      "name": "Seven-Phase Flash",
+      "description": "Skirk will switch to this mode for a fixed time when using the Elemental Skill <span style=\"color:#FFD780FF\">Havoc: Warp</span>. This mode has the following properties:<br/>· Continuously consumes Serpent's Subtlety.<br/>· Increases Normal and Charged Attack AoE and Skirk's interruption resistance.<br/>· Normal, Charged, and Plunging Attacks are converted to <span style=\"color:#99FFFFFF\">Cryo DMG</span> that cannot be overridden by other Elemental infusions.<br/>· Her Elemental Burst, <span style=\"color:#FFD780FF\">Havoc: Ruin</span> is converted to the special Elemental Burst <span style=\"color:#FFD780FF\">Havoc: Extinction</span>.<br/>· Skirk can move on water when she Sprints.<br/>· Skirk will exit this mode when Serpent's Subtlety is fully depleted or its duration ends. Then, the Elemental Skill will go on cooldown.",
+      "color": ""
+    },
+    "11130007": {
+      "name": "Reason Beyond Reason",
+      "description": "When nearby party members trigger Frozen, Superconduct, Stellar-Conduct, Cryo Swirl, Stellar Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. A maximum of 3 Void Rifts created by Skirk herself can exist on the field at once.<br/><br/>Skirk can use the following methods to absorb nearby Void Rifts:<br/>· When she hits an opponent with a Charged Attack in her Seven-Phase Flash mode.<br/>· When she uses the special Elemental Burst <span style=\"color:#FFD780FF\">Havoc: Extinction</span> while in Seven-Phase Flash mode.<br/>· When she Holds her Elemental Skill <span style=\"color:#FFD780FF\">Havoc: Warp</span> to engage in rapid movement.<br/><br/>Each Rift absorbed will grant her 8 Serpent's Subtlety points.",
+      "color": ""
+    },
+    "11130008": {
+      "name": "Return to Oblivion",
+      "description": "When nearby <span style=\"color:#80C0FFFF\">Hydro</span> party members' <span style=\"color:#80C0FFFF\">Hydro</span> attacks hit opponents, or when nearby <span style=\"color:#99FFFFFF\">Cryo</span> party members apart from Skirk hit opponents with <span style=\"color:#99FFFFFF\">Cryo</span> attacks, Skirk will gain the \"Death's Crossing\" effect for 20s. Max 3 stacks, each stack's duration is counted independently.<br/>Each character can grant Skirk at most 1 \"Death's Crossing\" stack by this means.<br/>Each \"Death's Crossing\" stack increases the Normal Attack DMG dealt by Skirk in Seven-Phase Flash mode to 110%/120%/170% of its original DMG and the DMG dealt when using her Elemental Burst <span style=\"color:#FFD780FF\">Havoc: Ruin</span> to 105%/115%/160% of its original DMG.",
+      "color": ""
+    }
+  }
+}

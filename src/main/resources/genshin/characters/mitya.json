@@ -1,0 +1,1810 @@
+{
+  "_id": 10000136,
+  "id": "mitya",
+  "name": "Mitya",
+  "title": "Rules Set at Naught",
+  "description": "An exceptionally ingenious energy specialist and a master of the fine art of \"schedule-dodging.\"",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "electro",
+    "name": "Electro"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1793656800,
+  "substat": "CRIT DMG",
+  "stats": {
+    "base": {
+      "hp": 905.654,
+      "attack": 20.482,
+      "defense": 61.6249
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 776.5164,
+        "attack": 17.56018,
+        "defense": 52.839,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1328.2517,
+        "attack": 30.03715,
+        "defense": 90.3825,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2063.899,
+        "attack": 46.67311,
+        "defense": 140.4405,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2615.6343,
+        "attack": 59.15008,
+        "defense": 177.984,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3167.3696,
+        "attack": 71.62705,
+        "defense": 215.5275,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.288
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3719.105,
+        "attack": 84.10402,
+        "defense": 253.071,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.384
+        }
+      }
+    ]
+  },
+  "affiliation": "Royal Energy Commission of Snezhnaya",
+  "region": {
+    "id": "snezhnaya_star",
+    "name": "SNEZHNAYA_STAR"
+  },
+  "rarity": 5,
+  "birthday": [
+    8,
+    2
+  ],
+  "constellation": "Nodus Gordianus",
+  "domain": "Domain of Mastery: Contemplation",
+  "cv": {
+    "english": "Brian Ballance",
+    "chinese": "苏尚卿",
+    "japanese": "小林裕介",
+    "korean": "Choi U-seong"
+  },
+  "skills": [
+    {
+      "_id": 11361,
+      "id": "chain_reaction",
+      "name": "Chain Reaction",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs a maximum of 3 attacks that deal <span style=\"color:#FFACFFFF\">Electro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to deal <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> to the area in front after a short casting time.<br/>Mitya will instead perform the special Charged Attack <span style=\"color:#FFD780FF\">Gradient Detonation</span>, which consumes no Stamina, if a <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360002\">Detection Core: Overload</link></span> created by Mitya himself is currently on the field and he has at least 1 <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360001\">Gradient Beacon</link></span>: Deals 1 instance of <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> to the area in front and continuously consumes <span style=\"color:#FFD780FF\">Gradient Beacons</span> while held. Each <span style=\"color:#FFD780FF\">Gradient Beacon</span> consumed deals 1 instance of <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> to the area in front that is considered Stellar-Conduct reaction DMG.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "58.8%",
+            "63.2%",
+            "67.6%",
+            "73.5%",
+            "77.9%",
+            "82.3%",
+            "88.2%",
+            "94.1%",
+            "100%",
+            "105.8%",
+            "111.7%",
+            "117.6%",
+            "124.9%",
+            "132.3%",
+            "139.6%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "48.3%",
+            "51.9%",
+            "55.5%",
+            "60.4%",
+            "64%",
+            "67.6%",
+            "72.5%",
+            "77.3%",
+            "82.1%",
+            "86.9%",
+            "91.8%",
+            "96.6%",
+            "102.6%",
+            "108.7%",
+            "114.7%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "69%",
+            "74.2%",
+            "79.4%",
+            "86.3%",
+            "91.5%",
+            "96.6%",
+            "103.5%",
+            "110.4%",
+            "117.3%",
+            "124.2%",
+            "131.1%",
+            "138%",
+            "146.7%",
+            "155.3%",
+            "163.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "136.9%",
+            "147.1%",
+            "157.4%",
+            "171.1%",
+            "181.4%",
+            "191.6%",
+            "205.3%",
+            "219%",
+            "232.7%",
+            "246.4%",
+            "260.1%",
+            "273.8%",
+            "290.9%",
+            "308%",
+            "325.1%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        },
+        {
+          "label": "Gradient Detonation DMG",
+          "values": [
+            "168%",
+            "180.6%",
+            "193.2%",
+            "210%",
+            "222.6%",
+            "235.2%",
+            "252%",
+            "268.8%",
+            "285.6%",
+            "302.4%",
+            "319.2%",
+            "336%",
+            "357%",
+            "378%",
+            "399%"
+          ]
+        },
+        {
+          "label": "Gradient Detonation Stellar-Conduct DMG",
+          "values": [
+            "224% Elemental Mastery",
+            "240.8% Elemental Mastery",
+            "257.6% Elemental Mastery",
+            "280% Elemental Mastery",
+            "296.8% Elemental Mastery",
+            "313.6% Elemental Mastery",
+            "336% Elemental Mastery",
+            "358.4% Elemental Mastery",
+            "380.8% Elemental Mastery",
+            "403.2% Elemental Mastery",
+            "425.6% Elemental Mastery",
+            "448% Elemental Mastery",
+            "476% Elemental Mastery",
+            "504% Elemental Mastery",
+            "532% Elemental Mastery"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11362,
+      "id": "principle_variable_detection",
+      "name": "Principle: Variable Detection",
+      "description": "Conducts a theoretically relatively safe experiment at a theoretically relatively safe yield, dealing <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> and creating a <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360002\">Detection Core</link></span> in different ways depending on whether the Skill is tapped or held.<br/><br/>Tapping the Elemental Skill <span style=\"color:#FFD780FF\">Principle: Variable Detection</span> again within 6s after using it changes the <span style=\"color:#FFD780FF\">Detection Core</span>'s state. The Detection Core's state can be changed in this way every 1.5s.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Tap Skill DMG",
+          "values": [
+            "90.7%",
+            "97.5%",
+            "104.3%",
+            "113.4%",
+            "120.2%",
+            "127%",
+            "136.1%",
+            "145.2%",
+            "154.2%",
+            "163.3%",
+            "172.4%",
+            "181.4%",
+            "192.8%",
+            "204.1%",
+            "215.5%"
+          ]
+        },
+        {
+          "label": "Hold Skill DMG",
+          "values": [
+            "129.6%",
+            "139.3%",
+            "149%",
+            "162%",
+            "171.7%",
+            "181.4%",
+            "194.4%",
+            "207.4%",
+            "220.3%",
+            "233.3%",
+            "246.2%",
+            "259.2%",
+            "275.4%",
+            "291.6%",
+            "307.8%"
+          ]
+        },
+        {
+          "label": "Steady State Core DMG",
+          "values": [
+            "72%",
+            "77.4%",
+            "82.8%",
+            "90%",
+            "95.4%",
+            "100.8%",
+            "108%",
+            "115.2%",
+            "122.4%",
+            "129.6%",
+            "136.8%",
+            "144%",
+            "153%",
+            "162%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Steady State Core Gradient Beacon Consumption DMG",
+          "values": [
+            "80% Elemental Mastery",
+            "86% Elemental Mastery",
+            "92% Elemental Mastery",
+            "100% Elemental Mastery",
+            "106% Elemental Mastery",
+            "112% Elemental Mastery",
+            "120% Elemental Mastery",
+            "128% Elemental Mastery",
+            "136% Elemental Mastery",
+            "144% Elemental Mastery",
+            "152% Elemental Mastery",
+            "160% Elemental Mastery",
+            "170% Elemental Mastery",
+            "180% Elemental Mastery",
+            "190% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Steady State Core Detonation DMG",
+          "values": [
+            "92% Elemental Mastery / Beacon",
+            "98.9% Elemental Mastery / Beacon",
+            "105.8% Elemental Mastery / Beacon",
+            "115% Elemental Mastery / Beacon",
+            "121.9% Elemental Mastery / Beacon",
+            "128.8% Elemental Mastery / Beacon",
+            "138% Elemental Mastery / Beacon",
+            "147.2% Elemental Mastery / Beacon",
+            "156.4% Elemental Mastery / Beacon",
+            "165.6% Elemental Mastery / Beacon",
+            "174.8% Elemental Mastery / Beacon",
+            "184% Elemental Mastery / Beacon",
+            "195.5% Elemental Mastery / Beacon",
+            "207% Elemental Mastery / Beacon",
+            "218.5% Elemental Mastery / Beacon"
+          ]
+        },
+        {
+          "label": "Detection Core Duration",
+          "values": [
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11364,
+      "id": "analysis_gradient_theory",
+      "name": "Analysis: Gradient Theory",
+      "description": "Let the elements burst forth like inspiration itself! Deals <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> and creates 3 <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360001\">Gradient Beacons</link></span>.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "333.6% ATK + 667.2% Elemental Mastery",
+            "358.6% ATK + 717.2% Elemental Mastery",
+            "383.6% ATK + 767.3% Elemental Mastery",
+            "417% ATK + 834% Elemental Mastery",
+            "442% ATK + 884% Elemental Mastery",
+            "467% ATK + 934.1% Elemental Mastery",
+            "500.4% ATK + 1000.8% Elemental Mastery",
+            "533.8% ATK + 1067.5% Elemental Mastery",
+            "567.1% ATK + 1134.2% Elemental Mastery",
+            "600.5% ATK + 1201% Elemental Mastery",
+            "633.8% ATK + 1267.7% Elemental Mastery",
+            "667.2% ATK + 1334.4% Elemental Mastery",
+            "708.9% ATK + 1417.8% Elemental Mastery",
+            "750.6% ATK + 1501.2% Elemental Mastery",
+            "792.3% ATK + 1584.6% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Gradient Beacons Generated",
+          "values": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "baseline_stress_test",
+      "name": "Baseline Stress Test",
+      "description": "The <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360002\">Detection Core</link></span> created by the Elemental Skill <span style=\"color:#FFD780FF\">Principle: Variable Detection</span> is enhanced. Depending on the state of the <span style=\"color:#FFD780FF\">Detection Core</span> created:<br/>·Steady State: All nearby party members gain 30 Elemental Mastery for each <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360001\">Gradient Beacon</link></span> Mitya has;<br/>·Overloaded: After nearby party members trigger Stellar-Conduct reactions, instead obtain 1 <span style=\"color:#FFD780FF\">Gradient Beacon</span> every 1.5s for 6s.",
+      "level": 1
+    },
+    {
+      "id": "explosive_reagent_safe_limits_exceeded",
+      "name": "Explosive Reagent: Safe Limits Exceeded",
+      "description": "The duration of <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360001\">Gradient Beacons</link></span> is increased to 10s. Additionally, Mitya's CRIT Rate increases by 5% for 15s after creating a <span style=\"color:#FFD780FF\">Gradient Beacon</span>. This effect can stack up to 4 times.",
+      "level": 4
+    },
+    {
+      "id": "stellar_jubilee_topsecret_protocol",
+      "name": "Stellar Jubilee: Top-Secret Protocol",
+      "description": "When party members trigger Superconduct, it will be changed to Stellar-Conduct. Stellar-Conduct reactions will no longer create <span style=\"color:#FFD780FF\">Starlight Prisms</span>, and will instead create 1 <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360001\">Gradient Beacon</link></span> nearby every 1.5s for 3s. These Beacons can be carried by Mitya and transform the area around them into an even larger <span style=\"color:#FFD780FF\">Polestar Field</span>. Triggering another Stellar-Conduct reaction will refresh the duration of the aforementioned effects.<br/>Additionally, the Base Stellar-Conduct DMG dealt by all nearby party members will be increased based on Mitya's Elemental Mastery: Every point of Elemental Mastery he has increases Base Stellar-Conduct DMG by 0.028%. The maximum Base DMG increase that can be gained this way is 14%. While within a <span style=\"color:#FFD780FF\">Polestar Field</span>, Mitya will also enter the <span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> state.",
+      "level": 0
+    },
+    {
+      "id": "energy_catalysis",
+      "name": "Energy Catalysis",
+      "description": "When destructible rocks are nearby, <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360002\">Detection Core: Steady State</link></span> can quickly clear them.<br/>Additionally, when Mitya is in the party, creating <span style=\"color:#FFD780FF\">Prime Ice Construct: Basic Heat Source</span> does not consume Kresnik Energy.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1361,
+      "id": "the_observer_seeking_what_is_missing",
+      "name": "The Observer Seeking What Is Missing",
+      "description": "The maximum number of <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360001\">Gradient Beacons</link></span> Mitya can carry is increased to 5. Using the Elemental Skill <span style=\"color:#FFD780FF\">Principle: Variable Detection</span> additionally creates 1 <span style=\"color:#FFD780FF\">Gradient Beacon</span>.<br/>While the <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360002\">Detection Core</link></span> is present, your own active character's CRIT DMG is increased by 40%.<br/>Additionally, Mitya regenerates 10 Elemental Energy when a <span style=\"color:#FFD780FF\">Gradient Beacon</span> is created. This effect can be triggered once every 8s.",
+      "level": 1
+    },
+    {
+      "_id": 1362,
+      "id": "the_matter_that_slumbers_beyond_inertness",
+      "name": "The Matter That Slumbers Beyond Inertness",
+      "description": "While the <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360002\">Detection Core</link></span> is present, all opponents within the <span style=\"color:#FFD780FF\">Polestar Field</span> have their <span style=\"color:#99FFFFFF\">Cryo RES</span> and <span style=\"color:#FFACFFFF\">Electro RES</span> decreased by 20%.<br/>Additionally, if the <span style=\"color:#FFD780FF\">Detection Core</span> created is:<br/>·Steady State: All nearby party members gain 123 Elemental Mastery;<br/>·Overloaded: Your own active character gains 234 Elemental Mastery.",
+      "level": 2
+    },
+    {
+      "_id": 1363,
+      "id": "the_knotted_string_of_invariant_topology",
+      "name": "The Knotted String of Invariant Topology",
+      "description": "Increases the Level of the Elemental Skill <link kind=\"skill\" to=\"principle_variable_detection\"><span style=\"color:#FFD780FF\">Principle: Variable Detection</span></link> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1364,
+      "id": "the_isotopes_born_of_decay",
+      "name": "The Isotopes Born of Decay",
+      "description": "<span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360002\">Detection Cores</link></span> created by Mitya himself deals 1 instance of <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> equal to 300% of Mitya's Elemental Mastery to nearby opponents for every 5 <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360001\">Gradient Beacons</link></span> consumed while it is on the field. This DMG is considered Stellar-Conduct reaction DMG.",
+      "level": 4
+    },
+    {
+      "_id": 1365,
+      "id": "the_periodic_law_that_orders_all",
+      "name": "The Periodic Law That Orders All",
+      "description": "Increases the Level of Normal Attack: <link kind=\"skill\" to=\"chain_reaction\"><span style=\"color:#FFD780FF\">Chain Reaction</span></link> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1366,
+      "id": "elemental_transition_at_the_gate_of_reason",
+      "name": "Elemental Transition at the Gate of Reason",
+      "description": "<span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360002\">Detection Core</link></span> is enhanced. If the <span style=\"color:#FFD780FF\">Detection Core</span>:<br/> · Is in the Steady State: <span style=\"color:#FFD780FF\">Detection Core</span> deals 115% of its original DMG.<br/>· Is Overloaded: There is a 34% chance to create 1 new <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360001\">Gradient Beacon</link></span> whenever Mitya consumes a <span style=\"color:#FFD780FF\">Gradient Beacon</span> with the <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11360002\">Detection Core</link></span>.<br/>Additionally, Stellar-Conduct reaction DMG dealt by all nearby party members is <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11190007\">Elevated</link></span> by 20%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "906"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "20"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "62"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2349",
+            "3126"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "53",
+            "71"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "160",
+            "213"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4677",
+            "5229"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "106",
+            "118"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "318",
+            "356"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104141,
+        "id": "vajrada_amethyst_sliver",
+        "name": "Vajrada Amethyst Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101274,
+        "id": "kristallfold",
+        "name": "Kristallfold",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112149,
+        "id": "chimeric_core",
+        "name": "Chimeric Core",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6016",
+            "6752"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "136",
+            "153"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "409",
+            "459"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113093,
+        "id": "shattered_stability_anchor",
+        "name": "Shattered Stability Anchor",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101274,
+        "id": "kristallfold",
+        "name": "Kristallfold",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112149,
+        "id": "chimeric_core",
+        "name": "Chimeric Core",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7547",
+            "8098"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "171",
+            "183"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "514",
+            "551"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113093,
+        "id": "shattered_stability_anchor",
+        "name": "Shattered Stability Anchor",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101274,
+        "id": "kristallfold",
+        "name": "Kristallfold",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112150,
+        "id": "symbiotic_chimeric_nucleus",
+        "name": "Symbiotic Chimeric Nucleus",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8901",
+            "9453"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "201",
+            "214"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "606",
+            "643"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113093,
+        "id": "shattered_stability_anchor",
+        "name": "Shattered Stability Anchor",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101274,
+        "id": "kristallfold",
+        "name": "Kristallfold",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112150,
+        "id": "symbiotic_chimeric_nucleus",
+        "name": "Symbiotic Chimeric Nucleus",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10264",
+            "10816"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "232",
+            "245"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "698",
+            "736"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113093,
+        "id": "shattered_stability_anchor",
+        "name": "Shattered Stability Anchor",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101274,
+        "id": "kristallfold",
+        "name": "Kristallfold",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112151,
+        "id": "prime_chimeric_nexus",
+        "name": "Prime Chimeric Nexus",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11634",
+            "11634"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "263",
+            "263"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "792",
+            "792"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104144,
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Vajrada Amethyst Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113093,
+        "id": "shattered_stability_anchor",
+        "name": "Shattered Stability Anchor",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101274,
+        "id": "kristallfold",
+        "name": "Kristallfold",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112151,
+        "id": "prime_chimeric_nexus",
+        "name": "Prime Chimeric Nexus",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104365,
+          "id": "teachings_of_charity",
+          "name": "Teachings of Charity",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112149,
+          "id": "chimeric_core",
+          "name": "Chimeric Core",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104366,
+          "id": "guide_to_charity",
+          "name": "Guide to Charity",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112150,
+          "id": "symbiotic_chimeric_nucleus",
+          "name": "Symbiotic Chimeric Nucleus",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104366,
+          "id": "guide_to_charity",
+          "name": "Guide to Charity",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112150,
+          "id": "symbiotic_chimeric_nucleus",
+          "name": "Symbiotic Chimeric Nucleus",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104366,
+          "id": "guide_to_charity",
+          "name": "Guide to Charity",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112150,
+          "id": "symbiotic_chimeric_nucleus",
+          "name": "Symbiotic Chimeric Nucleus",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104366,
+          "id": "guide_to_charity",
+          "name": "Guide to Charity",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112150,
+          "id": "symbiotic_chimeric_nucleus",
+          "name": "Symbiotic Chimeric Nucleus",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104367,
+          "id": "philosophies_of_charity",
+          "name": "Philosophies of Charity",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112151,
+          "id": "prime_chimeric_nexus",
+          "name": "Prime Chimeric Nexus",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113081,
+          "id": "mask_of_the_virtuous_doctor",
+          "name": "Mask of the Virtuous Doctor",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104367,
+          "id": "philosophies_of_charity",
+          "name": "Philosophies of Charity",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112151,
+          "id": "prime_chimeric_nexus",
+          "name": "Prime Chimeric Nexus",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113081,
+          "id": "mask_of_the_virtuous_doctor",
+          "name": "Mask of the Virtuous Doctor",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104367,
+          "id": "philosophies_of_charity",
+          "name": "Philosophies of Charity",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112151,
+          "id": "prime_chimeric_nexus",
+          "name": "Prime Chimeric Nexus",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113081,
+          "id": "mask_of_the_virtuous_doctor",
+          "name": "Mask of the Virtuous Doctor",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104367,
+          "id": "philosophies_of_charity",
+          "name": "Philosophies of Charity",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112151,
+          "id": "prime_chimeric_nexus",
+          "name": "Prime Chimeric Nexus",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113081,
+          "id": "mask_of_the_virtuous_doctor",
+          "name": "Mask of the Virtuous Doctor",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 213600,
+      "name": "Logical Leap",
+      "description": "Mitya's outfit. The bare minimum in experimental protective gear, the thick outer coat of which sits over the uniform of a researcher from the Royal Energy Commission of Snezhnaya. This is, strictly speaking, not attire to be worn outside a research lab, but this is evidently not a rule that Mitya takes too seriously.",
+      "isDefault": true,
+      "characterName": "Mitya",
+      "characterId": 10000136,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Mitya_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Good morning, friend! Wait, is it morning? Ah, doesn't matter! Anyway, please step into my office... Great, sit right here. Someone will be right with you. Just tell them you're Mitya, an expert from the Energy Commission. Got that? Okay, that's it. Bye-bye!"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Not Another Word",
+      "text": "Ugh... I'd love to tell you some funny stories from work, but Scarf won't let me."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Theater Fan",
+      "text": "Did you see the show at the theater yesterday? It was pretty good. It'd be even better if I could remember what it was about..."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Sneak Attack",
+      "text": "Nochhornowls don't make a sound when they fly. One nearly snatched Scarf once... You'd better keep an eye on Paimon too!"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Please don't rain, please don't rain, please don't rain... Aw, come on!"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "What blew up!? ...Oh, just thunder? Boring."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "You have to watch out for snow that's frozen solid. Kicking it really hurts."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Hello, sun! Charge me up a little."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "First thing in the morning, and yesterday's work is already staring me in the face."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Afternoon. I'll be heading to the office in a bit, so don't tell anyone I went to the theater, okay?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "We sit beside the tall, tall stacks of paperwork, listening to the desk lamp tell its tales of crunch time."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Handing in paperwork this late is practically the same as handing it in tomorrow. So, tomorrow it is! Good night!"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Mitya: Lessons",
+      "text": "I used to love talking about my life. Then I joined the Energy Commission, and the old hands told me that anyone who doesn't want to be updating their resume in a hurry had better keep a low profile. *sigh* Trouble is, it slips my mind the second I open my mouth. Good thing I've got Scarf."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Mitya: Classified Secrets",
+      "text": "After I became a consultant to the Fatui, Valeriy warned me that the research I'm working on could change the world. Top secret and all that. I suggested he tell everyone the same thing about their work. Best place to hide a tree is in a forest, right? Then I wouldn't have to be so careful all the time. He said I've never been careful a day in my life. Is that really what he thinks of me? I'm hurt."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Help",
+      "text": "Do me a favor. Keep Mr. Valeriy busy for me. Half a day will do. Talk to him about anything. Ask how he's doing, treat him to a meal... If you're really out of ideas, you could always knock him flat. That works too. I've got something very, very important to do. I said that yesterday? Oh... Yeah, um, same thing — very, very important, and it still isn't finished. Right, let's both get to it!"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Basics of Adventuring",
+      "text": "With all the classified work I do, I'm not normally allowed to go traveling abroad whenever I like. Even signing the thickest nondisclosure agreement wouldn't change that. But Scarf proved its loyalty to the organization. They invited it to sign a form appointing it as my guardian... How weird is that? I have Scarf to thank for being free to go adventuring with you."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Stellar Linchpin",
+      "text": "This thing works great. The only downside is that it won't come apart. I'm confident I could put it back exactly the way it was, but it doesn't seem to trust me much..."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Wanna know the best place to cook? The office. Watching some of Snezhnaya's best and brightest figure out how to make soup with a centrifuge... Now that's amazing."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "I've seen or heard of at least a dozen different kinds of fae, but the official system still lumps them into just six broad categories. Who came up with that classification system, anyway? At the Energy Association, you'd get fined for work that sloppy."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Vodyanitsa",
+      "text": "Miss Vodyanitsa is great. Really great. Lovely singing voice, and she fits right in with the theater's refined atmosphere. Exactly the kind of atmosphere I do my best work in."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Odette",
+      "text": "Between you and me, Miss Odette might seem frosty, but she's actually easier to deal with than Vodyanitsa. Of course, maybe she just can't be bothered to tell me off. See? The world needs more generous, forgiving people like her. Hehe."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Alyosha",
+      "text": "Hehe, his dogs are so well-behaved! And you can tell they're smart. Sometimes I get this urge to teach them a little science... N-No, I don't visit him just to pet his dogs! Alyosha's my friend too, you know."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Valeriy's Lectures",
+      "text": "If you're feeling too busy, try Mr. Valeriy's hundredth introductory lecture on time management. If you've got too much time on your hands, give it a try anyway. After all, listening to his lectures is basically killing time."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Valeriy: Understanding",
+      "text": "To be fair, I can't blame Mr. Valeriy for being so fixated on schedules. He's surrounded by unreliable people. They'll spot a problem and do nothing to fix it. A whole group of 'em just standing around telling each other, \"Huh, strange, very strange,\" even as they push the work along in the wrong direction. I'm not one of them, obviously. I have no intention of pushing anything forward."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Vesna",
+      "text": "Miss Vesna's full of tricks, so she's great fun to play games with. And she's so efficient too! She can finish a whole month's work in the first ten days. Y'know, I'm going to follow her example. Only difference is, I'll leave mine until the last ten days."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Danica",
+      "text": "Full disclosure: I once mistook Miss Danica for a whale fae. You know, something like a Frostfin Battle Whale! Cool, right? Well, I was completely wrong, and the look she gave me was pretty fierce. Miss Vesna was absolutely thrilled when she heard me say it, though. Almost fell over laughing... which worked out nicely for me, since Danica turned that glare on her instead."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About the Tsaritsa",
+      "text": "Do you know what the Energy Commission said when they sent me to advise the Fatui? \"Her Majesty needs energy. We need peace and quiet. That makes this a noise-pollution-reducing new energy solution.\" So Her Majesty doesn't want things too noisy, huh? I'll keep that in mind."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Noy...",
+      "text": "He's a good guy! I was wandering around the station once and nearly got caught by the army, and he pointed me down a back path. Scarf seemed pretty happy to see him too. Didn't even get around to tripping me, can you believe it? ...Come to think of it, whose side is this scarf even on? I really need to get it under control!"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Mitya: I",
+      "text": "Hi, I'm Mitya. Sorry for the trouble. No trouble, you say? Don't worry. Just give it a minute."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Mitya: II",
+      "text": "Let's have Scarf introduce itself too. Go on, Scarf, say your lines... Sorry, Scarf's not much of a talker. I'll do it. Allow me to present my dear friend, Scarf. Please be nice to it."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Mitya: III",
+      "text": "My hair's naturally curly, and when I was little, it puffed out like beet leaves, so Mom always called me \"Beettop.\" I'm not letting some secret slip, by the way! I'm just telling you ahead of time so you won't be surprised later. It's a pretty cool nickname, actually. You think so too, right?"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Mitya: IV",
+      "text": "After ten hours of working nonstop, this Beettop will be completely wilted. Remember to carry me outside and water me. If anyone tries to stop you, tell them exactly that, word for word. Most people won't be able to process it, and that's our chance to run!"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Mitya: V",
+      "text": "The old-timers all say our line of work is pretty dangerous, so we ought to update our wills now and then. I haven't even written my first one! I did pick up a pen once, and got as far as \"Dear Mom and Dad,\" but that didn't feel right. That's a letter home, not a will. See, when you actually need a document template, all those \"meticulous\" old guys suddenly go quiet. Forget it. Same as with tomorrow's work: I'll deal with it if I make it to tomorrow."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Mitya's Hobbies",
+      "text": "The theater, of course. Appreciating the classics. Soaking up the, uh... cultural atmosphere."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Mitya's Troubles",
+      "text": "Ahh... I want to control Scarf, and I want to control when inspiration strikes. Ideally, that control would be effective round the clock."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Not too sour, not too sweet. Not too spicy, not too salty. Oh, I get it. I like averages!"
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "My face goes bright red if I drink even a little too much. So my colleagues started using me as a human proof tester. Honestly, the things I put up with."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Whoa, this is good! One more bite... Hey, Scarf, quit wiping my mouth. I'll just have to wash you again, so why bother?"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Mm-hm... I have now fully identified every component of this delicacy. Now, just wait while I go replicate it."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Uhh... You know what? Scarf would like this. Let's give it to Scarf."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Wow, congratulations! Let's celebrate the day all the good and bad in your life began! Want me to make you a little something? How about I rig you up with your very own \"Scarf\" helper? Just don't let it hold the handrail for you on the train. One sudden stop, and you'll be sorry."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Charged up and ready to go!"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "My mind's clear!"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "No interruptions!"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "I'm bursting with ideas! Wait, where's my notebook..."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Over to you."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Activating default mode."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Steady now!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Pleasure working with you."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Rapid catalysis!"
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Reactivity monitoring engaged!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Time for a stress test!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Periodic laws... decoded."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Elemental energy, loaded."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Let's see... All inert materials. Nothing dangerous. Help yourself."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Hand me anything flammable or explosive. You can keep the rest."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Give the scarf something to hold. Keeps it busy."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "I'm dying here! A little help!?"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "I was told it was safe here!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Hey, no fair!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Switch to power-saving mode for now."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Fine, fine, I'll do it."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "If you'll... please excuse me..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Can I keep the scarf...?"
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Bye, all... shutting down..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Auh!?"
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: II",
+      "text": "How's that work?"
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "What was that for...?"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Hey, knock it off!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Thanks for the invite. So, uh... where are we going?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Come on, let's see what's happening in town!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Reporting in. Where's the energy crisis?"
+    }
+  ],
+  "effects": {
+    "11190007": {
+      "name": "Elevation",
+      "description": "Special DMG Boost effect. It is calculated independently of other DMG Boost effects.",
+      "color": ""
+    },
+    "11360001": {
+      "name": "Gradient Beacons",
+      "description": "When Mitya is in the party and a Stellar-Conduct reaction is triggered, a <span style=\"color:#FFD780FF\">Gradient Beacon</span> that lasts for 6s will be created instead of a <span style=\"color:#FFD780FF\">Starlight Prism</span>. Mitya can consume <span style=\"color:#FFD780FF\">Gradient Beacons</span> to trigger various effects.<br/><span style=\"color:#FFD780FF\">Gradient Beacons</span> follow the active character and transform a larger nearby area into a <span style=\"color:#FFD780FF\">Polestar Field</span> when a <span style=\"color:#FFD780FF\">Gradient Beacon</span> is created. Mitya can have multiple <span style=\"color:#FFD780FF\">Gradient Beacons</span>, with an initial maximum of 4. Creating a <span style=\"color:#FFD780FF\">Gradient Beacon</span> will reset the duration of all <span style=\"color:#FFD780FF\">Gradient Beacons</span>.",
+      "color": ""
+    },
+    "11360002": {
+      "name": "Detection Core",
+      "description": "An energy device Mitya creates after using his Elemental Skill. Tapping it creates a Core in <span style=\"color:#FFD780FF\">Steady State</span>, while holding it creates an <span style=\"color:#FFD780FF\">Overloaded</span> core.<br/><br/><span style=\"color:#FFD780FF\">Detection Core: Steady State</span><br/>·Continuously follows nearby opponents and intermittently deals <span style=\"color:#FFACFFFF\">AoE Electro DMG</span>;<br/>·When Mitya has reached the maximum number of <span style=\"color:#FFD780FF\">Gradient Beacons</span> he can have, the device will consume any newly generated <span style=\"color:#FFD780FF\">Gradient Beacon</span> and deal <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> that is considered Stellar-Conduct reaction DMG;<br/>·When its duration ends or another <span style=\"color:#FFD780FF\">Detection Core</span> is created, the device will consume all <span style=\"color:#FFD780FF\">Gradient Beacons</span> Mitya has and deal <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> that is considered Stellar-Conduct reaction DMG based on the number consumed.<br/><br/><span style=\"color:#FFD780FF\">Detection Core: Overloaded</span><br/>·While this device is present and Mitya has at least 1 <span style=\"color:#FFD780FF\">Gradient Beacon</span>, he can perform the special Charged Attack <span style=\"color:#FFD780FF\">Gradient Detonation</span> without consuming Stamina.",
+      "color": ""
+    }
+  }
+}

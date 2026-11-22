@@ -1,0 +1,1765 @@
+{
+  "_id": 10000112,
+  "id": "escoffier",
+  "name": "Escoffier",
+  "title": "Tasteful Excellence",
+  "description": "The ex-head chef of Hotel Debord, renowned throughout Fontaine as the Patissiere Supreme and vanguard of precision gastronomy. Has incomparably strict standards when it comes to cooking.",
+  "weapon_type": {
+    "id": "polearm",
+    "name": "Polearm"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1746478800,
+  "substat": "CRIT Rate",
+  "stats": {
+    "base": {
+      "hp": 1039.1188,
+      "attack": 26.999,
+      "defense": 56.95816
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 890.95044,
+        "attack": 23.14751,
+        "defense": 48.8376,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1523.9941,
+        "attack": 39.594425,
+        "defense": 83.538,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.048
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2368.0525,
+        "attack": 61.523643,
+        "defense": 129.8052,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 70,
+        "hp": 3001.0962,
+        "attack": 77.97056,
+        "defense": 164.5056,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3634.14,
+        "attack": 94.41747,
+        "defense": 199.206,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4267.1836,
+        "attack": 110.86439,
+        "defense": 233.9064,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.192
+        }
+      }
+    ]
+  },
+  "affiliation": "Fontaine",
+  "region": {
+    "id": "fontaine",
+    "name": "Fontaine"
+  },
+  "rarity": 5,
+  "birthday": [
+    8,
+    6
+  ],
+  "constellation": "Dulciaria Structura",
+  "domain": "Pale Forgotten Glory",
+  "cv": {
+    "english": "Emily Cass",
+    "chinese": "蔡海婷",
+    "japanese": "佐藤聡美",
+    "korean": "Son Jeong-min"
+  },
+  "skills": [
+    {
+      "_id": 11121,
+      "id": "kitchen_skills",
+      "name": "Kitchen Skills",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 3 consecutive spear strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to perform an upward thrust.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "51.6%",
+            "55.7%",
+            "59.9%",
+            "65.9%",
+            "70.1%",
+            "74.9%",
+            "81.5%",
+            "88.1%",
+            "94.7%",
+            "101.9%",
+            "109.1%",
+            "116.3%",
+            "123.5%",
+            "130.7%",
+            "137.9%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "47.6%",
+            "51.5%",
+            "55.3%",
+            "60.9%",
+            "64.7%",
+            "69.2%",
+            "75.3%",
+            "81.4%",
+            "87.4%",
+            "94.1%",
+            "100.7%",
+            "107.4%",
+            "114%",
+            "120.6%",
+            "127.3%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "33% + 40.3%",
+            "35.7% + 43.6%",
+            "38.4% + 46.9%",
+            "42.2% + 51.6%",
+            "44.9% + 54.9%",
+            "48% + 58.6%",
+            "52.2% + 63.8%",
+            "56.4% + 68.9%",
+            "60.6% + 74.1%",
+            "65.2% + 79.7%",
+            "69.8% + 85.4%",
+            "74.4% + 91%",
+            "79% + 96.6%",
+            "83.6% + 102.2%",
+            "88.3% + 107.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "115.4%",
+            "124.8%",
+            "134.2%",
+            "147.6%",
+            "157%",
+            "167.8%",
+            "182.5%",
+            "197.3%",
+            "212%",
+            "228.1%",
+            "244.2%",
+            "260.3%",
+            "276.5%",
+            "292.6%",
+            "308.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11122,
+      "id": "lowtemperature_cooking",
+      "name": "Low-Temperature Cooking",
+      "description": "Behold the true meaning of \"cooking\"! Escoffier will demonstrate different cooking techniques when you Tap or Hold this skill, but rest assured, each of them is Fontaine's pride and joy.<br/><br/><span style=\"color:#FFD780FF\">Tap</span><br/>Activates her All-Spectrum Multi-Use Cooking Mek in its Cold Storage mode and deals <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> to nearby opponents.<br/><br/><span style=\"color:#FFD780FF\">Cooking Mek: Cold Storage Mode</span><br/>Follows the current active character and fires Frosty Parfaits at nearby opponents at intervals, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Arkhe: Ousia</span><br/>At intervals, Escoffier will summon a Surging Blade when activating her Cooking Mek in Cold Storage mode, dealing Ousia-aligned <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Activates her All-Spectrum Multi-Use Cooking Mek's <link kind=\"effect\" id=\"11120002\"><span style=\"color:#FFD780FF\">Off-the-Cuff Cookery Mode</span></link>.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "50.4%",
+            "54.2%",
+            "58%",
+            "63%",
+            "66.8%",
+            "70.6%",
+            "75.6%",
+            "80.6%",
+            "85.7%",
+            "90.7%",
+            "95.8%",
+            "100.8%",
+            "107.1%",
+            "113.4%",
+            "119.7%"
+          ]
+        },
+        {
+          "label": "Frosty Parfait DMG",
+          "values": [
+            "120%",
+            "129%",
+            "138%",
+            "150%",
+            "159%",
+            "168%",
+            "180%",
+            "192%",
+            "204%",
+            "216%",
+            "228%",
+            "240%",
+            "255%",
+            "270%",
+            "285%"
+          ]
+        },
+        {
+          "label": "Cold Storage Mode Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Surging Blade DMG",
+          "values": [
+            "33.6%",
+            "36.1%",
+            "38.6%",
+            "42%",
+            "44.5%",
+            "47%",
+            "50.4%",
+            "53.8%",
+            "57.1%",
+            "60.5%",
+            "63.8%",
+            "67.2%",
+            "71.4%",
+            "75.6%",
+            "79.8%"
+          ]
+        },
+        {
+          "label": "Surging Blade CD Interval",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "Press CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Hold CD",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11125,
+      "id": "scoring_cuts",
+      "name": "Scoring Cuts",
+      "description": "Displaying her exceptional knife skills, Escoffier deals <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> and restores HP to all nearby party members based on her ATK.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "592.8%",
+            "637.3%",
+            "681.7%",
+            "741%",
+            "785.5%",
+            "829.9%",
+            "889.2%",
+            "948.5%",
+            "1007.8%",
+            "1067%",
+            "1126.3%",
+            "1185.6%",
+            "1259.7%",
+            "1333.8%",
+            "1407.9%"
+          ]
+        },
+        {
+          "label": "Healing",
+          "values": [
+            "172% ATK + 1079",
+            "184.9% ATK + 1186",
+            "197.8% ATK + 1303",
+            "215% ATK + 1429",
+            "227.9% ATK + 1564",
+            "240.8% ATK + 1708",
+            "258% ATK + 1861",
+            "275.3% ATK + 2022",
+            "292.5% ATK + 2193",
+            "309.7% ATK + 2373",
+            "326.9% ATK + 2562",
+            "344.1% ATK + 2759",
+            "365.6% ATK + 2966",
+            "387.1% ATK + 3182",
+            "408.6% ATK + 3407"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "better_to_salivate_than_medicate",
+      "name": "Better to Salivate Than Medicate",
+      "description": "After using the Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"scoring_cuts\">Scoring Cuts</link></span>, Escoffier will obtain the Rehab Diet effect for 9s: Restores HP for nearby active characters every 1s based on 138.24% of Escoffier's ATK.",
+      "level": 1
+    },
+    {
+      "id": "inspirationimmersed_seasoning",
+      "name": "Inspiration-Immersed Seasoning",
+      "description": "When there are 1/2/3/4 <span style=\"color:#80C0FFFF\">Hydro</span> or <span style=\"color:#99FFFFFF\">Cryo</span> characters in the party, Escoffier will decrease the <span style=\"color:#80C0FFFF\">Hydro RES</span> and <span style=\"color:#99FFFFFF\">Cryo RES</span> of any opponents hit by her Elemental Skill, <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"lowtemperature_cooking\">Low-Temperature Cooking</link></span>, or her Elemental Burst, <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"scoring_cuts\">Scoring Cuts</link></span>, by 5%/10%/15%/55% for 12s.",
+      "level": 4
+    },
+    {
+      "id": "constant_offthecuff_cookery",
+      "name": "Constant Off-the-Cuff Cookery",
+      "description": "When using the Hold form of her Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"lowtemperature_cooking\">Low-Temperature Cooking</link></span>, Escoffier will activate her All-Spectrum Multi-Use Cooking Mek in its Off-the-Cuff Cookery mode.<br/><br/><span style=\"color:#FFD780FF\">Cooking Mek: Off-the-Cuff Cookery Mode</span><br/>· Places the Cooking Mek on the field. The Cooking Mek can absorb elemental attacks. When the absorbed elemental energy hits a certain limit, Escoffier can convert the ingredients placed within it into wonderful food.<br/>· Escoffier needs time to purchase new ingredients, so she can only make a certain number of dishes like this each week. The number of dishes Escoffier can make resets every Monday at 4:00 AM {TIMEZONE}.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1121,
+      "id": "predinner_dance_for_your_taste_buds",
+      "name": "Pre-Dinner Dance for Your Taste Buds",
+      "description": "When 4 party members are <span style=\"color:#80C0FFFF\">Hydro</span> or <span style=\"color:#99FFFFFF\">Cryo</span>, all nearby party members will have their <span style=\"color:#99FFFFFF\">Cryo DMG</span> CRIT DMG increased by 60% for 15s after Escoffier uses her Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"lowtemperature_cooking\">Low-Temperature Cooking</link></span> or Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"scoring_cuts\">Scoring Cuts</link></span>.<br/>You must first unlock the Ascension Talent \"Inspiration-Immersed Seasoning.\"",
+      "level": 1
+    },
+    {
+      "_id": 1122,
+      "id": "fresh_fragrant_stew_is_an_art",
+      "name": "Fresh, Fragrant Stew Is an Art",
+      "description": "When Escoffier activates her Cooking Mek in its <link kind=\"effect\" id=\"11120001\"><span style=\"color:#FFD780FF\">Cold Storage Mode</span></link>, she will gain the \"Freshly-Prepped Delicacy\" effect for 15s. During this time, Escoffier will gain 5 Cold Dish stacks. When nearby active characters apart from Escoffier deal <span style=\"color:#99FFFFFF\">Cryo DMG</span> with a Normal, Charged, or Plunging Attack, or an Elemental Skill or Elemental Burst, they will expend 1 Cold Dish stack to increase their DMG dealt by 240% of Escoffier's ATK.<br/>If you hit multiple opponents with a single instance of <span style=\"color:#99FFFFFF\">Cryo DMG</span>, Cold Dish stacks will be consumed based on the number of opponents hit.",
+      "level": 2
+    },
+    {
+      "_id": 1123,
+      "id": "the_bakery_magic_of_caramel_browning",
+      "name": "The Bakery Magic of Caramel Browning",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"lowtemperature_cooking\">Low-Temperature Cooking</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1124,
+      "id": "secret_rosemary_recipe",
+      "name": "Secret Rosemary Recipe",
+      "description": "<link kind=\"passive\" to=\"better_to_salivate_than_medicate\"><span style=\"color:#FFD780FF\">Rehab Diet</span></link> lasts 6 more seconds. While it is active, you have a chance of healing 100% extra HP and restoring 2 Energy to Escoffier when you trigger healing through <span style=\"color:#FFD780FF\">Rehab Diet</span>. This chance corresponds to Escoffier's CRIT Rate. You can trigger this effect 7 times during any one <span style=\"color:#FFD780FF\">Rehab Diet</span>'s duration.<br/>You must first unlock the Ascension Talent \"Better to Salivate Than Medicate.\"",
+      "level": 4
+    },
+    {
+      "_id": 1125,
+      "id": "symphony_of_a_thousand_sauces",
+      "name": "Symphony of a Thousand Sauces",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"scoring_cuts\">Scoring Cuts</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1126,
+      "id": "tea_parties_bursting_with_color",
+      "name": "Tea Parties Bursting With Color",
+      "description": "<link kind=\"effect\" id=\"11120001\"><span style=\"color:#FFD780FF\">Cooking Mek: Cold Storage Mode</span></link> is enhanced:<br/>· When your party's active character's Normal, Charged, or Plunging Attacks hit opponents, Cooking Mek: Cold Storage Mode will fire off another Special-Grade Frosty Parfait, dealing 500% of Escoffier's ATK as <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>. This DMG is considered Elemental Skill DMG.<br/>This effect can be triggered once every 0.5s, and this effect can be triggered 6 times within the duration of one Cooking Mek: Cold Storage Mode.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1039"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "27"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "57"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "-",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2695",
+            "3586"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "70",
+            "93"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "148",
+            "197"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5366",
+            "5999"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "139",
+            "156"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "294",
+            "329"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "9.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101232,
+        "id": "beryl_conch",
+        "name": "Beryl Conch",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112083,
+        "id": "meshing_gear",
+        "name": "Meshing Gear",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6902",
+            "7747"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "179",
+            "201"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "378",
+            "425"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "9.8%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113076,
+        "id": "secret_source_airflow_accumulator",
+        "name": "Secret Source Airflow Accumulator",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101232,
+        "id": "beryl_conch",
+        "name": "Beryl Conch",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112083,
+        "id": "meshing_gear",
+        "name": "Meshing Gear",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8659",
+            "9292"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "225",
+            "241"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "475",
+            "509"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113076,
+        "id": "secret_source_airflow_accumulator",
+        "name": "Secret Source Airflow Accumulator",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101232,
+        "id": "beryl_conch",
+        "name": "Beryl Conch",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112084,
+        "id": "mechanical_spur_gear",
+        "name": "Mechanical Spur Gear",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10213",
+            "10846"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "265",
+            "282"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "560",
+            "594"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "19.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113076,
+        "id": "secret_source_airflow_accumulator",
+        "name": "Secret Source Airflow Accumulator",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101232,
+        "id": "beryl_conch",
+        "name": "Beryl Conch",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112084,
+        "id": "mechanical_spur_gear",
+        "name": "Mechanical Spur Gear",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11777",
+            "12410"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "306",
+            "322"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "646",
+            "680"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "19.4%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113076,
+        "id": "secret_source_airflow_accumulator",
+        "name": "Secret Source Airflow Accumulator",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101232,
+        "id": "beryl_conch",
+        "name": "Beryl Conch",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112085,
+        "id": "artificed_dynamic_gear",
+        "name": "Artificed Dynamic Gear",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "13348",
+            "13348"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "347",
+            "347"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "732",
+            "732"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "24.2%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113076,
+        "id": "secret_source_airflow_accumulator",
+        "name": "Secret Source Airflow Accumulator",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101232,
+        "id": "beryl_conch",
+        "name": "Beryl Conch",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112085,
+        "id": "artificed_dynamic_gear",
+        "name": "Artificed Dynamic Gear",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104341,
+          "id": "teachings_of_justice",
+          "name": "Teachings of Justice",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112083,
+          "id": "meshing_gear",
+          "name": "Meshing Gear",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113068,
+          "id": "eroded_horn",
+          "name": "Eroded Horn",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113068,
+          "id": "eroded_horn",
+          "name": "Eroded Horn",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113068,
+          "id": "eroded_horn",
+          "name": "Eroded Horn",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113068,
+          "id": "eroded_horn",
+          "name": "Eroded Horn",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 211200,
+      "name": "Sorbet Honey Pie",
+      "description": "Escoffier's outfit. Befitting the \"Patissiere Supreme,\" the finely sewn flying sleeves on Escoffier's work uniform are as refined as the cakes she bakes, inevitably evoking thoughts of pure, exquisite sweetness.",
+      "isDefault": true,
+      "characterName": "Escoffier",
+      "characterId": 10000112,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Escoffier_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Well met. I am Escoffier, Patissiere Supreme and master of precision gastronomy. As an esteemed guest of the divine, you deserve the finest cuisine Teyvat has to offer. I hope my work is to your satisfaction.\\nIf you have an interest in the culinary arts, allow me to introduce you to the wonderful world of haute cuisine. I just hope you're mentally prepared for the undertaking. I don't tolerate a quitter."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Background Music",
+      "text": "Know of any new orchestral pieces? I like to swap out the background music in the kitchen once in a while. It's a great way to find new inspiration."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Knife Skills",
+      "text": "An important part of cooking is making sure the ingredients absorb the flavors in the dish. To that end, a chef must be able to wield a knife with the same level of precision as a surgeon. Practice makes perfect."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Perceptive Senses",
+      "text": "Even the most unassuming ingredients can produce astounding flavor. But, unlocking that potential takes a keen sense of smell, a refined palate, and an open mind."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Humid air filled with the rich scent of leaves and earth... A day like this calls for Pluie Lotus Fish Soup."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "The feeling of the warm sun as it burns off the moisture in the air... I'm sure I can capture it in a dish, I just need to strike the right flavor combination."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Hmm... I bet I could put ingredients in the snow instead of a freezer!"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "The sunlight is so bright... like a dish with sharp notes of citrus, a foam made from berry leaves, and a hint of sugar. Hm, not a bad idea."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Still half asleep, huh... Here, have a freshly-baked Sea Salt Croissant and Quenepa Berry Palmier with a cup of Bulle Fruit Tea. Breakfast of champions!"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "There was a time when the importance of lunch was overlooked. But, modern society places a much greater emphasis on self-care. So, now, we realize that nutrition without lunch is like a symphony without strings — utterly lackluster. So, let's not waste another second. Time to gather some fresh ingredients and whip up something nutritious."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "The final meal of the day should be given the same level of care as a grand banquet. Even for just two or three dishes, all the prep should be finished by three in the afternoon. Huh? Then, you don't have time to make something? Oh, well, it is well past three, you're right. But, don't worry — I wasn't expecting you to cook at all. I prepped the ingredients hours ago. Just sit tight and get ready to feast!"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Eating a small amount of dessert before bed can help you sleep. Here, have some of this cherry blossom and grilled apple-flavored light sugar pudding. It's low in sugar, but if you want my advice... Don't get too caught up in the number on the scale. And, anyway, if you ever need to balance your diet, I can make you something nutritious that doesn't taste like dirt!"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Escoffier: Breaking Out of Archetypes",
+      "text": "I carry the title of \"Patissiere Supreme,\" but that doesn't mean desserts are the only thing I can make. I respect those who dedicate themselves to one specialty, but I don't like the idea of boxing myself in. I'll try any ingredient from anywhere in the world. All I want is to push the limits of culinary innovation."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Escoffier: Fully Armed",
+      "text": "\"Extracting and employing all facets of flavor\"... That is the core philosophy of my school of cooking. In practice, this means I need a whole arsenal of cooking utensils. Whenever I leave my home kitchen for an extended period of time, most of my luggage is filled with carefully-wrapped cooking equipment. Navia likes to joke that I'm more armed than the Special Patrol. But, ever since I commissioned the Fontaine Research Institute to create the All-Spectrum Multi-Use Cooking Mek, cooking on the go is a lot easier."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Principles of Innovation",
+      "text": "As some ingredients start to spoil, others are just beginning to sprout... That's pretty much a metaphor for cooking as a whole — it's always evolving. Classic recipes are valuable, but that doesn't mean we should be confined to that era. Of course, innovation needs to be thoughtful, otherwise you might end up with abominations like \"Lavender Melon Cream Macaroni\" or \"Jueyun Chili-Infused Earl Grey Tea\"... At the very least, you need to know where to draw the line!"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Right to Critique",
+      "text": "A chef should strive to give their customer the best experience, but when it comes to critique, the customer isn't always right. Some people are born with a less refined sense of taste. Others don't care about the subtleties of a dish, much less the intricate combination of presentation, smell, and taste. You, on the other hand, are a special case. You're detailed, perceptive, well-traveled, and someone who has dined with the Archons themselves. As such, only you have the right to critique all aspects of my work. If you think there's something off with one of my dishes, just let me know — I won't take offense."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "I don't know much about how Visions work, but that hasn't stopped me from using mine in the kitchen. It's like I always say, cooking is a science. There are so many flavors waiting to be discovered. I know some monsters look disgusting, but finely chopped and ground into a powder, their flavor can be incredible! Without my Vision, getting my hands on unconventional ingredients like that would be... precarious to say the least. Oh, and best of all, I'm basically a walking freezer!"
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "The device on my back is called the \"Self-Adapting Movement Signal Tracking Support Mek.\" It's a similar piece of tech to the All-Spectrum Multi-Use Cooking Mek. It's easy to control, efficient in the kitchen, and can even read and respond to common movements. Many people think it looks like a tail and even call me a \"demon chef.\" If I'm honest, I wish I had the power to cast certain cooking abominations into oblivion... So, hey, if the shoe fits..."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "If I could create a dessert better than Gateau Debord and make it to Lady Furina's satisfaction... I think my next step would be to visit every nation in Teyvat and cook for the Archons. That's how I get to the next level. I might even be able to get a taste of each Archon's signature dish. Boy, would that open my eyes to a whole new world of gastronomy..."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Furina: First Meeting",
+      "text": "Early in my career, I worked at a small restaurant in the Vasari Passage. One day, entirely out of the blue, Lady Furina decided to dine at our restaurant after a performance. As I was scrambling around the back, a customer asked to meet the head chef. So, I rushed out to their table, knife still in hand, and completely froze... Because there I was, standing face-to-face with Lady Furina of all people. I knew I had to make something special, and it was like my instincts took over — I came up with a \"Lily sugar-glazed opera cake,\" and Lady Furina actually liked it and said she would remember me. I barely slept a wink that night, and the very next day, there was a position waiting for me at the Palais Mermonia..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Furina: Current Situation",
+      "text": "After that, Lady Furina gave me the title of \"Patissiere Supreme,\" and said, when it comes to confections, I was worth a whole army of patissiers. That gave me a lot to live up to, so I shut myself away to hone my craft. And, well, it seems like I missed a lot of important events in the meantime. Lady Furina doesn't even live in the Palais Mermonia anymore... I don't really understand what happened, but I do know this — Lady Furina will always be the most important benefactor of my life. She only has to say the word, and I would go work as her personal chef in an instant — no compensation necessary!"
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Navia",
+      "text": "My parents took me to the Hotel Debord for the first time on my fifth birthday. I remember — I found this hat on the ground. It was beautiful and carried the intense, warm aroma of roses. Following that scent, I was able to find the owner, and well... That scent is Navia to a tee — so warm and sweet, and after all these years, not a thing has changed. I invite her over for afternoon tea whenever I have the chance. Every second we spend together is pure delight... Except for the fact that she's still a \"the sweeter the dessert, the better\" kind of person... But, oh well. You have to pick your battles. And, anyway, taste is personal, I guess..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Charlotte",
+      "text": "As a professional reporter with impeccable writing skills, Charlotte has a lot of clout in the culinary world. Her flavor descriptions are so detailed and her photography skills are unmatched. She can whip up a food editorial in the blink of an eye. If I have a new dish that I want to advertise, inviting Charlotte to try it out is never a bad idea."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Sigewinne",
+      "text": "The Head Nurse, huh... Well, um... She's a lovely person, of course. It's just... her sense of taste is, in a word, unique.... Which I completely understand and respect. I've tried my best to explore flavor through her perspective. But, my biggest takeaway was that she could star in an assassin film. Seriously, try her milkshakes sometime — absolutely deadly..."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Wriothesley",
+      "text": "His Grace is polite and steadfast — a true old-school gentleman at heart. Still, eating the food at the Coupon Cafeteria... Now that was a cruel and unusual punishment indeed."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Lynette",
+      "text": "You might not know this, but Lynette is actually a member of our Dessert Tea Party. She and her brother were frequent performers at Hotel Debord, so we saw each other quite a bit. In the beginning, she seemed distant and cold, but once I worked up the courage to invite her to the tea party, I realized that her emotions are as rich and varied as a plate of Rainbow Macarons... When she likes a particular dessert, her ears flutter back and forth. And, if she doesn't like it, her tail droops down, hehe... Wait! Don't tell me my tail does that too..."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About The Knave",
+      "text": "I've only ever seen her from a distance, and one time at that, but I will never forget it. For a while, I cooked as if she was going to taste every dish. I mean, imagine the consequences of disappointing someone like that... Talk about motivation. It was a great scare tactic for my apprentices as well. All it took was a, \"you think you can serve this to Ms. Arlecchino and live to tell the tale?\" It's weird, though... Navia seems to think she's not as terrifying as she looks... But I don't know."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Emilie",
+      "text": "Did you know that food-inspired scent formulation is a popular field in perfumery? Miss Emilie has helped me learn a lot about extracting fragrances and aromas. I feel like I have a whole new appreciation for the dynamic between smell and taste. I hope I can use it to my advantage one day and use fragrance to unlock a whole new sensory experience. As for Miss Emilie, it's just really nice to have someone who appreciates a scientific approach..."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Varesa",
+      "text": "Oh, Varesa? The fruit from her orchard is amazing. Biting into one is like being transported to a lazy summer's day. She could charge me an extra twenty percent, and it would still be worth it! So, I always treat her to a meal after every purchase. Her appetite is astonishing. It may look like she scarfs it all down in one bite, but if you actually talk to her about the food, it's obvious she appreciates the subtle details. In other words, she has the appetite and palate to back it up — I love serving food to people like that!"
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Xiangling",
+      "text": "There is a saying in Liyue: \"Beyond every mountain lies a higher mountain.\" But, when it comes to Xiangling and me, it feels more like... I was holed up in a cave and she dragged me into a new world. She uses techniques I've never heard of and chooses ingredients I could never anticipate. Her dishes seem to redefine what I thought was possible — you can't even analyze them within the framework of classical Fontainian cooking. Meeting her has convinced me that staying cooped up in my kitchen isn't the answer — I need to go out and explore what other nations have to offer!"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Escoffier: I",
+      "text": "For me, food is far more than a source of nutrition or sustenance — it's the star of the most important ritual in our lives. A great dish can give us hope, joy, and strength. The act of cooking is like the figure of the Snow-Winged Goose — there's a certain grace and elegance to it. It's an artform that takes a lifetime to master."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Escoffier: II",
+      "text": "For many people, the barrier to appreciating good cuisine is not a lack of aptitude, but a lack of time and Mora. For me, part of a chef's duty is prioritizing cost-effective ingredients in recipe development. Haute cuisine doesn't have to be inaccessible — it should be enjoyed by all. Of course, that's far easier said than done, and when I first started out, I completely hit a wall — but that's what inspired me to pursue precision gastronomy."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Escoffier: III",
+      "text": "The tenets of precision gastronomy are analysis, extraction, and replication. First, you perform a quantitative analysis to determine the elements needed to achieve a certain flavor profile. Then, you extract those elements from more cost-effective ingredients. The goal is to turn expensive dishes into attainable ones. That means using all sorts of unconventional tools in the kitchen, but that's business as usual for me."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Escoffier: IV",
+      "text": "In theory, precision gastronomy can do more than just reduce the cost of a dish. It also forces the chef to get creative and innovate. Of course, I'm not doing it out of some desire to become \"the best in the world\" or earn some other superlative title — I'm not naive enough for that. My goal remains unchanged — turning haute cuisine into a cuisine for all, while reinventing flavor as we know it."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Escoffier: V",
+      "text": "My ideal life is being surrounded by pleasant music and having ample time to explore promising flavor combinations, with a fellow food enthusiast by my side to serve as a taste-tester... That's what I'm saving up for, at least. As for my future sous chef, ingredient procurer, and taster of my dishes, I happen to already have someone in mind... Hey, why are you avoiding eye contact all of a sudden?"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Escoffier's Hobbies",
+      "text": "You strike me as someone who appreciates good forging. Then, get a load of these knives, all forged with different techniques and featuring intricate patterns on the blades. Some are swirled like a rolled cake, some are mottled like a thick jam, and others shimmer like a gemstone. Not to mention, the feel in the hand is so different for each one. Some glide through ingredients like butter, others chop with short, sharp beats, and a few even seem to vibrate like a violin string... Each one has a unique charm!"
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Escoffier's Troubles",
+      "text": "A branding consultant once advised me to create a so-called \"investable persona\" to attract more funding and help me reach greater culinary heights. But, I'm terrible at acting, so I told them to just record the way I work and interact with my apprentices in real life... But, I'm not sure the film had the intended impact. People don't seem focused on my food at all..."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I've tried most of the traditional cuisine Teyvat has to offer. So, now, my focus is on the unconventional and the unexpected. My favorite recipes are the ones that turn an old classic on its head. In fact, if you want my expert opinion, you have infinite potential in that regard. I'm really looking forward to your future creations."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "\"Kinda bland,\" \"Just okay,\" \"I've had worse\"... Comments like that are my worst enemy. Flavor is everything, and if a dish fails to deliver, it's going straight in the trash."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Hmm... Hmm? Hmm! Well, incredible! You have a gift! I should teach you everything I know as soon as possible! Your culinary potential is off the charts!"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Hmm... Just \"meh.\" It's not bad, just... forgettable. I know someone of your talent can do better than this. Back to the drawing board, I think. I look forward to the new and improved version."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "...Friends tell it like it is, so here's the truth. If one of my apprentices served this dish to me, I'd turn it upside down on their own head. For you, though, I'll finish it, and then... give you a thorough evaluation. I hope you take my feedback to heart and learn from your mistakes. Out of consideration for your diners, and your own tastebuds, dig a little deeper next time."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Esteemed Traveler, you are the \"ultimate variable\" of Teyvat, the one who brought a unique flavor to this world. A birthday celebration in your honor calls for a feast with eighty dishes at least — four meat, four wild game, four pastry, and two soup dishes, just to start... Still, gorging on food is no way to dine — it's a disservice to your health and to the dishes themselves... Thus, we shall just have to celebrate your birthday over the entire week! Ten dishes a day should do it. I want you to appreciate each one to the fullest. A culinary symphony awaits!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "My senses are sharper. It feels like the fragrance, color, and texture of food are much more defined... Perfect! This should help me cook with even more precision."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Mastery isn't just about raw strength, but learning to control and account for different variables... I can feel myself getting better at that by the day."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "I can see it — the golden point in time when form and flavor combine for maximum effect. The most efficient pathways for the transmission of flavor, the subtle acoustics as you bite into a dish, and how they can enhance that experience..."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Thank you so much. With your inspiration and support, I now have what it takes to extract the finest flavors nature has to offer and redefine the very limits of culinary perfection! And after that, I'll find a new peak to strive towards!"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Off to the freezer."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "A little amuse-bouche~"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "A dash of frosting."
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "No recipe, no problem~"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "An inspired melange~"
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Bon appétit~"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Goose on the loose!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "The pinnacle of excellence!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "A burst of flavor!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Hehe, okay! I can get behind this filling."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Are we sure this stuff isn't... expired?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Huh, this chest is pretty good at keeping things fresh."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "A slip up... That's all."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "I can handle the heat."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Remember, nice clean cuts..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Gotta start from scratch..."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Hang in there!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "The taste isn't... right..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "In over... my head..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "What did I... do wrong?"
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Rotten to the core..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Th—The audacity!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Show no fear!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Ready to spice things up!"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Utensils at the ready!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Let's go stretch our legs while the flavors are mingling."
+    }
+  ],
+  "effects": {
+    "11120001": {
+      "name": "Cold Storage Mode",
+      "description": "<span style=\"color:#FFD780FF\">Tap</span><br/>Activates her All-Spectrum Multi-Use Cooking Mek in its Cold Storage mode and deals <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> to nearby opponents.<br/><br/><span style=\"color:#FFD780FF\">Cooking Mek: Cold Storage Mode</span><br/>Follows the current active character and fires Frosty Parfaits at nearby opponents at intervals, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span>.",
+      "color": ""
+    },
+    "11120002": {
+      "name": "Off-the-Cuff Cookery Mode",
+      "description": "<span style=\"color:#FFD780FF\">Cooking Mek: Off-the-Cuff Cookery Mode</span><br/>· Places the Cooking Mek on the field. The Cooking Mek can absorb elemental attacks. When the absorbed elemental energy hits a certain limit, Escoffier can convert the ingredients placed within it into wonderful food.<br/>· Escoffier needs time to purchase new ingredients, so she can only make a certain number of dishes like this each week. The number of dishes Escoffier can make resets every Monday at 4:00 AM.",
+      "color": ""
+    }
+  }
+}

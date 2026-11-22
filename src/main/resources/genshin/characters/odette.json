@@ -1,0 +1,1969 @@
+{
+  "_id": 10000150,
+  "id": "odette",
+  "name": "Odette",
+  "title": "Swirling Snow",
+  "description": "A famed Snezhnayan ballerina who blossoms against the frozen landscape with a beauty as sharp as frost.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1786395600,
+  "substat": "CRIT DMG",
+  "stats": {
+    "base": {
+      "hp": 1010.5192,
+      "attack": 26.068,
+      "defense": 61.26592
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 866.42883,
+        "attack": 22.34932,
+        "defense": 52.5312,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1482.0493,
+        "attack": 38.2291,
+        "defense": 89.856,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2302.8767,
+        "attack": 59.40214,
+        "defense": 139.6224,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2918.497,
+        "attack": 75.28192,
+        "defense": 176.9472,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3534.1177,
+        "attack": 91.1617,
+        "defense": 214.272,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.288
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4149.7383,
+        "attack": 107.04148,
+        "defense": 251.5968,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.384
+        }
+      }
+    ]
+  },
+  "affiliation": "Korolevskiy Troupe",
+  "region": {
+    "id": "snezhnaya_star",
+    "name": "SNEZHNAYA_STAR"
+  },
+  "rarity": 5,
+  "birthday": [
+    20,
+    2
+  ],
+  "constellation": "Cygnus Olor",
+  "domain": "Domain of Mastery: Contemplation",
+  "cv": {
+    "english": "Alexis Tipton",
+    "chinese": "潘丹妮",
+    "japanese": "上坂堇",
+    "korean": "Choi Hyun-ji"
+  },
+  "skills": [
+    {
+      "_id": 11501,
+      "id": "snow_swan_variation",
+      "name": "Snow Swan Variation",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Unleashes a sword attack of up to 5 consecutive strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash a dazzling slash on opponents in front of her.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Attacks opponents in her path while plunging from mid-air, then deals AoE DMG upon landing.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "51.9%",
+            "56.1%",
+            "60.3%",
+            "66.3%",
+            "70.5%",
+            "75.4%",
+            "82%",
+            "88.6%",
+            "95.3%",
+            "102.5%",
+            "109.7%",
+            "117%",
+            "124.2%",
+            "131.5%",
+            "138.7%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "51.5%",
+            "55.7%",
+            "59.9%",
+            "65.9%",
+            "70.1%",
+            "74.9%",
+            "81.5%",
+            "88%",
+            "94.6%",
+            "101.8%",
+            "109%",
+            "116.2%",
+            "123.4%",
+            "130.6%",
+            "137.8%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "32.6% + 38.3%",
+            "35.3% + 41.4%",
+            "37.9% + 44.5%",
+            "41.7% + 49%",
+            "44.4% + 52.1%",
+            "47.4% + 55.6%",
+            "51.6% + 60.5%",
+            "55.7% + 65.4%",
+            "59.9% + 70.3%",
+            "64.5% + 75.7%",
+            "69% + 81%",
+            "73.6% + 86.3%",
+            "78.1% + 91.7%",
+            "82.7% + 97%",
+            "87.2% + 102.4%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "74.6%",
+            "80.6%",
+            "86.7%",
+            "95.4%",
+            "101.5%",
+            "108.4%",
+            "117.9%",
+            "127.5%",
+            "137%",
+            "147.4%",
+            "157.8%",
+            "168.2%",
+            "178.6%",
+            "189%",
+            "199.4%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "90.2%",
+            "97.6%",
+            "104.9%",
+            "115.4%",
+            "122.7%",
+            "131.1%",
+            "142.7%",
+            "154.2%",
+            "165.7%",
+            "178.3%",
+            "190.9%",
+            "203.5%",
+            "216.1%",
+            "228.7%",
+            "241.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "107.4%",
+            "116.2%",
+            "124.9%",
+            "137.4%",
+            "146.1%",
+            "156.1%",
+            "169.9%",
+            "183.6%",
+            "197.3%",
+            "212.3%",
+            "227.3%",
+            "242.3%",
+            "257.3%",
+            "272.3%",
+            "287.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11502,
+      "id": "adagio_phantom_night_dancers",
+      "name": "Adagio: Phantom Night Dancers",
+      "description": "With slow, graceful dance steps, Odette deals <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> to the opponent, and also summons her <link kind=\"effect\" id=\"11500001\"><span style=\"color:#FFD780FF\">Solo Dance Double</span></link> to the field.<br/>If a <span style=\"color:#FFD780FF\">Dance Double</span> summoned by Odette is already on the field, this will re-summon the Dance Double and reset its duration.<br/><br/><span style=\"color:#FFD780FF\">Solo Dance Double</span><br/>Alternates between the <span style=\"color:#FFD780FF\">Plume</span> and <span style=\"color:#FFD780FF\">Wing</span> dance moves, periodically attacking nearby opponents and dealing to them <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>.<br/>Additionally, for 6s after unleashing the Elemental Skill <span style=\"color:#FFD780FF\">Adagio: Phantom Night Dancers</span>, Odette's Elemental Skill <span style=\"color:#FFD780FF\">Adagio: Phantom Night Dancers</span> will become the special Elemental Skill <link kind=\"effect\" id=\"11500002\"><span style=\"color:#FFD780FF\">Adagio: Coda at Dawn's Tolling</span></link><link kind=\"effect\" id=\"11500004\"></link> instead, where a dance duet deals <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> to nearby opponents over time. Then, when the duet ends, she deals another instance of <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> that is considered Stellar-Conduct or Stellar Swirl DMG.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "108.1%",
+            "116.2%",
+            "124.3%",
+            "135.1%",
+            "143.2%",
+            "151.3%",
+            "162.1%",
+            "172.9%",
+            "183.7%",
+            "194.5%",
+            "205.4%",
+            "216.2%",
+            "229.7%",
+            "243.2%",
+            "256.7%"
+          ]
+        },
+        {
+          "label": "Coda at Dawn's Tolling DoT",
+          "values": [
+            "95.8%",
+            "103%",
+            "110.2%",
+            "119.8%",
+            "127%",
+            "134.2%",
+            "143.8%",
+            "153.3%",
+            "162.9%",
+            "172.5%",
+            "182.1%",
+            "191.7%",
+            "203.7%",
+            "215.6%",
+            "227.6%"
+          ]
+        },
+        {
+          "label": "Coda at Dawn's Tolling Stellar-Conduct/Stellar Swirl DMG",
+          "values": [
+            "305.8% / 458.6%",
+            "328.7% / 493%",
+            "351.6% / 527.4%",
+            "382.2% / 573.3%",
+            "405.1% / 607.7%",
+            "428.1% / 642.1%",
+            "458.6% / 688%",
+            "489.2% / 733.8%",
+            "519.8% / 779.7%",
+            "550.4% / 825.6%",
+            "580.9% / 871.4%",
+            "611.5% / 917.3%",
+            "649.7% / 974.6%",
+            "688% / 1031.9%",
+            "726.2% / 1089.3%"
+          ]
+        },
+        {
+          "label": "\"Plume\" Dance Move DMG",
+          "values": [
+            "43%",
+            "46.3%",
+            "49.5%",
+            "53.8%",
+            "57%",
+            "60.3%",
+            "64.6%",
+            "68.9%",
+            "73.2%",
+            "77.5%",
+            "81.8%",
+            "86.1%",
+            "91.5%",
+            "96.8%",
+            "102.2%"
+          ]
+        },
+        {
+          "label": "\"Plume\" Dance Move Stellar-Conduct/Stellar Swirl DMG",
+          "values": [
+            "27% / 40.5%",
+            "29.1% / 43.6%",
+            "31.1% / 46.6%",
+            "33.8% / 50.7%",
+            "35.8% / 53.7%",
+            "37.8% / 56.7%",
+            "40.5% / 60.8%",
+            "43.2% / 64.8%",
+            "45.9% / 68.9%",
+            "48.6% / 73%",
+            "51.3% / 77%",
+            "54% / 81.1%",
+            "57.4% / 86.1%",
+            "60.8% / 91.2%",
+            "64.2% / 96.3%"
+          ]
+        },
+        {
+          "label": "\"Wing\" Dance Move DMG",
+          "values": [
+            "51.5%",
+            "55.3%",
+            "59.2%",
+            "64.3%",
+            "68.2%",
+            "72%",
+            "77.2%",
+            "82.3%",
+            "87.5%",
+            "92.6%",
+            "97.8%",
+            "102.9%",
+            "109.4%",
+            "115.8%",
+            "122.2%"
+          ]
+        },
+        {
+          "label": "\"Wing\" Dance Move Stellar-Conduct/Stellar Swirl DMG",
+          "values": [
+            "32.3% / 48.5%",
+            "34.7% / 52.1%",
+            "37.2% / 55.7%",
+            "40.4% / 60.6%",
+            "42.8% / 64.2%",
+            "45.2% / 67.8%",
+            "48.5% / 72.7%",
+            "51.7% / 77.5%",
+            "54.9% / 82.4%",
+            "58.2% / 87.2%",
+            "61.4% / 92.1%",
+            "64.6% / 96.9%",
+            "68.7% / 103%",
+            "72.7% / 109%",
+            "76.7% / 115.1%"
+          ]
+        },
+        {
+          "label": "Coda at Dawn's Tolling CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Solo Dance Double Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11505,
+      "id": "presto_bluebird_finale",
+      "name": "Presto: Bluebird Finale",
+      "description": "With quick, lively dance steps, Odette deals multiple instances of <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>, and summons her <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11500001\">Solo Dance Double</span></link>. She also gains <span style=\"color:#FFD780FF\">Snow Swan's Dream</span>, which increases the Stellar Glimmer reaction DMG Odette deals.<br/>Additionally, for 6s after unleashing the Elemental Burst <span style=\"color:#FFD780FF\">Presto: Bluebird Finale</span>, Odette's Elemental Skill <span style=\"color:#FFD780FF\">Adagio: Phantom Night Dancers</span> will be replaced with the special Elemental Skill <link kind=\"effect\" id=\"11500002\"><span style=\"color:#FFD780FF\">Adagio: Coda at Dawn's Tolling</span></link><link kind=\"effect\" id=\"11500004\"></link> instead.<br/><br/>If there is a Solo Dance Double summoned by Odette on the field, it will be summoned to her side with its duration refreshed.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Slash DMG",
+          "values": [
+            "110.2% ×3",
+            "118.4% ×3",
+            "126.7% ×3",
+            "137.7% ×3",
+            "146% ×3",
+            "154.2% ×3",
+            "165.3% ×3",
+            "176.3% ×3",
+            "187.3% ×3",
+            "198.3% ×3",
+            "209.3% ×3",
+            "220.4% ×3",
+            "234.1% ×3",
+            "247.9% ×3",
+            "261.7% ×3"
+          ]
+        },
+        {
+          "label": "Final Slash DMG",
+          "values": [
+            "170.3%",
+            "183%",
+            "195.8%",
+            "212.8%",
+            "225.6%",
+            "238.4%",
+            "255.4%",
+            "272.4%",
+            "289.5%",
+            "306.5%",
+            "323.5%",
+            "340.5%",
+            "361.8%",
+            "383.1%",
+            "404.4%"
+          ]
+        },
+        {
+          "label": "Snow Swan's Dream Stellar Glimmer Reaction DMG Bonus",
+          "values": [
+            "14%",
+            "18%",
+            "22%",
+            "26%",
+            "30%",
+            "34%",
+            "38%",
+            "42%",
+            "46%",
+            "50%",
+            "54%",
+            "58%",
+            "62%",
+            "66%",
+            "70%"
+          ]
+        },
+        {
+          "label": "Snow Swan's Dream Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Solo Dance Double Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "spring_rite_of_the_chosen_one",
+      "name": "Spring Rite of the Chosen One",
+      "description": "When Odette summons her <link kind=\"effect\" id=\"11500001\"><span style=\"color:#FFD780FF\">Solo Dance Double</span></link>, she also obtains 4 stacks of <link kind=\"effect\" id=\"11500003\"><span style=\"color:#FFD780FF\">Marvelous Splendor</span></link>.",
+      "level": 1
+    },
+    {
+      "id": "pathetique_of_pateticheskaya",
+      "name": "Pathetique of Pateticheskaya",
+      "description": "For every 100 ATK Odette has over 1,000, her Stellar Glimmer DMG is additionally increased by 1.5% of the original DMG. She can deal up to 30% more additional DMG in this way.",
+      "level": 4
+    },
+    {
+      "id": "stellar_jubilee_dance_of_aurore",
+      "name": "Stellar Jubilee: Dance of Aurore",
+      "description": "Odette will enter the <span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> state when she is inside a <link kind=\"effect\" id=\"11330003\"><span style=\"color:#FFD780FF\">Polestar Field</span></link>, or the <span style=\"color:#FFD780FF\">Radiance: Stellar Swirl</span> state for 8s after a nearby party member triggers a Stellar Swirl reaction.<br/>When a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Odette's ATK. A maximum increase of 14% can be obtained in this way.",
+      "level": 0
+    },
+    {
+      "id": "echo_of_winter_daydreams",
+      "name": "Echo of Winter Daydreams",
+      "description": "Shows the locations of <span style=\"color:#FFD780FF\">Snezhnaya's Local Specialties</span> on the mini-map, and this effect also applies in the Shadow Realm.<br/>Practicing dance in one's spare time might even trigger other effects...",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1501,
+      "id": "on_this_danceless_morn_she_gazes_at_her_reflection",
+      "name": "\"On This Danceless Morn, She Gazes at Her Reflection\"",
+      "description": "After unleashing the special Elemental Skill <link kind=\"effect\" id=\"11500002\"><span style=\"color:#FFD780FF\">Adagio: Coda at Dawn's Tolling</span></link>, at the dance duet's end Odette will deal an additional instance of <span style=\"color:#99FFFFFF\">Cryo AoE DMG</span> to nearby opponents that is considered:<br/><span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> or when not in a Radiance state: Stellar-Conduct reaction DMG at 300% of Odette's ATK;<br/><span style=\"color:#FFD780FF\">Radiance: Stellar Swirl</span>: Stellar Swirl reaction DMG at 450% of Odette's ATK.<br/><br/>Additionally, the Ascension Talent \"Spring Rite of the Chosen One\" is also enhanced: now, when the <link kind=\"effect\" id=\"11500001\"><span style=\"color:#FFD780FF\">Solo Dance Double</span></link> is summoned, Odette also gains 2 stacks of <link kind=\"effect\" id=\"11500003\"><span style=\"color:#FFD780FF\">Marvelous Splendor</span></link>. When Odette is off-field, the rate at which <span style=\"color:#FFD780FF\">Marvelous Splendor</span> is removed is sped up to 2 stacks per second.",
+      "level": 1
+    },
+    {
+      "_id": 1502,
+      "id": "i_must_see_the_snow_swans_unseen_dream_for_myself_she_thought",
+      "name": "\"I Must See the Snow Swan's Unseen Dream for Myself, She Thought\"",
+      "description": "The Ascension Talent \"Spring Rite of the Chosen One\" is enhanced as follows: every stack of <link kind=\"effect\" id=\"11500003\"><span style=\"color:#FFD780FF\">Marvelous Splendor</span></link> active also increases the character's ATK by 7%.<br/>Additionally, if Odette is in the <link kind=\"effect\" id=\"11500004\"><span style=\"color:#FFD780FF\">Radiance: Stellar Glimmer</span></link> state when there is a <link kind=\"effect\" id=\"11500001\"><span style=\"color:#FFD780FF\">Solo Dance Double</span></link> on the field, opponents near the <span style=\"color:#FFD780FF\">Dance Double</span> will also have their corresponding Elemental RES lowered by 20%.<br/>·<span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span>: <span style=\"color:#99FFFFFF\">Cryo</span> and <span style=\"color:#FFACFFFF\">Electro</span>.<br/>·<span style=\"color:#FFD780FF\">Radiance: Stellar Swirl</span>: <span style=\"color:#99FFFFFF\">Cryo</span> and <span style=\"color:#80FFD7FF\">Anemo</span>.",
+      "level": 2
+    },
+    {
+      "_id": 1503,
+      "id": "ill_chase_the_shouting_wind_along_climbing_alone_as_i_go",
+      "name": "\"I'll Chase the Shouting Wind Along, Climbing Alone As I Go\"",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"adagio_phantom_night_dancers\">Adagio: Phantom Night Dancers</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1504,
+      "id": "up_up_the_long_delirious_burning_blue",
+      "name": "\"Up, Up the Long, Delirious, Burning Blue\"",
+      "description": "The Elemental Burst <span style=\"color:#FFD780FF\">Presto: Bluebird Finale</span> is enhanced as follows: when Odette obtains <span style=\"color:#FFD780FF\">Snow Swan's Dream</span>, Stellar Glimmer reaction DMG dealt by other nearby party members is increased by 50% of <span style=\"color:#FFD780FF\">Snow Swan Dream</span>'s effects.<br/><br/>Additionally, when a party member deals Stellar Glimmer reaction DMG to an opponent, Odette will also join in with a coordinated attack, dealing an instance of <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>. This effect, which can trigger once every 3.5s, will be considered:<br/>·<span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> or when not in a Radiance state: Stellar-Conduct reaction DMG at 66% of Odette's ATK.<br/>·<span style=\"color:#FFD780FF\">Radiance: Stellar Swirl</span>: Stellar Swirl reaction DMG at 99% of Odette's ATK.",
+      "level": 4
+    },
+    {
+      "_id": 1505,
+      "id": "oh_i_have_slipped_the_surly_bonds_of_earth",
+      "name": "\"Oh! I Have Slipped the Surly Bonds of Earth\"",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"presto_bluebird_finale\">Presto: Bluebird Finale</link> </span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1506,
+      "id": "put_out_my_hand_and_touched_the_face_of_the_divine",
+      "name": "\"Put Out My Hand, and Touched the Face of the Divine\"",
+      "description": "The Ascension Talent \"Spring Rite of the Chosen One\" is enhanced as follows: When Odette grants <link kind=\"effect\" id=\"11500003\"><span style=\"color:#FFD780FF\">Marvelous Splendor</span></link> to all nearby party members, her own Marvelous Splendor stacks will no longer decrease.<br/>Additionally, characters affected by <span style=\"color:#FFD780FF\">Marvelous Splendor</span> have their Stellar Glimmer reaction DMG dealt to opponents <link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">elevated</span></link> by 25%, and Stellar Glimmer reaction DMG dealt by Odette is elevated by an additional 20%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1011"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "26"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "61"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2621",
+            "3488"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "68",
+            "90"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "159",
+            "211"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5219",
+            "5834"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "135",
+            "151"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "316",
+            "354"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101275,
+        "id": "frostfairy_flower",
+        "name": "Frostfairy Flower",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112146,
+        "id": "ethereal_glimmershard",
+        "name": "Ethereal Glimmershard",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6712",
+            "7533"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "173",
+            "194"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "407",
+            "457"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113090,
+        "id": "unscorched_blossom_branch",
+        "name": "Unscorched Blossom Branch",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101275,
+        "id": "frostfairy_flower",
+        "name": "Frostfairy Flower",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112146,
+        "id": "ethereal_glimmershard",
+        "name": "Ethereal Glimmershard",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8421",
+            "9036"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "217",
+            "233"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "511",
+            "548"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113090,
+        "id": "unscorched_blossom_branch",
+        "name": "Unscorched Blossom Branch",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101275,
+        "id": "frostfairy_flower",
+        "name": "Frostfairy Flower",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112147,
+        "id": "ethereal_crystal",
+        "name": "Ethereal Crystal",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9932",
+            "10547"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "256",
+            "272"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "602",
+            "639"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113090,
+        "id": "unscorched_blossom_branch",
+        "name": "Unscorched Blossom Branch",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101275,
+        "id": "frostfairy_flower",
+        "name": "Frostfairy Flower",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112147,
+        "id": "ethereal_crystal",
+        "name": "Ethereal Crystal",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11453",
+            "12068"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "295",
+            "311"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "694",
+            "732"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113090,
+        "id": "unscorched_blossom_branch",
+        "name": "Unscorched Blossom Branch",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101275,
+        "id": "frostfairy_flower",
+        "name": "Frostfairy Flower",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112148,
+        "id": "ethereal_crystalscale_stone",
+        "name": "Ethereal Crystalscale Stone",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12981",
+            "12981"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "335",
+            "335"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "787",
+            "787"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113090,
+        "id": "unscorched_blossom_branch",
+        "name": "Unscorched Blossom Branch",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101275,
+        "id": "frostfairy_flower",
+        "name": "Frostfairy Flower",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112148,
+        "id": "ethereal_crystalscale_stone",
+        "name": "Ethereal Crystalscale Stone",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104365,
+          "id": "teachings_of_charity",
+          "name": "Teachings of Charity",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112146,
+          "id": "ethereal_glimmershard",
+          "name": "Ethereal Glimmershard",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104366,
+          "id": "guide_to_charity",
+          "name": "Guide to Charity",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112147,
+          "id": "ethereal_crystal",
+          "name": "Ethereal Crystal",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104366,
+          "id": "guide_to_charity",
+          "name": "Guide to Charity",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112147,
+          "id": "ethereal_crystal",
+          "name": "Ethereal Crystal",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104366,
+          "id": "guide_to_charity",
+          "name": "Guide to Charity",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112147,
+          "id": "ethereal_crystal",
+          "name": "Ethereal Crystal",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104366,
+          "id": "guide_to_charity",
+          "name": "Guide to Charity",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112147,
+          "id": "ethereal_crystal",
+          "name": "Ethereal Crystal",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104367,
+          "id": "philosophies_of_charity",
+          "name": "Philosophies of Charity",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112148,
+          "id": "ethereal_crystalscale_stone",
+          "name": "Ethereal Crystalscale Stone",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113088,
+          "id": "twisted_withered_branch",
+          "name": "Twisted Withered Branch",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104367,
+          "id": "philosophies_of_charity",
+          "name": "Philosophies of Charity",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112148,
+          "id": "ethereal_crystalscale_stone",
+          "name": "Ethereal Crystalscale Stone",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113088,
+          "id": "twisted_withered_branch",
+          "name": "Twisted Withered Branch",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104367,
+          "id": "philosophies_of_charity",
+          "name": "Philosophies of Charity",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112148,
+          "id": "ethereal_crystalscale_stone",
+          "name": "Ethereal Crystalscale Stone",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113088,
+          "id": "twisted_withered_branch",
+          "name": "Twisted Withered Branch",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104367,
+          "id": "philosophies_of_charity",
+          "name": "Philosophies of Charity",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112148,
+          "id": "ethereal_crystalscale_stone",
+          "name": "Ethereal Crystalscale Stone",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113088,
+          "id": "twisted_withered_branch",
+          "name": "Twisted Withered Branch",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 215000,
+      "name": "Snow Swan's Dance",
+      "description": "Odette's outfit. A ballet outfit of exceptional make, inspired by the snow swans, that has served as the diligent ballerina's faithful companion across countless long nights. The gems that adorn it glisten with a quiet elegance beneath the stage lights, just like the shimmering dancer herself.",
+      "isDefault": true,
+      "characterName": "Odette",
+      "characterId": 10000150,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Odette_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "...Thanks for all the support. You want an autograph, right? What do you want me to draw next to it? How about a feather? Oh, wait, you're not one of my fans? Guess I misunderstood. Lemme start from the top, then. I'm Odette, a ballerina with the Korolevskiy Troupe... Well, thanks for all the support, anyway."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Busy",
+      "text": "Well, if that's all, I'm going to go rehearse."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Keep It Simple",
+      "text": "If a simple response will do, why waste your breath on anything longer?"
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Time",
+      "text": "If only there were double the hours in a day... Hmm. Actually, make that triple."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "The pitter-patter of the raindrops always makes me feel so serene. This kind of weather is perfect for dancing alone."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "The most beautiful, serene moments are always the most fleeting."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "The snow in Snezhnaya is always bitterly cold, and it never seems to end."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "My hair... I'll fix it later."
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "...At least there wouldn't be a meet-and-greet in a place like this."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "I'm warmed up and ready to go."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "I'm not one for naps. Noon isn't a suitable time for training either, so I usually spend it reading through the scripts for our dance dramas. Hm? What about these letters? They're from my fans. Vodyanitsa practically forced them into my hand. She wants me to read through them for once."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Oh, is it time for dinner? I have to go on stage soon, so I'll just have a hard-boiled egg. I'll grab something else once the show's over."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "...Missions complete, training quota met, new routine fully rehearsed. Not satisfied with my facial expressions, though. I need to practice some more in front of the mirror... Oh, is it that late already? Feel free to retire. I still have things to do."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Odette: The Rokot",
+      "text": "Since the implementation of Project Stuzha, the size of our audience has been dwindling. While most people are struggling to get by, corrupt leeches continue to prey on the public. I refuse to turn a blind eye. I know I can't turn the tide on my own, but I still want to do what I can."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Odette: Memory",
+      "text": "The memories of my past are forever etched into my mind. Like a film, they play on repeat in the dead of night... Suffice to say, having a perfect memory isn't always a good thing."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Trust",
+      "text": "Relying on others for protection is like leaning on a thin layer of fresh ice. I don't pin my hopes on anyone but myself."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Wounds",
+      "text": "My sense of pain is quite dull. I often don't even notice I'm injured until the wound has already started to scab over. But, I prefer it that way. Whether it's dance rehearsal or Fatui special training, it's better if a trivial thing like my physical condition doesn't get in the way."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Stellar Linchpin",
+      "text": "Once, during an intense training session, I developed frostbite in my feet and legs due to the extreme cold, and almost lost consciousness entirely. When I came to, the first thing I noticed was a bright light emanating from the Stellar Linchpin in front of me. But, I've never heard of Stellar Linchpins being able to awaken people like that. So if that didn't wake me up... then maybe it was some instinctual desire to survive...?"
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "I treat every rehearsal as seriously as an actual performance."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "You can bring out the sweetness of Rimecurrants by sprinkling them with a little table salt. Supposedly, the contrast helps amplify their inner sweetness. I heard that from a fan."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Rosalyne: The Past",
+      "text": "I'm indebted to Rosalyne, but there was also a time when I really hated her. She was exacting in her demands and incredibly strict. Freezing from the cold, collapsing from exhaustion, getting injured, falling sick... Those were all common occurrences when I trained under her. I used to harbor this naive dream that I just needed to make it as a ballerina, earn enough to support my mother, and then, one day, I would leave her and the Fatui in the dust..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Rosalyne: Cor Ignis",
+      "text": "After someone is gone, a lot of things are suddenly no longer worth saying. I could shatter this Cor Ignis in a heartbeat, yet that would make the pain and the misunderstandings it caused feel all the more ridiculous... Why is it only now, after all this time, that we finally understand each other?"
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About the Tsaritsa",
+      "text": "Her Majesty the Tsaritsa is Snezhnaya's pillar of faith. Her duties keep her quite occupied, so she rarely makes public appearances. In fact, I've only seen her on a handful of occasions, but she always strikes me as an incredibly regal and solemn figure. No matter where her gaze falls, it is as cold and unwavering as a sheet of ice, one that no amount of time could melt."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Lady Damselette",
+      "text": "She walks with an almost feather-light grace that would be the envy of any dancer. According to Vodyanitsa, she also has a hauntingly beautiful singing voice. Although, I suppose what we see and envy is the persona she projects on the surface. Who knows what untold pain lies underneath..."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Lady Arlecchino",
+      "text": "The children of the House of the Hearth think of her as their \"Father.\" Hopefully, that will spare them some of the bitter chill and raging storms that life brings. A father's role is to protect, after all."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Lady Marionette",
+      "text": "Lady Marionette's tea parties always used to put Rosalyne in a better mood. She was just as strict, but her tone was a bit softer. It was quite a noticeable difference."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Vodyanitsa: Smile",
+      "text": "The first time the Tsaritsa was coming to see one of the Korolevskiy Troupe's performances, Vodyanitsa was the one who told me. I replied with a simple nod of the head. She then proceeded to force a smile onto my face by pushing up both corners of my mouth, then made me repeat after her, \"What. Great. News.\"\\nPerhaps it was practice for appearing in front of the Tsaritsa, but I still don't think Her Majesty appreciates that kind of smile."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Vodyanitsa: Getting Sick",
+      "text": "Whenever Vodyanitsa gets sick, she always gets so clingy and practically latches herself to my side... She says it's because she's scared of getting a shot or having to take bitter medicine, so she needs something to hold onto, and I suppose my arm is her instrument of choice. I have a high pain tolerance, though, so there's no reason to shake her off."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Alyosha",
+      "text": "He could easily make a living on hunting alone if all he cared about was himself, but he still takes on odd jobs around the theater so he can help others who are suffering... I'm not surprised he joined the Rokot."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Mitya",
+      "text": "Hm... I suppose you could call him a \"fan\" of the theater. He comes to see me and Vodyanitsa perform often enough. But as soon as the show starts, he always buries his head in his notes, writing away about goodness knows what. It's hard to ignore, especially when the rest of the audience has their eyes glued to the stage. I wouldn't be surprised if there's more true appreciation for the arts in his scarf than his entire body."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Valeriy",
+      "text": "Major Valeriy is a Fatui officer who's very strict about keeping things on schedule. I've heard he commands with a level-headed disposition that can also come off as quite terrifying... But we belong to different divisions, so we rarely have a chance to interact. Besides... I don't need anyone to remind me what I should be doing."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Vesna",
+      "text": "Don't be thinking she's some dainty, harmless butterfly just because of those wings. People may flock to her, but she's the commander-in-chief of the Druzhna — one of the fiercest predators on the tundra. Keep your eyes wide open, and don't be fooled by her smile."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Odette: I",
+      "text": "You'll have to excuse me. My schedule for the day is quite packed, and I have rehearsal later, so if you want to chat, please keep it brief."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Odette: II",
+      "text": "My mother came from a family of ballet dancers, and my father served in the Fatui. They met after one of her performances and quickly fell in love. It's a sweet story that would bring a smile to anyone's face, I'm sure. When I was little, my days were spent dancing alongside my mother, clad in one of the many beautiful tutus my father would buy for me. I had no worries... except perhaps for which piece of candy to pick from the candy jar each day."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Odette: III",
+      "text": "Of course, before long, we received the tragic news that my father had died in the line of duty. My mother was devastated and ended up breaking her leg during a performance. Before this, life was sugary-sweet. But now, it felt like the candy jar was empty, and I was trapped inside."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Odette: IV",
+      "text": "After that, well... You know what happened. I've unpacked those memories so many times, they can no longer hurt me. Struggling against the hand that fate dealt me... It made me strong, and that strength is mine alone. I won't forget that."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Odette: V",
+      "text": "I wouldn't say any of this to my fans, so it's a good thing you're not one. I already have too many versions of myself to maintain, and I prefer for them not to bleed into each other... Of course, in my heart, I will forever keep dancing toward perfection."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Odette's Hobbies",
+      "text": "I've always loved ballet, and I do my utmost to give the best possible performance every time I'm on stage."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Odette's Troubles",
+      "text": "Honestly, I feel like small animals hate me. Vodyanitsa always makes me go with her to feed the stray cats around the theater, but as soon as I approach, they start sharpening their claws... Hm? That means they're excited to see me? Huh..."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Right before closing, the salads at the dining hall are half-price, so I used to eat that a lot. Obviously, salads that have been left out all day don't taste as good as fresh ones. But something about the familiarity of it is quite comforting to me."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "To be honest, I don't think there's any food I find particularly unpalatable. But, as a ballet dancer, I have to be strict about my diet, so all of my meals are carefully planned. I tend to avoid anything not included in that."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "I have had quite a few performances these last few days. Perhaps a little more couldn't... Ahem, never mind. It's delicious. Thank you."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "This is just one dish? It looks more like... a whole day's worth of food."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Uhm, no thank you. I'm watching what I eat."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy Birthday! I was trying to think of what to get you... I usually receive things like flowers, ballet shoes, and music boxes, but I doubt that's what you have in mind. How about you simply... make a wish, here and now? Ideally, something within my power to grant, of course..."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Hm, not quite there yet... I need to train even harder."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Mm, my movements feel sharper. I should keep up the intensity."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "My fouettés are now perfect. But now is no time to let up."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "\"Emotion is an indispensable part of ballet.\" I now understand what that means. Thank you for your faithful companionship and support. If you're interested in coming to my performance later today, here's a ticket."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Let's begin."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Shadow me."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Together."
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Pas de deux."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Pirouette."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Hehe."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Waltz of the snowflakes."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Crystalline adagio."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Witness the snow swan's grace."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "I don't need any of this. You keep it."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "A journey is a lot like dance practice — every step counts."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Hard work pays off."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Not concerned."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Nothing but a scratch."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Still good."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "You alright?"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Let's switch."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Should have... worked... harder..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "No. Gotta... stand... up..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "So this is... what pain feels like..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "...Hm?"
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: II",
+      "text": "Try harder."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "That's it?"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "That supposed to hurt?"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "At the ready."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Need me to take center stage?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Where to this time?"
+    }
+  ],
+  "effects": {
+    "11190007": {
+      "name": "Elevation",
+      "description": "Special DMG Boost effect. It is calculated independently of other DMG Boost effects.",
+      "color": ""
+    },
+    "11330003": {
+      "name": "Polestar Field",
+      "description": "When Stellar-Conduct is triggered, the surrounding area will transform into a <span style=\"color:#FFD780FF\">Polestar Field</span> for a short period of time, and when inside a Polestar Field, certain characters will enter the <span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> state, which grants various skill buffs.",
+      "color": ""
+    },
+    "11500001": {
+      "name": "Solo Dance Double",
+      "description": "A psychic double of Odette's that dances a duet with her. May be summoned to the field through her Elemental Skill or Elemental Burst.<br/>Alternates between the <span style=\"color:#FFD780FF\">Plume</span> and <span style=\"color:#FFD780FF\">Wing</span> dance moves to periodically attack nearby opponents, dealing <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>.<br/>A maximum of one <span style=\"color:#FFD780FF\">Solo Dance Double</span> summoned by Odette is allowed on the field at any one time.<br/><br/>Additionally, when there is a <span style=\"color:#FFD780FF\">Dance Double</span> summoned by Odette nearby, her Elemental Skill <span style=\"color:#FFD780FF\">Adagio: Phantom Night Dancers</span> is changed to the special Elemental Skill <span style=\"color:#FFD780FF\">Adagio: Coda at Dawn's Tolling</span>.",
+      "color": ""
+    },
+    "11500002": {
+      "name": "Adagio: Coda at Dawn's Tolling",
+      "description": "Odette's special Elemental Skill, which deals to nearby opponents <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> over time. Then, when the dance duet ends, she deals another instance of <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> that is considered Stellar-Conduct DMG. During the dance duet, Odette can control the direction of the dance steps.<br/><span style=\"color:#FFD780FF\">Radiance: Stellar Glimmer</span>: The DMG dealt when the dance duet ends is changed to <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> of the corresponding Stellar reaction type.<br/><br/>Additionally, after Odette unleashes the special Elemental Skill <span style=\"color:#FFD780FF\">Adagio: Coda at Dawn's Tolling</span>, should she be in the <span style=\"color:#FFD780FF\">Radiance: Stellar Glimmer</span> state while her <span style=\"color:#FFD780FF\">Dance Double</span> is still on the field, the <span style=\"color:#FFD780FF\">Dance Double</span>'s two dance moves types will also deal additional <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> of the corresponding Stellar Glimmer reaction type.",
+      "color": ""
+    },
+    "11500003": {
+      "name": "Marvelous Splendor",
+      "description": "After unlocking the Ascension Talent \"Spring Rite of the Chosen One,\" Odette will obtain a special effect when she summons her <span style=\"color:#FFD780FF\">Solo Dance Double</span>.<br/>Every stack of <span style=\"color:#FFD780FF\">Marvelous Splendor</span> active increases the character's Stellar Glimmer DMG by 15%. This lasts until her <span style=\"color:#FFD780FF\">Dance Double</span> exits the field or when she summons her <span style=\"color:#FFD780FF\">Solo Dance Double</span> again.<br/>When Odette is off-field, she loses 1 stack of <span style=\"color:#FFD780FF\">Marvelous Splendor</span> every 1 second, while other nearby party members gain the corresponding number of <span style=\"color:#FFD780FF\">Marvelous Splendor</span> stacks at the same time.",
+      "color": ""
+    },
+    "11500004": {
+      "name": "Radiance: Stellar Glimmer",
+      "description": "<span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> and <span style=\"color:#FFD780FF\">Radiance: Stellar Swirl</span> are both considered <span style=\"color:#FFD780FF\">Radiance: Stellar Glimmer</span> states.<br/>Characters can only be affected by one Radiance state at any one time, and where more than one state can be triggered, <span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> shall apply first.",
+      "color": ""
+    }
+  }
+}

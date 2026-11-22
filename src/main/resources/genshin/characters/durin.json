@@ -1,0 +1,1876 @@
+{
+  "_id": 10000123,
+  "id": "durin",
+  "name": "Durin",
+  "title": "\"The Undying Fire\"",
+  "description": "A dragon born from M's pen, who came to alight in the human world. His \"story\" continues to unfold.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1764626400,
+  "substat": "CRIT DMG",
+  "stats": {
+    "base": {
+      "hp": 967.6198,
+      "attack": 26.999,
+      "defense": 64.0181
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 829.6465,
+        "attack": 23.14751,
+        "defense": 54.891,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1419.1322,
+        "attack": 39.594425,
+        "defense": 93.8925,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2205.113,
+        "attack": 61.523643,
+        "defense": 145.8945,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2794.5986,
+        "attack": 77.97056,
+        "defense": 184.896,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3384.0842,
+        "attack": 94.41747,
+        "defense": 223.8975,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.288
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3973.57,
+        "attack": 110.86439,
+        "defense": 262.899,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.384
+        }
+      }
+    ]
+  },
+  "affiliation": "Hexenzirkel",
+  "region": {
+    "id": "mondstadt",
+    "name": "Mondstadt"
+  },
+  "rarity": 5,
+  "birthday": [
+    14,
+    3
+  ],
+  "constellation": "Draco Rubedo",
+  "domain": "Forsaken Rift",
+  "cv": {
+    "english": "Laurie Kynaston",
+    "chinese": "陶典",
+    "japanese": "小林千晃",
+    "korean": "Kim Ji-yul"
+  },
+  "skills": [
+    {
+      "_id": 11231,
+      "id": "radiant_wingslash",
+      "name": "Radiant Wingslash",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive sword strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to perform a slash toward the front.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "45.7%",
+            "49.4%",
+            "53.1%",
+            "58.4%",
+            "62.1%",
+            "66.4%",
+            "72.2%",
+            "78%",
+            "83.9%",
+            "90.2%",
+            "96.6%",
+            "103%",
+            "109.3%",
+            "115.7%",
+            "122.1%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "41%",
+            "44.3%",
+            "47.7%",
+            "52.4%",
+            "55.8%",
+            "59.6%",
+            "64.8%",
+            "70.1%",
+            "75.3%",
+            "81.1%",
+            "86.8%",
+            "92.5%",
+            "98.2%",
+            "103.9%",
+            "109.7%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "29.2% + 29.2%",
+            "31.5% + 31.5%",
+            "33.9% + 33.9%",
+            "37.3% + 37.3%",
+            "39.7% + 39.7%",
+            "42.4% + 42.4%",
+            "46.1% + 46.1%",
+            "49.8% + 49.8%",
+            "53.6% + 53.6%",
+            "57.6% + 57.6%",
+            "61.7% + 61.7%",
+            "65.8% + 65.8%",
+            "69.9% + 69.9%",
+            "73.9% + 73.9%",
+            "78% + 78%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "71.2%",
+            "76.9%",
+            "82.7%",
+            "91%",
+            "96.8%",
+            "103.4%",
+            "112.5%",
+            "121.6%",
+            "130.7%",
+            "140.6%",
+            "150.6%",
+            "160.5%",
+            "170.4%",
+            "180.4%",
+            "190.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "113.4%",
+            "122.7%",
+            "131.9%",
+            "145.1%",
+            "154.3%",
+            "164.9%",
+            "179.4%",
+            "193.9%",
+            "208.4%",
+            "224.2%",
+            "240.1%",
+            "255.9%",
+            "271.7%",
+            "287.5%",
+            "303.4%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11232,
+      "id": "binary_form_convergence_and_division",
+      "name": "Binary Form: Convergence and Division",
+      "description": "Purify the substance of souls and wishes to undergo <link kind=\"effect\" id=\"11230001\"><span style=\"color:#FFD780FF\">Essential Transmutation</span></link>. While transmuted, Durin's Elemental Skill <span style=\"color:#FFD780FF\">Binary Form: Convergence and Division</span> will be replaced with the special Elemental Skill <span style=\"color:#FFD780FF\">Transmutation: Confirmation of Purity</span>, and the Normal Attack <span style=\"color:#FFD780FF\">Radiant Wingslash</span> will be replaced with the special Elemental Skill <span style=\"color:#FFD780FF\">Transmutation: Denial of Darkness</span>.<br/><br/><span style=\"color:#FFD780FF\">Transmutation: Confirmation of Purity</span><br/>Deal 1 instance of <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> to nearby opponents, reverse Essential Transmutation, and enter the <span style=\"color:#FFD780FF\">Confirmation of Purity</span> state for 30s.<br/><br/><span style=\"color:#FFD780FF\">Transmutation: Denial of Darkness</span><br/>Deal 3 consecutive instances of <span style=\"color:#FF9999FF\">Pyro DMG</span> to opponents in front, reverse Essential Transmutation, and enter the <span style=\"color:#FFD780FF\">Denial of Darkness</span> state for 30s.<br/><br/>When Durin enters the <span style=\"color:#FFD780FF\">Confirmation of Purity</span> or <span style=\"color:#FFD780FF\">Denial of Darkness</span> state while in battle, he will restore a certain amount of Elemental Energy. Elemental Energy can be restored this way once every 6s.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Transmutation: Confirmation of Purity DMG",
+          "values": [
+            "105.6%",
+            "113.5%",
+            "121.4%",
+            "132%",
+            "139.9%",
+            "147.8%",
+            "158.4%",
+            "169%",
+            "179.5%",
+            "190.1%",
+            "200.6%",
+            "211.2%",
+            "224.4%",
+            "237.6%",
+            "250.8%"
+          ]
+        },
+        {
+          "label": "Transmutation: Denial of Darkness DMG",
+          "values": [
+            "72.2% + 53.2%+64.6%",
+            "77.7% + 57.2%+69.5%",
+            "83.1% + 61.2%+74.3%",
+            "90.3% + 66.5%+80.8%",
+            "95.7% + 70.5%+85.6%",
+            "101.1% + 74.5%+90.5%",
+            "108.4% + 79.8%+97%",
+            "115.6% + 85.1%+103.4%",
+            "122.8% + 90.4%+109.9%",
+            "130% + 95.8%+116.4%",
+            "137.3% + 101.1%+122.8%",
+            "144.5% + 106.4%+129.3%",
+            "153.5% + 113.1%+137.4%",
+            "162.5% + 119.7%+145.4%",
+            "171.6% + 126.4%+153.5%"
+          ]
+        },
+        {
+          "label": "Energy Regeneration",
+          "values": [
+            "6",
+            "9",
+            "12",
+            "15",
+            "18",
+            "21",
+            "24",
+            "27",
+            "30",
+            "33",
+            "36",
+            "39",
+            "42",
+            "45",
+            "48"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11235,
+      "id": "principle_of_purity_as_the_light_shifts",
+      "name": "Principle of Purity: As the Light Shifts",
+      "description": "Unleash the power of the \"Beast\" in different ways. Durin can use different Elemental Bursts based on his <link kind=\"effect\" id=\"11230001\"><span style=\"color:#FFD780FF\">Essential Transmutation</span></link> state.<br/><br/><span style=\"color:#FFD780FF\">Principle of Purity: As the Light Shifts</span><br/>When Durin is in the <span style=\"color:#FFD780FF\">Confirmation of Purity</span> state, he will use the Elemental Burst <span style=\"color:#FFD780FF\">Principle of Purity: As the Light Shifts</span>, dealing 3 instances of <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> to opponents in front, and manifesting his power in the <span style=\"color:#FFD780FF\">Dragon of White Flame</span> form. The Dragon of White Flame will follow the current active character and attack nearby opponents at intervals, dealing <span style=\"color:#FF9999FF\">AoE Pyro DMG</span>. This DMG is considered Elemental Burst DMG.<br/><br/><span style=\"color:#FFD780FF\">Principle of Darkness: As the Stars Smolder</span><br/>When Durin is in the <span style=\"color:#FFD780FF\">Denial of Darkness</span> state, he will use the Elemental Burst <span style=\"color:#FFD780FF\">Principle of Darkness: As the Stars Smolder</span>, dealing 3 instances of <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> to opponents in front, and manifesting his power in the <span style=\"color:#FFD780FF\">Dragon of Dark Decay</span> form. The Dragon of Dark Decay will follow the current active character and periodically attack a single nearby opponent, dealing <span style=\"color:#FF9999FF\">Pyro DMG</span>. This DMG is considered Elemental Burst DMG.<br/><br/>When Durin is not in a special state as a result of Essential Transmutation, he will use the Elemental Burst <span style=\"color:#FFD780FF\">Principle of Purity: As the Light Shifts</span>.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Principle of Purity: As the Light Shifts DMG",
+          "values": [
+            "119% + 96.4%+111.8%",
+            "127.9% + 103.6%+120.2%",
+            "136.8% + 110.9%+128.6%",
+            "148.7% + 120.5%+139.8%",
+            "157.6% + 127.7%+148.2%",
+            "166.5% + 135%+156.6%",
+            "178.4% + 144.6%+167.8%",
+            "190.3% + 154.2%+178.9%",
+            "202.2% + 163.9%+190.1%",
+            "214.1% + 173.5%+201.3%",
+            "226% + 183.2%+212.5%",
+            "237.9% + 192.8%+223.7%",
+            "252.8% + 204.9%+237.7%",
+            "267.7% + 216.9%+251.6%",
+            "282.5% + 228.9%+265.6%"
+          ]
+        },
+        {
+          "label": "Principle of Darkness: As the Stars Smolder DMG",
+          "values": [
+            "125.4% + 101.8%+111.8%",
+            "134.8% + 109.4%+120.2%",
+            "144.3% + 117%+128.6%",
+            "156.8% + 127.2%+139.8%",
+            "166.2% + 134.8%+148.2%",
+            "175.6% + 142.5%+156.6%",
+            "188.2% + 152.6%+167.8%",
+            "200.7% + 162.8%+178.9%",
+            "213.2% + 173%+190.1%",
+            "225.8% + 183.2%+201.3%",
+            "238.3% + 193.3%+212.5%",
+            "250.9% + 203.5%+223.7%",
+            "266.6% + 216.2%+237.7%",
+            "282.2% + 229%+251.6%",
+            "297.9% + 241.7%+265.6%"
+          ]
+        },
+        {
+          "label": "Dragon of White Flame DMG",
+          "values": [
+            "94.6%",
+            "101.7%",
+            "108.8%",
+            "118.3%",
+            "125.4%",
+            "132.5%",
+            "142%",
+            "151.4%",
+            "160.9%",
+            "170.4%",
+            "179.8%",
+            "189.3%",
+            "201.1%",
+            "212.9%",
+            "224.8%"
+          ]
+        },
+        {
+          "label": "Dragon of Dark Decay DMG",
+          "values": [
+            "129.8%",
+            "139.6%",
+            "149.3%",
+            "162.3%",
+            "172%",
+            "181.8%",
+            "194.8%",
+            "207.7%",
+            "220.7%",
+            "233.7%",
+            "246.7%",
+            "259.7%",
+            "275.9%",
+            "292.1%",
+            "308.4%"
+          ]
+        },
+        {
+          "label": "Dragon of White Flame Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Dragon of Dark Decay Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "light_manifest_of_the_divine_calculus",
+      "name": "Light Manifest of the Divine Calculus",
+      "description": "Durin will trigger different buffs depending on the form that his power manifests as when he unleashes his Elemental Burst. When that form is:<br/><br/><span style=\"color:#FFD780FF\">Dragon of White Flame</span><br/>After nearby party members trigger Burning, Overloaded, Pyro Swirl, or Pyro Crystallize reactions on an opponent, or deal <span style=\"color:#FF9999FF\">Pyro DMG</span> or <span style=\"color:#99FF88FF\">Dendro DMG</span> to an opponent affected by Burning, that opponent's <span style=\"color:#FF9999FF\">Pyro RES</span>, and the RES for the corresponding Element involved in the reaction, are decreased by 20% for 6s.<br/><br/><span style=\"color:#FFD780FF\">Dragon of Dark Decay</span><br/>Durin's Vaporize DMG is increased by 40% and his Melt DMG is increased by 40%.",
+      "level": 1
+    },
+    {
+      "id": "chaos_formed_like_the_night",
+      "name": "Chaos Formed Like the Night",
+      "description": "After unleashing an Elemental Burst, Durin gains the Primordial Fusion of Forms effect for 20s: Durin gains 10 stacks of Primordial Fusion. When a periodic attack from <span style=\"color:#FFD780FF\">Dragon of White Flame</span> or <span style=\"color:#FFD780FF\">Dragon of Dark Decay</span> deals DMG, 1 stack of Primordial Fusion will be consumed to increase the DMG dealt by 3% of the original DMG for every 100 ATK. A maximum of 75% additional DMG can be dealt this way. When a single attack from <span style=\"color:#FFD780FF\">Dragon of White Flame</span> or <span style=\"color:#FFD780FF\">Dragon of Dark Decay</span> hits multiple opponents, only one stack of Primordial Fusion is consumed.<br/>Primordial Fusion stacks are reset when the Elemental Burst is unleashed again.",
+      "level": 4
+    },
+    {
+      "id": "echoes_of_the_surging_earth",
+      "name": "Echoes of the Surging Earth",
+      "description": "Gains 25% more rewards when dispatched on a Mondstadt Expedition for 20 hours.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1231,
+      "id": "adamahs_redemption",
+      "name": "Adamah's Redemption",
+      "description": "After casting his Elemental Burst, Durin's effects will vary depending on the form of his Elemental Burst:<br/>· <span style=\"color:#FFD780FF\">Principle of Purity: As the Light Shifts</span>: All other nearby party members gain 20 stacks of <span style=\"color:#FFD780FF\">Cycle of Enlightenment</span> lasting 20s. When nearby active characters deal Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst DMG, 1 stack of Cycle of Enlightenment will be consumed to increase the DMG dealt by 60% of Durin's ATK. Stack counts for characters in the party who have Cycle of Enlightenment are managed individually.<br/>· <span style=\"color:#FFD780FF\">Principle of Darkness: As the Stars Smolder</span>: Durin gains 20 stacks of <span style=\"color:#FFD780FF\">Cycle of Enlightenment</span> lasting 20s. When Durin deals Elemental Burst DMG, 2 stacks of Cycle of Enlightenment will be consumed to increase the DMG dealt by 150% of Durin's ATK.<br/><br/>When an Elemental Burst is used, <span style=\"color:#FFD780FF\">Cycle of Enlightenment</span> stacks will be refreshed.",
+      "level": 1
+    },
+    {
+      "_id": 1232,
+      "id": "unground_visions",
+      "name": "Unground Visions",
+      "description": "For 20s after Durin uses an Elemental Burst, after nearby party members trigger Vaporize, Melt, Burning, Overloaded, Pyro Swirl, or Pyro Crystallize reactions, or deal <span style=\"color:#FF9999FF\">Pyro DMG</span> or <span style=\"color:#99FF88FF\">Dendro DMG</span> to an opponent affected by Burning, all nearby party members gain a 50% increase to their <span style=\"color:#FF9999FF\">Pyro DMG</span> and to the corresponding elemental DMG involved in the reaction for 6s.",
+      "level": 2
+    },
+    {
+      "_id": 1233,
+      "id": "flame_mirrors_revelation",
+      "name": "Flame Mirror's Revelation",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"principle_of_purity_as_the_light_shifts\">Principle of Purity: As the Light Shifts</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1234,
+      "id": "emanares_source",
+      "name": "Emanare's Source",
+      "description": "Durin's Elemental Burst DMG is increased by 40%. Additionally, when effects that consume <span style=\"color:#FFD780FF\">Cycle of Enlightenment</span> stacks are triggered as part of the Constellation <span style=\"color:#FFD780FF\"><link kind=\"constellation\" to=\"c1\">Adamah's Redemption</link></span>, there is a 30% chance that no Cycle of Enlightenment stacks will be consumed.",
+      "level": 4
+    },
+    {
+      "_id": 1235,
+      "id": "scouring_flames_sundering",
+      "name": "Scouring Flame's Sundering",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"binary_form_convergence_and_division\">Binary Form: Convergence and Division</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1236,
+      "id": "dual_birth",
+      "name": "Dual Birth",
+      "description": "Durin's Elemental Burst DMG ignores 30% of opponents' DEF.<br/>Additionally, Durin's Elemental Bursts <span style=\"color:#FFD780FF\">Principle of Purity: As the Light Shifts</span> and <span style=\"color:#FFD780FF\">Principle of Darkness: As the Stars Smolder</span> are each enhanced:<br/>· After <span style=\"color:#FFD780FF\">Principle of Purity: As the Light Shifts</span> and <span style=\"color:#FFD780FF\">Dragon of White Flame</span> hit an opponent, that opponent's DEF is decreased by 30% for 6s.<br/>· DMG from <span style=\"color:#FFD780FF\">Principle of Darkness: As the Stars Smolder</span> and <span style=\"color:#FFD780FF\">Dragon of Dark Decay</span> will ignore an additional 40% of opponents' DEF.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "968"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "27"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "64"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2510",
+            "3340"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "70",
+            "93"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "166",
+            "221"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4997",
+            "5587"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "139",
+            "156"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "331",
+            "370"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104111,
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101261,
+        "id": "frostlamp_flower",
+        "name": "Frostlamp Flower",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112125,
+        "id": "tattered_warrant",
+        "name": "Tattered Warrant",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6428",
+            "7214"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "179",
+            "201"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "425",
+            "477"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113080,
+        "id": "cyclic_military_kuuvahki_core",
+        "name": "Cyclic Military Kuuvahki Core",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101261,
+        "id": "frostlamp_flower",
+        "name": "Frostlamp Flower",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112125,
+        "id": "tattered_warrant",
+        "name": "Tattered Warrant",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8063",
+            "8653"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "225",
+            "241"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "533",
+            "572"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113080,
+        "id": "cyclic_military_kuuvahki_core",
+        "name": "Cyclic Military Kuuvahki Core",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101261,
+        "id": "frostlamp_flower",
+        "name": "Frostlamp Flower",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112126,
+        "id": "immaculate_warrant",
+        "name": "Immaculate Warrant",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9510",
+            "10099"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "265",
+            "282"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "629",
+            "668"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113080,
+        "id": "cyclic_military_kuuvahki_core",
+        "name": "Cyclic Military Kuuvahki Core",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101261,
+        "id": "frostlamp_flower",
+        "name": "Frostlamp Flower",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112126,
+        "id": "immaculate_warrant",
+        "name": "Immaculate Warrant",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10966",
+            "11556"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "306",
+            "322"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "726",
+            "765"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113080,
+        "id": "cyclic_military_kuuvahki_core",
+        "name": "Cyclic Military Kuuvahki Core",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101261,
+        "id": "frostlamp_flower",
+        "name": "Frostlamp Flower",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112127,
+        "id": "frostetched_warrant",
+        "name": "Frost-Etched Warrant",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12430",
+            "12430"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "347",
+            "347"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "822",
+            "822"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104114,
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113080,
+        "id": "cyclic_military_kuuvahki_core",
+        "name": "Cyclic Military Kuuvahki Core",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101261,
+        "id": "frostlamp_flower",
+        "name": "Frostlamp Flower",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112127,
+        "id": "frostetched_warrant",
+        "name": "Frost-Etched Warrant",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104307,
+          "id": "teachings_of_ballad",
+          "name": "Teachings of Ballad",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112125,
+          "id": "tattered_warrant",
+          "name": "Tattered Warrant",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104308,
+          "id": "guide_to_ballad",
+          "name": "Guide to Ballad",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104308,
+          "id": "guide_to_ballad",
+          "name": "Guide to Ballad",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104308,
+          "id": "guide_to_ballad",
+          "name": "Guide to Ballad",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104308,
+          "id": "guide_to_ballad",
+          "name": "Guide to Ballad",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104309,
+          "id": "philosophies_of_ballad",
+          "name": "Philosophies of Ballad",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113069,
+          "id": "eroded_sunfire",
+          "name": "Eroded Sunfire",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104309,
+          "id": "philosophies_of_ballad",
+          "name": "Philosophies of Ballad",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113069,
+          "id": "eroded_sunfire",
+          "name": "Eroded Sunfire",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104309,
+          "id": "philosophies_of_ballad",
+          "name": "Philosophies of Ballad",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113069,
+          "id": "eroded_sunfire",
+          "name": "Eroded Sunfire",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104309,
+          "id": "philosophies_of_ballad",
+          "name": "Philosophies of Ballad",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113069,
+          "id": "eroded_sunfire",
+          "name": "Eroded Sunfire",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 212301,
+      "name": "Toward the Distant Horizon",
+      "description": "Durin's outfit. Durin's original outfit has received a new lease of life now that he's taken up his mother's pen. Ultimately, he bid farewell to the past once painted by its previous owner. When the lock on his heart faded away, the distant horizon his wish now points to became the direction in which his story continues to unfold.",
+      "isDefault": false,
+      "characterName": "Durin",
+      "characterId": 10000123,
+      "source": [
+        "Obtained after completing the Story Quest \"The Magic Known as Storytelling\""
+      ],
+      "filename_card": "UI_AvatarIcon_DurinCostumeWic_Card",
+      "filename_icon": "UI_AvatarIcon_DurinCostumeWic",
+      "filename_iconCircle": "UI_AvatarIcon_DurinCostumeWic_Circle",
+      "filename_splash": "UI_Costume_DurinCostumeWic",
+      "filename_sideIcon": "UI_AvatarIcon_Side_DurinCostumeWic"
+    },
+    {
+      "id": 212300,
+      "name": "A Gift From the Stars",
+      "description": "Durin's outfit. As the smoke from the alchemical array gradually dissipated, a glimmer of starlight drew Durin's gaze toward the window. In the reflection in the glass, he saw himself dressed in elegant garb, like a prince straight out of a fairy tale. When he looked down at himself again, he realized he was wearing that very same outfit. But who could've given him this gift? The stars outside merely twinkled soundlessly, providing no answers.",
+      "isDefault": true,
+      "characterName": "Durin",
+      "characterId": 10000123,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Durin_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "It's been a long time. I'm Durin. Everyone used to call me Mini Durin, but as you can see, I'm not really \"mini\" anymore... Do you find my appearance strange? To tell you the truth, it's still a little strange to me... I have so much to learn — I hope you don't mind if I ask you for help."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Stories",
+      "text": "Each day is a new page in my story. I want to savor every scene, every footnote, before I turn to the next one."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Walking",
+      "text": "Can I stop here and play— I mean, take a stroll? I won't go too far."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Awkward",
+      "text": "I still have so much to learn about \"human interactions.\" Like, where should I put my hands when I'm nervous? I just... really want to make friends with everyone."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Oh dear, I'm feeling the urge to jump in a puddle..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "It's best not to fly too high in this weather..."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Did \"it\" once slumber in a place like this...?"
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "It's like a scene from a fairy tale — how pretty."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "Oh dear, I'm getting thirsty..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning. Please don't mind my head lolling — my neck's a bit stiff. Last night, a cat came and slept only a few meters away. Usually, I frighten small animals off. I didn't want to disturb it, so I tried not to move all night..."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "If brunch is a thing, does that mean there's such a thing as linner?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "I wonder if we'll see the stars tonight..."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "There's nothing more peaceful than curling up in your own tail for some good sleep."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Durin: Growing Up",
+      "text": "You... think I'm getting more mature? Well, I mean, I'm not a little kid anymore, so I have to start acting more grown-up. Besides... the last thing I want is to stay stuck in the past."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Durin: Losing Control",
+      "text": "I can feel this vast, almost frenzied power lurking deep inside me. Fortunately, Albedo's alchemy is flawless, and this Abyssal power within my form is kept in check — it's as though everything is in equilibrium, preventing the possibility of overflow or corruption. As such, there's no need to fear that I might lose control or hurt anyone."
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Durin: Selfish",
+      "text": "I know taking the name Durin for myself in this world invites criticism. Replacing Durin of Dragonspine means that I've stolen his right to resurrection. Admittedly, this is selfish, but at the time, I yearned to be \"human.\" I wished to be a real part of everyone's world, and to bring more good to it too... I didn't want to reject that opportunity. I don't regret the choice I made. Maybe it's like Albedo says — all life can be selfish...\\nEither way, I can't speak for the other Durin — I only wish to walk my own path, to do right, so that when the name \"Durin\" passes people's lips, it's accompanied by beautiful memories."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Clashing Horns",
+      "text": "Dragons clash horns as a way to express their friendship. But I'm scared I might use too much force. I don't want to hurt you, after all... Are you sure you're not worried? Alright! In the interests of safety, how about I stand still, and you bump your head on my horns?"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Blessing",
+      "text": "\"May you find friendship and goodwill, no matter where you go.\"\\nThis is the blessing that you, as a Traveler who had traversed many worlds, gave to me. I've never forgotten. Ever since that day, my story began to change... Thank you. I can feel how much I've transformed. Maybe— no, undoubtedly, I now have the strength to protect those I cherish. So, I want to repay your blessing with a promise: No matter when, no matter where, so long as you need me, I'll lend you my help.\\nUhm, so I'll definitely come as soon as I find out you're in danger. Alright, I'm done, that should just about cover everything..."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "One of the effects of the Abyss is that it can increase the power of living things. My current form serves as ample roof of this phenomenon. Though I can't fully control its power, my unique constitution seems to give me have the potential to use the Abyss in service of good. Controlling it is hard and requires immense concentration — otherwise, any missteps I take could hurt those I hold dear. To avoid this, I must continue to learn and practice...\\nI believe this Vision serves as recognition of my efforts."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Dvalin flies so fast... Is it because his wings are bigger than mine? Sometimes I think, if I still had my dragon form — the toy block one from Simulanka, I mean — I could give him a run for his money."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "My first friend was an origami flying squirrel. At first, it was the only thing that wanted to play with me. It had two pointy ears and a big paper tail, and it looked a little like the squirrels in Teyvat. I used to pick flowers for it from high places... I miss that squirrel a lot.\\nYou want to pick pinecones for the squirrels together? Of course, I'd love to!"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Mother",
+      "text": "Ever since taking up Mother's pen, I've diligently committed each day's stories to paper. Klee taught me how to fish, which ended with us locked in solitary confinement. Albedo had me help him boil water, which almost ended in the kettle turning to ash. A little boy outside the city gate showed me how to feed the pigeons, and one of them decided to perch on my horns. I'll continue to fill the pages of my book, and maybe, when I'm turning the pages one day, I'll hear a familiar voice quietly narrating, \"This is a wonderful story indeed.\""
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Alice",
+      "text": "Aunt Alice asked me to spend more time with Klee. She said she'd reward me by giving me anything I wanted. But only children want rewards, and I'm clearly all grown up... I like playing with Klee because I'm happy when we spend time together — it's as simple as that. When I told Aunt Alice that, though, she was overjoyed, and said she'd pick out a \"giant toy\" just for me..."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Albedo: Family",
+      "text": "Albedo has shared so many of his experiences with me regarding becoming truly human. He's explained many of the problems that humans face — things like work, ideals, life... Some of these things are too difficult for me to understand — some are too difficult for me even to imagine.\\nAlbedo says I can slowly learn about these problems as I experience them, before making my own choices. Family is the only thing that a human can't choose. I know my family is complicated and highly unusual, but with Albedo as my brother, I'm filled with a sense of peace and belonging. In that sense, my family is no different from most."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Albedo: Sense",
+      "text": "Albedo is the perfect \"human.\" He knows so much and is always able to handle everything he faces. He's sincere and friendly to those around him. But sometimes, I feel like there's another side to him, one no one would expect. Like how he takes decisive measures to achieve his aims... I don't know where this uncanny intuition comes from — perhaps it's a sort of resonance between beings who share a \"species\"?"
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About the Wanderer: Friends",
+      "text": "Shortly after leaving Simulanka, I followed Hat Guy to Sumeru. The Akademiya was so big and so beautiful — and there were so many books. It's only now that I'm learning to read and write that I suddenly understand how stressful it must be studying there.\\nNot that there weren't times when people had time off and came to Hat Guy to play cards, chat, or even share delicious food. Like the one with the large ears, or the one with the hat that had even larger ears, or the one who looked like a small wolfhound... I've asked Hat Guy if they're his friends. He always complains about how noisy they are, but he's never denied their friendship."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About the Wanderer: Resolution",
+      "text": "We share some similarities, he and I — he always seems to know what I'm thinking, and then guides me as someone who's \"already seen it all.\" Whenever I tell people, \"Don't get too close,\" I really want them to resolutely refuse... That's what Hat Guy does. So even when he says he wants to be alone, even if he deliberately tries to discourage me, I always stick by his side."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Nilou",
+      "text": "When I was in Sumeru, I took the time to visit Fairy Nilou— Sorry, force of habit — I should call her Miss Nilou in this world. I watched her dancing at the Grand Bazaar, and she was as beautiful as a fairy."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Navia",
+      "text": "If I get the chance, I'd like to thank the King of Constellation Metropole— Uhm, I mean to say, Miss Navia. I wonder if she'll be shocked to see what I look like now? ... You don't think she'll mind? That's great news!"
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Kirara",
+      "text": "If all the kitties in The Cat's Tail were like Kirara, I don't think they'd get so nervous when they see me..."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Venti",
+      "text": "\"The young bard gently plucked his strings, a voice as clear as a mountain stream. It was no battle hymn nor prayer, but the murmuring of stars, the wind blowing through the trees. The dragon's eyelids faintly twitched, flames gently crackling in its throat.\"\\nOne night, when I couldn't sleep, I took a stroll in the wilds. I met Lord Barbatos doing likewise. He sang this song for me, and I liked it so much, I made sure to learn it..."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Lisa",
+      "text": "After Miss Lisa sets homework for me, she makes me sit at my desk to complete it. One time, when I was exhausted, I stood my book up on my desk so it blocked her view and tried to nap in secret. When I woke up, she was standing there smiling. It scared me stiff. But before I could finish apologizing, she praised me for learning the most valuable lesson... I think she was talking about my willingness to acknowledge my mistakes.\\nOh, so you don't think that's what she meant?"
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Klee",
+      "text": "Albedo once told me he treats Klee like a little sister. Klee likes to call me Big Brother Durin, too. I guess I am technically her big brother, though I haven't been human for very long — if we're talking about human age, is she really my *little* sister? Hmm..."
+    },
+    {
+      "id": "4013",
+      "type": 1,
+      "title": "About Fischl",
+      "text": "I can't help but wonder... Back in Simulanka, I felt like she was different from the others. Is she the same as me — did she come out of a book, too?"
+    },
+    {
+      "id": "4014",
+      "type": 1,
+      "title": "About Diona",
+      "text": "In fairy tales, anyone who can mix potions that befuddle the heart and mind and command the obedience of cats is almost certainly a powerful witch."
+    },
+    {
+      "id": "4015",
+      "type": 1,
+      "title": "About Varka",
+      "text": "Grand Master Varka is different from most of Mondstadt's knights. He's powerful but not imposing — he leaves people feeling calm and safe. He's the sort of knight who can crack a joke while fighting off the Wild Hunt — although most of his jokes go way over my horns... You want to know about ones I did understand? Well, I didn't hear them clearly either, probably because he often slurs his words after drinking..."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Durin: I",
+      "text": "Before I came here, I spent most of my time living inside Mother's stories. I never hugged her or felt the warmth of her embrace, but her gentle voice guided me through so many moments — both happy and sad. If you ever want to hear her stories, I'd be more than glad to read them to you."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Durin: II",
+      "text": "I've heard it's polite to look people in the eye when talking to them. But I've also heard it's rude to stare. I thought to try blinking often while talking, or to keep one eye closed at a time, but everyone kept telling me to see Miss Barbara and have my eyes checked...\\nIt seems the rules for socializing in this world really are some of the hardest to follow..."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Durin: III",
+      "text": "For a while, I could hear this strange voice inside my heart that made me question whether I was truly me... There's dragon blood flowing through my veins — will humans fear me because of it? One time, I dreamed that all the toy figures in Constellation Metropole were throwing stones at me. When I woke up, I was surrounded by a shower of confetti — my friends in Mondstadt had decided to throw me a surprise birthday party... That was when I realized the strange voice in my heart wasn't draconic influence, but my own insecurity and self-doubt...\\nI'll never forget it — the light from the candles on my cake illuminating my smiling friends... That was the moment I emerged from the fog of uncertainty."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Durin: IV",
+      "text": "Before we left for Nod-Krai, Master Jean and Albedo warned me that we were embarking on a journey of great danger — that whatever we ended up facing may be far more serious than I could imagine. They respected my choice — they just wanted me to consider things fully before joining them. But when I heard you were in danger, I requested that they let me join them immediately.\\nOnly after seeing the Wild Hunt up close did I understand what danger really is. The scene was far more terrifying than my mental images of the ground giving way underfoot, the Toytanium Mines collapsing in on themselves..\\nNo, I don't regret my decision. But I was scared... I was worried I would be unable to help. It left me on edge — I'm sure you noticed. Luckily, everything turned out well, and now I can feel comfortable accepting everyone's praise."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Durin: V",
+      "text": "I feel like humans are pieced together from bits of other people... Not in an alchemical sense, more like... More like how I remember things that my friends have said, or how I like the restaurants we eat at together, or how you inspired me to travel the world... The reason I am who I am today is that I've absorbed all these influences from other people.\\nAnd now I want to become a piece of other people's hearts, too."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Durin's Hobbies",
+      "text": "Right now, everything in Mondstadt is new to me, and I want to explore it all. W—Wine? N—No, I can't drink wine... At least, not yet."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Durin's Troubles",
+      "text": "The animals in Teyvat aren't made of folded paper, and I don't have sharp claws anymore... I thought maybe I'd be able to pet them now, but whenever I try, they just run away scared... *sigh*"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I love eating meat — big chunks of it. But at the moment, it takes me a long time to finish. Using a knife and fork is a little complicated for me — I can never remember which one does the cutting..."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Excuse me, could I have a smaller portion of vegetables on mine? Or perhaps no vegetables at all?"
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "What type of cutlery should I use for this? Can I just use my hands?"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Thank you. Societal expectations demand reciprocity, so let me treat you to a drink."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "I'm sorry, my taste buds appear to be faulty... Let me try again... Oh dear, there really is a problem with them!"
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "It feels like your birthday's come around so fast! I'm sorry, I keep thinking of new details to add, so I still haven't finished...\\nThis is an origami boat I've been making for you — the paper animals on board are our friends. And this person standing at the bow, who I haven't had time to color in yet, is you. In my mind, you helm the ship, radiating golden light... Do you want to help me paint you gold?\\nOh, I almost forgot — this boat is called \"The Traveler.\" May you continue to sail forward alongside your friends! Happy birthday!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "A legend told of an evil dragon who hoarded glittering gems behind the high windows of a castle."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "A wandering hero ascended the ramparts, only to find the dragon — its scales covered in stardust — pushing the fragments of fallen stars with its snout, as though helping lost star-spirits back on their paths."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "The hero threw down his sword and spoke with open palms — \"I come from beyond the stars, please permit me to help.\""
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "From that day forth, the high windows shone through the night, as the dragon led the hero to patrol the cosmic shore. Starlight was their cloak, and friendship the compass that led their way."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Stay back!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Watch out!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Leave it to me!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Get back!"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Sunder!"
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Devouring claw!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "The story has only just begun."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Decay... New life."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "A turning point in fate."
+    },
+    {
+      "id": "200004",
+      "type": 2,
+      "title": "Elemental Burst: IV",
+      "text": "Stay away from me!"
+    },
+    {
+      "id": "200005",
+      "type": 2,
+      "title": "Elemental Burst: V",
+      "text": "The Abyss's burning shadow."
+    },
+    {
+      "id": "200006",
+      "type": 2,
+      "title": "Elemental Burst: VI",
+      "text": "A lament for the end."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "What suspense... It's like opening a gift..."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "How do you use these?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "I've never seen this before... Interesting."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "I can go on."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "My strength is far from spent."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "No... not yet!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "It's my turn to protect you."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Trust me."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Does this make... a good ending?"
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "I'm sorry..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Will I become a star... in the sky...?"
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Stay your hand."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: II",
+      "text": "No."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Absurd!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Stop that!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Hello everyone, I'm Durin."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "I'll be right behind you."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Increasing our combat strength? I'll do my best."
+    }
+  ],
+  "effects": {
+    "11230001": {
+      "name": "Essential Transmutation",
+      "description": "After unleashing the Elemental Skill <span style=\"color:#FFD780FF\">Binary Form: Convergence and Division</span>, Durin gains this effect for 6s.<br/>While the effect is active, press the Elemental Skill button to enter the <span style=\"color:#FFD780FF\">Confirmation of Purity</span> state, or press the Normal Attack button to enter the <span style=\"color:#FFD780FF\">Denial of Darkness</span> state.<br/>Durin will gain different buffs and can unleash different Elemental Bursts while in these states.",
+      "color": ""
+    }
+  }
+}

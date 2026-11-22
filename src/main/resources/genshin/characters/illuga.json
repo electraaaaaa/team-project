@@ -1,0 +1,1774 @@
+{
+  "_id": 10000127,
+  "id": "illuga",
+  "name": "Illuga",
+  "title": "Nightmare's Burning Heart",
+  "description": "Member of the investigation squad, the Nightmare Orioles. The youngest squad leader among the Lightkeepers.",
+  "weapon_type": {
+    "id": "polearm",
+    "name": "Polearm"
+  },
+  "element": {
+    "id": "geo",
+    "name": "Geo"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1770134400,
+  "substat": "Elemental Mastery",
+  "stats": {
+    "base": {
+      "hp": 1002.9701,
+      "attack": 16.0272,
+      "defense": 68.2122
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 749.27,
+        "attack": 11.97342,
+        "defense": 50.958,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1281.6461,
+        "attack": 20.48085,
+        "defense": 87.165,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 24
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1991.4808,
+        "attack": 31.82409,
+        "defense": 135.441,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 48
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2523.857,
+        "attack": 40.33152,
+        "defense": 171.648,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 48
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3056.233,
+        "attack": 48.83895,
+        "defense": 207.855,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 72
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3588.6091,
+        "attack": 57.34638,
+        "defense": 244.062,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 96
+        }
+      }
+    ]
+  },
+  "affiliation": "Lightkeepers",
+  "region": {
+    "id": "nodkrai",
+    "name": "Nod-Krai"
+  },
+  "rarity": 4,
+  "birthday": [
+    23,
+    12
+  ],
+  "constellation": "Oriolus",
+  "domain": "Domain of Mastery: Shadowed Legacy",
+  "cv": {
+    "english": "Jonathon Ha",
+    "chinese": "昱头",
+    "japanese": "梅田修一朗",
+    "korean": "Hwang Dong-hyun"
+  },
+  "skills": [
+    {
+      "_id": 11271,
+      "id": "oathkeepers_spear",
+      "name": "Oathkeeper's Spear",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive spear strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "47.4%",
+            "51.2%",
+            "55.1%",
+            "60.6%",
+            "64.4%",
+            "68.8%",
+            "74.9%",
+            "81%",
+            "87%",
+            "93.6%",
+            "100.2%",
+            "106.8%",
+            "113.5%",
+            "120.1%",
+            "126.7%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "48.5%",
+            "52.5%",
+            "56.4%",
+            "62.1%",
+            "66%",
+            "70.5%",
+            "76.7%",
+            "82.9%",
+            "89.2%",
+            "95.9%",
+            "102.7%",
+            "109.5%",
+            "116.2%",
+            "123%",
+            "129.8%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "31.4% + 31.4%",
+            "34% + 34%",
+            "36.5% + 36.5%",
+            "40.2% + 40.2%",
+            "42.8% + 42.8%",
+            "45.7% + 45.7%",
+            "49.7% + 49.7%",
+            "53.7% + 53.7%",
+            "57.7% + 57.7%",
+            "62.1% + 62.1%",
+            "66.5% + 66.5%",
+            "70.9% + 70.9%",
+            "75.3% + 75.3%",
+            "79.7% + 79.7%",
+            "84.1% + 84.1%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "76.3%",
+            "82.5%",
+            "88.7%",
+            "97.6%",
+            "103.8%",
+            "110.9%",
+            "120.6%",
+            "130.4%",
+            "140.1%",
+            "150.8%",
+            "161.4%",
+            "172.1%",
+            "182.7%",
+            "193.4%",
+            "204%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "111%",
+            "120.1%",
+            "129.1%",
+            "142%",
+            "151%",
+            "161.4%",
+            "175.6%",
+            "189.8%",
+            "204%",
+            "219.5%",
+            "235%",
+            "250.5%",
+            "265.9%",
+            "281.4%",
+            "296.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11272,
+      "id": "dawnbearing_songbird",
+      "name": "Dawnbearing Songbird",
+      "description": "Summons the trusty messenger bird, \"Aedon.\" Different effects are produced depending on whether the skill is Tapped or Held.<br/><br/><span style=\"color:#FFD780FF\">Tap</span><br/>Aedon dashes towards enemies in front, dealing <span style=\"color:#FFE699FF\">Geo DMG</span> to enemies it comes into contact with.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Enter aiming mode, and command Aedon to dash towards opponents being aimed at, dealing <span style=\"color:#FFE699FF\">Geo DMG</span> to opponents it comes into contact with.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Press DMG",
+          "values": [
+            "482.6% Elemental Mastery + 241.3% DEF",
+            "518.8% Elemental Mastery + 259.4% DEF",
+            "554.9% Elemental Mastery + 277.5% DEF",
+            "603.2% Elemental Mastery + 301.6% DEF",
+            "639.4% Elemental Mastery + 319.7% DEF",
+            "675.6% Elemental Mastery + 337.8% DEF",
+            "723.8% Elemental Mastery + 361.9% DEF",
+            "772.1% Elemental Mastery + 386% DEF",
+            "820.4% Elemental Mastery + 410.2% DEF",
+            "868.6% Elemental Mastery + 434.3% DEF",
+            "916.9% Elemental Mastery + 458.4% DEF",
+            "965.1% Elemental Mastery + 482.6% DEF",
+            "1025.4% Elemental Mastery + 512.7% DEF",
+            "1085.8% Elemental Mastery + 542.9% DEF",
+            "1146.1% Elemental Mastery + 573% DEF"
+          ]
+        },
+        {
+          "label": "Hold DMG",
+          "values": [
+            "603.2% Elemental Mastery + 301.6% DEF",
+            "648.4% Elemental Mastery + 324.2% DEF",
+            "693.7% Elemental Mastery + 346.8% DEF",
+            "754% Elemental Mastery + 377% DEF",
+            "799.2% Elemental Mastery + 399.6% DEF",
+            "844.5% Elemental Mastery + 422.2% DEF",
+            "904.8% Elemental Mastery + 452.4% DEF",
+            "965.1% Elemental Mastery + 482.6% DEF",
+            "1025.4% Elemental Mastery + 512.7% DEF",
+            "1085.8% Elemental Mastery + 542.9% DEF",
+            "1146.1% Elemental Mastery + 573% DEF",
+            "1206.4% Elemental Mastery + 603.2% DEF",
+            "1281.8% Elemental Mastery + 640.9% DEF",
+            "1357.2% Elemental Mastery + 678.6% DEF",
+            "1432.6% Elemental Mastery + 716.3% DEF"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11275,
+      "id": "shadowless_reflection",
+      "name": "Shadowless Reflection",
+      "description": "Light the lamp, dealing <span style=\"color:#FFE699FF\">AoE Geo DMG</span>, and gain Haunted Night's Oriole-Song effect for 20s. When this effect is active, Illuga gains 21 stacks of <link kind=\"effect\" id=\"11270001\"><span style=\"color:#FFD780FF\">Nightingale's Song</span></link>. When Normal Attacks, Charged Attacks, Plunging Attacks, Elemental Skills, and Elemental Bursts of nearby active party members deal <span style=\"color:#FFE699FF\">Geo DMG</span> to opponents, 1 stack of Nightingale's Song is consumed to increase the DMG dealt. Increase in DMG is based on Illuga's Elemental Mastery. If DMG is inflicted by Lunar-Crystallize, DMG dealt will increase further.<br/>When <span style=\"color:#FFE699FF\">Geo DMG</span> dealt in this manner hits multiple opponents, multiple stacks of Nightingale's Song will be consumed, depending on how many opponents are hit.<br/><br/>Additionally, if there are <span style=\"color:#FFE699FF\">Geo Constructs</span> created by nearby party members on the battlefield while Illuga unleashes his Elemental Burst, or when nearby party members create <span style=\"color:#FFE699FF\">Geo Constructs</span> while Haunted Night's Oriole-Song is active, every <span style=\"color:#FFE699FF\">Geo Construct</span> on the battlefield will allow Illuga to gain 5 additional stacks of Nightingale's Song. Within 20s after unleashing his Elemental Burst, Illuga can gain a maximum of 15 additional stacks of Nightingale's Song this way.<br/><br/>When all stacks of Nightingale's Song have been consumed, or when the state's duration ends, the Haunted Night's Oriole-Song effect will end.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "827.2% Elemental Mastery + 413.6% DEF",
+            "889.2% Elemental Mastery + 444.6% DEF",
+            "951.3% Elemental Mastery + 475.6% DEF",
+            "1034% Elemental Mastery + 517% DEF",
+            "1096% Elemental Mastery + 548% DEF",
+            "1158.1% Elemental Mastery + 579% DEF",
+            "1240.8% Elemental Mastery + 620.4% DEF",
+            "1323.5% Elemental Mastery + 661.8% DEF",
+            "1406.2% Elemental Mastery + 703.1% DEF",
+            "1489% Elemental Mastery + 744.5% DEF",
+            "1571.7% Elemental Mastery + 785.8% DEF",
+            "1654.4% Elemental Mastery + 827.2% DEF",
+            "1757.8% Elemental Mastery + 878.9% DEF",
+            "1861.2% Elemental Mastery + 930.6% DEF",
+            "1964.6% Elemental Mastery + 982.3% DEF"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "33.6% Elemental Mastery",
+            "36.1% Elemental Mastery",
+            "38.6% Elemental Mastery",
+            "42% Elemental Mastery",
+            "44.5% Elemental Mastery",
+            "47% Elemental Mastery",
+            "50.4% Elemental Mastery",
+            "53.8% Elemental Mastery",
+            "57.1% Elemental Mastery",
+            "60.5% Elemental Mastery",
+            "63.8% Elemental Mastery",
+            "67.2% Elemental Mastery",
+            "71.4% Elemental Mastery",
+            "75.6% Elemental Mastery",
+            "79.8% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Lunar-Crystallize Reaction DMG Bonus",
+          "values": [
+            "225.9% Elemental Mastery",
+            "242.9% Elemental Mastery",
+            "259.8% Elemental Mastery",
+            "282.4% Elemental Mastery",
+            "299.3% Elemental Mastery",
+            "316.3% Elemental Mastery",
+            "338.9% Elemental Mastery",
+            "361.5% Elemental Mastery",
+            "384.1% Elemental Mastery",
+            "406.7% Elemental Mastery",
+            "429.2% Elemental Mastery",
+            "451.8% Elemental Mastery",
+            "480.1% Elemental Mastery",
+            "508.3% Elemental Mastery",
+            "536.6% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Nightingale's Song Stacks Gained from Elemental Burst",
+          "values": [
+            "21",
+            "21",
+            "21",
+            "21",
+            "21",
+            "21",
+            "21",
+            "21",
+            "21",
+            "21",
+            "21",
+            "21",
+            "21",
+            "21",
+            "21"
+          ]
+        },
+        {
+          "label": "Nightingale's Song Stacks Gained from Geo Constructs",
+          "values": [
+            " 5 Per Geo Construct",
+            " 5 Per Geo Construct",
+            " 5 Per Geo Construct",
+            " 5 Per Geo Construct",
+            " 5 Per Geo Construct",
+            " 5 Per Geo Construct",
+            " 5 Per Geo Construct",
+            " 5 Per Geo Construct",
+            " 5 Per Geo Construct",
+            " 5 Per Geo Construct",
+            " 5 Per Geo Construct",
+            " 5 Per Geo Construct",
+            " 5 Per Geo Construct",
+            " 5 Per Geo Construct",
+            " 5 Per Geo Construct"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "torchforgers_covenant",
+      "name": "Torchforger's Covenant",
+      "description": "After unleashing Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"dawnbearing_songbird\">Dawnbearing Songbird</link></span> or Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"shadowless_reflection\">Shadowless Reflection</link></span>, other nearby party members will gain the Lightkeeper's Oath effect for 20s: For <span style=\"color:#FFE699FF\">Geo DMG</span> dealt to opponents, CRIT Rate increases by 5% and CRIT DMG increases by 10%.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span> <br/>Party members affected by the Lightkeeper's Oath effect have their Elemental Mastery increased by 50.",
+      "level": 1
+    },
+    {
+      "id": "demonhunters_dusk",
+      "name": "Demonhunter's Dusk",
+      "description": "<link kind=\"effect\" id=\"11270001\"><span style=\"color:#FFD780FF\">Nightingale's Song</span></link>'s effects are enhanced: When there are 1/2/3 <span style=\"color:#80C0FFFF\">Hydro</span> or <span style=\"color:#FFE699FF\">Geo</span> characters in the party, Nightingale's Song will further increase DMG. Increase in DMG is equal to 7%/14%/24% of Illuga's Elemental Mastery. If this aforementioned DMG is inflicted by a Lunar-Crystallize reaction, increase in DMG is equal to 48%/96%/160% of Illuga's Elemental Mastery.",
+      "level": 4
+    },
+    {
+      "id": "moonsign_benediction_unwithering_in_winter",
+      "name": "Moonsign Benediction: Unwithering in Winter",
+      "description": "When Illuga is in the party, the party's <span style=\"color:#FFD780FF\">Moonsign</span> will increase by 1 level.",
+      "level": 0
+    },
+    {
+      "id": "night_wardens_stride",
+      "name": "Night Warden's Stride",
+      "description": "At night (18:00 – 06:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.<br/>Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.<br/>Additionally, Illuga appears to be able to decipher the whispers of the Wild Hunt...",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1271,
+      "id": "vigilant_sentinel",
+      "name": "Vigilant Sentinel",
+      "description": "After Illuga triggers a <span style=\"color:#FFE699FF\">Geo-related Reaction</span> on the field, he will regain 12 Elemental Energy. This effect can be triggered at most once every 15s.",
+      "level": 1
+    },
+    {
+      "_id": 1272,
+      "id": "elk_with_fanged_antlers",
+      "name": "Elk With Fanged Antlers",
+      "description": "When Elemental Burst <link kind=\"skill\" to=\"shadowless_reflection\"><span style=\"color:#FFD780FF\">Shadowless Reflection</span></link>'s Haunted Night's Oriole-Song effect is active, for every 7 stacks of <link kind=\"effect\" id=\"11270001\"><span style=\"color:#FFD780FF\">Nightingale's Song</span></link> consumed, Illuga will summon Aedon, dealing a single instance of <span style=\"color:#FFE699FF\">Geo DMG</span> to 1 nearby opponent. The DMG dealt is based on 400% of Illuga's Elemental Mastery and 200% of his DEF. This DMG is considered Elemental Burst DMG.",
+      "level": 2
+    },
+    {
+      "_id": 1273,
+      "id": "earthshaking_maw",
+      "name": "Earthshaking Maw",
+      "description": "Increases the Level of Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"shadowless_reflection\">Shadowless Reflection</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1274,
+      "id": "solarhunting_wolf",
+      "name": "Solarhunting Wolf",
+      "description": "When Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"shadowless_reflection\">Shadowless Reflection</link></span>'s Haunted Night's Oriole-Song effect is active, nearby active party members will have their DEF increased by 200.",
+      "level": 4
+    },
+    {
+      "_id": 1275,
+      "id": "hurricane_steed",
+      "name": "Hurricane Steed",
+      "description": "Increases the Level of Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"dawnbearing_songbird\">Dawnbearing Songbird</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1276,
+      "id": "nightmare_orioles",
+      "name": "Nightmare Orioles",
+      "description": "Enhances the Lightkeeper's Oath effect of the Ascension Talent <span style=\"color:#FFD780FF\"><link kind=\"passive\" to=\"torchforgers_covenant\">Torchforger's Covenant</link></span>: For <span style=\"color:#FFE699FF\">Geo DMG</span> dealt to opponents, CRIT Rate is increased by 10%, CRIT DMG is increased by 30%.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam:</span><br/>When characters are affected by Lightkeeper's Oath, Elemental Mastery is increased by 80.<br/>You must first unlock the Ascension Talent \"<span style=\"color:#FFD780FF\">Torchforger's Covenant</span>.\"",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1003"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "16"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "68"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "-",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2577",
+            "3326"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "41",
+            "53"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "175",
+            "226"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4982",
+            "5514"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "80",
+            "88"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "339",
+            "375"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "0",
+            "24"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104171,
+        "id": "prithiva_topaz_sliver",
+        "name": "Prithiva Topaz Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101269,
+        "id": "pine_amber",
+        "name": "Pine Amber",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112122,
+        "id": "broken_drive_shaft",
+        "name": "Broken Drive Shaft",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6343",
+            "7052"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "101",
+            "113"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "431",
+            "480"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "24",
+            "48"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113080,
+        "id": "cyclic_military_kuuvahki_core",
+        "name": "Cyclic Military Kuuvahki Core",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101269,
+        "id": "pine_amber",
+        "name": "Pine Amber",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112122,
+        "id": "broken_drive_shaft",
+        "name": "Broken Drive Shaft",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7881",
+            "8413"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "126",
+            "134"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "536",
+            "572"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "48",
+            "48"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113080,
+        "id": "cyclic_military_kuuvahki_core",
+        "name": "Cyclic Military Kuuvahki Core",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101269,
+        "id": "pine_amber",
+        "name": "Pine Amber",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112123,
+        "id": "reinforced_drive_shaft",
+        "name": "Reinforced Drive Shaft",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9241",
+            "9773"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "148",
+            "156"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "628",
+            "665"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "48",
+            "72"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113080,
+        "id": "cyclic_military_kuuvahki_core",
+        "name": "Cyclic Military Kuuvahki Core",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101269,
+        "id": "pine_amber",
+        "name": "Pine Amber",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112123,
+        "id": "reinforced_drive_shaft",
+        "name": "Reinforced Drive Shaft",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10602",
+            "11134"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "169",
+            "178"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "721",
+            "757"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "72",
+            "96"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113080,
+        "id": "cyclic_military_kuuvahki_core",
+        "name": "Cyclic Military Kuuvahki Core",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101269,
+        "id": "pine_amber",
+        "name": "Pine Amber",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112124,
+        "id": "precision_drive_shaft",
+        "name": "Precision Drive Shaft",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11962",
+            "11962"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "191",
+            "191"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "814",
+            "814"
+          ]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": [
+            "96",
+            "96"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104174,
+        "id": "prithiva_topaz_gemstone",
+        "name": "Prithiva Topaz Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113080,
+        "id": "cyclic_military_kuuvahki_core",
+        "name": "Cyclic Military Kuuvahki Core",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101269,
+        "id": "pine_amber",
+        "name": "Pine Amber",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112124,
+        "id": "precision_drive_shaft",
+        "name": "Precision Drive Shaft",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104359,
+          "id": "teachings_of_elysium",
+          "name": "Teachings of Elysium",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112122,
+          "id": "broken_drive_shaft",
+          "name": "Broken Drive Shaft",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104360,
+          "id": "guide_to_elysium",
+          "name": "Guide to Elysium",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112123,
+          "id": "reinforced_drive_shaft",
+          "name": "Reinforced Drive Shaft",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104360,
+          "id": "guide_to_elysium",
+          "name": "Guide to Elysium",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112123,
+          "id": "reinforced_drive_shaft",
+          "name": "Reinforced Drive Shaft",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104360,
+          "id": "guide_to_elysium",
+          "name": "Guide to Elysium",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112123,
+          "id": "reinforced_drive_shaft",
+          "name": "Reinforced Drive Shaft",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104360,
+          "id": "guide_to_elysium",
+          "name": "Guide to Elysium",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112123,
+          "id": "reinforced_drive_shaft",
+          "name": "Reinforced Drive Shaft",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104361,
+          "id": "philosophies_of_elysium",
+          "name": "Philosophies of Elysium",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112124,
+          "id": "precision_drive_shaft",
+          "name": "Precision Drive Shaft",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113068,
+          "id": "eroded_horn",
+          "name": "Eroded Horn",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104361,
+          "id": "philosophies_of_elysium",
+          "name": "Philosophies of Elysium",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112124,
+          "id": "precision_drive_shaft",
+          "name": "Precision Drive Shaft",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113068,
+          "id": "eroded_horn",
+          "name": "Eroded Horn",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104361,
+          "id": "philosophies_of_elysium",
+          "name": "Philosophies of Elysium",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112124,
+          "id": "precision_drive_shaft",
+          "name": "Precision Drive Shaft",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113068,
+          "id": "eroded_horn",
+          "name": "Eroded Horn",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104361,
+          "id": "philosophies_of_elysium",
+          "name": "Philosophies of Elysium",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112124,
+          "id": "precision_drive_shaft",
+          "name": "Precision Drive Shaft",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113068,
+          "id": "eroded_horn",
+          "name": "Eroded Horn",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 212700,
+      "name": "Steadfast Resolve",
+      "description": "Illuga's outfit is a custom-made uniform that was designed with his duties in mind. Though it is technically meant for work, Illuga has so many responsibilities that he rarely gets the chance to change his clothes, so in practice, this uniform might as well be considered his everyday wear.",
+      "isDefault": true,
+      "characterName": "Illuga",
+      "characterId": 10000127,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Illuga_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Hey there! I'm Illuga, leader of the Lightkeepers' investigation squad. Lost your way, huh? Heh, don't worry... that happens a lot. These paths aren't exactly \"traveler-friendly,\" even on the best of days. Just follow my lead — I'll light the way ahead."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: On Guard",
+      "text": "They say that the calmer things seem on the surface, the more likely that danger lurks in the shadows... Not sure if that's always true, but it never hurts to stay alert."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Night Patrol",
+      "text": "You cold? Gotta be careful you don't catch a chill. C'mon, I'll fix you a bowl of hot soup."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Adversity",
+      "text": "Just doing what you're good at won't cut it, y'know. Sometimes, the only way to grow stronger is to step out of your comfort zone."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "Sun is back! Looks like the light won again."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "As my old pops always says, \"the gods are at it again.\" Just hope they don't drag the rest of us into it..."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Finally, some decent weather for a change. If only it were like this more often, us Lightkeepers wouldn't have half as much to worry about."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Wind's kicking up... That's never a good sign. We'd better make camp before it turns nasty."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Another dawn... Another night safely behind us."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Now the sun's up, I should probably take the chance to scout out our surroundings. Problem is... I could really use a nap."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "You never know what might be lurking in the shadows of night. If you really have to travel, make sure to stay sharp."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "It's getting late. You go ahead and get some rest — I'll keep watch tonight."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Illuga: Lightkeepers",
+      "text": "Hehe, it took a lot of pestering before my old pops finally let me join the Lightkeepers. I just couldn't bear the idea of staying in Piramida safe and sound while others were out there risking their lives. Like I told him, I'd rather be on the frontlines helping keep the Wild Hunt at bay."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Illuga: Squad Leader",
+      "text": "Being squad leader essentially means I'm responsible for keeping my comrades alive. Some days I still wonder if I'm really cut out for it... but since they've placed their trust in me, I can't let them down."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Duty",
+      "text": "It's a Lightkeeper's duty to protect the merchants and travelers who pass through our lands. Does that include adventurers, you ask? Well... technically, it's not part of the job description, but I can tell you this — no one's getting hurt on my watch."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Squad Members",
+      "text": "Now that you're a member of the investigation squad, I'm responsible for your safety, and a whole squad's worth of \"little birds\" tell me you've been off adventuring in dangerous places again. Seeing you safe and sound puts my mind at ease, but I'd feel even better if you let me come with you!"
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Someone once told me these were no more than pretty gemstones. It wasn't until I held one myself that I understood what it truly meant. I don't think fate gave it to me by accident, but still... the onus is on me to prove I'm worthy."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "If you look north from the highest point in Piramida, you can just about make out the edge of the Snezhnayan tundra. They say that was the homeland of our first Starshyna, Torchforger Solovei. He ended up losing everything, even his home... Yet here, he found a place to belong. Maybe that's why this fortress exists — as a refuge for people like us, a place to find warmth in each other."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Around Piramida, you'll run into all sorts of strange creatures brimming with kuuvahki... Mandragoras, Slothsheep, you name it. They might look like animals, but they're actually plants — so don't be fooled by the mimicry. Still, they taste delicious! I could whip something up for you to try if you'd like... How do I know how they taste...? Uhh, let's just say... when you're out in the middle of nowhere on night patrol, a little improvisation goes a long way."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Flins: Drop-Ins",
+      "text": "When I first met Mr. Flins, I assumed that the reason he lived alone was either because he didn't like being around people, or that he was just a little... eccentric. Turns out that the complete opposite is true — well, at least in terms of his social appetite. Only thing is, every time we talk, he always seems to end his stories on a cliffhanger... Sometimes, I wonder if that's his way of making sure I'll come back to hear the rest."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Flins: Secrets",
+      "text": "You're saying there's a lot more to Mr. Flins than meets the eye? Hah... Well, that's hardly unusual for a Ratnik. We're all from different walks of life, so who doesn't have a few things they'd rather keep to themselves? Even my old pops rarely talks about his past. As for Mr. Flins... well, I've certainly got to know him a lot better, and after everything that's been going on lately, I've got a rough idea of what he might be hiding. I actually asked about it once, but he neither confirmed nor denied my suspicions. In a way, I guess that's an answer in itself."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Lauma",
+      "text": "Our friendship with the Frostmoon Scions goes all the way back to the days of the Torchforger himself. Truth is, though, even if it didn't, I'd still have nothing but admiration for the current Moonchanter. She's kind, gentle, and I end up learning something new every time I visit. In times like these, her job can't be any easier than ours — yet somehow, she always manages to stay so serene. I'd bet that she's been shouldering a lot more than she lets on."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Varka",
+      "text": "I've fought side-by-side with Mr. Varka against the Wild Hunt, and I can tell you this — his fighting skills are up there with the best of them. I've heard that the Knights of Favonius were founded to defend their homeland, just like us Lightkeepers. I hope that someday, once we've finally driven the Wild Hunt from Nod-Krai, we'll be able to travel beyond these lands and fight for those living in hardship elsewhere as well."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Nefer",
+      "text": "Our operations in Nasha Town have become way smoother in recent times, and it's mostly thanks to the Curatorium of Secrets. It sure wasn't like this before, I'll tell you that. Before Miss Nefer arrived on the scene, it was like we were locked in a constant battle with the town's gangs, and it used to worry my old pops sick. Things have improved immensely since then, though. That said, Miss Nefer seems to love teasing me just as much as Mr. Flins does... and I have to admit, that can be a bit of a headache sometimes."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Aino",
+      "text": "Whenever the Lightkeepers need help fixing complex machinery, we tend to ask for Miss Aino's assistance. She really seems determined to teach us how to do it ourselves, though. Ever since she caught me trying to repair something on my own, she's been constantly insisting that I attend her classes... How exactly was I trying to fix it, you ask? Hah, well, if you must know, it was a trick I learned from my old pops. As he likes to put it, \"if something's not working, just whack it a few times!\" To my shock, that set her off something fierce..."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Linnea",
+      "text": "Even in a place as diverse as Nod-Krai, Fae ladies like Miss Linnea are few and far between. I originally figured she'd be the quiet, graceful type, but it turns out that was WAY off. For instance, the first time she saw Aedon, she got so excited that she practically pounced on him. It spooked him so bad that now, the second he hears her voice, he bolts for my lamp. And remember, this is Aedon we're talking about here — a messenger bird who's usually so \"unflappable\" that he wouldn't flinch for anything, not even the Wild Hunt..."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About the Moon Goddess",
+      "text": "Nod-Krai is an \"elysium\" built by human hands, a dream kept alive over the centuries by the blood and sacrifice of countless generations of Lightkeepers. There might be a new deity in town, but I don't think our way of life will suddenly change because of that. It's not that I doubt the Moon Goddess herself — far from it. I just believe that... rather than waiting for someone else to save us, we'd do better to rely on our own strength."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Illuga: I",
+      "text": "You want to know about my past? Hmm, let me think... Nope, I don't think there's anything in there that would put a smile on your face. You... sure you wanna hear it?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Illuga: II",
+      "text": "Meet Aedon, my messenger bird — the trusty little guy who comes with me whenever I head out on night patrol. Honestly, I couldn't ask for a better companion. Not only does he alert me to danger, he even lights the way ahead... Huh? You mean, despite all that traveling, even you've never seen a bird that glows like this before? Hold up... Could he... actually be more than just a regular messenger bird?"
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Illuga: III",
+      "text": "You've probably noticed that my Oath Lantern is a bit different from the standard-issue ones that everyone else carries. It's not because I'm a squad leader or anything like that — it's just the signal lamp I used back when I served in the logistics squad. Later, when our equipment was upgraded, this became the last of its kind. I guess you could say I've grown kinda attached to it. The idea of replacing it... doesn't quite feel right."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Illuga: IV",
+      "text": "You know how I call Nikita \"my old pops\"? Well, it probably wouldn't surprise you to hear that the others all call him \"old man\" too. Despite that, though, I don't actually think he's aged much at all. He still remembers the positions of every lighthouse and who's stationed there even better than I do, and no matter how hard I try, I can never hide a thing from him. But that's exactly why I can't help but wonder — what will happen someday when the years finally catch up to him?"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Illuga: V",
+      "text": "Whenever the Wild Hunt comes forth, the wails of the dead follow in its wake... and every time I hear those cries, I feel like I'm back on that battlefield, reliving the day that my old pops took me in. Perhaps as long as the Wild Hunt still roams this land, the nightmares that haunt me will never truly fade."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Illuga's Hobbies",
+      "text": "Now you mention it, I guess I spend most of my downtime with my squadmates too. Lately, we've all been hooked on this new game called \"Tabletop Troupe.\" We're still short a couple of players, though... So how about it? Wanna join us?"
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Illuga's Troubles",
+      "text": "The thought of innocent people dying in sudden, meaningless calamities is something I can never accept. I just wish that no one else ever has to go through something like that again... That's all I've ever worked for."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "To be honest, I don't really have any strong preferences when it comes to food. The way I see it, as long as we can all gather around the fire and share a warm meal, whatever's on the table tastes like the finest cuisine there is."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "As long as it's hot, I'm fine with just about anything. Cold food, though... Yeah, not so much. Imagine — you're out on night watch in the dead of winter, and you're handed a bowl of stone cold gruel. The mere thought of it makes me wanna say something I really shouldn't..."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Wow, now that's what I call flavor... Seriously, what's the secret ingredient? I wanna learn how to make this myself!"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Not bad! Heh, wait till my comrades get a taste of this!"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Ahem... Hey, I can teach you a few other dishes, if you'd like!"
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday, squadmate! Forget about commissions and adventures — days like this are reserved for close friends, full bellies, and catching up on sleep! I'll be standing watch, so you just focus on letting your hair down. And on the off-chance we get gate-crashers, I'll scare 'em off with my trusty lamp."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Huh, if only I'd known about this sooner. Now that's what I call a game-changer."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "I'm certainly feeling stronger... but I can tell I've still got a long way to go."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Can't believe how much I've learned, and it's all thanks to you. Heh, I might finally be starting to believe in myself..."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "I've relied on you so much up till now, and I really appreciate your help. Now that I'm feeling up to it, I hope you'll let me return the favor... once in a while, at least."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Go get 'em, Aedon!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "While the light shines bright!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "You got this!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Target acquired."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "You're in my sights."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Press the advantage!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Begone, shadow of darkness!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "The light compels you!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Behold the dawn!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "This should go to those that need it."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "So it wasn't a trap, after all."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Huh, how'd this slip through the net..."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "This looks bad..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Guess I got cocky..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Is it... too late to call for backup?"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Stay behind me!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "My turn!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "I could've... done more..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Just... make sure the intel gets back."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "I couldn't... keep you all safe..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Argh..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: II",
+      "text": "I got careless..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Not on my watch..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Gotta hold fast!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Ratnik reporting for duty!"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "I'll light the path ahead."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "I won't let you down."
+    }
+  ],
+  "effects": {
+    "11270001": {
+      "name": "Nightingale's Song",
+      "description": "The effect gained after Illuga unleashes his Elemental Burst <span style=\"color:#FFD780FF\">Shadowless Reflection</span>. It can increase the <span style=\"color:#FFE699FF\">Geo DMG</span> inflicted by current active characters.",
+      "color": ""
+    }
+  }
+}

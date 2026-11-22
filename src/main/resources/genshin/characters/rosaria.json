@@ -1,0 +1,1709 @@
+{
+  "_id": 10000045,
+  "id": "rosaria",
+  "name": "Rosaria",
+  "title": "Thorny Benevolence",
+  "description": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",
+  "weapon_type": {
+    "id": "polearm",
+    "name": "Polearm"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1617721200,
+  "substat": "ATK%",
+  "stats": {
+    "base": {
+      "hp": 1030.3239,
+      "attack": 20.12304,
+      "defense": 59.514
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 769.70465,
+        "attack": 15.033294,
+        "defense": 44.46,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1316.6001,
+        "attack": 25.714846,
+        "defense": 76.05,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2045.794,
+        "attack": 39.956913,
+        "defense": 118.17,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2592.6895,
+        "attack": 50.638466,
+        "defense": 149.76,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3139.5847,
+        "attack": 61.320015,
+        "defense": 181.35,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3686.4802,
+        "attack": 72.001564,
+        "defense": 212.94,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Church of Favonius",
+  "region": {
+    "id": "mondstadt",
+    "name": "Mondstadt"
+  },
+  "rarity": 4,
+  "birthday": [
+    24,
+    1
+  ],
+  "constellation": "Spinea Corona",
+  "domain": "Forsaken Rift",
+  "cv": {
+    "english": "Elizabeth Maxwell",
+    "chinese": "张安琪",
+    "japanese": "加隈亜衣",
+    "korean": "Kim Bo-na"
+  },
+  "skills": [
+    {
+      "_id": 10451,
+      "id": "spear_of_the_church",
+      "name": "Spear of the Church",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 consecutive spear strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "52.5%",
+            "56.7%",
+            "61%",
+            "67.1%",
+            "71.4%",
+            "76.3%",
+            "83%",
+            "89.7%",
+            "96.4%",
+            "103.7%",
+            "111%",
+            "118.3%",
+            "125.7%",
+            "133%",
+            "140.3%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "51.6%",
+            "55.8%",
+            "60%",
+            "66%",
+            "70.2%",
+            "75%",
+            "81.6%",
+            "88.2%",
+            "94.8%",
+            "102%",
+            "109.2%",
+            "116.4%",
+            "123.6%",
+            "130.8%",
+            "138%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "31.8%×2",
+            "34.4%×2",
+            "37%×2",
+            "40.7%×2",
+            "43.3%×2",
+            "46.3%×2",
+            "50.3%×2",
+            "54.4%×2",
+            "58.5%×2",
+            "62.9%×2",
+            "67.3%×2",
+            "71.8%×2",
+            "76.2%×2",
+            "80.7%×2",
+            "85.1%×2"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "69.7%",
+            "75.3%",
+            "81%",
+            "89.1%",
+            "94.8%",
+            "101.3%",
+            "110.2%",
+            "119.1%",
+            "128%",
+            "137.7%",
+            "147.4%",
+            "157.1%",
+            "166.9%",
+            "176.6%",
+            "186.3%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "41.6% + 43%",
+            "45% + 46.5%",
+            "48.4% + 50%",
+            "53.2% + 55%",
+            "56.6% + 58.5%",
+            "60.5% + 62.5%",
+            "65.8% + 68%",
+            "71.1% + 73.5%",
+            "76.5% + 79%",
+            "82.3% + 85%",
+            "88.1% + 91%",
+            "93.9% + 97%",
+            "99.7% + 103%",
+            "105.5% + 109%",
+            "111.3% + 115%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "136.7%",
+            "147.9%",
+            "159%",
+            "174.9%",
+            "186%",
+            "198.8%",
+            "216.2%",
+            "233.7%",
+            "251.2%",
+            "270.3%",
+            "289.4%",
+            "308.5%",
+            "327.5%",
+            "346.6%",
+            "365.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10452,
+      "id": "ravaging_confession",
+      "name": "Ravaging Confession",
+      "description": "Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span>.<br/>This ability cannot be used to travel behind opponents of a larger build.",
+      "info": "Those who confess to Sister Rosaria will be granted no absolution. All sinners shall be met with the piercing cold of punishment proportionate to the weight of their sins.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "58.4% + 136%",
+            "62.8% + 146.2%",
+            "67.2% + 156.4%",
+            "73% + 170%",
+            "77.4% + 180.2%",
+            "81.8% + 190.4%",
+            "87.6% + 204%",
+            "93.4% + 217.6%",
+            "99.3% + 231.2%",
+            "105.1% + 244.8%",
+            "111% + 258.4%",
+            "116.8% + 272%",
+            "124.1% + 289%",
+            "131.4% + 306%",
+            "138.7% + 323%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10453,
+      "id": "rites_of_termination",
+      "name": "Rites of Termination",
+      "description": "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal <span style=\"color:#99FFFFFF\">Cryo DMG</span>.<br/>While active, the Ice Lance periodically releases a blast of cold air, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span> to surrounding opponents.",
+      "info": "Judgment is such a tedious ordeal — much easier to skip that phase and get straight to the last rites. Rosaria was never very devoted to the Anemo God anyway, which makes performing them all too easy.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "104% + 152%",
+            "111.8% + 163.4%",
+            "119.6% + 174.8%",
+            "130% + 190%",
+            "137.8% + 201.4%",
+            "145.6% + 212.8%",
+            "156% + 228%",
+            "166.4% + 243.2%",
+            "176.8% + 258.4%",
+            "187.2% + 273.6%",
+            "197.6% + 288.8%",
+            "208% + 304%",
+            "221% + 323%",
+            "234% + 342%",
+            "247% + 361%"
+          ]
+        },
+        {
+          "label": "Ice Lance DoT",
+          "values": [
+            "132%",
+            "141.9%",
+            "151.8%",
+            "165%",
+            "174.9%",
+            "184.8%",
+            "198%",
+            "211.2%",
+            "224.4%",
+            "237.6%",
+            "250.8%",
+            "264%",
+            "280.5%",
+            "297%",
+            "313.5%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "regina_probationum",
+      "name": "Regina Probationum",
+      "description": "When Rosaria strikes an opponent from behind using <span style=\"color:#FFD780FF\">Ravaging Confession</span>, Rosaria's CRIT Rate increases by 12% for 5s.",
+      "level": 1
+    },
+    {
+      "id": "shadow_samaritan",
+      "name": "Shadow Samaritan",
+      "description": "Casting <span style=\"color:#FFD780FF\">Rites of Termination</span> increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.<br/>CRIT Rate Bonus gained this way cannot exceed 15%.",
+      "level": 4
+    },
+    {
+      "id": "night_walk",
+      "name": "Night Walk",
+      "description": "At night (18:00 – 06:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.<br/>Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 451,
+      "id": "unholy_revelation",
+      "name": "Unholy Revelation",
+      "description": "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s.",
+      "level": 1
+    },
+    {
+      "_id": 452,
+      "id": "land_without_promise",
+      "name": "Land Without Promise",
+      "description": "The duration of the Ice Lance created by <span style=\"color:#FFD780FF\">Rites of Termination</span> is increased by 4s.",
+      "level": 2
+    },
+    {
+      "_id": 453,
+      "id": "the_wages_of_sin",
+      "name": "The Wages of Sin",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Ravaging Confession</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 454,
+      "id": "painful_grace",
+      "name": "Painful Grace",
+      "description": "<span style=\"color:#FFD780FF\">Ravaging Confession</span>'s CRIT Hits regenerate 5 Energy for Rosaria.<br/>Can only be triggered once each time Ravaging Confession is cast.",
+      "level": 4
+    },
+    {
+      "_id": 455,
+      "id": "last_rites",
+      "name": "Last Rites",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Rites of Termination</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 456,
+      "id": "divine_retribution",
+      "name": "Divine Retribution",
+      "description": "<span style=\"color:#FFD780FF\">Rites of Termination</span>'s attack decreases opponents' Physical RES by 20% for 10s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1030"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "20"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "60"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2647",
+            "3417"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "52",
+            "67"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "153",
+            "197"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5118",
+            "5665"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "100",
+            "111"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "296",
+            "327"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100022,
+        "id": "valberry",
+        "name": "Valberry",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112032,
+        "id": "recruits_insignia",
+        "name": "Recruit's Insignia",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6516",
+            "7245"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "127",
+            "141"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "376",
+            "418"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100022,
+        "id": "valberry",
+        "name": "Valberry",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112032,
+        "id": "recruits_insignia",
+        "name": "Recruit's Insignia",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8096",
+            "8643"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "158",
+            "169"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "468",
+            "499"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100022,
+        "id": "valberry",
+        "name": "Valberry",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112033,
+        "id": "sergeants_insignia",
+        "name": "Sergeant's Insignia",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9493",
+            "10040"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "185",
+            "196"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "548",
+            "580"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100022,
+        "id": "valberry",
+        "name": "Valberry",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112033,
+        "id": "sergeants_insignia",
+        "name": "Sergeant's Insignia",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10891",
+            "11438"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "213",
+            "223"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "629",
+            "661"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100022,
+        "id": "valberry",
+        "name": "Valberry",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112034,
+        "id": "lieutenants_insignia",
+        "name": "Lieutenant's Insignia",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12289",
+            "12289"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "240",
+            "240"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "710",
+            "710"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100022,
+        "id": "valberry",
+        "name": "Valberry",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112034,
+        "id": "lieutenants_insignia",
+        "name": "Lieutenant's Insignia",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104307,
+          "id": "teachings_of_ballad",
+          "name": "Teachings of Ballad",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112032,
+          "id": "recruits_insignia",
+          "name": "Recruit's Insignia",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104308,
+          "id": "guide_to_ballad",
+          "name": "Guide to Ballad",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104308,
+          "id": "guide_to_ballad",
+          "name": "Guide to Ballad",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104308,
+          "id": "guide_to_ballad",
+          "name": "Guide to Ballad",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104308,
+          "id": "guide_to_ballad",
+          "name": "Guide to Ballad",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104309,
+          "id": "philosophies_of_ballad",
+          "name": "Philosophies of Ballad",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113015,
+          "id": "shadow_of_the_warrior",
+          "name": "Shadow of the Warrior",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104309,
+          "id": "philosophies_of_ballad",
+          "name": "Philosophies of Ballad",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113015,
+          "id": "shadow_of_the_warrior",
+          "name": "Shadow of the Warrior",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104309,
+          "id": "philosophies_of_ballad",
+          "name": "Philosophies of Ballad",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113015,
+          "id": "shadow_of_the_warrior",
+          "name": "Shadow of the Warrior",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104309,
+          "id": "philosophies_of_ballad",
+          "name": "Philosophies of Ballad",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113015,
+          "id": "shadow_of_the_warrior",
+          "name": "Shadow of the Warrior",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 204501,
+      "name": "To the Church's Free Spirit",
+      "description": "Rosaria's outfit. This seems to have been custom-made for her by the Church.",
+      "isDefault": false,
+      "characterName": "Rosaria",
+      "characterId": 10000045,
+      "source": [],
+      "filename_card": "UI_AvatarIcon_RosariaCostumeWic_Card",
+      "filename_icon": "UI_AvatarIcon_RosariaCostumeWic",
+      "filename_iconCircle": "UI_AvatarIcon_RosariaCostumeWic_Circle",
+      "filename_splash": "UI_Costume_RosariaCostumeWic",
+      "filename_sideIcon": "UI_AvatarIcon_Side_RosariaCostumeWic"
+    },
+    {
+      "id": 204500,
+      "name": "Executor's Thorns",
+      "description": "Rosaria's outfit. Rosaria has heavily modified this particular Church of Favonius uniform.",
+      "isDefault": true,
+      "characterName": "Rosaria",
+      "characterId": 10000045,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Rosaria_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "Listen disciple, if you've got a problem you can't handle, then I'm the one for the job. But if you're looking for prayer, you'd better find some other Sister\\n...Huh? You're not a disciple?"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Boredom",
+      "text": "Don't we have a job to do?"
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Overtime",
+      "text": "Everything is negotiable, except overtime."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Life in Mondstadt",
+      "text": "Work hard and live each day to the fullest. That is what life in Mondstadt is all about, isn't it?"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "This will slow things down."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "...What a nuisance."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "We should keep moving, but watch your step in the snow."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Blessings from the Anemo Archon Barsibato? Wait... no, it's Bartobas...?"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "*yawn* Good morning... I've missed morning mass, haven't I? Ugh, it starts too early anyway."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "I'd say I sleep even better in the afternoon sun. You should try it sometime."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Good evening. Don't expect to see me at prayer tonight... And don't ask why."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Go ahead, take a break. I'll handle things here."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Rosaria: Sister",
+      "text": "Me? I'm just another ordinary person. Church, work... I just do what I have to do."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Rosaria: Troubles",
+      "text": "Each of the Sisters is worse than the next. If it's not about prayer, then it's about choir or some other thing I'm supposed to participate in... I'm trying to stay out of sight, so don't you dare tell them you saw me here."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Beliefs",
+      "text": "Perhaps a god has the power to protect everyone if they would choose to do so, but that would never happen. Otherwise, people's suffering couldn't ever be taken seriously."
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Us: Prayer",
+      "text": "Pray. Not for the gods, nor the betterment of others... but for yourself."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Us: Battle",
+      "text": "Don't overdo it. Let me take care of the dirty work."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "A Vision... Could be proof of strength, or a medal for having survived... who knows? There're two sides to every coin. I won't limit my Vision with ceremonies and definitions. It witnesses me, and I witness it, that's all."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "You don't always know why good things happen, or why we should be happy about them. Heh... But if you ever face a problem too big to handle, don't give up hope. You never know, someone may be there to help, even if you can't see them."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "I take no interest in plant life and the sort, but the dandelion is an exception. How such a simple flower could turn into such a delectable wine is beyond me. A glass of dandelion wine after work is even better than sleeping in on Sunday."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Diluc",
+      "text": "Isn't it obvious? There's more than meets the eye to that rich tycoon. He's confident, yet discreet... and even a little bit dangerous."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Kaeya",
+      "text": "Wine has its uses... like revealing someone's true colors, for example. Smooth talk is Kaeya's veil, but being me, I can see right through it. Hah, you should see him when he's drunk."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Venti",
+      "text": "There's something extremely interesting about this bard... I can't quite put my finger on it. There's something that makes him different from the others in Mondstadt."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Barbara",
+      "text": "Barbara is like a thorn in my side, always nagging me about mass and choir practice. I wouldn't be surprised if Sister Victoria specifically asked her to keep an eye on me."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Jean",
+      "text": "She's not only competent in her own work but also somehow manages to clear up various matters for others... Huh. Now that's a woman who deserves admiration."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Albedo",
+      "text": "He's like an oil painting you find hanging on the wall in some ancient hall, profound and mysterious... hard to see through. But what can I say, I find people with stories... interesting."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Lisa",
+      "text": "Although I deplore those who play truant on a job, I respect her punctuality when it comes to closing up for the day."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Klee",
+      "text": "Trouble, and lots of it. Although, it is sort of a cute kind of trouble..."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Varka",
+      "text": "I'm sure Varka means well, but his long-winded conversations get real old real quick. Although, he does really care for those around him, doesn't he?"
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Her Father",
+      "text": "Father? I'm not familiar with the word. You could say that I don't have one — could also say I have many, too. What's it to you?"
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Dahlia",
+      "text": "I like that he's in the habit of always offering to pick up the tab. In fact, his tavern etiquette in general is very good: He knows which questions he can ask and which ones to avoid. But since we figured each other out, I don't need to be too guarded around him anymore. It's so much easier to get along with people when they're smart like him."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Rosaria: I",
+      "text": "Let's forgo the formalities. I'm here to finish a job. Just leave the dirty work to me."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Rosaria: II",
+      "text": "What's weird about a Sister without reverence for the gods? There are hunters who don't eat pork, and fisherman who don't eat fish, aren't there? Just because you do something doesn't mean you love to do it. That's how every job goes."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Rosaria: III",
+      "text": "This year's Dandelion Wine is sinfully good. Care for a glass?"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Rosaria: IV",
+      "text": "Mondstadt is a beast of light, both old and young. Old in the sense that it constantly requires someone's protection, yet too young to ever survive on its own. That's why there's people like me. I care for Mondstadt just as the other Sisters care for the believers, we are all guiding that which we love onward on the path towards freedom. Huh? Why do I call it a beast of light? Because people like myself can only be found in the dark..."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Rosaria: V",
+      "text": "I sometimes feel that my former selves from years past still exist alongside me, urging me on. I'm sure you know the feeling, too. Even if you decide to venture down a new path, don't just abandon the former you. For that is the foundation upon which you now take footing. Do not fear your past, and do not be scared to come to grips with it."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Rosaria's Hobbies",
+      "text": "There are some troubles that only a stiff drink can take away. That being said, I never get drunk."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Rosaria's Troubles",
+      "text": "Ugh, definitely skipping next month's choir concert, but I bet Sister Victoria will be personally taking roll... What a nuisance."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Have you ever tried Beef Bourguignon? Big chunks of meat with the smooth taste of alcohol... Mmm, it's delectable."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "You mean I'm supposed to dip this hash brown in jam? Ugh, this is sacrilege!"
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "It seems that our tastes are aligned when it comes to food."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "At least I'll be able to eat my fill with this."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Do you really like this food?"
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Today's your birthday, so if you have any dirty work that needs taking care of, I can give you a hand... Just don't tell anybody, got it?"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Hmm, just what I needed."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "You have a job for me? I've got time."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Good. Getting stronger means finishing jobs quicker."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "I'm no stranger to spilling blood, but never have I possessed such power before. For such blessings, I give you thanks."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Hyah!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Judgment!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "You can't run!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Punishment!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Shiver!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Lights out..."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "...Hm, there are a few interesting trinkets here."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "I suppose it wasn't too much trouble."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "That felt... pretty good."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Hmph. Things are getting interesting..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Looks like overtime today."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "So you know your stuff, huh?"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Let me handle this!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Don't try to be a hero!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "At least... no more... work."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Maybe this is just... fate's dark design."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Is this... my final job?"
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "I see how it is."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Ugh, what a nuisance!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "I hear you've got a job for me."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Make sure to keep up."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Sooner we're done, the better."
+    }
+  ]
+}

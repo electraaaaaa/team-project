@@ -1,0 +1,2023 @@
+{
+  "_id": 10000052,
+  "id": "raiden_shogun",
+  "name": "Raiden Shogun",
+  "title": "Plane of Euthymia",
+  "description": "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.",
+  "weapon_type": {
+    "id": "polearm",
+    "name": "Polearm"
+  },
+  "element": {
+    "id": "electro",
+    "name": "Electro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1630443600,
+  "substat": "Energy Recharge",
+  "stats": {
+    "base": {
+      "hp": 1004.79926,
+      "attack": 26.2542,
+      "defense": 61.44541
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 861.52454,
+        "attack": 22.508959,
+        "defense": 52.6851,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1473.6604,
+        "attack": 38.502167,
+        "defense": 90.11925,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.08
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2289.8416,
+        "attack": 59.826443,
+        "defense": 140.03145,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.16
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2901.9773,
+        "attack": 75.81965,
+        "defense": 177.4656,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.16
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3514.1133,
+        "attack": 91.81286,
+        "defense": 214.89975,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.24
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4126.249,
+        "attack": 107.80606,
+        "defense": 252.3339,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.32
+        }
+      }
+    ]
+  },
+  "affiliation": "Inazuma City",
+  "region": {
+    "id": "inazuma",
+    "name": "Inazuma"
+  },
+  "rarity": 5,
+  "birthday": [
+    26,
+    6
+  ],
+  "constellation": "Imperatrix Umbrosa",
+  "domain": "Violet Court",
+  "cv": {
+    "english": "Anne Yatco",
+    "chinese": "菊花花",
+    "japanese": "沢城みゆき",
+    "korean": "Park Ji-yoon"
+  },
+  "skills": [
+    {
+      "_id": 10521,
+      "id": "origin",
+      "name": "Origin",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 consecutive spear strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to perform an upward slash.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "39.6%",
+            "42.9%",
+            "46.1%",
+            "50.7%",
+            "53.9%",
+            "57.6%",
+            "62.7%",
+            "67.8%",
+            "72.8%",
+            "78.4%",
+            "84.7%",
+            "92.2%",
+            "99.6%",
+            "107.1%",
+            "115.2%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "39.7%",
+            "43%",
+            "46.2%",
+            "50.8%",
+            "54.1%",
+            "57.8%",
+            "62.8%",
+            "67.9%",
+            "73%",
+            "78.5%",
+            "84.9%",
+            "92.4%",
+            "99.8%",
+            "107.3%",
+            "115.5%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "49.9%",
+            "53.9%",
+            "58%",
+            "63.8%",
+            "67.9%",
+            "72.5%",
+            "78.9%",
+            "85.3%",
+            "91.6%",
+            "98.6%",
+            "106.6%",
+            "116%",
+            "125.3%",
+            "134.7%",
+            "144.9%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "29% + 29%",
+            "31.3% + 31.3%",
+            "33.7% + 33.7%",
+            "37.1% + 37.1%",
+            "39.4% + 39.4%",
+            "42.1% + 42.1%",
+            "45.8% + 45.8%",
+            "49.5% + 49.5%",
+            "53.2% + 53.2%",
+            "57.3% + 57.3%",
+            "61.9% + 61.9%",
+            "67.4% + 67.4%",
+            "72.8% + 72.8%",
+            "78.3% + 78.3%",
+            "84.2% + 84.2%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "65.4%",
+            "70.8%",
+            "76.1%",
+            "83.7%",
+            "89%",
+            "95.1%",
+            "103.5%",
+            "111.9%",
+            "120.2%",
+            "129.4%",
+            "139.8%",
+            "152.1%",
+            "164.4%",
+            "176.7%",
+            "190.2%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "99.6%",
+            "107.7%",
+            "115.8%",
+            "127.4%",
+            "135.5%",
+            "144.8%",
+            "157.5%",
+            "170.2%",
+            "183%",
+            "196.9%",
+            "212.8%",
+            "231.5%",
+            "250.2%",
+            "269%",
+            "289.4%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10522,
+      "id": "transcendence_baleful_omen",
+      "name": "Transcendence: Baleful Omen",
+      "description": "The Raiden Shogun unveils a shard of her Euthymia, dealing <span style=\"color:#FFACFFFF\">Electro DMG</span> to nearby opponents, and granting nearby party members the Eye of Stormy Judgment.<br/><br/><span style=\"color:#FFD780FF\">Eye of Stormy Judgment</span><br/>·When characters with this buff attack and deal DMG to opponents, the Eye will unleash a coordinated attack, dealing <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> at the opponent's position.<br/>·Characters who gain the Eye of Stormy Judgment will have their Elemental Burst DMG increased based on the Energy Cost of the Elemental Burst during the Eye's duration.<br/><br/>The Eye can initiate one coordinated attack every 0.9s per party.<br/>Coordinated attacks generated by characters not controlled by you deal 20% of the normal DMG.",
+      "info": "Beings of great divinity might affect all that they survey, and the Electro Archon can manipulate the very inauspicious stars themselves to defend her retainers and bring a thundering sentence down on their foes.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "117.2%",
+            "126%",
+            "134.8%",
+            "146.5%",
+            "155.3%",
+            "164.1%",
+            "175.8%",
+            "187.5%",
+            "199.2%",
+            "211%",
+            "222.7%",
+            "234.4%",
+            "249%",
+            "263.7%",
+            "278.4%"
+          ]
+        },
+        {
+          "label": "Coordinated ATK DMG",
+          "values": [
+            "42%",
+            "45.1%",
+            "48.3%",
+            "52.5%",
+            "55.6%",
+            "58.8%",
+            "63%",
+            "67.2%",
+            "71.4%",
+            "75.6%",
+            "79.8%",
+            "84%",
+            "89.3%",
+            "94.5%",
+            "99.8%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s"
+          ]
+        },
+        {
+          "label": "Elemental Burst DMG Bonus",
+          "values": [
+            "0.22% Per Energy",
+            "0.23% Per Energy",
+            "0.24% Per Energy",
+            "0.25% Per Energy",
+            "0.26% Per Energy",
+            "0.27% Per Energy",
+            "0.28% Per Energy",
+            "0.29% Per Energy",
+            "0.3% Per Energy",
+            "0.3% Per Energy",
+            "0.3% Per Energy",
+            "0.3% Per Energy",
+            "0.3% Per Energy",
+            "0.3% Per Energy",
+            "0.3% Per Energy"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10525,
+      "id": "secret_art_musou_shinsetsu",
+      "name": "Secret Art: Musou Shinsetsu",
+      "description": "Gathering truths unnumbered and wishes uncounted, the Raiden Shogun unleashes the Musou no Hitotachi and deals <span style=\"color:#FFACFFFF\">AoE Electro DMG</span>, using Musou Isshin in combat for a certain duration afterward. The DMG dealt by Musou no Hitotachi and Musou Isshin's attacks will be increased based on the number of Chakra Desiderata's Resolve stacks consumed when this skill is used.<br/><br/><span style=\"color:#FFD780FF\">Musou Isshin</span><br/>While in this state, the Raiden Shogun will wield her tachi in battle, while her Normal, Charged, and Plunging Attacks will be infused with <span style=\"color:#FFACFFFF\">Electro DMG</span>, which cannot be overridden. When such attacks hit opponents, she will regenerate Energy for all nearby party members. Energy can be restored this way once every 1s, and this effect can be triggered 5 times throughout this skill's duration.<br/>While in this state, the Raiden Shogun's resistance to interruption is increased, and she is immune to <span style=\"color:#FFACFFFF\">Electro-Charged</span> reaction DMG.<br/>While Musou Isshin is active, the Raiden Shogun's Normal, Charged, and Plunging Attack DMG will be considered Elemental Burst DMG.<br/><br/>The effects of Musou Isshin will be cleared when the Raiden Shogun leaves the field.<br/><br/><span style=\"color:#FFD780FF\">Chakra Desiderata</span><br/>When nearby party members (excluding the Raiden Shogun herself) use their Elemental Bursts, the Raiden Shogun will build up Resolve stacks based on the Energy Cost of these Elemental Bursts.<br/>The maximum number of Resolve stacks is 60.<br/><br/>The Resolve gained by Chakra Desiderata will be cleared 300s after the Raiden Shogun leaves the field.",
+      "info": "This is the Raiden Shogun's new secret technique. Abandoning the void-like \"Musou,\" she now shoulders a new \"Musou\" — the dreams and ambitions of all. Just as \"shinsetsu,\" \"the truth,\" also means \"the new,\" so too has Inazuma entered a new chapter.",
+      "attributes": [
+        {
+          "label": "Musou no Hitotachi Base DMG",
+          "values": [
+            "400.8%",
+            "430.9%",
+            "460.9%",
+            "501%",
+            "531.1%",
+            "561.1%",
+            "601.2%",
+            "641.3%",
+            "681.4%",
+            "721.4%",
+            "761.5%",
+            "801.6%",
+            "851.7%",
+            "901.8%",
+            "951.9%"
+          ]
+        },
+        {
+          "label": "Resolve Bonus",
+          "values": [
+            "3.89% Initial / 0.73% ATK DMG Per Stack",
+            "4.18% Initial / 0.78% ATK DMG Per Stack",
+            "4.47% Initial / 0.84% ATK DMG Per Stack",
+            "4.86% Initial / 0.91% ATK DMG Per Stack",
+            "5.15% Initial / 0.96% ATK DMG Per Stack",
+            "5.44% Initial / 1.02% ATK DMG Per Stack",
+            "5.83% Initial / 1.09% ATK DMG Per Stack",
+            "6.22% Initial / 1.16% ATK DMG Per Stack",
+            "6.61% Initial / 1.23% ATK DMG Per Stack",
+            "7% Initial / 1.31% ATK DMG Per Stack",
+            "7.39% Initial / 1.38% ATK DMG Per Stack",
+            "7.78% Initial / 1.45% ATK DMG Per Stack",
+            "8.26% Initial / 1.54% ATK DMG Per Stack",
+            "8.75% Initial / 1.63% ATK DMG Per Stack",
+            "9.23% Initial / 1.72% ATK DMG Per Stack"
+          ]
+        },
+        {
+          "label": "Resolve Stacks Gained",
+          "values": [
+            "0.15 Per Energy Consumed",
+            "0.16 Per Energy Consumed",
+            "0.16 Per Energy Consumed",
+            "0.17 Per Energy Consumed",
+            "0.17 Per Energy Consumed",
+            "0.18 Per Energy Consumed",
+            "0.18 Per Energy Consumed",
+            "0.19 Per Energy Consumed",
+            "0.19 Per Energy Consumed",
+            "0.2 Per Energy Consumed",
+            "0.2 Per Energy Consumed",
+            "0.2 Per Energy Consumed",
+            "0.2 Per Energy Consumed",
+            "0.2 Per Energy Consumed",
+            "0.2 Per Energy Consumed"
+          ]
+        },
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "44.7%",
+            "47.8%",
+            "50.8%",
+            "54.9%",
+            "58%",
+            "61.5%",
+            "66.1%",
+            "70.7%",
+            "75.2%",
+            "79.8%",
+            "84.4%",
+            "89%",
+            "93.5%",
+            "98.1%",
+            "102.7%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "44%",
+            "47%",
+            "50%",
+            "53.9%",
+            "56.9%",
+            "60.4%",
+            "64.9%",
+            "69.4%",
+            "73.9%",
+            "78.4%",
+            "82.9%",
+            "87.4%",
+            "91.9%",
+            "96.4%",
+            "100.9%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "53.8%",
+            "57.5%",
+            "61.2%",
+            "66.1%",
+            "69.7%",
+            "74%",
+            "79.5%",
+            "85%",
+            "90.5%",
+            "96%",
+            "101.5%",
+            "107%",
+            "112.5%",
+            "118%",
+            "123.5%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "30.9% + 31%",
+            "33% + 33.1%",
+            "35.1% + 35.2%",
+            "37.9% + 38%",
+            "40% + 40.1%",
+            "42.5% + 42.6%",
+            "45.6% + 45.8%",
+            "48.8% + 48.9%",
+            "51.9% + 52.1%",
+            "55.1% + 55.3%",
+            "58.3% + 58.4%",
+            "61.4% + 61.6%",
+            "64.6% + 64.8%",
+            "67.7% + 67.9%",
+            "70.9% + 71.1%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "73.9%",
+            "79%",
+            "84%",
+            "90.7%",
+            "95.8%",
+            "101.7%",
+            "109.2%",
+            "116.8%",
+            "124.4%",
+            "131.9%",
+            "139.5%",
+            "147%",
+            "154.6%",
+            "162.2%",
+            "169.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "61.6% + 74.4%",
+            "65.8% + 79.4%",
+            "70% + 84.5%",
+            "75.6% + 91.3%",
+            "79.8% + 96.3%",
+            "84.7% + 102.2%",
+            "91% + 109.9%",
+            "97.3% + 117.5%",
+            "103.6% + 125.1%",
+            "109.9% + 132.7%",
+            "116.2% + 140.3%",
+            "122.5% + 147.9%",
+            "128.8% + 155.5%",
+            "135.1% + 163.1%",
+            "141.4% + 170.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        },
+        {
+          "label": "Musou Isshin Energy Restoration",
+          "values": [
+            "1.6",
+            "1.7",
+            "1.8",
+            "1.9",
+            "2",
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5",
+            "2.5",
+            "2.5",
+            "2.5",
+            "2.5",
+            "2.5"
+          ]
+        },
+        {
+          "label": "Musou Isshin Duration",
+          "values": [
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "wishes_unnumbered",
+      "name": "Wishes Unnumbered",
+      "description": "When nearby party members gain Elemental Orbs or Particles, <span style=\"color:#FFD780FF\">Chakra Desiderata</span> gains 2 Resolve stacks.<br/>This effect can occur once every 3s.",
+      "level": 1
+    },
+    {
+      "id": "enlightened_one",
+      "name": "Enlightened One",
+      "description": "Each 1% above 100% Energy Recharge that the Raiden Shogun possesses grants her:<br/>·0.6% greater Energy restoration from <span style=\"color:#FFD780FF\">Musou Isshin</span><br/>·0.4% <span style=\"color:#FFACFFFF\">Electro DMG Bonus</span>.",
+      "level": 4
+    },
+    {
+      "id": "allpreserver",
+      "name": "All-Preserver",
+      "description": "Mora expended when ascending Swords and Polearms is decreased by 50%.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 521,
+      "id": "ominous_inscription",
+      "name": "Ominous Inscription",
+      "description": "<span style=\"color:#FFD780FF\">Chakra Desiderata</span> will gather Resolve even faster. When <span style=\"color:#FFACFFFF\">Electro</span> characters use their Elemental Bursts, the Resolve gained is increased by 80%. When characters of other Elemental Types use their Elemental Bursts, the Resolve gained is increased by 20%.",
+      "level": 1
+    },
+    {
+      "_id": 522,
+      "id": "steelbreaker",
+      "name": "Steelbreaker",
+      "description": "While using Musou no Hitotachi and in the Musou Isshin state applied by <span style=\"color:#FFD780FF\">Secret Art: Musou Shinsetsu</span>, the Raiden Shogun's attacks ignore 60% of opponents' DEF.",
+      "level": 2
+    },
+    {
+      "_id": 523,
+      "id": "shinkage_bygones",
+      "name": "Shinkage Bygones",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Secret Art: Musou Shinsetsu</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 524,
+      "id": "pledge_of_propriety",
+      "name": "Pledge of Propriety",
+      "description": "When the <span style=\"color:#FFD780FF\">Musou Isshin</span> state applied by <span style=\"color:#FFD780FF\">Secret Art: Musou Shinsetsu</span> expires, all nearby party members (excluding the Raiden Shogun) gain 30% bonus ATK for 10s.",
+      "level": 4
+    },
+    {
+      "_id": 525,
+      "id": "shoguns_descent",
+      "name": "Shogun's Descent",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Transcendence: Baleful Omen</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 526,
+      "id": "wishbearer",
+      "name": "Wishbearer",
+      "description": "While in the <span style=\"color:#FFD780FF\">Musou Isshin</span> state applied by <span style=\"color:#FFD780FF\">Secret Art: Musou Shinsetsu</span>, attacks by the Raiden Shogun that are considered part of her Elemental Burst will decrease all nearby party members' (not including the Raiden Shogun herself) Elemental Burst CD by 1s when they hit opponents.<br/>This effect can trigger once every 1s and can trigger a total of 5 times during Musou Isshin's duration.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1005"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "26"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "61"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "-",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2606",
+            "3468"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "68",
+            "91"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "159",
+            "212"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5189",
+            "5801"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "136",
+            "152"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "317",
+            "355"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104141,
+        "id": "vajrada_amethyst_sliver",
+        "name": "Vajrada Amethyst Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101208,
+        "id": "amakumo_fruit",
+        "name": "Amakumo Fruit",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112044,
+        "id": "old_handguard",
+        "name": "Old Handguard",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6675",
+            "7491"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "174",
+            "196"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "408",
+            "458"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113029,
+        "id": "storm_beads",
+        "name": "Storm Beads",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101208,
+        "id": "amakumo_fruit",
+        "name": "Amakumo Fruit",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112044,
+        "id": "old_handguard",
+        "name": "Old Handguard",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8373",
+            "8985"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "219",
+            "235"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "512",
+            "549"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113029,
+        "id": "storm_beads",
+        "name": "Storm Beads",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101208,
+        "id": "amakumo_fruit",
+        "name": "Amakumo Fruit",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112045,
+        "id": "kageuchi_handguard",
+        "name": "Kageuchi Handguard",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9875",
+            "10487"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "258",
+            "274"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "604",
+            "641"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113029,
+        "id": "storm_beads",
+        "name": "Storm Beads",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101208,
+        "id": "amakumo_fruit",
+        "name": "Amakumo Fruit",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112045,
+        "id": "kageuchi_handguard",
+        "name": "Kageuchi Handguard",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11388",
+            "12000"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "298",
+            "314"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "696",
+            "734"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113029,
+        "id": "storm_beads",
+        "name": "Storm Beads",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101208,
+        "id": "amakumo_fruit",
+        "name": "Amakumo Fruit",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112046,
+        "id": "famed_handguard",
+        "name": "Famed Handguard",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12907",
+            "12907"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "337",
+            "337"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "789",
+            "789"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104144,
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Vajrada Amethyst Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113029,
+        "id": "storm_beads",
+        "name": "Storm Beads",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101208,
+        "id": "amakumo_fruit",
+        "name": "Amakumo Fruit",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112046,
+        "id": "famed_handguard",
+        "name": "Famed Handguard",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104326,
+          "id": "teachings_of_light",
+          "name": "Teachings of Light",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112044,
+          "id": "old_handguard",
+          "name": "Old Handguard",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104327,
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104327,
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104327,
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104327,
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104328,
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113025,
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104328,
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113025,
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104328,
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113025,
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104328,
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113025,
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 205200,
+      "name": "Narukami's Law",
+      "description": "The Raiden Shogun's outfit. This kimono has been adorned with the Electro Mitsudomoe, granting it the highest honor in the land.",
+      "isDefault": true,
+      "characterName": "Raiden Shogun",
+      "characterId": 10000052,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Shougun_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "No salutations needed. My exalted status shall not be disclosed as we travel among the common folk. I acknowledge that you are a person of superior ability. Henceforth, you will be my guard. Worry not. Should any danger arise, I shall dispose of it."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Idleness",
+      "text": "Inactivity serves no purpose whatsoever. Hmph."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: The Mortal World",
+      "text": "The world remains constant over the centuries. But human life is like the dew at dawn or a bubble rising through water. Transitory."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Worldly Beauty",
+      "text": "All the world holds dear is but a backdrop of constant motion. I stand before it alone and unchanging."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Rainfall alone does not constitute a storm. Thunder is required."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Dear me, that didn't frighten you, did it? After all, you are in the presence of the most supreme and terrifying incarnation of lightning in the whole of Teyvat."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "The Winter Shogun approaches."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "On a Clear Day",
+      "text": "Clear skies can do nothing to hide the brilliance of lightning. Divine bolts can strike even in the absence of rain. Do you see that tree? Wait... you understand? So... demonstration is not required? Good."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Yawning without covering your mouth? Uncouth. I will pardon your rudeness this time. Good morning to you, too."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Time for dessert. What? Why not? What do you mean, \"Entrées come first\"? ...They were only indulging me because I am the Shogun? Huh, interesting."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Do you wish to know the truth about the shooting stars at night? Haha, they are but fleeting moments of luminosity. Uh, you used to be one of them? Are you a tengu warrior?"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "I command the thunder in all corners of the world to cease. Rest well tonight."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About the Raiden Shogun: Transience",
+      "text": "Thunder's roar and lightning's flash. So ephemeral. This is why reaching Eternity is desirable. ...Actually, no — this is why reaching Eternity is necessary."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About the Raiden Shogun: Eternity",
+      "text": "Erosion is a terrible thing. This body's purpose is to withstand wear and tear, that the one within might achieve Eternity."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Okuzumeshuu",
+      "text": "I declare you my chamberlain. In other words, according to my judgment, you are useful to the Shogunate and loyal to me."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Protector",
+      "text": "Despite serving as my guard during this journey, you need not shield me from danger. The Shogun's constitution is rather robust, and in the event she does break down, we can simply get a replacement. In an emergency, just send her into the fray."
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Us: Legacy",
+      "text": "The Inazuman arts of polearm and sword combat, as well as the blade-forging process itself, primarily originated with me. Since then, they have branched out and blossomed into a variety of techniques according to each master's individual aptitude. \\nWhat would you say to another sparring session? If you emerge unscathed again, I'll let you found your own martial arts tradition in Inazuma. Ah, the drive to advance and evolve in the martial arts is truly unstoppable."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Really? So in all this time, no new Electro Visions have appeared in the outside world? Well, what I can say on this topic is subject to certain constraints, but... it is not by my will that Visions are granted or denied. The key is people's desire, and... well, there's another side to it too."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "No, I have nothing to share with you at this time. But you... You use elemental energy without the aid of a Vision. How is this possible? Please enlighten me."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Her body may have perished, but she became the Sacred Sakura. This, too, is a form of Eternity."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Yae Miko",
+      "text": "Ah, that girl... She used to be the kind of person who could easily be swayed with some Fried Tofu. It's a relief to see how shrewd and resourceful she's now become. Still, I have to admit that I was a little upset to become the target of her scheming myself. I know it was for my own good, but I'm afraid she will mock me next time we meet... Perhaps I should take the initiative and strike her first? Hmm, she'll dodge it anyway."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Kamisato Ayato",
+      "text": "Kamisato... One of the most distinguished clans in all of Inazuma. Despite Ayato's trickery in regard to the Tri-Commission's affairs, he is nevertheless a loyal subject. His past misdeeds shall be excused."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Kamisato Ayaka",
+      "text": "Kamisato... One of the most distinguished clans in all of Inazuma. Eh? That's exactly what the Shogun said? Well, A—Ayaka's also well-versed in the art of the sword."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Kujou Sara",
+      "text": "A loyal and righteous subject, and an accomplished warrior. She is worthy to be called a hero. With an heir of such great promise, the future prosperity of the Kujou Clan is assured."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Yoimiya",
+      "text": "Who? Ah, the firework maker. A manufacturer of fleeting illusions, enamored with the realm of fantasy and imagination, but a subject of mine nonetheless. \\nHmm? Fireworks were released on Tenryou Commission property? By whom... her?"
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Thoma",
+      "text": "I can't deny that I am somewhat culpable in the events that led to him being almost stripped of his Vision, but I rather think the Shogun should be the one to extend a formal apology to him... Okay, fine. I'll give it some more thought."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Sangonomiya Kokomi",
+      "text": "Indeed. It was I who slew Orobaxi. But I also allowed the people of Sangonomiya to continue worshiping it as the Watatsumi Omikami, so that it might enjoy their offerings. Now, Sangonomiya has destroyed the local Narukami Shrine and rebels against the Shogunate. As the Divine Priestess representing the Watatsumi Omikami, she must be held accountable."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Kunikuzushi",
+      "text": "He came about as a byproduct of creating the Shogun. Perhaps it's because I feel like I owe him something, but I do not wish to assert control over him."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Arataki Itto",
+      "text": "Who?"
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Morax",
+      "text": "I had an opportunity to feast with him once, back when I was just a kagemusha attending a gathering of the gods. So he's made his choice. Be that as it may, I don't believe his story is anywhere near finished yet."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Venti",
+      "text": "Hmm. So, the Anemo Archon still goes by that name among mortals these days? Truth be told, from the very first moment I met him, I could somehow sense that we were not going to get along. Also, he sure can drink a lot."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Buer",
+      "text": "I admire her humility; it is a sign of true wisdom. With the power she holds, Buer is capable of doing many things beyond our wildest imaginations... and yet, she uses her power only to right wrongs and to protect. She is a truly gentle god."
+    },
+    {
+      "id": "4013",
+      "type": 1,
+      "title": "About Furina",
+      "text": "For five centuries I dueled the Raiden Shogun in my personal realm of consciousness, to confirm the steadfastness of my will. Yet this Furina you speak of, though possessing only a frail human body, committed herself to acting out her part every second of every day for five hundred years — a true battle of the spirit. Her willpower has indeed reached the level of a god."
+    },
+    {
+      "id": "4015",
+      "type": 1,
+      "title": "About Haborym",
+      "text": "When I arrived in Khaenri'ah five hundred years ago, I saw a battlefield of scorched earth on the level of Musoujin Gorge. The fury of the Pyro Archon... that was said to be the cause. Now, I have the opportunity to meet that human once again... Perhaps you could introduce me? We are both warriors. It would be nice to find a spacious place to engage in a practical exchange."
+    },
+    {
+      "id": "4014",
+      "type": 1,
+      "title": "About Yumemizuki Mizuki",
+      "text": "Yumemizuki Mizuki is one of Miko's old acquaintances, but I struggle to understand their friendship. Though they share an irreplaceable bond, they seem reluctant to associate with each other in public, instead engaging in a long-standing business feud. In the end, much of their rivalry centers around projects that end up improving people's lives, so I see no reason to intervene."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About the Raiden Shogun: I",
+      "text": "State your query. To the point."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About the Raiden Shogun: II",
+      "text": "On stormy days, the people of Inazuma chant \"kuwabara, kuwabara,\" believing that this will protect themselves from being struck by lightning. You need not worry about any storm summoned by my own hand — they will bring you no harm. Lightning storms that occur naturally, however, can be more unpredictable."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Ei: III",
+      "text": "The account given in the book \"Treasured Tales\" is largely an accurate one. At that time, she was preoccupied with various domestic matters within the island, so as her kagemusha, I assumed her identity and joined the troops dispatched to pacify Watatsumi. After this point, however, the story turns into mere wishful thinking. Back then, I was just a martial artist wrapped up in all the fighting, not a social reformer or a moral leader."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Ei: IV",
+      "text": "Perhaps my pursuit of Eternity is nothing more than a form of escapism. In the end, the path I took was like that of a turtle who hides in its shell. Still, turtles have always been a symbol of longevity. Perhaps in order to reach Eternity, one has to follow their example."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Ei: V",
+      "text": "I'm fearful because of what I witnessed five hundred years ago — her demise and... that thing. But, if... If it were you, everyone would be safe. You would've saved the world. Just like I cherish the memories of everything in Inazuma, if you remember me, I'll live forever."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "The Raiden Shogun's Hobbies",
+      "text": "Foolish question. There are only two kinds of things — those that must be done and those that must not."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Ei's Troubles",
+      "text": "Don't try and get me to cook. I can take care of anything else, but not that."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Oh, don't listen to the Shogun. Desserts! Cavities are no big deal — you can just replace your teeth. Anyway, I just don't see how desserts can pose a serious obstacle to my pursuit of Eternity."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Foolish question. There are only two kinds of foods — those that must be consumed to nourish the body and those that harm it."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "A familiar flavor... Acceptable."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Leave it here, and I shall sample it."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Consuming this would be physically detrimental. Remove it from my presence."
+    },
+    {
+      "id": "6010",
+      "type": 1,
+      "title": "Receiving a Gift: IV",
+      "text": "Delicious. I feel much better after that. Thank you."
+    },
+    {
+      "id": "6011",
+      "type": 1,
+      "title": "Receiving a Gift: V",
+      "text": "Doesn't look too bad, how did you make it?"
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Receiving a Gift: VI",
+      "text": "Allow me to decline."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birth Date",
+      "text": "Is today the day of your creation? Return to the city with me. I will read out a speech for you in front of all my attendants. \"Embarrassing\"? ...Understood."
+    },
+    {
+      "id": "7002",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday! Let's celebrate together and make it a moment to remember for the whole year until your next birthday celebration, and so on and so forth. Then, you shall have an eternity of happiness."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "The initial stage of my journey, or Shoden, involves learning the nine-way sword slash and the foundations of the art of the polearm. There is no great variation from other traditions at this point. Or rather, it is the other traditions that do not differ from mine."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "At the intermediate stage of my journey, or Chuuden, the art of the sword focuses on the study of various stances and transitions. The art of the polearm — slashes and backslashes."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "The final stage of my journey, or Kaiden, is the study of the most profound techniques. Unavoidably, these draw heavily on elemental power, rendering them beyond the capabilities of most mortals. Most practitioners of other traditions are unable to ever reach this level."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "The profoundest of the profound is the Musou no Hitotachi. A sword art without parallel in all the world. With you as my sparring partner, I can perfect that technique even further."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Shine down!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "There is no escape!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Illusion shattered!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Torn to oblivion!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Now, you shall perish!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Inazuma shines eternal!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Take them. I have no need."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "...But a momentary distraction."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Hmm?"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "...Transcend all constraints."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "...Erase all threats."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "...Remove all obstacles."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Fall back and await my orders."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Step aside."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "The mortal plane... A fleeting dream..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Detached from the world..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "The thunder falls silent..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Insolent!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Absurd!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "What is the situation?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Stay close and you will live."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "The campaign begins."
+    }
+  ]
+}

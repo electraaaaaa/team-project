@@ -1,0 +1,1815 @@
+{
+  "_id": 10000098,
+  "id": "clorinde",
+  "name": "Clorinde",
+  "title": "Candlebearer, Shadowhunter",
+  "description": "An undefeated Champion Duelist. Sword in hand, she defends justice in the Court of Fontaine.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "electro",
+    "name": "Electro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1717448400,
+  "substat": "CRIT Rate",
+  "stats": {
+    "base": {
+      "hp": 1008.61255,
+      "attack": 26.2542,
+      "defense": 61.0266
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 864.79407,
+        "attack": 22.508959,
+        "defense": 52.326,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1479.253,
+        "attack": 38.502167,
+        "defense": 89.505,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.048
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2298.5315,
+        "attack": 59.826443,
+        "defense": 139.077,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2912.9905,
+        "attack": 75.81965,
+        "defense": 176.256,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3527.4495,
+        "attack": 91.81286,
+        "defense": 213.435,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4141.908,
+        "attack": 107.80606,
+        "defense": 250.614,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.192
+        }
+      }
+    ]
+  },
+  "affiliation": "Trial Court",
+  "region": {
+    "id": "fontaine",
+    "name": "Fontaine"
+  },
+  "rarity": 5,
+  "birthday": [
+    20,
+    9
+  ],
+  "constellation": "Rapperia",
+  "domain": "Pale Forgotten Glory",
+  "cv": {
+    "english": "Crystal Lee",
+    "chinese": "赵涵雨",
+    "japanese": "石川由依",
+    "korean": "Shin Na-ri"
+  },
+  "skills": [
+    {
+      "_id": 10981,
+      "id": "oath_of_hunting_shadows",
+      "name": "Oath of Hunting Shadows",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 rapid strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina and fires Suppressing Shots in a fan pattern with her pistolet.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "54.1%",
+            "58.5%",
+            "62.9%",
+            "69.1%",
+            "73.5%",
+            "78.6%",
+            "85.5%",
+            "92.4%",
+            "99.3%",
+            "106.9%",
+            "114.4%",
+            "121.9%",
+            "129.5%",
+            "137%",
+            "144.6%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "51.6%",
+            "55.8%",
+            "60%",
+            "66%",
+            "70.2%",
+            "75%",
+            "81.6%",
+            "88.2%",
+            "94.9%",
+            "102.1%",
+            "109.3%",
+            "116.5%",
+            "123.7%",
+            "130.9%",
+            "138.1%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "34.2% + 34.2%",
+            "37% + 37%",
+            "39.8% + 39.8%",
+            "43.7% + 43.7%",
+            "46.5% + 46.5%",
+            "49.7% + 49.7%",
+            "54.1% + 54.1%",
+            "58.4% + 58.4%",
+            "62.8% + 62.8%",
+            "67.6% + 67.6%",
+            "72.3% + 72.3%",
+            "77.1% + 77.1%",
+            "81.9% + 81.9%",
+            "86.7% + 86.7%",
+            "91.4% + 91.4%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "23.1% + 23.1%+23.1%",
+            "25% + 25%+25%",
+            "26.9% + 26.9%+26.9%",
+            "29.6% + 29.6%+29.6%",
+            "31.5% + 31.5%+31.5%",
+            "33.6% + 33.6%+33.6%",
+            "36.6% + 36.6%+36.6%",
+            "39.5% + 39.5%+39.5%",
+            "42.5% + 42.5%+42.5%",
+            "45.7% + 45.7%+45.7%",
+            "49% + 49%+49%",
+            "52.2% + 52.2%+52.2%",
+            "55.4% + 55.4%+55.4%",
+            "58.6% + 58.6%+58.6%",
+            "61.9% + 61.9%+61.9%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "90%",
+            "97.3%",
+            "104.7%",
+            "115.1%",
+            "122.5%",
+            "130.8%",
+            "142.3%",
+            "153.9%",
+            "165.4%",
+            "177.9%",
+            "190.5%",
+            "203%",
+            "215.6%",
+            "228.2%",
+            "240.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "128.1%",
+            "138.6%",
+            "149%",
+            "163.9%",
+            "174.3%",
+            "186.3%",
+            "202.6%",
+            "219%",
+            "235.4%",
+            "253.3%",
+            "271.2%",
+            "289.1%",
+            "306.9%",
+            "324.8%",
+            "342.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10982,
+      "id": "hunters_vigil",
+      "name": "Hunter's Vigil",
+      "description": "Preparing her pistolet, she enters the \"Night Vigil\" state, using steel and shot together. In this state, Clorinde's Normal Attacks will be transformed into \"Swift Hunt\" pistolet attacks, and the DMG dealt is converted into <span style=\"color:#FFACFFFF\">Electro DMG</span> that cannot be overridden by infusions, and she will be unable to use Charged Attacks. Using her Elemental Skill will transform it into \"Impale the Night\": Perform a lunging attack, dealing <span style=\"color:#FFACFFFF\">Electro DMG</span>. The DMG done through the aforementioned method is considered Normal Attack DMG.<br/><br/><span style=\"color:#FFD780FF\">Swift Hunt</span><br/>· When her Bond of Life is equal to or greater than 100% of her max HP: Performs a pistolet shot.<br/>· When her Bond of Life is less than 100%, firing her pistolet will grant her Bond of Life, with the amount gained based on her max HP. The shots she fires can pierce opponents, and DMG dealt to opponents in their path is increased.<br/><br/><span style=\"color:#FFD780FF\">Impale the Night</span><br/>The current percentage value of Clorinde's Bond of Life determines its effect:<br/>· When the Bond of Life value is 0%, perform a normal lunging strike;<br/>· When the Bond of Life value is less than 100% of her max HP, Clorinde is healed based on the Bond of Life value, and the AoE of the lunging attack and the DMG dealt is increased;<br/>· When the value of the Bond of Life is equal to or greater than 100% of her max HP, use Impale the Night: Pact. The healing multiplier is increased, and the AoE and DMG dealt by the lunge is increased even further.<br/><br/>In addition, when Clorinde is in the Night Vigil state, healing effects other than Impale the Night will not take effect and will instead be converted into a Bond of Life that is a percentage of the healing that would have been received.<br/><br/>Clorinde will exit the \"Night Vigil\" state when she leaves the field.<br/><br/><span style=\"color:#FFD780FF\">Arkhe: Ousia</span><br/>Periodically, when Clorinde's Swift Hunt shots strike opponents, she will summon a Surging Blade at the position hit that deals Ousia-aligned <span style=\"color:#FFACFFFF\">Electro DMG</span>.",
+      "info": "Though the evil that lurked in the shadows of the night had been purged across thousands of years, a shadow that the light could not reach clouded human hearts.<br/>Even now, the warning left by the Golden Hunter is etched into her memory: Those of the Night Vigil, carrying aloft lit candles against the blackness, have greater need still to remain vigilant. Be not corrupted by the cold dark.",
+      "attributes": [
+        {
+          "label": "Swift Hunt DMG",
+          "values": [
+            "26.8% / 38.8%",
+            "28.9% / 41.9%",
+            "31.1% / 45.1%",
+            "34.2% / 49.6%",
+            "36.4% / 52.8%",
+            "38.9% / 56.4%",
+            "42.3% / 61.3%",
+            "45.7% / 66.3%",
+            "49.2% / 71.3%",
+            "52.9% / 76.7%",
+            "56.6% / 82.1%",
+            "60.4% / 87.5%",
+            "64.1% / 92.9%",
+            "67.8% / 98.3%",
+            "71.6% / 103.7%"
+          ]
+        },
+        {
+          "label": "Swift Hunt Bond of Life Gain",
+          "values": [
+            "35% Max HP",
+            "35% Max HP",
+            "35% Max HP",
+            "35% Max HP",
+            "35% Max HP",
+            "35% Max HP",
+            "35% Max HP",
+            "35% Max HP",
+            "35% Max HP",
+            "35% Max HP",
+            "35% Max HP",
+            "35% Max HP",
+            "35% Max HP",
+            "35% Max HP",
+            "35% Max HP"
+          ]
+        },
+        {
+          "label": "Impale the Night DMG",
+          "values": [
+            "33% / 44% / 25.1%×3",
+            "35.7% / 47.5% / 27.2%×3",
+            "38.3% / 51.1% / 29.2%×3",
+            "42.2% / 56.2% / 32.1%×3",
+            "44.9% / 59.8% / 34.2%×3",
+            "47.9% / 63.9% / 36.5%×3",
+            "52.1% / 69.5% / 39.7%×3",
+            "56.4% / 75.1% / 42.9%×3",
+            "60.6% / 80.8% / 46.1%×3",
+            "65.2% / 86.9% / 49.6%×3",
+            "69.8% / 93% / 53.1%×3",
+            "74.4% / 99.2% / 56.6%×3",
+            "79% / 105.3% / 60.2%×3",
+            "83.6% / 111.4% / 63.7%×3",
+            "88.2% / 117.6% / 67.2%×3"
+          ]
+        },
+        {
+          "label": "Impale the Night Healing",
+          "values": [
+            "0% / 104% / 110% Bond of Life",
+            "0% / 104% / 110% Bond of Life",
+            "0% / 104% / 110% Bond of Life",
+            "0% / 104% / 110% Bond of Life",
+            "0% / 104% / 110% Bond of Life",
+            "0% / 104% / 110% Bond of Life",
+            "0% / 104% / 110% Bond of Life",
+            "0% / 104% / 110% Bond of Life",
+            "0% / 104% / 110% Bond of Life",
+            "0% / 104% / 110% Bond of Life",
+            "0% / 104% / 110% Bond of Life",
+            "0% / 104% / 110% Bond of Life",
+            "0% / 104% / 110% Bond of Life",
+            "0% / 104% / 110% Bond of Life",
+            "0% / 104% / 110% Bond of Life"
+          ]
+        },
+        {
+          "label": "Bond of Life Conversion",
+          "values": [
+            "80% Healing",
+            "80% Healing",
+            "80% Healing",
+            "80% Healing",
+            "80% Healing",
+            "80% Healing",
+            "80% Healing",
+            "80% Healing",
+            "80% Healing",
+            "80% Healing",
+            "80% Healing",
+            "80% Healing",
+            "80% Healing",
+            "80% Healing",
+            "80% Healing"
+          ]
+        },
+        {
+          "label": "Surging Blade DMG",
+          "values": [
+            "43.2%",
+            "46.4%",
+            "49.7%",
+            "54%",
+            "57.2%",
+            "60.5%",
+            "64.8%",
+            "69.1%",
+            "73.4%",
+            "77.8%",
+            "82.1%",
+            "86.4%",
+            "91.8%",
+            "97.2%",
+            "102.6%"
+          ]
+        },
+        {
+          "label": "Surging Blade Interval",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "Night Vigil Duration",
+          "values": [
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10985,
+      "id": "last_lightfall",
+      "name": "Last Lightfall",
+      "description": "Grants herself a Bond of Life based upon her own max HP before swiftly evading and striking with saber and sidearm as one, dealing <span style=\"color:#FFACFFFF\">AoE Electro DMG</span>.",
+      "info": "It is said the legacy of the ancient art of resisting non-human beings with but a mortal body can be traced back to the Lochknights who resisted the Remurian Empire.<br/>Be that as it may, so long as one can find a way to control the level of force used, it's not as if it cannot be used in duels against ordinary opponents.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "126.9%×5",
+            "136.4%×5",
+            "145.9%×5",
+            "158.6%×5",
+            "168.1%×5",
+            "177.6%×5",
+            "190.3%×5",
+            "203%×5",
+            "215.7%×5",
+            "228.4%×5",
+            "241.1%×5",
+            "253.8%×5",
+            "269.6%×5",
+            "285.5%×5",
+            "301.3%×5"
+          ]
+        },
+        {
+          "label": "Bond of Life Gain",
+          "values": [
+            "66% Max HP",
+            "72% Max HP",
+            "78% Max HP",
+            "84% Max HP",
+            "90% Max HP",
+            "96% Max HP",
+            "102% Max HP",
+            "108% Max HP",
+            "114% Max HP",
+            "120% Max HP",
+            "126% Max HP",
+            "132% Max HP",
+            "138% Max HP",
+            "144% Max HP",
+            "150% Max HP"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "darkshattering_flame",
+      "name": "Dark-Shattering Flame",
+      "description": "After a nearby party member triggers an <span style=\"color:#FFACFFFF\">Electro-related reaction</span> against an opponent, <span style=\"color:#FFACFFFF\">Electro DMG</span> dealt by Clorinde's Normal Attacks and <span style=\"color:#FFD780FF\">Last Lightfall</span> will be increased by 20% of Clorinde's ATK for 15s. Max 3 stacks. Each stack is counted independently. The Maximum DMG increase achievable this way for the above attacks is 1,800.",
+      "level": 1
+    },
+    {
+      "id": "lawful_remuneration",
+      "name": "Lawful Remuneration",
+      "description": "If Clorinde's Bond of Life is equal to or greater than 100% of her Max HP, her CRIT Rate will increase by 10% for 15s whenever her Bond of Life value increases or decreases. Max 2 stacks. Each stack is counted independently.<br/>Additionally, <span style=\"color:#FFD780FF\">Hunter's Vigil</span>'s Night Vigil state is buffed: While it is active, the percent of healing converted to Bond of Life increases to 100%.",
+      "level": 4
+    },
+    {
+      "id": "night_vigils_harvest",
+      "name": "Night Vigil's Harvest",
+      "description": "Displays the location of nearby <span style=\"color:#FFD780FF\">resources unique to Fontaine</span> on the mini-map.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 981,
+      "id": "from_this_day_i_pass_the_candles_shadowveil",
+      "name": "\"From This Day, I Pass the Candle's Shadow-Veil\"",
+      "description": "While <span style=\"color:#FFD780FF\">Hunter's Vigil</span>'s Night Vigil state is active, when <span style=\"color:#FFACFFFF\">Electro DMG</span> from Clorinde's Normal Attacks hit opponents, they will trigger 2 coordinated attacks from a Nightvigil Shade summoned near the hit opponent, each dealing 30% of Clorinde's ATK as <span style=\"color:#FFACFFFF\">Electro DMG</span>.<br/>This effect can occur once every 1.2s. DMG dealt this way is considered Normal Attack DMG.",
+      "level": 1
+    },
+    {
+      "_id": 982,
+      "id": "now_as_we_face_the_perils_of_the_long_night",
+      "name": "\"Now, As We Face the Perils of the Long Night\"",
+      "description": "Enhance the Ascension Talent \"Dark-Shattering Flame\": After a nearby party member triggers an <span style=\"color:#FFACFFFF\">Electro-related reaction</span> against an opponent, <span style=\"color:#FFACFFFF\">Electro DMG</span> dealt by Clorinde's Normal Attacks and <span style=\"color:#FFD780FF\">Last Lightfall</span> will be increased by 30% of Clorinde's ATK for 15s. Max 3 stacks. Each stack is counted independently. When you have 3 stacks, Clorinde's interruption resistance will be increased. The Maximum DMG increase achievable this way for the above attacks is 2,700.<br/>You must first unlock the Ascension Talent \"Dark-Shattering Flame.\"",
+      "level": 2
+    },
+    {
+      "_id": 983,
+      "id": "i_pledge_to_remember_the_oath_of_daylight",
+      "name": "\"I Pledge to Remember the Oath of Daylight\"",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Hunter's Vigil</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 984,
+      "id": "to_enshrine_tears_life_and_love",
+      "name": "\"To Enshrine Tears, Life, and Love\"",
+      "description": "When <span style=\"color:#FFD780FF\">Last Lightfall</span> deals DMG to opponent(s), DMG dealt is increased based on Clorinde's Bond of Life percentage. Every 1% of her current Bond of Life will increase <span style=\"color:#FFD780FF\">Last Lightfall</span> DMG by 2%. The maximum <span style=\"color:#FFD780FF\">Last Lightfall</span> DMG increase achievable this way is 200%.",
+      "level": 4
+    },
+    {
+      "_id": 985,
+      "id": "holding_dawns_coming_as_my_votive",
+      "name": "\"Holding Dawn's Coming as My Votive\"",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Last Lightfall</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 986,
+      "id": "and_so_shall_i_never_despair",
+      "name": "\"And So Shall I Never Despair\"",
+      "description": "For 12s after <span style=\"color:#FFD780FF\">Hunter's Vigil</span> is used, Clorinde's CRIT Rate will be increased by 10%, and her CRIT DMG by 70%.<br/>Additionally, while Night Vigil is active, a Glimbright Shade will appear under specific circumstances, executing an attack that deals 200% of Clorinde's ATK as <span style=\"color:#FFACFFFF\">Electro DMG</span>. DMG dealt this way is considered Normal Attack DMG.<br/>The Glimbright Shade will appear under the following circumstances:<br/>· When Clorinde is about to be hit by an attack.<br/>· When Clorinde uses Impale the Night: Pact.<br/>1 Glimbright Shade can be summoned in the aforementioned ways every 1s. 6 Shades can be summoned per single Night Vigil duration.<br/>In addition, while Night Vigil is active, the DMG Clorinde receives is decreased by 80% and her interruption resistance is increased. This effect will disappear after the Night Vigil state ends or 1s after she summons 6 Glimbright Shades.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1009"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "26"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "61"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "-",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2616",
+            "3481"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "68",
+            "91"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "158",
+            "211"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5209",
+            "5823"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "136",
+            "152"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "315",
+            "352"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "9.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104141,
+        "id": "vajrada_amethyst_sliver",
+        "name": "Vajrada Amethyst Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101237,
+        "id": "lumitoile",
+        "name": "Lumitoile",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112080,
+        "id": "transoceanic_pearl",
+        "name": "Transoceanic Pearl",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6700",
+            "7519"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "174",
+            "196"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "405",
+            "455"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "9.8%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113053,
+        "id": "fontemer_unihorn",
+        "name": "Fontemer Unihorn",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101237,
+        "id": "lumitoile",
+        "name": "Lumitoile",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112080,
+        "id": "transoceanic_pearl",
+        "name": "Transoceanic Pearl",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8405",
+            "9019"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "219",
+            "235"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "509",
+            "546"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113053,
+        "id": "fontemer_unihorn",
+        "name": "Fontemer Unihorn",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101237,
+        "id": "lumitoile",
+        "name": "Lumitoile",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112081,
+        "id": "transoceanic_chunk",
+        "name": "Transoceanic Chunk",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9913",
+            "10527"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "258",
+            "274"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "600",
+            "637"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "19.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113053,
+        "id": "fontemer_unihorn",
+        "name": "Fontemer Unihorn",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101237,
+        "id": "lumitoile",
+        "name": "Lumitoile",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112081,
+        "id": "transoceanic_chunk",
+        "name": "Transoceanic Chunk",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11431",
+            "12045"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "298",
+            "314"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "692",
+            "729"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "19.4%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113053,
+        "id": "fontemer_unihorn",
+        "name": "Fontemer Unihorn",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101237,
+        "id": "lumitoile",
+        "name": "Lumitoile",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112082,
+        "id": "xenochromatic_crystal",
+        "name": "Xenochromatic Crystal",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12956",
+            "12956"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "337",
+            "337"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "784",
+            "784"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "24.2%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104144,
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Vajrada Amethyst Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113053,
+        "id": "fontemer_unihorn",
+        "name": "Fontemer Unihorn",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101237,
+        "id": "lumitoile",
+        "name": "Lumitoile",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112082,
+        "id": "xenochromatic_crystal",
+        "name": "Xenochromatic Crystal",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104341,
+          "id": "teachings_of_justice",
+          "name": "Teachings of Justice",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112080,
+          "id": "transoceanic_pearl",
+          "name": "Transoceanic Pearl",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112081,
+          "id": "transoceanic_chunk",
+          "name": "Transoceanic Chunk",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112081,
+          "id": "transoceanic_chunk",
+          "name": "Transoceanic Chunk",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112081,
+          "id": "transoceanic_chunk",
+          "name": "Transoceanic Chunk",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112081,
+          "id": "transoceanic_chunk",
+          "name": "Transoceanic Chunk",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112082,
+          "id": "xenochromatic_crystal",
+          "name": "Xenochromatic Crystal",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113048,
+          "id": "everamber",
+          "name": "Everamber",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112082,
+          "id": "xenochromatic_crystal",
+          "name": "Xenochromatic Crystal",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113048,
+          "id": "everamber",
+          "name": "Everamber",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112082,
+          "id": "xenochromatic_crystal",
+          "name": "Xenochromatic Crystal",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113048,
+          "id": "everamber",
+          "name": "Everamber",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112082,
+          "id": "xenochromatic_crystal",
+          "name": "Xenochromatic Crystal",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113048,
+          "id": "everamber",
+          "name": "Everamber",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 209800,
+      "name": "Sword of Honor",
+      "description": "Clorinde's outfit. Without the strength to enforce their authority, the dignity of the law and the order of justice start to seem fragile indeed. And Clorinde in her work uniform is the ultimate guarantor.",
+      "isDefault": true,
+      "characterName": "Clorinde",
+      "characterId": 10000098,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Clorinde_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Greetings. I am Clorinde, a Champion Duelist of the Court of Fontaine. If you wish to hire my services, please state the nature of your dispute... You may leave out any extraneous details, those are no concern of mine."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Opponents",
+      "text": "I've faced many opponents in my duels. Most of them, I defeated. The rest surrendered. ...Hm? No. I have never lost a duel."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Champion Duelist",
+      "text": "In my role as Champion Duelist, my opinions do not matter. For when I draw my blade, I am but an instrument of Fontaine's law."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Secret to Success",
+      "text": "A duel is a battle of wills, and the sword an extension of the duelist's spirit. If your heart recoils in fear, then your sword may as well be in its scabbard, because you will not wield it effectively against your foe."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Prey will usually rest on rainy days. But not the hunter."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "The battle between wind and rain appears to have reached its end."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Hopefully, that was the sound of one more villain being removed from the world."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "This is a new sight for me. A rather bleak one, I must say."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "...I have never missed Fontaine so much in all my life."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning. I'm going for coffee shortly, would you like to join me? I brought coffee cups — you can borrow one if you need."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Apologies, I don't get off work till later. Here, take this sandwich. It'll keep the wolf from the door."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "I'm afraid I'm unable to share any wine recommendations with you. But I can recommend a few lesser-known restaurants that are well worth a visit."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Goodnight. I'll be heading to bed as soon as I've completed my nightly weapon maintenance."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Clorinde: News Reports",
+      "text": "Every newspaper is plagued by reporting that is neither particularly fair, nor remotely just. Some writers allow their views to be swayed by personal connections and promises of Mora.\\nIf you want to find out the truth of a situation, the best way is to go to the people directly involved. Ask your own questions, and come to your own conclusions.\\nAt the very least, don't let other people's deceitful tongues serve as a substitute for your own brain."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Clorinde: Muskets and Swords",
+      "text": "My choice of weapons follows the Marechaussee Hunter tradition. A Musket to chase away my prey, and a sword to deliver it a fatal strike.\\nIn duels, of course, I typically only use my sword. Once you set foot in the Duelists' Ring, there is nowhere to run, and therefore no need to chase you away."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Ceremony",
+      "text": "Before every duel, I wipe my sword down with a cloth soaked in a special cleaning liquid. It's partly to keep it in good working order, but it also helps me to remain calm and rid my mind of any intrusive thoughts.\\nYou're a fellow sword-wielder. Do you have any similar rituals?"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: People and the Shadow of Evil",
+      "text": "Many of my habits are customs I've adopted from the Marechaussee Hunter tradition. They fought against monsters, while I fight against lawbreakers. But monsters are evil by nature, it is all they know. The same cannot be said for the corrupt of humanity, who have the ability and opportunity to do good, yet willingly choose the path of evil.\\nAnd you? What is your reason for carrying a blade?"
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "After I received my Vision, the amount of people surrendering to me in duels went up substantially. Some duelists even think I use it as an intimidation tactic.\\nI always thought my undefeated track record was enough of an intimidation tactic. Perhaps I should aim to win more dramatically in future duels."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "I've seen many people get into a dispute over the most trivial thing, take it as a grave affront to their personal dignity, and end up bringing the matter to court. As if that's not already ridiculous enough, they then opt for a duel.\\nAs a Champion Duelist, I have no qualms about settling matters of honor with a duel. Still... How can I put this? For the average citizen of Fontaine, I would have thought that questions like whether Marcotte really belongs in coffee are not so crucial to resolve that they warrant the drawing of swords..."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "You've seen Bloatty Floatties before, yes? It's hard to predict where they will fly to and how fast, which makes them good for target practice. Or rather, they would be, if you didn't have to go out into the wild to find one... If only someone out there was willing to cultivate them domestically."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Charlotte",
+      "text": "Charlotte is one of the more tactful journalists out there. I don't have anything negative to say about her.\\nUnlike some, she doesn't ambush me with her Kamera on my way to work, or follow me to the coffee shop to report on what I'm drinking today... And most commendably of all, she is well aware that I do not do interviews and doesn't nag me about it continuously."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Furina",
+      "text": "In the past, I always stood behind her at tea parties, sword at the ready. But now, I get to sit at the table and enjoy the tea and treats along with her.\\nI'm now beginning to understand why she complains all the time about how hard it is to maintain her physique."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Navia",
+      "text": "Navia's been in a good mood lately. It seems like every other day she's asking me to join her at Tabletop Troupe for a new script.\\nThe story is always so different. Save for the few times when I've taken the role of Game Master, I often play in character and join her on the adventure. But I do try to avoid playing any characters from the court, so as not to make the atmosphere too serious..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Neuvillette",
+      "text": "No one is in any doubt as to the Iudex's authority. He always delivers a fair verdict — and when necessary, I will reiterate the fairness of this verdict with my sword."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Chevreuse",
+      "text": "Ah yes, Captain Chevreuse. That's a name I've heard before. She has been landed with lawsuits on several occasions, after being accused of using excessive force when arresting culprits. She refuted the allegations just as forcefully during her testimony, leaving the plaintiff speechless. I think she's outstanding."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Lyney",
+      "text": "I have to applaud the great magician for the level of professionalism he displays in his craft. If I ever have the time, I would very much like to enjoy one of his shows as a regular audience member."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Freminet",
+      "text": "One day, I received a parcel containing a miniature mechanical toy and a thank-you card. The toy was exquisitely made. I must thank Mr. Freminet in person when I get the opportunity... Hm? The opportunity may be hard to come by, you say? Very well, then I too shall write a thank-you card. Please pass it on to him for me."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Chiori",
+      "text": "I've bought clothes from her store before. They're good quality. But most of the time, I prefer to wear my work uniform. Partly because it serves to clearly communicate my identity, and partly because I like things that are familiar. Just like my sword, this uniform is familiar and functional — I have no desire to change it."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Wriothesley",
+      "text": "Managing the Fortress of Meropide is no mean feat. Wriothesley is undoubtedly a highly capable person if he can maintain relative stability in a place like that.\\nI highly suspect that he keeps quiet about some of the methods he uses, but there's no way we can know."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Sigewinne",
+      "text": "Miss Sigewinne is an excellent nurse, equally adept at treating the injured and comforting the distressed. I'm sure that her kind and loving nature brings out what little good there may be even in the vilest offenders of the Fortress of Meropide.\\nAnd maybe that just might serve as enough of a motivation for them to change their ways."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Emilie",
+      "text": "I've heard that she's a perfumer. I've also heard a little about her true profession. I saw her out on the street once. She was stroking a little dog, and had a gentle smile on her face. We nodded at each other, then each went our separate ways."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Clorinde: I",
+      "text": "A Champion Duelist's job is not that complicated. In fact, you could say it's one of the simplest jobs there is. Defeat your opponent, as requested by the Trial Court. That's all there is to it.\\n...Perhaps that's why some people colloquially refer to me as an \"executioner.\""
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Clorinde: II",
+      "text": "I always do what I can to ensure every duel is a fair fight. If my opponent has impaired vision, I cover my eyes. If their mobility is limited, I restrict my range of movement. Whatever happens, every duel I participate in must be fair."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Clorinde: III",
+      "text": "I've lost count of how many times I've had people surrender right before the duel begins. When someone lacks the courage even to draw their weapon, I'm inclined to think that whatever grievance and claims of reputational damage brought them to this point are just the skewed opinions of a self-serving individual.\\nLong before they face me, they are the architects of their own defeat. I needn't make a move when someone is a prisoner of their own soul."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Clorinde: IV",
+      "text": "Have you ever seen a guilty person on trial? In my experience, they always twist the truth in an effort to protest their innocence. Violence is explained away as virtue, and evil as good... But whatever their excuse, it always ends the same way: \"It was a momentary lapse of judgment, but anyone else in my position would have done the same thing, so don't single me out for punishment.\"\\nThey seek to hide their own foulness by smearing it on everyone else too.\\nTheir lies must be demolished, and the court cleansed of their filth. And that is exactly why I became a Champion Duelist."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Clorinde: V",
+      "text": "I've seen many people seek compassion from the court. No disrespect to them, but they're looking in the wrong place.\\nThe court is a place of impartial justice. And justice... must always remain indifferent, or it cannot prevail.\\nJustice is too easily led astray once human emotion enters the mix. If impartial judgment were to give way to vindictive punishment, vindictiveness at the hand of the court would be every bit as cruel as the crimes perpetrated by lawbreakers."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Clorinde's Hobbies",
+      "text": "Unlike my work as a duelist, being a Game Master in Tabletop Troupe gives me the freedom to stay outside of the story itself. and observe people's reactions without getting personally involved in all the drama. I create and control the world in which they operate... Hmm? Like watching a caged animal caught on a hunt? That's an interesting angle... I'd never thought of it like that before. But I would never give the players a hard time — I just want them to enjoy the story. So it's quite different from hunting."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Clorinde's Troubles",
+      "text": "I do hope those journalists stop harassing me while I'm just trying to enjoy a cup of coffee, buy a bunch of flowers, or read a book. Otherwise, I may have to file a lawsuit to make an example of one or two of them. If they request a duel, I'll make them bring their Kamera, and in the interest of fairness, I too will bring only a Kamera."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I like meaty dishes in general, but only if the meat is fresh. There's nothing like the flavor of freshly hunted meat cooked over the grill with a little salt to taste and a portion of sour fruits on the side. You should come hunting with me some time, I'll cook for you."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I don't enjoy fish. There's too many bones, and I can't stand the smell... Maybe it's because I had my fill of fish as a child."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "The flavor is perfect. Exactly how I like it. Don't let the journalists or gourmets in on this though — they only know how to appreciate food through the lens of a Kamera or the words of a newspaper article."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Mm, this is fine food. I'll enjoy it slowly so it lasts longer."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "...You're lucky this wasn't served in a restaurant, or the diners would be complaining to the chef."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy Birthday. I have a gift for you — it's a short-sword necklace that I made myself.\\nIn the Marechaussee Hunters' tradition, on a new member's first birthday as a hunter, his mentor will make him a short-sword necklace with his name engraved, to be worn with the sword hanging over the chest. This is to symbolize interrogating his own heart at swordpoint: Will I tread the path of treachery, is there doubt in my heart, or am I resolved to eradicate all evil?\\nThough you're not a Marechaussee Hunter, I believe that you're committed, like I am, to fighting the good fight.\\nWhy a sword, and not a musket? Because guns can misfire. Also, there's something a little inelegant about interrogating your heart at gunpoint."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Interesting... This is certainly an improvement."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Even my sword feels more at home in my hand now. Like an extension of my own body."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "I feel like my eyesight just improved... Let me do a test-shot on that leaf over there."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "As a warrior yourself, I don't believe you require my help. But should you ever wish to borrow my strength, I will fight for you with everything I have. As always."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Ready."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Loaded."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Into the shadows!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Hunt them down!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Time to testify."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Where evil lurks, shoot on sight!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "A stroke of good luck. And a very welcome one."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "If these items are unclaimed, we may take them without controversy."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "First to find gets to stake their claim. Seems fair."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Time to finish this."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "This is sheer anarchy..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "...What a disgrace."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Retreat!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "I'll take over. Get to safety."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "The victor... is declared..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "I am... defeated..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "You've cleared your name..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "A sharp shooter."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Enough!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Per your wishes."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Need to hire a duelist?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "My blade will lead us through the shadows."
+    }
+  ]
+}

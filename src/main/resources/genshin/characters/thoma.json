@@ -1,0 +1,1787 @@
+{
+  "_id": 10000050,
+  "id": "thoma",
+  "name": "Thoma",
+  "title": "Protector From Afar",
+  "description": "The Kamisato Clan's housekeeper. A well-known \"fixer\" in Inazuma.",
+  "weapon_type": {
+    "id": "polearm",
+    "name": "Polearm"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1635868800,
+  "substat": "ATK%",
+  "stats": {
+    "base": {
+      "hp": 866.2015,
+      "attack": 16.9176,
+      "defense": 62.9475
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 647.0968,
+        "attack": 12.63861,
+        "defense": 47.025,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1106.8762,
+        "attack": 21.618675,
+        "defense": 80.4375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1719.9153,
+        "attack": 33.592094,
+        "defense": 124.9875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2179.6946,
+        "attack": 42.57216,
+        "defense": 158.4,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2639.4739,
+        "attack": 51.552223,
+        "defense": 191.8125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3099.2532,
+        "attack": 60.53229,
+        "defense": 225.225,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Yashiro Commission",
+  "region": {
+    "id": "inazuma",
+    "name": "Inazuma"
+  },
+  "rarity": 4,
+  "birthday": [
+    9,
+    1
+  ],
+  "constellation": "Rubeum Scutum",
+  "domain": "Violet Court",
+  "cv": {
+    "english": "Christian Banas",
+    "chinese": "张沛",
+    "japanese": "森田成一",
+    "korean": "Ryu Seung-kon"
+  },
+  "skills": [
+    {
+      "_id": 10501,
+      "id": "swiftshatter_spear",
+      "name": "Swiftshatter Spear",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive spear strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "44.4%",
+            "48%",
+            "51.6%",
+            "56.8%",
+            "60.4%",
+            "64.5%",
+            "70.2%",
+            "75.9%",
+            "81.6%",
+            "87.8%",
+            "93.9%",
+            "100.1%",
+            "106.3%",
+            "112.5%",
+            "118.7%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "43.6%",
+            "47.2%",
+            "50.7%",
+            "55.8%",
+            "59.4%",
+            "63.4%",
+            "69%",
+            "74.6%",
+            "80.2%",
+            "86.2%",
+            "92.3%",
+            "98.4%",
+            "104.5%",
+            "110.6%",
+            "116.7%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "26.8%×2",
+            "29%×2",
+            "31.1%×2",
+            "34.3%×2",
+            "36.4%×2",
+            "38.9%×2",
+            "42.4%×2",
+            "45.8%×2",
+            "49.2%×2",
+            "53%×2",
+            "56.7%×2",
+            "60.4%×2",
+            "64.2%×2",
+            "67.9%×2",
+            "71.6%×2"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "67.4%",
+            "72.8%",
+            "78.3%",
+            "86.2%",
+            "91.6%",
+            "97.9%",
+            "106.5%",
+            "115.1%",
+            "123.7%",
+            "133.1%",
+            "142.5%",
+            "151.9%",
+            "161.3%",
+            "170.7%",
+            "180.1%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "112.7%",
+            "121.9%",
+            "131.1%",
+            "144.2%",
+            "153.4%",
+            "163.9%",
+            "178.3%",
+            "192.7%",
+            "207.1%",
+            "222.9%",
+            "238.6%",
+            "254.3%",
+            "270.1%",
+            "285.8%",
+            "301.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10502,
+      "id": "blazing_blessing",
+      "name": "Blazing Blessing",
+      "description": "Thoma vaults forward with his polearm and delivers a flame-filled flying kick that deals <span style=\"color:#FF9999FF\">AoE Pyro DMG</span>, while also summoning a defensive Blazing Barrier. At the moment of casting, Thoma's Elemental Skill applies <span style=\"color:#FF9999FF\">Pyro</span> to himself.<br/>The DMG Absorption of the Blazing Barrier scales off Thoma's Max HP.<br/>The Blazing Barrier has the following traits:<br/>·Absorbs <span style=\"color:#FF9999FF\">Pyro DMG</span> 250% more effectively.<br/>·When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.<br/><br/>The maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.",
+      "info": "As a guest from afar, only the most burning passion would allow one to master the pure and precise spear arts of Inazuma. Thoma's mastery, indeed, is not limited to being the \"swiftest-studying student\" or \"a master of the spear,\" but he has imbued his will to protect others and fend off foes into his art as well.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "146.4%",
+            "157.4%",
+            "168.4%",
+            "183%",
+            "194%",
+            "205%",
+            "219.6%",
+            "234.2%",
+            "248.9%",
+            "263.5%",
+            "278.2%",
+            "292.8%",
+            "311.1%",
+            "329.4%",
+            "347.7%"
+          ]
+        },
+        {
+          "label": "Shield DMG Absorption",
+          "values": [
+            "7.2% Max HP + 693",
+            "7.7% Max HP + 763",
+            "8.3% Max HP + 838",
+            "9% Max HP + 919",
+            "9.5% Max HP + 1005",
+            "10.1% Max HP + 1098",
+            "10.8% Max HP + 1196",
+            "11.5% Max HP + 1300",
+            "12.2% Max HP + 1410",
+            "13% Max HP + 1525",
+            "13.7% Max HP + 1647",
+            "14.4% Max HP + 1774",
+            "15.3% Max HP + 1907",
+            "16.2% Max HP + 2046",
+            "17.1% Max HP + 2190"
+          ]
+        },
+        {
+          "label": "Shield Duration",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        },
+        {
+          "label": "Max Shield DMG Absorption",
+          "values": [
+            "19.6% Max HP + 1887",
+            "21.1% Max HP + 2076",
+            "22.5% Max HP + 2281",
+            "24.5% Max HP + 2501",
+            "26% Max HP + 2737",
+            "27.4% Max HP + 2989",
+            "29.4% Max HP + 3256",
+            "31.4% Max HP + 3539",
+            "33.3% Max HP + 3838",
+            "35.3% Max HP + 4153",
+            "37.2% Max HP + 4483",
+            "39.2% Max HP + 4829",
+            "41.6% Max HP + 5191",
+            "44.1% Max HP + 5568",
+            "46.6% Max HP + 5962"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10505,
+      "id": "crimson_ooyoroi",
+      "name": "Crimson Ooyoroi",
+      "description": "Thoma spins his polearm, slicing at his foes with roaring flames that deal <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> and weave themselves into a Scorching Ooyoroi.<br/><br/><span style=\"color:#FFD780FF\">Scorching Ooyoroi</span><br/>While Scorching Ooyoroi is in effect, the active character's Normal Attacks will trigger Fiery Collapse, dealing <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> and summoning a Blazing Barrier.<br/>Fiery Collapse can be triggered once every 1s.<br/><br/>Except for the amount of DMG they can absorb, the Blazing Barriers created in this way are identical to those created by Thoma's Elemental Skill, Blazing Blessing:<br/>·Absorbs <span style=\"color:#FF9999FF\">Pyro DMG</span> 250% more effectively.<br/>·When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.<br/><br/>The maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.<br/><br/>If Thoma falls, the effects of Scorching Ooyoroi will be cleared.",
+      "info": "\"I will not forget my initial promise. Let this burning flame protect those I cherish, and may it never be extinguished.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "88%",
+            "94.6%",
+            "101.2%",
+            "110%",
+            "116.6%",
+            "123.2%",
+            "132%",
+            "140.8%",
+            "149.6%",
+            "158.4%",
+            "167.2%",
+            "176%",
+            "187%",
+            "198%",
+            "209%"
+          ]
+        },
+        {
+          "label": "Fiery Collapse DMG",
+          "values": [
+            "58%",
+            "62.4%",
+            "66.7%",
+            "72.5%",
+            "76.8%",
+            "81.2%",
+            "87%",
+            "92.8%",
+            "98.6%",
+            "104.4%",
+            "110.2%",
+            "116%",
+            "123.3%",
+            "130.5%",
+            "137.8%"
+          ]
+        },
+        {
+          "label": "Shield DMG Absorption",
+          "values": [
+            "1.1% Max HP + 110",
+            "1.2% Max HP + 121",
+            "1.3% Max HP + 133",
+            "1.4% Max HP + 146",
+            "1.5% Max HP + 160",
+            "1.6% Max HP + 174",
+            "1.7% Max HP + 190",
+            "1.8% Max HP + 206",
+            "1.9% Max HP + 224",
+            "2.1% Max HP + 242",
+            "2.2% Max HP + 261",
+            "2.3% Max HP + 282",
+            "2.4% Max HP + 303",
+            "2.6% Max HP + 325",
+            "2.7% Max HP + 348"
+          ]
+        },
+        {
+          "label": "Shield Duration",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        },
+        {
+          "label": "Scorching Ooyoroi Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "imbricated_armor",
+      "name": "Imbricated Armor",
+      "description": "When your current active character obtains or refreshes a <span style=\"color:#FFD780FF\">Blazing Barrier</span>, this character's Shield Strength will increase by 5% for 6s.<br/>This effect can be triggered once every 0.3s seconds. Max 5 stacks.",
+      "level": 1
+    },
+    {
+      "id": "flaming_assault",
+      "name": "Flaming Assault",
+      "description": "DMG dealt by <span style=\"color:#FFD780FF\">Crimson Ooyoroi</span>'s Fiery Collapse is increased by 2.2% of Thoma's Max HP.",
+      "level": 4
+    },
+    {
+      "id": "snap_and_swing",
+      "name": "Snap and Swing",
+      "description": "When you <span style=\"color:#FFD780FF\">fish</span> successfully in Inazuma, Thoma's help grants a 20% chance of scoring a double catch.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 501,
+      "id": "a_comrades_duty",
+      "name": "A Comrade's Duty",
+      "description": "When a character protected by Thoma's own <span style=\"color:#FFD780FF\">Blazing Barrier</span> (Thoma excluded) is attacked, Thoma's own <span style=\"color:#FFD780FF\">Blazing Blessing</span> CD is decreased by 3s, while his own <span style=\"color:#FFD780FF\">Crimson Ooyoroi</span>'s CD is decreased by 3s.<br/>This effect can be triggered once every 20s.",
+      "level": 1
+    },
+    {
+      "_id": 502,
+      "id": "a_subordinates_skills",
+      "name": "A Subordinate's Skills",
+      "description": "<span style=\"color:#FFD780FF\">Crimson Ooyoroi</span>'s duration is increased by 3s.",
+      "level": 2
+    },
+    {
+      "_id": 503,
+      "id": "fortified_resolve",
+      "name": "Fortified Resolve",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Blazing Blessing</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 504,
+      "id": "longterm_planning",
+      "name": "Long-Term Planning",
+      "description": "After using <span style=\"color:#FFD780FF\">Crimson Ooyoroi</span>, 15 Energy will be restored to Thoma.",
+      "level": 4
+    },
+    {
+      "_id": 505,
+      "id": "raging_wildfire",
+      "name": "Raging Wildfire",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Crimson Ooyoroi</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 506,
+      "id": "burning_heart",
+      "name": "Burning Heart",
+      "description": "When a <span style=\"color:#FFD780FF\">Blazing Barrier</span> is obtained or refreshed, the DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "866"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "17"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "63"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2225",
+            "2872"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "43",
+            "56"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "162",
+            "209"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4302",
+            "4762"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "84",
+            "93"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "313",
+            "346"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104111,
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101209,
+        "id": "fluorescent_fungus",
+        "name": "Fluorescent Fungus",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112035,
+        "id": "treasure_hoarder_insignia",
+        "name": "Treasure Hoarder Insignia",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5478",
+            "6091"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "107",
+            "119"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "398",
+            "443"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113024,
+        "id": "smoldering_pearl",
+        "name": "Smoldering Pearl",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101209,
+        "id": "fluorescent_fungus",
+        "name": "Fluorescent Fungus",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112035,
+        "id": "treasure_hoarder_insignia",
+        "name": "Treasure Hoarder Insignia",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6806",
+            "7266"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "133",
+            "142"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "495",
+            "528"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113024,
+        "id": "smoldering_pearl",
+        "name": "Smoldering Pearl",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101209,
+        "id": "fluorescent_fungus",
+        "name": "Fluorescent Fungus",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112036,
+        "id": "silver_raven_insignia",
+        "name": "Silver Raven Insignia",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7981",
+            "8440"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "156",
+            "165"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "580",
+            "613"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113024,
+        "id": "smoldering_pearl",
+        "name": "Smoldering Pearl",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101209,
+        "id": "fluorescent_fungus",
+        "name": "Fluorescent Fungus",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112036,
+        "id": "silver_raven_insignia",
+        "name": "Silver Raven Insignia",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9156",
+            "9616"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "179",
+            "188"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "665",
+            "699"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113024,
+        "id": "smoldering_pearl",
+        "name": "Smoldering Pearl",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101209,
+        "id": "fluorescent_fungus",
+        "name": "Fluorescent Fungus",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112037,
+        "id": "golden_raven_insignia",
+        "name": "Golden Raven Insignia",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10331",
+            "10331"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "202",
+            "202"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "751",
+            "751"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104114,
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113024,
+        "id": "smoldering_pearl",
+        "name": "Smoldering Pearl",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101209,
+        "id": "fluorescent_fungus",
+        "name": "Fluorescent Fungus",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112037,
+        "id": "golden_raven_insignia",
+        "name": "Golden Raven Insignia",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104320,
+          "id": "teachings_of_transience",
+          "name": "Teachings of Transience",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112035,
+          "id": "treasure_hoarder_insignia",
+          "name": "Treasure Hoarder Insignia",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113026,
+          "id": "hellfire_butterfly",
+          "name": "Hellfire Butterfly",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113026,
+          "id": "hellfire_butterfly",
+          "name": "Hellfire Butterfly",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113026,
+          "id": "hellfire_butterfly",
+          "name": "Hellfire Butterfly",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113026,
+          "id": "hellfire_butterfly",
+          "name": "Hellfire Butterfly",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 205000,
+      "name": "Warrior of Flame",
+      "description": "Thoma's outfit. He cropped the pieces of this light suit of armor till only the thigh and arm guards were left, allowing him to comfortably attend to all matters in and out of combat.",
+      "isDefault": true,
+      "characterName": "Thoma",
+      "characterId": 10000050,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Tohma_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "It's good to meet you at last, Traveler. I've been hearing about you for a long time now. I'm your new buddy, Thoma — as long as that's okay with you, of course!"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Thoma's Treat",
+      "text": "Hey... how about we go for a nice meal some time? My treat, of course."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Concern",
+      "text": "I feel like there's something I forgot to do... hmm, I tidied the courtyard, put the tea on... Eh, it's probably just my mind playing tricks on me."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Mora",
+      "text": "I really did spend a lot recently, only 10 Mora left... Still, 10 Mora's better than no Mora!"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Where'd this rain come from? Are you gonna be okay? Here, I'll lend you my coat..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "You don't wanna be out in open country in this kind of weather. You'll get struck by lightning for sure."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Don't run on the ice... 'cause if you fall down, I won't help you up, you gotta learn somehow."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Lovely weather we're having! Will you join me for a walk?"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning! If you're free, why not come with me to the market? The vegetables are freshest earlier in the day."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "On the lunch menu today, we have Sakura Tempura and Tricolor Dango! Here, there's some for you, some for Paimon, and I also put some aside for milady and the man of the clan himself. Ah, wait, I forgot someone... There's none for me..."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Come quick, we gotta get down to the market — they slash the prices on fish around this time of day. Oh, and if you find something that you just can't do without, I'll help you haggle the price down."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Okay, good night. You had a busy day today, you should get some rest, too. Don't stay up too late."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Thoma: Housekeeper",
+      "text": "It was never Ayaka or Ayato's intention to make me the housekeeper, I volunteered. I like this kind of work. Putting everything in order gives me a great sense of achievement, and based on everyone's reactions... Yeah, I think I do a pretty good job."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Thoma: Meaning",
+      "text": "For me, housework is about keeping a space clean and tidy, so that everyone who lives there has a smile on their face. And now... it looks like I'm responsible for another smile. I'll do my best to deliver!"
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Eating Alone",
+      "text": "Hey, how come you're eating here all alone? ...Uh, is it okay if I join you? Or did you just want some space?"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Oath",
+      "text": "If you hadn't put yourself out there during the Vision Hunt Ceremony and taken on the Raiden Shogun all by yourself, I would've lost my Vision, and with it all my aspirations. I've been thinking about this a lot, and it seems like there's only one way I could ever properly repay you... \\nI, Thoma, give to you my weapon and my loyalty, and I promise to fight for you, no matter what."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Those that receive Visions should look after them. I certainly don't plan on losing mine."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "I've gotten to know all kinds of people over the years, and I'd say that Inazumans are more particular about etiquette than Mondstadters. If you make sure you're always polite to people, it's much easier to get things done."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things: Tanuki",
+      "text": "I've always wanted to see a tanuki shapeshifting. They say it can change into all kinds of things, and that it likes to play pranks on passersby. It's a creature with a sense of humor, that's for sure."
+    },
+    {
+      "id": "3004",
+      "type": 1,
+      "title": "Interesting Things: Animals",
+      "text": "Are you an animal person, too? If you are, let me take you to the outskirts some time, it's great. I just need to give a whistle, and all these puppies and kittens will come out of nowhere and start strutting around your ankles, clamoring for your affection. Haha, just imagining it is already brightening my day."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Yae Miko",
+      "text": "Lady Miko? Wh—What about her? *sigh* Every time Miss Kamisato sends me out to deliver messages, my least-favorite destination is the Grand Narukami Shrine... Oh! N—Not because Lady Miko scares the bejeebers out of me, it's, uh... respect. Yes! She strikes respect deep into my heart, ahahahaha..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About the Raiden Shogun: Comparison",
+      "text": "In my homeland of Mondstadt, almost everyone has great reverence for the Anemo Archon, Barbatos. But people in Inazuma feel a little differently toward the Shogun. How can I put this... They feel love, respect, gratitude... but also fear."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About the Raiden Shogun: The Unknown",
+      "text": "Honestly, I don't harbor any resentment toward the Shogun. Yes, she almost took my Vision away, but ultimately that's just because of her unique perspective. Everyone has their own perspective, there's nothing strange about that.\\nThe only thing I don't understand is her goal in doing so. What does she imagine eternity really looks like for Inazuma? And why is sacrificing her people's aspirations so necessary to achieve it? I can neither understand nor agree with her approach."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Beidou",
+      "text": "The captain of The Crux — a formidable woman indeed. She once promised to take me out onto the open ocean to get a look at the thunderstorm that seals off Inazuma from the outside world. It's a shame that to this day, I've never had the chance to take her up on the offer..."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Kamisato Ayato",
+      "text": "As head of the Kamisato Clan, he's in a tough position. With all the political upheaval, he has to contend with public disquiet on one hand and a bunch of self-serving, degenerate public officials on the other. It's best not to dwell on it. All I can do is make sure to look out for him when he's at home."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Kamisato Ayaka",
+      "text": "Milady is in all respects a well-rounded person: erudite, compassionate, well-mannered, and elegant... The one thing she could do better is to speak her mind more. In fact, watch out for this the next time you're talking to her — sometimes, she looks like she's about to say something, but then she holds back. If that happens, keep asking her opinion, see if you can encourage her to open up a little."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Yoimiya",
+      "text": "Of Naganohara Fireworks fame? She's so easy to get along with. Super straightforward, just says whatever she thinks. Oh, and Naganohara fireworks are just incredible, you should take every chance you get to see them in action. Ah, on that note — here, have a coupon!"
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Sayu",
+      "text": "Ah Sayu, stubborn Sayu. I've asked her countless times to teach me ninjutsu, but she always refuses. She even goes out of her way to avoid me now... I'm just a student looking for a teacher, am I really that out of line?"
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Kujou Sara",
+      "text": "The Tenryou Commission General... Mm... Make sure to be extra careful if you have any dealings with her. She has a lot of power in her hands, and she's not very open to persuasion. Smiling and batting your eyelids certainly won't get you anywhere with her."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Arataki Itto",
+      "text": "Hmm... Word on the street is that he's quite a character — apparently, he even has youkai heritage. Have you met him? If you two are close, maybe you could introduce me sometime. It's good to make friends from all walks of life... youkai included!"
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Shikanoin Heizou",
+      "text": "Ho, that guy is a detective for the Tenryou Commission. He seems to have his own way of doing things — not the easiest person to get along with. Also... Any situation that involves a detective is probably not one that's going to end well. I think I'll keep on giving him a wide berth."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Jean",
+      "text": "Oh, so Jean from the Gunnhildr Clan is the Master of the Knights of Favonius now? She definitely deserves it, she's known all over for her impeccable conduct... Oh, just the \"Acting\" Grand Master? Haha, well, someone of her standing won't care about titles."
+    },
+    {
+      "id": "4013",
+      "type": 1,
+      "title": "About Eula",
+      "text": "You've had a run-in with Eula Lawrence before, huh? All I know is that their whole family are about the worst-tempered people you could ever meet. You're better off steering clear of them if you can help it. Ah, now I'm in a Mondstadt mood again... The memories."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Thoma: I",
+      "text": "Anything I can lend a hand with? If something needs doing around the house or you're having some interpersonal strife, just say the word. Hmm? A conversation... I see, I see. That's a little different from what I'm used to, but I'm all for it."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Thoma: II",
+      "text": "I'm not from Inazuma originally — I think I've told you that before, right? I took a boat all the way here from Mondstadt, found I liked the place, and was also lucky enough to meet the wonderful Kamisato siblings, so I just ended up staying."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Thoma: III",
+      "text": "I get homesick once in a while, too, so I completely relate to all the international merchants on Ritou. I try to look out for them as much as I can. The difference between us is that they see themselves as just passing by, and have no intention of trying to integrate here. And because that's how they think, it becomes their reality. The majority of Inazumans will never see them as anything more than outsiders."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Thoma: IV",
+      "text": "For some of the more conservatively minded people in Inazuma, the idea of an outlander working as a retainer for one of the Commissions is unthinkable. So there was a time when I was not that welcome here. I'm pretty sure I'd have been deported a long time ago without a couple of Kamisatos fighting my corner. I couldn't let the clan down after they'd been so kind to me, so I put in a lot of honest work, and eventually, everyone was finally able to accept me."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Thoma: V",
+      "text": "I'm not sure if I should get into this, but... Ah, hopefully you won't mind. I went through a period where I really just wanted to go home — Mondstadt is my homeland, after all. But I was torn... It wouldn't be easy to leave Inazuma behind, either. I mean, just look how good the people here have been to me. The Kamisato Clan always has a room for me, and there are people I've met here that are like family. So, I went back and forth over it, and ultimately decided I'd stay in Inazuma. When I'm missing Mondstadt... I can just chat with you. You don't mind my rambling, do you?"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Thoma's Hobbies",
+      "text": "I've been really getting into stories about the unnatural recently. Especially ones about shapeshifting youkai — they're so fascinating. Before that, I was really into ninjutsu for a while, and before that... Hmm? You think I'm not dedicated enough? N—No! It's not like that, you got me all wrong!"
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Thoma's Troubles",
+      "text": "I'm in a real pickle here. The chief is hosting a banquet for his friends tonight, and he says he wants me to splurge a little by cooking some Butter Crab. The only problem is that for the last two days, I haven't been able to buy crab anywhere! So, what, am I gonna have to dive into the ocean and grab them myself?"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Without a doubt, my favorite food is Rice Cake Soup. I like cooking up a big, delicious potful for everyone to share. It's a recipe for a good time."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "As far as food is concerned, I'm fine with anything. If we're counting beverages, though... I'm not very good with alcohol. Don't laugh, and before you say it — yes, I've wondered what this says about my identity as a Mondstadter. But, y'know... too much alcohol is bad for you, anyway. So not drinking is a good thing."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Delicious! Could I get another bowl of rice?"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Um, are you free right now? Would you mind sharing some of your cooking tips with me?"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "I don't think I've ever tasted anything like this... Oh, it's not too bad, though."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Quick, come with me! I remembered it's your birthday, obviously, so I thought I'd throw you a proper party. There's food, there's drinks, and I invited a whole bunch of your friends, too. Hey, this is your birthday we're talking about! I wasn't about to let you spend it all alone!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Really? This'll make me stronger? You'd better not be kidding, I have stacks of laundry to do."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "It feels like... a fire inside of me has just begun to burn."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "I have all of this power, but how should I use it? I need to give this one some serious thought."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Thank you for placing your trust in me. Your kindness warms my heart more than the brightest flame ever could. But not to worry, I've figured out what I want to do now. My strength is your shield, and I will always be here to protect you."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Fire it up!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Check this out~"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Don't get too close!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Here's backup."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Supporting fire!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "I got you covered."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Ooh, what's in here?"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Mm! The fortune slip was right..."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Hehe, finders keepers."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Hey! What was that for?"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "I'm done for..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "*grimace* Right where it hurts..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Don't despair, I'm here to help."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "What a mess... go on, take a rest."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Time to go home..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Take care, everyone..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "I couldn't save everybody..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Ow ow ow..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Stop it!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "I guess the housework can wait."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Let's get out there and make some friends."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Where are we headed this time?"
+    }
+  ]
+}

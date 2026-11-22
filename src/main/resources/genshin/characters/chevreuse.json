@@ -1,0 +1,1775 @@
+{
+  "_id": 10000090,
+  "id": "chevreuse",
+  "name": "Chevreuse",
+  "title": "Executor of Justice",
+  "description": "The captain of the Special Security and Surveillance Patrol, who wears justice as an ever-present seal upon her heart. Her musket shall only ever point at the guilty.",
+  "weapon_type": {
+    "id": "polearm",
+    "name": "Polearm"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1704816000,
+  "substat": "HP%",
+  "stats": {
+    "base": {
+      "hp": 1002.9701,
+      "attack": 16.20528,
+      "defense": 50.70135
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 749.27,
+        "attack": 12.106458,
+        "defense": 37.8765,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1281.6461,
+        "attack": 20.708414,
+        "defense": 64.78875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1991.4808,
+        "attack": 32.177692,
+        "defense": 100.67175,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2523.857,
+        "attack": 40.779648,
+        "defense": 127.584,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3056.233,
+        "attack": 49.381603,
+        "defense": 154.49625,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3588.6091,
+        "attack": 57.983562,
+        "defense": 181.4085,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Special Security and Surveillance Patrol",
+  "region": {
+    "id": "fontaine",
+    "name": "Fontaine"
+  },
+  "rarity": 4,
+  "birthday": [
+    10,
+    1
+  ],
+  "constellation": "Sclopetum Ensiferum",
+  "domain": "Pale Forgotten Glory",
+  "cv": {
+    "english": "Erica Lindbeck",
+    "chinese": "潘丹妮",
+    "japanese": "下地紫野",
+    "korean": "Chae Min-ji"
+  },
+  "skills": [
+    {
+      "_id": 10901,
+      "id": "line_bayonet_thrust_ex",
+      "name": "Line Bayonet Thrust EX",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive spear strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "53.1%",
+            "57.5%",
+            "61.8%",
+            "68%",
+            "72.3%",
+            "77.2%",
+            "84%",
+            "90.8%",
+            "97.6%",
+            "105%",
+            "112.4%",
+            "119.9%",
+            "127.3%",
+            "134.7%",
+            "142.1%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "49.3%",
+            "53.3%",
+            "57.3%",
+            "63.1%",
+            "67.1%",
+            "71.7%",
+            "78%",
+            "84.3%",
+            "90.6%",
+            "97.5%",
+            "104.4%",
+            "111.2%",
+            "118.1%",
+            "125%",
+            "131.9%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "27.6% + 32.5%",
+            "29.9% + 35.1%",
+            "32.1% + 37.7%",
+            "35.4% + 41.5%",
+            "37.6% + 44.2%",
+            "40.2% + 47.2%",
+            "43.7% + 51.3%",
+            "47.3% + 55.5%",
+            "50.8% + 59.6%",
+            "54.6% + 64.2%",
+            "58.5% + 68.7%",
+            "62.4% + 73.2%",
+            "66.2% + 77.7%",
+            "70.1% + 82.3%",
+            "73.9% + 86.8%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "77.3%",
+            "83.6%",
+            "89.8%",
+            "98.8%",
+            "105.1%",
+            "112.3%",
+            "122.2%",
+            "132.1%",
+            "141.9%",
+            "152.7%",
+            "163.5%",
+            "174.3%",
+            "185.1%",
+            "195.8%",
+            "206.6%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "121.7%",
+            "131.6%",
+            "141.5%",
+            "155.7%",
+            "165.6%",
+            "176.9%",
+            "192.4%",
+            "208%",
+            "223.6%",
+            "240.6%",
+            "257.5%",
+            "274.5%",
+            "291.5%",
+            "308.5%",
+            "325.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10902,
+      "id": "shortrange_rapid_interdiction_fire",
+      "name": "Short-Range Rapid Interdiction Fire",
+      "description": "Chevreuse quickly shoulders her musket and fires at her opponent(s), dealing <span style=\"color:#FF9999FF\">AoE Pyro DMG</span>.<br/>For a short duration after Chevreuse fires a shot, she will continuously restore HP to your active character on the field. The amount healed is based on her Max HP.<br/>Hold to fire in a different fashion.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Enter Aiming Mode, locking a target in her sights to fire a precise interdiction shot. If Chevreuse has an Overcharged Ball, then she will fire the Overcharged Ball instead, dealing greater <span style=\"color:#FF9999FF\">Pyro DMG</span> in a larger area.<br/>Chevreuse gains 1 Overcharged Ball every time a nearby character in the party triggers an Overloaded reaction, and can have up to 1 Overcharged Ball at a time.<br/><br/><span style=\"color:#FFD780FF\">Arkhe: Ousia</span><br/>Periodically, after Chevreuse's Short-Range Rapid Interdiction Fire hits, a Surging Blade will be called forth that deals Ousia-aligned <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "info": "\"Actually, training regulations only had the phrase \"interdiction fire,\" but the protagonist of this novel believes that even how stylish your terminology is can affect how motivated your troops are, which can put your opponents on the back foot right from the get-go... I think that's a good point, so I changed the regulations!\"",
+      "attributes": [
+        {
+          "label": "Press DMG",
+          "values": [
+            "115.2%",
+            "123.8%",
+            "132.5%",
+            "144%",
+            "152.6%",
+            "161.3%",
+            "172.8%",
+            "184.3%",
+            "195.8%",
+            "207.4%",
+            "218.9%",
+            "230.4%",
+            "244.8%",
+            "259.2%",
+            "273.6%"
+          ]
+        },
+        {
+          "label": "Hold DMG",
+          "values": [
+            "172.8%",
+            "185.8%",
+            "198.7%",
+            "216%",
+            "229%",
+            "241.9%",
+            "259.2%",
+            "276.5%",
+            "293.8%",
+            "311%",
+            "328.3%",
+            "345.6%",
+            "367.2%",
+            "388.8%",
+            "410.4%"
+          ]
+        },
+        {
+          "label": "Overcharged Ball DMG",
+          "values": [
+            "282.4%",
+            "303.6%",
+            "324.8%",
+            "353%",
+            "374.2%",
+            "395.4%",
+            "423.6%",
+            "451.8%",
+            "480.1%",
+            "508.3%",
+            "536.6%",
+            "564.8%",
+            "600.1%",
+            "635.4%",
+            "670.7%"
+          ]
+        },
+        {
+          "label": "HP Regeneration Over Time",
+          "values": [
+            "2.67% Max HP + 257",
+            "2.87% Max HP + 282",
+            "3.07% Max HP + 310",
+            "3.33% Max HP + 340",
+            "3.53% Max HP + 372",
+            "3.73% Max HP + 407",
+            "4% Max HP + 443",
+            "4.27% Max HP + 482",
+            "4.53% Max HP + 522",
+            "4.8% Max HP + 565",
+            "5.07% Max HP + 610",
+            "5.33% Max HP + 657",
+            "5.67% Max HP + 706",
+            "6% Max HP + 758",
+            "6.33% Max HP + 811"
+          ]
+        },
+        {
+          "label": "Healing Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "Surging Blade DMG",
+          "values": [
+            "28.8%",
+            "31%",
+            "33.1%",
+            "36%",
+            "38.2%",
+            "40.3%",
+            "43.2%",
+            "46.1%",
+            "49%",
+            "51.8%",
+            "54.7%",
+            "57.6%",
+            "61.2%",
+            "64.8%",
+            "68.4%"
+          ]
+        },
+        {
+          "label": "Surging Blade Interval",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10905,
+      "id": "ring_of_bursting_grenades",
+      "name": "Ring of Bursting Grenades",
+      "description": "Chevreuse fires an explosive grenade at opponents with her musket, dealing <span style=\"color:#FF9999FF\">AoE Pyro DMG.</span> After the projectile hits, it will split into many secondary explosive shells.<br/>The secondary explosive shells will burst after a short interval, dealing <span style=\"color:#FF9999FF\">Pyro DMG</span> to nearby opponents.",
+      "info": "\"Theoretically, a rectangular blast would be most efficient at destroying enemy formations. Unfortunately, the cross-section of an explosive shock wave is round, like most cakes. So, the secondary explosive shells can only be arranged like the fruit on a cake, forming a ring around the edge.\"",
+      "attributes": [
+        {
+          "label": "Explosive Grenade DMG",
+          "values": [
+            "368.2%",
+            "395.8%",
+            "423.4%",
+            "460.2%",
+            "487.8%",
+            "515.4%",
+            "552.2%",
+            "589.1%",
+            "625.9%",
+            "662.7%",
+            "699.5%",
+            "736.3%",
+            "782.3%",
+            "828.4%",
+            "874.4%"
+          ]
+        },
+        {
+          "label": "Secondary Explosive Shell DMG",
+          "values": [
+            "49.1%",
+            "52.8%",
+            "56.5%",
+            "61.4%",
+            "65%",
+            "68.7%",
+            "73.6%",
+            "78.5%",
+            "83.4%",
+            "88.4%",
+            "93.3%",
+            "98.2%",
+            "104.3%",
+            "110.4%",
+            "116.6%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "vanguards_coordinated_tactics",
+      "name": "Vanguard's Coordinated Tactics",
+      "description": "When all party members are <span style=\"color:#FF9999FF\">Pyro</span> and <span style=\"color:#FFACFFFF\">Electro</span> characters and there is at least one Pyro and one Electro character each in the party:<br/>Chevreuse grants \"Coordinated Tactics\" to nearby party members: After a character triggers the Overloaded reaction, the <span style=\"color:#FF9999FF\">Pyro</span> and <span style=\"color:#FFACFFFF\">Electro</span> RES of the opponent(s) affected by this Overloaded reaction will be decreased by 40% for 6s.<br/>The \"Coordinated Tactics\" effect will be removed when the Elemental Types of the characters in the party do not meet the basic requirements for the Ascension Talent.",
+      "level": 1
+    },
+    {
+      "id": "vertical_force_coordination",
+      "name": "Vertical Force Coordination",
+      "description": "After Chevreuse fires an Overcharged Ball using <span style=\"color:#FFD780FF\">Short-Range Rapid Interdiction Fire</span>, nearby <span style=\"color:#FF9999FF\">Pyro</span> and <span style=\"color:#FFACFFFF\">Electro</span> characters in the party gain 1% increased ATK for every 1,000 Max HP Chevreuse has for 30s. ATK can be increased by up to 40% in this way.",
+      "level": 4
+    },
+    {
+      "id": "double_time_march",
+      "name": "Double Time March",
+      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.<br/>Not stackable with Passive Talents that provide the exact same effects.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 901,
+      "id": "stable_front_lines_resolve",
+      "name": "Stable Front Line's Resolve",
+      "description": "When the active character with the \"Coordinated Tactics\" status (not including Chevreuse herself) triggers the Overloaded reaction, they will recover 6 Energy. This effect can be triggered once every 10s.<br/>You must first unlock the Ascension Talent \"Vanguard's Coordinated Tactics.\"",
+      "level": 1
+    },
+    {
+      "_id": 902,
+      "id": "sniper_induced_explosion",
+      "name": "Sniper Induced Explosion",
+      "description": "After Holding <span style=\"color:#FFD780FF\">Short-Range Rapid Interdiction Fire</span> and hitting a target, 2 chain explosions will be triggered near the location where said target is hit. Each explosion deals <span style=\"color:#FF9999FF\">Pyro DMG</span> equal to 120% of Chevreuse's ATK. This effect can be triggered up to once every 10s, and DMG dealt this way is considered Elemental Skill DMG.",
+      "level": 2
+    },
+    {
+      "_id": 903,
+      "id": "practiced_field_stripping_technique",
+      "name": "Practiced Field Stripping Technique",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Short-Range Rapid Interdiction Fire</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 904,
+      "id": "the_secret_to_rapidfire_multishots",
+      "name": "The Secret to Rapid-Fire Multishots",
+      "description": "After using <span style=\"color:#FFD780FF\">Ring of Bursting Grenades</span>, the Hold mode of <span style=\"color:#FFD780FF\">Short-Range Rapid Interdiction Fire</span> will not go on cooldown when Chevreuse uses it. This effect is removed after Short-Range Rapid Interdiction Fire has been fired twice using Hold or after 6s.",
+      "level": 4
+    },
+    {
+      "_id": 905,
+      "id": "enhanced_incendiary_firepower",
+      "name": "Enhanced Incendiary Firepower",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Ring of Bursting Grenades</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 906,
+      "id": "in_pursuit_of_ending_evil",
+      "name": "In Pursuit of Ending Evil",
+      "description": "After 12s of the healing effect from <span style=\"color:#FFD780FF\">Short-Range Rapid Interdiction Fire</span>, all nearby party members recover HP equivalent to 10% of Chevreuse's Max HP once.<br/>After a party member is healed by Short-Range Rapid Interdiction Fire, they gain a 20% <span style=\"color:#FF9999FF\">Pyro DMG Bonus</span> and <span style=\"color:#FFACFFFF\">Electro DMG Bonus</span> for 8s. Max 3 stacks. Each stack's duration is counted independently.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1003"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "16"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "51"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2577",
+            "3326"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "42",
+            "54"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "130",
+            "168"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4982",
+            "5514"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "80",
+            "89"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "252",
+            "279"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104111,
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101235,
+        "id": "lumidouce_bell",
+        "name": "Lumidouce Bell",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112083,
+        "id": "meshing_gear",
+        "name": "Meshing Gear",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6343",
+            "7052"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "102",
+            "114"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "321",
+            "357"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113053,
+        "id": "fontemer_unihorn",
+        "name": "Fontemer Unihorn",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101235,
+        "id": "lumidouce_bell",
+        "name": "Lumidouce Bell",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112083,
+        "id": "meshing_gear",
+        "name": "Meshing Gear",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7881",
+            "8413"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "127",
+            "136"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "398",
+            "425"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113053,
+        "id": "fontemer_unihorn",
+        "name": "Fontemer Unihorn",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101235,
+        "id": "lumidouce_bell",
+        "name": "Lumidouce Bell",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112084,
+        "id": "mechanical_spur_gear",
+        "name": "Mechanical Spur Gear",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9241",
+            "9773"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "149",
+            "158"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "467",
+            "494"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113053,
+        "id": "fontemer_unihorn",
+        "name": "Fontemer Unihorn",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101235,
+        "id": "lumidouce_bell",
+        "name": "Lumidouce Bell",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112084,
+        "id": "mechanical_spur_gear",
+        "name": "Mechanical Spur Gear",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10602",
+            "11134"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "171",
+            "180"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "536",
+            "563"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113053,
+        "id": "fontemer_unihorn",
+        "name": "Fontemer Unihorn",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101235,
+        "id": "lumidouce_bell",
+        "name": "Lumidouce Bell",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112085,
+        "id": "artificed_dynamic_gear",
+        "name": "Artificed Dynamic Gear",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11962",
+            "11962"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "193",
+            "193"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "605",
+            "605"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104114,
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113053,
+        "id": "fontemer_unihorn",
+        "name": "Fontemer Unihorn",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101235,
+        "id": "lumidouce_bell",
+        "name": "Lumidouce Bell",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112085,
+        "id": "artificed_dynamic_gear",
+        "name": "Artificed Dynamic Gear",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104344,
+          "id": "teachings_of_order",
+          "name": "Teachings of Order",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112083,
+          "id": "meshing_gear",
+          "name": "Meshing Gear",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104345,
+          "id": "guide_to_order",
+          "name": "Guide to Order",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104345,
+          "id": "guide_to_order",
+          "name": "Guide to Order",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104345,
+          "id": "guide_to_order",
+          "name": "Guide to Order",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104345,
+          "id": "guide_to_order",
+          "name": "Guide to Order",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112084,
+          "id": "mechanical_spur_gear",
+          "name": "Mechanical Spur Gear",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104346,
+          "id": "philosophies_of_order",
+          "name": "Philosophies of Order",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113055,
+          "id": "lightless_eye_of_the_maelstrom",
+          "name": "Lightless Eye of the Maelstrom",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104346,
+          "id": "philosophies_of_order",
+          "name": "Philosophies of Order",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113055,
+          "id": "lightless_eye_of_the_maelstrom",
+          "name": "Lightless Eye of the Maelstrom",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104346,
+          "id": "philosophies_of_order",
+          "name": "Philosophies of Order",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113055,
+          "id": "lightless_eye_of_the_maelstrom",
+          "name": "Lightless Eye of the Maelstrom",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104346,
+          "id": "philosophies_of_order",
+          "name": "Philosophies of Order",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112085,
+          "id": "artificed_dynamic_gear",
+          "name": "Artificed Dynamic Gear",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113055,
+          "id": "lightless_eye_of_the_maelstrom",
+          "name": "Lightless Eye of the Maelstrom",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 209000,
+      "name": "Guardian's Gun",
+      "description": "Chevreuse's outfit. The designers kept the uniform's classic black, white, and red color combination and added a bevy of accessories, but the result proved too heavy, which the captain protested. The final, fit-for-public-consumption version lacked most of those metal decorations.",
+      "isDefault": true,
+      "characterName": "Chevreuse",
+      "characterId": 10000090,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Chevreuse_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "I'm Chevreuse, Captain of Fontaine's Special Security and Surveillance Patrol. You'll excuse me if I skip the pleasantries. Is there a case that needs my attention?"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Musket",
+      "text": "The musket is my favorite weapon. It's both powerful and threatening... sometimes the latter trait is far more useful."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Patrol",
+      "text": "The Special Security and Surveillance Patrol isn't involved in regular patrol duties around Fontaine. The people we're after aren't exactly the type who just pop up on the street."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Food",
+      "text": "\"Feast-O's\" are just the best snack. They're easy to carry with you, and go with so many sauces... Actually, I'm gonna go buy some. Be right back."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Don't worry. My musket can still fire in the rain."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Some criminals try to use the sound of thunder to conceal gun shots. But, that trick doesn't fool my ears."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "...Hold! I need to service my musket before the mechanism freezes."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "What nice weather! Especially good for keeping an eye on things."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "With this wind, I'm afraid even my bullets might get blown off their mark."
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "The sheer vastness of the desert is perfect for keeping certain things buried and out of sight."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning! I was just about to do a few rounds of strength training. Do you want to join?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Afternoon! Do you want to grab some food with me at the Special Patrol's mess hall? The food there really fills the stomach."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Another day of work over, and without any huge disasters to boot. Let's grab a midnight snack. I'll lead the way."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Good night. I'm also going to turn in soon. ...I really hope nothing too serious happens while I'm asleep."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Chevreuse: Special Security and Surveillance Patrol",
+      "text": "The Special Security and Surveillance Patrol deals with a whole host of heinous crimes and dangerous criminals. As such, the methods we employ to enforce the law can be a bit on the... harsher side."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Chevreuse: Uniform Cap",
+      "text": "There's an unwritten rule in the Special Security and Surveillance Patrol. Any time a member dies in the line of duty, we hold onto their cap. Should a child of a deceased member ever join the Special Patrol, we then pass the cap down to them... I suppose you could call it a way of passing on a member's legacy."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Interests",
+      "text": "In my free time, I like to read crime novels. They differ from murder mysteries in that they focus less on describing the complicated details of the crime itself and more on the emotional and human conflicts surrounding the case. I find them very interesting."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: The Law",
+      "text": "You can come to me at any time if you have questions about the law. Actually... You should come to me the minute you have the slightest inkling that something may not be legal.\\nI can't tell you how many idiots I encounter every year who overstep simply because they fail to check where the line is drawn. I don't want to see you become like them."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "My Vision is certainly an integral part of the way I execute my duties. For instance, my musket has never had a major malfunction since I received my Vision.\\nI'd say a captain who wields a musket and a Vision is more than enough to scare off a few cowardly criminals."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Harcourt really did it, he arrested Mylis... even though she was his true love. I have to admire him for that, although... did Mylis really do anything wrong? All she did was find some jewelry and sell it off. I guess it didn't belong to her, but it's hardly the heinous crime that the aristocrats made it out to be... *sigh* It's hard to know what justice should look like sometimes, isn't it?"
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things: Gardemek",
+      "text": "Although our organization belongs to the Maison Gardiennage, the Special Security and Surveillance Patrol makes little use of Gardemeks. As for the reason... Well, let's just say those cumbersome machines would only get in the way of our bullets."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Navia",
+      "text": "I've heard about the murder case involving Navia's father. It caused quite the stir in the Maison Gardiennage at the time. It was the source of many disagreements, I believe.\\nFortunately, the truth has come to light and the true culprit has been held accountable... Justice may not always be swift, but it always prevails in the end."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Lyney",
+      "text": "Lyney is quite the famous magician. We once had a case where we arrested a magician suspected of deliberate harm, fraudulent behavior, and murder, but we could never figure out his methods. In the end, we brought on Lyney as a consultant. He helped us find a crucial piece of evidence that led to the successful conviction of the suspect. I heard that an author actually used that case as the basis for their mystery novel about a magician who used their craft to commit crimes.\\nUnfortunately... the author ended up going a little overboard on the graphic detail, and since the crime is still fresh in everyone's minds, it'll be a while before they're able to get it published."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Freminet",
+      "text": "I once saw Freminet in a shop when we both reached for the same gadget. It was the last one available, but just as I was about to tell him he could have it, he withdrew his hand and ran out of the store. It might sound odd, but he fled like the Gardes were after him."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Clorinde",
+      "text": "Clorinde has built quite the reputation for herself in Fontaine as a Champion Duelist. Our positions are different, so I'm not at liberty to make any comments about her work. But I trust that she takes on those duels out of her own sense of justice."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Wriothesley",
+      "text": "The work Wriothesley does is highly effective. At least all criminals know that the Fortress of Meropide isn't the type of place you want to stay at long enough to grow old. That fact comes in handy during our interrogation work."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Emilie",
+      "text": "Emilie is a good friend. Her expert knowledge of chemistry has been a great help to me many times when analyzing evidence or tracking down a killer. She helps us discover information that no one else can see, like what type of perfume a suspect wore or what type of flowers they sent as a gift. She can even determine the places they've been right down to the very dirt they've stepped in... Plus, she's never been wrong."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Chiori",
+      "text": "Chiori's method of resolving disputes is bit radical. But, she has quite the network at her disposal and has provided the Special Security and Surveillance Patrol with intelligence on more than one occasion. In return, I turn a blind eye whenever she throws someone out the door or runs a malignant competitor out of business. If you look into it, you'll find that Chiori is always in the right. She's just not the type to waste her breath on explanations."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Charlotte",
+      "text": "Charlotte is the type of reporter that really gives you a headache. Whenever there's a major case, she's always one of the first people in the vicinity no matter how hard we try to secure the scene. One time, she was even detained as a suspect for half a month, but she was still able to finish her article while in custody... I really do need to find the time to have a formal conversation with her editor about her behavior."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Sigewinne",
+      "text": "The Special Security and Surveillance Patrol has a long-lasting friendship with the Melusines. We often collaborate with the Melusines who work in the Marechaussee Phantom. They're kind, honest, and reliable. When it comes to handling major cases, the role they play is irreplaceable. I, myself, am quite close to several Melusines, Sigewinne included.\\nMelusines have long been one of our most indispensable partners. If there continue to be those who dare to slander and belittle their name, then they'll find themselves looking down the barrels of our muskets."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Neuvillette",
+      "text": "Everyone knows that the Iudex abstains himself of all personal emotion when presiding over a trial. Some even say he lacks the warmth of human emotion. But the way I see it, justice should remain uncorrupted by personal feelings. Those who break the law bear guilt. It's as simple as that."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Furina",
+      "text": "Lady Furina once ordered us to carry out some sort of... ceremonial musketeer performance. She not only wanted each of us outfitted with special \"ceremonial muskets,\" but she wanted us to practice all sorts of specialized drill formations as well. Luckily, in the end, she couldn't find the right song to pair with the performance and the matter was dropped entirely."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Chevreuse: I",
+      "text": "Sorry, I'm not great at talking to people... Well, talking to people outside of an interrogation room that is. If there's anything you want to know, please just ask."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Chevreuse: II",
+      "text": "The Special Security and Surveillance Patrol is just one of the many branches of the Maison Gardiennage. We have a more daring way of doing things, and some in the Maison Gardiennage are under the impression that we don't exactly play by the rules.\\nBut, I don't think the way the Special Patrol operates should be influenced by outside forces. The criminals we face aren't your everyday goody-goodies from the Palais Mermonia. When crimes are committed swiftly and without warning, like the sudden downpour of a rainstorm, we have to be able to respond just as fast."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Chevreuse: III",
+      "text": "The criminals I encounter aren't all cold-blooded killers and heartless villains.\\nMost of them start off by making a small mistake but are too afraid to own up to it. In their efforts to make up for it in secret, they end up getting sucked into a whirlpool of lies. Before they know it, they're in over their heads, and they're forced down the path of a criminal despite the best of intentions.\\nThere's this line by my favorite playwright that goes, \"Lies are the soil in which the seeds of crime are sown.\"\\nBut, he was arrested for plagiarism a few years later. Talk about dramatic irony, I suppose..."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Chevreuse: IV",
+      "text": "After my father was imprisoned, I was labeled \"a crook's daughter.\" Growing up in Fleuve Cendre, I saw first-hand how many corners of Fontaine remain shrouded in shadow. Though my upbringing didn't garner me many friends, the knowledge I acquired was far more precious.\\nThose who enforce the law must have their own conception of justice, one that they use to govern their actions. That is what my father taught me.\\nAnd it has proved itself to be true many times over."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Chevreuse: V",
+      "text": "To be honest, as the Captain of the Special Security and Surveillance Patrol, I've witnessed evil beyond measure. Too many times, I've seen good, innocent people get hurt or even lose their lives after getting caught up in events beyond their control... I can't help but feel angry and powerless whenever I think about them.\\nI firmly believe that criminals must be punished, but we must not let punishment trap us in an endless cycle of vengeance.\\nIf we are blinded by our emotions and let them control our actions, we run the risk of drowning in them.\\nThose who hold more power should be especially cognizant of that fact. We must all search for our own sense of justice, but we must also be wary of losing ourselves in the pursuit of it."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Chevreuse's Hobbies",
+      "text": "Perhaps training? Or target practice? If I really had to say, though, it would be reading crime novels. That reminds me, I should grab the latest copy of \"The Murder Files.\""
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Chevreuse's Troubles",
+      "text": "I really hate wasting time learning frivolous pieces of etiquette. My time is better spent keeping criminals in check."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I love anything full of grease and sugar. Food like that provides me with ample energy during the workday... Plus, it's a real mood booster. But, on my days off... those fat-inducing foods become my worst enemy. That being said, absolving the world of their existence also comes with its own pleasures."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I... can't really handle eating raw food. If I'm going to eat it, then it has to be fully cooked."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "It's delicious. *sigh* But it seems I've already had a few bites too many... I'll have to work it off with extra training."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Hm, much better than what we get in the Special Patrol's mess hall."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "It's filling but doesn't leave you wanting more... An excellent dish in my book."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy Birthday! Ahem... At attention! Chin up, shoulders back! Let's take your measurements... I want to commission a smaller, more portable musket and holster for you...\\nOkay, at ease. While the musket is being commissioned, you need to log some hours at the shooting range first. No time like the present! Follow me!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Not bad. I feel my aim getting steadier by the minute."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "More accurate at longer range, not bad."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Thanks! With this strength, I can't imagine many criminals will be able to get away now!"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Thanks for all your help. I can't promise that the full force of the Special Patrol will be at your beck and call, but as for myself, you need only say the word and I'll be there."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Stop right there!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Drop your weapons!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Final warning!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "You asked for it!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Justice will prevail!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Hands where I can see them!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Look what we have here."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "There better not be any contraband in here."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "At ease. I don't believe this counts as theft."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "You had a choice...!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "No respect for the law!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Your crimes are evident."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Back in formation!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Hold your positions!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "The arc of justice... is broken..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "They're still... out there..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "This can't be... the end..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Do not attempt to resist...!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Alright team, let's move it out!"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "A little extra training never hurts!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Armed and ready!"
+    }
+  ]
+}

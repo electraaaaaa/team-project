@@ -1,0 +1,1757 @@
+{
+  "_id": 10000124,
+  "id": "jahoda",
+  "name": "Jahoda",
+  "title": "Windthreading Shadow",
+  "description": "The Curatorium of Secrets' extremely reliable, do-it-all super employee (or so she claims).",
+  "weapon_type": {
+    "id": "bow",
+    "name": "Bow"
+  },
+  "element": {
+    "id": "anemo",
+    "name": "Anemo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1764626400,
+  "substat": "Healing Bonus",
+  "stats": {
+    "base": {
+      "hp": 808.7586,
+      "attack": 18.6984,
+      "defense": 48.64125
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 604.1841,
+        "attack": 13.96899,
+        "defense": 36.3375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1033.4728,
+        "attack": 23.894325,
+        "defense": 62.15625,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0.0462
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1605.8577,
+        "attack": 37.128105,
+        "defense": 96.58125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0.0923
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2035.1465,
+        "attack": 47.05344,
+        "defense": 122.4,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0.0923
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2464.435,
+        "attack": 56.978775,
+        "defense": 148.21875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0.1385
+        }
+      },
+      {
+        "level": 90,
+        "hp": 2893.7239,
+        "attack": 66.90411,
+        "defense": 174.0375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0.1846
+        }
+      }
+    ]
+  },
+  "affiliation": "Curatorium of Secrets",
+  "region": {
+    "id": "nodkrai",
+    "name": "Nod-Krai"
+  },
+  "rarity": 4,
+  "birthday": [
+    5,
+    1
+  ],
+  "constellation": "Fragum",
+  "domain": "Domain of Mastery: Fallen City",
+  "cv": {
+    "english": "Sonya Krueger",
+    "chinese": "韩娇娇",
+    "japanese": "稲垣好",
+    "korean": "Oh Ro-ah"
+  },
+  "skills": [
+    {
+      "_id": 11241,
+      "id": "strike_while_the_arrows_hot",
+      "name": "Strike While the Arrow's Hot",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 3 consecutive shots with a bow.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Performs a more precise <span style=\"color:#FFD780FF\">Aimed Shot</span> with increased DMG.<br/>While aiming, mighty winds will accumulate on the arrowhead. A fully charged wind arrow will deal <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Fires off a shower of arrows in mid-air before falling and striking the ground, hitting opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "41.7%",
+            "45.1%",
+            "48.5%",
+            "53.3%",
+            "56.7%",
+            "60.6%",
+            "65.9%",
+            "71.2%",
+            "76.6%",
+            "82.4%",
+            "88.2%",
+            "94%",
+            "99.8%",
+            "105.6%",
+            "111.5%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "19.2%×2",
+            "20.8%×2",
+            "22.4%×2",
+            "24.6%×2",
+            "26.2%×2",
+            "28%×2",
+            "30.4%×2",
+            "32.9%×2",
+            "35.3%×2",
+            "38%×2",
+            "40.7%×2",
+            "43.4%×2",
+            "46.1%×2",
+            "48.7%×2",
+            "51.4%×2"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "51.2%",
+            "55.4%",
+            "59.5%",
+            "65.5%",
+            "69.7%",
+            "74.4%",
+            "81%",
+            "87.5%",
+            "94.1%",
+            "101.2%",
+            "108.3%",
+            "115.5%",
+            "122.6%",
+            "129.8%",
+            "136.9%"
+          ]
+        },
+        {
+          "label": "Aimed Shot",
+          "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.7%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "92.8%",
+            "98.9%",
+            "105.1%",
+            "111.2%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Fully-Charged Aimed Shot",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11242,
+      "id": "savvy_strategy_splitting_the_spoils",
+      "name": "Savvy Strategy: Splitting the Spoils",
+      "description": "Jahoda dashes toward her opponent, entering the Shadow Pursuit state upon contact. While in this state, Jahoda moves continuously and swiftly: If nearby opponents are affected by <span style=\"color:#FF9999FF\">Pyro</span>, <span style=\"color:#80C0FFFF\">Hydro</span>, <span style=\"color:#FFACFFFF\">Electro</span>, or <span style=\"color:#99FFFFFF\">Cryo</span>, she will quietly convert her <link kind=\"effect\" id=\"11240001\"><span style=\"color:#FFD780FF\">Purr-loined Treasure Flask</span></link> to that element, gradually filling it. When the duration ends or the skill is used again, Jahoda drains the <span style=\"color:#FFD780FF\">Purr-loined Treasure Flask</span> and deals a single instance of <span style=\"color:#80FFD7FF\">Anemo DMG</span> to nearby opponents. When the <span style=\"color:#FFD780FF\">Purr-loined Treasure Flask</span> is full, Jahoda immediately drains it, exiting the Shadow Pursuit state and dealing a more powerful instance of <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/>If her dash fails to make contact with an opponent, Jahoda instead drops a Smoke Bomb at her location, dealing a single instance of <span style=\"color:#80FFD7FF\">Anemo DMG</span> to nearby opponents.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span>: When the <span style=\"color:#FFD780FF\">Purr-loined Treasure Flask</span> becomes full, Jahoda will not immediately discharge it. Instead, for a short duration, she steadily consumes the stored element inside and periodically fires <span style=\"color:#FFD780FF\">Fluffy Meowballs</span> at nearby opponents, dealing DMG of the corresponding element stored in the <span style=\"color:#FFD780FF\">Purr-loined Treasure Flask</span>. When a <span style=\"color:#FFD780FF\">Fluffy Meowball</span> hits an opponent, Jahoda regenerates 2 Elemental Energy. This effect can be triggered once every 3.5s.",
+      "info": "There are many ways to divide wealth in this world — but for Nod-Krai's treasure hunters — and hoarders — only one has ever proven sufficiently effective.",
+      "attributes": [
+        {
+          "label": "Smoke Bomb DMG",
+          "values": [
+            "159%",
+            "170.9%",
+            "182.8%",
+            "198.8%",
+            "210.7%",
+            "222.6%",
+            "238.5%",
+            "254.4%",
+            "270.3%",
+            "286.2%",
+            "302.1%",
+            "318%",
+            "337.9%",
+            "357.8%",
+            "377.6%"
+          ]
+        },
+        {
+          "label": "Unfilled Treasure Flask DMG",
+          "values": [
+            "190.8%",
+            "205.1%",
+            "219.4%",
+            "238.5%",
+            "252.8%",
+            "267.1%",
+            "286.2%",
+            "305.3%",
+            "324.4%",
+            "343.4%",
+            "362.5%",
+            "381.6%",
+            "405.4%",
+            "429.3%",
+            "453.2%"
+          ]
+        },
+        {
+          "label": "Filled Treasure Flask DMG",
+          "values": [
+            "212%",
+            "227.9%",
+            "243.8%",
+            "265%",
+            "280.9%",
+            "296.8%",
+            "318%",
+            "339.2%",
+            "360.4%",
+            "381.6%",
+            "402.8%",
+            "424%",
+            "450.5%",
+            "477%",
+            "503.5%"
+          ]
+        },
+        {
+          "label": "Treasure Flask Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Meowball DMG",
+          "values": [
+            "128%",
+            "137.6%",
+            "147.2%",
+            "160%",
+            "169.6%",
+            "179.2%",
+            "192%",
+            "204.8%",
+            "217.6%",
+            "230.4%",
+            "243.2%",
+            "256%",
+            "272%",
+            "288%",
+            "304%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11245,
+      "id": "hidden_aces_seven_tools_of_the_hunter",
+      "name": "Hidden Aces: Seven Tools of the Hunter",
+      "description": "Time to reveal those pocket aces! Jahoda retrieves 2 <link kind=\"effect\" id=\"11240002\"><span style=\"color:#FFD780FF\">Purrsonal Coordinated Assistance Robots</span></link> and deals a single instance of <span style=\"color:#80FFD7FF\">Anemo DMG</span> to nearby opponents.",
+      "info": "\"Coordinated assistance? It means you 'assist' some Mora our way, and we handle the 'coordination.' Makes purrfect sense, don't you agree?\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "207.2%",
+            "222.7%",
+            "238.3%",
+            "259%",
+            "274.5%",
+            "290.1%",
+            "310.8%",
+            "331.5%",
+            "352.2%",
+            "373%",
+            "393.7%",
+            "414.4%",
+            "440.3%",
+            "466.2%",
+            "492.1%"
+          ]
+        },
+        {
+          "label": "Purrsonal Coordinated Assistance Robot DMG",
+          "values": [
+            "17.3%",
+            "18.6%",
+            "19.9%",
+            "21.6%",
+            "22.9%",
+            "24.2%",
+            "25.9%",
+            "27.6%",
+            "29.4%",
+            "31.1%",
+            "32.8%",
+            "34.5%",
+            "36.7%",
+            "38.8%",
+            "41%"
+          ]
+        },
+        {
+          "label": "Purrsonal Coordinated Assistance Robot Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "Purrsonal Coordinated Assistance Robot Healing",
+          "values": [
+            "79.9% ATK + 501",
+            "85.9% ATK + 551",
+            "91.9% ATK + 605",
+            "99.8% ATK + 664",
+            "105.8% ATK + 726",
+            "111.8% ATK + 793",
+            "119.8% ATK + 864",
+            "127.8% ATK + 939",
+            "135.8% ATK + 1018",
+            "143.8% ATK + 1102",
+            "151.8% ATK + 1189",
+            "159.7% ATK + 1281",
+            "169.7% ATK + 1377",
+            "179.7% ATK + 1477",
+            "189.7% ATK + 1582"
+          ]
+        },
+        {
+          "label": "Lowest HP Character Additional Healing",
+          "values": [
+            "30.7% ATK + 193",
+            "33% ATK + 212",
+            "35.3% ATK + 233",
+            "38.4% ATK + 255",
+            "40.7% ATK + 279",
+            "43% ATK + 305",
+            "46.1% ATK + 332",
+            "49.2% ATK + 361",
+            "52.2% ATK + 392",
+            "55.3% ATK + 424",
+            "58.4% ATK + 457",
+            "61.4% ATK + 493",
+            "65.3% ATK + 530",
+            "69.1% ATK + 568",
+            "73% ATK + 608"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "plan_to_get_paid",
+      "name": "Plan to Get Paid",
+      "description": "When your team has at least one <span style=\"color:#FF9999FF\">Pyro</span>, <span style=\"color:#80C0FFFF\">Hydro</span>, <span style=\"color:#FFACFFFF\">Electro</span>, or <span style=\"color:#99FFFFFF\">Cryo</span> character, the <link kind=\"effect\" id=\"11240002\"><span style=\"color:#FFD780FF\">Purrsonal Coordinated Assistance Robots</span></link> from the Elemental Burst <span style=\"color:#FFD780FF\">Hidden Aces: Seven Tools of the Hunter</span> will be enhanced based on the number of characters of each corresponding element.<br/>Jahoda secretly keeps track of these characters. Among them, the element with the highest number of characters determines the enhancement effect:<br/>· <span style=\"color:#FF9999FF\">Pyro</span>: <span style=\"color:#FFD780FF\">Purrsonal Coordinated Assistance Robots</span> deal 130% of their original DMG.<br/>· <span style=\"color:#80C0FFFF\">Hydro</span>: <span style=\"color:#FFD780FF\">Purrsonal Coordinated Assistance Robots</span> heal for 120% of their original healing amount.<br/>· <span style=\"color:#FFACFFFF\">Electro</span>: The number of <span style=\"color:#FFD780FF\">Purrsonal Coordinated Assistance Robots</span> increases by one.<br/>· <span style=\"color:#99FFFFFF\">Cryo</span>: The attack interval of <span style=\"color:#FFD780FF\">Purrsonal Coordinated Assistance Robots</span> is reduced by 10%.<br/><br/>If there's a tie between elements, the order of priority that determines which enhancement takes effect is: <span style=\"color:#FF9999FF\">Pyro</span>, <span style=\"color:#80C0FFFF\">Hydro</span>, <span style=\"color:#FFACFFFF\">Electro</span>, then <span style=\"color:#99FFFFFF\">Cryo</span>. Only one elemental effect can initially be triggered.",
+      "level": 1
+    },
+    {
+      "id": "sweet_berry_bounty",
+      "name": "Sweet Berry Bounty",
+      "description": "When a <link kind=\"effect\" id=\"11240002\"><span style=\"color:#FFD780FF\">Purrsonal Coordinated Assistance Robot</span></link> from the Elemental Burst <span style=\"color:#FFD780FF\">Hidden Aces: Seven Tools of the Hunter</span> triggers healing on an active team member, if that character's HP is above 70%, their Elemental Mastery will be increased by 100 for 6s.",
+      "level": 4
+    },
+    {
+      "id": "moonsign_benediction_rooftop_dash",
+      "name": "Moonsign Benediction: Rooftop Dash",
+      "description": "When Jahoda is in the party, the party's <span style=\"color:#FFD780FF\">Moonsign</span> will increase by 1 level.",
+      "level": 0
+    },
+    {
+      "id": "backstreet_guile",
+      "name": "Backstreet Guile",
+      "description": "When dispatched on an expedition in Nod-Krai, time consumed is reduced by 25%.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1241,
+      "id": "one_more_flask",
+      "name": "One More Flask!",
+      "description": "When a <span style=\"color:#FFD780FF\">Fluffy Meowball</span> fired by the <link kind=\"effect\" id=\"11240001\"><span style=\"color:#FFD780FF\">Purr-loined Treasure Flask</span></link> from the Elemental Skill <span style=\"color:#FFD780FF\">Savvy Strategy: Splitting the Spoils</span> hits an enemy, there is a 50% chance for it to bounce, dealing the corresponding Elemental DMG to nearby opponents.",
+      "level": 1
+    },
+    {
+      "_id": 1242,
+      "id": "rogues_quick_thinking",
+      "name": "Rogue's Quick Thinking",
+      "description": "<span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span>: In the Ascension Talent <link kind=\"passive\" to=\"plan_to_get_paid\"><span style=\"color:#FFD780FF\">\"Plan to Get Paid,\"</span></link> Jahoda can secretly track, in addition to the element with the highest number of characters, the element with the next highest number of characters among the remaining types. This allows up to two elemental effects to be active at once. You must first unlock the Ascension Talent \"Plan to Get Paid.\"",
+      "level": 2
+    },
+    {
+      "_id": 1243,
+      "id": "desperate_gamble",
+      "name": "Desperate Gamble",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"hidden_aces_seven_tools_of_the_hunter\">Hidden Aces: Seven Tools of the Hunter</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1244,
+      "id": "wild_berry_amid_the_dust",
+      "name": "Wild Berry Amid the Dust",
+      "description": "When a <link kind=\"effect\" id=\"11240002\"><span style=\"color:#FFD780FF\">Purrsonal Coordinated Assistance Robot</span></link> from the Elemental Burst <span style=\"color:#FFD780FF\">Hidden Aces: Seven Tools of the Hunter</span> undergoes an Elemental Conversion, Jahoda will recover 4 Elemental Energy.",
+      "level": 4
+    },
+    {
+      "_id": 1245,
+      "id": "the_greatest_treasure",
+      "name": "The Greatest Treasure",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"savvy_strategy_splitting_the_spoils\">Savvy Strategy: Splitting the Spoils</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1246,
+      "id": "the_littlest_luck",
+      "name": "The Littlest Luck",
+      "description": "<span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span>: After the <link kind=\"effect\" id=\"11240001\"><span style=\"color:#FFD780FF\">Purr-loined Treasure Flask</span></link> from the Elemental Skill <span style=\"color:#FFD780FF\">Savvy Strategy: Splitting the Spoils</span> is full, nearby Moonsign characters in your party have their CRIT Rate increased by 5% and CRIT DMG increased by 40% for 20s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "809"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "19"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "49"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "-",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2078",
+            "2682"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "48",
+            "62"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "125",
+            "161"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4017",
+            "4446"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "93",
+            "103"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "242",
+            "267"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104151,
+        "id": "vayuda_turquoise_sliver",
+        "name": "Vayuda Turquoise Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101257,
+        "id": "portable_bearing",
+        "name": "Portable Bearing",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112122,
+        "id": "broken_drive_shaft",
+        "name": "Broken Drive Shaft",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5114",
+            "5687"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "118",
+            "131"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "308",
+            "342"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113078,
+        "id": "lightbearing_scalefeather",
+        "name": "Lightbearing Scale-Feather",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101257,
+        "id": "portable_bearing",
+        "name": "Portable Bearing",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112122,
+        "id": "broken_drive_shaft",
+        "name": "Broken Drive Shaft",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6355",
+            "6784"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "147",
+            "157"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "382",
+            "408"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113078,
+        "id": "lightbearing_scalefeather",
+        "name": "Lightbearing Scale-Feather",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101257,
+        "id": "portable_bearing",
+        "name": "Portable Bearing",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112123,
+        "id": "reinforced_drive_shaft",
+        "name": "Reinforced Drive Shaft",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7451",
+            "7881"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "172",
+            "182"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "448",
+            "474"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113078,
+        "id": "lightbearing_scalefeather",
+        "name": "Lightbearing Scale-Feather",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101257,
+        "id": "portable_bearing",
+        "name": "Portable Bearing",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112123,
+        "id": "reinforced_drive_shaft",
+        "name": "Reinforced Drive Shaft",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8549",
+            "8978"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "198",
+            "208"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "514",
+            "540"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113078,
+        "id": "lightbearing_scalefeather",
+        "name": "Lightbearing Scale-Feather",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101257,
+        "id": "portable_bearing",
+        "name": "Portable Bearing",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112124,
+        "id": "precision_drive_shaft",
+        "name": "Precision Drive Shaft",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9646",
+            "9646"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "223",
+            "223"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "580",
+            "580"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104154,
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Vayuda Turquoise Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113078,
+        "id": "lightbearing_scalefeather",
+        "name": "Lightbearing Scale-Feather",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101257,
+        "id": "portable_bearing",
+        "name": "Portable Bearing",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112124,
+        "id": "precision_drive_shaft",
+        "name": "Precision Drive Shaft",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104362,
+          "id": "teachings_of_vagrancy",
+          "name": "Teachings of Vagrancy",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112122,
+          "id": "broken_drive_shaft",
+          "name": "Broken Drive Shaft",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104363,
+          "id": "guide_to_vagrancy",
+          "name": "Guide to Vagrancy",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112123,
+          "id": "reinforced_drive_shaft",
+          "name": "Reinforced Drive Shaft",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104363,
+          "id": "guide_to_vagrancy",
+          "name": "Guide to Vagrancy",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112123,
+          "id": "reinforced_drive_shaft",
+          "name": "Reinforced Drive Shaft",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104363,
+          "id": "guide_to_vagrancy",
+          "name": "Guide to Vagrancy",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112123,
+          "id": "reinforced_drive_shaft",
+          "name": "Reinforced Drive Shaft",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104363,
+          "id": "guide_to_vagrancy",
+          "name": "Guide to Vagrancy",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112123,
+          "id": "reinforced_drive_shaft",
+          "name": "Reinforced Drive Shaft",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104364,
+          "id": "philosophies_of_vagrancy",
+          "name": "Philosophies of Vagrancy",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112124,
+          "id": "precision_drive_shaft",
+          "name": "Precision Drive Shaft",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113073,
+          "id": "ascended_sample_knight",
+          "name": "Ascended Sample: Knight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104364,
+          "id": "philosophies_of_vagrancy",
+          "name": "Philosophies of Vagrancy",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112124,
+          "id": "precision_drive_shaft",
+          "name": "Precision Drive Shaft",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113073,
+          "id": "ascended_sample_knight",
+          "name": "Ascended Sample: Knight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104364,
+          "id": "philosophies_of_vagrancy",
+          "name": "Philosophies of Vagrancy",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112124,
+          "id": "precision_drive_shaft",
+          "name": "Precision Drive Shaft",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113073,
+          "id": "ascended_sample_knight",
+          "name": "Ascended Sample: Knight",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104364,
+          "id": "philosophies_of_vagrancy",
+          "name": "Philosophies of Vagrancy",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112124,
+          "id": "precision_drive_shaft",
+          "name": "Precision Drive Shaft",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113073,
+          "id": "ascended_sample_knight",
+          "name": "Ascended Sample: Knight",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 212400,
+      "name": "Nova's Whisper",
+      "description": "Jahoda's outfit. Adopting a new look is the first step toward bidding farewell to the past. The clothes from this ensemble were custom-made at the behest of Jahoda's dearest, most brilliant, wisest, and all-knowingest boss, Nefer, while the goggles were a gift from Aino, and the beanie was hand-made by Ineffa.",
+      "isDefault": true,
+      "characterName": "Jahoda",
+      "characterId": 10000124,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Jahoda_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Hey, nice to meet you. If you've got a commission, spit it out. As long as the pay's right, I can help you with anything... Uh, most things... I can help you with most things."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Nefer",
+      "text": "Ugh... Boss Nef, when can I get a raise? There's so much stuff I wanna buy..."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Walking the Streets",
+      "text": "Come on, let's hit the town. I'll show you someplace fun... But keep it quiet, yeah? Mum's the word."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Ashru",
+      "text": "Last time I tried to pet Ashru, the little fluffball ran away. Hmph! Someone's not getting their dried fish today!"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Rain? Gogogo, we gotta find some cover before we get soaked."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Waaah! Snow down my back, coldcoldcold..."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "*Pfft!* *Pfft!* *Pfft!* Ugh, sand in my mouth!"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning. Have breakfast yet? I know a good place."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "*yawn* How about we head back to the shop for a nap? I'm so sleepy..."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "It's that late already? Pack it up, worktime's over, it's Ashru time~"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "*yawn* Better hit the sack... Hey! You still at it? You should probably call it a night, too."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Jahoda: Experience",
+      "text": "Before I came to the Curatorium of Secrets, my work history was... checkered. Finally meeting Boss Nef after barely scraping by was a real turning point."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Jahoda: Curatorium of Secrets",
+      "text": "Boss Nef's good to me, and Ashru's pretty friendly, too. Sometimes I forget to call Nef \"Boss.\" Old habits die hard, I guess..."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Homeland",
+      "text": "My hometown? Don't remember... and I don't really care about that kinda thing anyway. Anywhere I can have a full belly and a good night's sleep is \"home\" enough for me."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Friends",
+      "text": "We've been through hell and back together, of course we're friends! Next time I'm in trouble, I know you'll have my back. And try not to sell me out... or at least, make sure you get a good price if you do. Hah! I'm joking, I know you'd never betray me. You're too noble to do something that greedy."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Hehe, it's my pride and joy! Ever since I got it, work's been way less stress! Never imagined I'd ever be this lucky..."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share: Treasure Hunters",
+      "text": "You ever run into anyone calling themselves a \"treasure hunter\"? Don't let the fancy title fool you, they're just Nod-Krai mercenaries. Give 'em enough money and they'll do pretty much anything for you. If you ever wanna hire some, let me know. I can introduce you to a few of the more reliable ones."
+    },
+    {
+      "id": "3005",
+      "type": 1,
+      "title": "Something to Share: Cannon",
+      "text": "When the Boom and Blast Kuuvahki Energy Cannon gets going, it's a thing of beauty. *sigh* If only I could get my hands on a scale mechanical model... Wonder if Aino could make one for me? After all, she made the original."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "So, yesterday, I was just thinking... How many grains of sand does it take to make a pile? Is a hundred a pile? What about a thousand? Doesn't seem right... I'll go ask Aino in a few days, she definitely knows!"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Lauma",
+      "text": "Miss Lauma? Uhm... I don't really know too much about her, but I know she's kind of a big deal, and she's powerful... and she can talk to animals... Thinking about it, she must have eyes and furry little ears all over Hiisi Island. No wonder treasure hunters don't go \"looking for treasure\" there, you'd be walking straight into a trap..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Ineffa",
+      "text": "Oh, that dumb clanker? She's good at baking krumkakes, but she's got a memory like a leaky sieve and zero humor. Every time I crack a joke she asks me to explain why it's funny. But her krumkakes are the bomb, you have got to try them."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Nefer",
+      "text": "Nef's the best boss in the whole world! Hehe, not only does she pay me on time, she even covers food and board! I might be her only actual employee... No, wait, I almost forgot about Ashru! Though he's not exactly an employee, right? He's never even completed a single commission! Hmph! Can't have anyone freeloading... Next job, he's coming with me!"
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Aino",
+      "text": "Aino's got some serious skills. No matter what I put my arm through, she always gets it working again. It's just... every time she fixes it, she always doodles on it. Says it's cuter that way. I mean, it is kinda cute, but why doesn't she ever draw on Ineffa?"
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Flins",
+      "text": "I've heard Nef talk about how the Lightkeepers are a really old organization, chock full of powerful, smart people who know tons of ancient secrets. Say... You think Flins has any leads on ancient treasures? Or maybe some untouched old ruins? Uh, I'm just thinking out loud here, I'd never actually ask! Otherwise, Nef'd chew me out again."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Varka",
+      "text": "Ohh, Varka? Yeah, he told me he was the Grand Master of the Knights of Favonius, but seriously, he sure doesn't seem like it. Shouldn't a Grand Master be all serious and dependable-looking? Uh, not trying to say he's not responsible! It's just... If the Grand Master of the Knights of Favonius is here, then who's back in Mondstadt actually managing the Knights...? Eh? Someone serious and dependable-looking? Well, okay, haha... The Knights of Favonius sure are something..."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Kuutar",
+      "text": "That VIP... *sigh* Back in the day, if I came across someone with a background that murky, I'd have run for the hills! The farther the better! But... she saved me, so now I owe her, and debts are debts.\\nStill, that's easy to say, but I've only got one life to lose, and at this rate, no amount of lives would be enough to cover the tab... O Boss Nef! Save me, you're my only hope..."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Marionette",
+      "text": "I'm never going anywhere like that ever again! And... Okay, even if I did, Boss Nef would have to go with me. Between the Wild Hunt and Fatui... what's the point of making money if you're not alive to spend it!?"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Jahoda: I",
+      "text": "At the Curatorium, Nef handles the big stuff, I take the small stuff, and Ashru's on door duty. What counts as big and what doesn't? That's up to Boss Nef, she calls the shots..."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Jahoda: II",
+      "text": "Earn well, eat well, that's my motto these days. Point is, as long as I stick with Nef, I know I won't go hungry, hehehe..."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Jahoda: III",
+      "text": "My arm? Ah, that... no big deal. It was just the \"price\" I paid in a trade. Don't worry, it's fine! It was well worth it. In fact, I'd say I came out ahead."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Jahoda: IV",
+      "text": "It's no different than how you gotta use Mora to buy stuff. If you want something, you have to pay some kind of \"price.\" Visible prices you can plan for, calculate, but some of the invisible ones are impossible to gauge. They lurk in your shadow, biding their time, waiting until you're at your most vulnerable... that's when they appear, demanding a ransom from you that you could never hope to pay."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Jahoda: V",
+      "text": "Hey, if you ever need to pay a \"ransom\" for some reason, you can come to me. Even if I can't drum up the money myself, I can swallow my pride and ask Nef. Worst comes to worst... I'll work off the debt again. But don't you dare ask Nef yourself. If you're gonna owe someone, better it be me. The hardest debt to repay is a debt in Nef's ledger... How do I know that? Uh, well, I, um... Look, don't ask, just take my word for it, okay!?"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Jahoda's Hobbies",
+      "text": "Sometimes, I sew rag dolls when I've got some downtime. It's not like I had formal lessons from a teacher or anything, but my old... acquaintances all said I was pretty good. I'll make you one next time."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Jahoda's Troubles",
+      "text": "I dunno why, but I can't sleep if the bed's too soft. Give me a rock-hard floor to lie on, and not only am I out like a light, I sleep like a baby! Wonder why that is? Just one of those things, I guess..."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Favorite food? Tough call... I like meat and fish, but sugar sculptures and cookies are great too... Hehe, as long as it's tasty, I'm all for it!"
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I don't like those thick stews where all the ingredients are thrown in together and boiled forever, until it's all melted into mush... Uh, if I absolutely have to have some, it's not like I can't, it's just... I'd really rather not..."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "YUM! Wow, since when can you cook like this? Seconds, please, hehehe. This is so much better than Nef's... *cough*! Uh, you eat already? If not... wanna share?"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Not bad! Hehe. Let's chow down! Gotta fuel up for work."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Ugh... I can— I can finish this... Must... not... waste... food. Haha... ha..."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday! Here ya go, this doll's for you! I just finished sewing it. It was my first time trying this technique — took ages, you know! I stuffed it with calming herbs that'll help you sleep, so just put it next to your pillow and I promise you'll sleep nice and soundly, 100% nightmare-free. The bandage on my hand...? Ah... just a little scratch from... playing with Ashru, hahaha... It's nothing, really..."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Oh? Not bad at all!"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Nimbler than ever."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Alright... Time to get moving!"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Hehe, I'm feeling ready for a big job now... How 'bout it? You wanna join me?"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "You're my target!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Smash-'n'-grab!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "You're not going anywhere!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Finders keepers!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Hand it over!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "I never leave empty-handed."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Oh! It's alllll ours!"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Not a bad haul, makes it worth our while."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Let's add it to the pile~"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Okay... okay..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Just you wait...!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "I'm gonna...!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "You got a death wish!?"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Get back!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Still couldn't... get away..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "My debts... are settled..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "I guess... this'll do..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Got work for me?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Leave it to me!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Watch and learn."
+    }
+  ],
+  "effects": {
+    "11240001": {
+      "name": "Purr-loined Treasure Flask",
+      "description": "A small elemental vessel that Jahoda retrieves after casting her Elemental Skill <span style=\"color:#FFD780FF\">Savvy Strategy: Splitting the Spoils</span>.<br/>While Jahoda is in the Shadow Pursuit state, if nearby opponents are affected by <span style=\"color:#FF9999FF\">Pyro</span>, <span style=\"color:#80C0FFFF\">Hydro</span>, <span style=\"color:#FFACFFFF\">Electro</span>, or <span style=\"color:#99FFFFFF\">Cryo</span>, the Purr-loined Treasure Flask will convert to that element and begin filling up. The order of priority that determines which element will be converted to is: <span style=\"color:#FF9999FF\">Pyro</span>, <span style=\"color:#80C0FFFF\">Hydro</span>, <span style=\"color:#FFACFFFF\">Electro</span>, then <span style=\"color:#99FFFFFF\">Cryo</span>. After each use of her Elemental Skill, the Purr-loined Treasure Flask can undergo one such conversion.<br/>When the Purr-loined Treasure Flask is full, Jahoda immediately drains it, exiting the Shadow Pursuit state and dealing a single instance of <span style=\"color:#80FFD7FF\">Anemo DMG</span> to nearby opponents.<br/>Each time the Elemental Skill is cast, Jahoda takes out a brand-new Purr-loined Treasure Flask.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span>: When the <span style=\"color:#FFD780FF\">Purr-loined Treasure Flask</span> becomes full, Jahoda will not immediately discharge it. Instead, for a short duration, she steadily consumes the stored element inside and periodically fires <span style=\"color:#FFD780FF\">Fluffy Meowballs</span> at nearby opponents, dealing DMG of the corresponding element stored in the <span style=\"color:#FFD780FF\">Purr-loined Treasure Flask</span>.",
+      "color": ""
+    },
+    "11240002": {
+      "name": "Purrsonal Coordinated Assistance Robots",
+      "description": "One of the gadgets that Jahoda — a former treasure hunter — carries around with her. It is deployed upon using her Elemental Burst <span style=\"color:#FFD780FF\">Hidden Aces: Seven Tools of the Hunter</span>.<br/>Purrsonal Coordinated Assistance Robots continuously restore HP to your active character. If the healed character's HP is above 70%, they also restore HP to the nearby party member with the lowest HP.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span>: If nearby opponents are affected by <span style=\"color:#FF9999FF\">Pyro</span>, <span style=\"color:#80C0FFFF\">Hydro</span>, <span style=\"color:#FFACFFFF\">Electro</span>, or <span style=\"color:#99FFFFFF\">Cryo</span>, Purrsonal Coordinated Assistance Robots will convert to that element. The order of priority that determines which element will be converted to is: <span style=\"color:#FF9999FF\">Pyro</span>, <span style=\"color:#80C0FFFF\">Hydro</span>, <span style=\"color:#FFACFFFF\">Electro</span>, then <span style=\"color:#99FFFFFF\">Cryo</span>. After each deployment, a Purrsonal Coordinated Assistance Robot can undergo one such conversion. After converting, the Purrsonal Coordinated Assistance Robot will periodically attack up to 3 nearby opponents, dealing damage of the corresponding element.",
+      "color": ""
+    }
+  }
+}

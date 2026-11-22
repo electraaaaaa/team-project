@@ -10,7 +10,9 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
@@ -103,5 +105,45 @@ public abstract class AbstractGameDataAccessObject {
         }
 
         return moneyPackages;
+    }
+
+    protected List<JSONObject> loadJsonFiles(String folderPath, String indexPath) {
+        try (InputStream indexStream = getClass().getResourceAsStream(indexPath)) {
+
+            if (indexStream == null) {
+                throw new IllegalStateException("Could not find index: " + indexPath);
+            }
+
+            String indexJson = new String(
+                    indexStream.readAllBytes(),
+                    StandardCharsets.UTF_8
+            );
+
+            JSONArray fileNames = new JSONArray(indexJson);
+            List<JSONObject> results = new ArrayList<>();
+
+            for (int i = 0; i < fileNames.length(); i++) {
+                String fileName = fileNames.getString(i);
+                String filePath = folderPath + fileName;
+
+                try (InputStream fileStream = getClass().getResourceAsStream(filePath)) {
+                    if (fileStream == null) {
+                        throw new IllegalStateException("Could not find file: " + filePath);
+                    }
+
+                    String json = new String(
+                            fileStream.readAllBytes(),
+                            StandardCharsets.UTF_8
+                    );
+
+                    results.add(new JSONObject(json));
+                }
+            }
+
+            return results;
+
+        } catch (IOException exception) {
+            throw new IllegalStateException("Failed to load JSON resources.", exception);
+        }
     }
 }

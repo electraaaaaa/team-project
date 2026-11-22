@@ -1,0 +1,1805 @@
+{
+  "_id": 10000091,
+  "id": "navia",
+  "name": "Navia",
+  "title": "Helm of the Radiant Rose",
+  "description": "The current President of Spina di Rosula, who is lovely, dutiful, and a great boss.",
+  "weapon_type": {
+    "id": "claymore",
+    "name": "Claymore"
+  },
+  "element": {
+    "id": "geo",
+    "name": "Geo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1702936800,
+  "substat": "CRIT DMG",
+  "stats": {
+    "base": {
+      "hp": 984.77954,
+      "attack": 27.3714,
+      "defense": 61.74456
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 844.35944,
+        "attack": 23.466785,
+        "defense": 52.9416,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1444.2991,
+        "attack": 40.140556,
+        "defense": 90.558,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2244.2185,
+        "attack": 62.372246,
+        "defense": 140.7132,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2844.158,
+        "attack": 79.04601,
+        "defense": 178.3296,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3444.0977,
+        "attack": 95.71979,
+        "defense": 215.946,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.288
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4044.0374,
+        "attack": 112.393555,
+        "defense": 253.5624,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.384
+        }
+      }
+    ]
+  },
+  "affiliation": "Spina di Rosula",
+  "region": {
+    "id": "fontaine",
+    "name": "Fontaine"
+  },
+  "rarity": 5,
+  "birthday": [
+    16,
+    8
+  ],
+  "constellation": "Rosa Multiflora",
+  "domain": "Pale Forgotten Glory",
+  "cv": {
+    "english": "Brenna Larsen",
+    "chinese": "小敢",
+    "japanese": "豊崎愛生",
+    "korean": "Jeong Hae-eun"
+  },
+  "skills": [
+    {
+      "_id": 10911,
+      "id": "blunt_refusal",
+      "name": "Blunt Refusal",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br/>At the end of the sequence, performs a more powerful slash.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "93.5%",
+            "101.1%",
+            "108.7%",
+            "119.6%",
+            "127.2%",
+            "135.9%",
+            "147.9%",
+            "159.9%",
+            "171.8%",
+            "184.9%",
+            "197.9%",
+            "211%",
+            "224%",
+            "237.1%",
+            "250.1%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "86.5%",
+            "93.5%",
+            "100.6%",
+            "110.6%",
+            "117.7%",
+            "125.7%",
+            "136.8%",
+            "147.9%",
+            "158.9%",
+            "171%",
+            "183.1%",
+            "195.1%",
+            "207.2%",
+            "219.3%",
+            "231.4%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "34.9%×3",
+            "37.7%×3",
+            "40.6%×3",
+            "44.6%×3",
+            "47.5%×3",
+            "50.7%×3",
+            "55.2%×3",
+            "59.6%×3",
+            "64.1%×3",
+            "69%×3",
+            "73.8%×3",
+            "78.7%×3",
+            "83.6%×3",
+            "88.4%×3",
+            "93.3%×3"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "133.4%",
+            "144.3%",
+            "155.2%",
+            "170.7%",
+            "181.5%",
+            "193.9%",
+            "211%",
+            "228.1%",
+            "245.1%",
+            "263.8%",
+            "282.4%",
+            "301%",
+            "319.6%",
+            "338.2%",
+            "356.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack Cyclic DMG",
+          "values": [
+            "62.5%",
+            "67.6%",
+            "72.7%",
+            "80%",
+            "85.1%",
+            "90.9%",
+            "98.9%",
+            "106.9%",
+            "114.9%",
+            "123.6%",
+            "132.3%",
+            "141%",
+            "149.8%",
+            "158.5%",
+            "167.2%"
+          ]
+        },
+        {
+          "label": "Charged Attack Final DMG",
+          "values": [
+            "113.1%",
+            "122.3%",
+            "131.5%",
+            "144.6%",
+            "153.9%",
+            "164.4%",
+            "178.8%",
+            "193.3%",
+            "207.8%",
+            "223.6%",
+            "239.3%",
+            "255.1%",
+            "270.9%",
+            "286.7%",
+            "302.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        },
+        {
+          "label": "Max Duration",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "74.6%",
+            "80.7%",
+            "86.7%",
+            "95.4%",
+            "101.5%",
+            "108.4%",
+            "118%",
+            "127.5%",
+            "137%",
+            "147.4%",
+            "157.8%",
+            "168.3%",
+            "178.7%",
+            "189.1%",
+            "199.5%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "149.1% / 186.3%",
+            "161.3% / 201.5%",
+            "173.4% / 216.6%",
+            "190.8% / 238.3%",
+            "202.9% / 253.4%",
+            "216.8% / 270.8%",
+            "235.9% / 294.6%",
+            "254.9% / 318.4%",
+            "274% / 342.3%",
+            "294.8% / 368.2%",
+            "315.6% / 394.2%",
+            "336.4% / 420.2%",
+            "357.3% / 446.2%",
+            "378.1% / 472.2%",
+            "398.9% / 498.2%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10912,
+      "id": "ceremonial_crystalshot",
+      "name": "Ceremonial Crystalshot",
+      "description": "When a character in the party obtains an Elemental Shard created from the Crystallize reaction, or when they trigger the Lunar-Crystallize reaction, Navia will gain 1 Crystal Shrapnel stack. Navia can have up to 6 stacks of Crystal Shrapnel at once. Each time Crystal Shrapnel gain is triggered, the duration of the Crystal Shrapnel stacks you already have will be reset. Through the Lunar-Crystallize reaction, Navia will gain up to 1 Crystal Shrapnel stack every second.<br/>When she fires, Navia will consume all Crystal Shrapnel stacks and open her elegant yet lethal Gunbrella, firing multiple Rosula Shardshots that can penetrate opponents, dealing <span style=\"color:#FFE699FF\">Geo DMG</span> to opponents hit.<br/>When 0/1/2/3 or more stacks of Crystal Shrapnel are consumed, 5/7/9/11 Rosula Shardshots will be fired respectively. The more Rosula Shardshots that strike a single opponent, the greater the DMG dealt to them. When all 11 Rosula Shardshots strike, 200% of the original amount of DMG is dealt.<br/>In addition, when more than 3 stacks of Crystal Shrapnel are consumed, every stack consumed beyond those 3 will increase the DMG dealt by this Gunbrella attack by an additional 15%.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Enter Aiming Mode, continually collecting nearby Elemental Shards created by Crystallize reactions. When released, fire Rosula Shardshots with the same effect as when the skill is Tapped.<br/><br/>Two initial charges.<br/><br/><span style=\"color:#FFD780FF\">Arkhe: Ousia</span><br/>Periodically, when Navia fires her Gunbrella, a Surging Blade will be summoned, dealing Ousia-aligned <span style=\"color:#FFE699FF\">Geo DMG</span>.",
+      "info": "\"Maintaining the appropriate distance with those whom distance should be maintained is an essential part of etiquette. Naturally, there are also many ways to do this...\"",
+      "attributes": [
+        {
+          "label": "Rosula Shardshot Base DMG",
+          "values": [
+            "394.8%",
+            "424.4%",
+            "454%",
+            "493.5%",
+            "523.1%",
+            "552.7%",
+            "592.2%",
+            "631.7%",
+            "671.2%",
+            "710.6%",
+            "750.1%",
+            "789.6%",
+            "839%",
+            "888.3%",
+            "937.6%"
+          ]
+        },
+        {
+          "label": "Crystal Shrapnel Duration",
+          "values": [
+            "300s",
+            "300s",
+            "300s",
+            "300s",
+            "300s",
+            "300s",
+            "300s",
+            "300s",
+            "300s",
+            "300s",
+            "300s",
+            "300s",
+            "300s",
+            "300s",
+            "300s"
+          ]
+        },
+        {
+          "label": "Surging Blade DMG",
+          "values": [
+            "36%",
+            "38.7%",
+            "41.4%",
+            "45%",
+            "47.7%",
+            "50.4%",
+            "54%",
+            "57.6%",
+            "61.2%",
+            "64.8%",
+            "68.4%",
+            "72%",
+            "76.5%",
+            "81%",
+            "85.5%"
+          ]
+        },
+        {
+          "label": "Surging Blade Interval",
+          "values": [
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10915,
+      "id": "as_the_sunlit_skys_singing_salute",
+      "name": "As the Sunlit Sky's Singing Salute",
+      "description": "On the orders of the President of the Spina di Rosula, call for a magnificent Rosula Dorata Salute. Unleashes a massive cannon bombardment on opponents in front of her, dealing <span style=\"color:#FFE699FF\">AoE Geo DMG</span> and providing Cannon Fire Support for a duration afterward, periodically dealing <span style=\"color:#FFE699FF\">Geo DMG</span> to nearby opponents.<br/>When cannon attacks hit opponents, Navia will gain 1 stack of Crystal Shrapnel. This effect can be triggered up to once every 2.4s.",
+      "info": "\"The Spina di Rosula's salute is a preemptive celebration of the successful conclusion of our negotiations and is fired just before talks begin. Don't misunderstand, it isn't in any way, shape, or form some kind of threat.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "75.2%",
+            "80.8%",
+            "86.5%",
+            "94%",
+            "99.6%",
+            "105.3%",
+            "112.8%",
+            "120.3%",
+            "127.8%",
+            "135.4%",
+            "142.9%",
+            "150.4%",
+            "159.8%",
+            "169.2%",
+            "178.6%"
+          ]
+        },
+        {
+          "label": "Cannon Fire Support DMG",
+          "values": [
+            "43.1%",
+            "46.4%",
+            "49.6%",
+            "53.9%",
+            "57.2%",
+            "60.4%",
+            "64.7%",
+            "69%",
+            "73.4%",
+            "77.7%",
+            "82%",
+            "86.3%",
+            "91.7%",
+            "97.1%",
+            "102.5%"
+          ]
+        },
+        {
+          "label": "Cannon Fire Support Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "undisclosed_distribution_channels",
+      "name": "Undisclosed Distribution Channels",
+      "description": "For 4s after using <span style=\"color:#FFD780FF\">Ceremonial Crystalshot</span>, the DMG dealt by Navia's Normal Attacks, Charged Attacks, and Plunging Attacks will be converted into <span style=\"color:#FFE699FF\">Geo DMG</span> which cannot be overridden by other Elemental infusions, and the DMG dealt by Navia's Normal Attacks, Charged Attacks, and Plunging Attacks will be increased by 40%.",
+      "level": 1
+    },
+    {
+      "id": "mutual_assistance_network",
+      "name": "Mutual Assistance Network",
+      "description": "For each <span style=\"color:#FF9999FF\">Pyro</span>/<span style=\"color:#FFACFFFF\">Electro</span>/<span style=\"color:#99FFFFFF\">Cryo</span>/<span style=\"color:#80C0FFFF\">Hydro</span> party member, Navia gains 20% increased ATK. This effect can stack up to 2 times.",
+      "level": 4
+    },
+    {
+      "id": "painstaking_transaction",
+      "name": "Painstaking Transaction",
+      "description": "Gains 25% more rewards when dispatched on a Fontaine Expedition for 20 hours.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 911,
+      "id": "a_ladys_rules_for_keeping_a_courteous_distance",
+      "name": "A Lady's Rules for Keeping a Courteous Distance",
+      "description": "Each stack of Crystal Shrapnel consumed when Navia uses <span style=\"color:#FFD780FF\">Ceremonial Crystalshot</span> will restore 3 Energy to her and decrease the CD of <span style=\"color:#FFD780FF\">As the Sunlit Sky's Singing Salute</span> by 1s. Up to 9 Energy can be gained this way, and the CD of \"As the Sunlit Sky's Singing Salute\" can be decreased by up to 3s.",
+      "level": 1
+    },
+    {
+      "_id": 912,
+      "id": "the_presidents_pursuit_of_victory",
+      "name": "The President's Pursuit of Victory",
+      "description": "Each stack of Crystal Shrapnel consumed will increase the CRIT Rate of this <span style=\"color:#FFD780FF\">Ceremonial Crystalshot</span> instance by 12%. CRIT Rate can be increased by up to 36% in this way.<br/>In addition, when Ceremonial Crystalshot hits an opponent, one Cannon Fire Support shot from <span style=\"color:#FFD780FF\">As the Sunlit Sky's Singing Salute</span> will strike near the location of the hit. Up to one instance of Cannon Fire Support can be triggered each time Ceremonial Crystalshot is used, and DMG dealt by said Cannon Fire Support this way is considered Elemental Burst DMG.",
+      "level": 2
+    },
+    {
+      "_id": 913,
+      "id": "businesswomans_broad_vision",
+      "name": "Businesswoman's Broad Vision",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Ceremonial Crystalshot</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 914,
+      "id": "the_oathsworn_never_capitulate",
+      "name": "The Oathsworn Never Capitulate",
+      "description": "When <span style=\"color:#FFD780FF\">As the Sunlit Sky's Singing Salute</span> hits an opponent, that opponent's <span style=\"color:#FFE699FF\">Geo RES</span> will be decreased by 20% for 8s.",
+      "level": 4
+    },
+    {
+      "_id": 915,
+      "id": "negotiators_resolute_negotiations",
+      "name": "Negotiator's Resolute Negotiations",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">As the Sunlit Sky's Singing Salute</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 916,
+      "id": "the_flexible_finesse_of_the_spinas_president",
+      "name": "The Flexible Finesse of the Spina's President",
+      "description": "If more than 3 stacks of Crystal Shrapnel are consumed when using <span style=\"color:#FFD780FF\">Ceremonial Crystalshot</span>, each stack consumed beyond the first 3 increases the CRIT DMG of that Ceremonial Crystalshot by 45%, and any stacks consumed beyond the first 3 are returned to Navia.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "985"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "27"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "62"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2555",
+            "3399"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "71",
+            "94"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "160",
+            "213"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5086",
+            "5686"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "141",
+            "158"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "319",
+            "356"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104171,
+        "id": "prithiva_topaz_sliver",
+        "name": "Prithiva Topaz Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101240,
+        "id": "spring_of_the_first_dewdrop",
+        "name": "Spring of the First Dewdrop",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112080,
+        "id": "transoceanic_pearl",
+        "name": "Transoceanic Pearl",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6542",
+            "7341"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "182",
+            "204"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "410",
+            "460"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113050,
+        "id": "artificed_spare_clockwork_component_coppelius",
+        "name": "Artificed Spare Clockwork Component — Coppelius",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101240,
+        "id": "spring_of_the_first_dewdrop",
+        "name": "Spring of the First Dewdrop",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112080,
+        "id": "transoceanic_pearl",
+        "name": "Transoceanic Pearl",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8206",
+            "8806"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "228",
+            "245"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "515",
+            "552"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113050,
+        "id": "artificed_spare_clockwork_component_coppelius",
+        "name": "Artificed Spare Clockwork Component — Coppelius",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101240,
+        "id": "spring_of_the_first_dewdrop",
+        "name": "Spring of the First Dewdrop",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112081,
+        "id": "transoceanic_chunk",
+        "name": "Transoceanic Chunk",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9679",
+            "10278"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "269",
+            "286"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "607",
+            "644"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113050,
+        "id": "artificed_spare_clockwork_component_coppelius",
+        "name": "Artificed Spare Clockwork Component — Coppelius",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101240,
+        "id": "spring_of_the_first_dewdrop",
+        "name": "Spring of the First Dewdrop",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112081,
+        "id": "transoceanic_chunk",
+        "name": "Transoceanic Chunk",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11161",
+            "11761"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "310",
+            "327"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "700",
+            "737"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113050,
+        "id": "artificed_spare_clockwork_component_coppelius",
+        "name": "Artificed Spare Clockwork Component — Coppelius",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101240,
+        "id": "spring_of_the_first_dewdrop",
+        "name": "Spring of the First Dewdrop",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112082,
+        "id": "xenochromatic_crystal",
+        "name": "Xenochromatic Crystal",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12650",
+            "12650"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "352",
+            "352"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "793",
+            "793"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104174,
+        "id": "prithiva_topaz_gemstone",
+        "name": "Prithiva Topaz Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113050,
+        "id": "artificed_spare_clockwork_component_coppelius",
+        "name": "Artificed Spare Clockwork Component — Coppelius",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101240,
+        "id": "spring_of_the_first_dewdrop",
+        "name": "Spring of the First Dewdrop",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112082,
+        "id": "xenochromatic_crystal",
+        "name": "Xenochromatic Crystal",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104338,
+          "id": "teachings_of_equity",
+          "name": "Teachings of Equity",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112080,
+          "id": "transoceanic_pearl",
+          "name": "Transoceanic Pearl",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104339,
+          "id": "guide_to_equity",
+          "name": "Guide to Equity",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112081,
+          "id": "transoceanic_chunk",
+          "name": "Transoceanic Chunk",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104339,
+          "id": "guide_to_equity",
+          "name": "Guide to Equity",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112081,
+          "id": "transoceanic_chunk",
+          "name": "Transoceanic Chunk",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104339,
+          "id": "guide_to_equity",
+          "name": "Guide to Equity",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112081,
+          "id": "transoceanic_chunk",
+          "name": "Transoceanic Chunk",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104339,
+          "id": "guide_to_equity",
+          "name": "Guide to Equity",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112081,
+          "id": "transoceanic_chunk",
+          "name": "Transoceanic Chunk",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104340,
+          "id": "philosophies_of_equity",
+          "name": "Philosophies of Equity",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112082,
+          "id": "xenochromatic_crystal",
+          "name": "Xenochromatic Crystal",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Lightless Silk String",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104340,
+          "id": "philosophies_of_equity",
+          "name": "Philosophies of Equity",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112082,
+          "id": "xenochromatic_crystal",
+          "name": "Xenochromatic Crystal",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Lightless Silk String",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104340,
+          "id": "philosophies_of_equity",
+          "name": "Philosophies of Equity",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112082,
+          "id": "xenochromatic_crystal",
+          "name": "Xenochromatic Crystal",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Lightless Silk String",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104340,
+          "id": "philosophies_of_equity",
+          "name": "Philosophies of Equity",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112082,
+          "id": "xenochromatic_crystal",
+          "name": "Xenochromatic Crystal",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Lightless Silk String",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 209100,
+      "name": "Yellow Velvet Salon",
+      "description": "Navia's outfit. An elegant dress that cleaves perfectly to the image of a Fontainian lady, lending this adventurous, far-from-traditional young woman a fresh look indeed.",
+      "isDefault": true,
+      "characterName": "Navia",
+      "characterId": 10000091,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Navia_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Nice to meet you! I am Navia, the esteemed president, leader, commander-in-chief, executive director, and Boss of Spina di Rosula. You strike me as somebody special — a person of character. Something tells me that this is the beginning of a long partnership between us... perhaps even as long as all the titles in front of my name."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Traveling",
+      "text": "I really wanna go traveling! I don't mind where we go, as long as I have my friends with me, hehe."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Speaking From Experience",
+      "text": "My time with the Spina has taught me that carrying an unreliable weapon is worse than not carrying one at all."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Logo",
+      "text": "I do love Spina di Rosula's logo. It was designed by my mother. Have you noticed how it's shaped like a heart?"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Ugh... It's raining again..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Aaah! Ugh, I should have covered my ears when I saw the flash!"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Maybe I should take off my hat, and let the snowflakes fall onto my face... I feel like that would be really refreshing."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Quick, look! Up in the sky! Look at that scorching sun, it's like a blast furnace! You know what this means? It means we have to drop everything, right now, and make a run for the ice cream store! We need to get two of the biggest cones they sell, and then it's an all-out race to see who can finish before it melts!"
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "Finally! The rain has stopped!"
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "*gasp* My hat! No, my skirt! Aah, don't make me choose!"
+    },
+    {
+      "id": "1207",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "Sunglasses are great at keeping the sand out of your eyes so you can see your way! Except at night... then you can't see anything at all..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning! Any plans for the day yet? If not, why don't you hang out with me?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "I've heard about this weird new kind of lasagna that's just come out. You wanna try it together? Sounds like it'll taste pretty strange... but I still gotta try it!"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "In the headlines tonight, President of Spina di Rosula in \"awesome\" mood after spending another fantastic day with her favorite partner!"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Come on now, time to empty your mind and get a good night's sleep! I'll see you tomorrow~"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Navia: Optimism",
+      "text": "I always say that blind optimism isn't the answer — if you want a bright future, you have to go out and seize it with your own two hands! So, come over here... Now, take my hands in yours and give them a good shake. There! See, doesn't that feel good?"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Navia: Luck",
+      "text": "People who know about my past might think I've suffered a lot of misfortune, but I don't see it like that at all.\\nI count myself lucky to have received so much love in life."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Partners",
+      "text": "Some people call me \"Boss,\" others \"Demoiselle,\" but none of that does anything for me. My favorite thing to be called is \"partner\" — but only by you, of course. So, just know that my vainer side would be over the moon if you could indulge me a little more often."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Keeping Secrets",
+      "text": "People say that a secret shared is a secret no more, but I like to think that true friends keep each other's secrets. ...What? Veiled threat? No, of course not! Granted, as president of Spina di Rosula, I do have my ways of making people keep their mouths shut, but don't worry — I promise not to use those on you."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Here, take a look at my Vision! I love how shiny it is. Doesn't it go great with my dress?\\nStill, it's nothing compared to using the elements without a Vision... And with no training or anything either, right? So cool."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share: Dogs",
+      "text": "My favorite dog breed of all is the chestnut hunting hound. You know how they have the little spots above their eyes? They look just like eyebrows, don't they? That's why they look so innocent and earnest all the time. Please keep this a secret for me, though — I don't wanna hurt the other dogs' feelings!"
+    },
+    {
+      "id": "3005",
+      "type": 1,
+      "title": "Something to Share: The Dependable Spina di Rosula",
+      "text": "If you've spent long enough in the Fleuve Cendre, you might have noticed that there are a lot of other groups in Fontaine besides the Spina di Rosula. Beware of them — they each have their own agenda, and they're not all friendly like us. If you ever find yourself in a tight spot, you can always ask Mr. Tetreaux at the bar for help. Unless you're dealing with someone who isn't in the mood to sit down and have a conversation, in which case... White Glove will sort things out. You can count on him."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "I really love the Pluie Lotus — it's such a beautiful color. Plus, when you see them in full bloom, it's a sure sign that the rainy season is finally over."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Clorinde",
+      "text": "She might not say much, or show a lot of emotion, but I can tell that she feels deeply. After my father's death, I... well, it caused quite a rift between us for a long time. But even then, I never did like having her constantly walking on eggshells around me... I much prefer how things are now."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Charlotte",
+      "text": "Charlotte's known for her fast-and-furious reporting, but it's her photography skills that really impress me. She once snapped a quick photo of me, a waist-up shot, and the result was absolutely stunning — it was like looking at an oil painting. She seems to have a knack for writing extraordinary news stories and taking the most eye-catching photos. Guess she was born to be a journalist."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Chiori",
+      "text": "Ah, the fashion designer who brought the coolest Inazuman trends to Fontaine? She's actually been a great help to the Spina behind the scenes. She says my unorthodox ideas always give her a lot of inspiration for her work, and from what I can tell, I think she means it. Still, she drew the line at my request for a ten-meter-tall top hat. *sigh* Missed opportunity, if you ask me... Imagine seeing one of those in front of the shop! It would be a great way to draw in customers."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Furina",
+      "text": "I was lucky enough to catch her in an opera when I was young. Even though it was a charity show, the tickets were nearly impossible to get! She was performing in character then, but I thought she seemed more in her element then than she ever did as an Archon, giving speeches up in the opera box... Looking back, I guess my intuition was right."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Neuvillette",
+      "text": "Ah, how to describe Monsieur Neuvillette... He's... complex, in some ways — but very straightforward in others. I guess a good analogy would be rocky reefs in the sea: Trying to navigate through obstacles you can't see makes for a bumpy ride, but if you can figure out how they work, you start to spot the signs."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Wriothesley",
+      "text": "Trying to discuss anything with that guy is an exhausting process. Clorinde says I needn't have any reservations about collaborating with him in the scope of our preexisting agreement, but I still shouldn't trust everything that comes out of his mouth. No wonder my father never tried to get involved with the affairs of the Fortress... I think I'll play it safe and keep things that way."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About The Knave",
+      "text": "She is a formidable but caring leader, and definitely comes across like a master of the house. But she's still a Fatui Harbinger, and that means she must have a more ruthless side. So don't worry — while I'll always appreciate what she did for Poisson, I'm not about to let my guard down around her completely."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Lyney and Lynette",
+      "text": "I know magicians can often be all bravado and razzmatazz, but I can tell that Lyney is a sincere guy who cares deeply about his friends and family. He's so mature for his age, it catches me off guard sometimes... Oh, and how could I forget — it was so kind of him to try and cheer up the children in Poisson with an impromptu free magic show during the flood! I'll have to invite him and Lynette over for some macarons at my place when I get the chance. I know Lynette's always conjuring teacups out of thin air, so surely at least she's a fan of a proper tea break?"
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Escoffier",
+      "text": "My good friend Escoffier is finally out and about again... It's about time. Shutting herself away like that, all to try and surpass her own magnum opus, Gateau Debord. It's a wonder she can even stand the sunlight after all that time inside. You know what? We should all go for a picnic sometime! I'll make sure to bring her a pair of sunglasses and a parasol. Believe me, you're in for a treat! With Escoffier, even the simplest of outings feel like fine dining!"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Navia: I",
+      "text": "The Spina's work is basically... well, a little bit of everything, but the focus is always on solving other people's problems. ...That probably makes it sound worse than it is, though. Sure, I'm making other people's problems my own, but I always get a real boost out of being able to help people."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Navia: II",
+      "text": "I've always thought that it's important to appreciate the beauty in the world. The blossoms in the spring, summers by the sea, the smiles on your friends' faces... You shouldn't take those things for granted."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Navia: III",
+      "text": "Sometimes, I like to go out into the wild, find a quiet place with no one else around, and do some target practice.\\nIt's a great way to destress! Wanna try? I can walk you through it step by step. You'd be my first student, but I feel like I'd be a great teacher. I still remember everything that my father and Nanny Bracari ever taught me!"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Navia: IV",
+      "text": "I won't become the same kind of person as my father was. Some veterans of the Spina think that I'm becoming more and more like him, but I think the trend they're referring to is a superficial one, born out of the simple fact that some problems only have so many solutions. Spina di Rosula has changed a lot since my father's day, and I intend to be the president for the Spina of today."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Navia: V",
+      "text": "I also don't think I'm going to turn into my mother, either. People say we have similar personalities, and I can kind of understand her reasons for making the decisions she did back in the day, but even so...\\nHuh, I have a sudden urge to take a trip on the Clementine Line. Could you come with me? I don't have a particular goal in mind, but... maybe we could take a walk around the city afterwards?"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Navia's Hobbies",
+      "text": "I've loved baking ever since I was a child. Don't you think it's magical? You throw a bunch of random ingredients together in the right amounts, put the mixture in the oven, and then just watch as it slowly balloons up and transforms into a delicious treat...\\nHey, do you wanna make gingerbread together sometime? We can make it into a fun little competition — see who can build the biggest, most beautiful gingerbread house!"
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Navia's Troubles",
+      "text": "Ugh, cleaning up after baking a cake is a nightmare. The flour just gets everywhere, and the leftover egg whites and cream go all sticky and gross... I'll, um... I'll just go find a helper!"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I like trying new things, for the surprise factor. But before you question my sense of taste, let me clarify that just because I can appreciate the novelty in a dish doesn't mean I'm claiming it tastes amazing."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I never enjoy leftovers that have been left too long. It just feels like sacrilege to neglect the poor food when it's fresh, then eat after it's gone stale..."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "This is some incredible cooking! Next time we head out together, looks like I should carry the ingredients and cookware, and let you be the chef."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Not bad! Next time, you cook the food and I'll plate it. Then, it'll look as good as it tastes."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Don't feel discouraged! The world needs people who aren't afraid to innovate."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Do you believe that wishes can come true? You know, like when you toss a coin into a fountain for good luck? As long as you throw enough coins in, one of your wishes is sure to come true, right?\\nWell anyway, today's your birthday, so I'm not leaving anything to chance — I've got a whole bag of Mora here dedicated to making your birthday wish come true. Whatever you want, I'll do everything in my power to make it happen!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "This feeling, it's like... Like a lemon cheesecake!"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "As the cream melts on the tip of my tongue, all my stress fades away."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Do you know that chocolate candy that's made in the shape of a bullet? It's so sweet, it's like an instant shot of energy to your whole body. Well, that's what this feels like!"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "All I need now is a nice pot of soothing tea with a little milk, and our tea party can finally commence... But seriously, one tea party wouldn't begin to repay you after everything you've done for me. So if there's ever something you need in Fontaine, know that Spina di Rosula will always be happy to help you."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Watch out~!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Comin' at ya!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Hey there!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Feelin' lucky?"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "This one's got your name on it!"
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "...Umbrella warfare, I guess?"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Fire!!! ...Well, with rocks."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "A proper sendoff! From the Spina, with love."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Attack! Mm-hmm, that's the way."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Whoa! What a stroke of good luck!"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Quick! Let's pack it up!"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "I'm loving this treasure hunt~!"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Just... a little longer!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "...I must do my duty!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "C'mon, Navia, focus!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Leave it to the president!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Reinforcements are here!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Guess I'm... going home..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Sorry, partner..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "No... not me, too..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "What's your problem?"
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Where'd that come from!?"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Ow... I'm fine!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Count me in."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "The Spina's on the case!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "I'll take the lead today!"
+    }
+  ]
+}

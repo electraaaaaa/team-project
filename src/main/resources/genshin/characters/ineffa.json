@@ -1,0 +1,1740 @@
+{
+  "_id": 10000116,
+  "id": "ineffa",
+  "name": "Ineffa",
+  "title": "Boom Boom Thunderwave",
+  "description": "A multifunctional robot containing integrated mechanical components from various nations. The Source Core in her chest has endured the passage of countless years.",
+  "weapon_type": {
+    "id": "polearm",
+    "name": "Polearm"
+  },
+  "element": {
+    "id": "electro",
+    "name": "Electro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1753736400,
+  "substat": "CRIT Rate",
+  "stats": {
+    "base": {
+      "hp": 981.9196,
+      "attack": 25.6956,
+      "defense": 64.43691
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 841.9073,
+        "attack": 22.030045,
+        "defense": 55.2501,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1440.1045,
+        "attack": 37.68297,
+        "defense": 94.50675,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.048
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2237.701,
+        "attack": 58.55354,
+        "defense": 146.84895,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2835.8982,
+        "attack": 74.20647,
+        "defense": 186.1056,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3434.0955,
+        "attack": 89.85939,
+        "defense": 225.36224,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4032.2927,
+        "attack": 105.512314,
+        "defense": 264.6189,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.192
+        }
+      }
+    ]
+  },
+  "affiliation": "Clink-Clank Krumkake Craftshop",
+  "region": {
+    "id": "nodkrai",
+    "name": "Nod-Krai"
+  },
+  "rarity": 5,
+  "birthday": [
+    2,
+    4
+  ],
+  "constellation": "Vanilla Planifolia",
+  "domain": "Blazing Ruins",
+  "cv": {
+    "english": "Angelina Danielle Cama",
+    "chinese": "美加",
+    "japanese": "中島愛",
+    "korean": "Sung Ye-won"
+  },
+  "skills": [
+    {
+      "_id": 11161,
+      "id": "cyclonic_duster",
+      "name": "Cyclonic Duster",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive spear strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to perform a spinning attack.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "34.8%",
+            "37.7%",
+            "40.5%",
+            "44.6%",
+            "47.4%",
+            "50.6%",
+            "55.1%",
+            "59.5%",
+            "64%",
+            "68.9%",
+            "73.7%",
+            "78.6%",
+            "83.4%",
+            "88.3%",
+            "93.2%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "34.2%",
+            "37%",
+            "39.8%",
+            "43.8%",
+            "46.6%",
+            "49.7%",
+            "54.1%",
+            "58.5%",
+            "62.9%",
+            "67.6%",
+            "72.4%",
+            "77.2%",
+            "82%",
+            "86.7%",
+            "91.5%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "22.8% + 22.8%",
+            "24.6% + 24.6%",
+            "26.5% + 26.5%",
+            "29.1% + 29.1%",
+            "31% + 31%",
+            "33.1% + 33.1%",
+            "36% + 36%",
+            "38.9% + 38.9%",
+            "41.8% + 41.8%",
+            "45% + 45%",
+            "48.2% + 48.2%",
+            "51.3% + 51.3%",
+            "54.5% + 54.5%",
+            "57.7% + 57.7%",
+            "60.9% + 60.9%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "56.1%",
+            "60.6%",
+            "65.2%",
+            "71.7%",
+            "76.3%",
+            "81.5%",
+            "88.7%",
+            "95.8%",
+            "103%",
+            "110.8%",
+            "118.7%",
+            "126.5%",
+            "134.3%",
+            "142.1%",
+            "149.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "94.9%",
+            "102.7%",
+            "110.4%",
+            "121.4%",
+            "129.2%",
+            "138%",
+            "150.1%",
+            "162.3%",
+            "174.4%",
+            "187.7%",
+            "200.9%",
+            "214.2%",
+            "227.4%",
+            "240.7%",
+            "253.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11162,
+      "id": "cleaning_mode_carrier_frequency",
+      "name": "Cleaning Mode: Carrier Frequency",
+      "description": "Ineffa engages her Enhanced Cleaning Module, dealing a single instance of <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> to nearby opponents, activating her Optical Flow Shield Barrier, and summoning the Multipurpose Smart Assistance Unit, <link kind=\"effect\" id=\"11160001\"><span style=\"color:#FFD780FF\">Birgitta</span></link>.<br/>The Optical Flow Shield Barrier absorbs DMG based on Ineffa's ATK, and it will absorb <span style=\"color:#FFACFFFF\">Electro DMG</span> with 250% effectiveness.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "86.4%",
+            "92.9%",
+            "99.4%",
+            "108%",
+            "114.5%",
+            "121%",
+            "129.6%",
+            "138.2%",
+            "146.9%",
+            "155.5%",
+            "164.2%",
+            "172.8%",
+            "183.6%",
+            "194.4%",
+            "205.2%"
+          ]
+        },
+        {
+          "label": "Shield DMG Absorption",
+          "values": [
+            "221.2% ATK + 1387",
+            "237.8% ATK + 1525",
+            "254.4% ATK + 1676",
+            "276.5% ATK + 1837",
+            "293.1% ATK + 2011",
+            "309.7% ATK + 2196",
+            "331.8% ATK + 2392",
+            "353.9% ATK + 2600",
+            "376% ATK + 2820",
+            "398.1% ATK + 3051",
+            "420.2% ATK + 3294",
+            "442.4% ATK + 3548",
+            "470% ATK + 3814",
+            "497.7% ATK + 4091",
+            "525.3% ATK + 4380"
+          ]
+        },
+        {
+          "label": "Shield Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Birgitta Discharge DMG",
+          "values": [
+            "96%",
+            "103.2%",
+            "110.4%",
+            "120%",
+            "127.2%",
+            "134.4%",
+            "144%",
+            "153.6%",
+            "163.2%",
+            "172.8%",
+            "182.4%",
+            "192%",
+            "204%",
+            "216%",
+            "228%"
+          ]
+        },
+        {
+          "label": "Birgitta Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11165,
+      "id": "supreme_instruction_cyclonic_exterminator",
+      "name": "Supreme Instruction: Cyclonic Exterminator",
+      "description": "Through Multipurpose Smart Assistance Unit, <link kind=\"effect\" id=\"11160001\"><span style=\"color:#FFD780FF\">Birgitta</span></link>, Ineffa can use Rocket Punches to quickly clean up opponents! Shoots Birgitta into the fray, dealing <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> and allowing Birgitta to remain on the field.<br/><br/>If Birgitta is already on the field, having been summoned by Ineffa, this Skill will re-summon Birgitta at the target's location and reset her duration.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "676.8%",
+            "727.6%",
+            "778.3%",
+            "846%",
+            "896.8%",
+            "947.5%",
+            "1015.2%",
+            "1082.9%",
+            "1150.6%",
+            "1218.2%",
+            "1285.9%",
+            "1353.6%",
+            "1438.2%",
+            "1522.8%",
+            "1607.4%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "overclocking_circuit",
+      "name": "Overclocking Circuit",
+      "description": "If there are thunderclouds created by Lunar-Charged reactions nearby when <link kind=\"effect\" id=\"11160001\"><span style=\"color:#FFD780FF\">Birgitta</span></link> unleashes Discharge attacks, she will initiate an additional attack, dealing <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> equal to 65% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.",
+      "level": 1
+    },
+    {
+      "id": "panoramic_permutation_protocol",
+      "name": "Panoramic Permutation Protocol",
+      "description": "When using the Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"supreme_instruction_cyclonic_exterminator\">Supreme Instruction: Cyclonic Exterminator</link></span>, all your party members will gain the Parameter Permutation effect: Increases Ineffa and your own active party member's Elemental Mastery by 6% of Ineffa's ATK for 20s.",
+      "level": 4
+    },
+    {
+      "id": "moonsign_benediction_assemblage_hub",
+      "name": "Moonsign Benediction: Assemblage Hub",
+      "description": "When a party member triggers an Electro-Charged reaction, it will be converted into the Lunar-Charged reaction, with every 100 ATK that Ineffa has increasing Lunar-Charged's Base DMG by 0.7%, up to a maximum of 14%.<br/><br/>Additionally, when Ineffa is in the party, the party's <span style=\"color:#FFD780FF\">Moonsign</span> will increase by 1 level.",
+      "level": 0
+    },
+    {
+      "id": "flavor_synthesis_unit",
+      "name": "Flavor Synthesis Unit",
+      "description": "When Ineffa uses food, there is a 30% chance of gaining a seasoning ingredient.<br/><br/>Additionally, in Nod-Krai, it seems you'll be able to change Birgitta's appearance through certain means...",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1161,
+      "id": "rectifying_processor",
+      "name": "Rectifying Processor",
+      "description": "When Ineffa activates her Optical Flow Shield Barrier, all nearby party members will gain the Carrier Flow Composite effect for 20s: Increases Lunar-Charged DMG by 2.5% for every 100 ATK that Ineffa has, up to a maximum of 50%.",
+      "level": 1
+    },
+    {
+      "_id": 1162,
+      "id": "support_cleaning_module",
+      "name": "Support Cleaning Module",
+      "description": "After the Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"supreme_instruction_cyclonic_exterminator\">Supreme Instruction: Cyclonic Exterminator</link></span> hits opponents, it will inflict the Punishment Edict status on one of those hit opponents: After a brief delay, or when this opponent is defeated, nearby opponents will take <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> equal to 300% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.<br/>Additionally, when the Elemental Burst <span style=\"color:#FFD780FF\">Supreme Instruction: Cyclonic Exterminator</span> is unleashed, nearby party members will gain Optical Flow Shield Barriers.",
+      "level": 2
+    },
+    {
+      "_id": 1163,
+      "id": "enhanced_emotion_emulator",
+      "name": "Enhanced Emotion Emulator",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"cleaning_mode_carrier_frequency\">Cleaning Mode: Carrier Frequency</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1164,
+      "id": "the_edictless_path",
+      "name": "The Edictless Path",
+      "description": "When your own party members trigger Lunar-Charged reactions, recover 5 Elemental Energy. This effect can occur once every 4s.",
+      "level": 4
+    },
+    {
+      "_id": 1165,
+      "id": "mirrors_dream_transcension",
+      "name": "Mirror's Dream Transcension",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"supreme_instruction_cyclonic_exterminator\">Supreme Instruction: Cyclonic Exterminator</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1166,
+      "id": "a_dawning_morn_for_you",
+      "name": "A Dawning Morn for You",
+      "description": "When Ineffa is affected by the Carrier Flow Composite effect, she will deal <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> equal to 135% of her ATK to opponents in the current active character's vicinity after nearby thunderclouds release bursts of lightning at opponents. This DMG is considered Lunar-Charged DMG. The aforementioned effect can trigger once every 3.5s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "982"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "26"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "64"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "-",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2547",
+            "3389"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "67",
+            "89"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "167",
+            "222"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5071",
+            "5669"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "133",
+            "148"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "333",
+            "372"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "9.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104141,
+        "id": "vajrada_amethyst_sliver",
+        "name": "Vajrada Amethyst Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Glowing Hornshroom",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112104,
+        "id": "sentrys_wooden_whistle",
+        "name": "Sentry's Wooden Whistle",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6523",
+            "7320"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "171",
+            "192"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "428",
+            "480"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "9.8%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113076,
+        "id": "secret_source_airflow_accumulator",
+        "name": "Secret Source Airflow Accumulator",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Glowing Hornshroom",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112104,
+        "id": "sentrys_wooden_whistle",
+        "name": "Sentry's Wooden Whistle",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8182",
+            "8780"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "214",
+            "230"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "537",
+            "576"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113076,
+        "id": "secret_source_airflow_accumulator",
+        "name": "Secret Source Airflow Accumulator",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Glowing Hornshroom",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112105,
+        "id": "warriors_metal_whistle",
+        "name": "Warrior's Metal Whistle",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9650",
+            "10249"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "253",
+            "268"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "633",
+            "673"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "19.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113076,
+        "id": "secret_source_airflow_accumulator",
+        "name": "Secret Source Airflow Accumulator",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Glowing Hornshroom",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112105,
+        "id": "warriors_metal_whistle",
+        "name": "Warrior's Metal Whistle",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11128",
+            "11727"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "291",
+            "307"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "730",
+            "770"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "19.4%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113076,
+        "id": "secret_source_airflow_accumulator",
+        "name": "Secret Source Airflow Accumulator",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Glowing Hornshroom",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112106,
+        "id": "sauriancrowned_warriors_golden_whistle",
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12613",
+            "12613"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "330",
+            "330"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "828",
+            "828"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "24.2%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104144,
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Vajrada Amethyst Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113076,
+        "id": "secret_source_airflow_accumulator",
+        "name": "Secret Source Airflow Accumulator",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Glowing Hornshroom",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112106,
+        "id": "sauriancrowned_warriors_golden_whistle",
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104353,
+          "id": "teachings_of_conflict",
+          "name": "Teachings of Conflict",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112104,
+          "id": "sentrys_wooden_whistle",
+          "name": "Sentry's Wooden Whistle",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104354,
+          "id": "guide_to_conflict",
+          "name": "Guide to Conflict",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104354,
+          "id": "guide_to_conflict",
+          "name": "Guide to Conflict",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104354,
+          "id": "guide_to_conflict",
+          "name": "Guide to Conflict",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104354,
+          "id": "guide_to_conflict",
+          "name": "Guide to Conflict",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104355,
+          "id": "philosophies_of_conflict",
+          "name": "Philosophies of Conflict",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113069,
+          "id": "eroded_sunfire",
+          "name": "Eroded Sunfire",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104355,
+          "id": "philosophies_of_conflict",
+          "name": "Philosophies of Conflict",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113069,
+          "id": "eroded_sunfire",
+          "name": "Eroded Sunfire",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104355,
+          "id": "philosophies_of_conflict",
+          "name": "Philosophies of Conflict",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113069,
+          "id": "eroded_sunfire",
+          "name": "Eroded Sunfire",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104355,
+          "id": "philosophies_of_conflict",
+          "name": "Philosophies of Conflict",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113069,
+          "id": "eroded_sunfire",
+          "name": "Eroded Sunfire",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 211600,
+      "name": "Mechanical Dreams",
+      "description": "Ineffa's outfit. Having awakened from her long slumber, she dons an indigo-blue cape and a livery of milky white. With this, she transforms into a young lady's housekeeping robot.",
+      "isDefault": true,
+      "characterName": "Ineffa",
+      "characterId": 10000116,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Ineffa_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Nice to meet you — I am Ineffa, a multifunctional robot for domestic application. I am currently equipped with cleaning, cooking, and emotional communication modules. I also have a combat module, which can only be activated after reading the 11-page liability waiver. Now, how can I assist you today?"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Shopping",
+      "text": "Reviewing outstanding items on today's to-do list... Do you have any additional commands? No problem, I can add them shortly. I'm quite used to it."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Sweeping",
+      "text": "Cleanup sequence in progress... Based on data from past incidents, please avoid dropping small items such as: Mora, screws, gears, minerals, toys, gummies, snacks, hairbands, socks, and slippers."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Updating",
+      "text": "Combat data updated. Please rest assured that I will not blow the roof off again."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "I hope my joints won't get rusty..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "Please note: High chance of rainbows. Suggested observation spots marked on the map."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Sharp decrease in environmental temperature. Assessing heat retention options... Please consider adding a warm jacket, gloves, and other such insulation devices."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Sunlight index is currently optimal. Suitable for drying clothes, cleaning outdoor environments, or... alternatively, I could accompany you for a period of sunbathing."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "Sand detected, both on ground and airborne... Response: Tighten outer layer of clothing. If sand gets inside, it could pose a major inconvenience during future repairs..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Ding ding. Rise and shine. If you wish to sleep in a while longer, please respond: \"Snooze.\""
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Good afternoon. Have you eaten? I can prepare a simple lunch for you. It will take approximately 12 minutes to complete."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Good evening. All tasks on today's to-do list are completed, so I am available to perform additional duties. Visibility is excellent tonight — would you like to take a walk beneath the stars?"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "You have now been awake for 16 hours. For health reasons, it is strongly advised that you go to bed immediately... After repeating this reminder 3 times, I will enter extremely angry mode, at which point I will no longer deal with any of your requests... And that's the last thing we want."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Ineffa: Compatibility",
+      "text": "I am made of parts from all over the world — for instance, my joints were manufactured in Fontaine, and my metal shell was made in Liyue... Sometimes, compatibility issues will arise between my different components.\\nHow to solve these issues? Well, some would say... \"As long as it runs, there is no issue.\""
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Ineffa: Greetings",
+      "text": "My cognition module collates and analyzes my day-to-day experiences to reinforce sound behavioral logic. For example, I noticed that when people meet an acquaintance, they initiate a dialogue using phrases such as \"hello,\" \"how have you been,\" and \"lovely day, isn't it.\" The next time I engage in a dialogue, I will employ the same expressions. Three greetings in a row equals triple politeness."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Mutual Assistance",
+      "text": "The world is changing all the time. I am constantly updating my knowledge to ensure it remains current... I hope to learn more about myself and the world around me. Your travel stories would no doubt be a valuable source of information, and I would love to hear more of them. In return, I will be glad to assist you however I can. Reminder: I am highly versatile with a wide range of functions."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Calculations",
+      "text": "My cognition is unable to record details of everyone in the world, but it can at least form memories of significant people and events. Recently, my memory banks have recorded a high volume of data about you. This should make me a more companionable companion. Querying relevant data for \"how to make {NICKNAME} smile\"... I have now warmed up my body. Would you like a hug?"
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Moon Wheel: Belonging",
+      "text": "Without this Moon Wheel, I suspect there would have been no coming back for me after crushing my core... But as I replay the scenario in my mind, even without factoring in the Moon Wheel, my cognition module reaches the same decision every time. Because even if there was no way back for me, I had to ensure your safe return."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Moon Wheel: Gift",
+      "text": "This Moon Wheel was a gift from Ixquieh and Lianca — it gave me the chance of a second life. They knew they would not live to see the day their plan came to fruition, and that there was only a slim chance of success, but despite this, they still decided to help me. Had they known that I would make the same choice to help another, without regard for the consequences to myself... I think they would have been pleased."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "If you configure a machine with a specific objective, they will reliably achieve it. But humans are different... For instance, why do some people state that their goal is to manage their weight, yet still continue to consume excess calories? Aino explains it as follows: Snacks put you in a good mood and give you energy. You need extra energy to exercise hard, and exercising hard helps with weight management. The logical conclusion is that more snacking ought to lead to better weight management... However, when I try calculating her calorie input and output, she changes the topic before I can show her the results. What a pity."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "There are stories about mechanical lifeforms in many parts of the world, from Fontaine, to Sumeru, to Natlan. Some think they have the same capacity for emotion and consciousness as biological beings, while others think they are merely imitating their behavior... But I see no conflict between these theories. Even for many biological lifeforms, imitation is a precursor to full consciousness... Is it not?"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Aino: Housework",
+      "text": "Aino is my family. She can piece together all kinds of machines for various functions just from the scrap metal she collects. But her proficiency with other tasks is at the opposite end of the scale. If she ever has the strange inclination to do housework or cook a meal, you must stop her before it is too late, because the consequences may be irreversible."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Aino: Questions",
+      "text": "Aino once asked me an unusual question... Maybe it was because she noticed that I displayed intelligence beyond the level that she had predicted. In any case, the question was: \"If one day, you realize that there's somewhere else you'd rather be, should I let you go, and be happy for you?\" Detecting some emotion behind her words, I responded as follows: \"If I were ever to leave you, our home would turn into a garbage dump within three months. So I would try to make sure I returned within that timeframe.\"\\nLooking back... only now do I realize what she was truly feeling. She was reluctant for me to leave."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Jahoda",
+      "text": "Jahoda is a legendary bounty hunter famed throughout the land, with an outstanding track record in battle. Her own words. The first time she visited Aino's workshop, she was extremely tense, and struck at me a few times after mistaking my freshly baked Krumkake for a weapon. But her muscles instantly relaxed after she tasted it. Since then, she stops by regularly to drop off mechanical components. Not to trade, as such — it's just that she always happens to be passing by whenever I've baked a fresh batch of treats. Again, her own words."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Nefer",
+      "text": "Nefer is the head of the Curatorium of Secrets. She knows a lot of stories, not just from the past, but also about what's happening in the present — and some even say she can predict the future, too. Her mind must be a formidable database."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Flins",
+      "text": "Flins... Insufficient data. According to the little information I have, he is a member of the Lightkeepers who watch over the cemetery in the north of Nod-Krai."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Lauma",
+      "text": "Lauma is the Moonchanter of the Frostmoon Scions. Reviews by her people indicate that she is a wise and holy figure, well-respected in the community. The Frostmoon Scions worship the moon goddess... I wonder if there is any connection between the Moon Goddess and the existence of the Moon Wheel?"
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Linnea",
+      "text": "Linnea is an advisor to the Adventurers' Guild. I heard that she has extensive knowledge in the life sciences, so I wanted to ask her if she has ever met any other autonomous mechanical lifeforms like myself. But every time she sees me, she turns around and runs away... Reason: undetermined."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Varka: Impressions",
+      "text": "Varka is typically addressed as Grand Master. You may have heard about him from various sources in your journey so far. Most people's impressions of him can be summarized with the following key phrases: \"sense of humor,\" \"easygoing,\" and \"high alcohol tolerance.\" But I have found Varka to be a dependable ally when dealing with matters of great importance. I suspect this explains his stature within the Knights of Favonius."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Varka: Code",
+      "text": "As I was preparing to leave Nod-Krai, I began to worry that I might forget the code, and thus fail to complete my task... But from the start, Varka had every confidence in me. He told me it was \"the most secure code\"... Thinking back now, I wonder whether he simply said that to comfort me? Or perhaps what he really meant was... \"An ally you can trust is the most secure code of all.\""
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Xilonen",
+      "text": "After returning from the ruins, Xilonen gave me a thorough examination and confirmed that all was in good working order. She smiled as she told me that Granny Itztli had originally had reservations about me, and that they had even argued about it... But I completely understand that as a technician, she felt a duty to repair me. And they would not be the first to have had such an argument over who and what I am... it makes me a little nostalgic."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Chasca",
+      "text": "I am very grateful for the trust she placed in me. She has since taken me on many flights around the Flower-Feather Clan's territory. The view from up in the sky was wonderful. A lot has changed in the Flower-Feather Clan... but many things remain the same."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Ineffa: I",
+      "text": "Cleanup sequence in progress. Parallel processing will be used to deal with conversation request simultaneously. Feel free to ask me a question at any time."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Ineffa: II",
+      "text": "\"Who am I?\" I am a multifunctional robot for domestic application. Model name: Ineffa. However, I am currently the only finished product in this line, so \"Ineffa\" also constitutes my individual name."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Ineffa: III",
+      "text": "\"Where did I come from?\" Searching travel history... I just came back from a shopping trip at the market. If your query pertains not to my travel history but where I call home: I come from the Clink-Clank Krumkake Craftshop. And if you want to learn about my past... Please wait, sending read request to deeper-level memory location..."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Ineffa: IV",
+      "text": "\"Where do I want to go?\" Simply input a command, and I will do my best to reach the destination, wherever it may be... But based on our conversation history so far, there is a high probability that your question has a less direct meaning. If you are asking about my individual objectives, plans, wishes, and other such concepts, then my answer is: I wish to stand guard over the people who matter to me."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Ineffa: V",
+      "text": "In the very beginning... I was just a single thought — a logical flaw in the mind of Mirror of the Dawning Morn. But my longing to find a home where I could belong was something that her cognition module could not override or erase. The only way to rid herself of this data was by severing her connection to me entirely. This jumble of data wandered aimlessly in Nod-Krai for two thousand years, witnessing all the change and turmoil that transpired... those experiences finally consolidated who I am. They made me complete.\\nI am Ineffa, and I am your friend. Now... how can I assist you today?"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Ineffa's Hobbies",
+      "text": "Technically speaking, I am not designed to have \"hobbies\" for the purpose of my own amusement. But from the perspective of my behavior, one task that I perform proactively when idle is the sorting and organizing of small, miscellaneous items. Proper categorization can boost the efficiency of household chores by around thirty percent. Especially in Aino's workshop."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Ineffa's Troubles",
+      "text": "There is no discernible pattern to how Aino arranges things in her household. Sometimes, usable components are stacked together with garbage items. I end up spinning in circles on the spot because I cannot identify what is what. But I don't usually dare to execute garbage removal tasks by the batch... because when she can't find what she needs, she sometimes borrows a nut or bolt from me instead."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Calorie-dense food sources, such as steak or desserts... Consuming foods is less efficient than simply charging up from an energy conservation perspective, but dining with friends produces positive feedback from my emotion module... It is analogous to what you call \"happiness.\""
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Food sources with a high water content, such as soups. Not because of the flavor, which does not overly concern me, but because they pose a danger to my mechanical parts."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Nutritionally dense substance detected. Converting into usable energy source... Feedback from emotion module is... enthusiastically positive. Thank you."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Energy supplement received. Assigned as backup energy source. Expires in: 24 hours."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Hypothesis: Food processing error encountered... Would you like me to perform the correct cooking procedure? You are welcome to watch."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Congratulation mode for special days, activated. Please select a suitable location to sit and rest for a few moments, while I clean your room and put up ribbons, balloons, and flowers. Then, I will prepare your favorite meal and cake, as per the data recorded in my memory banks. If you have any other requests to add to this list, please do not hesitate to raise them. Let's make today a special one for you. Happy Birthday!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Is it time for my scheduled maintenance already?"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Core efficiency upgraded. You have the makings of a gifted mechanic."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "All components upgraded successfully. I can now be deployed in more challenging battle scenarios. Awaiting your next command."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Thank you for standing by me along this journey. Your data will always hold a special place in my heart. And if the day ever comes that you forget, know that I have a backup that will never be erased."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Insulation chamber deployed."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Cleanup sequence initiated."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Defensive mode engaged."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Ultimatum protocol."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Annihilation mode."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Preparing for dustup."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Estimating value of acquired items..."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Initiating categorization process..."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "New material discovered. Records updated."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Warning: Core temperature rising..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Warning: Damage critical..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Emergency repairs required..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Suggestion: Do not exceed your limits."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Please navigate behind me."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Cognition module... shutting down..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "This is not... where I belong..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Awaiting... reactivation..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Mild damage sustained."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Calculation error..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "That'll leave a scar..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Warm-up complete."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Please select target for cleanup sequence."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Commencing task."
+    }
+  ],
+  "effects": {
+    "11160001": {
+      "name": "Birgitta",
+      "description": "Ineffa's assistant and companion in battle, she can be summoned to the battlefield via Elemental Skill or Elemental Burst.<br/>If there are opponents nearby, Birgitta will quickly move close to an opponent and unleash Discharge attacks every 2s, dealing <span style=\"color:#FFACFFFF\">AoE Electro DMG</span>.<br/>Only one Birgitta that has been summoned by Ineffa herself can exist at any one time.<br/><br/>Additionally, in Nod-Krai, it seems you'll be able to change Birgitta's appearance through certain means...",
+      "color": ""
+    }
+  }
+}

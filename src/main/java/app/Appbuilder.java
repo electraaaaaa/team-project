@@ -32,10 +32,7 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Builds the application: each use case adds its view and wires its Controller,
- * Interactor and Presenter here.
- */
+// add each use case's view and use case here
 public class Appbuilder {
     private final JPanel cardPanel = new JPanel();
     private final CardLayout cardLayout = new CardLayout();
@@ -169,7 +166,7 @@ public class Appbuilder {
 
         application.add(mainPanel);
 
-        // Show Probability by default.
+        // Show Probability by default
         cardLayout.show(cardPanel, ProbabilityViewModel.VIEW_NAME);
 
         application.pack();

@@ -1,11 +1,22 @@
 package view;
 
-import interface_adapter.cost_conversion.*;
+import interface_adapter.cost_conversion.ConversionController;
+import interface_adapter.cost_conversion.ConversionState;
+import interface_adapter.cost_conversion.ConversionViewModel;
+import interface_adapter.cost_conversion.ConversionViewModelListener;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JComponent;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
+import javax.swing.SwingWorker;
+import java.awt.CardLayout;
+import java.awt.FlowLayout;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 public class ConversionView extends JPanel
@@ -17,7 +28,6 @@ public class ConversionView extends JPanel
     private final CardLayout cardLayout = new CardLayout();
 
     private final JComboBox<String> gameDropdown = new JComboBox<>();
-    private final JComboBox<String> bannerDropdown = new JComboBox<>();
     private final JComboBox<String> currencyDropdown = new JComboBox<>();
     private final JTextField pullAmountField = new JTextField(10);
 
@@ -30,28 +40,11 @@ public class ConversionView extends JPanel
     private final JButton recalculateButton = new JButton("Recalculate");
     private final JButton exitButton = new JButton("Exit");
 
-    public ConversionView(ConversionViewModel viewModel, Map<String,
-            List<String>> bannersByGame, List<String> currencies) {
-
+    public ConversionView(ConversionViewModel viewModel, List<String> gameNames, List<String> currencies) {
         this.viewModel = viewModel;
         setLayout(cardLayout);
 
-        // Update the banner choices when the selected game changes.
-        gameDropdown.addActionListener(event -> {
-            bannerDropdown.removeAllItems();
-
-            String selectedGame = (String) gameDropdown.getSelectedItem();
-
-            List<String> banners = bannersByGame.get(selectedGame);
-
-            if (banners != null) {
-                for (String banner : banners) {
-                    bannerDropdown.addItem(banner);
-                }
-            }
-        });
-
-        for (String gameName : bannersByGame.keySet()) {
+        for (String gameName : gameNames) {
             gameDropdown.addItem(gameName);
         }
 
@@ -91,7 +84,6 @@ public class ConversionView extends JPanel
 
         panel.add(new JLabel("Calculate Pull Cost"));
         panel.add(createRow("Game:", gameDropdown));
-        panel.add(createRow("Banner:", bannerDropdown));
         panel.add(createRow("Number of pulls:", pullAmountField));
         panel.add(createRow("Currency:", currencyDropdown));
         panel.add(errorLabel);
@@ -136,7 +128,6 @@ public class ConversionView extends JPanel
         ConversionState state = viewModel.getState();
 
         state.setGameName((String) gameDropdown.getSelectedItem());
-        state.setBannerName((String) bannerDropdown.getSelectedItem());
         state.setTargetCurrency((String) currencyDropdown.getSelectedItem());
         state.setNumberOfPulls(pullAmountField.getText());
 
@@ -151,7 +142,6 @@ public class ConversionView extends JPanel
         }
 
         final String gameName = state.getGameName();
-        final String bannerName = state.getBannerName();
         final String targetCurrency = state.getTargetCurrency();
 
         state.setConversionError("");
@@ -159,7 +149,7 @@ public class ConversionView extends JPanel
         setBusy(true);
 
         // Keep network requests off Swing's UI thread.
-        runConversion(gameName, bannerName, numberOfPulls, targetCurrency);
+        runConversion(gameName, numberOfPulls, targetCurrency);
     }
 
     private void showInputError(String message) {
@@ -171,7 +161,6 @@ public class ConversionView extends JPanel
 
     private void setBusy(boolean busy) {
         gameDropdown.setEnabled(!busy);
-        bannerDropdown.setEnabled(!busy);
         currencyDropdown.setEnabled(!busy);
         pullAmountField.setEnabled(!busy);
 
@@ -183,12 +172,12 @@ public class ConversionView extends JPanel
         calculateButton.setText(busy ? "Calculating..." : "Calculate");
     }
 
-    private void runConversion(String gameName, String bannerName, int numberOfPulls, String targetCurrency) {
+    private void runConversion(String gameName, int numberOfPulls, String targetCurrency) {
 
         new SwingWorker<Void, Void>() {
             @Override
             protected Void doInBackground() {
-                controller.execute(gameName, bannerName, numberOfPulls, targetCurrency);
+                controller.execute(gameName, numberOfPulls, targetCurrency);
                 return null;
             }
 

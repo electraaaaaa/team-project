@@ -4,20 +4,18 @@ import use_case.cost_conversion.ConversionInputBoundary;
 import use_case.cost_conversion.ConversionInputData;
 
 /**
- * Passes the player's input to the conversion use case.
+ * The controller for the Conversion Use Case.
  */
 public class ConversionController {
 
-    private final ConversionInputBoundary conversionInteractor;
+    private final ConversionInputBoundary interactor;
 
-    public ConversionController(ConversionInputBoundary conversionInteractor) {
-        this.conversionInteractor = conversionInteractor;
+    public ConversionController(ConversionInputBoundary interactor) {
+        this.interactor = interactor;
     }
 
-    public void execute(String gameName, String bannerName, int numberOfPulls, String targetCurrency) {
-        ConversionInputData inputData = new ConversionInputData(
-                gameName, bannerName, numberOfPulls, targetCurrency);
-
-        conversionInteractor.execute(inputData);
+    public void execute(String gameName, int numberOfPulls, String targetCurrency) {
+        ConversionInputData inputData = new ConversionInputData(gameName, numberOfPulls, targetCurrency);
+        interactor.execute(inputData);
     }
 }

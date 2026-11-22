@@ -1,7 +1,6 @@
 package use_case.cost_conversion;
 
 import entity.Game;
-import entity.Banner;
 
 import java.util.Locale;
 import java.util.Map;
@@ -44,13 +43,6 @@ public class ConversionInteractor implements ConversionInputBoundary {
 
         if (game == null) {
             presenter.prepareFailView("The selected game was not found.");
-            return;
-        }
-
-        Banner banner = findBanner(game, inputData.getBannerName());
-
-        if (banner == null) {
-            presenter.prepareFailView("The selected banner was not found.");
             return;
         }
 
@@ -112,16 +104,6 @@ public class ConversionInteractor implements ConversionInputBoundary {
 
         presenter.prepareSuccessView(new ConversionOutputData(
                 convertedCost, targetCurrency, false));
-    }
-
-    private Banner findBanner(Game game, String bannerName) {
-        for (Banner banner : game.getAllBanners()) {
-            if (banner.getName().equals(bannerName)) {
-                return banner;
-            }
-        }
-
-        return null;
     }
 
     private void showOriginalCost(double cost, String currency) {

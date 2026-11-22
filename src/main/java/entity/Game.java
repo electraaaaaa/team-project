@@ -52,7 +52,7 @@ public class Game {
   }
 
   public String getPriceCurrency() {
-    return "USD"; // Change if different currency
+    return "CAD";
   }
 
   public List<Banner> getAllBanners() {

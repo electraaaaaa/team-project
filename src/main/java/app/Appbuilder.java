@@ -1,7 +1,6 @@
 package app;
 
 import data_access.*;
-import entity.Banner;
 import entity.CollectableFactory;
 import entity.Game;
 import entity.GameFactory;
@@ -31,9 +30,7 @@ import view.PullHistoryView;
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Builds the application: each use case adds its view and wires its Controller,
@@ -91,18 +88,14 @@ public class Appbuilder {
     }
 
     public Appbuilder addConversionView() {
-        Map<String, List<String>> bannersByGame = new LinkedHashMap<>();
+        List<String> gameNames = new ArrayList<>();
         for (Game game : games) {
             gameDataAccessObject.addGame(game);
-            List<String> bannerNames = new ArrayList<>();
-            for (Banner banner : game.getAllBanners()) {
-                bannerNames.add(banner.getName());
-            }
-            bannersByGame.put(game.getName(), bannerNames);
+            gameNames.add(game.getName());
         }
         List<String> currencies = exchangeRateDataAccessObject.getSupportedCurrencies();
         conversionViewModel = new ConversionViewModel();
-        conversionView = new ConversionView(conversionViewModel, bannersByGame, currencies);
+        conversionView = new ConversionView(conversionViewModel, gameNames, currencies);
         conversionView.setExitAction(() -> cardLayout.show(cardPanel, ProbabilityViewModel.VIEW_NAME));
         cardPanel.add(conversionView, ConversionViewModel.VIEW_NAME);
         return this;

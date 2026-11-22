@@ -6,7 +6,6 @@ package interface_adapter.cost_conversion;
 public class ConversionState {
 
     private String gameName = "";
-    private String bannerName = "";
     private String numberOfPulls = "";
     private String targetCurrency = "";
 
@@ -21,14 +20,6 @@ public class ConversionState {
 
     public void setGameName(String gameName) {
         this.gameName = gameName;
-    }
-
-    public String getBannerName() {
-        return bannerName;
-    }
-
-    public void setBannerName(String bannerName) {
-        this.bannerName = bannerName;
     }
 
     public String getNumberOfPulls() {

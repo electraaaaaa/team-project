@@ -44,8 +44,15 @@ public class Game {
   }
 
   public int getCostOfPulls(int pulls) {
-    // TODO: implement this function
-    return -1;
+    return pulls * 160;
+  }
+
+  public Map<Float, Float> getMoneyPackages() {
+    return moneyPackages;
+  }
+
+  public String getPriceCurrency() {
+    return "USD"; // Change if different currency
   }
 
   public List<Banner> getAllBanners() {

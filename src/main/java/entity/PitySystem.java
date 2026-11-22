@@ -21,12 +21,14 @@ public class PitySystem {
     this.hardPity = hardPity;
   }
 
+  public int getHardPity() {
+    return hardPity;
+  }
+
   /**
-   * Returns the 5 star rate for a pull, counted from the last 5 star.
-   * The rate stays at the base rate until soft pity, then increases by softPityIncrease
-   * every pull, and is 100% at hard pity.
-   * @param pullNumber the pull number since the last 5 star (the first pull is 1)
-   * @return the 5 star rate for this pull, between 0 and 1
+   * Returns the 5 star rate for the given pull.
+   * @param pullNumber pulls since the last 5 star (starts at 1)
+   * @return the 5 star rate
    */
   public float getRateAt(int pullNumber) {
     if (pullNumber >= hardPity) {
@@ -40,13 +42,13 @@ public class PitySystem {
   }
 
   /**
-   * Returns the probability of getting at least one 5 star within the next n_pulls pulls.
-   * This is 1 minus the probability of getting no 5 star in every one of those pulls.
-   * @param currentPity the number of pulls since the last 5 star
-   * @param n_pulls the number of planned pulls
-   * @return the probability, between 0 and 1
+   * Returns the chance of getting at least one 5 star in n_pulls pulls.
+   * @param currentPity pulls since the last 5 star
+   * @param n_pulls number of planned pulls
+   * @return the probability
    */
   public float probabilityWithin(int currentPity, int n_pulls) {
+    // 1 - P(no 5 star in any pull)
     double noFiveStar = 1.0;
     for (int i = 1; i <= n_pulls; i++) {
       int pullNumber = currentPity + i;

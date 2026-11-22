@@ -42,7 +42,7 @@ class ProbabilityInteractorTest {
 
             @Override
             public void prepareFailView(String errorMessage) {
-                assertEquals("Please enter whole numbers for the pity and the number of pulls.", errorMessage);
+                assertEquals("Current pity must be a whole number.", errorMessage);
             }
         };
 

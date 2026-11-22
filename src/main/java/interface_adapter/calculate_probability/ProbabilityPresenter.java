@@ -13,7 +13,13 @@ public class ProbabilityPresenter implements ProbabilityOutputBoundary {
     public void prepareSuccessView(ProbabilityOutputData outputData) {
         final ProbabilityState state = probabilityViewModel.getState();
         state.setProbabilityText(String.format("%.2f%%", outputData.getProbability() * 100));
-        // TODO (use case extension 4a): show a message when a 5-star is guaranteed.
+        if (outputData.isGuaranteed()) {
+            state.setGuaranteeMessage("Guaranteed 5-star (hard pity in "
+                    + outputData.getPullsToHardPity() + " pulls)");
+        }
+        else {
+            state.setGuaranteeMessage("");
+        }
         state.setErrorMessage("");
         probabilityViewModel.fireStateChanged();
     }
@@ -22,6 +28,7 @@ public class ProbabilityPresenter implements ProbabilityOutputBoundary {
     public void prepareFailView(String errorMessage) {
         final ProbabilityState state = probabilityViewModel.getState();
         state.setProbabilityText("");
+        state.setGuaranteeMessage("");
         state.setErrorMessage(errorMessage);
         probabilityViewModel.fireStateChanged();
     }

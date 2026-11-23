@@ -1,4 +1,4 @@
-package Interface_adapter.simulate_pulls;
+package interface_adapter.simulate_pulls;
 
 import use_case.simulate_pulls.SimulateOutputBoundary;
 import use_case.simulate_pulls.SimulateOutputData;

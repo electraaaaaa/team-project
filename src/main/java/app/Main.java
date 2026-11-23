@@ -11,6 +11,8 @@ public class Main {
                 .addConversionUseCase()
                 .addPullHistoryView()
                 .addPullHistoryUseCase()
+                .addSimulateView()
+                .addSimulateUseCase()
                 .build();
 
         application.pack();

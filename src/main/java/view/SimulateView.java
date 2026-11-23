@@ -12,7 +12,7 @@ import java.awt.event.ActionListener;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 
-public class SimulateView extends JPanel implements ActionListener,  SimulateViewModelListener{
+public class SimulateView extends JPanel implements SimulateViewModelListener{
 
 
     private final SimulateViewModel simulateViewModel;
@@ -413,19 +413,17 @@ public class SimulateView extends JPanel implements ActionListener,  SimulateVie
 
     @Override
     public void stateChanged() {
-        if(!simulateViewModel.getErrorState().isBlank()){
-            displayError(simulateViewModel.getErrorState());
+        if(!simulateViewModel.getState().getErrorState().isBlank()){
+            displayError(simulateViewModel.getState().getErrorState());
         }else{
             clearError();
-            displayStatistics(simulateViewModel.getMean(),simulateViewModel.getMedian(),
-                    simulateViewModel.getQ1(),simulateViewModel.getQ3());
+            displayStatistics(simulateViewModel.getState().getMean(),simulateViewModel.getState().getMedian(),
+                    simulateViewModel.getState().getQ1(),simulateViewModel.getState().getQ3());
+            displayChart(simulateViewModel.getState().getChart());
         }
     }
 
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        //TODO: I have no idea what the action performed could do.
-    }
+
     public void setSimulateController(SimulateController controller) {
         this.simulateController = controller;
     }

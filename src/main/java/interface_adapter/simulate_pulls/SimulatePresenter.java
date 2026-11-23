@@ -14,19 +14,19 @@ public class SimulatePresenter implements SimulateOutputBoundary{
     @Override
     public void prepareSuccessView(SimulateOutputData data) {
         //TODO: fill in the prepare success view
-        simulateViewModel.setErrorState("");
+        simulateViewModel.getState().setErrorState("");
         //Output Data Variables
-        simulateViewModel.setResults(data.getResults());
-        simulateViewModel.setMean(data.getMean());
-        simulateViewModel.setMedian(data.getQ2());
-        simulateViewModel.setQ1(data.getQ1());
-        simulateViewModel.setQ3(data.getQ3());
+        simulateViewModel.getState().setChart(data.getChart());
+        simulateViewModel.getState().setMean(data.getMean());
+        simulateViewModel.getState().setMedian(data.getQ2());
+        simulateViewModel.getState().setQ1(data.getQ1());
+        simulateViewModel.getState().setQ3(data.getQ3());
         simulateViewModel.notifyStateChanged();
     }
 
     @Override
     public void prepareFailView(String errormessage) {
-        simulateViewModel.setErrorState(errormessage);
+        simulateViewModel.getState().setErrorState(errormessage);
         simulateViewModel.notifyStateChanged();
     }
 }

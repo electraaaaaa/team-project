@@ -11,6 +11,9 @@ import interface_adapter.calculate_probability.ProbabilityViewModel;
 import interface_adapter.cost_conversion.ConversionController;
 import interface_adapter.cost_conversion.ConversionPresenter;
 import interface_adapter.cost_conversion.ConversionViewModel;
+import interface_adapter.simulate_pulls.SimulateController;
+import interface_adapter.simulate_pulls.SimulatePresenter;
+import interface_adapter.simulate_pulls.SimulateViewModel;
 import interface_adapter.pull_history.PullHistoryController;
 import interface_adapter.pull_history.PullHistoryPresenter;
 import interface_adapter.pull_history.PullHistoryViewModel;
@@ -23,9 +26,15 @@ import use_case.cost_conversion.ConversionOutputBoundary;
 import use_case.pull_history.PullHistoryInputBoundary;
 import use_case.pull_history.PullHistoryInteractor;
 import use_case.pull_history.PullHistoryOutputBoundary;
+import use_case.simulate_pulls.SimulateInputBoundary;
+import use_case.simulate_pulls.SimulateInteractor;
+import use_case.simulate_pulls.SimulateOutputBoundary;
+import use_case.simulate_pulls.StatisticsHandler;
+
 import view.ConversionView;
 import view.ProbabilityView;
 import view.PullHistoryView;
+import view.SimulateView;
 
 import javax.swing.*;
 import java.awt.*;
@@ -62,6 +71,9 @@ public class Appbuilder {
 
     private PullHistoryViewModel pullHistoryViewModel;
     private PullHistoryView pullHistoryView;
+
+    private SimulateViewModel simulateViewModel;
+    private SimulateView simulateView;
 
     public Appbuilder() {
         this.games = gameDataDataAccessObject.getAllGames();
@@ -134,6 +146,26 @@ public class Appbuilder {
         return this;
     }
 
+    public Appbuilder addSimulateView() {
+        simulateViewModel = new SimulateViewModel();
+        simulateView = new SimulateView(simulateViewModel);
+        cardPanel.add(simulateView, simulateViewModel.VIEW_NAME);
+        return this;
+    }
+
+    public Appbuilder addSimulateUseCase() {
+        SimulateOutputBoundary simulatePresenter =
+                new SimulatePresenter(simulateViewModel);
+        StatisticsHandler statisticsHandler = new StatisticsHandler();
+        SimulateInputBoundary simulateInteractor =
+                new SimulateInteractor(simulatePresenter, statisticsHandler);
+        SimulateController simulateController =
+                new SimulateController(simulateInteractor);
+
+        simulateView.setSimulateController(simulateController);
+        return this;
+    }
+
     public JFrame build() {
         final JFrame application = new JFrame("Gacha Game Pull Analysis");
         JPanel mainPanel = new JPanel(new BorderLayout());
@@ -145,10 +177,12 @@ public class Appbuilder {
         JButton probabilityButton = new JButton("Probability");
         JButton conversionButton = new JButton("Pull Cost");
         JButton pullHistoryButton = new JButton("Pull History");
+        JButton simulateButton = new JButton("Simulate Pulls");
 
         navigationPanel.add(probabilityButton);
         navigationPanel.add(conversionButton);
         navigationPanel.add(pullHistoryButton);
+        navigationPanel.add(simulateButton);
 
         // Switch between views when buttons are clicked
         probabilityButton.addActionListener(event ->
@@ -159,6 +193,9 @@ public class Appbuilder {
 
         pullHistoryButton.addActionListener(event ->
                 cardLayout.show(cardPanel, PullHistoryViewModel.VIEW_NAME));
+
+        simulateButton.addActionListener(event ->
+                cardLayout.show(cardPanel, SimulateViewModel.VIEW_NAME));
 
         // Assemble the navigation and the cards
         mainPanel.add(navigationPanel, BorderLayout.WEST);

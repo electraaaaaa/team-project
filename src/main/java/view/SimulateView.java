@@ -1,8 +1,8 @@
 package view;
-import Interface_adapter.simulate_pulls.SimulateViewModel;
-import Interface_adapter.simulate_pulls.SimulateController;
+import interface_adapter.simulate_pulls.SimulateViewModel;
+import interface_adapter.simulate_pulls.SimulateController;
 
-import Interface_adapter.simulate_pulls.SimulateViewModelListener;
+import interface_adapter.simulate_pulls.SimulateViewModelListener;
 
 import javax.swing.*;
 import java.awt.*;

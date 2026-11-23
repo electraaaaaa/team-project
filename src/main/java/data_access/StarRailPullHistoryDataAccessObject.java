@@ -150,7 +150,7 @@ public class StarRailPullHistoryDataAccessObject
 
                 if (rarity == 5 && !foundFiveStar) {
                     foundFiveStar = true;
-                } else {
+                } else if (!foundFiveStar){
                     currentPity++;
                 }
             }

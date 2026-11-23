@@ -1,4 +1,6 @@
-package Interface_adapter.simulate_pulls;
+package interface_adapter.simulate_pulls;
+
+import view.SimulateView;
 
 import java.util.ArrayList;
 import java.util.List;

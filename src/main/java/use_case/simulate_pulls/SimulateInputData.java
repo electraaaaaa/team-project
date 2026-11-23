@@ -1,6 +1,5 @@
 package use_case.simulate_pulls;
 
-import java.util.Locale;
 
 /**
     input data for simulate use_case
@@ -12,7 +11,7 @@ public class SimulateInputData {
     private final String softPity;
     private final String baseRate;
     private final String softpityincreaserate;
-    private final boolean guarenteedLimited;
+    private final boolean guaranteedLimited;
     private final String pitySystem;
 
     public SimulateInputData(String numSims,
@@ -21,7 +20,7 @@ public class SimulateInputData {
                              String softpity,
                              String baserate,
                              String softpityincreaserate,
-                             boolean guarenteedLimited,
+                             boolean guaranteedLimited,
                              String pitySystem){
         this.numOfSims = numSims;
         this.pullCountPerSim = pullCountPerSim;
@@ -30,7 +29,7 @@ public class SimulateInputData {
         this.softPity = softpity;
         this.baseRate = baserate;
         this.softpityincreaserate = softpityincreaserate;
-        this.guarenteedLimited = guarenteedLimited;
+        this.guaranteedLimited = guaranteedLimited;
         this.pitySystem = pitySystem.toLowerCase(); //may need to check the api for any games matching the name,
     }
 
@@ -50,7 +49,7 @@ public class SimulateInputData {
     public String getSoftPityIncreaseRate(){
         return this.softpityincreaserate;
     }
-    public boolean getGuarenteedLimited(){return this.guarenteedLimited; }
+    public boolean getGuaranteedLimited(){return this.guaranteedLimited; }
     public String getPitySystem(){return this.pitySystem;}
 
 }

@@ -4,13 +4,13 @@ package use_case.simulate_pulls;
  * the output data for the simulate use case
  */
 public class SimulateOutputData {
-    private final float[] results;
-    private final float mean;
-    private final float q1;
-    private final float q2;     //also the median
-    private final float q3;
+    private final double[] results;
+    private final double mean;
+    private final double q1;
+    private final double q2;     //also the median
+    private final double q3;
 
-    public SimulateOutputData(float[] results, float mean, float q1, float q2, float q3){
+    public SimulateOutputData(double[] results, double mean, double q1, double q2, double q3){
         this.results = results;
         this.mean = mean;
         this.q1 = q1;
@@ -18,13 +18,13 @@ public class SimulateOutputData {
         this.q3 = q3;
     }
 
-    public float[] getResults() { return results; }
+    public double[] getResults() { return results; }
 
-    public float getMean() { return mean; }
+    public double getMean() { return mean; }
 
-    public float getQ1() { return q1; }
+    public double getQ1() { return q1; }
 
-    public float getQ2() { return q2; }
+    public double getQ2() { return q2; }
 
-    public float getQ3() { return q3; }
+    public double getQ3() { return q3; }
 }

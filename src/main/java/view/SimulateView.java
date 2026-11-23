@@ -14,6 +14,12 @@ import org.jfree.chart.JFreeChart;
 
 public class SimulateView extends JPanel implements ActionListener,  SimulateViewModelListener{
 
+
+    private final SimulateViewModel simulateViewModel;
+    private SimulateController simulateController = null;
+
+
+
     private static final Color BACKGROUND =
             new Color(255, 255, 255);
 
@@ -46,7 +52,10 @@ public class SimulateView extends JPanel implements ActionListener,  SimulateVie
     // Error message
     private final JLabel errorMessageLabel;
 
-    public SimulateView() {
+    public SimulateView(SimulateViewModel simulateViewModel) {
+
+        this.simulateViewModel = simulateViewModel;
+        simulateViewModel.addListener(this);
 
         setLayout(new GridBagLayout());
         setBackground(BACKGROUND);
@@ -63,6 +72,7 @@ public class SimulateView extends JPanel implements ActionListener,  SimulateVie
                 new String[]{"True", "False"}
         );
 
+        // Supported Games
         gameBox = new JComboBox<>(
                 new String[]{"Genshin Impact", "Honkai: Star Rail"}
         );
@@ -108,8 +118,29 @@ public class SimulateView extends JPanel implements ActionListener,  SimulateVie
         gbc.weighty = 0.32;
 
         add(outputPanel, gbc);
+
+        runSimulationButton.addActionListener(
+                new ActionListener() {
+                    public void actionPerformed(ActionEvent evt) {
+                        if (evt.getSource().equals(runSimulationButton)) {
+                            simulateController.execute(
+                                    simulationsField.getText(),
+                                    pullsField.getText(),
+                                    hardPityField.getText(),
+                                    softPityField.getText(),
+                                    baseRateField.getText(),
+                                    softPityIncreaseField.getText(),
+                                    "True"==guaranteedLimitedBox.getSelectedItem(),
+                                    (String)gameBox.getSelectedItem()
+                            );
+                        }
+                    }
+                }
+        );
+
     }
 
+    // create/draw
     private JPanel createInputPanel() {
 
         JPanel panel = new JPanel(new GridBagLayout());
@@ -297,10 +328,7 @@ public class SimulateView extends JPanel implements ActionListener,  SimulateVie
     // Controller communication
     // ==========================================
 
-    // runSimulation = controller
-    public void addRunSimulationListener(ActionListener listener) {
-        runSimulationButton.addActionListener(listener);
-    }
+    //TODO: Add all input textfield and box listeners
 
     // ==========================================
     // Input getters
@@ -385,11 +413,20 @@ public class SimulateView extends JPanel implements ActionListener,  SimulateVie
 
     @Override
     public void stateChanged() {
-        //TODO:
+        if(!simulateViewModel.getErrorState().isBlank()){
+            displayError(simulateViewModel.getErrorState());
+        }else{
+            clearError();
+            displayStatistics(simulateViewModel.getMean(),simulateViewModel.getMedian(),
+                    simulateViewModel.getQ1(),simulateViewModel.getQ3());
+        }
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        //TODO:
+        //TODO: I have no idea what the action performed could do.
+    }
+    public void setSimulateController(SimulateController controller) {
+        this.simulateController = controller;
     }
 }

@@ -41,10 +41,10 @@ public class CompareGamesInteractor
                     "Number of pulls must be positive.");
         }
 
-        // Check that pity counts are not negative.
-        if (pity1 < 0 || pity2 < 0) {
+        // Checks if pity counts are valid.
+        if (pity1 < 0 || pity2 < 0 || pity1 >= 90 || pity2 >= 90) {
             throw new IllegalArgumentException(
-                    "Pity counts cannot be negative.");
+                    "Current pity must be between 0 and 89.");
         }
 
         // Find each game's pity system.

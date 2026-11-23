@@ -124,14 +124,14 @@ public class SimulateView extends JPanel implements SimulateViewModelListener{
                     public void actionPerformed(ActionEvent evt) {
                         if (evt.getSource().equals(runSimulationButton)) {
                             simulateController.execute(
-                                    simulationsField.getText(),
-                                    pullsField.getText(),
-                                    hardPityField.getText(),
-                                    softPityField.getText(),
-                                    baseRateField.getText(),
-                                    softPityIncreaseField.getText(),
-                                    "True"==guaranteedLimitedBox.getSelectedItem(),
-                                    (String)gameBox.getSelectedItem()
+                                    getNumberOfSimulations(),
+                                    getNumberOfPulls(),
+                                    getHardPity(),
+                                    getSoftPity(),
+                                    getBaseRate(),
+                                    getSoftPityIncrease(),
+                                    getGuaranteedLimited(),
+                                    getSelectedGame()
                             );
                         }
                     }

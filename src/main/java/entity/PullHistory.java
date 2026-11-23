@@ -9,7 +9,7 @@ public class PullHistory {
     private final List<Collectable> pullList;
     /**
      * Creates a new pull history object.
-     * @param type the game object assigned to a given game
+     * @param type the game String assigned to a given game
      * @param totalPulls the total amount of pulls in the pullList (equivalent to pullList.length())
      * @param currentPity The current pity number
      * @param pullList a list of pull objects in a collection/List

@@ -19,7 +19,7 @@ public class CompareGamesDemo {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
 
-            // Create sample pity systems for testing.
+            // Create sample pity systems for testing. Maybe connect to UC 5/6 to take in more games later 
             Map<String, PitySystem> pitySystems = new HashMap<>();
 
             pitySystems.put("Genshin Impact",

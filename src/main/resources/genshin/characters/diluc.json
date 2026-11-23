@@ -1,0 +1,1809 @@
+{
+  "_id": 10000016,
+  "id": "diluc",
+  "name": "Diluc",
+  "title": "Dark Side of Dawn",
+  "description": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
+  "weapon_type": {
+    "id": "claymore",
+    "name": "Claymore"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1601244000,
+  "substat": "CRIT Rate",
+  "stats": {
+    "base": {
+      "hp": 1010.5192,
+      "attack": 26.068,
+      "defense": 61.0266
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 866.42883,
+        "attack": 22.34932,
+        "defense": 52.326,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1482.0493,
+        "attack": 38.2291,
+        "defense": 89.505,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.048
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2302.8767,
+        "attack": 59.40214,
+        "defense": 139.077,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2918.497,
+        "attack": 75.28192,
+        "defense": 176.256,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3534.1177,
+        "attack": 91.1617,
+        "defense": 213.435,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4149.7383,
+        "attack": 107.04148,
+        "defense": 250.614,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.192
+        }
+      }
+    ]
+  },
+  "affiliation": "Dawn Winery",
+  "region": {
+    "id": "mondstadt",
+    "name": "Mondstadt"
+  },
+  "rarity": 5,
+  "birthday": [
+    30,
+    4
+  ],
+  "constellation": "Noctua",
+  "domain": "Forsaken Rift",
+  "cv": {
+    "english": "Sean Chiplock",
+    "chinese": "马洋",
+    "japanese": "小野賢章",
+    "korean": "Choi Seung-hoon"
+  },
+  "skills": [
+    {
+      "_id": 10160,
+      "id": "tempered_sword",
+      "name": "Tempered Sword",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Drains Stamina over time to perform continuous slashes.<br/>At the end of the sequence, performs a more powerful slash.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "89.7%",
+            "97%",
+            "104.3%",
+            "114.7%",
+            "122%",
+            "130.4%",
+            "141.8%",
+            "153.3%",
+            "164.8%",
+            "177.3%",
+            "191.7%",
+            "208.5%",
+            "225.4%",
+            "242.2%",
+            "260.6%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "87.6%",
+            "94.8%",
+            "101.9%",
+            "112.1%",
+            "119.2%",
+            "127.4%",
+            "138.6%",
+            "149.8%",
+            "161%",
+            "173.2%",
+            "187.2%",
+            "203.7%",
+            "220.2%",
+            "236.7%",
+            "254.6%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "98.8%",
+            "106.9%",
+            "114.9%",
+            "126.4%",
+            "134.4%",
+            "143.6%",
+            "156.3%",
+            "168.9%",
+            "181.5%",
+            "195.3%",
+            "211.1%",
+            "229.7%",
+            "248.3%",
+            "266.9%",
+            "287.1%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "134%",
+            "144.9%",
+            "155.8%",
+            "171.4%",
+            "182.3%",
+            "194.8%",
+            "211.9%",
+            "229%",
+            "246.2%",
+            "264.9%",
+            "286.3%",
+            "311.5%",
+            "336.7%",
+            "361.9%",
+            "389.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack Cyclic DMG",
+          "values": [
+            "68.8%",
+            "74.4%",
+            "80%",
+            "88%",
+            "93.6%",
+            "100%",
+            "108.8%",
+            "117.6%",
+            "126.4%",
+            "136%",
+            "147%",
+            "159.9%",
+            "172.9%",
+            "185.8%",
+            "199.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack Final DMG",
+          "values": [
+            "124.7%",
+            "134.8%",
+            "145%",
+            "159.5%",
+            "169.6%",
+            "181.3%",
+            "197.2%",
+            "213.2%",
+            "229.1%",
+            "246.5%",
+            "266.4%",
+            "289.9%",
+            "313.3%",
+            "336.8%",
+            "362.4%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        },
+        {
+          "label": "Max Duration",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "89.5%",
+            "96.8%",
+            "104.1%",
+            "114.5%",
+            "121.8%",
+            "130.1%",
+            "141.5%",
+            "153%",
+            "164.4%",
+            "176.9%",
+            "189.4%",
+            "201.9%",
+            "214.4%",
+            "226.9%",
+            "239.4%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "179% / 223.5%",
+            "193.5% / 241.7%",
+            "208.1% / 259.9%",
+            "228.9% / 285.9%",
+            "243.5% / 304.1%",
+            "260.1% / 324.9%",
+            "283% / 353.5%",
+            "305.9% / 382.1%",
+            "328.8% / 410.7%",
+            "353.8% / 441.9%",
+            "378.8% / 473.1%",
+            "403.7% / 504.3%",
+            "428.7% / 535.5%",
+            "453.7% / 566.7%",
+            "478.6% / 597.9%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10161,
+      "id": "searing_onslaught",
+      "name": "Searing Onslaught",
+      "description": "Performs a forward slash that deals <span style=\"color:#FF9999FF\">Pyro DMG</span>.<br/><br/>This skill can be consecutively used 3 times.<br/>Enters CD if not cast again within a short period.",
+      "info": "The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "94.4%",
+            "101.5%",
+            "108.6%",
+            "118%",
+            "125.1%",
+            "132.2%",
+            "141.6%",
+            "151%",
+            "160.5%",
+            "169.9%",
+            "179.4%",
+            "188.8%",
+            "200.6%",
+            "212.4%",
+            "224.2%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "97.6%",
+            "104.9%",
+            "112.2%",
+            "122%",
+            "129.3%",
+            "136.6%",
+            "146.4%",
+            "156.2%",
+            "165.9%",
+            "175.7%",
+            "185.4%",
+            "195.2%",
+            "207.4%",
+            "219.6%",
+            "231.8%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "128.8%",
+            "138.5%",
+            "148.1%",
+            "161%",
+            "170.7%",
+            "180.3%",
+            "193.2%",
+            "206.1%",
+            "219%",
+            "231.8%",
+            "244.7%",
+            "257.6%",
+            "273.7%",
+            "289.8%",
+            "305.9%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10165,
+      "id": "dawn",
+      "name": "Dawn",
+      "description": "Releases intense flames to knock back nearby opponents, dealing <span style=\"color:#FF9999FF\">Pyro DMG</span>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <span style=\"color:#FF9999FF\">Pyro DMG</span> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <span style=\"color:#FF9999FF\">AoE Pyro DMG</span>.<br/>The searing flames that run down his blade cause it to be infused with <span style=\"color:#FF9999FF\">Pyro</span>.",
+      "info": "The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.",
+      "attributes": [
+        {
+          "label": "Slashing DMG",
+          "values": [
+            "204%",
+            "219.3%",
+            "234.6%",
+            "255%",
+            "270.3%",
+            "285.6%",
+            "306%",
+            "326.4%",
+            "346.8%",
+            "367.2%",
+            "387.6%",
+            "408%",
+            "433.5%",
+            "459%",
+            "484.5%"
+          ]
+        },
+        {
+          "label": "DoT",
+          "values": [
+            "60%",
+            "64.5%",
+            "69%",
+            "75%",
+            "79.5%",
+            "84%",
+            "90%",
+            "96%",
+            "102%",
+            "108%",
+            "114%",
+            "120%",
+            "127.5%",
+            "135%",
+            "142.5%"
+          ]
+        },
+        {
+          "label": "Explosion DMG",
+          "values": [
+            "204%",
+            "219.3%",
+            "234.6%",
+            "255%",
+            "270.3%",
+            "285.6%",
+            "306%",
+            "326.4%",
+            "346.8%",
+            "367.2%",
+            "387.6%",
+            "408%",
+            "433.5%",
+            "459%",
+            "484.5%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "Infusion Duration",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "relentless",
+      "name": "Relentless",
+      "description": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.",
+      "level": 1
+    },
+    {
+      "id": "blessing_of_phoenix",
+      "name": "Blessing of Phoenix",
+      "description": "The <span style=\"color:#FF9999FF\">Pyro Infusion</span> provided by <span style=\"color:#FFD780FF\">Dawn</span> lasts for 4s longer. Additionally, Diluc gains 20% <span style=\"color:#FF9999FF\">Pyro DMG Bonus</span> during the duration of this effect.",
+      "level": 4
+    },
+    {
+      "id": "tradition_of_the_dawn_knight",
+      "name": "Tradition of the Dawn Knight",
+      "description": "Refunds 15% of the ore used when crafting Claymore-type weapons.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 161,
+      "id": "conviction",
+      "name": "Conviction",
+      "description": "Diluc deals 15% more DMG to opponents whose HP is above 50%.",
+      "level": 1
+    },
+    {
+      "_id": 162,
+      "id": "searing_ember",
+      "name": "Searing Ember",
+      "description": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.<br/>This effect can stack up to 3 times and can only occur once every 1.5s.",
+      "level": 2
+    },
+    {
+      "_id": 163,
+      "id": "fire_and_steel",
+      "name": "Fire and Steel",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Searing Onslaught</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 164,
+      "id": "flowing_flame",
+      "name": "Flowing Flame",
+      "description": "Casting <span style=\"color:#FFD780FF\">Searing Onslaught</span> in rhythm greatly increases damage dealt.<br/>2s after casting <span style=\"color:#FFD780FF\">Searing Onslaught</span>, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s.",
+      "level": 4
+    },
+    {
+      "_id": 165,
+      "id": "phoenix_harbinger_of_dawn",
+      "name": "Phoenix, Harbinger of Dawn",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Dawn</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 166,
+      "id": "flaming_sword_nemesis_of_the_dark",
+      "name": "Flaming Sword, Nemesis of the Dark",
+      "description": "After casting <span style=\"color:#FFD780FF\">Searing Onslaught</span>, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.<br/>Additionally, Searing Onslaught will not interrupt the Normal Attack combo.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1011"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "26"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "61"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "-",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2621",
+            "3488"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "68",
+            "90"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "158",
+            "211"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5219",
+            "5834"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "135",
+            "151"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "315",
+            "352"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "9.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104111,
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100055,
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112032,
+        "id": "recruits_insignia",
+        "name": "Recruit's Insignia",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6712",
+            "7533"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "173",
+            "194"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "405",
+            "455"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "9.8%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100055,
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112032,
+        "id": "recruits_insignia",
+        "name": "Recruit's Insignia",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8421",
+            "9036"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "217",
+            "233"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "509",
+            "546"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100055,
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112033,
+        "id": "sergeants_insignia",
+        "name": "Sergeant's Insignia",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9932",
+            "10547"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "256",
+            "272"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "600",
+            "637"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "19.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100055,
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112033,
+        "id": "sergeants_insignia",
+        "name": "Sergeant's Insignia",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11453",
+            "12068"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "295",
+            "311"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "692",
+            "729"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "19.4%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100055,
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112034,
+        "id": "lieutenants_insignia",
+        "name": "Lieutenant's Insignia",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12981",
+            "12981"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "335",
+            "335"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "784",
+            "784"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "24.2%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104114,
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100055,
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112034,
+        "id": "lieutenants_insignia",
+        "name": "Lieutenant's Insignia",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104304,
+          "id": "teachings_of_resistance",
+          "name": "Teachings of Resistance",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112032,
+          "id": "recruits_insignia",
+          "name": "Recruit's Insignia",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113003,
+          "id": "dvalins_plume",
+          "name": "Dvalin's Plume",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113003,
+          "id": "dvalins_plume",
+          "name": "Dvalin's Plume",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113003,
+          "id": "dvalins_plume",
+          "name": "Dvalin's Plume",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113003,
+          "id": "dvalins_plume",
+          "name": "Dvalin's Plume",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 201601,
+      "name": "Red Dead of Night",
+      "description": "One of the outfits Diluc wears during covert actions, it resembles a flame dancing in the shadows. The crimson red traces it leaves behind at the edges of the enemy's vision will scar their nightmares forever.",
+      "isDefault": false,
+      "characterName": "Diluc",
+      "characterId": 10000016,
+      "source": [
+        "Purchased from the Shop"
+      ],
+      "filename_card": "UI_AvatarIcon_DilucCostumeFlamme_Card",
+      "filename_icon": "UI_AvatarIcon_DilucCostumeFlamme",
+      "filename_iconCircle": "UI_AvatarIcon_DilucCostumeFlamme_Circle",
+      "filename_splash": "UI_Costume_DilucCostumeFlamme",
+      "filename_sideIcon": "UI_AvatarIcon_Side_DilucCostumeFlamme"
+    },
+    {
+      "id": 201600,
+      "name": "Darknight Blaze",
+      "description": "Diluc's outfit. A smart and tasteful suit fit for a nobleman.",
+      "isDefault": true,
+      "characterName": "Diluc",
+      "characterId": 10000016,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Diluc_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "Diluc, of Mondstadt. Not interested in idle chit-chat. If you have things you want to get done, let me know."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Relax",
+      "text": "Guess we can rest a bit."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Knights of Favonius",
+      "text": "You should really bring the Knights of Favonius with you next time."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Wine Guild",
+      "text": "I still have a lot to do at the Guild. How about you take a rest while I go back?"
+    },
+    {
+      "id": "1106",
+      "type": 1,
+      "title": "Chat: Preparation",
+      "text": "We should prepare while we can, then make a preemptive strike against the enemy."
+    },
+    {
+      "id": "1107",
+      "type": 1,
+      "title": "Chat: Planning",
+      "text": "Let's take a moment to rest and plan our next move."
+    },
+    {
+      "id": "1108",
+      "type": 1,
+      "title": "Chat: Warning",
+      "text": "Every course of action has its risks. Be careful."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains: Umbrella",
+      "text": "I don't need an umbrella, but you can use one if you need."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Rains: Cleansing",
+      "text": "Rain... If only it could cleanse the corrupt souls of this world."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Listen, as long as you stick to your own path, it doesn't matter what Mother Nature throws at you."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Some use the wind's whistling to drown out the sound of their crimes."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "No need for small talk. All that matters is that you were safe last night."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Would you like to try the secret menu?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Night has fallen."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Alright, see you next time. I'll make sure you leave safely."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Diluc",
+      "text": "The legend of the \"Darknight Hero\"? An interesting rumor."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Needs",
+      "text": "Just say the word if you need anything. For reimbursements, ask Elzer."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Proof",
+      "text": "You have already proven your determination. Well then, it is now time for you to witness my resolve."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Visions are a light in the sea of darkness that surrounds those who have lost their way. But for those who have faith, they are little more than badges of conviction."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Occasionally I'll work the bar at Angel's Share. The tavern is known for being the center of information in Mondstadt."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "What? Why do you ask? ...It's an owl, quietly watching its prey from the darkness, waiting for the perfect moment to strike... Flawless."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Kaeya",
+      "text": "Kaeya? You can only trust half of what he says... at best."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Lisa",
+      "text": "I believe Lisa has the potential to become the most reliable of the knights. If she's willing."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Jean: Enemies",
+      "text": "Trifling matters can become Jean's greatest enemy."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Jean: Responsibilities",
+      "text": "Her unparalleled sense of responsibility is the sole reason why she still hasn't found her true calling."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Mona",
+      "text": "The land of Mondstadt, by the Anemo Archon's grace, is bountiful. I see no need for the harvest forecasts of astrologers."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Diona",
+      "text": "Diona's attitude towards me is... how should I put it? Rather rigid. I've yet to find the opportunity to speak with her properly. I'm not sure if it's an issue with my family line or— Oh? It's not? She simply despises alcohol? Huh... I never thought I'd come across another bartender like myself in Mondstadt."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Varka",
+      "text": "Grand Master Varka... While I understand his disposition, I can make no sense of his actions. ...I—I've said too much already. I've long since left the Knights of Favonius. Forget I said anything."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Eula",
+      "text": "Ah, yes... I've heard about her. She has her own convictions. Her determination to liberate herself from the shackles of her clan is praiseworthy. But, she's... joined the Knights of Favonius."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Diluc: I",
+      "text": "You have business to attend to?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Diluc: II",
+      "text": "Huh? Knights of Favonius? ...I have nothing to say about them. We have different views is all."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Diluc: III",
+      "text": "It's been a long while since I played chess with anyone but my butler. I just so happen to have a moment. Care to play a round?"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Diluc: IV",
+      "text": "Checkmate! ...Still, it's been a while since someone tested me this much."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Diluc: V",
+      "text": "Not bad. Be it chess or combat, you always seem to surprise me. Hm, working with you is quite the novelty. So... I look forward to continuing to work with you, partner."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Diluc's Hobbies",
+      "text": "The artwork in the manor? It's not mine. It's a collection that belonged to my late father."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Diluc's Troubles",
+      "text": "The darkness that seethes with evil, full of demons that must be vanquished, will take more than a blade to be torn asunder."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "You want to know what's in my glass? It's... grape juice. My drink of choice."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I don't like alcohol. It's just... I don't like how it feels in my mouth..."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Exquisite. Unforgettable flavors."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "I can see the chef put their heart into this one. A fine dish."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "...Umm, thanks."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday. This is an important day for you. So tell me, what is it you wish for? If it is within my power to bestow it upon you, I will give it my consideration."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Power is necessary if we are to meet our objectives."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "What lies in wait for us? I rarely stop to think about it.\\nNo matter what dares to stand in my way, I must press forward."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "I've become stronger... Though it is still not enough, I will always face the darkness.\\nFor dawn to come, there must be those who dare to pierce the darkness with their light."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "I used to believe... if I was to stamp out evil, I would have to walk alone in darkness. However, seeing your perseverance, I know I was wrong. Friend... I owe you my thanks."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Hmph."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Hah!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Haah!——"
+    },
+    {
+      "id": "100010",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Huh!"
+    },
+    {
+      "id": "100011",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Hyah!"
+    },
+    {
+      "id": "100012",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Haah!—"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Your verdict is...!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Burn!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Time for — retribution!"
+    },
+    {
+      "id": "200010",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Flames, purge!"
+    },
+    {
+      "id": "200011",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Lay waste to the wicked!"
+    },
+    {
+      "id": "200012",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Dawn, break forth!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Hmph, better than nothing."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "I suppose this will do."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "We'll need more where that came from."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Is that all you've got?"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Darn you!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "You will pay for that!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Careful!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Don't burn yourself out! Retreat!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Where did I go wrong..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "There can be no excuse... for defeat..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "My flame... has been... extinguished..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Urgh!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Let's go."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "What's our objective?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Let's finish this, swiftly."
+    }
+  ]
+}

@@ -1,0 +1,1744 @@
+{
+  "_id": 10000002,
+  "id": "kamisato_ayaka",
+  "name": "Kamisato Ayaka",
+  "title": "Frostflake Heron",
+  "description": "Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1626814800,
+  "substat": "CRIT DMG",
+  "stats": {
+    "base": {
+      "hp": 1000.986,
+      "attack": 26.6266,
+      "defense": 61.0266
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 858.255,
+        "attack": 22.828234,
+        "defense": 52.326,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1468.0677,
+        "attack": 39.048294,
+        "defense": 89.505,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2281.1514,
+        "attack": 60.67504,
+        "defense": 139.077,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2890.964,
+        "attack": 76.8951,
+        "defense": 176.256,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3500.7769,
+        "attack": 93.115166,
+        "defense": 213.435,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.288
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4110.59,
+        "attack": 109.33523,
+        "defense": 250.614,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.384
+        }
+      }
+    ]
+  },
+  "affiliation": "Yashiro Commission",
+  "region": {
+    "id": "inazuma",
+    "name": "Inazuma"
+  },
+  "rarity": 5,
+  "birthday": [
+    28,
+    9
+  ],
+  "constellation": "Grus Nivis",
+  "domain": "Violet Court",
+  "cv": {
+    "english": "Erica Mendez",
+    "chinese": "小N",
+    "japanese": "早見沙織",
+    "korean": "Lee Yoo-ri"
+  },
+  "skills": [
+    {
+      "_id": 10024,
+      "id": "kamisato_art_kabuki",
+      "name": "Kamisato Art: Kabuki",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 rapid strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash a flurry of sword ki.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "45.7%",
+            "49.4%",
+            "53.2%",
+            "58.5%",
+            "62.2%",
+            "66.5%",
+            "72.3%",
+            "78.2%",
+            "84%",
+            "90.4%",
+            "96.8%",
+            "103.1%",
+            "109.5%",
+            "115.9%",
+            "122.3%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "48.7%",
+            "52.6%",
+            "56.6%",
+            "62.3%",
+            "66.2%",
+            "70.8%",
+            "77%",
+            "83.2%",
+            "89.4%",
+            "96.2%",
+            "103%",
+            "109.8%",
+            "116.6%",
+            "123.4%",
+            "130.2%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "62.6%",
+            "67.7%",
+            "72.8%",
+            "80.1%",
+            "85.2%",
+            "91%",
+            "99%",
+            "107%",
+            "115%",
+            "123.8%",
+            "132.5%",
+            "141.3%",
+            "150%",
+            "158.7%",
+            "167.5%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "22.6%×3",
+            "24.5%×3",
+            "26.3%×3",
+            "29%×3",
+            "30.8%×3",
+            "32.9%×3",
+            "35.8%×3",
+            "38.7%×3",
+            "41.6%×3",
+            "44.8%×3",
+            "47.9%×3",
+            "51.1%×3",
+            "54.2%×3",
+            "57.4%×3",
+            "60.6%×3"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "78.2%",
+            "84.5%",
+            "90.9%",
+            "100%",
+            "106.4%",
+            "113.6%",
+            "123.6%",
+            "133.6%",
+            "143.6%",
+            "154.5%",
+            "165.5%",
+            "176.4%",
+            "187.3%",
+            "198.2%",
+            "209.1%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "55.1%×3",
+            "59.6%×3",
+            "64.1%×3",
+            "70.5%×3",
+            "75%×3",
+            "80.1%×3",
+            "87.2%×3",
+            "94.2%×3",
+            "101.3%×3",
+            "109%×3",
+            "116.7%×3",
+            "124.4%×3",
+            "132%×3",
+            "139.7%×3",
+            "147.4%×3"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10018,
+      "id": "kamisato_art_hyouka",
+      "name": "Kamisato Art: Hyouka",
+      "description": "Summons blooming ice to launch nearby opponents, dealing <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>.",
+      "info": "\"Clouds shroud the moonlit night. Longing descends like a fog, filling the one detained with wanderlust.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "239.2%",
+            "257.1%",
+            "275.1%",
+            "299%",
+            "316.9%",
+            "334.9%",
+            "358.8%",
+            "382.7%",
+            "406.6%",
+            "430.6%",
+            "454.5%",
+            "478.4%",
+            "508.3%",
+            "538.2%",
+            "568.1%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10013,
+      "id": "kamisato_art_senho",
+      "name": "Kamisato Art: Senho",
+      "description": "<span style=\"color:#FFD780FF\">Alternate Sprint</span><br/>Ayaka consumes Stamina and cloaks herself in a frozen fog that moves with her.<br/><br/>In Senho form, she moves swiftly upon water.<br/>When she reappears, the following effects occur:<br/>·Ayaka unleashes frigid energy to apply <span style=\"color:#99FFFFFF\">Cryo</span> on nearby opponents.<br/>·Coldness condenses around Ayaka's blade, infusing her attacks with <span style=\"color:#99FFFFFF\">Cryo</span> for a brief period.",
+      "info": "\"Feathers fleeting wet / the white heron treads water / a sight without flaw\"",
+      "attributes": [
+        {
+          "label": "Activation Stamina Consumption",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "label": "Stamina Drain",
+          "values": [
+            "15/s"
+          ]
+        },
+        {
+          "label": "Infusion Duration",
+          "values": [
+            "5s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10019,
+      "id": "kamisato_art_soumetsu",
+      "name": "Kamisato Art: Soumetsu",
+      "description": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.<br/><br/><span style=\"color:#FFD780FF\">Frostflake Seki no To</span><br/>·A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span>.<br/>·The snowstorm explodes after its duration ends, dealing <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>.",
+      "info": "\"The blizzard veils the heron's thoughts, pity heavy in its heart.\"",
+      "attributes": [
+        {
+          "label": "Cutting DMG",
+          "values": [
+            "112.3%",
+            "120.7%",
+            "129.1%",
+            "140.4%",
+            "148.8%",
+            "157.2%",
+            "168.5%",
+            "179.7%",
+            "190.9%",
+            "202.1%",
+            "213.4%",
+            "224.6%",
+            "238.6%",
+            "252.7%",
+            "266.7%"
+          ]
+        },
+        {
+          "label": "Bloom DMG",
+          "values": [
+            "168.5%",
+            "181.1%",
+            "193.7%",
+            "210.6%",
+            "223.2%",
+            "235.8%",
+            "252.7%",
+            "269.5%",
+            "286.4%",
+            "303.2%",
+            "320.1%",
+            "336.9%",
+            "358%",
+            "379%",
+            "400.1%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "amatsumi_kunitsumi_sanctification",
+      "name": "Amatsumi Kunitsumi Sanctification",
+      "description": "After using <span style=\"color:#FFD780FF\">Kamisato Art: Hyouka</span>, Kamisato Ayaka's Normal and Charged Attacks deal 30% increased DMG for 6s.",
+      "level": 1
+    },
+    {
+      "id": "kanten_senmyou_blessing",
+      "name": "Kanten Senmyou Blessing",
+      "description": "When the Cryo application at the end of <span style=\"color:#FFD780FF\">Kamisato Art: Senho</span> hits an opponent, Kamisato Ayaka gains the following effects:<br/>·Restores 10 Stamina<br/>·Gains 18% <span style=\"color:#99FFFFFF\">Cryo DMG Bonus</span> for 10s.",
+      "level": 4
+    },
+    {
+      "id": "fruits_of_shinsa",
+      "name": "Fruits of Shinsa",
+      "description": "When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive double the product.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 21,
+      "id": "snowswept_sakura",
+      "name": "Snowswept Sakura",
+      "description": "When Kamisato Ayaka's Normal or Charged Attacks deal <span style=\"color:#99FFFFFF\">Cryo DMG</span> to opponents, it has a 50% chance of decreasing the CD of <span style=\"color:#FFD780FF\">Kamisato Art: Hyouka</span> by 0.3s. This effect can occur once every 0.1s.",
+      "level": 1
+    },
+    {
+      "_id": 22,
+      "id": "blizzard_blade_seki_no_to",
+      "name": "Blizzard Blade Seki no To",
+      "description": "When casting <span style=\"color:#FFD780FF\">Kamisato Art: Soumetsu</span>, unleashes 2 smaller additional Frostflake Seki no To, each dealing 20% of the original storm's DMG.",
+      "level": 2
+    },
+    {
+      "_id": 23,
+      "id": "frostbloom_kamifubuki",
+      "name": "Frostbloom Kamifubuki",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Kamisato Art: Soumetsu</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 24,
+      "id": "ebb_and_flow",
+      "name": "Ebb and Flow",
+      "description": "Opponents damaged by <span style=\"color:#FFD780FF\">Kamisato Art: Soumetsu</span>'s Frostflake Seki no To will have their DEF decreased by 30% for 6s.",
+      "level": 4
+    },
+    {
+      "_id": 25,
+      "id": "blossom_cloud_irutsuki",
+      "name": "Blossom Cloud Irutsuki",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Kamisato Art: Hyouka</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 26,
+      "id": "dance_of_suigetsu",
+      "name": "Dance of Suigetsu",
+      "description": "Kamisato Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG by 298%. This buff will be cleared 0.5s after Ayaka's Charged ATK hits an opponent, after which the timer for this ability will restart.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1001"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "27"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "61"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2597",
+            "3455"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "69",
+            "92"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "158",
+            "211"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5170",
+            "5779"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "138",
+            "154"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "315",
+            "352"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101202,
+        "id": "sakura_bloom",
+        "name": "Sakura Bloom",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112044,
+        "id": "old_handguard",
+        "name": "Old Handguard",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6649",
+            "7462"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "177",
+            "198"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "405",
+            "455"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113023,
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101202,
+        "id": "sakura_bloom",
+        "name": "Sakura Bloom",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112044,
+        "id": "old_handguard",
+        "name": "Old Handguard",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8341",
+            "8951"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "222",
+            "238"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "509",
+            "546"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113023,
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101202,
+        "id": "sakura_bloom",
+        "name": "Sakura Bloom",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112045,
+        "id": "kageuchi_handguard",
+        "name": "Kageuchi Handguard",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9838",
+            "10448"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "262",
+            "278"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "600",
+            "637"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113023,
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101202,
+        "id": "sakura_bloom",
+        "name": "Sakura Bloom",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112045,
+        "id": "kageuchi_handguard",
+        "name": "Kageuchi Handguard",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11345",
+            "11954"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "302",
+            "318"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "692",
+            "729"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113023,
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101202,
+        "id": "sakura_bloom",
+        "name": "Sakura Bloom",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112046,
+        "id": "famed_handguard",
+        "name": "Famed Handguard",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12858",
+            "12858"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "342",
+            "342"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "784",
+            "784"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113023,
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101202,
+        "id": "sakura_bloom",
+        "name": "Sakura Bloom",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112046,
+        "id": "famed_handguard",
+        "name": "Famed Handguard",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104323,
+          "id": "teachings_of_elegance",
+          "name": "Teachings of Elegance",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112044,
+          "id": "old_handguard",
+          "name": "Old Handguard",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104324,
+          "id": "guide_to_elegance",
+          "name": "Guide to Elegance",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113018,
+          "id": "bloodjade_branch",
+          "name": "Bloodjade Branch",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113018,
+          "id": "bloodjade_branch",
+          "name": "Bloodjade Branch",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113018,
+          "id": "bloodjade_branch",
+          "name": "Bloodjade Branch",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104325,
+          "id": "philosophies_of_elegance",
+          "name": "Philosophies of Elegance",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113018,
+          "id": "bloodjade_branch",
+          "name": "Bloodjade Branch",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 200201,
+      "name": "Springbloom Missive",
+      "description": "Ayaka's travel outfit. Its design is based on the Fontaine dresses depicted in light novel illustrations and seems to serve as a window into the lifestyle of proper ladies who live in that nation.",
+      "isDefault": false,
+      "characterName": "Kamisato Ayaka",
+      "characterId": 10000002,
+      "source": [
+        "Purchased from the Shop"
+      ],
+      "filename_card": "UI_AvatarIcon_AyakaCostumeFruhling_Card",
+      "filename_icon": "UI_AvatarIcon_AyakaCostumeFruhling",
+      "filename_iconCircle": "UI_AvatarIcon_AyakaCostumeFruhling_Circle",
+      "filename_splash": "UI_Costume_AyakaCostumeFruhling",
+      "filename_sideIcon": "UI_AvatarIcon_Side_AyakaCostumeFruhling"
+    },
+    {
+      "id": 200200,
+      "name": "Flawless Radiance",
+      "description": "Kamisato Ayaka's outfit. This kimono features an armor-coated skirt, displaying the nobility and resilience of the Shirasagi Himegimi.",
+      "isDefault": true,
+      "characterName": "Kamisato Ayaka",
+      "characterId": 10000002,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Ayaka_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "Master of Inazuma Kamisato Art Tachi Jutsu — Kamisato Ayaka, present!\\nDelighted to make your acquaintance."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Stability",
+      "text": "I only wish life could be as leisurely as this a little more often... How greedy of me."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Sword",
+      "text": "A blade is like a tea-leaf. Only those who sample it many times can appreciate its true qualities."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Zoning Out",
+      "text": "So this is a day in the life of the Traveler... Hehe, I'm learning more about you all the time."
+    },
+    {
+      "id": "1104",
+      "type": 1,
+      "title": "Chat: Famous Sword",
+      "text": "A blade embraces its duty as a jeweler cherishes their gems."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Come with me, let us find shelter from the rain."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Her Excellency... What is she trying to communicate?"
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "\"Snow that once adorned the world in silver, thaws to reveal the gleam of the fruit upon frost-laden branches.\" *sigh* How picturesque! Only some tea would make this setting more complete."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "There's a pleasant breeze and glorious sunshine... So, where shall we go for a walk?"
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When It's Windy",
+      "text": "Close your eyes and face the wind... It feels wonderful, doesn't it?"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Oh, good morning, Traveler. ...Whenever I see you in the morning, somehow, it makes me feel like... today is going to be a good day."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Good afternoon. It is normal to feel drowsy after lunch, might I interest you in a game of Go to stimulate the mind?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Greetings. An auspicious breeze blows this evening. Tonight will be peaceful."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "\"Was it one's thoughts that drew him to my dreams? Had I known it a dream, one would not have awakened.\" Hehe, I love that poem."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Kamisato Ayaka: Yashiro Commission",
+      "text": "\"Inazuma Shogunate, Yashiro Commission, Kamisato Clan.\" Widely known as one of the most distinguished clans in all of Inazuma, it is the branch of the Tri-Commission that manages ceremonial and cultural affairs. Since my parents passed, Brother and I assumed responsibility for all clan matters, big and small."
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Kamisato Ayaka: Position",
+      "text": "Many look up to me as the Shirasagi Himegimi and as the daughter of the Kamisato Clan. But the object of their respect has everything to do with my position, and nothing at all to do with me, Ayaka. It makes me think that... maybe, there is only one person I know who is truly able to get close to me..."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Kamisato Ayaka: Aspiration",
+      "text": "Today, as in the past, I aspire to be somebody whom everyone can trust. But what motivates me is no longer the responsibilities I shoulder, or the expectations of other people. Rather, it is the fact that you are this kind of person, too."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Teahouse",
+      "text": "If you've got time, shall we take a walk to Komore Teahouse? To chat about the art of tea on a pleasant day like this seems like the sophisticated thing to do."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Festivals",
+      "text": "If I ever have the chance, I would very much like to experience the festivities of another nation with you one day. Though, I will need some guidance on local customs and etiquette, and advice on what gifts to bring... Could I trouble you to give me some guidance?"
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Visions are a seal of approval for those who are most ambitious. As for my own ambitions, they shall remain private for now. It is nothing more than an insignificant dream."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "It is said that \"the flavor of Zen is that of tea,\" and it is also said that \"the power of Zen is that of the blade.\" One might then ask: What does that say about the relationship between tea and the blade?"
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Have you ever noticed the withering sakura tree in the city? For me, there is a beauty to the withering, it brings back fond memories of the spring. Most people don't agree — sakura trees that will never bloom again are removed. But when I look at a tree, all I want is to see it blossom again... just one more time..."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Thoma",
+      "text": "Thoma is a dear friend. He always lifts my spirits with his sunny disposition. In a sense, I think of him as another brother, and as a full member of the Kamisato Clan."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Kujou Sara",
+      "text": "Kujou Sara of the Tenryou Commission is... not known to smile, and I have had my fair share of disputes with her. She is, however, a loyal servant to Inazuma, there is no question about that."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Shikanoin Heizou",
+      "text": "Mr. Shikanoin belongs to the Tenryou Commission, just like Miss Kujou. He is very... principled, sometimes even more determinedly so than Miss Kujou. The only thing is, when it comes to the question of which matters should be governed by his principles, I believe only Mr. Shikanoin himself knows the answer..."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Sayu",
+      "text": "Ah, little Sayu. She hasn't been causing you any trouble lately, has she? Hehe, if you ever notice her slacking off, please let me know."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About the Raiden Shogun: Guesswork",
+      "text": "The Almighty Shogun? It would be improper of me to comment, given that I am one of her subjects. All I will say is that... I think that Her Excellency must get lonely on the road to eternity."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About the Raiden Shogun: Standpoint",
+      "text": "To witness the Musou no Hitotachi and live to tell the tale is quite a remarkable feat. Even though I recognize her as our true deity with the power to change Inazuma's fate at will, if there is conflict between the two of you, then... I shall choose to side with you."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Yae Miko",
+      "text": "I have always greatly enjoyed working with Guuji Yae. Organizing festival affairs generally takes a lot of effort and doesn't generate much income, but Guuji Yae's events always come off both elegant and profitable."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Kamisato Ayato",
+      "text": "As the head of the Kamisato Clan, brother always has a full schedule of places he needs to be. I do try my best to share his load, but there is no changing the pressure he is subjected to all year round, and the toll it takes upon him. *sigh* If you see him, remind him to take care of himself, for his sister's sake..."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Yoimiya",
+      "text": "The Yashiro Commission and the shrine maidens are responsible for festival affairs, and Yoimiya, as a fireworks expert, knows how to create an atmosphere. So we have become well acquainted with her over the years.\\nHmm? Public order and fire prevention? We factor these concerns in well in advance during the planning stage. To deny people the chance to see fireworks simply for these reasons would leave them feeling very disappointed."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Kamisato Ayaka: I",
+      "text": "Your request is quite unusual for me. Since I see you as a friend, it would only be fair to be open and honest with you, but if this means sharing secrets of the Kamisato Clan... I would ask that you keep anything I tell you in strict confidence."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Kamisato Ayaka: II",
+      "text": "The Kamisato Clan once suffered a major blow when we failed to protect a swordsmith of national significance. We were harassed by the Fatui, we lost many of our people, and we received a great deal of criticism. It all aged Father greatly, and severely damaged the Kamisato Clan's standing within the Shogunate. Brother has worked tirelessly to reverse the trend since he assumed leadership, but although our clan's position is now restored and the Yashiro Commission is unified once more, we still rely on Brother to make the decisions on all matters of any importance."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Kamisato Ayaka: III",
+      "text": "The art of blade forging taught by the Shogun varies based on astrology, application, materials used, the furnace conditions, individual personalities, and elemental changes. These differences between smiths is what gave rise to the Raiden Gokaden. Swordsmiths capable of forging renowned blades are seen as spiritual personnel with sacred abilities, and as such they should be managed by the Yashiro Commission, which oversees all cultural, artistic, and ceremonial affairs. So naturally, the swordsmith's betrayal is the fault of ineffectual management by the Kamisato Clan."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Kamisato Ayaka: IV",
+      "text": "My mother was the most incredible person. She was always so dignified and elegant, always smiling, no matter what situation she might be facing. She had so much to deal with in the clan on so many levels, but she took it all in stride — it was like nothing could ever faze her. Everything about her was perfect, and I say that without exaggerating. *sigh* But the moment she passed away, I realized... I couldn't hide behind my mother any longer. I wasn't little Ayaka any more."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Kamisato Ayaka: V",
+      "text": "What I want to say next is perhaps not befitting of a member of the Inazuma Shogunate, Yashiro Commission, Kamisato Clan, but... unless I am mistaken, I trust that you will not take issue with this slight departure from convention on my part...\\nThat is to say... I'm a little tired, may I rest my head on your shoulder? Just for a moment."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Kamisato Ayaka's Hobbies",
+      "text": "I have great affection for the arts: music, song, poetry, shougi, and dancing. And you?"
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Kamisato Ayaka's Troubles: Concerns",
+      "text": "Troubles? Well, I mean... that's life, isn't it? There will always be things that don't go one's way. But I do not wish to worry those around me on account of things that are my concern alone... so, it is best if I keep them to myself."
+    },
+    {
+      "id": "6006",
+      "type": 1,
+      "title": "Kamisato Ayaka's Troubles: Desires",
+      "text": "Openness is something I find very difficult. I constantly have to remind myself that as a lady of the Kamisato Clan, there are countless people watching and countless expectations to live up to. I must be a model of exemplary conduct at all times. But even so, shouldn't I still follow my dreams? Shouldn't I... share my true feelings with you?"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I'm fascinated by food from overseas. Though I don't get to try it very often... So, if I had to choose something from Inazuma, then probably... Chazuke. But not when anybody else is watching... So I tell you that in confidence."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Though I do not eschew animal fat and organs entirely, they are far from my first choice."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Mmm... Yes, I am truly fortunate..."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Thank you for the opportunity to try this dish. I will always savor it."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Hmm... It's a bit greasy for my taste."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Come with me! We're not going far away — I promise it won't delay you too much.\\nI managed to find out when your birthday was well in advance, so I could prepare in good time. Hopefully this wasn't assuming too much, but I guessed you might prefer this to an expensive gift.\\nIn honor of your birthday, please allow me to perform a fan dance for you."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Thank you very much. It has been richly rewarding to learn from you so far, and I believe my skills with the blade can go even further still."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Thank you for your guidance. With your assistance, I am gaining a more thorough understanding of my capabilities."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "I feel more competent now than ever before. I even have the time outside my work for the Yashiro Commission to try some new things. Would you like to try one of my home-made snacks? I just learned how to make them recently."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "\"Though I cling to that which has given me the strength to hold on, the weight of letting go is ever-foreboding.\"\\nMy apologies, it should be a happy occasion, and yet it is such a sad phrase that comes to mind. Our time together has been so pleasant that I am fearful of losing what I have gained. I'm sorry, I must compose myself."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Take flight."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "My apologies."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Whirling snow."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Embrace the ice."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Sakura swirl."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Kamisato Art: Soumetsu!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Collecting rare and exquisite treasures... Yes, this seems suitably sophisticated."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Hehe... Today is a lucky day."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "I shall treasure this good fortune."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "I will not stand for this."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "A worthy opponent..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "We ought to end this!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Do not overdo it."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Take care!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Pardon my indiscretion..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Much remains... unfinished..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "I have dishonored... our clan..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "So rude!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Unthinkable..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Kamisato Ayaka, present."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "I await your instruction."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "A pleasure to be working with you."
+    }
+  ]
+}

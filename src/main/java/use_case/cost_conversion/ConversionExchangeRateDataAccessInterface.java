@@ -1,5 +1,7 @@
 package use_case.cost_conversion;
 
+import java.util.List;
+
 /**
  * Provides exchange rates needed for cost conversion.
  */
@@ -13,8 +15,11 @@ public interface ConversionExchangeRateDataAccessInterface {
      * @param targetCurrency the chosen currency code
      * @return a positive exchange rate, or null if unavailable
      */
-    Double getExchangeRate(
-            String originalCurrency,
-            String targetCurrency
-    );
+    Double getExchangeRate(String originalCurrency, String targetCurrency);
+
+    /**
+     * Returns supported currency codes, such as CAD and USD.
+     * Returns an empty list if they cannot be retrieved.
+     */
+    List<String> getSupportedCurrencies();
 }

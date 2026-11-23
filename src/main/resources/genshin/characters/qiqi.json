@@ -1,0 +1,1835 @@
+{
+  "_id": 10000035,
+  "id": "qiqi",
+  "name": "Qiqi",
+  "title": "Icy Resurrection",
+  "description": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1601244000,
+  "substat": "Healing Bonus",
+  "stats": {
+    "base": {
+      "hp": 962.8532,
+      "attack": 22.344,
+      "defense": 71.796
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 825.5596,
+        "attack": 19.15656,
+        "defense": 61.56,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1412.1414,
+        "attack": 32.7678,
+        "defense": 105.3,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0.0554
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2194.2505,
+        "attack": 50.91612,
+        "defense": 163.62,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0.1108
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2780.8323,
+        "attack": 64.52736,
+        "defense": 207.36,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0.1108
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3367.414,
+        "attack": 78.1386,
+        "defense": 251.1,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0.1662
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3953.9958,
+        "attack": 91.74984,
+        "defense": 294.84,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0.2215
+        }
+      }
+    ]
+  },
+  "affiliation": "Bubu Pharmacy",
+  "region": {
+    "id": "liyue",
+    "name": "Liyue"
+  },
+  "rarity": 5,
+  "birthday": [
+    3,
+    3
+  ],
+  "constellation": "Pristina Nola",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Christie Cate",
+    "chinese": "宴宁",
+    "japanese": "田村ゆかり",
+    "korean": "Lee Seul"
+  },
+  "skills": [
+    {
+      "_id": 10351,
+      "id": "ancient_sword_art",
+      "name": "Ancient Sword Art",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 rapid strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "37.8%",
+            "40.8%",
+            "43.9%",
+            "48.3%",
+            "51.4%",
+            "54.9%",
+            "59.7%",
+            "64.5%",
+            "69.4%",
+            "74.6%",
+            "79.9%",
+            "85.2%",
+            "90.4%",
+            "95.7%",
+            "101%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "38.9%",
+            "42%",
+            "45.2%",
+            "49.7%",
+            "52.9%",
+            "56.5%",
+            "61.5%",
+            "66.4%",
+            "71.4%",
+            "76.8%",
+            "82.3%",
+            "87.7%",
+            "93.1%",
+            "98.5%",
+            "104%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "24.2% + 24.2%",
+            "26.1% + 26.1%",
+            "28.1% + 28.1%",
+            "30.9% + 30.9%",
+            "32.9% + 32.9%",
+            "35.1% + 35.1%",
+            "38.2% + 38.2%",
+            "41.3% + 41.3%",
+            "44.4% + 44.4%",
+            "47.8% + 47.8%",
+            "51.1% + 51.1%",
+            "54.5% + 54.5%",
+            "57.9% + 57.9%",
+            "61.3% + 61.3%",
+            "64.6% + 64.6%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "24.7% + 24.7%",
+            "26.7% + 26.7%",
+            "28.7% + 28.7%",
+            "31.6% + 31.6%",
+            "33.6% + 33.6%",
+            "35.9% + 35.9%",
+            "39% + 39%",
+            "42.2% + 42.2%",
+            "45.3% + 45.3%",
+            "48.8% + 48.8%",
+            "52.2% + 52.2%",
+            "55.7% + 55.7%",
+            "59.1% + 59.1%",
+            "62.6% + 62.6%",
+            "66% + 66%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "63%",
+            "68.2%",
+            "73.3%",
+            "80.6%",
+            "85.8%",
+            "91.6%",
+            "99.7%",
+            "107.8%",
+            "115.8%",
+            "124.6%",
+            "133.4%",
+            "142.2%",
+            "151%",
+            "159.8%",
+            "168.6%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "64.3% + 64.3%",
+            "69.6% + 69.6%",
+            "74.8% + 74.8%",
+            "82.3% + 82.3%",
+            "87.5% + 87.5%",
+            "93.5% + 93.5%",
+            "101.7% + 101.7%",
+            "110% + 110%",
+            "118.2% + 118.2%",
+            "127.2% + 127.2%",
+            "136.1% + 136.1%",
+            "145.1% + 145.1%",
+            "154.1% + 154.1%",
+            "163.1% + 163.1%",
+            "172% + 172%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10352,
+      "id": "adeptus_art_herald_of_frost",
+      "name": "Adeptus Art: Herald of Frost",
+      "description": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span> to surrounding opponents.<br/><br/><span style=\"color:#FFD780FF\">Herald of Frost</span><br/>·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.<br/>·Periodically regenerates your active character's HP.<br/>·Follows the character around, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span> to opponents in their path.",
+      "info": "I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "96%",
+            "103.2%",
+            "110.4%",
+            "120%",
+            "127.2%",
+            "134.4%",
+            "144%",
+            "153.6%",
+            "163.2%",
+            "172.8%",
+            "182.4%",
+            "192%",
+            "204%",
+            "216%",
+            "228%"
+          ]
+        },
+        {
+          "label": "Regeneration on Hit",
+          "values": [
+            "10.56% ATK + 67",
+            "11.35% ATK + 74",
+            "12.14% ATK + 81",
+            "13.2% ATK + 89",
+            "13.99% ATK + 98",
+            "14.78% ATK + 107",
+            "15.84% ATK + 116",
+            "16.9% ATK + 126",
+            "17.95% ATK + 137",
+            "19.01% ATK + 148",
+            "20.06% ATK + 160",
+            "21.12% ATK + 172",
+            "22.44% ATK + 185",
+            "23.76% ATK + 199",
+            "25.08% ATK + 213"
+          ]
+        },
+        {
+          "label": "Continuous Regeneration",
+          "values": [
+            "69.6% ATK + 451",
+            "74.82% ATK + 496",
+            "80.04% ATK + 544",
+            "87% ATK + 597",
+            "92.22% ATK + 653",
+            "97.44% ATK + 713",
+            "104.4% ATK + 777",
+            "111.36% ATK + 845",
+            "118.32% ATK + 916",
+            "125.28% ATK + 991",
+            "132.24% ATK + 1070",
+            "139.2% ATK + 1153",
+            "147.9% ATK + 1239",
+            "156.6% ATK + 1329",
+            "165.3% ATK + 1423"
+          ]
+        },
+        {
+          "label": "Herald of Frost DMG",
+          "values": [
+            "36%",
+            "38.7%",
+            "41.4%",
+            "45%",
+            "47.7%",
+            "50.4%",
+            "54%",
+            "57.6%",
+            "61.2%",
+            "64.8%",
+            "68.4%",
+            "72%",
+            "76.5%",
+            "81%",
+            "85.5%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Herald of Frost Coordinated Attack DMG",
+          "values": [
+            "24%",
+            "25.8%",
+            "27.6%",
+            "30%",
+            "31.8%",
+            "33.6%",
+            "36%",
+            "38.4%",
+            "40.8%",
+            "43.2%",
+            "45.6%",
+            "48%",
+            "51%",
+            "54%",
+            "57%"
+          ]
+        },
+        {
+          "label": "Herald of Frost Coordinated Attack CD",
+          "values": [
+            "2.2s",
+            "2.2s",
+            "2.2s",
+            "2.2s",
+            "2.2s",
+            "2.2s",
+            "2.2s",
+            "2.2s",
+            "2.2s",
+            "2.2s",
+            "2.2s",
+            "2.2s",
+            "2.2s",
+            "2.2s",
+            "2.2s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10353,
+      "id": "adeptus_art_preserver_of_fortune",
+      "name": "Adeptus Art: Preserver of Fortune",
+      "description": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <span style=\"color:#99FFFFFF\">Cryo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Fortune-Preserving Talisman</span><br/>When opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.",
+      "info": "\"I am the Fortune Preserver, the Maiden of Resurrection.\"<br/><i>— Qiqi does not remember these words.</i>",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "284.8%",
+            "306.2%",
+            "327.5%",
+            "356%",
+            "377.4%",
+            "398.7%",
+            "427.2%",
+            "455.7%",
+            "484.2%",
+            "512.6%",
+            "541.1%",
+            "569.6%",
+            "605.2%",
+            "640.8%",
+            "676.4%"
+          ]
+        },
+        {
+          "label": "Healing",
+          "values": [
+            "90% ATK + 577",
+            "96.8% ATK + 635",
+            "103.5% ATK + 698",
+            "112.5% ATK + 765",
+            "119.2% ATK + 837",
+            "126% ATK + 914",
+            "135% ATK + 996",
+            "144% ATK + 1083",
+            "153% ATK + 1174",
+            "162% ATK + 1270",
+            "171% ATK + 1371",
+            "180% ATK + 1477",
+            "191.3% ATK + 1588",
+            "202.5% ATK + 1703",
+            "213.8% ATK + 1824"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        },
+        {
+          "label": "Stellar-Conduct DMG",
+          "values": [
+            "297.3%",
+            "319.6%",
+            "341.9%",
+            "371.7%",
+            "394%",
+            "416.3%",
+            "446%",
+            "475.7%",
+            "505.5%",
+            "535.2%",
+            "564.9%",
+            "594.7%",
+            "631.8%",
+            "669%",
+            "706.2%"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "lifeprolonging_methods",
+      "name": "Life-Prolonging Methods",
+      "description": "When a character under the effects of <span style=\"color:#FFD780FF\">Adeptus Art: Herald of Frost</span> triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s.",
+      "level": 1
+    },
+    {
+      "id": "a_glimpse_into_arcanum",
+      "name": "A Glimpse Into Arcanum",
+      "description": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
+      "level": 4
+    },
+    {
+      "id": "former_life_memories",
+      "name": "Former Life Memories",
+      "description": "Displays the location of nearby <span style=\"color:#FFD780FF\">resources unique to Liyue</span> on the mini-map.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 351,
+      "id": "ascetics_of_frost",
+      "name": "Ascetics of Frost",
+      "description": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
+      "level": 1
+    },
+    {
+      "_id": 352,
+      "id": "frozen_to_the_bone",
+      "name": "Frozen to the Bone",
+      "description": "Qiqi's Normal and Charged Attack DMG against opponents affected by <span style=\"color:#99FFFFFF\">Cryo</span> is increased by 15%.",
+      "level": 2
+    },
+    {
+      "_id": 353,
+      "id": "ascendant_praise",
+      "name": "Ascendant Praise",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Adeptus Art: Preserver of Fortune</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 354,
+      "id": "divine_suppression",
+      "name": "Divine Suppression",
+      "description": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
+      "level": 4
+    },
+    {
+      "_id": 355,
+      "id": "crimson_lotus_bloom",
+      "name": "Crimson Lotus Bloom",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Adeptus Art: Herald of Frost</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 356,
+      "id": "rite_of_resurrection",
+      "name": "Rite of Resurrection",
+      "description": "Using <span style=\"color:#FFD780FF\">Adeptus Art: Preserver of Fortune</span> revives all fallen party members nearby and regenerates 50% of their HP.<br/>This effect can only occur once every 15 mins.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "963"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "22"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "72"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "-",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2498",
+            "3323"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "58",
+            "77"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "186",
+            "248"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4973",
+            "5559"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "115",
+            "129"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "371",
+            "415"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100034,
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Divining Scroll",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6396",
+            "7178"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "148",
+            "167"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "477",
+            "535"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100034,
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Divining Scroll",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8023",
+            "8610"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "186",
+            "200"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "598",
+            "642"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100034,
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9463",
+            "10050"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "220",
+            "233"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "706",
+            "749"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100034,
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10912",
+            "11499"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "253",
+            "267"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "814",
+            "857"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100034,
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Forbidden Curse Scroll",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12368",
+            "12368"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "287",
+            "287"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "922",
+            "922"
+          ]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113010,
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100034,
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Forbidden Curse Scroll",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104310,
+          "id": "teachings_of_prosperity",
+          "name": "Teachings of Prosperity",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112008,
+          "id": "divining_scroll",
+          "name": "Divining Scroll",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113006,
+          "id": "tail_of_boreas",
+          "name": "Tail of Boreas",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113006,
+          "id": "tail_of_boreas",
+          "name": "Tail of Boreas",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113006,
+          "id": "tail_of_boreas",
+          "name": "Tail of Boreas",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113006,
+          "id": "tail_of_boreas",
+          "name": "Tail of Boreas",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 203500,
+      "name": "Summerchill Dreams",
+      "description": "Qiqi's outfit. A herb gatherer's garment that brings her great peace of mind due to the attached talismans.",
+      "isDefault": true,
+      "characterName": "Qiqi",
+      "characterId": 10000035,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Qiqi_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "I am Qiqi. I am a zombie. And I... forgot what comes next."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Talking to Herself",
+      "text": "Hey, do you know what? Uhh... neither do I. I... already forgot."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Afraid of Heat",
+      "text": "Let's go somewhere cooler."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Training",
+      "text": "One, two, three, four. Two, two, three, four..."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "I forgot my umbrella again."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "I want to build a snowman. Will you help?"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "I should have stayed indoors today."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When It's Windy",
+      "text": "The wind is... frigid. I like it."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Hold my hand please. This wind could blow me away."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning means it's time to check my diary. Because my diary reminds me what I'm supposed to do in the morning."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "I just remembered something. I forgot to help Dr. Baizhu prepare medications."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Good evening. How was your day? My day was... fine, I think. But I can't remember."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "It's time for you to sleep now. I will do my stretches. ...Do not watch me, please."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Qiqi",
+      "text": "Did you ask me something? Sorry... I forgot."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Memory",
+      "text": "I have a poor memory for most things. But as far as I know, that doesn't matter."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Memory Training",
+      "text": "I started memory training exercises recently. So don't worry, I won't forget who you are."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "My Vision can't turn back time. But at least it gives me the power to protect the people that matter most."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "I may be a corpse, but I am in a much better physical condition than Dr. Baizhu."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Sometimes I see finches near the pharmacy. A nice little group of finches."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Baizhu",
+      "text": "I can never remember Dr. Baizhu's face. But I don't mind."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Hu Tao",
+      "text": "Warm. Fake smile. Death. I despise Hu Tao."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Xiao: Name",
+      "text": "Sounds like a historical artifact to me."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Xiao: Memory",
+      "text": "Remind me, have I met him before?"
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Xinyan",
+      "text": "...Who?"
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Yaoyao",
+      "text": "Cute. Like a nice little finch."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Dusky Ming",
+      "text": "On some nights, I almost feel like someone is doing stretches together with me. But maybe I just have an overactive imagination."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Prune",
+      "text": "She looks tough on the outside... but her palms are nice and soft. I like her."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Qiqi: I",
+      "text": "What's going on?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Qiqi: II",
+      "text": "I perform stretches regularly to help me maintain the same range of movement as a normal human being. But as soon as I stop doing them, the rigor mortis starts to set in again."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Qiqi: III",
+      "text": "Some people want to take advantage of me. Others are terrified of me. But you... You are not like any of those people."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Qiqi: IV",
+      "text": "Since we first met, I have had a warm feeling inside. Not the kind of warmth that makes me feel rotten. The other kind of warm. The one that happens inside my heart. Thank you. I am happy. Sadly I only recognize the current you. If I forget you... No. I will order myself to remember you."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Qiqi: V",
+      "text": "In the past, my only thought was: I must stay alive. Even though I didn't know what to live for. But now, I think I know. I want to live with you. I want to ask, can we always stay together, for the rest of life, until death? Yes or no? Yes? Is that your real answer? Good, excellent. I promise to always protect you."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Qiqi's Hobbies",
+      "text": "I want to have a pet. For example, a nice little finch."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Qiqi's Troubles",
+      "text": "I don't know why, but high temperatures make me feel... disgusting."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I like coconut milk... But, I don't know what it tastes like."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Sorry, I have no idea."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Cold. I like it. But, no flavor..."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Huh..."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "It's burning my tongue..."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Many happy returns. Here is a bag of herbal medicine for you. You must be very surprised that I remembered? Let me explain. Last time you told me, I wrote your birthday down on a piece of paper. If I look at something once a day, it eventually goes into my long-term memory, and it will stay there forever."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Now, I have more power. But... what does that mean? Please explain. Thank you."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Ah, I understand. When I get stronger, I need to put more effort into controlling my strength."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "In the past, I did not understand the idea of being stronger than I already was. Now that I understand it well, I wish I was just a little stronger still."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "All of this is because of you. Thank you very much. Can you make me a promise? From now on, please, let me protect you. Do you accept? Yes or no?"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Wheel of life."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Life goes on."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Go."
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Rise."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Orders given. Orders received."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Sacred name: Fortune Preserver."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Opening box of Adepti tricks."
+    },
+    {
+      "id": "700001",
+      "type": 2,
+      "title": "Sprint Start: I",
+      "text": "Faster? Okay, faster."
+    },
+    {
+      "id": "800001",
+      "type": 2,
+      "title": "Deploying Wind Glider: I",
+      "text": "Uh... Huh..."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Ooh, pretty."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Treasure chests... hmm... do we like treasure chests?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Wasn't there something in here a second ago...?"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Ow."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Oh no..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "I must live on..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Danger."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Stop. Let me do it."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Don't want... to be sealed... back up..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Cold... So cold..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "No..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "I didn't feel that."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Wow."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Oh..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "I'm here."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "What's happening?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "I will... bring my notebook."
+    }
+  ]
+}

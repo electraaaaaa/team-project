@@ -4,6 +4,8 @@ package use_case.simulate_pulls;
 /**
     input data for simulate use_case
  */
+import entity.PitySystem;
+
 public class SimulateInputData {
     private final String numOfSims;
     private final String pullCountPerSim;

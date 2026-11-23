@@ -1,0 +1,1853 @@
+{
+  "_id": 10000137,
+  "id": "valeriy",
+  "name": "Valeriy",
+  "title": "Fort Fulguration",
+  "description": "Commander of the Special Assignments Battalion. A soldier skilled at protecting key personnel and keeping operations on track.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "electro",
+    "name": "Electro"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1793656800,
+  "substat": "ATK%",
+  "stats": {
+    "base": {
+      "hp": 838.8477,
+      "attack": 21.3696,
+      "defense": 58.94175
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 626.6622,
+        "attack": 15.96456,
+        "defense": 44.0325,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1071.9221,
+        "attack": 27.3078,
+        "defense": 75.31875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1665.6022,
+        "attack": 42.43212,
+        "defense": 117.03375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2110.862,
+        "attack": 53.77536,
+        "defense": 148.32,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2556.122,
+        "attack": 65.1186,
+        "defense": 179.60625,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3001.382,
+        "attack": 76.46184,
+        "defense": 210.8925,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Fatui Grenadier Guards First Regiment",
+  "region": {
+    "id": "snezhnaya",
+    "name": "Snezhnaya"
+  },
+  "rarity": 4,
+  "birthday": [
+    24,
+    3
+  ],
+  "constellation": "Ursus Magnus",
+  "domain": "Domain of Mastery: Shared Vision",
+  "cv": {
+    "english": "Jordan Reynolds",
+    "chinese": "淦子齐",
+    "japanese": "古川慎",
+    "korean": "Park Noh-sik"
+  },
+  "skills": [
+    {
+      "_id": 30601,
+      "id": "guard_tactics_sword_and_shield",
+      "name": "Guard Tactics: Sword and Shield",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 3 consecutive sword strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to leap forward and slam the ground, dealing Physical DMG to nearby opponents.<br/>When Valeriy has at least 40 <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11370003\">Impact Momentum</link></span>, he will consume all <span style=\"color:#FFD780FF\">Impact Momentum</span> to instead perform the special Charged Attack <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11370001\">Direct-Fire Mortar: Point-Blank Bombardment</link></span>.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.<link kind=\"effect\" id=\"11370002\"></link>",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "32.5%",
+            "35.1%",
+            "37.8%",
+            "41.5%",
+            "44.2%",
+            "47.2%",
+            "51.4%",
+            "55.5%",
+            "59.7%",
+            "64.2%",
+            "68.7%",
+            "73.3%",
+            "77.8%",
+            "82.3%",
+            "86.9%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "29.3%",
+            "31.7%",
+            "34.1%",
+            "37.5%",
+            "39.9%",
+            "42.6%",
+            "46.4%",
+            "50.1%",
+            "53.9%",
+            "58%",
+            "62.1%",
+            "66.2%",
+            "70.2%",
+            "74.3%",
+            "78.4%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "45.4%",
+            "49.1%",
+            "52.8%",
+            "58.1%",
+            "61.8%",
+            "66%",
+            "71.8%",
+            "77.6%",
+            "83.4%",
+            "89.8%",
+            "96.1%",
+            "102.5%",
+            "108.8%",
+            "115.1%",
+            "121.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "100.3%",
+            "108.4%",
+            "116.6%",
+            "128.3%",
+            "136.4%",
+            "145.8%",
+            "158.6%",
+            "171.4%",
+            "184.2%",
+            "198.2%",
+            "212.2%",
+            "226.2%",
+            "240.2%",
+            "254.2%",
+            "268.2%"
+          ]
+        },
+        {
+          "label": "Direct-Fire Mortar: Point-Blank Bombardment DMG",
+          "values": [
+            "229.2%",
+            "246.4%",
+            "263.6%",
+            "286.5%",
+            "303.7%",
+            "320.9%",
+            "343.8%",
+            "366.7%",
+            "389.6%",
+            "412.6%",
+            "435.5%",
+            "458.4%",
+            "487%",
+            "515.7%",
+            "544.4%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Electro DMG Bonus",
+          "values": [
+            "24.32% ATK",
+            "26.14% ATK",
+            "27.97% ATK",
+            "30.4% ATK",
+            "32.22% ATK",
+            "34.05% ATK",
+            "36.48% ATK",
+            "38.91% ATK",
+            "41.34% ATK",
+            "43.78% ATK",
+            "46.21% ATK",
+            "48.64% ATK",
+            "51.68% ATK",
+            "54.72% ATK",
+            "57.76% ATK"
+          ]
+        },
+        {
+          "label": "Stellar-Conduct DMG Bonus",
+          "values": [
+            "72.96% ATK",
+            "78.43% ATK",
+            "83.9% ATK",
+            "91.2% ATK",
+            "96.67% ATK",
+            "102.14% ATK",
+            "109.44% ATK",
+            "116.74% ATK",
+            "124.03% ATK",
+            "131.33% ATK",
+            "138.62% ATK",
+            "145.92% ATK",
+            "155.04% ATK",
+            "164.16% ATK",
+            "173.28% ATK"
+          ]
+        },
+        {
+          "label": "Offensive Directive Stacks",
+          "values": [
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15"
+          ]
+        },
+        {
+          "label": "Offensive Directive Duration",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 30602,
+      "id": "active_defense_bastion_charge",
+      "name": "Active Defense: Bastion Charge",
+      "description": "Valeriy raises his shield cannon and charges forward, dealing <span style=\"color:#FFACFFFF\">AoE Electro DMG</span>, gaining 40 <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11370003\">Impact Momentum</link></span>, and deploying a Supercharged Shield.<br/>The Supercharged Shield's DMG Absorption scales with Valeriy's ATK, and has 250% absorption efficiency against <span style=\"color:#FFACFFFF\"></span>Electro DMG<span style=\"color:#FFACFFFF\"></span>.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "166%",
+            "178.4%",
+            "190.9%",
+            "207.5%",
+            "219.9%",
+            "232.4%",
+            "249%",
+            "265.6%",
+            "282.2%",
+            "298.8%",
+            "315.4%",
+            "332%",
+            "352.8%",
+            "373.5%",
+            "394.3%"
+          ]
+        },
+        {
+          "label": "Shield DMG Absorption",
+          "values": [
+            "208.9% ATK + 1310",
+            "224.6% ATK + 1441",
+            "240.2% ATK + 1583",
+            "261.1% ATK + 1735",
+            "276.8% ATK + 1899",
+            "292.5% ATK + 2074",
+            "313.3% ATK + 2259",
+            "334.2% ATK + 2456",
+            "355.1% ATK + 2663",
+            "376% ATK + 2881",
+            "396.9% ATK + 3111",
+            "417.8% ATK + 3351",
+            "443.9% ATK + 3602",
+            "470% ATK + 3864",
+            "496.1% ATK + 4137"
+          ]
+        },
+        {
+          "label": "Shield Duration",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 30605,
+      "id": "focused_fire_lightning_salvo",
+      "name": "Focused Fire: Lightning Salvo",
+      "description": "Deals <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> to nearby opponents and fires a <span style=\"color:#FFD780FF\">Thunderburst Shell</span> high into the air. The <span style=\"color:#FFD780FF\">Thunderburst Shell</span> disperses into a barrage of projectiles that rain down, dealing <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> to nearby opponents.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "135.1%",
+            "145.3%",
+            "155.4%",
+            "168.9%",
+            "179%",
+            "189.2%",
+            "202.7%",
+            "216.2%",
+            "229.7%",
+            "243.2%",
+            "256.7%",
+            "270.2%",
+            "287.1%",
+            "304%",
+            "320.9%"
+          ]
+        },
+        {
+          "label": "Thunderburst Shell DMG",
+          "values": [
+            "31.5%",
+            "33.9%",
+            "36.2%",
+            "39.4%",
+            "41.8%",
+            "44.1%",
+            "47.3%",
+            "50.4%",
+            "53.6%",
+            "56.7%",
+            "59.9%",
+            "63%",
+            "67%",
+            "70.9%",
+            "74.9%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "advance_with_the_creeping_barrage",
+      "name": "Advance With the Creeping Barrage",
+      "description": "Valeriy gains 5 <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11370003\">Impact Momentum</link></span> whenever another nearby active character in the party hits an opponent with an <span style=\"color:#FFACFFFF\">Electro</span> attack while the <span style=\"color:#FFD780FF\">Thunderburst Shells</span> from his Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"focused_fire_lightning_salvo\">Focused Fire: Lightning Salvo</link></span> are falling. He can gain up to 80 <span style=\"color:#FFD780FF\">Impact Momentum</span> in this way after each use of his Elemental Burst.",
+      "level": 1
+    },
+    {
+      "id": "into_the_breach",
+      "name": "Into the Breach",
+      "description": "<span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11370002\">Offensive Directive</link></span> is enhanced based on the amount of <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11370003\">Impact Momentum</link></span> consumed when performing his special Charged Attack <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11370001\">Direct-Fire Mortar: Point-Blank Bombardment</link></span>. Each point consumed further increases the DMG Bonus granted by <span style=\"color:#FFD780FF\">Offensive Directive</span>. If Valeriy is:<br/>·In the <span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> state: Each point of <span style=\"color:#FFD780FF\">Impact Momentum</span> consumed increases this DMG Bonus by an amount equal to 0.9% of Valeriy's ATK;<br/>·Not in the <span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> state: Each point of <span style=\"color:#FFD780FF\">Impact Momentum</span> consumed increases this DMG Bonus by an amount equal to 0.3% of Valeriy's ATK.",
+      "level": 4
+    },
+    {
+      "id": "subzero_conditioning",
+      "name": "Subzero Conditioning",
+      "description": "Valeriy enters the <span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> state while within a <link kind=\"effect\" id=\"11330003\"><span style=\"color:#FFD780FF\">Polestar Field</span></link>.",
+      "level": 0
+    },
+    {
+      "id": "tundra_operational_intelligence",
+      "name": "Tundra Operational Intelligence",
+      "description": "Gains 25% more rewards when dispatched on a Snezhnaya (not including Nod-Krai) Expedition for 20 hours.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1371,
+      "id": "the_cadence_of_suppressive_fire",
+      "name": "The Cadence of Suppressive Fire",
+      "description": "Valeriy regenerates 6 Elemental Energy after performing the special Charged Attack <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11370001\">Direct-Fire Mortar: Point-Blank Bombardment</link></span>. For every 10 <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11370003\">Impact Momentum</link></span> consumed beyond 40 when performing this special Charged Attack, he regenerates an additional 1.5 Elemental Energy. Each time he performs <span style=\"color:#FFD780FF\">Direct-Fire Mortar: Point-Blank Bombardment</span>, he can regenerate up to 15 Elemental Energy in this way. This effect can trigger once every 15s.<br/>Additionally, each time Valeriy enters combat, the first time he uses his Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"active_defense_bastion_charge\">Active Defense: Bastion Charge</link></span>, he gains an additional amount of <span style=\"color:#FFD780FF\">Impact Momentum</span> equal to 150% of the amount normally gained.",
+      "level": 1
+    },
+    {
+      "_id": 1372,
+      "id": "ranks_that_charge_as_one",
+      "name": "Ranks That Charge as One",
+      "description": "All nearby party members gain 100 Elemental Mastery for 18s after Valeriy uses his Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"active_defense_bastion_charge\">Active Defense: Bastion Charge</link></span>.<br/>Additionally, while protected by a Supercharged Shield, if Valeriy is already at maximum <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11370003\">Impact Momentum</link></span>, any further <span style=\"color:#FFD780FF\">Impact Momentum</span> he would gain is instead converted into increased DMG Absorption for the shield. Each point of excess <span style=\"color:#FFD780FF\">Impact Momentum</span> increases the Supercharged Shield's DMG Absorption by an amount equal to 8% of Valeriy's ATK. Up to 20 excess <span style=\"color:#FFD780FF\">Impact Momentum</span> can be converted in this way.",
+      "level": 2
+    },
+    {
+      "_id": 1373,
+      "id": "vigilance_at_close_quarters",
+      "name": "Vigilance at Close Quarters",
+      "description": "Increases the Level of Normal Attack <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"guard_tactics_sword_and_shield\">Guard Tactics: Sword and Shield</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1374,
+      "id": "fortitude_unshaken_by_attrition",
+      "name": "Fortitude Unshaken by Attrition",
+      "description": "<span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11370003\">Impact Momentum</link></span>'s limit is increased by 30, and its charging efficiency is increased by 30%.<br/>Additionally, the Ascension Talent <span style=\"color:#FFD780FF\"><link kind=\"passive\" to=\"advance_with_the_creeping_barrage\">Advance With the Creeping Barrage</link></span> is enhanced: The maximum amount of <span style=\"color:#FFD780FF\">Impact Momentum</span> that can be gained from this Talent after using the Elemental Burst is 104. You must unlock the Ascension Talent <span style=\"color:#FFD780FF\">Advance With the Creeping Barrage</span> to gain access to this effect.",
+      "level": 4
+    },
+    {
+      "_id": 1375,
+      "id": "resolve_to_divide_and_destroy",
+      "name": "Resolve to Divide and Destroy",
+      "description": "Increases the Level of the Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"active_defense_bastion_charge\">Active Defense: Bastion Charge</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1376,
+      "id": "the_strength_to_breach_enemy_lines",
+      "name": "The Strength to Breach Enemy Lines",
+      "description": "The special Charged Attack <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11370001\">Direct-Fire Mortar: Point-Blank Bombardment</link></span> and <span style=\"color:#FFD780FF\">Thunderburst Shells</span> from Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"focused_fire_lightning_salvo\">Focused Fire: Lightning Salvo</link></span> are enhanced: Their DMG is increased by 100%, and opponents they hit have the CRIT Rate of <span style=\"color:#FFACFFFF\">Electro DMG</span> they take increased by 10% for 7s. If the <span style=\"color:#FFACFFFF\">Electro DMG</span> taken is Stellar-Conduct reaction DMG, that DMG instance's CRIT DMG is also increased by 40%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "839"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "21"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "59"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2155",
+            "2782"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "55",
+            "71"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "151",
+            "195"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4167",
+            "4612"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "106",
+            "117"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "293",
+            "324"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104141,
+        "id": "vajrada_amethyst_sliver",
+        "name": "Vajrada Amethyst Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101273,
+        "id": "fairy_wormwood",
+        "name": "Fairy Wormwood",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112146,
+        "id": "ethereal_glimmershard",
+        "name": "Ethereal Glimmershard",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5305",
+            "5898"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "135",
+            "150"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "373",
+            "414"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113091,
+        "id": "severed_tail_of_the_skyroamer",
+        "name": "Severed Tail of the Sky-Roamer",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101273,
+        "id": "fairy_wormwood",
+        "name": "Fairy Wormwood",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112146,
+        "id": "ethereal_glimmershard",
+        "name": "Ethereal Glimmershard",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6591",
+            "7037"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "168",
+            "179"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "463",
+            "494"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113091,
+        "id": "severed_tail_of_the_skyroamer",
+        "name": "Severed Tail of the Sky-Roamer",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101273,
+        "id": "fairy_wormwood",
+        "name": "Fairy Wormwood",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112147,
+        "id": "ethereal_crystal",
+        "name": "Ethereal Crystal",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7729",
+            "8174"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "197",
+            "208"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "543",
+            "574"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113091,
+        "id": "severed_tail_of_the_skyroamer",
+        "name": "Severed Tail of the Sky-Roamer",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101273,
+        "id": "fairy_wormwood",
+        "name": "Fairy Wormwood",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112147,
+        "id": "ethereal_crystal",
+        "name": "Ethereal Crystal",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8867",
+            "9312"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "226",
+            "237"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "623",
+            "654"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113091,
+        "id": "severed_tail_of_the_skyroamer",
+        "name": "Severed Tail of the Sky-Roamer",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101273,
+        "id": "fairy_wormwood",
+        "name": "Fairy Wormwood",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112148,
+        "id": "ethereal_crystalscale_stone",
+        "name": "Ethereal Crystalscale Stone",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10005",
+            "10005"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "255",
+            "255"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "703",
+            "703"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104144,
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Vajrada Amethyst Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113091,
+        "id": "severed_tail_of_the_skyroamer",
+        "name": "Severed Tail of the Sky-Roamer",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101273,
+        "id": "fairy_wormwood",
+        "name": "Fairy Wormwood",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112148,
+        "id": "ethereal_crystalscale_stone",
+        "name": "Ethereal Crystalscale Stone",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104371,
+          "id": "teachings_of_glory",
+          "name": "Teachings of Glory",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112146,
+          "id": "ethereal_glimmershard",
+          "name": "Ethereal Glimmershard",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104372,
+          "id": "guide_to_glory",
+          "name": "Guide to Glory",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112147,
+          "id": "ethereal_crystal",
+          "name": "Ethereal Crystal",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104372,
+          "id": "guide_to_glory",
+          "name": "Guide to Glory",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112147,
+          "id": "ethereal_crystal",
+          "name": "Ethereal Crystal",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104372,
+          "id": "guide_to_glory",
+          "name": "Guide to Glory",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112147,
+          "id": "ethereal_crystal",
+          "name": "Ethereal Crystal",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104372,
+          "id": "guide_to_glory",
+          "name": "Guide to Glory",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112147,
+          "id": "ethereal_crystal",
+          "name": "Ethereal Crystal",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104373,
+          "id": "philosophies_of_glory",
+          "name": "Philosophies of Glory",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112148,
+          "id": "ethereal_crystalscale_stone",
+          "name": "Ethereal Crystalscale Stone",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113087,
+          "id": "counterfeit_resin",
+          "name": "Counterfeit Resin",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104373,
+          "id": "philosophies_of_glory",
+          "name": "Philosophies of Glory",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112148,
+          "id": "ethereal_crystalscale_stone",
+          "name": "Ethereal Crystalscale Stone",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113087,
+          "id": "counterfeit_resin",
+          "name": "Counterfeit Resin",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104373,
+          "id": "philosophies_of_glory",
+          "name": "Philosophies of Glory",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112148,
+          "id": "ethereal_crystalscale_stone",
+          "name": "Ethereal Crystalscale Stone",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113087,
+          "id": "counterfeit_resin",
+          "name": "Counterfeit Resin",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104373,
+          "id": "philosophies_of_glory",
+          "name": "Philosophies of Glory",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112148,
+          "id": "ethereal_crystalscale_stone",
+          "name": "Ethereal Crystalscale Stone",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113087,
+          "id": "counterfeit_resin",
+          "name": "Counterfeit Resin",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 213700,
+      "name": "Steel and Sash",
+      "description": "Valeriy's outfit. As an officer, he must often engage in both frontline combat and command work, and as such, durability is a must for his uniform. And as the commander of the Special Assignments Battalion, Armory Palace Royal Grenadier Guards, First Regiment, he must also grace some official settings with his presence, and so he must also dress with suitable gravitas. This outfit, therefore, was custom-tailored to fulfil both duties at once, which cuts down on time required to change uniforms.",
+      "isDefault": true,
+      "characterName": "Valeriy",
+      "characterId": 10000137,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Valeriy_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Valeriy, commanding officer of the Special Assignments Battalion, Armory Palace Royal Grenadier Guards, First Regiment, reporting for duty. I can fight on the front line, conduct reconnaissance-in-force deep in hostile territory, or protect key personnel and installations. Personally, I would prefer to form a team with your comrades that meets every challenge through tight coordination."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Schedule",
+      "text": "According to the schedule, it's time to check in on each unit's training progress."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Contingency Plans",
+      "text": "Decided on the next destination? Make sure you draw up a contingency plan and scout ahead. If you need a hand, I can help."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Measured Force",
+      "text": "In a prolonged battle, it is essential to master the art of minimum force for maximum effect. That is how you conserve your strength."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "In Snezhnaya, we rarely get rain by itself. Most of the moisture turns to snow. I, and the soldiers in my battalion, prefer it that way. A dry cold is far more bracing than damp and mud."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Ah, the pleasant sound of thunder... It reminds me of blasting charges going off in the mines."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Fine weather and excellent visibility. But on the other hand, that also means any concealed lookouts can detect us, even from a great distance."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "A strong wind makes flames flare up, carrying smoke far off. In weather like this, if you need a cooking fire, best to dig a hole and construct a smokeless \"scout's fire\" first."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "Dry heat is humanity's ancient foe... One I cannot yet overcome..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Awake, and right on time. What a wonderful world it would be if everyone were like you... At least, that's as far as I'm concerned. The clockmakers, of course, would all be out of a job."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "What's your assessment? Do we light a fire and cook a proper hot meal, or make do with rations?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "It's easier to settle the mind and focus after dark. Good time for detail work. I need six minutes to check the shield and the cannon. Oh and if any of your gear or weapons need maintenance, leave them with me."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "That's time. For tomorrow's sake, you'd best turn in now. Leave the night watch to me. Oh, one more thing. Don't be surprised if you wake to find the campfire out and my coat over you. Light often attracts unwanted trouble after dark. Best to stay concealed."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Valeriy: The Special Assignments Battalion",
+      "text": "On a conventional battlefield, the rules of engagement are usually clear-cut. However, protecting key personnel and installations or gathering intelligence is another matter. On missions like those, soldiers often struggle to work out \"reasonable boundaries,\" or what a \"foolproof approach\" would even be. Every one of our skills is constantly being tested. That's why we hand-picked varied soldiers with a range of talents from the Royal Grenadier Guards and formed the Special Assignments Battalion. Individually, my men are superb fighters, but what's more valuable is their ability to adapt and their experience solving problems of all sorts. We're more like a cross between soldiers, secret agents, and major-crimes detectives."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Valeriy: Major",
+      "text": "I've held the rank of major for a long time. Opportunities for promotion? They're there. But I have no desire to be shut away in an office or command post. I need to see conditions at the front for myself to deploy troops precisely and effectively. I also find it more fulfilling to lead exceptional soldiers into battle against powerful monsters. Besides, given the Special Assignments Battalion's standards, we can barely find enough qualified soldiers to fill our ranks as-is. In short, both my battalion's size and my rank will stay right where they are for a good long while."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Different Paths",
+      "text": "Even my entire battalion could not overpower a warrior of your caliber by dint of strength alone. As for your achievements, they are legendary, and so numerous that your whole uniform would be bedecked in medals... For that, you have my respect."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Shared Goals",
+      "text": "When it comes to our long-term goals, I believe we are of one mind. Our intel reports that you help ordinary people in every nation you visit, and work hard to keep their settlements safe. I strive to do the same. A soldier defeats the enemy not for honor or glory, but to secure a peaceful life for his countrymen. If it would help, you are welcome to draw on my experience in managing your team. Who knows, it might become even more formidable one day..."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "To be recognized by the gods and granted the right to wield elemental power is an honor. Even without it, however, I would have honed my combat skills until I was every bit the fighter I am today. Basic physical conditioning, proficiency with different weapons... A soldier cannot afford to neglect any of them."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Bodyweight training is very popular with soldiers and miners in Snezhnaya. Plenty of them will put on full uniform and kit and see how many pull-ups or one-armed push-ups they can manage. Then there are dances done in a squat that work the core and the legs quite thoroughly... You wish to me to demonstrate for you? Sorry to disappoint, but I don't personally train in that manner."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "The regular army and the Druzhna each have their own military band, with exacting standards in every respect. I've watched them rehearse. Now and then the conductor will tear into some soldier for playing out of tune, and I can't hear it at all... Does that mean I have no ear for music?"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About the Tsaritsa",
+      "text": "As a field officer, I'm far removed from matters of grand strategy. But I've long felt, from what my fellow officers and the people say, how much Her Majesty the Tsaritsa has given for Snezhnaya. She will surely lead this nation to the best possible future. So my foremost duty is to keep the Special Assignments Battalion at peak readiness at all times, prepared for any mission Her Majesty orders. Should she give the word, I'll lead the whole battalion onto the most perilous battlefield there is, and count it our greatest honor."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Danica",
+      "text": "When the Palace's Head Maid, Danica, relays orders to regular units, it's usually a colonel who meets with her. I'd assumed she would be extremely strict and exacting, the type to verify every last detail. So before our last joint operation, I prepared thoroughly and set aside extra time for it. To my surprise, she handled everything with remarkable efficiency. We finished in a fifth of the time I'd projected, and she maintained her grace and poise throughout. She certainly deserves her place at Her Majesty's side..."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About The Captain",
+      "text": "The Captain was not in my chain of command, but the Special Assignments Battalion had the honor of operating alongside his forces several times. There's no overstating his influence on our soldiery. Back when I was in basic training, the manuals and regulations we used had already been improved by his hand, and many outstanding fighters learned their craft from him... When word came of what he did in Natlan, my comrades and I were all heartbroken... but proud of him, too. If Snezhnayan soldiers need a role model, who could it be but him?"
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Marionette",
+      "text": "Lady Sandrone may be the best there is at upgrading Landcruisers. Her Bosco Legion series delivers nearly seventy percent better overall performance than the standard production models. They're practically brand-new machines, just wearing the same armor. Some of my soldiers were seconded to her command and fought in the defense of the Experimental Design Bureau in Nod-Krai, and every one of them came back with the deepest respect for her. Clearly, she is an exceptional Harbinger, as gifted in command as she is in research."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Childe",
+      "text": "I hear Councilor Tartaglia was born a commoner. I've yet to speak with him at any length... But from what I've seen, he is a forthright man who treats his subordinates well. Judging by the recent personnel transfers, The Captain's most trusted soldiers now serve under him. I would like to make his acquaintance. But the right opportunity has never arisen... Just challenge him to a fight? A-Are you serious?"
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Vesna",
+      "text": "Commander Vesna and I serve in different branches, so I doubt a mere major like me has made much of an impression on her. Compared to us regulars, the Druzhna's mobility and ability to break through are unmatched, though they would struggle to bring that to bear in a static, entrenched battle. Not that they need to worry about it. They're Her Majesty's personal guard, after all. Ordinary engagements aren't worth troubling them with. Yet I sometimes see Commander Vesna at... promotional events? I don't quite understand her purpose there."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Mitya: Respect...",
+      "text": "The Special Assignments Battalion has many duties. One is to \"keep important people working like clockwork.\" As you've seen, Mr. Mitya has little patience for an orderly routine. With most people, I could use methods that are rather less \"polite.\" But even someone like me, with no head for scholarship, can tell what he does matters enormously. So, I shouldn't come down too hard on him."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Mitya: Friends...",
+      "text": "After everything we've been through, Mr. Mitya now calls me his friend. I'm honored. Of all my friends, he is the one I hold in the highest esteem. Some officers and nobles might pay a fortune to \"buy\" that distinction. But friendship can't be measured, any more than the bond between comrades who've sheltered in the same shell crater. Mr. Mitya has given Snezhnaya something no one else could. I must take the greatest care to keep him safe and give him a place where he can work entirely undisturbed... Though... I need to find a way to make him understand just how badly it disrupts the overall schedule when he does whatever he pleases..."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Alyosha",
+      "text": "Contrary to what many people assume, I too grew up in a remote village... Why would I make an enemy of a fine young man who works tirelessly for the ordinary people and keeps taking on cases that sit in legal gray areas? Provided he crosses no lines, I have neither official grounds nor any personal desire to arrest him. That does not mean I consider the Rokot completely harmless. For now, however, they are still working for the good of Snezhnaya. They are not my enemies."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Vodyanitsa",
+      "text": "Some singers really do have a kind of \"magic\" in their voice — she is one such example. Even someone who knows as little about the arts as I do is moved by her songs. At times, I've even found myself somewhat understanding why Mr. Mitya behaves as he does... Understanding, mind you. Not approving. Deadlines are non-negotiable. I won't grant him even an extra half hour on that account."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Varka",
+      "text": "While accompanying The Captain, the Special Assignments Battalion once encountered the Knights of Favonius expeditionary force. That day, I watched from a distance as their Grand Master fought. His strength was astonishing, and he wielded his two swords with complete abandon, as if the notion of conserving his strength never even crossed his mind... Or perhaps he's so powerful that he doesn't need to. If only he weren't so fond of hard liquor... my respect for him would easily double."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Valeriy: I",
+      "text": "A few colleagues from wealthy families once described me as \"far too serious, the sort who budgets his time even on leave and has no hobbies to speak of.\" They aren't wrong. My family background isn't as illustrious as most officers'. Frankly, we were rather hard up. But that's exactly what made a lot of the rank and file feel I was one of them. So after I graduated from the Royal Military Academy and joined the hardest-fighting assault company in the 1st Grenadier Regiment as a junior officer, I built a good rapport with the men in short order, and we put up a solid record in combat..."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Valeriy: II",
+      "text": "Most soldiers will trust an officer who commands competently and takes their duty seriously. One who also understands the soldiers' difficulties and helps where possible is everything they could ask for. Unfortunately, very few officers live up to that. Our company commander at the time was a nobleman. He was absurdly harsh with his soldiers, yet woefully incompetent himself. He caused one accident or defeat after another."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Valeriy: III",
+      "text": "It was very reassuring that, when I took command of the company, every soldier threw their weight behind me. Before long, our assault company was achieving more than expected. That company went on to form the core of the Special Assignments Battalion. Over the following years, our responsibilities expanded considerably, and we received increasingly difficult assignments. That gave me ample practice managing time and coordinating different units and their schedules. Perhaps that's why we were also entrusted with guarding the Armory Palace. The usual unit rotation has been suspended for now, effectively making us the Armory's dedicated guard. Given its importance, there could be no greater vote of confidence."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Valeriy: IV",
+      "text": "Frankly, I'd be lying if I said I joined the army \"purely to serve Snezhnaya, with no thought for myself.\" I spent my whole childhood at the mines and saw my share of hardship. Of course, I dreamed of rising through the ranks to the life of wealth and privilege, and freeing my family from financial worries... But later, my outlook changed. I fought through several bitter battles against monsters alongside my comrades, and found... a new source of motivation that gave my life more meaning than Mora. Perhaps my family has fewer jewels to wear because of that choice. But Snezhnaya has gained a shield that stands firm against the wind and snow. One that protects my home and those of others."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Valeriy: V",
+      "text": "Before battle, every soldier wants to know the \"victory conditions.\" Few prospects are more stirring than bringing down the enemy's commander and causing their forces to collapse. There was a time when I overestimated myself. I trained like a madman, hoping to emulate the heroes who led from the front. But a single defeat taught me the limits of mortal strength. Against foes beyond our understanding, the unit's strength is our surest shield. Ever since, I've devoted myself to coordinating every task precisely, keeping the unit at its best and helping it improve. Each soldier willingly takes their place as a cog in the machine. And when we advance, the balance of battle shifts with us."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Valeriy's Hobbies",
+      "text": "Have you ever looked closely at Kresnik Kristall? It is an essential fuel, but also a beautiful work of nature. The luster and patterns are exquisite... And it's not just those crystals... Agate, jade, pearls... Each has its own design. Even I can appreciate their beauty, and I'm no artist, hehe. Collecting minerals, studying them, and sketching their patterns was one of my favorite childhood \"games.\" I still enjoy it today, although I sold all of my valuable gems to send Mora and resources home. Now, I make do with ordinary stones."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Valeriy's Troubles",
+      "text": "Some people just can't keep to a schedule. Then, when something goes wrong, they keep it to themselves and try to deal with it alone. That creates no end of trouble for whoever manages the schedule... I've said it time and again. All work and operations must follow the timetable. If anything unexpected happens, notify everyone involved as soon as possible, so the rest of the team can adjust their schedules. Ah, I'm used to sorting these problems out for others. I just wish everyone were taught this simple rule as a basic life skill."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Cooks tend to load army rations with far too much fat and salt to pack in more energy. Eat too much of that, and it starts to spoil your appetite. So for everyday meals, I prefer lightly seasoned dishes with a little tang or natural sweetness. Fish soup, say, or pickled vegetables of any kind."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Snezhnayans enjoy their drink. Some of the more outrageous stories have even made it outside the country. But not all of us can drink like fish and still keep swimming, especially with spirits as strong as fire-water. A couple of glasses can be enough to get in the way of your duties. I've seen countless examples in the mines and in the army. So if you must drink, I recommend something low-proof and mild, like Snowy Nocturne from the original manufacturer. As for those who illicitly distill spirits to make them stronger, they deserve severe punishment."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "When things get rough at the front, a meal like this is worth a whole crate of shells."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "There's nothing wrong with \"adequate.\" Maintain this standard, and you'd make a good army cook."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Ahem... Uh... It's edible... but regular consumption might pose health risks. Don't force yourself to eat it, either."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "In the Snezhnayan army, when a soldier has a birthday, their comrades bring out their finest food and drink to prepare a feast together. In helping me, you have helped the entire Special Assignments Battalion. That makes every soldier in it your comrade. But a feast prepared by the whole battalion would be more than you could possibly eat, haha. So I asked each company to contribute a single dish to represent them. I hope this conveys their respect for you, and mine."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "...And here I expected you'd be harder on me."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Still not enough. The bar needs to be set higher."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Using an average soldier's fighting strength as the yardstick, I'd put myself at \"one-man company\" level... but I can't settle for that."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Adventuring with you has tempered me in ways no ordinary training could. Now I'm confident I can fight beside you in the fiercest battles and help you bring down the enemy's commanders."
+    },
+    {
+      "id": "200004",
+      "type": 2,
+      "title": "Charged Attack: I",
+      "text": "Smash their armor."
+    },
+    {
+      "id": "200005",
+      "type": 2,
+      "title": "Charged Attack: II",
+      "text": "Punching through."
+    },
+    {
+      "id": "200006",
+      "type": 2,
+      "title": "Charged Attack: III",
+      "text": "Suppressing fire."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Thunder run."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Closing in."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Ramming speed."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Heavy snow ahead."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Artillery, fire."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Secure the area."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Sort everything first, then stow it in your pack."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "It's good practice to utilize all available resources."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Even odds and ends have their uses."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Need to turn this around..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "My mistake."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Threat level critical."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Fall back. I'll hold them."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Pull back and regroup."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Got too careless..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "The best laid plans..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Dishonored... my uniform..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "It's minor."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: II",
+      "text": "Nothing serious."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Not bad."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Not good enough..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Right on schedule. Let's move out."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Sync watches. Begin the mission."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Ready for briefing."
+    }
+  ],
+  "effects": {
+    "11330003": {
+      "name": "Polestar Field",
+      "description": "When Stellar-Conduct is triggered, the surrounding area will transform into a <span style=\"color:#FFD780FF\">Polestar Field</span> for a short period of time, and when inside a Polestar Field, certain characters will enter the <span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> state, which grants various skill buffs.",
+      "color": ""
+    },
+    "11370001": {
+      "name": "Direct-Fire Mortar: Point-Blank Bombardment",
+      "description": "Valeriy's special Charged Attack. Using a Charged Attack while he has at least 40 <span style=\"color:#FFD780FF\">Impact Momentum</span> consumes all <span style=\"color:#FFD780FF\">Impact Momentum</span> to unleash this special Charged Attack instead, dealing <span style=\"color:#FFACFFFF\">AoE Electro DMG</span> in front of him and granting 15 stacks of <span style=\"color:#FFD780FF\">Offensive Directive</span>.<br/>When this special Charged Attack is used again, the <span style=\"color:#FFD780FF\">Offensive Directive</span> stack count will be refreshed.<br/>Within 0.8s after using the Elemental Skill <span style=\"color:#FFD780FF\">Active Defense: Bastion Charge</span> or the Elemental Burst <span style=\"color:#FFD780FF\">Focused Fire: Lightning Salvo</span>, if Valeriy has at least 40 <span style=\"color:#FFD780FF\">Impact Momentum</span>, the next Normal Attack he uses will be converted to the special Charged Attack <span style=\"color:#FFD780FF\">Direct-Fire Mortar: Point-Blank Bombardment</span>.",
+      "color": ""
+    },
+    "11370002": {
+      "name": "Offensive Directive",
+      "description": "A special effect Valeriy gains after performing the special Charged Attack <span style=\"color:#FFD780FF\">Direct-Fire Mortar: Point-Blank Bombardment</span>. It increases different types of <span style=\"color:#FFACFFFF\">Electro DMG</span> depending on whether Valeriy is in the <span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> state. If Valeriy is:<br/>·In the <span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> state: When a nearby active character in the party deals <span style=\"color:#FFACFFFF\">Electro DMG</span> considered Stellar-Conduct reaction DMG to an opponent with a Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst, 1 stack of <span style=\"color:#FFD780FF\">Offensive Directive</span> is consumed to increase that DMG, with the increase based on Valeriy's ATK;<br/>·Not in the <span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> state: When a nearby active character in the party deals <span style=\"color:#FFACFFFF\">Electro DMG</span> to an opponent with a Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst, 1 stack of <span style=\"color:#FFD780FF\">Offensive Directive</span> is consumed to increase that DMG, with the increase based on Valeriy's ATK.<br/>When a single instance of <span style=\"color:#FFACFFFF\">Electro DMG</span> hits multiple opponents simultaneously, <span style=\"color:#FFD780FF\">Offensive Directive</span> stacks are consumed based on the number of opponents hit.",
+      "color": ""
+    },
+    "11370003": {
+      "name": "Impact Momentum",
+      "description": "A special energy Valeriy uses to enhance his combat capabilities. Its initial maximum is 100. When he has at least 40 <span style=\"color:#FFD780FF\">Impact Momentum</span>, he can perform the special Charged Attack <span style=\"color:#FFD780FF\">Direct-Fire Mortar: Point-Blank Bombardment</span>.<br/>Valeriy can gain <span style=\"color:#FFD780FF\">Impact Momentum</span> in the following ways:<br/>·By using his Elemental Skill <span style=\"color:#FFD780FF\">Active Defense: Bastion Charge</span>;<br/>·After unlocking the Ascension Talent \"Advance With the Creeping Barrage,\" while his Elemental Burst <span style=\"color:#FFD780FF\">Focused Fire: Lightning Salvo</span> is active, when a nearby active character in the party hits an opponent with an <span style=\"color:#FFACFFFF\">Electro</span> attack.",
+      "color": ""
+    }
+  }
+}

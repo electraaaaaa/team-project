@@ -1,0 +1,1737 @@
+{
+  "_id": 10000104,
+  "id": "chasca",
+  "name": "Chasca",
+  "title": "Skyborne Arbiter",
+  "description": "The Peacemaker of the Tlalocan, the ender of all disputes.",
+  "weapon_type": {
+    "id": "bow",
+    "name": "Bow"
+  },
+  "element": {
+    "id": "anemo",
+    "name": "Anemo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1731967200,
+  "substat": "CRIT Rate",
+  "stats": {
+    "base": {
+      "hp": 762.656,
+      "attack": 26.999,
+      "defense": 47.864
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 653.90857,
+        "attack": 23.14751,
+        "defense": 41.04,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1118.5278,
+        "attack": 39.594425,
+        "defense": 70.2,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.048
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1738.0201,
+        "attack": 61.523643,
+        "defense": 109.08,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2202.6394,
+        "attack": 77.97056,
+        "defense": 138.24,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2667.2585,
+        "attack": 94.41747,
+        "defense": 167.4,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3131.878,
+        "attack": 110.86439,
+        "defense": 196.56,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.192
+        }
+      }
+    ]
+  },
+  "affiliation": "Tlalocan",
+  "region": {
+    "id": "natlan",
+    "name": "Natlan"
+  },
+  "rarity": 5,
+  "birthday": [
+    10,
+    12
+  ],
+  "constellation": "Vultur Gryphus",
+  "domain": "Blazing Ruins",
+  "cv": {
+    "english": "Lauren Amante",
+    "chinese": "张若瑜",
+    "japanese": "甲斐田裕子",
+    "korean": "Soo-hyun"
+  },
+  "skills": [
+    {
+      "_id": 11041,
+      "id": "phantom_feather_flurry",
+      "name": "Phantom Feather Flurry",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive shots with a bow.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Performs a more precise <span style=\"color:#FFD780FF\">Aimed Shot</span> with increased DMG.<br/>While aiming, mighty winds will accumulate on the arrowhead. A fully charged wind arrow will deal <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Fires off a shower of arrows in mid-air before falling and striking the ground, hitting opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "48%",
+            "51.9%",
+            "55.8%",
+            "61.4%",
+            "65.3%",
+            "69.8%",
+            "75.9%",
+            "82.1%",
+            "88.2%",
+            "94.9%",
+            "101.6%",
+            "108.3%",
+            "115%",
+            "121.7%",
+            "128.4%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "44.6%",
+            "48.2%",
+            "51.8%",
+            "57%",
+            "60.7%",
+            "64.8%",
+            "70.5%",
+            "76.2%",
+            "81.9%",
+            "88.1%",
+            "94.4%",
+            "100.6%",
+            "106.8%",
+            "113%",
+            "119.2%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "29.7%×2",
+            "32.1%×2",
+            "34.5%×2",
+            "38%×2",
+            "40.4%×2",
+            "43.2%×2",
+            "47%×2",
+            "50.8%×2",
+            "54.6%×2",
+            "58.7%×2",
+            "62.8%×2",
+            "67%×2",
+            "71.1%×2",
+            "75.3%×2",
+            "79.4%×2"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "25.5%×3",
+            "27.5%×3",
+            "29.6%×3",
+            "32.6%×3",
+            "34.6%×3",
+            "37%×3",
+            "40.3%×3",
+            "43.5%×3",
+            "46.8%×3",
+            "50.3%×3",
+            "53.9%×3",
+            "57.4%×3",
+            "61%×3",
+            "64.6%×3",
+            "68.1%×3"
+          ]
+        },
+        {
+          "label": "Aimed Shot",
+          "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.7%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "92.8%",
+            "98.9%",
+            "105.1%",
+            "111.2%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Fully-Charged Aimed Shot",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11042,
+      "id": "spirit_reins_shadow_hunt",
+      "name": "Spirit Reins, Shadow Hunt",
+      "description": "Chasca and the will residing in her weapon resonate, dealing Nightsoul-aligned <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span>.<br/>After using this Skill, Chasca gains 80 Nightsoul points and enters the Nightsoul's Blessing state.<br/><br/><span style=\"color:#FFD780FF\">Nightsoul's Blessing: Chasca</span><br/>Continually consume Nightsoul points. When Nightsoul points are fully depleted or the skill is used again, Chasca's Nightsoul's Blessing state will end. Her Nightsoul's Blessing has the following traits:<br/>·Mounts \"Soulsniper: Ritual Staff,\" increasing Chasca's Movement SPD and interruption resistance. In this state, Chasca will continually consume Nightsoul points to remain airborne. When Sprinting or increasing height, extra Nightsoul points will be consumed.<br/>·When using Normal or Charged Attacks, Tap or Hold to switch between using \"Multitarget Fire\" in different ways.<br/><br/><span style=\"color:#FFD780FF\">Multitarget Fire</span><br/><span style=\"color:#FFD780FF\">Tap</span><br/>Deal Nightsoul-aligned <span style=\"color:#80FFD7FF\">Anemo DMG</span> to opponents in front. This DMG is considered Normal Attack DMG.<br/><span style=\"color:#FFD780FF\">Hold</span><br/>Enter Aiming Mode and choose a certain number of opponents within a certain range, before loading up to 6 Shadowhunt Shells based on the duration for which the skill was charged. When 6 Shells have been loaded or charging is stopped, these Shells will be fired at the chosen opponents in sequence.<br/><br/><span style=\"color:#FFD780FF\">Shadowhunt Shells</span><br/>·Deal Nightsoul-aligned <span style=\"color:#80FFD7FF\">Anemo DMG</span>, which is considered Charged Attack DMG.<br/>·The 4th, 5th, and 6th Shells loaded into the cylinder will undergo Elemental Conversion based on the Elemental Types of the other characters in the party: For each <span style=\"color:#FF9999FF\">Pyro</span>, <span style=\"color:#80C0FFFF\">Hydro</span>, <span style=\"color:#99FFFFFF\">Cryo</span>, or <span style=\"color:#FFACFFFF\">Electro</span> character in the party, one Shadowhunt Shell will randomly be Converted into a \"Shining Shadowhunt Shell\" of one of these corresponding Elemental Types, dealing Nightsoul-aligned DMG corresponding to that Elemental Type. This DMG is considered Charged Attack DMG.<br/>·The Shells loaded into the cylinder are fired starting from the last Shadowhunt Shell to be loaded, in a \"last in, first out\" order.<br/><br/>Additionally, when Chasca is in the Nightsoul's Blessing state, Holding her Elemental Skill <span style=\"color:#FFD780FF\">Spirit Reins, Shadow Hunt</span> will cause her to execute a Nightsoul-aligned Plunging Attack. Release the Elemental Skill to interrupt this Plunging Attack and maintain her airborne state. Should Chasca hit the ground with her Plunging Attack, her Nightsoul's Blessing state will end.",
+      "info": "In theory, as long as she's willing, those reins can bridle anything... But what could possibly be as cool as a giant hand cannon?",
+      "attributes": [
+        {
+          "label": "Resonance DMG",
+          "values": [
+            "60%",
+            "64.5%",
+            "69%",
+            "75%",
+            "79.5%",
+            "84%",
+            "90%",
+            "96%",
+            "102%",
+            "108%",
+            "114%",
+            "120%",
+            "127.5%",
+            "135%",
+            "142.5%"
+          ]
+        },
+        {
+          "label": "Multitarget Fire Tap DMG",
+          "values": [
+            "36%",
+            "38.7%",
+            "41.4%",
+            "45%",
+            "47.7%",
+            "50.4%",
+            "54%",
+            "57.6%",
+            "61.2%",
+            "64.8%",
+            "68.4%",
+            "72%",
+            "76.5%",
+            "81%",
+            "85.5%"
+          ]
+        },
+        {
+          "label": "Shadowhunt Shell DMG",
+          "values": [
+            "48.8%",
+            "52.5%",
+            "56.1%",
+            "61%",
+            "64.7%",
+            "68.3%",
+            "73.2%",
+            "78.1%",
+            "83%",
+            "87.8%",
+            "92.7%",
+            "97.6%",
+            "103.7%",
+            "109.8%",
+            "115.9%"
+          ]
+        },
+        {
+          "label": "Shining Shadowhunt Shell DMG",
+          "values": [
+            "166.6%",
+            "179.1%",
+            "191.6%",
+            "208.2%",
+            "220.7%",
+            "233.2%",
+            "249.9%",
+            "266.5%",
+            "283.2%",
+            "299.8%",
+            "316.5%",
+            "333.1%",
+            "354%",
+            "374.8%",
+            "395.6%"
+          ]
+        },
+        {
+          "label": "Nightsoul Point Limit",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "6.5s",
+            "6.5s",
+            "6.5s",
+            "6.5s",
+            "6.5s",
+            "6.5s",
+            "6.5s",
+            "6.5s",
+            "6.5s",
+            "6.5s",
+            "6.5s",
+            "6.5s",
+            "6.5s",
+            "6.5s",
+            "6.5s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11045,
+      "id": "soul_reapers_fatal_round",
+      "name": "Soul Reaper's Fatal Round",
+      "description": "Chasca concentrates her will, firing a single \"Galesplitting Soulseeker Shell\" that deals Nightsoul-aligned <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span>. Afterward, the Galesplitting Soulseeker Shell will split into 6 Soulseeker Shells, which attack nearby opponents.<br/><br/><span style=\"color:#FFD780FF\">Soulseeker Shells</span><br/>·Deal Nightsoul-aligned <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/>·For each <span style=\"color:#FF9999FF\">Pyro</span>, <span style=\"color:#80C0FFFF\">Hydro</span>, <span style=\"color:#99FFFFFF\">Cryo</span>, or <span style=\"color:#FFACFFFF\">Electro</span> character in the party, two Soulseeker Shells will undergo corresponding Elemental Conversions to become \"Radiant Soulseeker Shells,\" which deal Nightsoul-aligned Elemental DMG from a randomly selected one of the corresponding Elemental Types.",
+      "info": "None can escape from the moonlight or the whispers of the night, just as no foe can flee her attentive eyes once she's got them in her sights.",
+      "attributes": [
+        {
+          "label": "Galesplitting Soulseeker Shell DMG",
+          "values": [
+            "88%",
+            "94.6%",
+            "101.2%",
+            "110%",
+            "116.6%",
+            "123.2%",
+            "132%",
+            "140.8%",
+            "149.6%",
+            "158.4%",
+            "167.2%",
+            "176%",
+            "187%",
+            "198%",
+            "209%"
+          ]
+        },
+        {
+          "label": "Soulseeker Shell DMG",
+          "values": [
+            "103.4%",
+            "111.2%",
+            "118.9%",
+            "129.3%",
+            "137%",
+            "144.8%",
+            "155.1%",
+            "165.4%",
+            "175.8%",
+            "186.1%",
+            "196.5%",
+            "206.8%",
+            "219.7%",
+            "232.6%",
+            "245.6%"
+          ]
+        },
+        {
+          "label": "Radiant Soulseeker Shell DMG",
+          "values": [
+            "206.8%",
+            "222.3%",
+            "237.8%",
+            "258.5%",
+            "274%",
+            "289.5%",
+            "310.2%",
+            "330.9%",
+            "351.6%",
+            "372.2%",
+            "392.9%",
+            "413.6%",
+            "439.4%",
+            "465.3%",
+            "491.2%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "bullet_trick",
+      "name": "Bullet Trick",
+      "description": "When the Elemental Skill <span style=\"color:#FFD780FF\">Spirit Reins, Shadow Hunt</span>'s <span style=\"color:#FFD780FF\">Multitarget Fire</span> is being charged, if there are party members who meet the Elemental Conversion Type requirements, gain the following effects based on the number of different eligible Elemental Types present:<br/>·There is a 33.3%/66.7%/100% chance for each Type to trigger \"Spiritbinding Conversion\" and cause the 3rd <span style=\"color:#FFD780FF\">Shadowhunt Shell</span> loaded into the cylinder to be randomly converted into a <span style=\"color:#FFD780FF\">Shining Shadowhunt Shell</span> from one of the corresponding Elemental Types.<br/>·Each Elemental Type will grant Chasca 1 stack of Spirit of the Radiant Shadow, increasing the DMG of Shining Shadowhunt Shell by 15%/35%/65%. This effect lasts until the current Multitarget Fire ends. Max 3 stacks.",
+      "level": 1
+    },
+    {
+      "id": "intent_to_cover",
+      "name": "Intent to Cover",
+      "description": "When a nearby party member triggers a Nightsoul Burst, Chasca will fire a \"Burning Shadowhunt Shot\" at a nearby opponent, dealing Nightsoul-aligned <span style=\"color:#80FFD7FF\">Anemo DMG</span> equal to 150% of the <span style=\"color:#FFD780FF\">Shadowhunt Shell</span> DMG from her Elemental Skill <span style=\"color:#FFD780FF\">Spirit Reins, Shadow Hunt</span>. If the party has <span style=\"color:#FF9999FF\">Pyro</span>, <span style=\"color:#80C0FFFF\">Hydro</span>, <span style=\"color:#99FFFFFF\">Cryo</span>, or <span style=\"color:#FFACFFFF\">Electro</span> characters, the Burning Shadowhunt Shot will be converted to deal Nightsoul-aligned Elemental DMG of the corresponding Elemental Type equal to 150% of the DMG dealt by <span style=\"color:#FFD780FF\">Spirit Reins, Shadow Hunt</span>'s <span style=\"color:#FFD780FF\">Shining Shadowhunt Shells</span>.<br/>The DMG done in this way is considered Charged Attack DMG.",
+      "level": 4
+    },
+    {
+      "id": "night_realms_gift_everburning_heart",
+      "name": "Night Realm's Gift: Everburning Heart",
+      "description": "After her Nightsoul points are exhausted, Chasca will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.<br/>While in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Chasca. When the active character is in the air, the following will occur when switching to Chasca: Chasca will enter the Nightsoul's Blessing state and gain 32 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.",
+      "level": 0
+    },
+    {
+      "id": "mediations_true_meaning",
+      "name": "Mediation's True Meaning",
+      "description": "25 Phlogiston will be restored when your own party members defeat an opponent. This effect can trigger once every 12s.<br/>This has no effect in Domains, Trounce Domains, or the Spiral Abyss.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1041,
+      "id": "cylinder_the_restless_roulette",
+      "name": "Cylinder, the Restless Roulette",
+      "description": "When triggering the Ascension Talent \"Bullet Trick\"'s \"Spiritbinding Conversion,\" the 2nd <span style=\"color:#FFD780FF\">Shadowhunt Shell</span> loaded into the cylinder will be additionally converted into a <span style=\"color:#FFD780FF\">Shining Shadowhunt Shell</span>.<br/>The chance to trigger \"Spiritbinding Conversion\" is increased: If there are party members who meet the Elemental Conversion Type requirements, the chance to trigger \"Spiritbinding Conversion\" is increased by 33.3%, up to a maximum of 100%.<br/><br/>You must first unlock the Ascension Talent \"Bullet Trick.\"<br/>In addition, Chasca's Nightsoul point and Phlogiston consumption in her Nightsoul's Blessing state is decreased by 30% while out of combat.",
+      "level": 1
+    },
+    {
+      "_id": 1042,
+      "id": "muzzle_the_searing_smoke",
+      "name": "Muzzle, the Searing Smoke",
+      "description": "When Chasca takes the field, she will obtain 1 stack of \"Spirit of the Radiant Shadow\" from the Ascension Talent \"Bullet Trick.\" You must first unlock the Ascension Talent \"Bullet Trick\" for this effect.<br/>In addition, when the <span style=\"color:#FFD780FF\">Shining Shadowhunt Shells</span> from <span style=\"color:#FFD780FF\">Spirit Reins, Shadow Hunt</span>'s <span style=\"color:#FFD780FF\">Multitarget Fire</span> hit opponents, they will deal AoE Elemental DMG of the corresponding Elemental Type of the <span style=\"color:#FFD780FF\">Shining Shadowhunt Shells</span> equal to 400% of Chasca's ATK. This DMG is considered Charged Attack DMG. This effect can be triggered once each time Chasca uses <span style=\"color:#FFD780FF\">Multitarget Fire</span>.",
+      "level": 2
+    },
+    {
+      "_id": 1043,
+      "id": "reins_her_careful_control",
+      "name": "Reins, Her Careful Control",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Spirit Reins, Shadow Hunt</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1044,
+      "id": "sparks_the_sudden_shot",
+      "name": "Sparks, the Sudden Shot",
+      "description": "When the <span style=\"color:#FFD780FF\">Radiant Soulseeker Shells</span> from <span style=\"color:#FFD780FF\">Soul Reaper's Fatal Round</span> hit opponents, they will restore 1.5 Elemental Energy to Chasca, and deal AoE Elemental DMG of the corresponding Elemental Type of the <span style=\"color:#FFD780FF\">Radiant Soulseeker Shells</span> equal to 400% of Chasca's ATK. This DMG is considered Charged Attack DMG.<br/>The aforementioned corresponding elemental AoE DMG effect can be triggered once each time Chasca uses <span style=\"color:#FFD780FF\">Soul Reaper's Fatal Round</span>.",
+      "level": 4
+    },
+    {
+      "_id": 1045,
+      "id": "brim_the_sandshadows_silhouette",
+      "name": "Brim, the Sandshadow's Silhouette",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Soul Reaper's Fatal Round</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1046,
+      "id": "showdown_the_glory_of_battle",
+      "name": "Showdown, the Glory of Battle",
+      "description": "Chasca's <span style=\"color:#FFD780FF\">Multitarget Fire</span> charge time is decreased, and after the Ascension Talent \"Bullet Trick\"'s \"Spiritbinding Conversion\" is triggered, Chasca will gain the \"Fatal Rounds\" state: For the next 3s, the next time Chasca uses <span style=\"color:#FFD780FF\">Spirit Reins, Shadow Hunt</span>'s <span style=\"color:#FFD780FF\">Multitarget Fire</span>, the shots will finish charging instantly, and the CRIT DMG of that instance of <span style=\"color:#FFD780FF\">Multitarget Fire</span>'s <span style=\"color:#FFD780FF\">Shadowhunt Shells</span> and <span style=\"color:#FFD780FF\">Shining Shadowhunt Shells</span> increases by 120%. 1 \"Fatal Rounds\" effect can be gained once every 3s.<br/><br/>You must first unlock the Ascension Talent \"Bullet Trick\" to gain access to the above effect.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "763"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "27"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "48"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "-",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "1978",
+            "2632"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "70",
+            "93"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "124",
+            "165"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "3939",
+            "4403"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "139",
+            "156"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "247",
+            "276"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "9.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104151,
+        "id": "vayuda_turquoise_sliver",
+        "name": "Vayuda Turquoise Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101253,
+        "id": "withering_purpurbloom",
+        "name": "Withering Purpurbloom",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112101,
+        "id": "juvenile_fang",
+        "name": "Juvenile Fang",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5066",
+            "5686"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "179",
+            "201"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "318",
+            "357"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "9.8%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113067,
+        "id": "ensnaring_gaze",
+        "name": "Ensnaring Gaze",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101253,
+        "id": "withering_purpurbloom",
+        "name": "Withering Purpurbloom",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112101,
+        "id": "juvenile_fang",
+        "name": "Juvenile Fang",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6355",
+            "6820"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "225",
+            "241"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "399",
+            "428"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113067,
+        "id": "ensnaring_gaze",
+        "name": "Ensnaring Gaze",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101253,
+        "id": "withering_purpurbloom",
+        "name": "Withering Purpurbloom",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112102,
+        "id": "seasoned_fang",
+        "name": "Seasoned Fang",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7495",
+            "7960"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "265",
+            "282"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "470",
+            "500"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "19.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113067,
+        "id": "ensnaring_gaze",
+        "name": "Ensnaring Gaze",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101253,
+        "id": "withering_purpurbloom",
+        "name": "Withering Purpurbloom",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112102,
+        "id": "seasoned_fang",
+        "name": "Seasoned Fang",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8643",
+            "9108"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "306",
+            "322"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "542",
+            "572"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "19.4%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113067,
+        "id": "ensnaring_gaze",
+        "name": "Ensnaring Gaze",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101253,
+        "id": "withering_purpurbloom",
+        "name": "Withering Purpurbloom",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112103,
+        "id": "tyrants_fang",
+        "name": "Tyrant's Fang",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9797",
+            "9797"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "347",
+            "347"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "615",
+            "615"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "24.2%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104154,
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Vayuda Turquoise Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113067,
+        "id": "ensnaring_gaze",
+        "name": "Ensnaring Gaze",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101253,
+        "id": "withering_purpurbloom",
+        "name": "Withering Purpurbloom",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112103,
+        "id": "tyrants_fang",
+        "name": "Tyrant's Fang",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104353,
+          "id": "teachings_of_conflict",
+          "name": "Teachings of Conflict",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112101,
+          "id": "juvenile_fang",
+          "name": "Juvenile Fang",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104354,
+          "id": "guide_to_conflict",
+          "name": "Guide to Conflict",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Seasoned Fang",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104354,
+          "id": "guide_to_conflict",
+          "name": "Guide to Conflict",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Seasoned Fang",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104354,
+          "id": "guide_to_conflict",
+          "name": "Guide to Conflict",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Seasoned Fang",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104354,
+          "id": "guide_to_conflict",
+          "name": "Guide to Conflict",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Seasoned Fang",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104355,
+          "id": "philosophies_of_conflict",
+          "name": "Philosophies of Conflict",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Tyrant's Fang",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113061,
+          "id": "silken_feather",
+          "name": "Silken Feather",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104355,
+          "id": "philosophies_of_conflict",
+          "name": "Philosophies of Conflict",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Tyrant's Fang",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113061,
+          "id": "silken_feather",
+          "name": "Silken Feather",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104355,
+          "id": "philosophies_of_conflict",
+          "name": "Philosophies of Conflict",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Tyrant's Fang",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113061,
+          "id": "silken_feather",
+          "name": "Silken Feather",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104355,
+          "id": "philosophies_of_conflict",
+          "name": "Philosophies of Conflict",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Tyrant's Fang",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113061,
+          "id": "silken_feather",
+          "name": "Silken Feather",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 210400,
+      "name": "Tlalocan's Night Phantom",
+      "description": "Chasca's outfit. The spirit of conflict is in her blood, and unyielding determination in her eyes. The pain that comes with transcending death is the unbending pride of Tlalocan.",
+      "isDefault": true,
+      "characterName": "Chasca",
+      "characterId": 10000104,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Chasca_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Chasca, Flower-Feather Clan. Any disputes you need me to end for you? Depending on the situation, it could cost you a little dignity, a few drinks, or potentially... a round of ammo."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Bird's-Eye View",
+      "text": "When you lose your way, gaining some altitude can bring some perspective."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Whispers",
+      "text": "I'd have lost myself long ago if I allowed myself to be led by the whispers of the Abyss. Surviving is tough, but taming the beast within is tougher."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Peacemaker",
+      "text": "I'm a little out of practice these days... *yawn*... Any conflicts around? I'm in the mood for some peacemaking."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Rain... My hair and feathers are gonna get soaked. Time for some preening when I get back."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Huh, we're really gonna go flying in this weather? You think you can outrun a lightning strike?"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It's Windy",
+      "text": "*sniff* There's prey upwind from us... Be ready to pounce."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "The wind's perfect — full speed ahead!"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "\"The early qucusaur gets the worm,\" so I made some breakfast. Any plans for the day can wait until we've got some food in us."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Afternoon. The sun shines strongest at this hour — good time to take a break."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Any plans for dinner? If not, let's eat in the tribe. They always bring out the best food and drink for champions."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Turning in for the night? Hmm... I've been flying all day, so I should also do some gun care."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Chasca: Self-Confidence",
+      "text": "Back when the Flower-Feather Clan was responsible for patrolling and defending all of Natlan, the flying squad was the best of the best — the fiercest warriors in the nation.\\nTo this day, the pride felt by many Qucusaur riders borders on arrogance... Hmm? Me? No, I'm not arrogant. Just supremely confident."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Chasca: Flower-Feather Clan",
+      "text": "...When they first brought me back to the tribe, I didn't fit in at all. I felt so out of place — like an alien who suddenly got dropped into a human world... But Chuychu and her— I mean, our parents accepted me for who I was.\\nI'm eternally grateful that I met them, and for that reason, I will defend their beloved tribe... for as long as I live."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Mediation",
+      "text": "With your skills, I doubt anyone in Natlan would dare start something with you. But there are exceptions to every rule, so if you ever find yourself in a situation you can't brute force your way out of, be sure to come to me. I'll straighten things out."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Family",
+      "text": "Thank you so much for helping with the Coya situation... I honestly don't know how things would've gone down without you there.\\nShe's nowhere near as hostile toward humans anymore, but it'll still take her some time to get used to them. Old habits die hard.\\nChime, on the other hand? Loves hanging out with the tribe. She gets along really well with Yatlan and the other kids... Heh, watching them play together, it sometimes reminds me of me and Coya when we were little.\\nAnyway, now Mom's the one being difficult... I don't know what's gotten into her recently. She keeps nagging me to build a nest of my own like Coya. And she's all, \"maybe it's time to expand your family even further\"... Where is all this coming from? ...Hmm? What are you smiling about?"
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "This Vision played a major part in my fight against the Abyss. If it hadn't shown up when it did, I don't know who I would be today."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "People often find it embarrassing to open up about their childhood mistakes... Why is that? Whether you're a human or a Qucusaur, you can only grow by learning from your past mistakes.\\nThat's why I'm not shy about my history of mindlessly lashing out as a kid. Nowadays, I never draw my gun without thinking it through first, even if just for a couple of seconds... or maybe a half second."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Natlan has a lot of very tall trees. You get great visibility from up top, and they're good places to launch off. You wanna try? Don't worry, I'll catch you if you fall."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Kachina",
+      "text": "\"Every Qucusaur falls from its nest before it learns to fly.\" Kachina didn't magically become a champion overnight. Her victory was a result of consistent, tireless effort over a very long time. She's an outstanding warrior who deserves all the honor and respect she can get."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Mualani",
+      "text": "Mualani says we got into a fight as kids over some toy we both wanted, but I don't remember any of that.\\nHmm... I wonder if it's because I got into so many fights that I just lost track of them all? I also wonder if it was actually her surfboard I was after, rather than a toy... I'll bet I just wanted the ability to go hunting on water.\\nHeh, whatever it was, I doubt our feud lasted more than a day. It never does with Mualani."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Xilonen",
+      "text": "She might come across as low-energy, but make no mistake — she's one of the most diligent people you'll ever meet.\\nWhen I asked her to build my gun for me, I barely put any thought into it, just gave her a general idea of what I wanted, and left it with her. Then, once she started working on it in earnest, she spent an entire day questioning me — what would a typical day's flying look like, how often I was expecting to use it, and so on — and by the end of the day, there were abandoned designs schemes all over the floor... I was so exhausted that I fell asleep even before she did.\\nThen she wrote a whole maintenance guide, which she forced me to learn by heart so I wouldn't come bugging her with issues every day... Well, that's what she said. But I suspect her real reason was that she wanted to make sure I'd look after myself and fly safe."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Mavuika",
+      "text": "Some people compare me to the Pyro Archon because of my track record in the Pilgrimage. It's a meaningless comparison. If the Pilgrimage was a tree, and I was a vulture on the highest branch, then the Pyro Archon would be the sun in the sky... The stronger you get, the more you appreciate the sheer size of the gulf between you and her. I just won a few championships — she's the champion of an entire era.\\nBut at least being on top with a clear view of the sky means I can see exactly how high I want to fly from here."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Kinich",
+      "text": "When I first saw Ajaw, I thought \"Oh, Kinich has a saurian he treats like family, too\"... Blissfully unaware of how far off the mark I was. Their relationship is... truly one-of-a-kind.\\nAlthough I will say, Ajaw's mastery of the human language makes me pretty envious. I wish mom could talk like that, too, so we could do away with the whole body-language-based guesswork-game."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Citlali",
+      "text": "My dad told me that when I was little, they gathered all of the most learned elders in Natlan and asked them to come up with a plan for managing my Abyss condition. They all disagreed on the best approach, and it turned into a drawn-out debate. At some point, Citlali quietly left the room, but they were all too busy arguing to notice. When she got back, she put some food and wine down in front of her, ignored everyone, and just started eating... the table suddenly went very quiet.\\nJust by looking at her, you'd never know how much seniority and experience she has."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Ifa",
+      "text": "Chuychu and my dad have discussed medicine with him countless times. So after I got back from the airborne workshop, the first thing I did was take Coya to get checked out by him. But he seemed so dismissive — he took one glance, said \"it's nothing serious, Cusco can handle it,\" and then immediately left to deal with another patient... *sigh* He was right, of course. I was just worrying too much."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Iansan",
+      "text": "I've always felt that training oneself and training others are two very different skillsets. Very few people have them both, but Iansan has them in spades.\\nI, for one, am not very good at teaching other people. Whenever I'm trying to demonstrate something to the flying squad, I spend forever trying to explain some basic, boring detail that seems intuitive to me... only to have everyone ask, \"What's intuitive about that!?\"\\nIf only Iansan could tutor them, I bet we'd have twice as many candidates pass the flying trials each year... Shame that her training program doesn't include flying."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More about Chasca: I",
+      "text": "As a peacemaker, I know full well that violence isn't always the answer. But in many cases, having the capacity for violence makes people much more willing to listen to reason."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Chasca: II",
+      "text": "The warriors of the Flower-Feather Clan are a proud bunch, but the Qucusaurs are a prouder bunch still. Anyone who aspires to become a Rider has to train relentlessly and then win their approval — even me, and I was practically one of them growing up. It's only fair, though. Allowing a rookie to ride a Qucusaur into the skies would be highly irresponsible for both the Qucusaur and the Rider."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Chasca: III",
+      "text": "Sometimes, after failing the flying trials countless times and never winning the Qucusaurs' approval, people lose all their motivation and decide to call it quits. In the Flower-Feather Clan, we call those people the \"Wingless\"... But generally, only the most outstanding warriors even attempt the flying trials in the first place. Their fighting spirit may have faded out, but it will one day burn again. And until that day comes, we will quietly watch over them, just as the Qucusaurs watch over their unfledged young."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Chasca: IV",
+      "text": "I was never able to enjoy a proper, happy childhood, but when I was on the brink of death, momma bird gave me a new life, and when I was lost and directionless, Chuychu gave me something to believe in. Behind me, I have my saurian family, my human family, and every other creature in the family we call Natlan. So I will not be defeated. Not by the Abyss, and not by life's hardships. Watch me, I will transcend it all!"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Chasca: V",
+      "text": "Chuychu hoped I'd become a hero. So... I can't give up. I have to stay strong, for her sake...\\nBut when the relic exploded, and Coya dove in front of me, I... the same fear of losing my sister came flooding back again...\\nSorry, I just don't really know who I can talk to about this kind of stuff. I usually push it to the back of my mind... But I feel much better now.\\nSince I can't forget that fear, I guess I'll try the opposite: remember it, own it. And eventually... transcend it."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Chasca's Hobbies",
+      "text": "Starting fights is more trouble than it's worth. Gets you into too much trouble. Now, ending fights, on the other hand, much more acceptable. This is why I love being a peacemaker, because the fights come to me... Heh, I'm just kidding, of course."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Chasca's Troubles",
+      "text": "The Abyssal energy. Not because it affects me that much — it doesn't anymore. More because of how much it makes the people around me worry about my safety."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Growing up by the sea, I mostly ate raw fish, and after I came to the tribe, I grew to love Flash-Grilled Steak... Qucusaurs and humans have wildly different diets, but I enjoy them both."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Anything with too much alcohol, I guess. Not because I don't like drinking — I just need to watch my intake very carefully before a flight. But you get some food where the scent of the alcohol is masked by the other flavors... Looks tasty, smells delicious, so you take a bite, and then... uh-oh, it's a trap."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "I'm telling you, this dish plus a nice wine would increase the chances of mediation success by thirty percent. Heh, there's nothing quite like some good food and wine to put people in a good mood."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "This is pretty good. Thanks."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Uh... Was this meant for the qucusaurs? ...Sorry, but this isn't the kind of thing they go for."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Here, take this gun. It's loaded with six rounds, including an extra-special one. Find an open space and try it out — or better yet, fly up into the sky and do it there.\\nOoh, you got the special round on the first try, huh? Luck's on your side today... That was a whistling birthday firework. I made it myself!\\nHmm? ...What are the other five rounds? More fireworks, of course! But they're the trial runs that I made before the one you just fired off. The color's different, and they're not perfect. Next year, I'll do my best to make a full six top-quality rounds for you."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Huh, is that a new bullet in the chamber?"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Need me to mediate anything? Tribal trouble? Or an all-out war, maybe?"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "There's an urge to fight that runs in my veins... But now, I know how to put it to good use."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "\"Kindness should always be repaid, and merit rewarded.\" This is one universal principle that holds true for both the Qucusaur and human worlds. From this day forth, no matter where you go, my wings and my guns will always be at your service."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Let's fly."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Hah!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Take me up."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Fire in the hole!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Hold on to your hats!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Knock 'em down."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Dividing the loot is often a cause of conflict, but luckily for you, I don't really need this stuff."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Mora makes a lot of problems go away. So you can never have too much Mora, huh?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Ooh, shiny... It's so pretty..."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "A worthy fight...!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Now I'm all warmed up."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "You want crazy? I'll show you crazy!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "...Hey, no dying!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Get behind me!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Momma... Bird..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Couldn't... transcend..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "I'm... falling..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "This is about to get messy..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "...Again!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Alright, whose wings need clipping?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "The breeze is restless today."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Chamber full and ready to roll."
+    }
+  ]
+}

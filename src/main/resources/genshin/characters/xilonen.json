@@ -1,0 +1,1823 @@
+{
+  "_id": 10000103,
+  "id": "xilonen",
+  "name": "Xilonen",
+  "title": "Ardent Flames Forge the Soul",
+  "description": "A Name Engraver of the Nanatzcayan, she is especially skilled at finding a good balance between the heavy responsibilities of her job and living well.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "geo",
+    "name": "Geo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1728334800,
+  "substat": "DEF%",
+  "stats": {
+    "base": {
+      "hp": 965.71313,
+      "attack": 21.413,
+      "defense": 72.3943
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_DEFENSE_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 828.0117,
+        "attack": 18.35837,
+        "defense": 62.073,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_DEFENSE_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1416.3358,
+        "attack": 31.402475,
+        "defense": 106.1775,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_DEFENSE_PERCENT",
+          "value": 0.09
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2200.768,
+        "attack": 48.794617,
+        "defense": 164.9835,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_DEFENSE_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2789.092,
+        "attack": 61.83872,
+        "defense": 209.088,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_DEFENSE_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3377.4163,
+        "attack": 74.88283,
+        "defense": 253.1925,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_DEFENSE_PERCENT",
+          "value": 0.27
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3965.7402,
+        "attack": 87.92693,
+        "defense": 297.297,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_DEFENSE_PERCENT",
+          "value": 0.36
+        }
+      }
+    ]
+  },
+  "affiliation": "Nanatzcayan",
+  "region": {
+    "id": "natlan",
+    "name": "Natlan"
+  },
+  "rarity": 5,
+  "birthday": [
+    13,
+    3
+  ],
+  "constellation": "Panthera Ocelota",
+  "domain": "Blazing Ruins",
+  "cv": {
+    "english": "Elizabeth Dean",
+    "chinese": "弭洋",
+    "japanese": "ファイルーズあい",
+    "korean": "Kim I-an"
+  },
+  "skills": [
+    {
+      "_id": 11031,
+      "id": "ehecatls_roar",
+      "name": "Ehecatl's Roar",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 3 rapid strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a fixed amount of Stamina and performs a forward kick.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact, both based on Xilonen's DEF.<br/><br/><span style=\"color:#FFD780FF\">Nightsoul's Blessing: Blade Roller</span><br/>When in the Nightsoul's Blessing state, Xilonen will enter the Blade Roller mode. While in this mode, Xilonen's Normal Attacks will allow her to perform up to 4 kicks using her roller blades, and she will be unable to use Charged Attacks.<br/>When her Normal and Plunging Attacks are used in this mode, they will switch to being based on her DEF, and Xilonen will deal Nightsoul-aligned <span style=\"color:#FFE699FF\">Geo DMG</span> that cannot be overridden.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "51.8%",
+            "56%",
+            "60.2%",
+            "66.2%",
+            "70.5%",
+            "75.3%",
+            "81.9%",
+            "88.5%",
+            "95.2%",
+            "102.4%",
+            "109.6%",
+            "116.8%",
+            "124.1%",
+            "131.3%",
+            "138.5%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "27.4% + 27.4%",
+            "29.6% + 29.6%",
+            "31.8% + 31.8%",
+            "35% + 35%",
+            "37.2% + 37.2%",
+            "39.8% + 39.8%",
+            "43.3% + 43.3%",
+            "46.8% + 46.8%",
+            "50.3% + 50.3%",
+            "54.1% + 54.1%",
+            "57.9% + 57.9%",
+            "61.8% + 61.8%",
+            "65.6% + 65.6%",
+            "69.4% + 69.4%",
+            "73.2% + 73.2%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "72.9%",
+            "78.9%",
+            "84.8%",
+            "93.3%",
+            "99.2%",
+            "106%",
+            "115.4%",
+            "124.7%",
+            "134%",
+            "144.2%",
+            "154.4%",
+            "164.6%",
+            "174.7%",
+            "184.9%",
+            "195.1%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "91.3%",
+            "98.8%",
+            "106.2%",
+            "116.8%",
+            "124.3%",
+            "132.8%",
+            "144.4%",
+            "156.1%",
+            "167.8%",
+            "180.5%",
+            "193.3%",
+            "206%",
+            "218.8%",
+            "231.5%",
+            "244.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9% DEF",
+            "69.1% DEF",
+            "74.3% DEF",
+            "81.8% DEF",
+            "87% DEF",
+            "92.9% DEF",
+            "101.1% DEF",
+            "109.3% DEF",
+            "117.5% DEF",
+            "126.4% DEF",
+            "135.3% DEF",
+            "144.2% DEF",
+            "153.1% DEF",
+            "162.1% DEF",
+            "171% DEF"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% DEF / 159.7% DEF",
+            "138.2% DEF / 172.7% DEF",
+            "148.6% DEF / 185.7% DEF",
+            "163.5% DEF / 204.2% DEF",
+            "173.9% DEF / 217.2% DEF",
+            "185.8% DEF / 232.1% DEF",
+            "202.2% DEF / 252.5% DEF",
+            "218.5% DEF / 272.9% DEF",
+            "234.9% DEF / 293.4% DEF",
+            "252.7% DEF / 315.6% DEF",
+            "270.5% DEF / 337.9% DEF",
+            "288.4% DEF / 360.2% DEF",
+            "306.2% DEF / 382.5% DEF",
+            "324.1% DEF / 404.8% DEF",
+            "341.9% DEF / 427% DEF"
+          ]
+        },
+        {
+          "label": "Blade Roller 1-Hit DMG",
+          "values": [
+            "56% DEF",
+            "60.6% DEF",
+            "65.1% DEF",
+            "71.7% DEF",
+            "76.2% DEF",
+            "81.4% DEF",
+            "88.6% DEF",
+            "95.8% DEF",
+            "102.9% DEF",
+            "110.7% DEF",
+            "118.6% DEF",
+            "126.4% DEF",
+            "134.2% DEF",
+            "142% DEF",
+            "149.8% DEF"
+          ]
+        },
+        {
+          "label": "Blade Roller 2-Hit DMG",
+          "values": [
+            "55% DEF",
+            "59.5% DEF",
+            "64% DEF",
+            "70.4% DEF",
+            "74.9% DEF",
+            "80% DEF",
+            "87.1% DEF",
+            "94.1% DEF",
+            "101.1% DEF",
+            "108.8% DEF",
+            "116.5% DEF",
+            "124.2% DEF",
+            "131.9% DEF",
+            "139.5% DEF",
+            "147.2% DEF"
+          ]
+        },
+        {
+          "label": "Blade Roller 3-Hit DMG",
+          "values": [
+            "65.8% DEF",
+            "71.2% DEF",
+            "76.5% DEF",
+            "84.2% DEF",
+            "89.5% DEF",
+            "95.7% DEF",
+            "104.1% DEF",
+            "112.5% DEF",
+            "120.9% DEF",
+            "130.1% DEF",
+            "139.3% DEF",
+            "148.5% DEF",
+            "157.7% DEF",
+            "166.8% DEF",
+            "176% DEF"
+          ]
+        },
+        {
+          "label": "Blade Roller 4-Hit DMG",
+          "values": [
+            "86% DEF",
+            "93% DEF",
+            "100% DEF",
+            "110% DEF",
+            "117% DEF",
+            "125% DEF",
+            "136% DEF",
+            "147% DEF",
+            "158.1% DEF",
+            "170.1% DEF",
+            "182.1% DEF",
+            "194.1% DEF",
+            "206.1% DEF",
+            "218.1% DEF",
+            "230.1% DEF"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11032,
+      "id": "yohuals_scratch",
+      "name": "Yohual's Scratch",
+      "description": "Let the rhythms of passion resound throughout the land! Xilonen switches to high-speed combat blading gear and rushes forward a certain distance before dealing Nightsoul-aligned <span style=\"color:#FFE699FF\">Geo DMG</span> based on her DEF.<br/>After using this, Xilonen will gain 45 Nightsoul points and enter the Nightsoul's Blessing state. In this state, she will shift to the Blade Roller mode.<br/><br/><span style=\"color:#FFD780FF\">Source Samples</span><br/>Xilonen has 3 Samplers with her that can generate different Soundscapes based on her other party members' Elemental Types, decreasing nearby opponents' corresponding Elemental RES while active.<br/>The initial recorded Source Sample within each Sampler will be <span style=\"color:#FFE699FF\">Geo</span>, and for each party member who is <span style=\"color:#FF9999FF\">Pyro</span>/<span style=\"color:#80C0FFFF\">Hydro</span>/<span style=\"color:#99FFFFFF\">Cryo</span>/<span style=\"color:#FFACFFFF\">Electro</span>, 1 <span style=\"color:#FFE699FF\">Geo</span> Sample will change to that corresponding Element.<br/>While Xilonen is in the Nightsoul's Blessing state, the <span style=\"color:#FFE699FF\">Geo</span> Source Sample she carries will always be active. After unlocking her Ascension Talent, \"Netotiliztli's Echoes,\" Xilonen can trigger said Ascension Talent's effects to regenerate Nightsoul points for herself. When her Nightsoul points hit the maximum, she will consume all her Nightsoul points and activate the 3 Source Samples she has on hand for 15s.<br/>When the Source Samples are active, nearby opponents' corresponding Elemental RES will decrease. Source Sample effects of the same Elemental Type cannot stack. Xilonen can trigger these effects even when off-field.<br/><br/><span style=\"color:#FFD780FF\">Nightsoul's Blessing: Xilonen</span><br/>Continuously consume Nightsoul points. When these points are depleted or if used again, this Nightsoul's Blessing state will end. This state has the following traits:<br/>·Switches to the Blade Roller mode, increasing Xilonen's Movement SPD and climbing speed, and she can perform high-speed leaps in Ocelot Form while climbing.<br/>·Xilonen's Nightsoul's Blessing has the following restrictions: When in this state, Xilonen's Nightsoul points have a 9s time limit. After this limit passes, her Nightsoul points will immediately expire.<br/><br/>After Xilonen's Nightsoul points have expired while she is in the Nightsoul's Blessing state, she will no longer be able to generate Nightsoul points via the Ascension Talent \"Netotiliztli's Echoes.\"",
+      "info": "In some ways, gem-craft and music-mixing share similar principles: Filtering out impurities and retaining only the most radiant things.<br/>Xilonen isn't picky about the two, however. She enjoys both immensely, after all!",
+      "attributes": [
+        {
+          "label": "Rush DMG",
+          "values": [
+            "179.2% DEF",
+            "192.6% DEF",
+            "206.1% DEF",
+            "224% DEF",
+            "237.4% DEF",
+            "250.9% DEF",
+            "268.8% DEF",
+            "286.7% DEF",
+            "304.6% DEF",
+            "322.6% DEF",
+            "340.5% DEF",
+            "358.4% DEF",
+            "380.8% DEF",
+            "403.2% DEF",
+            "425.6% DEF"
+          ]
+        },
+        {
+          "label": "Elemental RES Decrease",
+          "values": [
+            "9%",
+            "12%",
+            "15%",
+            "18%",
+            "21%",
+            "24%",
+            "27%",
+            "30%",
+            "33%",
+            "36%",
+            "39%",
+            "42%",
+            "45%",
+            "48%",
+            "51%"
+          ]
+        },
+        {
+          "label": "Source Sample Activation Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Nightsoul Point Time Limit",
+          "values": [
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ]
+        },
+        {
+          "label": "Nightsoul Point Limit",
+          "values": [
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s",
+            "7s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11035,
+      "id": "ocelotlicue_point",
+      "name": "Ocelotlicue Point!",
+      "description": "Activates the Phlogiston Stereo DJ Controller (Portable) at full power, dealing Nightsoul-aligned <span style=\"color:#FFE699FF\">AoE Geo DMG</span> based on Xilonen's DEF.<br/><br/>Additionally, she will trigger the following effects based on her different Source Samples:<br/>·If she has at least 2 Source Samples that have had their Elemental Types changed, Xilonen will play an Ebullient rhythm, healing nearby active characters at intervals based on her DEF.<br/>·If she has fewer than 2 Source Samples that have had their Elemental Types changed, Xilonen will start up an Ardent rhythm, which will play two additional beats that deal Nightsoul-aligned <span style=\"color:#FFE699FF\">AoE Geo DMG</span> based on her DEF.",
+      "info": "\"Alright, time for a time-out!\"<br/>\"It's cool, I recorded those beats just now. Let's see what we get when we mix our rhythms!\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "281.3% DEF",
+            "302.4% DEF",
+            "323.5% DEF",
+            "351.6% DEF",
+            "372.7% DEF",
+            "393.8% DEF",
+            "421.9% DEF",
+            "450% DEF",
+            "478.2% DEF",
+            "506.3% DEF",
+            "534.4% DEF",
+            "562.6% DEF",
+            "597.7% DEF",
+            "632.9% DEF",
+            "668% DEF"
+          ]
+        },
+        {
+          "label": "Continuous Healing",
+          "values": [
+            "104% DEF + 501",
+            "111.8% DEF + 551",
+            "119.6% DEF + 605",
+            "130% DEF + 664",
+            "137.8% DEF + 726",
+            "145.6% DEF + 793",
+            "156% DEF + 864",
+            "166.4% DEF + 939",
+            "176.8% DEF + 1018",
+            "187.2% DEF + 1102",
+            "197.6% DEF + 1189",
+            "208% DEF + 1281",
+            "221% DEF + 1377",
+            "234% DEF + 1477",
+            "247% DEF + 1582"
+          ]
+        },
+        {
+          "label": "Ebullient Rhythm Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "Follow-Up Beat DMG",
+          "values": [
+            "281.3% DEF",
+            "302.4% DEF",
+            "323.5% DEF",
+            "351.6% DEF",
+            "372.7% DEF",
+            "393.8% DEF",
+            "421.9% DEF",
+            "450% DEF",
+            "478.2% DEF",
+            "506.3% DEF",
+            "534.4% DEF",
+            "562.6% DEF",
+            "597.7% DEF",
+            "632.9% DEF",
+            "668% DEF"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "netotiliztlis_echoes",
+      "name": "Netotiliztli's Echoes",
+      "description": "While in the Nightsoul's Blessing state:<br/>·If Xilonen has at least 2 Source Samples that have had their Elemental Types changed, she gains 35 Nightsoul points when her Normal or Plunging Attacks hit opponents. Can be triggered once every 0.1s.<br/>·If Xilonen has fewer than 2 Source Samples that have had their Elemental Types changed, her Normal and Plunging Attacks deal 30% increased DMG.",
+      "level": 1
+    },
+    {
+      "id": "portable_armored_sheath",
+      "name": "Portable Armored Sheath",
+      "description": "While in the Nightsoul's Blessing state, when Xilonen's Nightsoul points reach the maximum, she will trigger an effect equal to that of her Nightsoul Burst. This effect can be triggered once every 14s.<br/>Additionally, when nearby party members trigger a Nightsoul Burst, Xilonen's DEF is increased by 20% for 15s.",
+      "level": 4
+    },
+    {
+      "id": "night_realms_gift_blessing_of_forgefire",
+      "name": "Night Realm's Gift: Blessing of Forge-Fire",
+      "description": "After her Nightsoul points are fully depleted, Xilonen will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.<br/>While in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Xilonen. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Xilonen: Xilonen will enter the Nightsoul's Blessing state and gain 20 Nightsoul points. In this situation, Xilonen's Nightsoul points have a 4s time limit, after which her Nightsoul points will immediately expire. After she uses <span style=\"color:#FFD780FF\">Yohual's Scratch</span> within this time limit, her Nightsoul point time limit will be extended by 9s. Nightsoul Transmission can be triggered once every 10s by your own team.<br/><br/>Additionally, while in Natlan, Xilonen will not consume Stamina when climbing while in the Nightsoul's Blessing state.",
+      "level": 0
+    },
+    {
+      "id": "tour_of_tepeilhuitl",
+      "name": "Tour of Tepeilhuitl",
+      "description": "Triggering Nightsoul Transmission restores 15 Phlogiston.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1031,
+      "id": "sabbatical_phrase",
+      "name": "Sabbatical Phrase",
+      "description": "Xilonen's Nightsoul point and Phlogiston consumption in her Nightsoul's Blessing state is decreased by 30%, and her Nightsoul point time limit is extended by 45%.<br/>Additionally, when Xilonen's Source Samples are active, she can also increase nearby active characters' interruption resistance.",
+      "level": 1
+    },
+    {
+      "_id": 1032,
+      "id": "chiucue_mix",
+      "name": "Chiucue Mix",
+      "description": "Xilonen's <span style=\"color:#FFE699FF\">Geo</span> Source Samples will always remain active. Additionally, when her Source Samples activate, all nearby party members will gain effects corresponding to the active Source Sample that matches their Elemental Type:<br/>·<span style=\"color:#FFE699FF\">Geo</span>: DMG dealt +50%.<br/>·<span style=\"color:#FF9999FF\">Pyro</span>: ATK +45%.<br/>·<span style=\"color:#80C0FFFF\">Hydro</span>: Max HP +45%.<br/>·<span style=\"color:#99FFFFFF\">Cryo</span>: CRIT DMG +60%.<br/>·<span style=\"color:#FFACFFFF\">Electro</span>: Restore 25 Energy, decrease Elemental Burst CD by 6s.",
+      "level": 2
+    },
+    {
+      "_id": 1033,
+      "id": "tonalpohuallis_loop",
+      "name": "Tonalpohualli's Loop",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Yohual's Scratch</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1034,
+      "id": "suchitls_trance",
+      "name": "Suchitl's Trance",
+      "description": "After Xilonen uses <span style=\"color:#FFD780FF\">Yohual's Scratch</span>, she will grant all nearby party members the Blooming Blessing effect for 15s.<br/>Characters with Blooming Blessing deal 65% of Xilonen's DEF as increased Normal, Charged, and Plunging Attack DMG. This effect will be removed after triggering 6 times or when the duration ends.<br/>When you hit more than one opponent, trigger counts will be consumed based on the number of opponents hit. The counts for each party member with Blooming Blessing are counted independently.",
+      "level": 4
+    },
+    {
+      "_id": 1035,
+      "id": "tlaltecuhtlis_crossfade",
+      "name": "Tlaltecuhtli's Crossfade",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Ocelotlicue Point!</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1036,
+      "id": "imperishable_night_carnival",
+      "name": "Imperishable Night Carnival",
+      "description": "When Xilonen is in the Nightsoul's Blessing state, when she sprints, leaps, or uses Normal or Plunging Attacks, she will gain Imperishable Night's Blessing, ignoring the limitations of her Nightsoul's Blessing state and increasing the DMG dealt by her Normal and Plunging Attacks for 5s.<br/>During this time:<br/>·Her Nightsoul's Blessing time limit countdown will be paused. Xilonen's Nightsoul points, Phlogiston, and Stamina will not decrease, and when her Nightsoul points reach the maximum, her Nightsoul's Blessing state will not end either.<br/>·Xilonen deals 300% of her DEF as increased Normal and Plunging Attack DMG while in the Nightsoul's Blessing state.<br/>·She heals nearby party members for 120% of her DEF every 1.5s.<br/>She can gain 1 Imperishable Night's Blessing once every 15s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "966"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "21"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "72"
+          ]
+        },
+        {
+          "label": "DEF%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2505",
+            "3333"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "56",
+            "74"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "188",
+            "250"
+          ]
+        },
+        {
+          "label": "DEF%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4987",
+            "5576"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "111",
+            "124"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "374",
+            "418"
+          ]
+        },
+        {
+          "label": "DEF%",
+          "values": [
+            "0.0%",
+            "9.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104171,
+        "id": "prithiva_topaz_sliver",
+        "name": "Prithiva Topaz Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101248,
+        "id": "brilliant_chrysanthemum",
+        "name": "Brilliant Chrysanthemum",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112104,
+        "id": "sentrys_wooden_whistle",
+        "name": "Sentry's Wooden Whistle",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6415",
+            "7199"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "142",
+            "160"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "481",
+            "540"
+          ]
+        },
+        {
+          "label": "DEF%",
+          "values": [
+            "9.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101248,
+        "id": "brilliant_chrysanthemum",
+        "name": "Brilliant Chrysanthemum",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112104,
+        "id": "sentrys_wooden_whistle",
+        "name": "Sentry's Wooden Whistle",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8047",
+            "8636"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "178",
+            "191"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "603",
+            "647"
+          ]
+        },
+        {
+          "label": "DEF%",
+          "values": [
+            "18.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101248,
+        "id": "brilliant_chrysanthemum",
+        "name": "Brilliant Chrysanthemum",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112105,
+        "id": "warriors_metal_whistle",
+        "name": "Warrior's Metal Whistle",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9491",
+            "10079"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "210",
+            "223"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "712",
+            "756"
+          ]
+        },
+        {
+          "label": "DEF%",
+          "values": [
+            "18.0%",
+            "27.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101248,
+        "id": "brilliant_chrysanthemum",
+        "name": "Brilliant Chrysanthemum",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112105,
+        "id": "warriors_metal_whistle",
+        "name": "Warrior's Metal Whistle",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10945",
+            "11533"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "243",
+            "256"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "820",
+            "865"
+          ]
+        },
+        {
+          "label": "DEF%",
+          "values": [
+            "27.0%",
+            "36.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101248,
+        "id": "brilliant_chrysanthemum",
+        "name": "Brilliant Chrysanthemum",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112106,
+        "id": "sauriancrowned_warriors_golden_whistle",
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12405",
+            "12405"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "275",
+            "275"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "930",
+            "930"
+          ]
+        },
+        {
+          "label": "DEF%",
+          "values": [
+            "36.0%",
+            "36.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104174,
+        "id": "prithiva_topaz_gemstone",
+        "name": "Prithiva Topaz Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113066,
+        "id": "goldinscribed_secret_source_core",
+        "name": "Gold-Inscribed Secret Source Core",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101248,
+        "id": "brilliant_chrysanthemum",
+        "name": "Brilliant Chrysanthemum",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112106,
+        "id": "sauriancrowned_warriors_golden_whistle",
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104350,
+          "id": "teachings_of_kindling",
+          "name": "Teachings of Kindling",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112104,
+          "id": "sentrys_wooden_whistle",
+          "name": "Sentry's Wooden Whistle",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104351,
+          "id": "guide_to_kindling",
+          "name": "Guide to Kindling",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104351,
+          "id": "guide_to_kindling",
+          "name": "Guide to Kindling",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104351,
+          "id": "guide_to_kindling",
+          "name": "Guide to Kindling",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104351,
+          "id": "guide_to_kindling",
+          "name": "Guide to Kindling",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104352,
+          "id": "philosophies_of_kindling",
+          "name": "Philosophies of Kindling",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Mirror of Mushin",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104352,
+          "id": "philosophies_of_kindling",
+          "name": "Philosophies of Kindling",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Mirror of Mushin",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104352,
+          "id": "philosophies_of_kindling",
+          "name": "Philosophies of Kindling",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Mirror of Mushin",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104352,
+          "id": "philosophies_of_kindling",
+          "name": "Philosophies of Kindling",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Mirror of Mushin",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 210300,
+      "name": "Gold-Draped Gorge",
+      "description": "Xilonen's outfit. Her usual get-up, which consists of a brilliant golden coat paired with short, no-nonsense inner garments. When she's working, Xilonen normally takes off her coat before getting down to business. When she puts it back on, you can be fairly certain that she's about to take a break.",
+      "isDefault": true,
+      "characterName": "Xilonen",
+      "characterId": 10000103,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Xilonen_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Hello, I'm Xilonen from the Children of Echoes. If you'd like me to forge some tools for you, just let me know. But I do have a quite the backlog of commissions at the moment, so even if you submit a request now, it might be a while before I get to it."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Potted Plant",
+      "text": "*sigh* My potted plant on the porch has died again. I was watering it every day... Don't tell me I overdid it this time?"
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Break Time",
+      "text": "We should take a break after all that running around... Yeah, let's rest here for a bit."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Forge Work",
+      "text": "...How many forging commissions do I still have to finish? Let's see, one, two... Hmm, not so many as I thought. I'll get to them tomorrow."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Perfect weather for a nap in the workshop..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Achoo! ...Ah, I'm awake now."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "*yawn* Time for a nap... Ooh wow, where did my sunglasses go...?"
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "The temperature's just right... Ah, but this isn't the best spot to lie down..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning. Did you get some good sleep? Here, drink this. Starting your day with something sweet will boost your mood for the whole day."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "It's afternoon now, which means... *yawn* time for a break. I'll go have a nap, just wake me up if you need anything..."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Wow, just look at the time... Yeah, let's call it a day. Let's go get some good food together to celebrate a great day of work."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Good night. Remember to fluff your pillow, otherwise, your neck will hurt in the morning."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Xilonen: Work-Life Balance",
+      "text": "No matter how busy work might get, you must set aside some time to rest. If you don't stop working, your mind and body will go on strike... And once that happens, your ability to perform good work will just go down the drain.\\nHmm? You can't find any time for a break? Well then, just say that I suddenly needed to see you for something important, and come over to my workshop to take a small nap. I'll help cover for you."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Xilonen: Sluggishness",
+      "text": "Some of my friends have told me that I can be slow at times, and that I rarely seem to get emotional. For example, one time, I was at a friend's house for a party, and we started talking about the topic of marriage. A friend asked if we would cry when she got married, and before I knew it, everyone started crying, and they were all sobbing and saying that they didn't want to lose her as a friend...\\nWell, I didn't get what everyone was crying about. I mean, isn't getting married a happy thing? You know, she's just getting married, not going away. We could still go visit her.\\nOh? What if she was sad and getting married against her wishes? Oh yeah, I've thought about that.\\nIn that case, I would just come rolling into the ceremony and steal her away. You know, I'm pretty fast, you know. Yeah, I'd save her in time."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: The Forge",
+      "text": "No matter what you are making, the temperature of the furnace is always crucial. If it's too cool, you won't be able to soften or melt the materials, and it'll be impossible to cleanse impurities. If the temperature is too high, some materials will be unusable.\\nThe way most crafters adjust the temperature is by removing fuel from the fire or adding more wood to burn.\\nAs for me, I would usually add phlogiston-rich gems to control the temperature. Phlogiston-aided flames are much stronger than that of a regular fire...\\nWhat do I do with the gems after the phlogiston is used up? I just find a place to pile them up... once the phlogiston is gone, they have nothing but aesthetic value. If you'd like some, feel free to pick out a few."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Blessing",
+      "text": "Auntie Tlazolli said she would make you a Blazegem Inscription as a gift, right? Well, given the current circumstances, I don't think she'll be able to do that for you.\\nI'll have to take up the task. Consider it a gift for helping save Nepecha.\\nHuh? I already forged an Ancient Name for you?\\nOh, no no no, that doesn't count. That name contains everyone else's blessing for you, but this inscription will contain my own blessings.\\nAh, no need to thank me, I'll let you know once it's done. As for what words to engrave... I'll let you decide."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Oh, my Vision? Yeah, it's pretty useful. Having it allows me to more accurately identify the concentration and distribution of the Geo element in various ores. That helps me quickly sort good ore from scraps.\\nOh, does it have a meaning? Huh, I've never really thought about it much. As long as it can help me with my work, I don't care about the rest."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "I often try to forge small ornaments with complex structures to hone my precision-crafting skills. For example, a web-like pendant, or woven scroll earrings... Once I finish a product, I usually give it to one of my friends or neighbors.\\nOh? Can I make rings? Of course! Just the other day, I made a ring in the shape of a Brilliant Chrysanthemum. The design schematic alone took me quite a bit of effort.\\nOh, you'd like one? Sure. Let me see your hand. Once I've measured your finger, I can forge one for you in no time."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "I really don't get how to raise plants... I've watered them once every three days, pulled out the weeds once every five days, and fertilized them twice in a week, just like the instructions said, and even made absolutely sure that they got the right amount of sunlight, yet all of my plants still withered and died.\\n*sigh* Don't tell me that even gardening requires quite a bit of luck?"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Kachina",
+      "text": "Kachina commissioned me to forge a drill for her that could not only bore into the ground, but also jump around. It wasn't that complicated to make, but adjusting the angle of the seat was tricky. In the end, Kachina took my suggestion to ditch the seat in favor of a manual control system that connects to the power core of the drill...\\nHuh? Why does Kachina bounce around when she's operating the Turbo Twirly?\\nThat's how she wanted it. She said she prefers having direct sensory feedback while she's driving, so I removed part of the shock absorption system.\\nI do wonder if I should make her some mouthguards next, though. The last thing I want is for her to bite her tongue while using the drill..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Mualani",
+      "text": "Mualani is an amazing athlete. I've never seen anyone make surfing or gliding on the Spiritways look so smooth or easy. In fact, I have yet to see Mualani ever slip up.\\nHmm? What would happen if a person or Saurian got in her way? Hmm, I'm pretty sure she would just scoop them up and keep gliding along."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Chasca",
+      "text": "To get Chasca's gun up and running in high altitude was no easy task. First, I had to make sure it would remain stable and reliable in high speed combat. Then, I had to develop standard and special ammunition that could be used for combat at high altitudes. And finally, I had to consider how to solve the issues of recoil and accuracy while flying...\\nBut Chasca told me the last two issues were no big deal, and that she'd be able to manage as long as I installed some basic mechanical crosshairs.\\nChasca has definitely proven to be an expert user of that weapon. Goes to show that she really is a flying ace of the Flower-Feather Clan."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Mavuika",
+      "text": "Mavuika has approached me with quite a few ridiculous commissions.\\nFor example, she wanted me to make her a heat-resistant sword that could withstand her flames and wouldn't melt in her hands. Oh yeah, she also asked me if I could make her a special pair of sunglasses that would let her better see enemies through the flames in combat...\\nBut the most bizarre request was that bike of hers... At the time, she would keep coming to the workshop to talk about it and insist that I make her a phlogiston-powered vehicle. She even shoved a bunch of design schematics in front of me, and yeah, who even knows where she got those... I eventually couldn't take it anymore and gave in. It took me three whole months to complete it. I heard she's been driving it through the Natlan wilderness and that no one can stop her... So yeah...\\nCompared to all of that, I'd say forging an Ancient Name for an outlander is really a relatively reasonable task."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Kinich",
+      "text": "Kinich is nice, but that Ajaw is really hard to be around.\\nSpeaking of, where did Ajaw even come from? If he originated from some kind of device, then there is actually a chance that I could make him shut up forever. Oh, maybe I should find some time to go over and discuss this with Kinich..."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Citlali",
+      "text": "Citlali would occasionally come to my workshop to buy some ore. According to her, some ores can be crushed into powder and taken as medicine to help her with divinations and ceremonies. Hm? Have I ever asked her to read my fortune? No, I'm not interested in knowing the future. I already have enough to worry about with all my present work. Besides, I always get sleepy during divination rituals..."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Ifa",
+      "text": "Ifa has come to the tribe before to heal some Tepetlisaurs. He is very skilled, and knows how to care for his patients. Even the most rambunctious Saurians will sit quietly when he's around.\\nIfa said it's all thanks to the set of Saurian syringes I made for him. Even without the needle on it, it's enough to deter any person or Saurian from misbehaving. Would you like to see it? I still have a sample set if you're interested.\\nWait here, I'll go fetch the biggest one... Huh? Why are you backing away? The needle isn't even attached, it's completely safe."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Ororon",
+      "text": "If two negatives make a positive, then a weirdo in a group of weirdos should just be normal, but Ororon somehow still seems a little off to me.\\nStill, he seems plenty nice as a person. He even had Ifa bring a bunch of fruit and honey to the Children of Echoes, presumably because he thought he had caused too much trouble for us. I had no idea you could get such sweet honey from Phlogiston Aphids, so he must know what he's doing.\\n*sigh* How can some people be such naturals with plants and animals?"
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Iansan",
+      "text": "I once helped the Collective of Plenty make a couple sets of super heavy weight plates and dumbbells.\\nWhen it was time for the goods to be picked up, Iansan came with a group from the tribe to inspect the finished products. She picked up and checked every single weight before placing them one by one into a cart. After lifting all those weights, she was barely winded, and her face was only a little red.\\nTo be honest, I'm a little jealous of them. Not only are they really strong, but they've also got a way with plants..."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Xilonen: I",
+      "text": "Even though I'm a Name Engraver, forging Ancient Names isn't my primary work. Helping people in the tribe forge tools and weapons makes up the majority of my work.\\nAfter all, Ancient Names are pretty rare, but there are countless commissions for other kinds of items..."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Xilonen: II",
+      "text": "The most exhausting part of taking commissions isn't the forging work itself — it's trying to decipher some of my clients' confusingly worded requests. I spend so much of my time just helping my client get their ideas straight so they can tell me what they actually want. Then I can finally pick up my hammer and get to work.\\nWhen I see my clients having an epiphany where they finally realize what they want, I don't get any joy out of it anymore. In fact, it makes me want to throw up. So much so that it ruins my appetite."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Xilonen: III",
+      "text": "When I don't have any commissions, I would usually make some small gadgets. For example, these shoes I'm wearing use the latest phlogiston propulsion systems, and many new types of alloys. And these headphones I'm wearing can be connected to a record player, so I can listen to a record while I work at the forge...\\nSounds complicated? Not really, it's just easier to put a little extra care into things when you're working on something you like."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Xilonen: IV",
+      "text": "The main reason I became a Name Engraver was because both my father and mother, as well as most of my kin, were also Name Engravers. When I was little, my parents would always tell me that of all the tribes in Natlan, only ours could shoulder the responsibility of forging Ancient Names. They hoped that I could also carry on the tradition when I grew older.\\nSo I agreed to take it on — that's really all there is to it."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Xilonen: V",
+      "text": "However, before I became a Name Engraver, I put a lot of thought into whether I should really get involved in such troublesome work. After all, there were a lot of easier jobs I could have picked. Even being a regular blacksmith is easier than working as a Name Engraver, and I could earn more to boot.\\nBut, in the end, I chose this path.\\nForging Ancient Names is an important task that someone must undertake, and given I happened to have the right abilities for the job, it became my duty to inherit the craft. It's just like what my father always said — \"When every person in Natlan takes up the responsibility they can shoulder, Natlan will stand strong forever.\" The job is now my duty, and I perform it regardless of my level of personal interest.\\n...And on top of that, I was the most skilled among those who studied the craft in the tribe. If I didn't become a Name Engraver, that would mean someone else would have to take it on in my stead. The other students constantly asked me questions and copied my homework. Had it become their job to forge Ancient Names, I'm sure they would constantly come bothering me with questions. So I figured that taking the job myself would be better than dealing with all that trouble... Yeah, it's more convenient for everyone, and saves me from having to worry about other people's work all day."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Xilonen's Hobbies",
+      "text": "Sleeping, spacing out, and basking in the sun... When I'm not working, even staring at blank paper seems interesting."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Xilonen's Troubles",
+      "text": "When discussing a forging commission with someone, the thing I'm most afraid of hearing is, \"This request is neither urgent nor important. Just get to it whenever you can.\"\\nIn my experience, that is basically equivalent to saying, \"I might come to rush you at anytime.\"\\n*sigh* It makes my head hurt just thinking about it, I think I'm going to go back to sleep..."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Sugar and chocolate. I work at the forge, and sweets give me the energy I need to swing my hammer."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I don't like water without any flavor. Yeah, yeah, I know that drinking pure water is better for you, but I just can't drink that stuff. Can't you at least add a little bit of sugar? Or if all else fails, a squeeze of lemon..."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Mm. Delicious, is there more? Huh? When did I finish it? Just now. I eat pretty fast, you know, and even faster when it's good."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Not bad, I'll have to treat you to some of my cooking next time."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Ah, I'm good for now. I get sleepy if I eat too much."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy Birthday. Here, this universal multi-tool set is yours to keep. It has a variety of drills and hammers, as well as three hand saws and five special-shaped prybars, which should come in handy for you in the wild. Oh, and there is also a set of ropes made from woven leather and metal wire. They should be strong enough to lift even a fully-grown Tepetlisaur. Do you know how to tie knots? If not, I can teach now. Here, watch... First, hold the rope like this, then loop it around..."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "...Meow?"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Hmm, real gold must still be refined by fire. Thank you."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "It seems my eyes are getting sharper and my arms stronger for swinging my hammer. Hold on, let me try hammering something... You should stand back."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "You've helped me so much, I can't just let you leave empty-handed. Here, take this gem that I engraved my Name on. You can use it to find me for help whenever you like. Whether you need me to fire up the forge, or accompany you on a dangerous adventure, I'll be ready to help. This promise will stand until both my Name and this stone have eroded into nothing."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Bring it."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Hmph."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "*sigh*"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Hear the echoes of the valley!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Let the mountain's veins boil!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Let engraved names echo!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "I'm keeping a lookout. Don't worry, there's no ambush."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "There's a lot of good stuff in here, wanna split it? Just kidding, you can take it."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Hmm, these should be worth something. Go on, take it."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "What a pain..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "That's enough."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "...Hmph!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "I'll take over."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Leave it to me."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "The flames... have gone out..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "The forge... grows cold..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Heh, it's time... to sleep..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "This again?"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "...How annoying!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Is it time to go?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Let's get this over with."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Alright, after you."
+    }
+  ]
+}

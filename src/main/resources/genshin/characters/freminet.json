@@ -1,0 +1,1867 @@
+{
+  "_id": 10000085,
+  "id": "freminet",
+  "name": "Freminet",
+  "title": "Yearning for Unseen Depths",
+  "description": "A reserved young man who is well-versed in diving. Beneath his distant, icy demeanor lies a pure heart bereft of all flaws.",
+  "weapon_type": {
+    "id": "claymore",
+    "name": "Claymore"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1693926000,
+  "substat": "ATK%",
+  "stats": {
+    "base": {
+      "hp": 1012.088,
+      "attack": 21.3696,
+      "defense": 59.39955
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 756.08154,
+        "attack": 15.96456,
+        "defense": 44.3745,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1293.2974,
+        "attack": 27.3078,
+        "defense": 75.90375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2009.5852,
+        "attack": 42.43212,
+        "defense": 117.94275,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2546.801,
+        "attack": 53.77536,
+        "defense": 149.472,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3084.0168,
+        "attack": 65.1186,
+        "defense": 181.00125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3621.2327,
+        "attack": 76.46184,
+        "defense": 212.5305,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Hotel Bouffes d'ete",
+  "region": {
+    "id": "fontaine",
+    "name": "Fontaine"
+  },
+  "rarity": 4,
+  "birthday": [
+    24,
+    9
+  ],
+  "constellation": "Automaton",
+  "domain": "Pale Forgotten Glory",
+  "cv": {
+    "english": "Paul Castro Jr.",
+    "chinese": "锦鲤",
+    "japanese": "土岐隼一",
+    "korean": "Lee Ju-seung"
+  },
+  "skills": [
+    {
+      "_id": 10851,
+      "id": "flowing_eddies",
+      "name": "Flowing Eddies",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br/>At the end of the sequence, performs a more powerful slash. <br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "84.2%",
+            "91.1%",
+            "98%",
+            "107.7%",
+            "114.6%",
+            "122.4%",
+            "133.2%",
+            "144%",
+            "154.8%",
+            "166.5%",
+            "178.3%",
+            "190%",
+            "201.8%",
+            "213.5%",
+            "225.3%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "80.7%",
+            "87.2%",
+            "93.8%",
+            "103.2%",
+            "109.8%",
+            "117.3%",
+            "127.6%",
+            "137.9%",
+            "148.2%",
+            "159.5%",
+            "170.7%",
+            "182%",
+            "193.2%",
+            "204.5%",
+            "215.8%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "101.9%",
+            "110.2%",
+            "118.5%",
+            "130.3%",
+            "138.6%",
+            "148.1%",
+            "161.2%",
+            "174.2%",
+            "187.2%",
+            "201.4%",
+            "215.7%",
+            "229.9%",
+            "244.1%",
+            "258.3%",
+            "272.5%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "123.8%",
+            "133.9%",
+            "144%",
+            "158.4%",
+            "168.4%",
+            "179.9%",
+            "195.8%",
+            "211.6%",
+            "227.5%",
+            "244.7%",
+            "262%",
+            "279.3%",
+            "296.6%",
+            "313.8%",
+            "331.1%"
+          ]
+        },
+        {
+          "label": "Charged Attack Cyclic DMG",
+          "values": [
+            "62.5%",
+            "67.6%",
+            "72.7%",
+            "80%",
+            "85.1%",
+            "90.9%",
+            "98.9%",
+            "106.9%",
+            "114.9%",
+            "123.6%",
+            "132.3%",
+            "141%",
+            "149.8%",
+            "158.5%",
+            "167.2%"
+          ]
+        },
+        {
+          "label": "Charged Attack Final DMG",
+          "values": [
+            "113.1%",
+            "122.3%",
+            "131.5%",
+            "144.6%",
+            "153.9%",
+            "164.4%",
+            "178.8%",
+            "193.3%",
+            "207.8%",
+            "223.6%",
+            "239.3%",
+            "255.1%",
+            "270.9%",
+            "286.7%",
+            "302.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        },
+        {
+          "label": "Max Duration",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "74.6%",
+            "80.7%",
+            "86.7%",
+            "95.4%",
+            "101.5%",
+            "108.4%",
+            "118%",
+            "127.5%",
+            "137%",
+            "147.4%",
+            "157.8%",
+            "168.3%",
+            "178.7%",
+            "189.1%",
+            "199.5%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "149.1% / 186.3%",
+            "161.3% / 201.5%",
+            "173.4% / 216.6%",
+            "190.8% / 238.3%",
+            "202.9% / 253.4%",
+            "216.8% / 270.8%",
+            "235.9% / 294.6%",
+            "254.9% / 318.4%",
+            "274% / 342.3%",
+            "294.8% / 368.2%",
+            "315.6% / 394.2%",
+            "336.4% / 420.2%",
+            "357.3% / 446.2%",
+            "378.1% / 472.2%",
+            "398.9% / 498.2%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10852,
+      "id": "pressurized_floe",
+      "name": "Pressurized Floe",
+      "description": "Performs an upward thrust that deals <span style=\"color:#99FFFFFF\">Cryo DMG</span> and causes Freminet to enter Pers Timer for 10s.<br/>While Pers Timer is active, his Elemental Skill will turn into Shattering Pressure.<br/><br/><span style=\"color:#FFD780FF\">Shattering Pressure</span><br/>Executes different sorts of attacks based on the Pressure Level of Pers Timer, and then cancels Pers Timer.<br/>·Level 0: Unleashes a vertical cut, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span>.<br/>·Levels 1 to 3: Unleashes a vertical cut alongside Pers, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span> and Physical DMG. DMG dealt scales based on Pressure Level.<br/>·Level 4: Borrows the power of a fully-pressurized Pers to deal Physical DMG. Meanwhile, Normal Attack: Flowing Eddies will be replaced by Shattering Pressure.<br/><br/><span style=\"color:#FFD780FF\">Pers Timer</span><br/>When Freminet uses Normal Attacks, he will also unleash waves of frost that deal <span style=\"color:#99FFFFFF\">Cryo DMG</span> and increase Pers's Pressure Level.<br/>The accompanying <span style=\"color:#99FFFFFF\">Cryo DMG</span> dealt this way is considered Elemental Skill DMG.<br/><br/><span style=\"color:#FFD780FF\">Arkhe: Pneuma</span><br/>At certain intervals, after using the upward thrust, a Spiritbreath Thorn in the form of another upward thrust will be created, dealing Pneuma-aligned <span style=\"color:#99FFFFFF\">Cryo DMG</span>.",
+      "info": "To immobilize one's opponent without taking their life can also be considered something of a \"survival\" strategy that one may choose.<br/><i>\"Pers... I leave the rest to you.\"</i>",
+      "attributes": [
+        {
+          "label": "Upward Thrust DMG",
+          "values": [
+            "83%",
+            "89.3%",
+            "95.5%",
+            "103.8%",
+            "110%",
+            "116.3%",
+            "124.6%",
+            "132.9%",
+            "141.2%",
+            "149.5%",
+            "157.8%",
+            "166.1%",
+            "176.5%",
+            "186.8%",
+            "197.2%"
+          ]
+        },
+        {
+          "label": "Frost DMG",
+          "values": [
+            "7.2%",
+            "7.7%",
+            "8.2%",
+            "8.9%",
+            "9.5%",
+            "10%",
+            "10.7%",
+            "11.5%",
+            "12.2%",
+            "12.9%",
+            "13.6%",
+            "14.3%",
+            "15.2%",
+            "16.1%",
+            "17%"
+          ]
+        },
+        {
+          "label": "Level 0 Shattering Pressure DMG",
+          "values": [
+            "200.5%",
+            "215.5%",
+            "230.6%",
+            "250.6%",
+            "265.6%",
+            "280.7%",
+            "300.7%",
+            "320.8%",
+            "340.8%",
+            "360.9%",
+            "380.9%",
+            "401%",
+            "426%",
+            "451.1%",
+            "476.1%"
+          ]
+        },
+        {
+          "label": "Level 1 Shattering Pressure DMG",
+          "values": [
+            "100.2% Cryo + 48.7% Physical",
+            "107.8% Cryo + 52.3% Physical",
+            "115.3% Cryo + 56% Physical",
+            "125.3% Cryo + 60.9% Physical",
+            "132.8% Cryo + 64.5% Physical",
+            "140.3% Cryo + 68.2% Physical",
+            "150.4% Cryo + 73% Physical",
+            "160.4% Cryo + 77.9% Physical",
+            "170.4% Cryo + 82.8% Physical",
+            "180.4% Cryo + 87.6% Physical",
+            "190.5% Cryo + 92.5% Physical",
+            "200.5% Cryo + 97.4% Physical",
+            "213% Cryo + 103.5% Physical",
+            "225.5% Cryo + 109.5% Physical",
+            "238.1% Cryo + 115.6% Physical"
+          ]
+        },
+        {
+          "label": "Level 2 Shattering Pressure DMG",
+          "values": [
+            "70.2% Cryo + 85.2% Physical",
+            "75.4% Cryo + 91.6% Physical",
+            "80.7% Cryo + 98% Physical",
+            "87.7% Cryo + 106.5% Physical",
+            "93% Cryo + 112.9% Physical",
+            "98.2% Cryo + 119.3% Physical",
+            "105.3% Cryo + 127.8% Physical",
+            "112.3% Cryo + 136.3% Physical",
+            "119.3% Cryo + 144.8% Physical",
+            "126.3% Cryo + 153.4% Physical",
+            "133.3% Cryo + 161.9% Physical",
+            "140.3% Cryo + 170.4% Physical",
+            "149.1% Cryo + 181.1% Physical",
+            "157.9% Cryo + 191.7% Physical",
+            "166.6% Cryo + 202.4% Physical"
+          ]
+        },
+        {
+          "label": "Level 3 Shattering Pressure DMG",
+          "values": [
+            "40.1% Cryo + 121.7% Physical",
+            "43.1% Cryo + 130.8% Physical",
+            "46.1% Cryo + 140% Physical",
+            "50.1% Cryo + 152.2% Physical",
+            "53.1% Cryo + 161.3% Physical",
+            "56.1% Cryo + 170.4% Physical",
+            "60.1% Cryo + 182.6% Physical",
+            "64.2% Cryo + 194.8% Physical",
+            "68.2% Cryo + 206.9% Physical",
+            "72.2% Cryo + 219.1% Physical",
+            "76.2% Cryo + 231.3% Physical",
+            "80.2% Cryo + 243.4% Physical",
+            "85.2% Cryo + 258.7% Physical",
+            "90.2% Cryo + 273.9% Physical",
+            "95.2% Cryo + 289.1% Physical"
+          ]
+        },
+        {
+          "label": "Level 4 Shattering Pressure DMG",
+          "values": [
+            "243.4%",
+            "261.7%",
+            "280%",
+            "304.3%",
+            "322.6%",
+            "340.8%",
+            "365.2%",
+            "389.5%",
+            "413.8%",
+            "438.2%",
+            "462.5%",
+            "486.9%",
+            "517.3%",
+            "547.7%",
+            "578.2%"
+          ]
+        },
+        {
+          "label": "Spiritbreath Thorn DMG",
+          "values": [
+            "14.4%",
+            "15.5%",
+            "16.6%",
+            "18%",
+            "19.1%",
+            "20.2%",
+            "21.6%",
+            "23%",
+            "24.5%",
+            "25.9%",
+            "27.4%",
+            "28.8%",
+            "30.6%",
+            "32.4%",
+            "34.2%"
+          ]
+        },
+        {
+          "label": "Spiritbreath Thorn Interval",
+          "values": [
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10855,
+      "id": "shadowhunters_ambush",
+      "name": "Shadowhunter's Ambush",
+      "description": "Unleashes a wave of untouchable cold, dealing <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>, resetting the CD of the Elemental Skill \"Pressurized Floe,\" and causing Freminet to enter the Subnautical Hunter mode for 10s.<br/><br/>While in Subnautical Hunter mode, Freminet's resistance to interruption will increase, and his Elemental Skill \"Pressurized Floe\" will obtain the following buffs:<br/>·CD is decreased by 70%.<br/>·Normal Attacks will increase the Pers Timer by 1 additional Pressure Level, and the frost released by his Normal Attacks deal 200% of their original DMG.<br/><br/>These effects will be canceled when Freminet leaves the field.",
+      "info": "\"Now... I have no need of any extraneous noise.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "318.4%",
+            "342.3%",
+            "366.2%",
+            "398%",
+            "421.9%",
+            "445.8%",
+            "477.6%",
+            "509.4%",
+            "541.3%",
+            "573.1%",
+            "605%",
+            "636.8%",
+            "676.6%",
+            "716.4%",
+            "756.2%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "saturation_deep_dive",
+      "name": "Saturation Deep Dive",
+      "description": "When Freminet unleashes <span style=\"color:#FFD780FF\">Pressurized Floe: Shattering Pressure</span>, if Pers Timer has yet to reach Pressure Level 4, the CD of Pressurized Floe will be decreased by 1s.",
+      "level": 1
+    },
+    {
+      "id": "parallel_condensers",
+      "name": "Parallel Condensers",
+      "description": "When Freminet triggers Shatter against opponents, the DMG dealt by <span style=\"color:#FFD780FF\">Pressurized Floe: Shattering Pressure</span> will be increased by 40% for 5s.",
+      "level": 4
+    },
+    {
+      "id": "deepwater_navigation",
+      "name": "Deepwater Navigation",
+      "description": "Decreases Aquatic Stamina consumption for your own party members by 35%.<br/>Not stackable with Passive Talents that provide the exact same effects.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 851,
+      "id": "dreams_of_the_foamy_deep",
+      "name": "Dreams of the Foamy Deep",
+      "description": "The CRIT Rate of <span style=\"color:#FFD780FF\">Pressurized Floe: Shattering Pressure</span> will be increased by 15%.",
+      "level": 1
+    },
+    {
+      "_id": 852,
+      "id": "penguins_and_the_land_of_plenty",
+      "name": "Penguins and the Land of Plenty",
+      "description": "Unleashing <span style=\"color:#FFD780FF\">Pressurized Floe: Shattering Pressure</span> will restore 2 Energy to Freminet. If a Pressure Level 4 Shattering Pressure is unleashed, this will restore 3 Energy.",
+      "level": 2
+    },
+    {
+      "_id": 853,
+      "id": "song_of_the_eddies_and_bleached_sands",
+      "name": "Song of the Eddies and Bleached Sands",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Normal Attack: Flowing Eddies</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 854,
+      "id": "dance_of_the_snowy_moon_and_flute",
+      "name": "Dance of the Snowy Moon and Flute",
+      "description": "After Freminet triggers Frozen, Shatter, Superconduct, or Stellar-Conduct against opponents, his ATK will be increased by 9% for 6s. Max 2 stacks. This can be triggered once every 0.3s.",
+      "level": 4
+    },
+    {
+      "_id": 855,
+      "id": "nights_of_hearth_and_happiness",
+      "name": "Nights of Hearth and Happiness",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Pressurized Floe</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 856,
+      "id": "moment_of_waking_and_resolve",
+      "name": "Moment of Waking and Resolve",
+      "description": "After Freminet triggers Frozen, Shatter, Superconduct, or Stellar-Conduct against opponents, his CRIT DMG will be increased by 12% for 6s. Max 3 stacks. This can be triggered once every 0.3s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1012"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "21"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "59"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2600",
+            "3356"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "55",
+            "71"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "153",
+            "197"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5027",
+            "5564"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "106",
+            "117"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "295",
+            "327"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101233,
+        "id": "romaritime_flower",
+        "name": "Romaritime Flower",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112080,
+        "id": "transoceanic_pearl",
+        "name": "Transoceanic Pearl",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6400",
+            "7117"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "135",
+            "150"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "376",
+            "418"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113050,
+        "id": "artificed_spare_clockwork_component_coppelius",
+        "name": "Artificed Spare Clockwork Component — Coppelius",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101233,
+        "id": "romaritime_flower",
+        "name": "Romaritime Flower",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112080,
+        "id": "transoceanic_pearl",
+        "name": "Transoceanic Pearl",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7953",
+            "8490"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "168",
+            "179"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "467",
+            "498"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113050,
+        "id": "artificed_spare_clockwork_component_coppelius",
+        "name": "Artificed Spare Clockwork Component — Coppelius",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101233,
+        "id": "romaritime_flower",
+        "name": "Romaritime Flower",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112081,
+        "id": "transoceanic_chunk",
+        "name": "Transoceanic Chunk",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9325",
+            "9862"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "197",
+            "208"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "547",
+            "579"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113050,
+        "id": "artificed_spare_clockwork_component_coppelius",
+        "name": "Artificed Spare Clockwork Component — Coppelius",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101233,
+        "id": "romaritime_flower",
+        "name": "Romaritime Flower",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112081,
+        "id": "transoceanic_chunk",
+        "name": "Transoceanic Chunk",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10698",
+            "11235"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "226",
+            "237"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "628",
+            "659"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113050,
+        "id": "artificed_spare_clockwork_component_coppelius",
+        "name": "Artificed Spare Clockwork Component — Coppelius",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101233,
+        "id": "romaritime_flower",
+        "name": "Romaritime Flower",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112082,
+        "id": "xenochromatic_crystal",
+        "name": "Xenochromatic Crystal",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12071",
+            "12071"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "255",
+            "255"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "708",
+            "708"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113050,
+        "id": "artificed_spare_clockwork_component_coppelius",
+        "name": "Artificed Spare Clockwork Component — Coppelius",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101233,
+        "id": "romaritime_flower",
+        "name": "Romaritime Flower",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112082,
+        "id": "xenochromatic_crystal",
+        "name": "Xenochromatic Crystal",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104341,
+          "id": "teachings_of_justice",
+          "name": "Teachings of Justice",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112080,
+          "id": "transoceanic_pearl",
+          "name": "Transoceanic Pearl",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112081,
+          "id": "transoceanic_chunk",
+          "name": "Transoceanic Chunk",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112081,
+          "id": "transoceanic_chunk",
+          "name": "Transoceanic Chunk",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112081,
+          "id": "transoceanic_chunk",
+          "name": "Transoceanic Chunk",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104342,
+          "id": "guide_to_justice",
+          "name": "Guide to Justice",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112081,
+          "id": "transoceanic_chunk",
+          "name": "Transoceanic Chunk",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112082,
+          "id": "xenochromatic_crystal",
+          "name": "Xenochromatic Crystal",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113046,
+          "id": "worldspan_fern",
+          "name": "Worldspan Fern",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112082,
+          "id": "xenochromatic_crystal",
+          "name": "Xenochromatic Crystal",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113046,
+          "id": "worldspan_fern",
+          "name": "Worldspan Fern",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112082,
+          "id": "xenochromatic_crystal",
+          "name": "Xenochromatic Crystal",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113046,
+          "id": "worldspan_fern",
+          "name": "Worldspan Fern",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104343,
+          "id": "philosophies_of_justice",
+          "name": "Philosophies of Justice",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112082,
+          "id": "xenochromatic_crystal",
+          "name": "Xenochromatic Crystal",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113046,
+          "id": "worldspan_fern",
+          "name": "Worldspan Fern",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 208500,
+      "name": "Icy Skin",
+      "description": "Freminet's outfit. This suit wraps around the deep diver like a second skin, his constant companion in countless sallies to the silent seabed.",
+      "isDefault": true,
+      "characterName": "Freminet",
+      "characterId": 10000085,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Freminet_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Hello, my name's Freminet, I'm a diver... Oh, no need to shake hands. I mean, no need to be so formal. Ahem, if you need help surveying underwater ruins or salvaging materials, I can be of some use to you. But for anything else... You might find me a disappointment."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Ocean Depths",
+      "text": "I want to spend some time at the bottom of the sea... In peace and total silence."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Principles",
+      "text": "It's easy to fix a machine when you know how it's built and how it works. But people... they're much more difficult."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Home",
+      "text": "Wherever the tide takes me, so long as the light of the hearth still shines, I'll always have a home to return to..."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "I always get so gloomy when it rains..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "The rain's stopped? Okay, that's good."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Don't be scared, Pers. I'll keep you safe."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Maybe I should put on my diving helmet to... keep me warm..."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "I'd rather be diving in the sea."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning. Do you have an assignment for me today? If not, I'll head out."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "All the components look intact. Maybe it's just a worn-out spring? If so, that's an easy fix... Oh, sorry, I was... Did you say something?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Want a bowl of seafood soup? It's made with shrimp and shellfish caught earlier today. I'm no cook, but the ingredients are fresh, so... it shouldn't taste too bad."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "You go ahead, I'm gonna stay up and read for a while. Hmm? What am I reading? It's, um... it's about diving. There's a bunch of skills that I still need to... Anyway, night!"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Freminet: Diving",
+      "text": "As you know, diving is one of the few things I'm any good at. I spend more time among the Tidalga than I do talking to people. They don't ask you questions or act disappointed, they just float there quietly with you... The underwater world is much simpler than the world of dry land."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Freminet: Clockwork Penguin",
+      "text": "Whenever I feel lonely at night, Pers is the one who's always there for me. I thought that maybe some other kids might want a toy for company too, so I made a bunch of clockwork penguins and took them to Leschots's workshop to put on sale... Apparently, the customer feedback was good, but they didn't sell too many of them. And most of the buyers were adults..."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Orders",
+      "text": "Orders to me are like a clockwork spring driving me forward, and I don't know what to do with myself without them. So if there's anything you need me for, please don't hesitate to ask."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Companionship",
+      "text": "Tell me a bit more about yourself. Your hobbies, favorite food, favorite color, what animal you'd like to have as a pet... If you and I are companions, it means we're connected, more closely than gears in a machine."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "After I got my Vision, I didn't need my helmet to go diving anymore. But... I can't bear to be without it. It cuts me off from the noise of the outside world, and makes me feel safe. My Vision, Pers, and my helmet... I draw my strength from them every time I take a breath."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "If you look up at the sky from far enough underwater, even the sun is soft on the eyes. That's why I like it down there."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things: Beryl Conches",
+      "text": "I've seen lots of Beryl Conches down in the depths. The patterns are so intricate, I often lose track of the time just staring at them. These fossils are all that's left of these beautiful creatures... I wonder how long before the rest of the world becomes part of this underwater museum, too?"
+    },
+    {
+      "id": "3004",
+      "type": 1,
+      "title": "Interesting Things: Lumitoile",
+      "text": "Lumitoile attach themselves to many things. Sometimes on the reefs or docks, but most commonly on large underwater buildings. Do you think they're drawn to humans like Cicins are drawn to the light?"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About \"Father\": Tears",
+      "text": "\"Father\" doesn't like it when children cry. \"Father\" says tears are the product of emotion and weakness. So when \"Father\" scolds me, I hold it in until I'm underwater, where no one can hear me cry. At least I have the Romaritime Flowers to keep me company."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About \"Father\": Teaching",
+      "text": "When I was little, I was taught that we should be ready to give our lives for our family. But when \"Father\" took control, this philosophy changed. \"Father\" said that every one of us is important, and we have to value our own lives, be our strongest selves, and stand on our own two feet in this world... But actually, all of that's much harder than just following orders."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Lyney: Magic Shows",
+      "text": "At home, Lyney's always showing me his magic tricks. Whenever I smile, he grins excitedly and says the audience is definitely going to love this one... Do I really smile so rarely?"
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Lyney: Mask",
+      "text": "Lyney is our team leader, and acts like everyone's older brother... But I can tell that he puts on a brave face sometimes. I tried to talk to him about it once — told him that he doesn't need to wear a mask all the time. But he denied it, and we ended up having an argument... Since then, I've never brought it up with him again."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Lynette",
+      "text": "If you assigned Lyney and Lynette with the same mission, they'd both do an outstanding job. But not me. Lynette is always comforting me, saying that everyone has their strengths, and how everyone relies on me to fix things around the house when they break down... If only I was half as good at anything else."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Neuvillette",
+      "text": "One day when I surfaced after a dive, the Chief Justice was just standing there alone on the beach. I don't know whether he had something on his mind, or was just enjoying the view... Obviously, I didn't ask. I only locked eyes with him for a split-second before disappearing back underwater. Thinking back, I must have looked so guilty... *sigh*"
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Furina: Avoiding the Question",
+      "text": "Uh... I'm in no position to give a well-rounded opinion on the Hydro Archon, so... I'll pass. I mean, I've only seen her a few times... so I'm sure I have a somewhat skewed view of her."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Furina: Verdict",
+      "text": "...Okay fine. I've seen what the Hydro Archon's like when she's sitting in the audience. In my view, she's a very charismatic speaker, but it's her silences that intrigue me more. Her eyes... they're like the darkness at the bottom of the ocean. Hiding a deep secret, afraid of anyone ever getting close to her... Ah! Sorry, I... I let my imagination get the better of me."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Navia",
+      "text": "Lyney told me everything. I'm so grateful to you and Navia for your warmth and generosity. Please pass on my thanks when you see her... Huh? Tell her myself? ...Uh, I, uh... Ooh, I've suddenly got stomach cramps — sorry, gotta dash."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Charlotte",
+      "text": "For some reason, Charlotte never believes me when I say I'm just an ordinary diver. She's convinced that my past is full of news stories waiting for her to dig up... Am I really that bad of a liar?"
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Clorinde",
+      "text": "I owe Clorinde my life, but she says she doesn't want anything from me in return... It's not a nice feeling, having put someone out so much, and only being able to offer empty thank-yous in return."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Chevreuse",
+      "text": "I hear that Chevreuse is a regular customer of Beaumont Workshop. She always purchases the most expensive and advanced components for her musket. If I make enough Mora, maybe one day I can afford to upgrade Pers's components."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Freminet: I",
+      "text": "I'm sorry, I can't really think of any good stories to share... the ones I do know will just bring down your mood."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Freminet: II",
+      "text": "My past... If you promise not to look at me, or you'll let me wear my diving helmet... Maybe then I could try to tell you a little more. Personality's one part of it, but... the bigger reason is that I've been avoiding my past for so long now, it might be hard to talk about..."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Freminet: III",
+      "text": "I read in a book that when people die, they turn into stars and watch over us from the sky... I hate my real father. He abandoned my mother and me, so I don't care about him. But... if my mother looks down from the sky and sees that, after all this time in his new home, the child she protected with her life is still so timid that he can't fend for himself... Will she be... disappointed in me?"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Freminet: IV",
+      "text": "I don't like thinking about my time in the House of the Hearth under the previous director. All I'll say is... My habit of retreating into the sea started back then. \"Father\" changed not only me, but my view of our family, too. Then Lyney and Lynette joined the family... and for the first time ever, I gained some genuine companions."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Freminet: V",
+      "text": "I once swore an oath that I would do whatever it takes to protect this family, and never look back. Now, I stay true to this oath not because it's the previous director's orders, or because it's what \"Father\" expects of me, but because it's my own desire. Please keep our family's secret safe... so that I can keep my promise."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Freminet's Hobbies",
+      "text": "Apart from diving, my main hobby is dismantling mechanical things and modifying them. I also collect spare parts, and sometimes I build new clockwork toys out of them. ...Pers? No, Pers is more like family to me. We grew up together... No, I'm serious. I'm always tinkering with it to add more functionality... I truly hope that a day will come when Pers can fly free into the sky."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Freminet's Troubles",
+      "text": "...That's a tough question. I don't have any critical issues that need addressing, but at the same time, there's a long laundry list of minor things which all take their toll. If I was a clockwork toy on the shelf, I wouldn't even know where to start trying to fix me up... But at the end of the day, I guess it all comes down to one thing... I'm just too weak."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Seafood. Mainly fish and shrimp, crab's okay too. I'm really glad that Lyney and Lynette share my tastes, because it means we can eat meals together... I don't mind how the ingredients are cooked, though. I leave that decision up to them."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I can't handle coffee. More than half a cup and before long, my heart starts racing and I can't calm my breathing down. Everyone says that coffee can boost your energy levels, but to me, it's torture..."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "It's good. So good, I don't want to eat all of it in one go."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Is cooking one of your hobbies? It shows. I can taste how much care you put into these delicious meals."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Sorry... For a moment there I had the urge to run for my life. But that wouldn't be fair to you."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Would you be willing to come with me somewhere? There's this place I know where the scenery is spectacular. I think it's even more magical than a fantasy novel. I have a secret hideout there, and I keep some glowing sea creatures as pets... I just want to give you a birthday experience like you've never had before, and then give you my birthday wishes... Will you give me the chance to do that?"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Are... Are you sure?"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "You didn't have to do this for me, you know. I'd obey you regardless."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Your time and energy is a precious resource. Shouldn't you... spend it on someone else?"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "How can I ever repay you for this? I don't know what to say, I... I don't have much practice at this, and right now I'm terrified of saying something stupid and upsetting you... and making you regret this whole thing... I'm sorry, is it okay if I just... say nothing, and just stay here with you for a while?"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Pers!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Get in gear."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Frost is coming."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Going under."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Commencing cleanup."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Dead reckoning."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "If there's any scrap metal or parts you don't want, I'll take them."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "There's a lot of treasure here."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Sort the items by type and store them for future use."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "I've had worse."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "I can take it..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Just keep breathing..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "You're wounded..."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Um, maybe... You should..."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "No home... to return to..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Sinking... feeling..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "\"Father\"..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Oh no..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Please, no..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Yes, take me with you."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "At your command."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Well, I've got nowhere to go..."
+    }
+  ]
+}

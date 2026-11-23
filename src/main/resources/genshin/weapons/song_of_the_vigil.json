@@ -1,0 +1,328 @@
+{
+  "_id": 13436,
+  "id": "song_of_the_vigil",
+  "name": "Song of the Vigil",
+  "description": "A long spear that once stood guard over all. Today, it has found a new purpose with children and their games of make-believe.",
+  "rarity": 4,
+  "type": {
+    "id": "Polearm",
+    "name": "Polearm"
+  },
+  "domain": "Domain of Forgery: Scars of Cursed Obsession",
+  "passive": "Cadence of Days Gone By",
+  "bonus": "Triggering an Elemental Reaction regenerates <span>4/5/6/7/8</span> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <span>20%/25%/30%/35%/40%</span> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+  "specialProp": "Elemental Mastery",
+  "stats": {
+    "primary": "Base ATK",
+    "secondary": "Elemental Mastery",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 24
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 119,
+        "secondary": 42
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 144,
+        "secondary": 42
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 226,
+        "secondary": 62
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 252,
+        "secondary": 62
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 293,
+        "secondary": 71
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 319,
+        "secondary": 71
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 361,
+        "secondary": 81
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 387,
+        "secondary": 81
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 429,
+        "secondary": 91
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 455,
+        "secondary": 91
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 497,
+        "secondary": 101
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 523,
+        "secondary": 101
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 565,
+        "secondary": 110
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "_id": 114093,
+          "id": "the_frost_emperors_revival",
+          "name": "The Frost Emperor's Revival",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112155,
+          "id": "hollow_root_of_life",
+          "name": "Hollow Root of Life",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112146,
+          "id": "ethereal_glimmershard",
+          "name": "Ethereal Glimmershard",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "_id": 114094,
+          "id": "the_frost_emperors_ceremony",
+          "name": "The Frost Emperor's Ceremony",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "_id": 112155,
+          "id": "hollow_root_of_life",
+          "name": "Hollow Root of Life",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "_id": 112146,
+          "id": "ethereal_glimmershard",
+          "name": "Ethereal Glimmershard",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "_id": 114094,
+          "id": "the_frost_emperors_ceremony",
+          "name": "The Frost Emperor's Ceremony",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112156,
+          "id": "sprout_node_of_life",
+          "name": "Sprout Node of Life",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112147,
+          "id": "ethereal_crystal",
+          "name": "Ethereal Crystal",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "_id": 114095,
+          "id": "the_frost_emperors_lament",
+          "name": "The Frost Emperor's Lament",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "_id": 112156,
+          "id": "sprout_node_of_life",
+          "name": "Sprout Node of Life",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 112147,
+          "id": "ethereal_crystal",
+          "name": "Ethereal Crystal",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "_id": 114095,
+          "id": "the_frost_emperors_lament",
+          "name": "The Frost Emperor's Lament",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112157,
+          "id": "coiled_core_of_life",
+          "name": "Coiled Core of Life",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "_id": 112148,
+          "id": "ethereal_crystalscale_stone",
+          "name": "Ethereal Crystalscale Stone",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "_id": 114096,
+          "id": "the_frost_emperors_farewell",
+          "name": "The Frost Emperor's Farewell",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "_id": 112157,
+          "id": "coiled_core_of_life",
+          "name": "Coiled Core of Life",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "_id": 112148,
+          "id": "ethereal_crystalscale_stone",
+          "name": "Ethereal Crystalscale Stone",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinement_raw": {
+    "name": "Cadence of Days Gone By",
+    "template": "Triggering an Elemental Reaction regenerates <span style=\"color:#99FFFFFF\">{0}</span> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <span style=\"color:#99FFFFFF\">{1}</span> for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+    "params": [
+      [
+        "4",
+        "20%"
+      ],
+      [
+        "5",
+        "25%"
+      ],
+      [
+        "6",
+        "30%"
+      ],
+      [
+        "7",
+        "35%"
+      ],
+      [
+        "8",
+        "40%"
+      ]
+    ]
+  },
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Triggering an Elemental Reaction regenerates <span>4</span> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <span>20%</span> for 12s. The aforementioned effects can trigger even when the character is not on the field."
+    },
+    {
+      "refinement": 2,
+      "desc": "Triggering an Elemental Reaction regenerates <span>5</span> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <span>25%</span> for 12s. The aforementioned effects can trigger even when the character is not on the field."
+    },
+    {
+      "refinement": 3,
+      "desc": "Triggering an Elemental Reaction regenerates <span>6</span> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <span>30%</span> for 12s. The aforementioned effects can trigger even when the character is not on the field."
+    },
+    {
+      "refinement": 4,
+      "desc": "Triggering an Elemental Reaction regenerates <span>7</span> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <span>35%</span> for 12s. The aforementioned effects can trigger even when the character is not on the field."
+    },
+    {
+      "refinement": 5,
+      "desc": "Triggering an Elemental Reaction regenerates <span>8</span> Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by <span>40%</span> for 12s. The aforementioned effects can trigger even when the character is not on the field."
+    }
+  ]
+}

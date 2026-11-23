@@ -1,0 +1,1797 @@
+{
+  "_id": 10000077,
+  "id": "yaoyao",
+  "name": "Yaoyao",
+  "title": "Burgeoning Grace",
+  "description": "Streetward Rambler's youngest disciple. A gentle and caring \"little adult.\"",
+  "weapon_type": {
+    "id": "polearm",
+    "name": "Polearm"
+  },
+  "element": {
+    "id": "dendro",
+    "name": "Dendro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1673906400,
+  "substat": "HP%",
+  "stats": {
+    "base": {
+      "hp": 1030.3239,
+      "attack": 17.808,
+      "defense": 62.9475
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 769.70465,
+        "attack": 13.3038,
+        "defense": 47.025,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1316.6001,
+        "attack": 22.7565,
+        "defense": 80.4375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2045.794,
+        "attack": 35.3601,
+        "defense": 124.9875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2592.6895,
+        "attack": 44.8128,
+        "defense": 158.4,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3139.5847,
+        "attack": 54.2655,
+        "defense": 191.8125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3686.4802,
+        "attack": 63.7182,
+        "defense": 225.225,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Streetward Rambler's Abode",
+  "region": {
+    "id": "liyue",
+    "name": "Liyue"
+  },
+  "rarity": 4,
+  "birthday": [
+    6,
+    3
+  ],
+  "constellation": "Osmanthus",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Kelsey Jaffer",
+    "chinese": "刘颐诺",
+    "japanese": "門脇舞以",
+    "korean": "Yu Hye-ji"
+  },
+  "skills": [
+    {
+      "_id": 10771,
+      "id": "toss_n_turn_spear",
+      "name": "Toss 'N' Turn Spear",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive spear strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "51%",
+            "55.2%",
+            "59.3%",
+            "65.2%",
+            "69.4%",
+            "74.1%",
+            "80.7%",
+            "87.2%",
+            "93.7%",
+            "100.8%",
+            "107.9%",
+            "115%",
+            "122.2%",
+            "129.3%",
+            "136.4%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "47.4%",
+            "51.3%",
+            "55.2%",
+            "60.7%",
+            "64.5%",
+            "69%",
+            "75%",
+            "81.1%",
+            "87.2%",
+            "93.8%",
+            "100.4%",
+            "107%",
+            "113.6%",
+            "120.3%",
+            "126.9%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "31.4% + 32.9%",
+            "33.9% + 35.6%",
+            "36.5% + 38.3%",
+            "40.1% + 42.1%",
+            "42.7% + 44.8%",
+            "45.6% + 47.9%",
+            "49.6% + 52.1%",
+            "53.6% + 56.3%",
+            "57.6% + 60.5%",
+            "62% + 65.1%",
+            "66.4% + 69.7%",
+            "70.8% + 74.3%",
+            "75.2% + 78.9%",
+            "79.5% + 83.5%",
+            "83.9% + 88.1%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "77.9%",
+            "84.3%",
+            "90.6%",
+            "99.7%",
+            "106%",
+            "113.3%",
+            "123.2%",
+            "133.2%",
+            "143.2%",
+            "154.1%",
+            "164.9%",
+            "175.8%",
+            "186.7%",
+            "197.5%",
+            "208.4%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "112.7%",
+            "121.8%",
+            "131%",
+            "144.1%",
+            "153.3%",
+            "163.8%",
+            "178.2%",
+            "192.6%",
+            "207%",
+            "222.7%",
+            "238.4%",
+            "254.1%",
+            "269.9%",
+            "285.6%",
+            "301.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10772,
+      "id": "raphanus_sky_cluster",
+      "name": "Raphanus Sky Cluster",
+      "description": "Calls upon \"Yuegui: Throwing Mode,\" a special device created by a certain adeptus to help Yaoyao solve her problems.<br/>This skill will be used differently in Holding Mode.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Enters Aiming Mode to adjust the throw direction.<br/><br/><span style=\"color:#FFD780FF\">Yuegui: Throwing Mode</span><br/>Throws out White Jade Radishes that will explode upon hitting characters or opponents, dealing <span style=\"color:#99FF88FF\">Dendro DMG</span> to opponents within a certain AoE, and healing characters within that same AoE based on Yaoyao's Max HP. If a radish does not hit either an opponent or a character, the radish will remain where it is and explode on contact with a character or opponent, or will explode after its duration expires.<br/>Yuegui: Throwing Mode will choose its radish-throw targets.<br/>·If all nearby characters have more than 70% HP remaining, then it will throw the radish at a nearby opponent.<br/>·If nearby characters have 70% or less HP remaining, it will throw a radish at the character with the lowest HP percentage remaining. If no opponents exist nearby, Yuegui will also throw White Jade Radishes at characters if they all have more than 70% HP and less than 100% HP remaining. Otherwise, it will throw radishes into the area at random.<br/><br/>A maximum of 2 instances of Yuegui: Throwing Mode can exist at any one time.",
+      "info": "\"A radish a day keeps trouble away! ... Oh, this isn't about a radish's medical properties, exactly, but it does have some health benefits, yeah!\"",
+      "attributes": [
+        {
+          "label": "White Jade Radish DMG",
+          "values": [
+            "29.9%",
+            "32.2%",
+            "34.4%",
+            "37.4%",
+            "39.6%",
+            "41.9%",
+            "44.9%",
+            "47.9%",
+            "50.9%",
+            "53.9%",
+            "56.8%",
+            "59.8%",
+            "63.6%",
+            "67.3%",
+            "71.1%"
+          ]
+        },
+        {
+          "label": "White Jade Radish Healing",
+          "values": [
+            "1.71% Max HP + 165",
+            "1.84% Max HP + 182",
+            "1.97% Max HP + 199",
+            "2.14% Max HP + 219",
+            "2.27% Max HP + 239",
+            "2.4% Max HP + 261",
+            "2.57% Max HP + 285",
+            "2.74% Max HP + 310",
+            "2.91% Max HP + 336",
+            "3.09% Max HP + 363",
+            "3.26% Max HP + 392",
+            "3.43% Max HP + 422",
+            "3.64% Max HP + 454",
+            "3.86% Max HP + 487",
+            "4.07% Max HP + 521"
+          ]
+        },
+        {
+          "label": "Yuegui: Throwing Mode Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "White Jade Radish Duration",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10775,
+      "id": "moonjade_descent",
+      "name": "Moonjade Descent",
+      "description": "At the enjoinment of a certain adeptus, Yuegui's full potential can be unleashed in an emergency, dealing <span style=\"color:#99FF88FF\">Dendro DMG</span> to nearby opponents and entering an (in some sense) unsurpassed Adeptal Legacy state.<br/><br/><span style=\"color:#FFD780FF\">Adeptal Legacy</span><br/>·White Jade Radishes generated will be changed to heal and deal DMG according to this skill. Explosions will heal all nearby party members, and the <span style=\"color:#99FF88FF\">Dendro DMG</span> that they deal will be viewed as Elemental Burst DMG instead.<br/>·Summons \"Yuegui: Jumping Mode\" at intervals until their limit has been reached. The behavior of this version of Yuegui is the same as that of \"Yuegui: Throwing Mode\" in the Elemental Skill, Raphanus Sky Cluster. A maximum of 3 Yuegui: Jumping Mode can exist at any one time.<br/>·Yaoyao's Movement SPD is increased by 15%.<br/>·Yaoyao's <span style=\"color:#99FF88FF\">Dendro RES</span> will be increased.<br/><br/>The Adeptal Legacy state will end once Yaoyao is off-field, and all remaining Yuegui: Jumping Mode will be cleared once this state ends.",
+      "info": "\"Eh? Which one of these is actually Yuegui, you ask? Aren't they all Yuegui?\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "114.6%",
+            "123.2%",
+            "131.7%",
+            "143.2%",
+            "151.8%",
+            "160.4%",
+            "171.8%",
+            "183.3%",
+            "194.8%",
+            "206.2%",
+            "217.7%",
+            "229.1%",
+            "243.4%",
+            "257.8%",
+            "272.1%"
+          ]
+        },
+        {
+          "label": "Adeptal Legacy White Jade Radish DMG",
+          "values": [
+            "72.2%",
+            "77.6%",
+            "83%",
+            "90.2%",
+            "95.6%",
+            "101%",
+            "108.2%",
+            "115.5%",
+            "122.7%",
+            "129.9%",
+            "137.1%",
+            "144.3%",
+            "153.3%",
+            "162.4%",
+            "171.4%"
+          ]
+        },
+        {
+          "label": "Adeptal Legacy White Jade Radish Healing",
+          "values": [
+            "2.02% Max HP + 194",
+            "2.17% Max HP + 214",
+            "2.32% Max HP + 235",
+            "2.52% Max HP + 257",
+            "2.67% Max HP + 282",
+            "2.82% Max HP + 308",
+            "3.03% Max HP + 335",
+            "3.23% Max HP + 364",
+            "3.43% Max HP + 395",
+            "3.63% Max HP + 427",
+            "3.83% Max HP + 461",
+            "4.03% Max HP + 497",
+            "4.29% Max HP + 534",
+            "4.54% Max HP + 573",
+            "4.79% Max HP + 613"
+          ]
+        },
+        {
+          "label": "Dendro RES Bonus",
+          "values": [
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%"
+          ]
+        },
+        {
+          "label": "Adeptal Legacy Duration",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "starscatter",
+      "name": "Starscatter",
+      "description": "While affected by the Adeptal Legacy state caused by <span style=\"color:#FFD780FF\">Moonjade Descent</span>, Yaoyao will constantly throw White Jade Radishes at nearby opponents when she is sprinting, jumping, or running. She can throw 1 White Jade Radish this way once every 0.6s.",
+      "level": 1
+    },
+    {
+      "id": "in_others_shoes",
+      "name": "In Others' Shoes",
+      "description": "When <span style=\"color:#FFD780FF\">White Jade Radishes</span> explode, active characters within their AoE will regain HP every 1s based on 0.8% of Yaoyao's Max HP. This effect lasts 5s.",
+      "level": 4
+    },
+    {
+      "id": "tailing_on_tiptoes",
+      "name": "Tailing on Tiptoes",
+      "description": "When Yaoyao is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.<br/>Check the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 771,
+      "id": "adeptus_tutelage",
+      "name": "Adeptus' Tutelage",
+      "description": "When <span style=\"color:#FFD780FF\">White Jade Radishes</span> explode, active characters within their AoE will gain 15% <span style=\"color:#99FF88FF\">Dendro DMG Bonus</span> for 8s and have 15 Stamina restored to them. This form of Stamina Restoration can only be triggered every 5s.",
+      "level": 1
+    },
+    {
+      "_id": 772,
+      "id": "innocent",
+      "name": "Innocent",
+      "description": "While affected by the Adeptal Legacy state caused by <span style=\"color:#FFD780FF\">Moonjade Descent</span>, if White Jade Radish explosions hit opponents, 3 Energy will be restored to Yaoyao. This form of Energy regeneration can occur once every 0.8s.",
+      "level": 2
+    },
+    {
+      "_id": 773,
+      "id": "loyal_and_kind",
+      "name": "Loyal and Kind",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Raphanus Sky Cluster</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 774,
+      "id": "winsome",
+      "name": "Winsome",
+      "description": "After using <span style=\"color:#FFD780FF\">Raphanus Sky Cluster</span> or <span style=\"color:#FFD780FF\">Moonjade Descent</span>, Yaoyao's Elemental Mastery will be increased based on 0.3% of her Max HP for 8s. The maximum Elemental Mastery she can gain this way is 120.",
+      "level": 4
+    },
+    {
+      "_id": 775,
+      "id": "compassionate",
+      "name": "Compassionate",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Moonjade Descent</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 776,
+      "id": "beneficent",
+      "name": "Beneficent",
+      "description": "For every 2 White Jade Radishes <span style=\"color:#FFD780FF\">Yuegui: Throwing Mode</span> throws out, the next throw will also release a Mega Radish that will have a larger AoE than the standard White Jade Radish and have the following effects upon exploding:<br/>·Deals <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> based on 75% of Yaoyao's ATK.<br/>·Restores HP for the active character based on 7.5% of Yaoyao's Max HP.<br/><br/>Every Yuegui: Throwing Mode can throw out a maximum of 2 Mega Radishes.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1030"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "18"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "63"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2647",
+            "3417"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "46",
+            "59"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "162",
+            "209"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5118",
+            "5665"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "88",
+            "98"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "313",
+            "346"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104131,
+        "id": "nagadus_emerald_sliver",
+        "name": "Nagadus Emerald Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100027,
+        "id": "jueyun_chili",
+        "name": "Jueyun Chili",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112002,
+        "id": "slime_condensate",
+        "name": "Slime Condensate",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6516",
+            "7245"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "113",
+            "125"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "398",
+            "443"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104132,
+        "id": "nagadus_emerald_fragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100027,
+        "id": "jueyun_chili",
+        "name": "Jueyun Chili",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112002,
+        "id": "slime_condensate",
+        "name": "Slime Condensate",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8096",
+            "8643"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "140",
+            "149"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "495",
+            "528"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104132,
+        "id": "nagadus_emerald_fragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100027,
+        "id": "jueyun_chili",
+        "name": "Jueyun Chili",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112003,
+        "id": "slime_secretions",
+        "name": "Slime Secretions",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9493",
+            "10040"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "164",
+            "174"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "580",
+            "613"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104133,
+        "id": "nagadus_emerald_chunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100027,
+        "id": "jueyun_chili",
+        "name": "Jueyun Chili",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112003,
+        "id": "slime_secretions",
+        "name": "Slime Secretions",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10891",
+            "11438"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "188",
+            "198"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "665",
+            "699"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104133,
+        "id": "nagadus_emerald_chunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100027,
+        "id": "jueyun_chili",
+        "name": "Jueyun Chili",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112004,
+        "id": "slime_concentrate",
+        "name": "Slime Concentrate",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12289",
+            "12289"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "212",
+            "212"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "751",
+            "751"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104134,
+        "id": "nagadus_emerald_gemstone",
+        "name": "Nagadus Emerald Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100027,
+        "id": "jueyun_chili",
+        "name": "Jueyun Chili",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112004,
+        "id": "slime_concentrate",
+        "name": "Slime Concentrate",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104313,
+          "id": "teachings_of_diligence",
+          "name": "Teachings of Diligence",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112002,
+          "id": "slime_condensate",
+          "name": "Slime Condensate",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Daka's Bell",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Daka's Bell",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Daka's Bell",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Daka's Bell",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 207701,
+      "name": "Rainlit Bamboo Reverie",
+      "description": "Yaoyao's outfit. New shoots cast shifting shadows on the desk in disarray; at times the guest who enters is not the wind at play.",
+      "isDefault": false,
+      "characterName": "Yaoyao",
+      "characterId": 10000077,
+      "source": [
+        "Purchased from the Shop"
+      ],
+      "filename_card": "UI_AvatarIcon_YaoyaoCostumeWinter_Card",
+      "filename_icon": "UI_AvatarIcon_YaoyaoCostumeWinter",
+      "filename_iconCircle": "UI_AvatarIcon_YaoyaoCostumeWinter_Circle",
+      "filename_splash": "UI_Costume_YaoyaoCostumeWinter",
+      "filename_sideIcon": "UI_AvatarIcon_Side_YaoyaoCostumeWinter"
+    },
+    {
+      "id": 207700,
+      "name": "Cherubic Osmanthus",
+      "description": "Yaoyao's outfit. A lovely, short jacket Yaoyao's parents made for her. As the little girl travels safely between Qingce Village and Liyue Harbor, this jacket, along with the adeptal bells her master gave her, always keeps her company.",
+      "isDefault": true,
+      "characterName": "Yaoyao",
+      "characterId": 10000077,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Yaoyao_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Hello, I'm Yaoyao, a lowly disciple of the adeptus, Streetward Rambler. It's a pleasure to make your acquaintance! If you encounter any difficulties outdoors... then lemme help you! Oh, by the way, I brought some Fried Radish Balls with me, help yourself! Don't eat too many, though — too much oily stuff is hard work for your body. If you're still hungry, I also brought a freshly washed radish and some vinegar, so I could make you a shredded radish salad if you want~"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Proverbs",
+      "text": "\"Don't put off until tomorrow what you can do today!\" C'mon, let's get a move on!"
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Join In the Fun",
+      "text": "Ooh, what's happening over there? Can we take a sneaky peek, huh? Can we?"
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Adepti-Seeking",
+      "text": "Why do so many people make such a big deal out of \"seeking the adepti\"? There's adepti everywhere! Isn't there?"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Hey, can you hear the frogs croaking? Hehe, silly frogs! They're singing along to the sound of the rain! Ribbit, ribbit, ribbit~"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Wh—Whaa! I—I'll cover your ears for you, a—and if you're scared, you can hold my hand."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "It's snowing, yay! Uh! First things first: You have to wrap up warm. Put your big fluffy coat on... uh-huh, and your woolly hat and scarf, yep— Ah-ah-ah! Don't forget your gloves. ...Good! Alright, let's go build a snowman!"
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "The weather's so nice. Let's go have a walk around the harbor!"
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Ooh, it's getting windy. Be careful not to get blown away."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Time to get up! Your breakfast is ready, so you'd better hurry... Uh, huh? You still wanna snooze a while? ...Well, okay — but five minutes and that's all, okay? Five minutes, and I'll be back to wake you up again. *sigh* I knew I should have sent you to bed earlier..."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Now, don't forget: You don't wanna nap right away after a big lunch, but you also mustn't go racing off on an adventure. You gotta wait for your food to go down, or you'll get a tummy-ache."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Huh? You're going out again tonight? Hmm, what time do you plan on getting back? *sigh* Well, it's dark out, so be really careful..."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Time for your bedtime story... Now, where did we get to last t—time... Ah, yes: \"Ever since ancient times... the mighty and illuminated adepti have protected Liyue against evil. Among them, mmngh mmph...\""
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Yaoyao: The Liyue Docks",
+      "text": "You know the docks in Liyue Harbor? There's always loads of people talking, shouting, laughing, it's great! Totally different from back home. It's so quiet there, you can hear the leaves falling on the grass. That's why I go to the docks whenever I'm free — you know, to see the new ships, new sights... and new toys!"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Yaoyao: Eat Up, Wrap Up",
+      "text": "They say \"Give them clothes to wear, and they shall show you decency; fill their stomachs with grains, and they shall fill their minds with righteousness\"... And that's why you have to eat a decent meal and dress right for the weather when you're out in the wild. ...Huh? Is that not what that saying means? Oh, okay, so... what DOES it mean?"
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Polearm Training",
+      "text": "It's not that I'm lazy, it's just the spear's too long for me, and it's so heavy that training with it is really hard work... Luckily, Master doesn't push me too hard."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Worries",
+      "text": "Have you been eating three meals a day? Also, do you have enough warm clothing? This cold spell's only going to get colder, you know. And anyway, are you sure it's not dangerous, adventuring all the time? Any new injuries I should know about? ...Ugh, you know what — forget that, just bring me along from now on. I can't have peace of mind knowing that you're out there braving the elements all day long..."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "My Master's a Mighty and Illuminated Adeptus! She once told me that getting a Vision is a sign that the gods are pleased with you, but I don't think I've done anything special... I really wish I could talk to that god and see what she thinks about it!"
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "\"Osial\"? Oh, you mean that jumbo-sized octopus from the Sea of Clouds? Uh... not because I wanna eat it or anything, but... if you guys wanted to, you should definitely cook it through on the grill first... Oh, wait! I mean, you don't HAVE to grill it, but... I just think it would taste better that way..."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "I love finches! Whenever I go to play with Qiqi, I look out for them on my way there. And when I find them, I say hi! ♪ *whistle*~ ♪ ...Yep! \"Good morning!\" That's exactly what it means, well done!"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Xiangling",
+      "text": "Xiangling hasn't been, um... looking for strange ingredients lately, has she? She gave me a real fright last time. She said she was about to try some raw octopus from the Sea of Clouds. One of these days, she'll give herself an upset stomach — then what's she gonna do? 'Cause she definitely doesn't like taking Dr. Baizhu's medicine... Anyway, I got Master to try and talk some sense into her, too. Who knows what dangerous thing she'll be trying to eat next... *sigh*"
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Qiqi: Friends",
+      "text": "Qiqi's my best friend! She forgets who I am sometimes, but I know she doesn't mean it... I just have to remind her to check her notebook, and she remembers me right away."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Qiqi: Forever",
+      "text": "I once asked Dr. Baizhu in private if there's any way to cure her, and, um... But it doesn't matter. I'll probably have to keep reminding her who I am for my whole life, but that's okay."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Baizhu",
+      "text": "Dr. Baizhu's prescriptions are pretty effective. They're bitter, that's for sure, but they always say that about medicine: \"the bitter the better\"! So I get it. Huh? Too bitter for you? Don't worry, I've got some Candied Dates here. One of these after you finish your medicine will take the taste away."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Ganyu",
+      "text": "Ganyu always has a lot of work to do. I heard that one time, she was so tired she accidentally fell asleep on the grass. *sigh* I do worry about her, you know! Hmm, maybe... we could go do a \"surprise inspection\"! You know, check in and make sure she's taking care of herself. Oh! Uh... Wait a minute, I'll go get some of her favorite plants for her to eat..."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Keqing",
+      "text": "Keqing's a very thoughtful person, and she always does a good job of everything. She also makes sure to pay Master a visit at every festival... She's what you call a \"bastion of piety.\" Or wait, maybe it's \"paragon of propriety\"? ...Well, anyway, I think I can learn a lot from her!"
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Yun Jin",
+      "text": "Now, Yun Jin's really good at spear dancing, and her Liyue opera performances are very popular. Master even takes me to go see them sometimes. You won't find an empty seat when she's on stage... but, um... does anyone understand what she's singing about?"
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Beidou",
+      "text": "Beidou's ship is amazing! If I hadn't promised Ganyu that I wouldn't go on board anymore, I know exactly where I'd set up my own little bed, hee-hee."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Shenhe",
+      "text": "Shenhe's been away from the human world for years and years, so it's no wonder that she's still adjusting to life in Liyue Harbor. I'd love to help Ganyu take care of her... But how do I ask her in a way that won't make her feel uncomfortable?"
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Yanfei",
+      "text": "Yanfei takes that huge legal codex everywhere, even when she comes to pay Master a visit on her days off. She's incredible! I don't know how she carries that heavy thing around all the time, and I can't imagine how much hard work it must be to read it..."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Xianyun",
+      "text": "When I went to look for Master the other day, I found her chatting with a very elegant-looking lady. She said her name was \"Xianyun,\" but her hijinks didn't fool me! I could tell it was Aunty Cloud Retainer right away! I mean, Master looked like she was really happy to see her, so how could it be a stranger? Evidently, she was an old friend!"
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Prune",
+      "text": "This one time, I saw Prune fall asleep while reading under a tree. Her forehead was all scrunched up, like she was arguing with someone in her dreams. Master once said that everyone has weaknesses they don't want others to see. As a friend, I felt like I should offer her a shoulder to rest on, so I sat down beside her. She seemed to sleep much better after that."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Yaoyao: I",
+      "text": "You wanna know where I'm from? Well, my parents are hermits who live up in the mountains... Uh, I guess you could say that I'm from Qingce Village?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Yaoyao: II",
+      "text": "My family makes a living by growing precious medicinal herbs. My parents often get so busy that they forget about the housework, and sometimes they even forget to eat! Tsk, isn't that awful? Good thing they've got me to look after them."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Yaoyao: III",
+      "text": "I grew up in the mountains, so the flowers, trees, plants, and animals are all my friends! Oh — would you like to chat with the finches? I can take you to them, and I can also help translate for you. Come on, it'll be fun~! But first, let's get some grains as a gift for them."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Yaoyao: IV",
+      "text": "There are adepti everywhere in Liyue. I've met loads of them! Aunty Cloud Retainer, Uncle Mountain Shaper... But Aunty Cloud Retainer's my favorite! She's given me all kinds of adepti gadgets, and taught me all about how to use them. I've learned so much from her!"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Yaoyao: V",
+      "text": "After I met Master, she said that the path of my fate had intersected with the adepti way, and took me on as her disciple. To be honest with you, I didn't even understand what she meant by that. But it's been so much fun, getting to hang out with everybody, listening to Master tell stories, and sneakily slacking off with Xiangling... And we also get to help the people of Liyue Harbor out a lot. I really love it!"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Yaoyao's Hobbies",
+      "text": "It is said that joy hides just beyond the horizon, and bliss is as fleeting as the setting sun! So, whenever I notice anything fun going on, I always gotta go check it out... and you never know, maybe I'll find something I can help with."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Yaoyao's Troubles",
+      "text": "Oof, spear training is really kinda boring... Maybe I'll go play with Yuegui for a little bit, then come back and do some more training after I've had a break..."
+    },
+    {
+      "id": "6005",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Qingce Stir Fry, Come and Get It, boiled fish... Lots of Liyue dishes are not only delicious, they also turn mealtimes into a big event. Hmm? You like them too? That's great! You'll have to come over for dinner sometime, I'll cook for you! Don't worry, I've helped Xiangling in the kitchen before, so it's safe to say that I come from good stock where food is concerned!"
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "One time, Shenhe ate too many Qingxin in one go and she was sick for days! And that's why I've got to take care of myself and not eat raw Qingxin. Hmm? How did I know about that? Aunty Cloud Retainer told me!"
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "This is amazing! It tastes just like Xiangling's cooking. It's like they say: The apple didn't fall far from the tree, mmm... Wait, no, two peas in a pod! You two are like two peas in a pod. Hehe, I'm always mincing up my words when I get too excited."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Sooo tasty! Next time you cook, lemme come too! I can help~"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "...Uh, do you always eat this kind of stuff? Maybe you should let me cook for you instead! If you're not eating well and you're still going out adventuring every day, one of these days you're gonna wear yourself out..."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "This is the day of your birth, and as is tradition, this calls for a bowl of longevity noodles. I got Xiangling to teach me how to make it, and I managed to put all the noodles in the water without breaking a single one! I also put a big plump egg in there, hee-hee! Come on, let's go, you've got to eat it before it goes cold. Wishing you a happy, healthy birthday and a long and prosperous life."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Eh? Did my spear just get lighter? ...It'd be great if it could get a little shorter, too..."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Wow! I might even be able to lift Xiangling's spear now! Yay~ Oh, I really wanna tell Master the good news!"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Hehe, people always say \"perseverance is a virtue,\" and I guess I know what they mean now! ...Hmm? \"Patience is a virtue\"? But... isn't patience the enemy of progress?"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Huh. So that's what it feels like to be fussed over... Well, any growing or changing I've done is all thanks to you! And you know what they say — \"treat other people the way you want them to treat you.\" So it's my turn to keep you safe and sound now!!"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Yuegui, you're up!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Stay put!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Don't be scared~"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Ready... Go!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Pain, pain, go away!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Go get 'em, Yuegui!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Pack everything up nice and carefully. Don't drop anything!"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Here you go~ I've packed it all into a bag for you."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Wooow! These'll last us for days!"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Uh-oh..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Gotta keep going..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "It's okay, I'm fine..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Come to Yaoyao!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Life is a gift, don't throw it away!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "I can't look after you anymore..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Sorry, Master..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Spear getting heavy..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Ouch!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "That hurt real bad..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "I'll take good care of everyone!"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "I'll lead the way. Follow me!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Don't fear, Yaoyao's here!"
+    }
+  ]
+}

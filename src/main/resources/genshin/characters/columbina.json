@@ -1,0 +1,1870 @@
+{
+  "_id": 10000125,
+  "id": "columbina",
+  "name": "Columbina",
+  "title": "Welkin Moon's Homecoming",
+  "description": "The Moon Maiden born in Nod-Krai, and also the welkin moon returning home.",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "hydro",
+    "name": "Hydro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1768255200,
+  "substat": "CRIT Rate",
+  "stats": {
+    "base": {
+      "hp": 1143.984,
+      "attack": 7.448,
+      "defense": 40.0861
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 980.86285,
+        "attack": 6.38552,
+        "defense": 34.371,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1677.7917,
+        "attack": 10.9226,
+        "defense": 58.7925,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.048
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2607.0303,
+        "attack": 16.97204,
+        "defense": 91.3545,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 70,
+        "hp": 3303.959,
+        "attack": 21.50912,
+        "defense": 115.776,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 80,
+        "hp": 4000.888,
+        "attack": 26.0462,
+        "defense": 140.1975,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4697.817,
+        "attack": 30.58328,
+        "defense": 164.619,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.192
+        }
+      }
+    ]
+  },
+  "affiliation": "Silvermoon Hall",
+  "region": {
+    "id": "nodkrai",
+    "name": "Nod-Krai"
+  },
+  "rarity": 5,
+  "birthday": [
+    14,
+    1
+  ],
+  "constellation": "???",
+  "domain": "Domain of Mastery: Overturned Roost",
+  "cv": {
+    "english": "Emi Lo",
+    "chinese": "杨梦露",
+    "japanese": "Lynn",
+    "korean": "Yu Yeong"
+  },
+  "skills": [
+    {
+      "_id": 11251,
+      "id": "moondew_cascade",
+      "name": "Moondew Cascade",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Summons Moonlit Tides, performing up to 3 attacks that deal <span style=\"color:#80C0FFFF\">Hydro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to deal <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> after a short casting time.<br/>If you have at least 1 <link kind=\"effect\" id=\"11190008\"><span style=\"color:#FFD780FF\">Verdant Dew</span></link>, Columbina's Charged Attacks will be replaced with the special Charged Attack <span style=\"color:#FFD780FF\">Moondew Cleanse</span>, which will not consume Stamina: Consume 1 Verdant Dew to deal 3 instances of <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> to opponents in front. This DMG is considered Lunar-Bloom DMG.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "46.8%",
+            "50.3%",
+            "53.8%",
+            "58.5%",
+            "62%",
+            "65.5%",
+            "70.2%",
+            "74.9%",
+            "79.5%",
+            "84.2%",
+            "88.9%",
+            "93.6%",
+            "99.4%",
+            "105.3%",
+            "111.1%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "36.6%",
+            "39.4%",
+            "42.1%",
+            "45.8%",
+            "48.5%",
+            "51.3%",
+            "54.9%",
+            "58.6%",
+            "62.3%",
+            "65.9%",
+            "69.6%",
+            "73.3%",
+            "77.8%",
+            "82.4%",
+            "87%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "58.5%",
+            "62.9%",
+            "67.3%",
+            "73.1%",
+            "77.5%",
+            "81.9%",
+            "87.7%",
+            "93.6%",
+            "99.4%",
+            "105.3%",
+            "111.1%",
+            "117%",
+            "124.3%",
+            "131.6%",
+            "138.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "116.1%",
+            "124.8%",
+            "133.5%",
+            "145.1%",
+            "153.8%",
+            "162.5%",
+            "174.1%",
+            "185.7%",
+            "197.3%",
+            "208.9%",
+            "220.6%",
+            "232.2%",
+            "246.7%",
+            "261.2%",
+            "275.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Moondew Cleanse DMG",
+          "values": [
+            "1.51% Max HP ×3",
+            "1.62% Max HP ×3",
+            "1.74% Max HP ×3",
+            "1.89% Max HP ×3",
+            "2% Max HP ×3",
+            "2.12% Max HP ×3",
+            "2.27% Max HP ×3",
+            "2.42% Max HP ×3",
+            "2.57% Max HP ×3",
+            "2.72% Max HP ×3",
+            "2.87% Max HP ×3",
+            "3.02% Max HP ×3",
+            "3.21% Max HP ×3",
+            "3.4% Max HP ×3",
+            "3.59% Max HP ×3"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11252,
+      "id": "eternal_tides",
+      "name": "Eternal Tides",
+      "description": "Awaken Moonbound Tides, dealing <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> and summoning <link kind=\"effect\" id=\"11250001\"><span style=\"color:#FFD780FF\">Gravity Ripple</span></link>.<br/><span style=\"color:#FFD780FF\">Gravity Ripple</span> will follow the active character on the field, while continuously dealing <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> to surrounding opponents. While <span style=\"color:#FFD780FF\">Gravity Ripple</span> is on the field, and nearby party members trigger Lunar reactions or inflict Lunar Reaction DMG, Columbina will accrue a special <span style=\"color:#FFD780FF\">Gravity</span>. Once Gravity is accumulated to its limit, different types of damage will be dealt to enemies based on the type of Lunar Reaction that has accumulated the most <span style=\"color:#FFD780FF\">Gravity</span> for Columbina.<br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span>: <span style=\"color:#FFD780FF\">Gravity Ripple</span> inflicts <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> over a wider area.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "16.7% Max HP",
+            "18% Max HP",
+            "19.2% Max HP",
+            "20.9% Max HP",
+            "22.2% Max HP",
+            "23.4% Max HP",
+            "25.1% Max HP",
+            "26.8% Max HP",
+            "28.4% Max HP",
+            "30.1% Max HP",
+            "31.8% Max HP",
+            "33.4% Max HP",
+            "35.5% Max HP",
+            "37.6% Max HP",
+            "39.7% Max HP"
+          ]
+        },
+        {
+          "label": "Gravity Ripple: Continuous DMG",
+          "values": [
+            "9.4% Max HP",
+            "10.1% Max HP",
+            "10.8% Max HP",
+            "11.7% Max HP",
+            "12.4% Max HP",
+            "13.1% Max HP",
+            "14% Max HP",
+            "15% Max HP",
+            "15.9% Max HP",
+            "16.8% Max HP",
+            "17.8% Max HP",
+            "18.7% Max HP",
+            "19.9% Max HP",
+            "21.1% Max HP",
+            "22.2% Max HP"
+          ]
+        },
+        {
+          "label": "Gravity Interference: Lunar-Charged DMG",
+          "values": [
+            "4.7% Max HP",
+            "5.06% Max HP",
+            "5.41% Max HP",
+            "5.88% Max HP",
+            "6.23% Max HP",
+            "6.59% Max HP",
+            "7.06% Max HP",
+            "7.53% Max HP",
+            "8% Max HP",
+            "8.47% Max HP",
+            "8.94% Max HP",
+            "9.41% Max HP",
+            "10% Max HP",
+            "10.58% Max HP",
+            "11.17% Max HP"
+          ]
+        },
+        {
+          "label": "Gravity Interference: Lunar-Bloom DMG",
+          "values": [
+            "1.41% Max HP ×5",
+            "1.51% Max HP ×5",
+            "1.62% Max HP ×5",
+            "1.76% Max HP ×5",
+            "1.87% Max HP ×5",
+            "1.97% Max HP ×5",
+            "2.11% Max HP ×5",
+            "2.25% Max HP ×5",
+            "2.39% Max HP ×5",
+            "2.53% Max HP ×5",
+            "2.68% Max HP ×5",
+            "2.82% Max HP ×5",
+            "2.99% Max HP ×5",
+            "3.17% Max HP ×5",
+            "3.34% Max HP ×5"
+          ]
+        },
+        {
+          "label": "Gravity Interference: Lunar-Crystallize DMG",
+          "values": [
+            "8.82% Max HP",
+            "9.49% Max HP",
+            "10.15% Max HP",
+            "11.03% Max HP",
+            "11.69% Max HP",
+            "12.35% Max HP",
+            "13.24% Max HP",
+            "14.12% Max HP",
+            "15% Max HP",
+            "15.88% Max HP",
+            "16.77% Max HP",
+            "17.65% Max HP",
+            "18.75% Max HP",
+            "19.85% Max HP",
+            "20.96% Max HP"
+          ]
+        },
+        {
+          "label": "Gravity Limit",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        },
+        {
+          "label": "Gravity Ripple Duration",
+          "values": [
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11255,
+      "id": "moonlit_melancholy",
+      "name": "Moonlit Melancholy",
+      "description": "Hills and tides unite under the silver light of a pristine new moon. Temporarily transforms the surrounding terrain into <link kind=\"effect\" id=\"11250002\"><span style=\"color:#FFD780FF\">Lunar Domain</span></link>, dealing <span style=\"color:#80C0FFFF\"> AoE Hydro DMG</span>.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "32.2% Max HP",
+            "34.7% Max HP",
+            "37.1% Max HP",
+            "40.3% Max HP",
+            "42.7% Max HP",
+            "45.1% Max HP",
+            "48.4% Max HP",
+            "51.6% Max HP",
+            "54.8% Max HP",
+            "58% Max HP",
+            "61.3% Max HP",
+            "64.5% Max HP",
+            "68.5% Max HP",
+            "72.5% Max HP",
+            "76.6% Max HP"
+          ]
+        },
+        {
+          "label": "Lunar Reaction DMG Bonus",
+          "values": [
+            "13%",
+            "16%",
+            "19%",
+            "22%",
+            "25%",
+            "28%",
+            "31%",
+            "34%",
+            "37%",
+            "40%",
+            "43%",
+            "46%",
+            "49%",
+            "52%",
+            "55%"
+          ]
+        },
+        {
+          "label": "Lunar Domain Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "lunacys_lure",
+      "name": "Lunacy's Lure",
+      "description": "When triggering <link kind=\"effect\" id=\"11250001\"><span style=\"color:#FFD780FF\">Gravity Interference</span></link>, Columbina gains the Lunacy effect, increasing her CRIT Rate by 5% for 10s. This effect can be stacked up to 3 times.",
+      "level": 1
+    },
+    {
+      "id": "law_of_the_new_moon",
+      "name": "Law of the New Moon",
+      "description": "When characters within the <link kind=\"effect\" id=\"11250002\"><span style=\"color:#FFD780FF\">Lunar Domain</span></link> trigger Lunar reactions, they will gain the following effects respectively: <br/>· <span style=\"color:#FFD780FF\">Lunar-Charged</span>: When the Thundercloud performs lightning strike(s) against a valid target, it has a 33% chance to perform an additional lightning strike. <br/>· <span style=\"color:#FFD780FF\">Lunar-Bloom</span>: When triggering Lunar-Bloom reactions, the party gains a special <link kind=\"effect\" id=\"11250003\"><span style=\"color:#FFD780FF\">Moonridge Dew</span></link>. Up to 3 Moonridge Dews can be gained every 18s. <br/>· <span style=\"color:#FFD780FF\">Lunar-Crystallize</span>: When Moondrift Harmony is triggered, every Moondrift has a 33% chance to inflict an extra attack.",
+      "level": 4
+    },
+    {
+      "id": "moonsign_benediction_moonlight_lent_unto_you",
+      "name": "Moonsign Benediction: Moonlight, Lent Unto You",
+      "description": "When a party member triggers an Electro-Charged, Bloom, or Hydro-Crystallize reaction, it will be converted into a Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize reaction respectively. Lunar Reaction DMG inflicted by party members gain a Base DMG increase based on Columbina's Max HP. For every 1,000 points of Max HP, the Base DMG of Lunar reactions is increased by 0.2%, up to a maximum of 7%.<br/><br/>Additionally, when Columbina is in the party, the party's <span style=\"color:#FFD780FF\">Moonsign</span> will increase by 1 level.",
+      "level": 0
+    },
+    {
+      "id": "lunar_vigil",
+      "name": "Lunar Vigil",
+      "description": "If one of your party members is incapacitated while in the Nod-Krai or Frost Moon regions, Columbina will revive this character. The amount of HP the character will have upon revival is based on Columbina's Friendship Level. This effect can occur once every 100s. This effect does not trigger in Domains, Trounce Domains, or the Spiral Abyss.<br/>Additionally, Columbina appears to have a special affinity for certain animals who are influenced by kuuvahki...",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1251,
+      "id": "radiance_over_blossoms_and_peaks",
+      "name": "Radiance Over Blossoms and Peaks",
+      "description": "Unleashing her Elemental Skill <span style=\"color:#FFD780FF\">Eternal Tides</span> will immediately trigger an effect equivalent to the effect of <link kind=\"effect\" id=\"11250001\"><span style=\"color:#FFD780FF\">Gravity Interference</span></link>. This effect can be triggered once every 15s.<br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span><br/>When Gravity Interference is triggered, if the Lunar reaction type that has accumulated the most Gravity for Columbina is:<br/>· <span style=\"color:#FFD780FF\">Lunar-Charged</span>: Your current active character will recover 6 Energy.<br/>· <span style=\"color:#FFD780FF\">Lunar-Bloom</span>: Your active character's interruption resistance will be increased for 8s.<br/>· <span style=\"color:#FFD780FF\">Lunar-Crystallize</span>: Summons a <span style=\"color:#FFD780FF\">Rainsea Shield</span>. The Rainsea Shield's DMG absorption is based on 12% of Columbina's Max HP, and it will absorb <span style=\"color:#80C0FFFF\">Hydro DMG</span> with 250% effectiveness for 8s.<br/><br/>All nearby party members' Lunar Reaction DMG is <link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">elevated</span></link> by 1.5%.",
+      "level": 1
+    },
+    {
+      "_id": 1252,
+      "id": "not_in_lone_splendor",
+      "name": "Not in Lone Splendor",
+      "description": "Rate of accumulating <link kind=\"effect\" id=\"11250001\"><span style=\"color:#FFD780FF\">Gravity</span></link> increases by 34%. <br/>When <span style=\"color:#FFD780FF\">Gravity Interference</span> is triggered, Columbina will receive the <span style=\"color:#FFD780FF\">Lunar Brilliance</span> effect, which increases her Max HP by 40% for 8s.<br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span>:<br/>When <span style=\"color:#FFD780FF\">Lunar Brilliance</span> is active, if, during the current trigger of <span style=\"color:#FFD780FF\">Gravity Interference</span>, the Lunar reaction type that has accumulated the most Gravity for Columbina is:<br/>· <span style=\"color:#FFD780FF\">Lunar-Charged</span>: ATK of your current active character increases. Increase in ATK is equal to 1% of Columbina's Max HP.<br/>· <span style=\"color:#FFD780FF\">Lunar-Bloom</span>: Elemental Mastery of your current active character increases. Increase in Elemental Mastery is equal to 0.35% of Columbina's Max HP.<br/>· <span style=\"color:#FFD780FF\">Lunar-Crystallize</span>: DEF of your current active character increases. Increase in DEF is equal to 1% of Columbina's Max HP.<br/><br/>All nearby party members' Lunar Reaction DMG is <link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">elevated</span></link> by 7%.",
+      "level": 2
+    },
+    {
+      "_id": 1253,
+      "id": "dreamlike_glow_across_tranquil_waters",
+      "name": "Dreamlike Glow Across Tranquil Waters",
+      "description": "Increases the Level of Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"eternal_tides\">Eternal Tides</link></span> by 3.<br/>Maximum upgrade level is 15.<br/><br/>All nearby party members' Lunar Reaction DMG is <link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">elevated</span></link> by 1.5%.",
+      "level": 3
+    },
+    {
+      "_id": 1254,
+      "id": "cloudveiled_ridges_in_floral_mists",
+      "name": "Cloudveiled Ridges in Floral Mists",
+      "description": "When <link kind=\"effect\" id=\"11250001\"><span style=\"color:#FFD780FF\">Gravity Interference</span></link> is triggered, 4 Elemental Energy will be restored to Columbina;<br/>Additionally, if the Lunar reaction type that accumulates the most <span style=\"color:#FFD780FF\">Gravity</span> for Columbina is Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize, the Lunar Reaction DMG dealt by this instance of Gravity Interference is increased by 12.5%/2.5%/12.5% of Columbina's Max HP respectively. This effect can be triggered at most once every 15s.<br/><br/>All nearby party members' Lunar Reaction DMG is <link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">elevated</span></link> by 1.5%.",
+      "level": 4
+    },
+    {
+      "_id": 1255,
+      "id": "silence_tending_one_lone_song",
+      "name": "Silence Tending One Lone Song",
+      "description": "Increases the Level of Elemental Burst <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"moonlit_melancholy\">Moonlit Melancholy</link></span> by 3.<br/>Maximum upgrade level is 15.<br/><br/>All nearby party members' Lunar Reaction DMG is <link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">elevated</span></link> by 1.5%.",
+      "level": 5
+    },
+    {
+      "_id": 1256,
+      "id": "through_darkness_led_by_moonlight",
+      "name": "Through Darkness Led by Moonlight",
+      "description": "For 8s after characters in the <link kind=\"effect\" id=\"11250002\"><span style=\"color:#FFD780FF\">Lunar Domain</span></link> trigger a Lunar reaction, based on the elements involved in the reaction, the CRIT DMG of the corresponding Elemental DMG done by all party members is increased by 80%. The CRIT DMG-increasing effects for the same Elemental Type do not stack.<br/><br/>All nearby party members' Lunar Reaction DMG is <link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">elevated</span></link> by 7%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1144"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "7"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "40"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "-",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2967",
+            "3948"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "19",
+            "26"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "104",
+            "138"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5908",
+            "6605"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "38",
+            "43"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "207",
+            "231"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "9.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104121,
+        "id": "varunada_lazurite_sliver",
+        "name": "Varunada Lazurite Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101268,
+        "id": "winter_icelea",
+        "name": "Winter Icelea",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112002,
+        "id": "slime_condensate",
+        "name": "Slime Condensate",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7599",
+            "8528"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "49",
+            "56"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "266",
+            "299"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "9.8%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113079,
+        "id": "radiant_antler",
+        "name": "Radiant Antler",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101268,
+        "id": "winter_icelea",
+        "name": "Winter Icelea",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112002,
+        "id": "slime_condensate",
+        "name": "Slime Condensate",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9533",
+            "10230"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "62",
+            "67"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "334",
+            "358"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113079,
+        "id": "radiant_antler",
+        "name": "Radiant Antler",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101268,
+        "id": "winter_icelea",
+        "name": "Winter Icelea",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112003,
+        "id": "slime_secretions",
+        "name": "Slime Secretions",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11243",
+            "11940"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "73",
+            "78"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "394",
+            "418"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "19.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113079,
+        "id": "radiant_antler",
+        "name": "Radiant Antler",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101268,
+        "id": "winter_icelea",
+        "name": "Winter Icelea",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112003,
+        "id": "slime_secretions",
+        "name": "Slime Secretions",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12965",
+            "13662"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "84",
+            "89"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "454",
+            "479"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "19.4%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113079,
+        "id": "radiant_antler",
+        "name": "Radiant Antler",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101268,
+        "id": "winter_icelea",
+        "name": "Winter Icelea",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112004,
+        "id": "slime_concentrate",
+        "name": "Slime Concentrate",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "14695",
+            "14695"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "96",
+            "96"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "515",
+            "515"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "24.2%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104124,
+        "id": "varunada_lazurite_gemstone",
+        "name": "Varunada Lazurite Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113079,
+        "id": "radiant_antler",
+        "name": "Radiant Antler",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101268,
+        "id": "winter_icelea",
+        "name": "Winter Icelea",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112004,
+        "id": "slime_concentrate",
+        "name": "Slime Concentrate",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104356,
+          "id": "teachings_of_moonlight",
+          "name": "Teachings of Moonlight",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112002,
+          "id": "slime_condensate",
+          "name": "Slime Condensate",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104357,
+          "id": "guide_to_moonlight",
+          "name": "Guide to Moonlight",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104357,
+          "id": "guide_to_moonlight",
+          "name": "Guide to Moonlight",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104357,
+          "id": "guide_to_moonlight",
+          "name": "Guide to Moonlight",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104357,
+          "id": "guide_to_moonlight",
+          "name": "Guide to Moonlight",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104358,
+          "id": "philosophies_of_moonlight",
+          "name": "Philosophies of Moonlight",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113081,
+          "id": "mask_of_the_virtuous_doctor",
+          "name": "Mask of the Virtuous Doctor",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104358,
+          "id": "philosophies_of_moonlight",
+          "name": "Philosophies of Moonlight",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113081,
+          "id": "mask_of_the_virtuous_doctor",
+          "name": "Mask of the Virtuous Doctor",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104358,
+          "id": "philosophies_of_moonlight",
+          "name": "Philosophies of Moonlight",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113081,
+          "id": "mask_of_the_virtuous_doctor",
+          "name": "Mask of the Virtuous Doctor",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104358,
+          "id": "philosophies_of_moonlight",
+          "name": "Philosophies of Moonlight",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113081,
+          "id": "mask_of_the_virtuous_doctor",
+          "name": "Mask of the Virtuous Doctor",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 212500,
+      "name": "Moonweave Gossamer",
+      "description": "Columbina’s outfit is a weightless, graceful raiment crafted by the Kuuhenki from Frostmoon Scion fabrics and threaded with strands of gentle moonlight. The Frostmoon Scions, not quite fully understanding what they were seeing, naturally assumed this new vestment to be yet another miracle from Kuutar. No wonder that, ever since then, Columbina would occasionally hear wishes like, \"Lady Kuutar, kindly grant me a hand as nimble as your own, I beseech you.\"",
+      "isDefault": true,
+      "characterName": "Columbina",
+      "characterId": 10000125,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Columbina_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "You can call me Columbina, or Kuutar, or Moon Goddess... Whatever you prefer. I'm used to having many names. The moon's blessing is yours, whenever you might find yourself in need."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Singing",
+      "text": "I don't sing for anyone in particular. Still, if someone stops to listen, I hope it provides a moment of peace all the same."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Moongazing",
+      "text": "Would you like to go moongazing? You can sit in my rocking chair and admire the view. Or we could go to the moon and gaze down at Teyvat. Whatever you prefer."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Long Walks",
+      "text": "I used to take long walks in Silvermoon Hall every day, so don't worry about me. I can keep up."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Taking shelter and listening to the rain cleanse the earth makes me feel safe, like being \"home.\""
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "The sky is clear again. We should be able to see the moon tonight."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Ah...! Without lightning to give warning... the sound of thunder is quite startling..."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "I love the snow. It's so beautiful and peaceful, and I can have snowball fights with the kuuhenki. Shall we have one now?"
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "If the wind is too strong to keep your eyes open, give me your hand. I'll guide you."
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "The sand is cool and comfortable to walk on at night, but it gets so hot during the day..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning... Have you seen my hair tie? Hmm? My hair looks messy...? Which part? Could you brush it for me?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Hmm... The moon hasn't risen yet. I think I'll take a nap with the kuuhenki."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "\"Nightfall\"... Quite an interesting expression, don't you think? It's as if night tumbles in each evening, tripping over the moon."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Can't sleep? Hmm... The kuuhenki have that problem too sometimes. When that happens, I usually sing to them or tell them stories. Would you like me to do that for you?"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Columbina: Eye Mask",
+      "text": "I'm used to \"sensing\" things with kuuvahki — it reveals the truth of things better than \"seeing\" does. Still, curiosity does sometimes get the better of me, and I open my eyes to take a peek. That's the nice thing about having an eye mask with holes."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Columbina: Home",
+      "text": "I used to think I would forever be a stranger to this land — that the moon was my true \"home.\" Now, I have an additional place to call home, and both my homes are now closer by."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Great Deeds",
+      "text": "I heard about you long before we met. Back when I was with the Fatui, I remember the other Harbingers talking about your deeds. But you have so many titles, I... fell asleep before they even got to your name."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Traveling",
+      "text": "Could you give me some tips for traveling? Like... how to talk to people from other nations. Hmm? I should focus more on fire-building skills, hunting techniques, and... transport? Huh. Couldn't I just use kuuvahki for all that?"
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the \"Tri-Lunar Convergence\"",
+      "text": "The three goddesses bestowed their powers upon me, which converged into a force that is both dazzling and gentle. Through it, I can feel their attachment to this place, and I can sense the hopes and wishes they offered to this world in their final moments. I will inherit their moonlight and use it to illuminate the world beneath the moon — the place we all call \"home\"."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Back in Snezhnaya, being Third of the Fatui Harbingers came with a lot of perks. I didn't need to purchase a ticket for the train or stand in line for the Korolevskiy Troupe... Ah, and when I dined at a restaurant, I could get... \"reimbursed\"? That was a bit too complicated for me to understand, though, so I just tagged along with Sandrone or Arlecchino instead."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "The moon is more beautiful than I could have imagined. Blue kuuvahki flowing like an endless ocean, magnificent jellyfish drifting across the sea, pink frostfin whales coming from places unknown, enormous kuuhenki... It's magnificent. Once I've made my home a bit more presentable, I'll invite my friends up to visit."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Lauma",
+      "text": "Aiming a beam of moonlight at Lauma's head makes her antlers grow taller, and if you get the angle just right, you can even get them to stab a piece of fruit that's too high to reach... Hmm? What then? Oh, um... You get scolded."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Nicole",
+      "text": "Oh, we kept in touch until a short while ago. I asked her to recommend some books for me to read to the kuuhenki. She sent a whole lot and even gave me detailed explanations about the inspiration and setting for each one. I asked her when I might be able to read a book she had authored herself, but then I suddenly stopped hearing from her. Perhaps... she went off to write one."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Neuvillette",
+      "text": "The Hydro Dragon who serves as the Iudex of Fontaine? Hmm... Another Dragon who puts people in prison. I'm not sure I'd want to meet him."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About The Seven",
+      "text": "If we cross paths during my journey, I'll be sure to say hello."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About the Tsaritsa",
+      "text": "The first time I sang in the gardens of Zapolyarny Palace, the Tsaritsa happened to pass by. She stood there, silent and motionless, like a statue with no expression carved onto the face. For a moment, I felt as if she wanted to say something to me, but she never did.\\nShe seals her emotions beneath thick sheets of ice. The outside world sees but one side of who she is... that of the Tsaritsa. If the answers I sought rest on the moon, perhaps hers lie buried in snow and ice."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About The Jester",
+      "text": "He's quite the opposite of his codename, and that seems to be intentional. Although he's known as \"The Jester,\" his tone is stern and serious, and he speaks in confusing riddles. The mask he wears depicts a grin that mocks the world, but he himself never smiles."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About The Captain",
+      "text": "Many respect him, but just as many fear him. Hmm? Is that too confusing? Well, you see, creatures accustomed to living in darkness will never choose to get close to the light. It's too dangerous, for light would only lengthen their own shadow."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About The Doctor",
+      "text": "There was a time when \"The Doctor\" took care of me, even claiming to think of me as a sister.\\nIt was only later that I discovered, the closer you are to him, the more freely he uses you. \"What's a little discomfort among family? We endure for each other, surely.\" That's how he thought of things, and I could tell he meant it, but I didn't want to have to \"endure.\" Expectations like that... They took me back to my first home, and the eyes staring up at me from beneath the altar, so full of greed."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Arlecchino",
+      "text": "The House of the Hearth is home to many children, and it can get quite noisy. The first time I heard them call Arlecchino \"Father,\" I thought it was a rule that had to be followed there. So, the next time she passed by, I used that title as well. That's when I learned just how quiet the House of the Hearth could become."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About The Rooster",
+      "text": "I can teach you to talk just like him — all you have to do is combine the words \"money,\" \"that darn Pantalone,\" and \"mark my words.\" Here, I'll show you. \"Where's the money? Mark my words, I'm going to kill that darn Pantalone.\" Or, \"That darn Pantalone is going to cough up the money, mark my words.\" See? Isn't that fascinating?"
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Sandrone: Clockwork Nature",
+      "text": "I wonder, does the key on her back ever stop turning? Does it change direction? Does she remove it when she sleeps? How does she roll over? I've been curious about that key ever since I first met her. But since we weren't close then, it didn't seem right to just go up and touch it. So whenever I had the chance, I would follow behind her, trying to figure out the pattern of its movement. But one day, she suddenly turned around and demanded to know why I kept following her. After I told her the reason, she said, \"If you're that curious, why don't I put one on your back, and you can see for yourself?\" So I lived with a key on my back for a few days, and it was quite the challenge. Sandrone doesn't have it easy, so I've looked out for her even more since then."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Sandrone: Clockwork Nature II",
+      "text": "I'm not sure what counts as \"death\" for a puppet... All I know is, Sandrone isn't moving, and I can't feel her \"operating.\" Her key has just... stopped. And all because of the \"technique\" she used to bring me back. She said she was going to get back at me that one time. How I wish that's all this was. Just an attempt to scare me..."
+    },
+    {
+      "id": "4016",
+      "type": 1,
+      "title": "About Sandrone: Clockwork Nature III",
+      "text": "Sandrone has returned. I'm so happy. I noticed her wind-up key sometimes turns a bit faster now — it always seemed to turn at the same speed before. She said it's because she's embraced her inner feelings, and that she's different now. But whether she's changed her outfit or her key turns faster, I feel like Sandrone is still Sandrone, my best friend. Whether it's her past or present self, she has my complete admiration. I told her this, and her key turned faster. I don't know why, but it's really interesting."
+    },
+    {
+      "id": "4013",
+      "type": 1,
+      "title": "About Regrator",
+      "text": "In his eyes, everything and everyone has a price tag, and he gets to decide their value. We're all just bargaining chips he can use to expand his ever-increasing empire of wealth. But who would want to visit a boring empire like that? Not me, that's for sure.\\nHmm... If he saw me now, I'm sure his smile would hide even more contempt than before. I can almost hear it now... \"Congratulations, Miss Columbina. Your value has appreciated.\""
+    },
+    {
+      "id": "4014",
+      "type": 1,
+      "title": "About Rosalyne",
+      "text": "If metamorphosis ends in one's wings being engulfed in flame, perhaps remaining in the cocoon is how one survives. But, I doubt Rosalyne ever considered making that choice, or perhaps she had determined her own end from the very beginning. Whether it was love, hate, or a simple dance, she gave her whole self to her pursuits... and left others to sing her dirge after her departure."
+    },
+    {
+      "id": "4015",
+      "type": 1,
+      "title": "About Childe",
+      "text": "I've heard he has a good relationship with his family. They go camping together and have barbecues by the lake. Sandrone says he's the Harbinger who lives most like an ordinary person. I don't really understand ordinary people, but that kind of life sounds nice to me."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Columbina: I",
+      "text": "Huh...? My story? Um... That might take quite a while to tell. Oh, you brought tea and snacks? Well then, I suppose I could share a bit more in return."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Columbina: II",
+      "text": "I used to spend a lot of time learning how to interact with people and go about life in this world. But looking back now, perhaps my experiences with the Frostmoon Scions and the Fatui weren't the best teachers. For a long time, I thought relationships were transactional — their only purpose being figuring out what you can take, and what it might cost you in return."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Columbina: III",
+      "text": "I love telling stories to the kuuhenki, and I love to sing. There's a blank space in my life that has existed since before I was born and has shadowed me since. My story was incomplete from the start, so I've learned to use other stories to fill in the gaps. It's like... painting a picture — I sketch the outline with words and color it in with song."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Columbina: IV",
+      "text": "On Moon-Prayer Night, I received a name that belongs to me — Columbina Hyposelenia. I used to think a name was nothing more than an alias, something separate from oneself. But after that night, I realized my name is what connects me to this world and the people within it... It is all that is intangible — their friendship, love, and support — manifested for the world to see. I will cherish it forever."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Columbina: V",
+      "text": "My story is like an opera played in reverse. The ending came first, and I was left searching for the whys and wherefores. But if I could go back and do it all over again, I wouldn't change a thing. I quite like it as it is now. Without this journey, I never would have known that being born in Nod-Krai was my own choice, my friends never would have helped me connect with my true \"family,\" and you never would have followed Luonnotar into Silvermoon Hall that night. My story would have been empty in a very different way. I don't like that version one bit."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Columbina's Hobbies",
+      "text": "I like to go up to the moon and watch Teyvat revolve in silence. It brings me peace."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Columbina's Troubles",
+      "text": "I wish I could take a stroll in Nasha Town like a normal person... But I keep getting recognized. Is it my outfit? Or the fact that I talk to the kuuhenki in town? Do normal people not do that?"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Fresh fruit and vegetables paired with fragrant bread... Hmm? Oh, well, I suppose it is a bit plain, but I'm used to it. It's what the Frostmoon Scions gave me when I was first born in Nod-Krai. The little animals often shared their foraged berries with me too. I prefer food in its most natural state — it allows you to get a glimpse of the world as it's meant to be."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "\"Fire-Water\" and other strong spirits. Snezhnaya has a lot of drinks like that. I was there for a long time, but I never got used to them. The world starts to spin and you feel like your insides are on fire. I just don't understand why people enjoy that feeling, unless... Do they want to float up to the moon too?"
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "More please. Hmm? Oh, was that all? I'll have to remember to save some next time."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "It's quite pleasant. I'll savor it beneath the moonlight."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Oh... Whenever Sandrone was mad at me, she'd give me things like this too..."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Your birthday is on the same day every year? Wow, that's easy to remember. Moon-Prayer Night is held at different times each year, so I can only estimate my birthday by sensing the moon. A birthday is such a joyous occasion, isn't it? Everyone gathers to dance while people make delicious offerings to give you. Huh...? Regular people's birthdays aren't like that? Gifts, cake, and friends...? Oh, that works too. Let's invite your friends to celebrate. I can sing you a song, and we can even ask Maalaus to paint a picture for you."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "By the Eternal Moon, the tides shall surge."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "By the Frost Moon, the night shall be illuminated."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "By the Iridescent Moon, darkness shall be cast deeper into the shadows."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "I now hold the threads of fate in my hands. From now on, the new moon shall watch over and illuminate the world below."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Flow."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Surge."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Wane."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "A new moon rises."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Three moons converge."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "A moonlit night for all."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "They call this a \"pleasant surprise\"... right?"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Hmm, did they run from home too?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "You keep them. I no longer need offerings."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Getting dizzy..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "It's growing dark..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Not doing so well..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Feeling woozy? Allow me to step in."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "How about some rest?"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "The night sky... dims... once more..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "The moon has... waned..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "The price... of leaving home..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "I'm fine..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Ouch...!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "...Why?"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Allow me to lend you some moonlight."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Will we be gone long?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "I will follow where you lead."
+    }
+  ],
+  "effects": {
+    "11190007": {
+      "name": "Elevation",
+      "description": "Special DMG Boost effect. It is calculated independently of other DMG Boost effects.",
+      "color": ""
+    },
+    "11190008": {
+      "name": "Verdant Dew",
+      "description": "When party members trigger Lunar-Bloom reactions, the party will receive such a resource.<br/>Your party will receive 1 Verdant Dew every 2.5s for 2.5s after triggering a Lunar-Bloom reaction. Your party can have up to 3 Verdant Dew. If you trigger another Lunar-Bloom reaction during this time, the duration of this effect will be reset.",
+      "color": ""
+    },
+    "11250001": {
+      "name": "Gravity Ripple",
+      "description": "After unleashing Elemental Skill <span style=\"color:#FFD780FF\">Eternal Tides</span>, Columbina will summon <span style=\"color:#FFD780FF\">Gravity Ripple</span>.<br/>Gravity Ripple will follow the current active character on the field, while continuously dealing <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> to surrounding opponents.<br/><br/>Additionally, while Gravity Ripple is on the field, and nearby party members trigger Lunar reactions or inflict Lunar Reaction DMG, Columbina will gain the New Moon's Omen effect for 2s, continuously accumulating <span style=\"color:#FFD780FF\">Gravity</span>. 20 Gravity can be accumulated every 2s.<br/>You can have up to 60 Gravity, and it will be removed when the duration of Gravity Ripple ends.<br/>Once Gravity is accumulated to its limit, a special <span style=\"color:#FFD780FF\">Gravity Interference</span> will be triggered. Different effects will be triggered depending on the Lunar reaction type that has accumulated the most Gravity for Columbina. If the Lunar reaction type that has accumulated the most Gravity for Columbina is:<br/>· <span style=\"color:#FFD780FF\">Lunar-Charged</span>: Gravity Interference will deal a single instance of <span style=\"color:#FFACFFFF\">Electro AoE DMG</span>. This DMG is considered Lunar-Charged DMG. <br/>· <span style=\"color:#FFD780FF\">Lunar-Bloom</span>: Gravity Interference will fire 5 Moondew Sigils at surrounding opponents, dealing <span style=\"color:#99FF88FF\">Dendro DMG</span>. This DMG is considered Lunar-Bloom DMG.<br/>· <span style=\"color:#FFD780FF\">Lunar-Crystallize</span>: Gravity Interference will deal a single instance of <span style=\"color:#FFE699FF\">Geo AoE DMG</span>. This DMG is considered Lunar-Crystallize DMG.",
+      "color": ""
+    },
+    "11250002": {
+      "name": "Lunar Domain",
+      "description": "The domain that Columbina summons after unleashing the Elemental Burst <span style=\"color:#FFD780FF\">Moonlit Melancholy</span>.<br/>When current active characters are within the <span style=\"color:#FFD780FF\">Lunar Domain</span>, Lunar Reaction DMG inflicted by all party members will increase.",
+      "color": ""
+    },
+    "11250003": {
+      "name": "Moonridge Dew",
+      "description": "A special Verdant Dew resource provided by Columbina's Passive Talent, <span style=\"color:#FFD780FF\">Law of the New Moon</span>. Its maximum capacity and duration are calculated separately from Verdant Dew.<br/>When the party's Verdant Dew is expended, <span style=\"color:#FFD780FF\">Moonridge Dew</span> will be consumed instead.<br/>Your party can have up to 3 <span style=\"color:#FFD780FF\">Moonridge Dew</span>.",
+      "color": ""
+    }
+  }
+}

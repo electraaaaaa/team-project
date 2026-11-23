@@ -1,0 +1,1737 @@
+{
+  "_id": 10000102,
+  "id": "mualani",
+  "name": "Mualani",
+  "title": "Splish-Splash Wavechaser",
+  "description": "A well-known guide in Natlan who owns a watersports shop, and expert in all forms of wave-chasing.",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "hydro",
+    "name": "Hydro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1724706000,
+  "substat": "CRIT Rate",
+  "stats": {
+    "base": {
+      "hp": 1182.1168,
+      "attack": 14.1512,
+      "defense": 44.39386
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 1013.5583,
+        "attack": 12.132488,
+        "defense": 38.0646,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1733.7181,
+        "attack": 20.75294,
+        "defense": 65.1105,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.048
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2693.9312,
+        "attack": 32.246876,
+        "defense": 101.1717,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 70,
+        "hp": 3414.091,
+        "attack": 40.86733,
+        "defense": 128.2176,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 80,
+        "hp": 4134.251,
+        "attack": 49.48778,
+        "defense": 155.2635,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4854.4106,
+        "attack": 58.10823,
+        "defense": 182.3094,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.192
+        }
+      }
+    ]
+  },
+  "affiliation": "Meztli",
+  "region": {
+    "id": "natlan",
+    "name": "Natlan"
+  },
+  "rarity": 5,
+  "birthday": [
+    3,
+    8
+  ],
+  "constellation": "Phoca Neomonachus",
+  "domain": "Blazing Ruins",
+  "cv": {
+    "english": "Cassandra Lee Morris",
+    "chinese": "王晓彤",
+    "japanese": "東山奈央",
+    "korean": "Kim Do-hee"
+  },
+  "skills": [
+    {
+      "_id": 30000,
+      "id": "cooling_treatment",
+      "name": "Cooling Treatment",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 3 attacks that deal <span style=\"color:#80C0FFFF\">Hydro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to smack a Pufferball into the air that deals <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> upon landing.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Gathers the power of Hydro and plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "51.4%",
+            "55.3%",
+            "59.1%",
+            "64.2%",
+            "68.1%",
+            "72%",
+            "77.1%",
+            "82.2%",
+            "87.4%",
+            "92.5%",
+            "97.7%",
+            "102.8%",
+            "109.2%",
+            "115.6%",
+            "122.1%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "44.6%",
+            "48%",
+            "51.3%",
+            "55.8%",
+            "59.1%",
+            "62.5%",
+            "66.9%",
+            "71.4%",
+            "75.9%",
+            "80.3%",
+            "84.8%",
+            "89.3%",
+            "94.8%",
+            "100.4%",
+            "106%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "70%",
+            "75.3%",
+            "80.5%",
+            "87.5%",
+            "92.8%",
+            "98%",
+            "105.1%",
+            "112.1%",
+            "119.1%",
+            "126.1%",
+            "133.1%",
+            "140.1%",
+            "148.8%",
+            "157.6%",
+            "166.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "142.9%",
+            "153.6%",
+            "164.3%",
+            "178.6%",
+            "189.3%",
+            "200%",
+            "214.3%",
+            "228.6%",
+            "242.9%",
+            "257.2%",
+            "271.5%",
+            "285.8%",
+            "303.6%",
+            "321.5%",
+            "339.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 30002,
+      "id": "surfshark_wavebreaker",
+      "name": "Surfshark Wavebreaker",
+      "description": "Combining her mastery of speed and the waves and water, Mualani can surf anytime, anywhere.<br/>After using this skill, Mualani will gain 60 Nightsoul points and enter the Nightsoul's Blessing state.<br/><br/><span style=\"color:#FFD780FF\">Nightsoul's Blessing: Mualani</span><br/>Continuously consume Nightsoul points. When they are depleted or when the skill is used again, Mualani's Nightsoul's Blessing will end. The state itself has the following traits:<br/>·Mualani mounts her Sharky Surfboard, increasing Mualani's Movement SPD and interruption resistance. Mualani can move on water and liquid Phlogiston while this state is active, and she will take no DMG from the latter.<br/>·Normal Attacks will be converted to Sharky's Bites, dealing Nightsoul-aligned <span style=\"color:#80C0FFFF\">Hydro DMG</span> based on Mualani's Max HP. Sharky's Bites can be used in mid-air. DMG dealt this way is considered Normal Attack DMG.<br/>·When she makes contact with opponents in this state, Mualani applies \"Marked as Prey\" to them and gains 1 Wave Momentum stack. Max 3 stacks. 1 stack can be gained from the same opponent every 0.7s.<br/><br/><span style=\"color:#FFD780FF\">Wave Momentum and Marked as Prey</span><br/>When Mualani uses Sharky's Bite, her DMG dealt increases based on Wave Momentum stacks. When she has 3 stacks, Sharky's Bite will be converted to Sharky's Surging Bite, further increasing her DMG and removing all her stacks when hitting an opponent.<br/>When Sharky's Bite hits an opponent Marked as Prey, that mark will be removed, and she will fire Shark Missiles at up to 5 nearby opponents Marked as Prey, dealing DMG to them equal to this Sharky's Bite instance and clearing their Marks. If more than 1 opponent is the target of Sharky's Bite and Shark Missiles, the DMG dealt will decrease, decreasing at most to 72% of the original DMG when 3 opponents are targeted.",
+      "info": "First off, Sharky is a freshwater shark on top of being a surfboard. Second, it's not that it wants to eat for real, just that it definitely bites for real.",
+      "attributes": [
+        {
+          "label": "Sharky's Bite Base DMG",
+          "values": [
+            "8.68% Max HP",
+            "9.33% Max HP",
+            "9.98% Max HP",
+            "10.85% Max HP",
+            "11.5% Max HP",
+            "12.15% Max HP",
+            "13.02% Max HP",
+            "13.89% Max HP",
+            "14.76% Max HP",
+            "15.62% Max HP",
+            "16.49% Max HP",
+            "17.36% Max HP",
+            "18.45% Max HP",
+            "19.53% Max HP",
+            "20.61% Max HP"
+          ]
+        },
+        {
+          "label": "Wave Momentum DMG Bonus",
+          "values": [
+            "4.34% Max HP / Stack",
+            "4.67% Max HP / Stack",
+            "4.99% Max HP / Stack",
+            "5.42% Max HP / Stack",
+            "5.75% Max HP / Stack",
+            "6.08% Max HP / Stack",
+            "6.51% Max HP / Stack",
+            "6.94% Max HP / Stack",
+            "7.38% Max HP / Stack",
+            "7.81% Max HP / Stack",
+            "8.25% Max HP / Stack",
+            "8.68% Max HP / Stack",
+            "9.22% Max HP / Stack",
+            "9.77% Max HP / Stack",
+            "10.31% Max HP / Stack"
+          ]
+        },
+        {
+          "label": "Sharky's Surging Bite Additional DMG Bonus",
+          "values": [
+            "21.7% Max HP",
+            "23.33% Max HP",
+            "24.95% Max HP",
+            "27.13% Max HP",
+            "28.75% Max HP",
+            "30.38% Max HP",
+            "32.55% Max HP",
+            "34.72% Max HP",
+            "36.89% Max HP",
+            "39.06% Max HP",
+            "41.23% Max HP",
+            "43.4% Max HP",
+            "46.11% Max HP",
+            "48.83% Max HP",
+            "51.54% Max HP"
+          ]
+        },
+        {
+          "label": "Sharky's Bite CD",
+          "values": [
+            "1.8s",
+            "1.8s",
+            "1.8s",
+            "1.8s",
+            "1.8s",
+            "1.8s",
+            "1.8s",
+            "1.8s",
+            "1.8s",
+            "1.8s",
+            "1.8s",
+            "1.8s",
+            "1.8s",
+            "1.8s",
+            "1.8s"
+          ]
+        },
+        {
+          "label": "Nightsoul Point Limit",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 30007,
+      "id": "boomsharkalaka",
+      "name": "Boomsharka-laka",
+      "description": "Fires a Super Shark Missile that can track opponents, dealing Nightsoul-aligned <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> based on Mualani's Max HP.",
+      "info": "Mualani picked this moniker for launching her Shark Missile because it combines the warmth of explosive passion with a more chill, laid-back vibe — most hot spring-ish.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "58.4% Max HP",
+            "62.8% Max HP",
+            "67.2% Max HP",
+            "73% Max HP",
+            "77.4% Max HP",
+            "81.8% Max HP",
+            "87.7% Max HP",
+            "93.5% Max HP",
+            "99.3% Max HP",
+            "105.2% Max HP",
+            "111% Max HP",
+            "116.9% Max HP",
+            "124.2% Max HP",
+            "131.5% Max HP",
+            "138.8% Max HP"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "heatresistant_freshwater_floater",
+      "name": "Heat-Resistant Freshwater Floater",
+      "description": "When Sharky's Surging Bite hits an opponent, a Puffer will be generated nearby. Mualani will restore 20 Nightsoul points when she picks up a Puffer. Only 2 such Puffers can be created in this way during a single instance of being in Nightsoul's Blessing.",
+      "level": 1
+    },
+    {
+      "id": "natlans_greatest_guide",
+      "name": "Natlan's Greatest Guide",
+      "description": "After a nearby party member triggers a Nightsoul Burst, Mualani will gain 1 stack of Wavechaser's Exploits, which lasts for 20s. Max 3 stacks. When she uses <span style=\"color:#FFD780FF\">Boomsharka-laka</span>, Mualani will clear all Wavechaser's Exploits stacks and increase the DMG of this Boomsharka-laka by 15%/30%/45% of her Max HP based on the number of stacks cleared.",
+      "level": 4
+    },
+    {
+      "id": "night_realms_gift_crests_and_troughs",
+      "name": "Night Realm's Gift: Crests and Troughs",
+      "description": "After her Nightsoul points are depleted, Mualani will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.<br/>While in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Mualani. When the active character is currently sprinting, swimming, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Mualani: Mualani will enter the Nightsoul's Blessing state and gain 40 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.<br/><br/>Additionally, Mualani's Nightsoul point or Phlogiston consumption while moving on water and Liquid Phlogiston during Nightsoul's Blessing is decreased by 75% while in Natlan, and her Nightsoul point consumption is decreased by 35% while doing the same outside Natlan.",
+      "level": 0
+    },
+    {
+      "id": "the_trick_is_to_keep_smiling",
+      "name": "The Trick Is to Keep Smiling!",
+      "description": "While in an area with Phlogiston Mechanics within Natlan, 15 Phlogiston will be restored when interacting with some harvestable items. Additionally, the location of nearby <span style=\"color:#FFD780FF\">resources unique to Natlan</span> will appear on your mini-map.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1021,
+      "id": "the_leisurely_meztli",
+      "name": "The Leisurely \"Meztli\"...",
+      "description": "The DMG dealt by the first Sharky's Surging Bite after Mualani enters Nightsoul's Blessing and the Shark Missiles it triggers is increased by 66% of Mualani's Max HP. This instance of increased DMG is subject to the diminishing DMG rules of <span style=\"color:#FFD780FF\">Surfshark Wavebreaker</span>.<br/>In addition, while out of combat, Mualani's Nightsoul's Blessing state consumes 30% less Phlogiston and Nightsoul points.",
+      "level": 1
+    },
+    {
+      "_id": 1022,
+      "id": "mualani_going_all_out",
+      "name": "Mualani, Going All Out!",
+      "description": "Mualani gains 2 of <span style=\"color:#FFD780FF\">Surfshark Wavebreaker</span>'s Wave Momentum stacks when she enters Nightsoul's Blessing state. She will gain 1 stack when obtaining a Puffer.<br/>In addition, whenever Mualani obtains 2 Puffers within a single instance of the Nightsoul's Blessing state, she will recover an additional 12 Nightsoul points over 2s. You must first unlock the Ascension Talent \"Heat-Resistant Freshwater Floater.\"",
+      "level": 2
+    },
+    {
+      "_id": 1023,
+      "id": "surfing_atop_joyous_seas",
+      "name": "Surfing Atop Joyous Seas",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Surfshark Wavebreaker</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1024,
+      "id": "sharky_eats_puffies",
+      "name": "Sharky Eats Puffies",
+      "description": "Mualani regenerates 8 Energy when obtaining a Puffer. You must first unlock the Ascension Talent \"Heat-Resistant Freshwater Floater.\"<br/>Additionally, <span style=\"color:#FFD780FF\">Boomsharka-laka</span> deals 75% increased DMG.",
+      "level": 4
+    },
+    {
+      "_id": 1025,
+      "id": "same_style_of_surfboard_on_sale",
+      "name": "Same Style of Surfboard on Sale!",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Boomsharka-laka</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1026,
+      "id": "spirit_of_the_springs_people",
+      "name": "Spirit of the Springs' People",
+      "description": "The DMG increase from the Constellation \"The Leisurely 'Meztli'...\" is no longer limited to being triggered once every Nightsoul's Blessing.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1182"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "14"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "44"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "-",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "3066",
+            "4080"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "37",
+            "49"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "115",
+            "153"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6105",
+            "6825"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "73",
+            "82"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "229",
+            "256"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "9.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104121,
+        "id": "varunada_lazurite_sliver",
+        "name": "Varunada Lazurite Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101247,
+        "id": "sprayfeather_gill",
+        "name": "Sprayfeather Gill",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112104,
+        "id": "sentrys_wooden_whistle",
+        "name": "Sentry's Wooden Whistle",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7852",
+            "8813"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "94",
+            "105"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "295",
+            "331"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "9.8%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Mark of the Binding Blessing",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101247,
+        "id": "sprayfeather_gill",
+        "name": "Sprayfeather Gill",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112104,
+        "id": "sentrys_wooden_whistle",
+        "name": "Sentry's Wooden Whistle",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9850",
+            "10571"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "118",
+            "127"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "370",
+            "397"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Mark of the Binding Blessing",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101247,
+        "id": "sprayfeather_gill",
+        "name": "Sprayfeather Gill",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112105,
+        "id": "warriors_metal_whistle",
+        "name": "Warrior's Metal Whistle",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11618",
+            "12338"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "139",
+            "148"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "436",
+            "463"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "19.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Mark of the Binding Blessing",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101247,
+        "id": "sprayfeather_gill",
+        "name": "Sprayfeather Gill",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112105,
+        "id": "warriors_metal_whistle",
+        "name": "Warrior's Metal Whistle",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "13397",
+            "14117"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "160",
+            "169"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "503",
+            "530"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "19.4%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Mark of the Binding Blessing",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101247,
+        "id": "sprayfeather_gill",
+        "name": "Sprayfeather Gill",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112106,
+        "id": "sauriancrowned_warriors_golden_whistle",
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "15185",
+            "15185"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "182",
+            "182"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "570",
+            "570"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "24.2%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104124,
+        "id": "varunada_lazurite_gemstone",
+        "name": "Varunada Lazurite Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Mark of the Binding Blessing",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101247,
+        "id": "sprayfeather_gill",
+        "name": "Sprayfeather Gill",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112106,
+        "id": "sauriancrowned_warriors_golden_whistle",
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104347,
+          "id": "teachings_of_contention",
+          "name": "Teachings of Contention",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112104,
+          "id": "sentrys_wooden_whistle",
+          "name": "Sentry's Wooden Whistle",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104348,
+          "id": "guide_to_contention",
+          "name": "Guide to Contention",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104348,
+          "id": "guide_to_contention",
+          "name": "Guide to Contention",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104348,
+          "id": "guide_to_contention",
+          "name": "Guide to Contention",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104348,
+          "id": "guide_to_contention",
+          "name": "Guide to Contention",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112105,
+          "id": "warriors_metal_whistle",
+          "name": "Warrior's Metal Whistle",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104349,
+          "id": "philosophies_of_contention",
+          "name": "Philosophies of Contention",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113056,
+          "id": "lightless_mass",
+          "name": "Lightless Mass",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104349,
+          "id": "philosophies_of_contention",
+          "name": "Philosophies of Contention",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113056,
+          "id": "lightless_mass",
+          "name": "Lightless Mass",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104349,
+          "id": "philosophies_of_contention",
+          "name": "Philosophies of Contention",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113056,
+          "id": "lightless_mass",
+          "name": "Lightless Mass",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104349,
+          "id": "philosophies_of_contention",
+          "name": "Philosophies of Contention",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112106,
+          "id": "sauriancrowned_warriors_golden_whistle",
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113056,
+          "id": "lightless_mass",
+          "name": "Lightless Mass",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 210200,
+      "name": "Flying Fish, Heat Waves, and Moon Scallop",
+      "description": "Mualani's outfit. She originally intended to stick the designs of all the fish ever as ornaments for her clothes, but this design was politely rejected by the tailor on account of being too avant-garde. Despite the immense simplification, this outfit has more than enough personality to mark the enthusiastic guide out even in a crowd.",
+      "isDefault": true,
+      "characterName": "Mualani",
+      "characterId": 10000102,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Mualani_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Thank you for joining me, Traveler. I'm Mualani, a guide from the People of the Springs. If you need anything, just raise your hand and let me know! Now, please stow your weapon, secure your belongings, keep a firm hold on Paimon, and, most importantly, let go of your troubles. I prepared a Sharky Surfboard for you, so hop on and try not to fall! Alrighty... let the journey begin!"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Going Out",
+      "text": "The most important part of going out to have fun is... well, going out! So just show up and I'll handle the rest."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Chasing Waves",
+      "text": "Ever tried chasing waves before? You wanna try? Well? Well? C'mon, no time like the present! I'll help you find the closest beach."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Unity",
+      "text": "You can only do so much on your own, but with a group, anything's possible!"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Woohoo! The slippery ground here is perfect for sliding around on a surfboard!"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Whoa! Did you see that? Where did it strike!?"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "*shivering* C'mon, let's finish up and head back. I need a good soak in the hot springs..."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Ah, this weather makes me wanna lay down and catch some rays... Perfect sunbathing conditions!"
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "When the wind picks up, the waves pick up too. Now's the perfect time to try some epic tricks!"
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "Sand surfing sounds like a blast! You know I'm up for the challenge!"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good news, I didn't oversleep today! Time to reward myself with a super fancy breakfast."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "*yawn* Knew I should've slept in... Shoot, why does it look like there's a bunch of Mora-shaped dots floating in front of me... Guess this means I need a nap this afternoon."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Want me to bring in something to eat? I can get it here piping hot! Trust me, my surfboard's got the speed you need!"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Shoot... I'm too pumped up from dancing at the bonfire. There goes my sleep for the night... *sigh*"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Mualani: Flagship Product",
+      "text": "I've carefully picked everything I sell in the shop, from the variety and quality of the products to the functionality and colors. But if you wanna know the best item in my shop, I'd have to say it's this inflatable swimsuit. It's perfect if you're not a confident swimmer. It can inflate instantly to become a life preserver, which makes swimming way safer!\\nYou can wear it out of the water, too. Personally, I love wearing it to parties. It's a real showstopper! See, just do this, and you can bounce around... boing... boing...\\nOh, and it even comes in lucky colors!"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Mualani: Dancing",
+      "text": "Everyone loves to visit our tribe for vacation. The plants and nature here really seem to connect with people. They feel like friends, you know?\\nThe rolling waves, swaying seagrass, fluttering leaves... They're all like beloved dance instructors to me. Just follow their beat and rhythm, maybe give a twirl, a bit of side-to-side, and you're dancing! Well? Don't just stand there. C'mon, give it a go!"
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Greetings",
+      "text": "C'mon, you have to check out these surfboards! There's all kinds of patterns, materials, and colors to pick from! What's your lucky color? Huh? You don't have one? Then lemme pick one for you!"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Mutual Trust",
+      "text": "We've been through so much together — the Night Kingdom, the mysterious island... I'd say that definitely makes us companions who can trust each other with our lives. If you ever get lost on the road, just let me know! I'm a pretty good guide, if I do say so myself! I'll find a way forward even if that means carving out an entirely new path with my surfboard!"
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "For a while, I hung my Vision on my swimming floater. After all, its azure color matches really well. But later, I completely forgot about it while playing volleyball with my friends. The floater landed on the sand, and I swear I almost heard something break! But, when I checked, my Vision was still in one piece! So, all in all, I think it was actually a sign of good luck!"
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "You're not scared of dogs, right? 'Cause you have to meet my family's dog! He loves to play and tries to get pets from anyone he sees. I always bring him to the water to play. He even knows how to surf, actually. That's my little doggie, already carving the waves better than me!\\nI'll introduce you sometime. I'm sure his tail will be wagging and whirling like a propeller. Just be careful not to get whacked... It hurts, hahahaha!"
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "The Koholasaurs around the People of the Springs love hot springs just as much as we do. We often find them soaking in the same springs as us. But if you're unsure about their temper, it's best to keep your distance.\\nOh? How do you judge the temperament of a Koholasaur? Haha, my method is super simple. Just slowly approach them, and you'll know pretty quick... If they don't bite, they're probably pretty chill... If they do try to bite, well... just think of it like a little love nip, I guess."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Mavuika",
+      "text": "The Pyro Archon is the most respected figure in all of Natlan. I really admire her, not only because she's the Pyro Archon, but because... she looks super cool when she surfs!\\nI've challenged her to a race before, actually... Huh? You wanna know who was faster? In that case, let's race, and I'll tell you once you beat me!"
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Kachina",
+      "text": "Kachina is incredibly gentle and kind. From everything she says, it's clear she's always thinking about others. She has so many great qualities, but she's constantly overlooked and ridiculed because she doesn't stand up for herself. *sigh* I know she can handle herself, it's just... I worry about her lack of confidence. More often than not, she ends up believing the awful things people say about her. So, I've made it my personal mission to encourage her and share her strengths with all the people around me. I'm sure one day, everyone will see her in a new light!"
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Kinich",
+      "text": "Ajaw will say more in a day than Kinich in a whole year. It can't be easy having to deal with all of Ajaw's antics, but somehow Kinich always manages to do his own thing. Now that I think about it, the only time they seem equally uninterested is when I talk about horoscopes..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Chasca",
+      "text": "I met Chasca when I was little. We even fought over toys a few times... I was pretty surprised when I heard she became a Peacemaker. They say some people mature really slowly, while others grow up in an instant. Sometimes, I wonder if I've even started..."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Citlali",
+      "text": "Granny Citlali is without a doubt the most experienced priestess I've ever seen. She's more than just an elder, she's like the coolest elder ever! Her predictions are always super accurate. A long time ago, she said the lucky colors for my business were pink and blue. Sure enough, pink and blue floaters are now my top sellers!\\nWhile I was bugging her... uh, I mean, visiting her recently, she mentioned there was an outlander who could bring me good fortune... Ah, wait a sec! Aren't you an outlander!?"
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Iansan",
+      "text": "Iansan is the pride of the Collective of Plenty and all of Natlan. She's been a part of so many Pilgrimages, and is still unbeaten to this day! I registered for her training class, actually, paid the tuition fee and everything. I just haven't started because, uh... I've been too busy to train...\\nOkay, fine. I'll admit... When I saw what Kachina looked like when she finished her training, I heard a voice inside me say, \"Hey, you belong in the water. Stay on dry land for too long, and you'll wind up stranded there.\" Sometimes, you've just gotta listen to your heart!"
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Xilonen",
+      "text": "If the Pyro Archon acknowledges a craftsperson, then you know she's good. Even if an Ancient Name got all smashed up, I bet she could make it good as new again. Wait, did I just jinx something? An Ancient Name absolutely cannot get smashed. That would be so bad. I take it back! I take it back! I didn't say anything. And you didn't hear anything either, alright?"
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Ifa",
+      "text": "Ifa is the best! No matter what we invite him to do, he's always happy to join. And he's super quick and efficient at everything, too. If he wasn't already working as a vet, I think he'd make a pretty great water sports coach. Hmm? Is he from a different tribe? Well, yeah, but that won't be a problem at all!"
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Yumemizuki Mizuki",
+      "text": "Wow, you really know just about everybody! Mizuki's a good friend of the People of the Springs. She might come across as the quiet type, but she's actually really chatty. Whatever the conversation, she can keep it going for as long as you let her... Hehe, it's easy to lose track of time when you're talking to her.\\nOh, this reminds me! She's opening a new branch of her business in Natlan soon. Have you got time? You wanna come show your support? I'm gonna give her some purple floaters as a gift. I hope she likes them!"
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Varesa",
+      "text": "Varesa... Oh! Varesa! She's that girl who has super strength, but never does so well in the Pilgrimage, right? Iansan brought her here for swimming training once. She used to lie on the beach reading comics during her down time, so I got to read a few over her shoulder. She can list off the names of so many ancient heroes, including loads from the People of the Springs — even ones I didn't really know of! She's pretty awesome."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Mualani: I",
+      "text": "Hey, got a moment? Wanna come over and chat? We could go to the hot springs, or anywhere, really. I'm not picky. I don't get opportunities like this very often, so I've brought my Kamera with me. I'll even show you some cool poses and tricks. Trust me, we'll definitely get some cool group photos today!"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Mualani: II",
+      "text": "Being a good guide means relying on experience. Our ancestors left behind many practices to learn from. But don't worry, I'm not the type to blindly follow old advice and customs. I only swear by the ones I've tried and found to be useful.\\nHuh? Which ones were a bust? Hmm... Well, one time I was out exploring, and I could see a river with a bridge up ahead. But the map wanted me to cross the river with a boat. I measured the river's current and then checked the bridge for any traps or hidden dangers... But, in the end, it turned out that our ancestors didn't recommend using the bridge because... it hadn't been built yet! \\nSo, yeah. Experience is key..."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Mualani: III",
+      "text": "I love guiding visitors from other places! At the end of our tours, they always thank me for introducing them to Natlan's local customs. But honestly, I'm equally grateful to them for sharing their experiences with me, chatting about their hometown, and telling me stories I've never heard before... So, in a way, every trip turns into my own kind of journey, as well!"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Mualani: IV",
+      "text": "I try my best to play it cool when making new friends, but... hehe... Sometimes people pull me aside and tell me I'm too enthusiastic, to the point of being a little overwhelming. So, now, I try to tone it down a bit at the beginning, and let them warm up to me first...\\nOh, and please tell me if I'm ever too much, okay? Don't worry about hurting my feelings. You could even write me an anonymous note, if you want. I promise I'll make it right!"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Mualani: V",
+      "text": "Challenges have a way of revealing a person's true potential. Participating in the Pilgrimage really made me understand that! But, in a tough situation, I still think two people are better than one. Every person counts... By working together, we can make our own miracles!\\nTake the Night Warden Wars, for example... We're not the only ones in this fight. What about the heroes who defended Natlan in ages past, or the younger generations who will fight for us in the future. Our combined efforts are what push Natlan forward. If you ask me, that's the real meaning of \"Umoja.\""
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Mualani's Hobbies",
+      "text": "Swimming, diving, water skiing, surfing, parasailing, beach volleyball, water volleyball, rowing, snorkeling, holding my breath underwater... Whew, I don't think I could ever list all my favorite activities, not even if I had an extra pair of hands. Sometimes, when I get tired, I just float on the water and relax... I've even fallen asleep a few times. It may be comfortable, but you pay the price when you wake up and realize you've drifted into the middle of nowhere. I always get an earful from the elders when that happens..."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Mualani's Troubles",
+      "text": "Whenever I'm feeling down, I tell myself, \"C'mon, it's okay. It's just bad luck. Having one terrible day doesn't mean things will stay that way.\" That usually helps me feel a little better. But if that still doesn't help, I go Spiritway surfing and shout my lungs out on the high-speed twists and turns. Going for a few rides always makes me feel like I've well and truly left my troubles in the dust."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I like a big tray of seafood, no turf, all surf! And no veggies either! One bite makes me feel like a little fish swimming around the sea... Ah, so satisfying!"
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I regret secretly pouring my glass of milk into the hot springs as a kid. If I actually drank it, maybe I wouldn't be quite so short... But, it's whatever. I promised Auntie Atea I'd never do that again! I drink all my milk now, so it shouldn't be too late to grow a little taller! The same goes for you — we can all learn from my childhood mistakes!"
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Wow, this is amazing! Makes me want to hop on my surfboard and do three whole flips without touching the ground!"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Got any more? This would be a huge hit at a party!"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Maybe we could soak it some hot spring water for a bit? That could improve the texture!"
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday! Don't open your gifts just yet. I picked this restaurant just for you, it's the most popular one around... I bet you've already gotten loads of well-wishes from your friends, but what if I told you even more people from your journey wanted to help you celebrate? What do you think?\\nHehe! C'mon, have a seat and let's bring on the birthday wishes! Ahem... Excuse me, everyone! Your attention, please! Today is my friend's birthday! A noble and formidable hero who's defeated ferocious beasts and healed countless souls! C'mon, let's give him our warmest birthday wishes! Alright, you guys over there, say it with me, \"Here's to good fortune on your adventures!\" Great! And you guys over there... \"Here's to success in battle!\" Perfect! Finally, all together, now... Happy birthday, {NICKNAME}! Here's to good luck, good health, and much happiness!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Sweet! Just what I needed! Keep 'em coming!"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Nice! Looks like my strength is on the rise! Now, how about a friendly game of beach volleyball? I won't hold back!"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "It's my lucky day, I just know it! Feels like I could even conquer those massive waves I bailed on last time. No time to lose, bring on the challenge!"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "For the safety of the tour group, I usually stop my clients from wandering into dangerous places... But I know there will always be situations where there's no choice but to face danger head-on. So, let me join you on your journey. If we work together, there's nothing we can't overcome!"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Let's ride!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Carving waves~"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Faster!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Woohoo~!"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Amazing!"
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Surf's up!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Catch an epic wave! Woosh~!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Let's shred, Sharky!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Check this out! Best of luck!"
+    },
+    {
+      "id": "700001",
+      "type": 2,
+      "title": "Sprint Start: I",
+      "text": "Off we go!"
+    },
+    {
+      "id": "700002",
+      "type": 2,
+      "title": "Sprint Start: II",
+      "text": "Need a surfboard?"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "I told you today's our lucky day!"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "The best stuff's always at the bottom!"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Oh no, I dropped it! Quick, pick it up! Hope I didn't just jinx us..."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "I must protect my clients!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Not my lucky day..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "I got this... I got this!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "You're not fighting alone!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "That's it, lemme at 'em!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "What kinda guide... falls behind..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "\"No one fights alone\"..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "The journey's... over..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Hey, c'mon now!"
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Chill out!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Watch the surfboard..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Whoa, what a lineup! We'll be unstoppable!"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Hey, guys! How's it going?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Woohoo! Let's goooooo~!"
+    }
+  ]
+}

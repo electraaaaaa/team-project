@@ -1,0 +1,1723 @@
+{
+  "_id": 10000059,
+  "id": "shikanoin_heizou",
+  "name": "Shikanoin Heizou",
+  "title": "Analytical Harmony",
+  "description": "A young prodigy detective from the Tenryou Commission. His senses are sharp and his thoughts are clear.",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "anemo",
+    "name": "Anemo"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1657659600,
+  "substat": "Anemo DMG Bonus",
+  "stats": {
+    "base": {
+      "hp": 893.5552,
+      "attack": 18.87648,
+      "defense": 57.33945
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 667.5315,
+        "attack": 14.102028,
+        "defense": 42.8355,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1141.8302,
+        "attack": 24.12189,
+        "defense": 73.27125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1774.2284,
+        "attack": 37.481705,
+        "defense": 113.85225,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2248.527,
+        "attack": 47.501568,
+        "defense": 144.288,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2722.8257,
+        "attack": 57.52143,
+        "defense": 174.72375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3197.1245,
+        "attack": 67.54129,
+        "defense": 205.1595,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Tenryou Commission",
+  "region": {
+    "id": "inazuma",
+    "name": "Inazuma"
+  },
+  "rarity": 4,
+  "birthday": [
+    24,
+    7
+  ],
+  "constellation": "Cervus Minor",
+  "domain": "Violet Court",
+  "cv": {
+    "english": "Kieran Regan",
+    "chinese": "林景",
+    "japanese": "井口祐一",
+    "korean": "Jung Eui-jin"
+  },
+  "skills": [
+    {
+      "_id": 10591,
+      "id": "fudou_style_martial_arts",
+      "name": "Fudou Style Martial Arts",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 fisticuffs empowered by a mighty wind, dealing <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina and performs a sweeping kick that deals <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Calling upon the surging wind, Heizou plunges towards the ground from mid-air, damaging all opponents in his path. Deals <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "37.5%",
+            "40.3%",
+            "43.1%",
+            "46.8%",
+            "49.7%",
+            "52.5%",
+            "56.2%",
+            "60%",
+            "63.7%",
+            "67.5%",
+            "71.2%",
+            "74.9%",
+            "79.6%",
+            "84.3%",
+            "89%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "36.9%",
+            "39.6%",
+            "42.4%",
+            "46.1%",
+            "48.8%",
+            "51.6%",
+            "55.3%",
+            "59%",
+            "62.6%",
+            "66.3%",
+            "70%",
+            "73.7%",
+            "78.3%",
+            "82.9%",
+            "87.5%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "51.1%",
+            "54.9%",
+            "58.7%",
+            "63.8%",
+            "67.7%",
+            "71.5%",
+            "76.6%",
+            "81.7%",
+            "86.8%",
+            "91.9%",
+            "97%",
+            "102.1%",
+            "108.5%",
+            "114.9%",
+            "121.3%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "14.8% + 16.3%+19.2%",
+            "15.9% + 17.5%+20.7%",
+            "17% + 18.7%+22.1%",
+            "18.5% + 20.3%+24%",
+            "19.6% + 21.5%+25.5%",
+            "20.7% + 22.8%+26.9%",
+            "22.2% + 24.4%+28.8%",
+            "23.7% + 26%+30.7%",
+            "25.1% + 27.6%+32.7%",
+            "26.6% + 29.3%+34.6%",
+            "28.1% + 30.9%+36.5%",
+            "29.6% + 32.5%+38.4%",
+            "31.4% + 34.6%+40.8%",
+            "33.3% + 36.6%+43.2%",
+            "35.1% + 38.6%+45.6%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "61.4%",
+            "66.1%",
+            "70.7%",
+            "76.8%",
+            "81.4%",
+            "86%",
+            "92.2%",
+            "98.3%",
+            "104.5%",
+            "110.6%",
+            "116.8%",
+            "122.9%",
+            "130.6%",
+            "138.3%",
+            "145.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack",
+          "values": [
+            "73%",
+            "78.5%",
+            "84%",
+            "91.3%",
+            "96.7%",
+            "102.2%",
+            "109.5%",
+            "116.8%",
+            "124.1%",
+            "131.4%",
+            "138.7%",
+            "146%",
+            "155.1%",
+            "164.3%",
+            "173.4%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10592,
+      "id": "heartstopper_strike",
+      "name": "Heartstopper Strike",
+      "description": "<span style=\"color:#FFD780FF\">Tap</span><br/>Wields the swift winds to launch a Heartstopper Strike that deals <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Charges energy to unleash an even stronger blow. He will obtain the Declension effect while charging, which will increase the power of the Heartstopper Strike. When the skill button is released or the skill finishes charging, he will strike forward, dealing <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Declension</span><br/>Increases the power of the next Heartstopper Strike. Max 4 stacks.<br/>When you possess 4 Declension stacks, the Conviction effect will be produced, which will cause the next Heartstopper Strike to be even stronger and have a larger AoE.",
+      "info": "This seemingly ordinary strike contains Heizou's desire for criminals to honestly confess and repent.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "227.5%",
+            "244.6%",
+            "261.6%",
+            "284.4%",
+            "301.5%",
+            "318.5%",
+            "341.3%",
+            "364%",
+            "386.8%",
+            "409.5%",
+            "432.3%",
+            "455%",
+            "483.5%",
+            "511.9%",
+            "540.4%"
+          ]
+        },
+        {
+          "label": "Declension DMG Bonus",
+          "values": [
+            "56.9%/stack",
+            "61.1%/stack",
+            "65.4%/stack",
+            "71.1%/stack",
+            "75.4%/stack",
+            "79.6%/stack",
+            "85.3%/stack",
+            "91%/stack",
+            "96.7%/stack",
+            "102.4%/stack",
+            "108.1%/stack",
+            "113.8%/stack",
+            "120.9%/stack",
+            "128%/stack",
+            "135.1%/stack"
+          ]
+        },
+        {
+          "label": "Conviction DMG Bonus",
+          "values": [
+            "113.8%",
+            "122.3%",
+            "130.8%",
+            "142.2%",
+            "150.7%",
+            "159.3%",
+            "170.6%",
+            "182%",
+            "193.4%",
+            "204.8%",
+            "216.1%",
+            "227.5%",
+            "241.7%",
+            "256%",
+            "270.2%"
+          ]
+        },
+        {
+          "label": "Declension Duration",
+          "values": [
+            "60s",
+            "60s",
+            "60s",
+            "60s",
+            "60s",
+            "60s",
+            "60s",
+            "60s",
+            "60s",
+            "60s",
+            "60s",
+            "60s",
+            "60s",
+            "60s",
+            "60s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10595,
+      "id": "windmuster_kick",
+      "name": "Windmuster Kick",
+      "description": "Leaps into the air and uses the Fudou Style Vacuum Slugger and kicks his opponent. The Vacuum Slugger will explode upon hit and create an Arresting Windtunnel that pulls in nearby objects and opponents, dealing <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span>.<br/>When Vacuum Slugger hits opponents affected by <span style=\"color:#80C0FFFF\">Hydro</span>/<span style=\"color:#FF9999FF\">Pyro</span>/<span style=\"color:#99FFFFFF\">Cryo</span>/<span style=\"color:#FFACFFFF\">Electro</span>, these opponents will be afflicted with Windmuster Iris. This Windmuster Iris will explode after a moment and dissipate, dealing AoE DMG of the corresponding aforementioned elemental type.<br/>Vacuum Slugger can afflict a maximum of 4 opponents with the Windmuster Iris. A single opponent cannot be under the effect of Windmuster Irises of different elements at the same time.",
+      "info": "A unique technique that gathers Anemo in one place before unleashing it all in one kick. Is always there in a pinch to land on some criminal's fleeing back.",
+      "attributes": [
+        {
+          "label": "Fudou Style Vacuum Slugger DMG",
+          "values": [
+            "314.7%",
+            "338.3%",
+            "361.9%",
+            "393.4%",
+            "417%",
+            "440.6%",
+            "472%",
+            "503.5%",
+            "535%",
+            "566.4%",
+            "597.9%",
+            "629.4%",
+            "668.7%",
+            "708%",
+            "747.4%"
+          ]
+        },
+        {
+          "label": "Windmuster Iris DMG",
+          "values": [
+            "21.5%",
+            "23.1%",
+            "24.7%",
+            "26.8%",
+            "28.4%",
+            "30%",
+            "32.2%",
+            "34.3%",
+            "36.5%",
+            "38.6%",
+            "40.8%",
+            "42.9%",
+            "45.6%",
+            "48.3%",
+            "51%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "paradoxical_practice",
+      "name": "Paradoxical Practice",
+      "description": "When Shikanoin Heizou activates a Swirl or Stellar Swirl reaction while on the field, he will gain 1 Declension stack for <span style=\"color:#FFD780FF\">Heartstopper Strike</span>. This effect can be triggered once every 0.1s.",
+      "level": 1
+    },
+    {
+      "id": "penetrative_reasoning",
+      "name": "Penetrative Reasoning",
+      "description": "After Shikanoin Heizou's <span style=\"color:#FFD780FF\">Heartstopper Strike</span> hits an opponent, increases all party members' (excluding Shikanoin Heizou) Elemental Mastery by 80 for 10s.",
+      "level": 4
+    },
+    {
+      "id": "preexisting_guilt",
+      "name": "Pre-Existing Guilt",
+      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.<br/>Not stackable with Passive Talents that provide the exact same effects.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 591,
+      "id": "named_juvenile_casebook",
+      "name": "Named Juvenile Casebook",
+      "description": "For 5s after Shikanoin Heizou takes the field, his Normal Attack SPD is increased by 15%. He also gains 1 Declension stack for <span style=\"color:#FFD780FF\">Heartstopper Strike</span>. This effect can be triggered once every 10s.",
+      "level": 1
+    },
+    {
+      "_id": 592,
+      "id": "investigative_collection",
+      "name": "Investigative Collection",
+      "description": "The pull effect of the Arresting Windtunnel created by <span style=\"color:#FFD780FF\">Windmuster Kick</span> is enhanced, and its duration is increased to 1s.",
+      "level": 2
+    },
+    {
+      "_id": 593,
+      "id": "esoteric_puzzle_book",
+      "name": "Esoteric Puzzle Book",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Heartstopper Strike</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 594,
+      "id": "tome_of_lies",
+      "name": "Tome of Lies",
+      "description": "The first Windmuster Iris explosion in each <span style=\"color:#FFD780FF\">Windmuster Kick</span> will regenerate 9 Elemental Energy for Shikanoin Heizou. Every subsequent explosion in that Windmuster Kick will each regenerate an additional 1.5 Energy for Heizou.<br/>One <span style=\"color:#FFD780FF\">Windmuster Kick</span> can regenerate a total of 13.5 Energy for Heizou in this manner.",
+      "level": 4
+    },
+    {
+      "_id": 595,
+      "id": "secret_archive",
+      "name": "Secret Archive",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Windmuster Kick</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 596,
+      "id": "curious_casefiles",
+      "name": "Curious Casefiles",
+      "description": "Each Declension stack will increase the CRIT Rate of the <span style=\"color:#FFD780FF\">Heartstopper Strike</span> unleashed by 4%. When Heizou possesses Conviction, this Heartstopper Strike's CRIT DMG is increased by 32%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "894"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "19"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "57"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2296",
+            "2963"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "48",
+            "63"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "147",
+            "190"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4438",
+            "4913"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "94",
+            "104"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "285",
+            "315"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104151,
+        "id": "vayuda_turquoise_sliver",
+        "name": "Vayuda Turquoise Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101201,
+        "id": "onikabuto",
+        "name": "Onikabuto",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112035,
+        "id": "treasure_hoarder_insignia",
+        "name": "Treasure Hoarder Insignia",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5651",
+            "6283"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "119",
+            "133"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "363",
+            "403"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101201,
+        "id": "onikabuto",
+        "name": "Onikabuto",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112035,
+        "id": "treasure_hoarder_insignia",
+        "name": "Treasure Hoarder Insignia",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7021",
+            "7495"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "148",
+            "158"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "451",
+            "481"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101201,
+        "id": "onikabuto",
+        "name": "Onikabuto",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112036,
+        "id": "silver_raven_insignia",
+        "name": "Silver Raven Insignia",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8233",
+            "8707"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "174",
+            "184"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "528",
+            "559"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101201,
+        "id": "onikabuto",
+        "name": "Onikabuto",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112036,
+        "id": "silver_raven_insignia",
+        "name": "Silver Raven Insignia",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9445",
+            "9919"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "200",
+            "210"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "606",
+            "637"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101201,
+        "id": "onikabuto",
+        "name": "Onikabuto",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112037,
+        "id": "golden_raven_insignia",
+        "name": "Golden Raven Insignia",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10657",
+            "10657"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "225",
+            "225"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "684",
+            "684"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104154,
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Vayuda Turquoise Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113035,
+        "id": "runic_fang",
+        "name": "Runic Fang",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101201,
+        "id": "onikabuto",
+        "name": "Onikabuto",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112037,
+        "id": "golden_raven_insignia",
+        "name": "Golden Raven Insignia",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104320,
+          "id": "teachings_of_transience",
+          "name": "Teachings of Transience",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112035,
+          "id": "treasure_hoarder_insignia",
+          "name": "Treasure Hoarder Insignia",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113034,
+          "id": "the_meaning_of_aeons",
+          "name": "The Meaning of Aeons",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113034,
+          "id": "the_meaning_of_aeons",
+          "name": "The Meaning of Aeons",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113034,
+          "id": "the_meaning_of_aeons",
+          "name": "The Meaning of Aeons",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113034,
+          "id": "the_meaning_of_aeons",
+          "name": "The Meaning of Aeons",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 205900,
+      "name": "Spirited Valor",
+      "description": "Shikanoin Heizou's outfit. Having taken his outer coat off and tucked it around his waist, the Tenryou Commission detective cuts quite the dashing figure.",
+      "isDefault": true,
+      "characterName": "Shikanoin Heizou",
+      "characterId": 10000059,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Heizo_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello...",
+      "text": "The name's Shikanoin Heizou, sharpest and most successful detective of the Tenryou Commission... Ooh, my goodness, life's really put you through the wringer recently, hasn't it? I can tell. Here, why don't you take a seat, tell me the whole story."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Criminal Cases",
+      "text": "There's something in the air... something that tells me a new case is brewing."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Detective Work",
+      "text": "Doing detective work means you gotta walk the walk. No... I mean literally — I need to search high and low for evidence."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Intuition",
+      "text": "Huh, my intuition tells me that something very interesting is about to happen..."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "Let's just hope the rain hasn't washed all the clues away."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes...",
+      "text": "Hmm... I wonder which criminal mastermind just protested their innocence in court... A liar by the sounds of it. Hehe."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Have you ever heard of the case of the vengeful spirit of Dragonspine? It all happened on a dark, snowy night long ago..."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Heh, it's gonna take a little more wind than that to form a cyclone!"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning. Oh my, you don't look so good. You didn't have a nightmare, did you? *sigh* I should've known not to expose you to such a shocking case so soon."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Alright. Now that lunch is over, whaddya say we play a game to keep our minds sharp? Relay Stones? Hehe... okay, I guess we can warm up with that."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Once the sun has clocked out for the day, it's up to the stars to keep criminals under their watchful gaze."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Great, it's time to hit the hay! I wonder what dreams await me tonight?"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Shikanoin Heizou: Detective",
+      "text": "A detective should be using their smarts to crush criminals' hopes of getting away with their crimes. So really, a true detective should never even have to touch their weapon."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Shikanoin Heizou: Keywords",
+      "text": "I've made it a habit of mine to remember everything I observe in the form of keywords. They're a big help to me when I'm trying to make deductions. Take this person for example: we've got \"cat hair on clean trousers,\" and \"scratch on the wrist.\" Looks like they have a soft spot for animals, but they can't get cats to reciprocate... Meanwhile, that one seems very troubled about their \"injured hand,\" and they're wearing a pair of \"brand-new shoes that don't match their well-worn attire\"... Hold on, it looks like I might have a new case on my hands here!"
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Commissions",
+      "text": "Seems to me like these commissions of yours are an endless gold mine of cases, and you'll never be able to finish them all. So maybe you could throw one my way every once in a while? Not the ones that involve fighting, running errands, or searching for lost items — as you know, not my style. I only take on big, important cases with lots of mysteries to solve... So, keep an eye out for me, yeah? Hehe."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Destined Outcome",
+      "text": "\"Coincidence\" is a nice word. It makes things sound like they were meant to be. Unfortunately, as a detective, I don't believe in coincidences. The two of us meeting each other is really the culmination of every choice and move we've made up to this point. So what I'm saying is... our destiny is something we choose."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Oh? So there are rumors that I can overpower my Tenryou colleagues without even using my Vision? Hehe, well, let me set the record straight. One: Although I am technically a Doushin, I'm strictly a detective. My mind is my greatest tool, not my muscles. Two: It's not like my colleagues and I are getting into fights with each other all the time. And three... *sigh* Alright, seems like there's no fooling you. Just... never mind then, okay?"
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share: Sense of Achievement",
+      "text": "As you piece together the trail of clues, it brings you closer and closer to the culprit... and then, that moment when you finally put the last piece of the puzzle into place... I always get such a sense of accomplishment. It's exhilarating!"
+    },
+    {
+      "id": "3005",
+      "type": 1,
+      "title": "Something to Share: Doushin",
+      "text": "Not only does being a Doushin come with a certain amount of prestige, it also puts me closer to the action on some of the toughest cases, so the position has definitely broadened my horizons compared to when I was at the detective agency. As for the other duties — patrolling, apprehending criminals, and so on — obviously, I leave that to the more... qualified individuals. There's a limit to how much a single detective can do, you know."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Question, Traveler, how much do you know about timber? That's right, I'm talking about wood from any ordinary tree you might find along the roadside. Whether a criminal bumps into the bark, disturbs a pile of sawdust, or treads on some leaves, the chances are, they're always gonna leave a trace somehow. Add to that some knowledge of which trees grow in what areas, and if you're lucky, you can infer some crucial details. So, you know: trees. They're a sleuth's best friend."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Kujou Sara",
+      "text": "Madam Kujou Sara? Yeah, that lady's gotta be the most serious person in the entire Tenryou Commission. It would be nice if she could cut us a little slack and give everyone some breathing room — and she's always on my case about my occasional unexplained absences, but what can I say... I just go wherever the evidence leads me."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Arataki Itto",
+      "text": "I've done a few favors before to deliver Roasted Lavender Melon to him in prison. This one time, I overheard him singing. The lyrics... were complete trash, but I gotta say — he has a pretty good set of pipes. And it's not every day you come across an inmate who's in the mood to sing their heart out."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Kuki Shinobu",
+      "text": "The Arataki Gang is a free and diverse organization that accepts anyone, regardless of their background. Pretty amazing if you ask me. They're lucky to have Shinobu to help keep them all in line. Hmm? How do I know all this? Haha, I mean... as deductions go, this one was pretty elementary."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Yae Miko",
+      "text": "Come to think of it, Lady Guuji's publishing house also publishes murder mysteries, right? So... when can you introduce me? In this day and age, becoming a famous detective requires more than just ability — you need publicity, too. Huh? C'mon, I'm being serious here!"
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Kaedehara Kazuha: Things in Common",
+      "text": "Oh, Kazuha? Yeah, he's a solid guy. With his help, I felt like a locked treasure chest of clues had been bust wide open and emptied all over the ground for me to see. If only I had his sensitivity to the natural world... Oh, I get it now! The wind to him must be like my intuition to me!"
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Kaedehara Kazuha: Invitation",
+      "text": "Ohh... It's such a pity! Since the Vision Hunt Decree's been repealed, I no longer have any grounds to officially arrest him. But then again... I guess now, I can just openly invite him to come to the Tenryou Commission and discuss cases with me."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Gorou",
+      "text": "General Gorou's constant suspicion made my trip to Watatsumi Island much more eventful... Everywhere I went, there were soldiers keeping me under close surveillance. Honestly, I was a regular, boring tourist just like everybody else. So what if I happen to be a detective in my day job? I was clearly minding my own business there."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Sangonomiya Kokomi",
+      "text": "I've actually never seen Madam Sangonomiya before. Whenever she appears, practically the whole village crowds around her... I'm not about to contend with that. Oh, and even if you made it through all the villagers, there'd still be a circle of shrine maidens around her! For one of us young people to gain that kind of recognition from everyone, it must have taken a lot of work."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Kamisato Ayaka",
+      "text": "I'm barely acquainted with the daughter of the Kamisato Clan. I'm glad that I'm not from some sort of prestigious family like that... it's definitely not the kind of life for me."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Shikanoin Heizou: I",
+      "text": "Even if someone chooses to remain absolutely silent, you can still learn a lot about them just by observing their clothes, posture, and facial expressions. Now, if this conversation ended here... what could you gather from my appearance alone?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Shikanoin Heizou: II",
+      "text": "Once, when I was sitting in on a criminal trial, I suddenly realized I'd cracked the case. So I interrupted the court just as they were about to declare the verdict. If my objection had turned out to be invalid, then that moment wouldn't have been the turning point that saw me become a detective. Instead, it would have been... \"Shikanoin Heizou, I hereby find you in contempt of court and order your immediate detention!\" Hahaha!"
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Shikanoin Heizou: III",
+      "text": "Investigating extramarital affairs, tracking down runaway pets... Those are pretty much the only cases you'll find at a detective agency. I personally need cases of a higher caliber... so, obviously, my only option was to jump ship and join the Tenryou Commission. Another factor was that Sango and I didn't quite see eye to eye in a lot of areas... Just one of those things, I guess."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Shikanoin Heizou: IV",
+      "text": "When I first joined the Tenryou Commission, I started honing my craft by reviewing some cold cases. Before I knew it, \"Mt. Coldcase\" had been completely leveled... It is a pity, these days I no longer have the time to go back and look through old files. I'm forever being brought in to help out on the toughest cases, and I barely have a moment to catch my breath in between jobs... Well, what can you do. Once you're a detective of this caliber, the cases come to you."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Shikanoin Heizou: V",
+      "text": "By the time a detective is facing a criminal, they have in some sense already failed. Whatever you might do to establish the truth and identify the culprit, you'll never be able to undo the damage caused by the crime. That's why I want my reputation to spread. I want to be a famous detective that makes would-be criminals quake in their boots and quit while they're ahead! In other words, I want to nip crime in the bud. Well, now that you've heard my spiel, why don't you lend me a hand?"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Shikanoin Heizou's Hobbies",
+      "text": "Would you like to sit in on a court trial at the Tenryou Commission some time? It's like watching the truth slowly emerge as a collage of facts is pieced together... I can save you a really good seat, but we'll have to pretend like we don't know each other... You know, just pretend."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Shikanoin Heizou's Troubles",
+      "text": "There are always those people who resort to violence at the very last second, as if that'll somehow solve their problems. It's a real bummer. Victory for me is to see the look on the defendant's face as they finally confess to their crime in the face of my ironclad evidence and watertight deductions... The moment a detective has to use brute force, they've already lost."
+    },
+    {
+      "id": "6005",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Name me one item of food that doesn't taste better deep-fried. You can't, right? Whether it's meat or veggies, as long as it's been pulled out of the fryer, I'll love it! I don't think anyone with an empty stomach can resist the smell of fried food."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I cannot stand dinner at the Police Station. It's always the same regimented meals, and don't even get me started on the taste. When it comes to food, you can't enjoy it unless you get to pick exactly what you want, right? But nope, poor me has to make do with slipping out and grabbing a quick bite. *sigh*"
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Mmm, I love it! You really outdid yourself this time. Well done!"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Would you say cooking is more of a physical or a cognitive task? Hmm, I believe it's both... No wonder you're such a good cook!"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Hurk! Mmm... let me think. Where did you go wrong here..."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "After I learned that today was your birthday, there was a brief moment when I really wanted to take you to a locked room chock-full of mechanisms and gifts, where you could only get out by solving all the puzzles... Hehe, it's actually really fun! You know, of course I wouldn't do anything like that unless I was sure you'd actually enjoy it. Here, come with me. There's this beautiful scenic spot I've gotta show you before the sun goes down."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "As I get stronger, my intuition gets sharper!"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "It appears my combat abilities are advancing. Too bad it's not all cognitive."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "My, my! At this rate, the name \"Cyclone\" is really gonna stick, isn't it..."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Thanks for your trust and support, my dear partner. I couldn't have made it this far without your help. Hmm... I suppose we have time for a quick high five, but then let's get back out there and solve some more mysteries!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Fracture!"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "The truth hurts!"
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Bring it on!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Confess!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Cyclone!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Can't fool me!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Oh, it's all coming out now!"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "See? Just follow my intuition."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Hmph, I'm liking the look of this!"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Ugh, if that's how you want it..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "That was discombobulating..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "This is no job for a detective..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Whoa there, watch it!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "That's it, I'm taking this case over."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "The truth... will come out..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "From detective... to victim..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "I've been... outsmarted..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "You don't want to do this."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Ugh, we got a situation!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "I'm on the case!"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Got a problem you can't solve? Clue me in."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Let's move before the trail goes cold."
+    }
+  ]
+}

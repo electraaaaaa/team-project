@@ -1,0 +1,1683 @@
+{
+  "_id": 10000094,
+  "id": "chiori",
+  "name": "Chiori",
+  "title": "The Thundering Seamstress",
+  "description": "The owner of Chioriya Boutique. A tailor renowned throughout Fontaine.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "geo",
+    "name": "Geo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1710194400,
+  "substat": "CRIT Rate",
+  "stats": {
+    "base": {
+      "hp": 890.4009,
+      "attack": 25.137,
+      "defense": 74.1892
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 763.43823,
+        "attack": 21.55113,
+        "defense": 63.612,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1305.8812,
+        "attack": 36.863773,
+        "defense": 108.81,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.048
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2029.1385,
+        "attack": 57.280636,
+        "defense": 169.074,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2571.5815,
+        "attack": 72.59328,
+        "defense": 214.272,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3114.0244,
+        "attack": 87.90592,
+        "defense": 259.47,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3656.4673,
+        "attack": 103.21857,
+        "defense": 304.668,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.192
+        }
+      }
+    ]
+  },
+  "affiliation": "Court of Fontaine",
+  "region": {
+    "id": "inazuma",
+    "name": "Inazuma"
+  },
+  "rarity": 5,
+  "birthday": [
+    17,
+    8
+  ],
+  "constellation": "Cisoria",
+  "domain": "Violet Court",
+  "cv": {
+    "english": "Brittany Lauda",
+    "chinese": "陈阳",
+    "japanese": "竹達彩奈",
+    "korean": "Lee Da-eun"
+  },
+  "skills": [
+    {
+      "_id": 10941,
+      "id": "weaving_blade",
+      "name": "Weaving Blade",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 rapid strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "49.4%",
+            "53.4%",
+            "57.5%",
+            "63.2%",
+            "67.2%",
+            "71.8%",
+            "78.1%",
+            "84.5%",
+            "90.8%",
+            "97.7%",
+            "104.6%",
+            "111.5%",
+            "118.4%",
+            "125.2%",
+            "132.1%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "46.8%",
+            "50.6%",
+            "54.5%",
+            "59.9%",
+            "63.7%",
+            "68.1%",
+            "74.1%",
+            "80.1%",
+            "86%",
+            "92.6%",
+            "99.1%",
+            "105.6%",
+            "112.2%",
+            "118.7%",
+            "125.3%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "30.4% + 30.4%",
+            "32.9% + 32.9%",
+            "35.4% + 35.4%",
+            "38.9% + 38.9%",
+            "41.4% + 41.4%",
+            "44.2% + 44.2%",
+            "48.1% + 48.1%",
+            "52% + 52%",
+            "55.9% + 55.9%",
+            "60.1% + 60.1%",
+            "64.4% + 64.4%",
+            "68.6% + 68.6%",
+            "72.9% + 72.9%",
+            "77.1% + 77.1%",
+            "81.3% + 81.3%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "75.1%",
+            "81.2%",
+            "87.4%",
+            "96.1%",
+            "102.2%",
+            "109.2%",
+            "118.8%",
+            "128.4%",
+            "138%",
+            "148.5%",
+            "159%",
+            "169.5%",
+            "179.9%",
+            "190.4%",
+            "200.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "54.3% + 54.3%",
+            "58.7% + 58.7%",
+            "63.1% + 63.1%",
+            "69.5% + 69.5%",
+            "73.9% + 73.9%",
+            "78.9% + 78.9%",
+            "85.9% + 85.9%",
+            "92.8% + 92.8%",
+            "99.8% + 99.8%",
+            "107.4% + 107.4%",
+            "114.9% + 114.9%",
+            "122.5% + 122.5%",
+            "130.1% + 130.1%",
+            "137.7% + 137.7%",
+            "145.2% + 145.2%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10942,
+      "id": "fluttering_hasode",
+      "name": "Fluttering Hasode",
+      "description": "Dashes nimbly forward with silken steps. Once this dash ends, Chiori will summon the automaton doll \"Tamoto\" beside her and sweep her blade upward, dealing <span style=\"color:#FFE699FF\">AoE Geo DMG</span> to nearby opponents based on her ATK and DEF.<br/>Holding the Skill will cause it to behave differently.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Enter Aiming Mode to adjust the dash direction.<br/><br/><span style=\"color:#FFD780FF\">Tamoto</span><br/>· Will slash at nearby opponents at intervals, dealing <span style=\"color:#FFE699FF\">AoE Geo DMG</span> based on Chiori's ATK and DEF.<br/>· While active, if there are nearby <span style=\"color:#FFE699FF\">Geo Construct(s)</span> or <span style=\"color:#FFE699FF\">Geo Construct(s)</span> are created nearby, an additional Tamoto will be summoned next to your active character. Only 1 additional Tamoto can be summoned in this manner, and its duration is independently counted.",
+      "info": "\"Sakura red dyes the brocade, the fragrance suffuses the sleeves, the orioles intoxicated.\"",
+      "attributes": [
+        {
+          "label": "Tamoto DMG",
+          "values": [
+            "82.1% ATK + 102.6% DEF",
+            "88.2% ATK + 110.3% DEF",
+            "94.4% ATK + 118% DEF",
+            "102.6% ATK + 128.3% DEF",
+            "108.8% ATK + 135.9% DEF",
+            "114.9% ATK + 143.6% DEF",
+            "123.1% ATK + 153.9% DEF",
+            "131.3% ATK + 164.2% DEF",
+            "139.5% ATK + 174.4% DEF",
+            "147.7% ATK + 184.7% DEF",
+            "156% ATK + 194.9% DEF",
+            "164.2% ATK + 205.2% DEF",
+            "174.4% ATK + 218% DEF",
+            "184.7% ATK + 230.8% DEF",
+            "194.9% ATK + 243.7% DEF"
+          ]
+        },
+        {
+          "label": "Tamoto Duration",
+          "values": [
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s",
+            "17s"
+          ]
+        },
+        {
+          "label": "Tamoto Attack Interval",
+          "values": [
+            "3.6s",
+            "3.6s",
+            "3.6s",
+            "3.6s",
+            "3.6s",
+            "3.6s",
+            "3.6s",
+            "3.6s",
+            "3.6s",
+            "3.6s",
+            "3.6s",
+            "3.6s",
+            "3.6s",
+            "3.6s",
+            "3.6s"
+          ]
+        },
+        {
+          "label": "Upward Sweep Attack DMG",
+          "values": [
+            "149.3% ATK + 186.6% DEF",
+            "160.5% ATK + 200.6% DEF",
+            "171.7% ATK + 214.6% DEF",
+            "186.6% ATK + 233.3% DEF",
+            "197.8% ATK + 247.2% DEF",
+            "209% ATK + 261.2% DEF",
+            "223.9% ATK + 279.9% DEF",
+            "238.8% ATK + 298.6% DEF",
+            "253.8% ATK + 317.2% DEF",
+            "268.7% ATK + 335.9% DEF",
+            "283.6% ATK + 354.5% DEF",
+            "298.6% ATK + 373.2% DEF",
+            "317.2% ATK + 396.5% DEF",
+            "335.9% ATK + 419.9% DEF",
+            "354.5% ATK + 443.2% DEF"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10945,
+      "id": "hiyoku_twin_blades",
+      "name": "Hiyoku: Twin Blades",
+      "description": "Twin blades leave their sheaths as Chiori slices with the clean cuts of a master tailor, dealing <span style=\"color:#FFE699FF\">AoE Geo DMG</span> based on her ATK and DEF.",
+      "info": "\"Master one principle, and the path to all others shall open to you.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "256.3% ATK + 320.4% DEF",
+            "275.5% ATK + 344.4% DEF",
+            "294.8% ATK + 368.5% DEF",
+            "320.4% ATK + 400.5% DEF",
+            "339.6% ATK + 424.5% DEF",
+            "358.8% ATK + 448.6% DEF",
+            "384.5% ATK + 480.6% DEF",
+            "410.1% ATK + 512.6% DEF",
+            "435.7% ATK + 544.7% DEF",
+            "461.4% ATK + 576.7% DEF",
+            "487% ATK + 608.8% DEF",
+            "512.6% ATK + 640.8% DEF",
+            "544.7% ATK + 680.9% DEF",
+            "576.7% ATK + 720.9% DEF",
+            "608.8% ATK + 760.9% DEF"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "tailormade",
+      "name": "Tailor-Made",
+      "description": "Gain different effects depending on the next action you take within a short duration after using <span style=\"color:#FFD780FF\">Fluttering Hasode</span>'s upward sweep. If you Press the Elemental Skill, you will trigger the Tapestry effect. If you Press your Normal Attack, the Tailoring effect will be triggered instead.<br/><br/><span style=\"color:#FFD780FF\">Tapestry</span><br/>· Switches to the next character in your roster.<br/>· Grants all your party members \"Seize the Moment\": When your active party member's Normal Attacks, Charged Attacks, and Plunging Attacks hit a nearby opponent, \"Tamoto\" will execute a coordinated attack, dealing 100% of Fluttering Hasode's upward sweep DMG as <span style=\"color:#FFE699FF\">AoE Geo DMG</span> at the opponent's location. DMG dealt this way is considered Elemental Skill DMG.<br/>· \"Seize the Moment\" lasts 8s, and 1 of \"Tamoto\"'s coordinated attack can be unleashed every 2s. 2 such coordinated attacks can occur per \"Seize the Moment\" effect duration.<br/><br/><span style=\"color:#FFD780FF\">Tailoring</span><br/>· Chiori gains <span style=\"color:#FFE699FF\">Geo infusion</span> for 5s.<br/><br/>When on the field, if Chiori does not either Press her Elemental Skill or use a Normal Attack within a short time after using Fluttering Hasode's upward sweep, the Tailoring effect will be triggered by default.",
+      "level": 1
+    },
+    {
+      "id": "the_finishing_touch",
+      "name": "The Finishing Touch",
+      "description": "When a nearby party member creates a <span style=\"color:#FFE699FF\">Geo Construct</span>, Chiori will gain 20% <span style=\"color:#FFE699FF\">Geo DMG Bonus</span> for 20s.",
+      "level": 4
+    },
+    {
+      "id": "brocaded_collars_beauteous_silhouette",
+      "name": "Brocaded Collar's Beauteous Silhouette",
+      "description": "When any party member is wearing an outfit apart from their default outfit, or is wearing a wind glider other than the Wings of First Flight, your party members will obtain the Swift Stride effect: Movement SPD is increased by 10%.<br/>This effect does not take effect in Domains, Trounce Domains, and the Spiral Abyss. Swift Stride does not stack.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 941,
+      "id": "six_paths_of_sage_silkcraft",
+      "name": "Six Paths of Sage Silkcraft",
+      "description": "The AoE of the automaton doll \"Tamoto\" summoned by <span style=\"color:#FFD780FF\">Fluttering Hasode</span> is increased by 50%.<br/>Additionally, if there is a <span style=\"color:#FFE699FF\">Geo</span> party member other than Chiori, Fluttering Hasode will trigger the following after the dash is completed:<br/>· Summon an additional Tamoto. Only one additional Tamoto can exist at the same time, whether summoned by Chiori this way or through the presence of a Geo Construct.<br/>· Triggers the Ascension Talent \"The Finishing Touch.\" You must first unlock the Ascension Talent \"The Finishing Touch.\"",
+      "level": 1
+    },
+    {
+      "_id": 942,
+      "id": "in_five_colors_dyed",
+      "name": "In Five Colors Dyed",
+      "description": "For 10s after using <span style=\"color:#FFD780FF\">Hiyoku: Twin Blades</span>, a simplified automaton doll, \"Kinu,\" will be summoned next to your active character every 3s. Kinu will attack nearby opponents, dealing <span style=\"color:#FFE699FF\">AoE Geo DMG</span> equivalent to 170% of Tamoto's DMG. DMG dealt this way is considered Elemental Skill DMG.<br/>Kinu will leave the field after 1 attack or after lasting 3s.",
+      "level": 2
+    },
+    {
+      "_id": 943,
+      "id": "four_brocade_embellishments",
+      "name": "Four Brocade Embellishments",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Fluttering Hasode</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 944,
+      "id": "a_tailors_three_courtesies",
+      "name": "A Tailor's Three Courtesies",
+      "description": "For 8s after triggering either follow-up effect of the Ascension Talent \"Tailor-Made,\" when your current active character's Normal, Charged, or Plunging Attacks hit a nearby opponent, a simplified automaton doll, \"Kinu,\" will be summoned near this opponent. You can summon 1 Kinu every 1s in this way, and up to 3 Kinu may be summoned this way during each instance of \"Tailor-Made\"'s Seize the Moment or Tailoring effect. The above effect can be triggered up to once every 15s.<br/>You must first unlock the Ascension Talent \"Tailor-Made.\"",
+      "level": 4
+    },
+    {
+      "_id": 945,
+      "id": "two_silken_plumules",
+      "name": "Two Silken Plumules",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Hiyoku: Twin Blades</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 946,
+      "id": "sole_principle_pursuit",
+      "name": "Sole Principle Pursuit",
+      "description": "After triggering a follow-up effect of the Ascension Talent \"Tailor-Made,\" Chiori's own <span style=\"color:#FFD780FF\">Fluttering Hasode</span>'s CD is decreased by 12s. You must first unlock the Ascension Talent \"Tailor-Made.\".<br/>In addition, the DMG dealt by Chiori's own Normal Attacks is increased by an amount equal to 235% of her own DEF.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "890"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "25"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "74"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "-",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2310",
+            "3073"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "65",
+            "87"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "192",
+            "256"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4598",
+            "5141"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "130",
+            "145"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "383",
+            "428"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "9.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104171,
+        "id": "prithiva_topaz_sliver",
+        "name": "Prithiva Topaz Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101204,
+        "id": "dendrobium",
+        "name": "Dendrobium",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112053,
+        "id": "spectral_husk",
+        "name": "Spectral Husk",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5915",
+            "6638"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "167",
+            "187"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "493",
+            "553"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "9.8%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113049,
+        "id": "artificed_spare_clockwork_component_coppelia",
+        "name": "Artificed Spare Clockwork Component — Coppelia",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101204,
+        "id": "dendrobium",
+        "name": "Dendrobium",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112053,
+        "id": "spectral_husk",
+        "name": "Spectral Husk",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7420",
+            "7962"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "209",
+            "225"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "618",
+            "663"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113049,
+        "id": "artificed_spare_clockwork_component_coppelia",
+        "name": "Artificed Spare Clockwork Component — Coppelia",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101204,
+        "id": "dendrobium",
+        "name": "Dendrobium",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112054,
+        "id": "spectral_heart",
+        "name": "Spectral Heart",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8751",
+            "9293"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "247",
+            "262"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "729",
+            "774"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "19.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113049,
+        "id": "artificed_spare_clockwork_component_coppelia",
+        "name": "Artificed Spare Clockwork Component — Coppelia",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101204,
+        "id": "dendrobium",
+        "name": "Dendrobium",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112054,
+        "id": "spectral_heart",
+        "name": "Spectral Heart",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10091",
+            "10634"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "285",
+            "300"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "841",
+            "886"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "19.4%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113049,
+        "id": "artificed_spare_clockwork_component_coppelia",
+        "name": "Artificed Spare Clockwork Component — Coppelia",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101204,
+        "id": "dendrobium",
+        "name": "Dendrobium",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112055,
+        "id": "spectral_nucleus",
+        "name": "Spectral Nucleus",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11438",
+            "11438"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "323",
+            "323"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "953",
+            "953"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "24.2%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104174,
+        "id": "prithiva_topaz_gemstone",
+        "name": "Prithiva Topaz Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113049,
+        "id": "artificed_spare_clockwork_component_coppelia",
+        "name": "Artificed Spare Clockwork Component — Coppelia",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101204,
+        "id": "dendrobium",
+        "name": "Dendrobium",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112055,
+        "id": "spectral_nucleus",
+        "name": "Spectral Nucleus",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104326,
+          "id": "teachings_of_light",
+          "name": "Teachings of Light",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112053,
+          "id": "spectral_husk",
+          "name": "Spectral Husk",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104327,
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104327,
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104327,
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104327,
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104328,
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Lightless Silk String",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104328,
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Lightless Silk String",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104328,
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Lightless Silk String",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104328,
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Lightless Silk String",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 209400,
+      "name": "Plucked Yamabuki Splendor",
+      "description": "Chiori's outfit. An elegant dress ensemble personally designed by Chiori herself, the exquisite craftsmanship has a distinctive Inazuman flair. She once wore this outfit when she graced the front page of a Fontainian fashion review magazine, and her unique aesthetics immediately catapulted her to the forefront of Fontaine's fashion world.",
+      "isDefault": true,
+      "characterName": "Chiori",
+      "characterId": 10000094,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Chiori_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "I am Chiori, the owner of Chioriya Boutique. Feel free to find me if you'd like to commission any tailor-made outfits. As for any other requests, it all depends on whether you have enough to offer in exchange. Just the rules of the \"business\" — you scratch my back, and I'll scratch yours. Also, smoking, drinking, and causing a ruckus are all strictly prohibited within the Boutique. That whole \"the customer is king\" concept doesn't fly here... And even when royalty does come into the shop, if they don't adhere to the rules, they'll find themselves being tossed out and kissing the pavement just like anyone else."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Criticism",
+      "text": "It's up to me to decide who I want to be and to cut my own path. No one can tell me what to do."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Tailor's Cutters",
+      "text": "Who says you have to use scissors to cut clothes? Leave those rigid rules behind. I much prefer using my own cutting tools."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Modeling",
+      "text": "If you really like standing around like this, then why don't you just model for me? I'll design some wonderful clothes for you."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "It's not so much the rain that bothers me, but the mud. It's always such a pain to wash it out of my clothes."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "...This reminds me of home."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "The way it comes floating from on high makes you want to reach out for it... But the moment it lands on your hand, its beauty dissipates... Hmm, I suppose there are more similarities between snowflakes and fashion than I thought..."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "Hmm, just how can I market high fashion here..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning. Don't expect me to make breakfast for you. But if you're going to the café, be a darling and bring me a cup of coffee. Black. No cream, no sugar."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Is it lunch time already? I'm not even hungry yet... I don't plan on taking a break now. You go ahead."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "It's so noisy out there. Has everyone in the entire Court of Fontaine decided to go out this evening?"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "I'm going to go relax by taking a nice, long bath. Well, I'll see you tomorrow."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Chiori: Directness",
+      "text": "Many have expressed displeasure both publicly and privately about my personality, and have complained that my words can be hurtful. But, if you ask me, all those showy pleasantries, greetings, and compliments are far more of a waste of everyone's time. If simply stating the facts seems hurtful, then perhaps they are too insecure."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Chiori: Brand Vision",
+      "text": "When I first started conceptualizing the idea of my brand, I reflected on many of my past experiences, and came up with a lot of phrases for the brand's slogan. It's difficult to pick only one phrase for the brand, especially when you realize that every word reflects on a deeply treasured part of yourself... but you can only choose that which best represents you.\\n\"Never admit defeat.\" That's me. That's my brand."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Fitting",
+      "text": "Take it from me — this one looks good on you. Hmm? You've never seen a style like this before? Aw, that's because you've never met a designer with taste before."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Exchange",
+      "text": "I know you probably already know this, but I always just say what's on my mind. Maybe you've already grown accustomed to it, but that's just how I express myself, and I'm not going to change. You should also always act like yourself around me — there's no need to hide anything. I promise I'll never criticize you for who you are. Hmm? Don't believe me? After all this time together, have you ever seen me not keep my word?"
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Because I was born in Inazuma, the people of Fontaine have dubbed me \"The Thundering Seamstress.\" If that's what they want to call me, then that's what they can call me. I have no lingering affection for my homeland. After all, everything, including my Vision, only came to me after I decided to leave Inazuma.\\nOh, but that's not to say that I actively dislike those islands where fabric never fully dries. It's just that I haven't found any reason to go back."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "When I was a kid, my parents would send me to a variety of activities to help expend my energy. One such activity was learning the art of the sword. But after some time, I suddenly felt that a dual wielding technique was really strong and impressive. It wasn't long before the instructor approached me and told me to stop practicing using that technique. When I asked him why, all he said was that it wasn't the standard sword technique, and that it was \"improper.\" After that, I never attended his class again. Now that I think about it, it's fortunate that I insisted on following the way I preferred. Perhaps I'm just the sort who needs to keep both my hands busy."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Tamoto is my first masterpiece. At the time, I was just thinking to stitch together a puppet girl who looked like me to be my model and assistant. Huh? What about a companion? No, I have no need for that."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Navia",
+      "text": "She used to beg me to help her design all kinds of strange things. For example, little crowns for every handle on a ship's helm... I couldn't help but roll my eyes at her request, and tell her that the most I would do is design her hat like a boat.\\nThose who say I'm ahead of my time have clearly never spoken to her."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Lyney",
+      "text": "I can't make a hat that could hide secrets, but it seems Lyney can enchant his hat to do just that... I'm a little curious about how it feels to wear a hat full of so many tricks and secrets like his. As for me, I don't need the burden of all that, it's easiest to just say what's on my mind."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Lynette",
+      "text": "The magician's assistant sure doesn't say much, but I know she trusts me. You know, I sure get a lot of love from cats..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Charlotte",
+      "text": "One time, Charlotte came into the shop, hoping to do an interview with me. I told her there was no point, because there was nothing new to talk about. But just as she was leaving, a drunkard came stumbling into the shop and started causing trouble. She recorded the whole thing... What a fiasco. I've heard of journalists chasing leads, but now it seems news chases the journalists."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Chevreuse",
+      "text": "Working with Chevreuse and talking with her are a cinch. So easy, in fact, that whenever I say goodbye to her and return to tending to my customers again, it takes me a moment to shift gears mentally."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Emilie",
+      "text": "Emilie's perfumes are very popular. We have a business agreement where I ask her to deliver small quantities of perfume she's working on to Chioriya Boutique. I let Eloffe secretly spray the perfume in the fitting room, and then I'll let her know any feedback I get from the customers. Even after all this time, I've never once had a customer ever say that my fitting room smelled strange. In fact, they usually come one after another to ask where they can buy the fragrance. Out of curiosity, I always buy a bottle when she brings them to sell in her shop. I have to say that such fragrances which can always bring a sense of refreshment are truly works of art."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Wriothesley",
+      "text": "Yes. Some of my friends and partners have mentioned him to me before. I admire his skills at management and diplomacy, but I certainly have no intention of changing my way of doing things."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Kirara",
+      "text": "While I was still in Inazuma, there was a cat with green eyes that always liked to follow me whenever I went out into the wild in search of inspiration. The kitty seemed to be very interested in the colors and patterns of the fabric I was carrying. She would even come up and rub her head against my legs when she was in a good mood.\\nLater, I recognized those green eyes again, but on a girl with two tails. The way she gazed at new and intriguing things still had not changed after so many years."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Kamisato Ayaka",
+      "text": "If I wasn't always slipping away to go play when I was a child, I probably would never have had the chance to meet the young lady of the Kamisato Clan. There was one time when I climbed my way into the Kamisato Clan's courtyard, and her Temari just happened to roll over towards the wall. I could tell that she was both surprised and happy to see me. We played together and chatted for quite some time, but I was discovered in the end. And so, our brief friendship came to an end as I was kicked off the premises."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More about Chiori: I",
+      "text": "I don't think my temper is as bad as people make it out to be. I just don't like wasting my time on trivial matters, that's all. But for some reason, it's always those trivial things that come back to haunt me. So, over time, I've ended up with a bad reputation. I would say that's completely unjust!"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More about Chiori: II",
+      "text": "Ever since I was a kid, I've always had a problem with authority. There was a period when I hated the rules, and would always insist on going against the grain. Thanks to this headstrong character of mine, I've had to go through a lot of suffering. But eventually, I came to understand that rules aren't completely a bad thing. What I really can't stand is the feeling that I can't make decisions based on what I truly think."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More about Chiori: III",
+      "text": "When I was little, I used to always look forward to the summer festival in my hometown. Every year, people would take out the most vibrant and beautiful clothes, and carefully put them on before joining the crowd...\\nEvery time the festival came around, there'd be all of these brightly colored spheres hanging from people's belts, goldfish that you couldn't scoop up from the bowl no matter how hard you tried, apple candy so sweet that even the children couldn't finish them all, and fireworks so beautiful that they could have only come from the Naganohara house... I always had a lot of fun at such festivals, but even then, I would always feel like something was \"missing\" when I went home at the end of the night. It was only after I got much older that I realized I must have wanted to become more than just a spectator at such a wonderful event.\\n...It's just like how people will always associate the house of \"Naganohara\" with fireworks. I hope that one day, people will also associate festivals with Chioriya clothes.\\nHehe, just thinking about the prospect of that gets me really fired up. Alright, time to go back to the shop and churn out a few more designs."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More about Chiori: IV",
+      "text": "Although I can get quite immersed in my work, I also enjoy living in the moment. When I have some free time, I would often pack some food and find a lovely place in nature to take a cozy midday nap, before returning home, relaxing some more, and then finally falling asleep to my favorite music. Oh, and other times, I like to go out for food with my friends, talk about everything that's happening in the world, and party until everyone's completely hammered. Honestly, it all just depends on what I feel like doing in the moment. Just as fashion only exists in the moment, I also love living in the moment. So, what do you think? Want to go out with me tonight and enjoy a whole night of fun?"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More about Chiori: V",
+      "text": "I love Inazuma's petite desserts, as well as all culinary dishes subtle and light. Similarly, I also like the feel of my homeland's fabrics, as well as the practice of taking a bath after a long working day. But on the flip side, I also adore the soft waves of Fontaine's seas, as well as the beautiful scenery underneath the waters.\\nSometimes, I wonder if everything is in fact predestined, and if I'm still living in the shadow of my past. But then, another question always follows — would the answer to that really change anything? In any case, I'm still me, living in my present. Even if I'm only the way I am due to what has happened in my past, my future is still in my own hands, and no one in this world can really change that."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Chiori's Hobbies",
+      "text": "I'm pursuing my dream through my work, and exploring the meaning of freedom through my art. What's the point of spending years and years of your life over something that's not near and dear to your heart?"
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Chiori's Troubles",
+      "text": "Sometimes, I worry that I haven't made as much progress as I'd hoped, and thus, it'd be hard to know when I would actually realize my dream of making Chioriya renowned throughout the world. Still, that's no reason to question or abandon the dream. Rather than worrying or doubting myself, my time would be better spent creating a few more designs."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I can never forget the Inazuman desserts I used to indulge in as a child. But rather than the joy of tasting them, I've always been more interested in the process of making them. Had I been less drawn to the fascinating world of fabrics and color, the world would have gained another dessert chef."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I can't handle food with particularly strong flavors, like Haggis, for example. The experience of eating it is kind of like... suddenly getting hit with a faceful of Geo Specter out of nowhere. Does that make sense to you?"
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Mm, I do love this dish. Why don't you bring me some more next time. Don't worry, I'll also bring a gift for you in return."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Not bad. I think this would be most enjoyable after a hard day's work in the shop."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Ugh, I'm not fond of this flavor. Bring me something lighter on the palette next time."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Yeah, yeah... Happy birthday, or whatever. Just tell me if there's a gift you like — I can't be bothered to try and guess what you want. Hm? Too direct? Alright then, why don't you grab Navia, Kirara, and the others, and maybe a few of your friends as well. We can have a party tonight at my place. I'll take some notes on the gifts that the others have prepared for you, and make you an accessory right then and there. Ten thousand mora that you'd like it. Haha, call it the confidence of the owner of Chioriya Boutique."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "...No good. Still feels too ordinary."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "...Not bad, but it's still lacking the \"wow\" factor that makes it really stand out."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Oho... That's more like it. I think I've got it."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Of course, as a master of my craft, my hands will never shake while cutting fabric, but I'll admit, the excitement and anticipation has my heart really beating right now. Thank you for staying with me the whole time I worked on this piece. It is extremely important to me. I now have far more confidence in myself as I embark on the next step of my journey."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Let's go, Tamoto!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Next customer!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Lend me a hand."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "I am the cutting edge of fashion."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Delicate as silk."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Scraps of color, scatter!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "The handiwork is alright... though I've made much better myself."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Ah, so this is what you like?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Hmm... Let me take note of this."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "My clothes are ruined..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Are you done?"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Time to teach you a lesson."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Hey, who're you trying to impress?"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "I don't make burial shrouds, you know."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "I wasn't cut out... for this..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "I'll never... accept defeat..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "But what about... my brand..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Is that all?"
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "How tacky..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "You've picked the wrong fight."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Welcome to Chioriya Boutique."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Let me guess... Need something tailor-made?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Let's get out and find some inspiration."
+    }
+  ]
+}

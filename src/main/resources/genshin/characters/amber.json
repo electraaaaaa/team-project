@@ -1,0 +1,1783 @@
+{
+  "_id": 10000021,
+  "id": "amber",
+  "name": "Amber",
+  "title": "Gliding Champion",
+  "description": "Always energetic and full of life, Amber's the best — albeit only — Outrider of the Knights of Favonius.",
+  "weapon_type": {
+    "id": "bow",
+    "name": "Bow"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1601244000,
+  "substat": "ATK%",
+  "stats": {
+    "base": {
+      "hp": 793.2582,
+      "attack": 18.6984,
+      "defense": 50.358
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 592.6045,
+        "attack": 13.96899,
+        "defense": 37.62,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1013.6655,
+        "attack": 23.894325,
+        "defense": 64.35,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1575.0803,
+        "attack": 37.128105,
+        "defense": 99.99,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 1996.1414,
+        "attack": 47.05344,
+        "defense": 126.72,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2417.2024,
+        "attack": 56.978775,
+        "defense": 153.45,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 2838.2634,
+        "attack": 66.90411,
+        "defense": 180.18,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Knights of Favonius",
+  "region": {
+    "id": "mondstadt",
+    "name": "Mondstadt"
+  },
+  "rarity": 4,
+  "birthday": [
+    10,
+    8
+  ],
+  "constellation": "Lepus",
+  "domain": "Forsaken Rift",
+  "cv": {
+    "english": "Kelly Baskin",
+    "chinese": "蔡书瑾",
+    "japanese": "石見舞菜香",
+    "korean": "Kim Yeon-woo"
+  },
+  "skills": [
+    {
+      "_id": 10041,
+      "id": "sharpshooter",
+      "name": "Sharpshooter",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 consecutive shots with a bow.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Performs a more precise <span style=\"color:#FFD780FF\">Aimed Shot</span> with increased DMG.<br/>While aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal <span style=\"color:#FF9999FF\">Pyro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "36.1%",
+            "39.1%",
+            "42%",
+            "46.2%",
+            "49.1%",
+            "52.5%",
+            "57.1%",
+            "61.7%",
+            "66.4%",
+            "71.4%",
+            "76.4%",
+            "81.5%",
+            "86.5%",
+            "91.6%",
+            "96.6%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "36.1%",
+            "39.1%",
+            "42%",
+            "46.2%",
+            "49.1%",
+            "52.5%",
+            "57.1%",
+            "61.7%",
+            "66.4%",
+            "71.4%",
+            "76.4%",
+            "81.5%",
+            "86.5%",
+            "91.6%",
+            "96.6%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "46.4%",
+            "50.2%",
+            "54%",
+            "59.4%",
+            "63.2%",
+            "67.5%",
+            "73.4%",
+            "79.4%",
+            "85.3%",
+            "91.8%",
+            "98.3%",
+            "104.8%",
+            "111.2%",
+            "117.7%",
+            "124.2%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "47.3%",
+            "51.1%",
+            "55%",
+            "60.5%",
+            "64.3%",
+            "68.8%",
+            "74.8%",
+            "80.8%",
+            "86.9%",
+            "93.5%",
+            "100.1%",
+            "106.7%",
+            "113.3%",
+            "119.9%",
+            "126.5%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "59.3%",
+            "64.2%",
+            "69%",
+            "75.9%",
+            "80.7%",
+            "86.3%",
+            "93.8%",
+            "101.4%",
+            "109%",
+            "117.3%",
+            "125.6%",
+            "133.9%",
+            "142.1%",
+            "150.4%",
+            "158.7%"
+          ]
+        },
+        {
+          "label": "Aimed Shot",
+          "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.7%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "92.8%",
+            "98.9%",
+            "105.1%",
+            "111.2%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Fully-Charged Aimed Shot",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10032,
+      "id": "explosive_puppet",
+      "name": "Explosive Puppet",
+      "description": "The ever-reliable Baron Bunny takes the stage.<br/><br/><span style=\"color:#FFD780FF\">Baron Bunny</span><br/>·Continuously taunts the enemy, drawing their fire.<br/>·Baron Bunny's HP scales with Amber's Max HP.<br/>·When destroyed or when its timer expires, Baron Bunny explodes, dealing <span style=\"color:#FF9999FF\">AoE Pyro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Adjusts the throwing direction of Baron Bunny.<br/>The longer the button is held, the further the throw.",
+      "info": "Baron Bunny hails from a storied lineage, but Amber has stopped keeping count since Baron Bunny the 893rd.",
+      "attributes": [
+        {
+          "label": "Inherited HP",
+          "values": [
+            "41.4%",
+            "44.5%",
+            "47.6%",
+            "51.7%",
+            "54.8%",
+            "57.9%",
+            "62%",
+            "66.2%",
+            "70.3%",
+            "74.4%",
+            "78.6%",
+            "82.7%",
+            "87.9%",
+            "93.1%",
+            "98.2%"
+          ]
+        },
+        {
+          "label": "Explosion DMG",
+          "values": [
+            "123.2%",
+            "132.4%",
+            "141.7%",
+            "154%",
+            "163.2%",
+            "172.5%",
+            "184.8%",
+            "197.1%",
+            "209.4%",
+            "221.8%",
+            "234.1%",
+            "246.4%",
+            "261.8%",
+            "277.2%",
+            "292.6%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10017,
+      "id": "fiery_rain",
+      "name": "Fiery Rain",
+      "description": "Fires off a shower of arrows, dealing continuous <span style=\"color:#FF9999FF\">AoE Pyro DMG</span>.",
+      "info": "Amber's passion truly burns hot.",
+      "attributes": [
+        {
+          "label": "Fiery Rain DMG Per Wave",
+          "values": [
+            "28.1%",
+            "30.2%",
+            "32.3%",
+            "35.1%",
+            "37.2%",
+            "39.3%",
+            "42.1%",
+            "44.9%",
+            "47.7%",
+            "50.5%",
+            "53.4%",
+            "56.2%",
+            "59.7%",
+            "63.2%",
+            "66.7%"
+          ]
+        },
+        {
+          "label": "Total Fiery Rain DMG",
+          "values": [
+            "505.4%",
+            "543.3%",
+            "581.3%",
+            "631.8%",
+            "669.7%",
+            "707.6%",
+            "758.2%",
+            "808.7%",
+            "859.2%",
+            "909.8%",
+            "960.3%",
+            "1010.9%",
+            "1074.1%",
+            "1137.2%",
+            "1200.4%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "every_arrow_finds_its_target",
+      "name": "Every Arrow Finds Its Target",
+      "description": "Increases the CRIT Rate of <span style=\"color:#FFD780FF\">Fiery Rain</span> by 10% and widens its AoE by 30%.",
+      "level": 1
+    },
+    {
+      "id": "precise_shot",
+      "name": "Precise Shot",
+      "description": "Aimed Shot hits on weak points increase ATK by 15% for 10s.",
+      "level": 4
+    },
+    {
+      "id": "gliding_champion",
+      "name": "Gliding Champion",
+      "description": "Decreases gliding Stamina consumption for your own party members by 20%.<br/>Not stackable with Passive Talents that provide the exact same effects.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 211,
+      "id": "one_arrow_to_rule_them_all",
+      "name": "One Arrow to Rule Them All",
+      "description": "Fires 2 arrows per <span style=\"color:#FFD780FF\">Aimed Shot</span>. The second arrow deals 20% of the first arrow's DMG.",
+      "level": 1
+    },
+    {
+      "_id": 212,
+      "id": "bunny_triggered",
+      "name": "Bunny Triggered",
+      "description": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.<br/>Explosion via manual detonation deals 200% additional DMG.",
+      "level": 2
+    },
+    {
+      "_id": 213,
+      "id": "it_burns",
+      "name": "It Burns!",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Fiery Rain</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 214,
+      "id": "its_not_just_any_doll",
+      "name": "It's Not Just Any Doll...",
+      "description": "Decreases <span style=\"color:#FFD780FF\">Explosive Puppet</span>'s CD by 20%. Adds 1 additional charge.",
+      "level": 4
+    },
+    {
+      "_id": 215,
+      "id": "its_baron_bunny",
+      "name": "It's Baron Bunny!",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Explosive Puppet</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 216,
+      "id": "wildfire",
+      "name": "Wildfire",
+      "description": "<span style=\"color:#FFD780FF\">Fiery Rain</span> increases all party members' Movement SPD by 15% and ATK by 15% for 10s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "793"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "19"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "50"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2038",
+            "2630"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "48",
+            "62"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "129",
+            "167"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "3940",
+            "4361"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "93",
+            "103"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "250",
+            "277"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104111,
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100055,
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112011,
+        "id": "firm_arrowhead",
+        "name": "Firm Arrowhead",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5016",
+            "5578"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "118",
+            "131"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "318",
+            "354"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100055,
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112011,
+        "id": "firm_arrowhead",
+        "name": "Firm Arrowhead",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6233",
+            "6654"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "147",
+            "157"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "396",
+            "422"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100055,
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112012,
+        "id": "sharp_arrowhead",
+        "name": "Sharp Arrowhead",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7309",
+            "7730"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "172",
+            "182"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "464",
+            "491"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100055,
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112012,
+        "id": "sharp_arrowhead",
+        "name": "Sharp Arrowhead",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8385",
+            "8806"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "198",
+            "208"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "532",
+            "559"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100055,
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112013,
+        "id": "weathered_arrowhead",
+        "name": "Weathered Arrowhead",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9461",
+            "9461"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "223",
+            "223"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "601",
+            "601"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104114,
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100055,
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112013,
+        "id": "weathered_arrowhead",
+        "name": "Weathered Arrowhead",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104301,
+          "id": "teachings_of_freedom",
+          "name": "Teachings of Freedom",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112011,
+          "id": "firm_arrowhead",
+          "name": "Firm Arrowhead",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112012,
+          "id": "sharp_arrowhead",
+          "name": "Sharp Arrowhead",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112012,
+          "id": "sharp_arrowhead",
+          "name": "Sharp Arrowhead",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112012,
+          "id": "sharp_arrowhead",
+          "name": "Sharp Arrowhead",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112012,
+          "id": "sharp_arrowhead",
+          "name": "Sharp Arrowhead",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112013,
+          "id": "weathered_arrowhead",
+          "name": "Weathered Arrowhead",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113005,
+          "id": "dvalins_sigh",
+          "name": "Dvalin's Sigh",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112013,
+          "id": "weathered_arrowhead",
+          "name": "Weathered Arrowhead",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113005,
+          "id": "dvalins_sigh",
+          "name": "Dvalin's Sigh",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112013,
+          "id": "weathered_arrowhead",
+          "name": "Weathered Arrowhead",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113005,
+          "id": "dvalins_sigh",
+          "name": "Dvalin's Sigh",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112013,
+          "id": "weathered_arrowhead",
+          "name": "Weathered Arrowhead",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113005,
+          "id": "dvalins_sigh",
+          "name": "Dvalin's Sigh",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 202101,
+      "name": "100% Outrider",
+      "description": "Amber's outfit. This is a more formal — but no less cool — version of the Outrider's uniform!",
+      "isDefault": false,
+      "characterName": "Amber",
+      "characterId": 10000021,
+      "source": [],
+      "filename_card": "UI_AvatarIcon_AmborCostumeWic_Card",
+      "filename_icon": "UI_AvatarIcon_AmborCostumeWic",
+      "filename_iconCircle": "UI_AvatarIcon_AmborCostumeWic_Circle",
+      "filename_splash": "UI_Costume_AmborCostumeWic",
+      "filename_sideIcon": "UI_AvatarIcon_Side_AmborCostumeWic"
+    },
+    {
+      "id": 202100,
+      "name": "5-Star Outrider",
+      "description": "Amber's outfit. An Outrider's uniform made for maximum mobility.",
+      "isDefault": true,
+      "characterName": "Amber",
+      "characterId": 10000021,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Ambor_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "Outrider Amber reporting for duty! Just say the word if you ever need my help!"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Hobbies",
+      "text": "I feel like running."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Longings",
+      "text": "Jean will be upset if she catches us lazing around like this."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: New Discoveries",
+      "text": "Hey, there's something strange over there... C'mon, let's take a look!"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains: Worries",
+      "text": "Oh no, it's raining... now my uniform will get all wet..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Rains: Reminder",
+      "text": "It's raining again... This will hinder our vision, we must remain vigilant!"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "Wow~ This weather is awesome!"
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "If only the wind was a little stronger..."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When It's Windy: Pleasant",
+      "text": "This breeze... so refreshing!"
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "When It's Windy: Relax",
+      "text": "I love this kind of weather, ahh... so relaxing~"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning! Want to go on a jog?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Can I get lunch with you?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "It's getting late, should I light a torch?"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Agreed, getting rest is essential! Let's meet here tomorrow then. See ya!"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Amber",
+      "text": "Mondstadt Gliding Champion, yep, that's me! Gliding Champion!"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Contests",
+      "text": "Remember that I don't go easy on anyone, even you!"
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Gliding",
+      "text": "When I'm teaching you to glide, I feel like I can go even faster than usual... Huh? What are you laughing at? I'll prove it! We can race — right now!"
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "My Vision... Is a sign that the Archons believe in me. Yes, I must become the best Outrider I can possibly be!"
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "The view from the Cathedral's clock tower is amazing! You should check it out."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Look, there's a pigeon over there! *giggle* I wish I could fly alongside them."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Jean: Help",
+      "text": "After the Grand Master left on his expedition, all the affairs of the Knights of Favonius, both big and small, have been left up to Jean. If only there was more I could do to help her..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Jean: Care",
+      "text": "Jean might still be working? We should invite her for coffee... Let's go."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Lisa: Listening to Stories",
+      "text": "When you have time, we should go see Lisa! Last time I saw her, she was telling me about a story involving a treasure in the Dragonspine area. But, we got cut off before she could finish. I can't wait to hear the rest of her story!"
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Lisa: Admiration",
+      "text": "If Lisa's not sleeping, she'll be reading! I don't know how she does it, I wouldn't be able to sit still for that long."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Kaeya: Concerns",
+      "text": "...I'm feeling uneasy all of a sudden! Was that Kaeya with you earlier? Did he give you any trouble?"
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Kaeya: Culprit",
+      "text": "There's something weird-looking about the dandelions in the garden... Hmm, I bet Kaeya had something to do with this!"
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Bennett",
+      "text": "Hmm? Bennett... I feel like I've heard that name before... Oh! Yes, he's that hot-blooded guy from the Adventurers' Guild, right! I tend to come across him way out in the wild from time to time, he seems to really love treasure hunting."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Klee",
+      "text": "Klee? She can be a bit cheeky sometimes, but everyone in the Knights of Favonius likes her. Although... I really ought to keep a closer eye on her if I wanna keep her from getting put in confinement by Jean again."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Albedo",
+      "text": "Albedo spends most of his time in his workshop, tinkering away with all of his awesome stuff. But, when you see him in person, you can never quite tell what he is thinking, not a clue at all."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Noelle",
+      "text": "You wanna know about Noelle? She's super resilient. Still, since she's younger than us, we should look out for her."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Eula",
+      "text": "Eula is a great friend of mine! You just need to get used to her sense of humor and you'll get along fine! The only reason she's misunderstood by so many people is her family name. How can I get them to see her for who she really is?"
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Collei",
+      "text": "Collei wrote to me saying that her Eleazar has been completely cured... I'm so happy for her! I wish I could fly to her side right now and give her the biggest hug! She also said she misses everyone in Mondstadt, and that once she's ready, she'll come visit us in person and tell us all about her progress... Oh, it would be great if she could make it in time for the next Ludi Harpastum. Aaah I can't wait to see her again!"
+    },
+    {
+      "id": "4013",
+      "type": 1,
+      "title": "About Mika",
+      "text": "Oh! Mika's a veteran of Eula's team. When he first arrived, it was always \"Yes, Commander!\" every time he spoke to me — I guess it must have been because he saw how close I was with Eula. But then, even after I told him I was actually an Outrider, he still called me \"Ma'am\"... It was so embarrassing. We have completely different responsibilities, after all. I definitely could never match his expertise in cartography."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Amber: I",
+      "text": "I'm a pro at hunting, you know! How about I show you some of my skills? Or even better... how about a little competition?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Amber: II",
+      "text": "I'll share my ultimate Gliding Champion secret with you! The most important thing to remember, is to have courage!"
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Amber: III",
+      "text": "I'm really not that good with riddles. I always try to avoid the riddles stand during Ludi Harpastum... What about you?"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Amber: IV",
+      "text": "I joined the Knights because of my grandpa, I stayed because of Jean. And now, you're the one that showed me the world beyond Mondstadt. I couldn't be happier."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Amber: V",
+      "text": "I would like to explore the other worlds beyond. I wanna see how deep the rabbit hole goes! You'll keep me company, right?"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Amber's Hobbies",
+      "text": "Baron Bunny, today is another squeaky clean day!"
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Amber's Troubles",
+      "text": "Oh... Do you have any idea how to make a decent Moon Pie?"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Jean makes the most amazing cup of coffee! You'll have to try it sometime."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I can handle anything and everything! As long as it isn't cold Wolfhook juice... Ugh, yuck..."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Wow! This is delicious, you're an amazing cook!"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "I wish I was as good at cooking as you..."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Uh, I'm just not used to this taste, sorry! Nothing to do with you of course!"
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Hey, happy birthday! Here, I have a gift for you: an exclusive, custom-made version of Baron Bunny that I sewed for you myself. Uh... don't worry, \"custom-made\" means that it won't explode!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Yeah! As fast as riding the wind!"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "At this speed, no one can keep up with me!"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "The skies over Mondstadt seem to have gotten smaller... or is it that my sight reaches further than ever before?"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "It seems that now... I've improved so much compared to when we first met! Hehe, thank you so much! Let me treat you to a Sticky Honey Roast! Let's go, let's go!"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Get them!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Go go Baron Bunny!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "♪Hmm~ hmm~ hmm~ hmm~ hmm~"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "No one escapes my sights!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Let it rain!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "No escape!"
+    },
+    {
+      "id": "700001",
+      "type": 2,
+      "title": "Sprint Start: I",
+      "text": "I'll race you there!"
+    },
+    {
+      "id": "700002",
+      "type": 2,
+      "title": "Sprint Start: II",
+      "text": "Betcha can't keep up with me!"
+    },
+    {
+      "id": "710001",
+      "type": 2,
+      "title": "Sprint End: I",
+      "text": "Told you I'd win."
+    },
+    {
+      "id": "710002",
+      "type": 2,
+      "title": "Sprint End: II",
+      "text": "That's more like it!"
+    },
+    {
+      "id": "800001",
+      "type": 2,
+      "title": "Deploying Wind Glider: I",
+      "text": "Get ready for the Gliding Champion of Mondstadt!"
+    },
+    {
+      "id": "800002",
+      "type": 2,
+      "title": "Deploying Wind Glider: II",
+      "text": "I won't let you down!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Opening a chest is like unwrapping a gift!"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Another target tracked down by Outrider Amber!"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Wow, these will come in handy!"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "I'll never surrender!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Ouch! Meanie..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "*panting* Ugh... You'll... pay for that!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Take cover!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Hey... Need some help?"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Tired..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Must keep... training..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "You got me..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Hey!"
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Ugh, not so hard!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "That's cheating!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Leave it to me!"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "At the ready!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Outrider Amber, reporting!"
+    }
+  ]
+}

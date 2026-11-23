@@ -1,0 +1,1862 @@
+{
+  "_id": 10000133,
+  "id": "sandrone",
+  "name": "Sandrone",
+  "title": "Mirrored Analysis",
+  "description": "The Seventh of the Fatui Harbingers, \"Marionette.\" Interprets all phenomena through the prism of mathematics, and is an elegant lady who is never absent from a tea party.",
+  "weapon_type": {
+    "id": "claymore",
+    "name": "Claymore"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1782766800,
+  "substat": "CRIT Rate",
+  "stats": {
+    "base": {
+      "hp": 1029.5856,
+      "attack": 26.6266,
+      "defense": 58.57357
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 882.77655,
+        "attack": 22.828234,
+        "defense": 50.2227,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1510.0126,
+        "attack": 39.048294,
+        "defense": 85.90725,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.048
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2346.3271,
+        "attack": 60.67504,
+        "defense": 133.48665,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2973.5632,
+        "attack": 76.8951,
+        "defense": 169.1712,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3600.799,
+        "attack": 93.115166,
+        "defense": 204.85574,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4228.035,
+        "attack": 109.33523,
+        "defense": 240.5403,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.192
+        }
+      }
+    ]
+  },
+  "affiliation": "Fatui",
+  "region": {
+    "id": "snezhnaya_star",
+    "name": "SNEZHNAYA_STAR"
+  },
+  "rarity": 5,
+  "birthday": [
+    13,
+    1
+  ],
+  "constellation": "Narcissorolegium",
+  "domain": "Domain of Mastery: Fallen City",
+  "cv": {
+    "english": "Deneen Melody",
+    "chinese": "洪海天",
+    "japanese": "本多真梨子",
+    "korean": "Kang Eun-ae"
+  },
+  "skills": [
+    {
+      "_id": 11331,
+      "id": "formule_phenomenale_selfevident_proposition",
+      "name": "Formule Phenomenale: Self-Evident Proposition",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Generates threads that control her weapon using formulae, performing up to 3 consecutive strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Summons the Facilitatrice Automatisee Generaliste Interactive et Omnitache, or \"<span style=\"color:#FFD780FF\">Fagio</span>,\" and switches it to <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11330001\">Decoding</link></span> mode: Unleashes a sweeping fire attack on enemies in front, as well as periodically fires condensed beams, dealing <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>.<br/><link kind=\"effect\" id=\"11500004\"><span style=\"color:#FFD780FF\">Radiance: Stellar Glimmer</span></link>: The condensed beams will instead deal <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> that is considered the corresponding Stellar Glimmer reaction DMG.<br/>While in <span style=\"color:#FFD780FF\">Decoding</span> mode, Fagio's <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11330002\">Decoding Power</link></span> will continuously increase. Firing condensed beams will also further increase its Decoding Power.<br/>When Fagio's Decoding Power reaches the maximum of 100 points, it switches to <span style=\"color:#FFD780FF\">Power Overdrive</span> mode, in which it fires at opponents with longer intervals, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span>. It will be unable to switch to Decoding mode at this time.<br/>When not in <span style=\"color:#FFD780FF\">Decoding</span> mode, Fagio's <span style=\"color:#FFD780FF\">Decoding Power</span> gradually decreases. When Sandrone is off-field, she will focus on maintaining Fagio, causing its Decoding Power to decrease at 300% the original rate.<br/>Fagio exits <span style=\"color:#FFD780FF\">Power Overdrive</span> mode when its <span style=\"color:#FFD780FF\">Decoding Power</span> has decreased to under 50.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from midair to strike the ground below, dealing DMG to opponents along their path and causing AoE DMG on landing.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "76.3%",
+            "82.5%",
+            "88.7%",
+            "97.6%",
+            "103.8%",
+            "110.9%",
+            "120.6%",
+            "130.4%",
+            "140.2%",
+            "150.8%",
+            "161.4%",
+            "172.1%",
+            "182.7%",
+            "193.4%",
+            "204%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "67.2%",
+            "72.7%",
+            "78.1%",
+            "85.9%",
+            "91.4%",
+            "97.7%",
+            "106.3%",
+            "114.9%",
+            "123.5%",
+            "132.8%",
+            "142.2%",
+            "151.6%",
+            "161%",
+            "170.3%",
+            "179.7%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "102.8%",
+            "111.2%",
+            "119.5%",
+            "131.5%",
+            "139.9%",
+            "149.4%",
+            "162.6%",
+            "175.7%",
+            "188.9%",
+            "203.2%",
+            "217.6%",
+            "231.9%",
+            "246.3%",
+            "260.6%",
+            "274.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack Sweeping Fire DMG",
+          "values": [
+            "43%",
+            "46.5%",
+            "50%",
+            "55%",
+            "58.5%",
+            "62.5%",
+            "68%",
+            "73.5%",
+            "79%",
+            "85%",
+            "91%",
+            "97%",
+            "103%",
+            "109%",
+            "115%"
+          ]
+        },
+        {
+          "label": "Charged Attack Condensed Beam DMG",
+          "values": [
+            "122.5%",
+            "132.5%",
+            "142.5%",
+            "156.8%",
+            "166.7%",
+            "178.1%",
+            "193.8%",
+            "209.5%",
+            "225.2%",
+            "242.3%",
+            "259.4%",
+            "276.4%",
+            "293.6%",
+            "310.6%",
+            "327.8%"
+          ]
+        },
+        {
+          "label": "Charged Attack Condensed Beam Stellar-Conduct DMG",
+          "values": [
+            "81.7%",
+            "88.3%",
+            "95%",
+            "104.5%",
+            "111.1%",
+            "118.8%",
+            "129.2%",
+            "139.7%",
+            "150.1%",
+            "161.5%",
+            "172.9%",
+            "184.3%",
+            "195.7%",
+            "207.1%",
+            "218.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack Condensed Beam Stellar Swirl DMG",
+          "values": [
+            "122.5%",
+            "132.5%",
+            "142.5%",
+            "156.8%",
+            "166.7%",
+            "178.1%",
+            "193.8%",
+            "209.5%",
+            "225.2%",
+            "242.3%",
+            "259.4%",
+            "276.4%",
+            "293.6%",
+            "310.6%",
+            "327.8%"
+          ]
+        },
+        {
+          "label": "DMG When in Power Overdrive",
+          "values": [
+            "43%",
+            "46.5%",
+            "50%",
+            "55%",
+            "58.5%",
+            "62.5%",
+            "68%",
+            "73.5%",
+            "79%",
+            "85%",
+            "91%",
+            "97%",
+            "103%",
+            "109%",
+            "115%"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "74.6%",
+            "80.7%",
+            "86.7%",
+            "95.4%",
+            "101.5%",
+            "108.4%",
+            "118%",
+            "127.5%",
+            "137%",
+            "147.4%",
+            "157.8%",
+            "168.3%",
+            "178.7%",
+            "189.1%",
+            "199.5%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "149.1% / 186.3%",
+            "161.3% / 201.5%",
+            "173.4% / 216.6%",
+            "190.8% / 238.3%",
+            "202.9% / 253.4%",
+            "216.8% / 270.8%",
+            "235.9% / 294.6%",
+            "254.9% / 318.4%",
+            "274% / 342.3%",
+            "294.8% / 368.2%",
+            "315.6% / 394.2%",
+            "336.4% / 420.2%",
+            "357.3% / 446.2%",
+            "378.1% / 472.2%",
+            "398.9% / 498.2%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11332,
+      "id": "formule_phenomenale_differential_analysis",
+      "name": "Formule Phenomenale: Differential Analysis",
+      "description": "With her impeccable, ladylike poise, Sandrone boards the <span style=\"color:#FFD780FF\">Tea Party Tactical Assault Hovermech</span> and hovers forward for 6s. During this time, Sandrone can control the travel direction of the craft. Pressing Sprint consumes 10 Stamina and launches her into an elegant high-speed hover mode, in which she will move even faster at the cost of 15 Stamina per second.<br/><br/>When Sandrone starts hovering, if there are opponents nearby, she will also summon a Prismatic Resonance Cannon and fire 2 Prism Shots at any opponents who have yet to cool down, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span>.<br/><link kind=\"effect\" id=\"11500004\"><span style=\"color:#FFD780FF\">Radiance: Stellar Glimmer</span></link>: The second Prism Shot will instead deal <span style=\"color:#99FFFFFF\">Cryo DMG</span> that is considered the corresponding Stellar Glimmer reaction DMG.<br/><br/>When on the Tea Party Tactical Assault Hovermech, Sandrone will also elegantly and quietly repair Fagio, causing <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11330002\">Decoding Power</link></span> to swiftly decrease.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Prism Shot DMG",
+          "values": [
+            "32.4%",
+            "34.8%",
+            "37.3%",
+            "40.5%",
+            "42.9%",
+            "45.4%",
+            "48.6%",
+            "51.8%",
+            "55.1%",
+            "58.3%",
+            "61.6%",
+            "64.8%",
+            "68.8%",
+            "72.9%",
+            "77%"
+          ]
+        },
+        {
+          "label": "Prism Shot Stellar-Conduct DMG",
+          "values": [
+            "21.6%",
+            "23.2%",
+            "24.8%",
+            "27%",
+            "28.6%",
+            "30.2%",
+            "32.4%",
+            "34.6%",
+            "36.7%",
+            "38.9%",
+            "41%",
+            "43.2%",
+            "45.9%",
+            "48.6%",
+            "51.3%"
+          ]
+        },
+        {
+          "label": "Prism Shot Stellar Swirl DMG",
+          "values": [
+            "32.4%",
+            "34.8%",
+            "37.3%",
+            "40.5%",
+            "42.9%",
+            "45.4%",
+            "48.6%",
+            "51.8%",
+            "55.1%",
+            "58.3%",
+            "61.6%",
+            "64.8%",
+            "68.8%",
+            "72.9%",
+            "77%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11335,
+      "id": "formule_phenomenale_qed",
+      "name": "Formule Phenomenale: Q.E.D.",
+      "description": "In line with established ladylike behavior, Sandrone summons a large number of Prismatic Resonance Cannons for a frontal bombardment before firing on her foes with a Convective Inhibition Ray, dealing <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>.<br/><link kind=\"effect\" id=\"11500004\"><span style=\"color:#FFD780FF\">Radiance: Stellar Glimmer</span></link>: The Convective Inhibition Ray instead deals <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> that is considered the corresponding Stellar Glimmer reaction DMG.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Bombardment DMG",
+          "values": [
+            "88.2% ×3",
+            "94.8% ×3",
+            "101.4% ×3",
+            "110.3% ×3",
+            "116.9% ×3",
+            "123.5% ×3",
+            "132.3% ×3",
+            "141.1% ×3",
+            "150% ×3",
+            "158.8% ×3",
+            "167.6% ×3",
+            "176.4% ×3",
+            "187.5% ×3",
+            "198.5% ×3",
+            "209.5% ×3"
+          ]
+        },
+        {
+          "label": "Convective Inhibition Ray DMG",
+          "values": [
+            "330.8%",
+            "355.6%",
+            "380.4%",
+            "413.5%",
+            "438.3%",
+            "463.1%",
+            "496.2%",
+            "529.3%",
+            "562.4%",
+            "595.4%",
+            "628.5%",
+            "661.6%",
+            "702.9%",
+            "744.3%",
+            "785.6%"
+          ]
+        },
+        {
+          "label": "Convective Inhibition Ray Stellar-Conduct DMG",
+          "values": [
+            "220.5%",
+            "237.1%",
+            "253.6%",
+            "275.7%",
+            "292.2%",
+            "308.7%",
+            "330.8%",
+            "352.9%",
+            "374.9%",
+            "397%",
+            "419%",
+            "441.1%",
+            "468.6%",
+            "496.2%",
+            "523.8%"
+          ]
+        },
+        {
+          "label": "Convective Inhibition Ray Stellar Swirl DMG",
+          "values": [
+            "330.8%",
+            "355.6%",
+            "380.4%",
+            "413.5%",
+            "438.3%",
+            "463.1%",
+            "496.2%",
+            "529.3%",
+            "562.4%",
+            "595.4%",
+            "628.5%",
+            "661.6%",
+            "702.9%",
+            "744.3%",
+            "785.6%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "eternal_speculation_engine",
+      "name": "Eternal Speculation Engine",
+      "description": "<link kind=\"effect\" id=\"11500004\"><span style=\"color:#FFD780FF\">Radiance: Stellar Glimmer</span></link>: When using the Elemental Skill <link kind=\"skill\" to=\"formule_phenomenale_differential_analysis\"><span style=\"color:#FFD780FF\">Formule Phenomenale: Differential Analysis</span></link>, if Fagio's <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11330002\">Decoding Power</link></span> is greater than 50, the second Prism Shot fired by Fagio at nearby opponents will deal 400% of its original DMG as Fagio's Decoding Power is decreased.<br/>Additionally, for every 10 points of <span style=\"color:#FFD780FF\">Decoding Power</span> Fagio loses, it gains 1 stack of <span style=\"color:#FFD780FF\">Refined Tactics</span> for 60s (max 10 stacks). When Sandrone uses the Elemental Burst <link kind=\"skill\" to=\"formule_phenomenale_qed\"><span style=\"color:#FFD780FF\">Formule Phenomenale: Q.E.D.</span></link> while in the <span style=\"color:#FFD780FF\">Radiance: Stellar Glimmer</span> state, all stacks of Refined Tactics are cleared, causing the Convective Inhibition Ray to deal 100% + (number of stacks cleared) × 10% of its original DMG.",
+      "level": 1
+    },
+    {
+      "id": "a_ladys_code_of_conduct",
+      "name": "A Lady's Code of Conduct",
+      "description": "Increases Sandrone's Elemental Mastery based on her ATK. Every 100 ATK will increase her Elemental Mastery by 8. The maximum increase she can gain this way is 160.",
+      "level": 4
+    },
+    {
+      "id": "stellar_jubilee_light_of_rationalisme",
+      "name": "Stellar Jubilee: Light of Rationalisme",
+      "description": "Sandrone will enter the <span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> state when she is inside a <link kind=\"effect\" id=\"11330003\"><span style=\"color:#FFD780FF\">Polestar Field</span></link>, or the <span style=\"color:#FFD780FF\">Radiance: Stellar Swirl</span> state for 8s after a nearby party member triggers a Stellar Swirl reaction.<br/>When a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of the aforementioned reaction is also increased by 0.7% for every 100 points of Sandrone's ATK. A maximum increase of 14% can be obtained in this way.",
+      "level": 0
+    },
+    {
+      "id": "a_caucus_prelude_and_a_long_tale",
+      "name": "A Caucus Prelude and a Long Tale",
+      "description": "When Sandrone is in the party, you will gain additional snack rewards after turning in your Daily Commissions with Katheryne.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1331,
+      "id": "morrow_after_the_golden_dusk",
+      "name": "Morrow After the Golden Dusk",
+      "description": "When in <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11330001\">Decoding</link></span> mode, Fagio's <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11330002\">Decoding Power</link></span> increases at a 50% lower rate, and all party members deal 30% increased Stellar Glimmer reaction DMG.",
+      "level": 1
+    },
+    {
+      "_id": 1332,
+      "id": "an_heiress_gazed_into_the_lookingglass",
+      "name": "An Heiress Gazed Into the Looking-Glass",
+      "description": "<span style=\"color:#FFD780FF\">Radiance: Stellar Glimmer</span>: Increases CRIT DMG from Charged Attack condensed beams by 40%. Also, each time a beam is fired, CRIT DMG dealt by all condensed beams fired during this <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11330001\">Decoding</link></span> mode period will be further increased by 20%. Max 3 stacks.",
+      "level": 2
+    },
+    {
+      "_id": 1333,
+      "id": "refuse_the_wake_of_dusk_the_moonlit_yoke",
+      "name": "Refuse the Wake of Dusk, the Moonlit Yoke",
+      "description": "Increases the Level of <link kind=\"skill\" to=\"formule_phenomenale_selfevident_proposition\"><span style=\"color:#FFD780FF\">Formule Phenomenale: Self-Evident Proposition</span></link> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1334,
+      "id": "in_knowledge_lies_the_worlds_true_ground",
+      "name": "In Knowledge Lies the World's True Ground",
+      "description": "When Sandrone deals Stellar-Conduct or Stellar Swirl DMG to an opponent, she will also summon an extra Prismatic Resonance Cannon to fire off a coordinated attack which deals <span style=\"color:#99FFFFFF\">Cryo DMG</span> at 125% or 187.5% of her ATK, respectively. This DMG is considered the corresponding Stellar Glimmer reaction DMG, and the effect can occur once every 4s.",
+      "level": 4
+    },
+    {
+      "_id": 1335,
+      "id": "of_all_beside_she_takes_no_part",
+      "name": "Of All Beside, She Takes No Part",
+      "description": "Increases the Level of <link kind=\"skill\" to=\"formule_phenomenale_qed\"><span style=\"color:#FFD780FF\">Formule Phenomenale: Q.E.D.</span></link> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1336,
+      "id": "narcissus_wakes_her_eyes_upon_the_dawn",
+      "name": "Narcissus Wakes, Her Eyes Upon the Dawn",
+      "description": "When Fagio fires a condensed beam for the third time while in <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11330001\">Decoding</link></span> mode, the beam becomes a more powerful <span style=\"color:#FFD780FF\">Condensed Cluster Beam</span> that fires continuously. This beam will deal up to 4 additional instances of <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> at 100% of Sandrone's ATK on top of any subsequent original beam fired.<br/><span style=\"color:#FFD780FF\">Radiance: Stellar Glimmer</span>: The <span style=\"color:#FFD780FF\">Condensed Cluster Beam</span> attack deals 4 additional instances of <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>. The DMG dealt with this attack, which is considered the corresponding Stellar Glimmer reaction DMG, is equal to:<br/><span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span>: 80% of Sandrone's ATK.<br/><span style=\"color:#FFD780FF\">Radiance: Stellar Swirl</span>: 120% of Sandrone's ATK.<br/>Additionally, all Stellar Glimmer reaction DMG dealt by Sandrone is <link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">elevated</span></link> by 20%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1030"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "27"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "59"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "-",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2671",
+            "3554"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "69",
+            "92"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "152",
+            "202"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5317",
+            "5944"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "138",
+            "154"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "302",
+            "338"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "9.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101239,
+        "id": "subdetection_unit",
+        "name": "Subdetection Unit",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112122,
+        "id": "broken_drive_shaft",
+        "name": "Broken Drive Shaft",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6839",
+            "7675"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "177",
+            "198"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "389",
+            "437"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "9.8%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113086,
+        "id": "plume_of_the_fallen_watcher",
+        "name": "Plume of the Fallen Watcher",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101239,
+        "id": "subdetection_unit",
+        "name": "Subdetection Unit",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112122,
+        "id": "broken_drive_shaft",
+        "name": "Broken Drive Shaft",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8579",
+            "9207"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "222",
+            "238"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "488",
+            "524"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113086,
+        "id": "plume_of_the_fallen_watcher",
+        "name": "Plume of the Fallen Watcher",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101239,
+        "id": "subdetection_unit",
+        "name": "Subdetection Unit",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112123,
+        "id": "reinforced_drive_shaft",
+        "name": "Reinforced Drive Shaft",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10119",
+            "10746"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "262",
+            "278"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "576",
+            "611"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "19.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113086,
+        "id": "plume_of_the_fallen_watcher",
+        "name": "Plume of the Fallen Watcher",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101239,
+        "id": "subdetection_unit",
+        "name": "Subdetection Unit",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112123,
+        "id": "reinforced_drive_shaft",
+        "name": "Reinforced Drive Shaft",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11669",
+            "12296"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "302",
+            "318"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "664",
+            "700"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "19.4%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113086,
+        "id": "plume_of_the_fallen_watcher",
+        "name": "Plume of the Fallen Watcher",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101239,
+        "id": "subdetection_unit",
+        "name": "Subdetection Unit",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112124,
+        "id": "precision_drive_shaft",
+        "name": "Precision Drive Shaft",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "13226",
+            "13226"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "342",
+            "342"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "752",
+            "752"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "24.2%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113086,
+        "id": "plume_of_the_fallen_watcher",
+        "name": "Plume of the Fallen Watcher",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101239,
+        "id": "subdetection_unit",
+        "name": "Subdetection Unit",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112124,
+        "id": "precision_drive_shaft",
+        "name": "Precision Drive Shaft",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104362,
+          "id": "teachings_of_vagrancy",
+          "name": "Teachings of Vagrancy",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112122,
+          "id": "broken_drive_shaft",
+          "name": "Broken Drive Shaft",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104363,
+          "id": "guide_to_vagrancy",
+          "name": "Guide to Vagrancy",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112123,
+          "id": "reinforced_drive_shaft",
+          "name": "Reinforced Drive Shaft",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104363,
+          "id": "guide_to_vagrancy",
+          "name": "Guide to Vagrancy",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112123,
+          "id": "reinforced_drive_shaft",
+          "name": "Reinforced Drive Shaft",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104363,
+          "id": "guide_to_vagrancy",
+          "name": "Guide to Vagrancy",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112123,
+          "id": "reinforced_drive_shaft",
+          "name": "Reinforced Drive Shaft",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104363,
+          "id": "guide_to_vagrancy",
+          "name": "Guide to Vagrancy",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112123,
+          "id": "reinforced_drive_shaft",
+          "name": "Reinforced Drive Shaft",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104364,
+          "id": "philosophies_of_vagrancy",
+          "name": "Philosophies of Vagrancy",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112124,
+          "id": "precision_drive_shaft",
+          "name": "Precision Drive Shaft",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113082,
+          "id": "madmans_restraint",
+          "name": "Madman's Restraint",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104364,
+          "id": "philosophies_of_vagrancy",
+          "name": "Philosophies of Vagrancy",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112124,
+          "id": "precision_drive_shaft",
+          "name": "Precision Drive Shaft",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113082,
+          "id": "madmans_restraint",
+          "name": "Madman's Restraint",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104364,
+          "id": "philosophies_of_vagrancy",
+          "name": "Philosophies of Vagrancy",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112124,
+          "id": "precision_drive_shaft",
+          "name": "Precision Drive Shaft",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113082,
+          "id": "madmans_restraint",
+          "name": "Madman's Restraint",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104364,
+          "id": "philosophies_of_vagrancy",
+          "name": "Philosophies of Vagrancy",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112124,
+          "id": "precision_drive_shaft",
+          "name": "Precision Drive Shaft",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113082,
+          "id": "madmans_restraint",
+          "name": "Madman's Restraint",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 213300,
+      "name": "Clockwork Maiden's Waltz",
+      "description": "Sandrone's outfit. Having been reborn, she has decided to make herself a new outfit. A new person certainly merits a new dress. Naturally, such an undertaking cannot fail to incorporate a lady's refinement, elegance, and magnanimity... Ah, yes. And perhaps a prayer that it shall remain undamaged in battle, and unstained by coffee or tea, would not be remiss.",
+      "isDefault": true,
+      "characterName": "Sandrone",
+      "characterId": 10000133,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_MarionetteNew_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "I hate self-introductions. If you're supposed to know me, you'll get to know me naturally, and if you're not... why waste the time and energy? But, very well — for the sake of etiquette, I'll humor you just this once... Behold, before you stands Marionette, Seventh of the Fatui Harbingers!"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Tea Party",
+      "text": "It's about time we threw another tea party, don't you think? I wonder who else is free..."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Piano",
+      "text": "I like music. In fact, I've taught myself to play many different instruments. You don't believe me? Hah, find me a piano, and I'll show you a thing or two."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Meetings",
+      "text": "Called back to the Zapolyarny Palace, again? Ugh... Seriously, what's the point in all these endless meetings!?"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "...Well, this is inconvenient."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "My flowers adore this kind of weather."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Defensive systems... Mmhmm, operating normally."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Ugh, time for more \"snow damselettes\"..."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "The perfect weather for cake, strong coffee, and getting lost in a good book."
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Ugh... This skirt really wasn't made for weather like this... How in the blazes did Rosalyne use to cope?"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning. Would you like a cup of coffee? It really raises the spirits. Hmm? Why would someone like me need coffee? Hah, can't a lady appreciate the taste!?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Is it that time already? I'd better prepare some refreshments..."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Back for dinner? This isn't a canteen, you know... Ugh, forget it, you're here now, I'll have Fagio whip something up."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "You should get some sleep. I prefer to do my research at night — it's quieter, and there's no one around to bother me. ...What do you mean!? My sleep schedule is fine as it is, thank you very much!"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Sandrone: Name",
+      "text": "What's wrong with calling me Sandrone? Huh...? My original name? Hah... So, you really want to know? Alright, alright... I can still remember when I first opened my eyes. Alain had just finished creating me. He called me \"Marionette.\" I tried to repeat it, to say it out loud myself, but I noticed something... complicated in his expression. Only later did I come to understand what it was — a mixture of regret and guilt. He never called me that again. Anyway, after telling me the story of the Narzissenkreuz Ordo and his sister, Alain concluded by insisting that I was free to choose my own path in life. An important part of that, he said, was deciding on my own name. For my part, I told him I was perfectly fine with the one he'd given me. \"Marionette Guillotin\"... Pretty unique as names go, wouldn't you say? And yet, no doubt for different reasons, the Tsaritsa ended up making \"Marionette\" my title as a Harbinger. Heh... Perhaps that was simply another so-called \"act of fate.\""
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Sandrone: Sleep",
+      "text": "When I was first created, it seemed like too much work to find a place to lie down, so I usually just \"slept\" in a chair. It was only after I arrived in Snezhnaya that I grew accustomed to sleeping in beds. I have to say, after an exhausting day of dealing with my \"colleagues,\" wearing something comfortable and hiding beneath the covers is wonderfully cozy. There's a sense of security created by my sensory system and emotional circuitry. I now know why people like to sleep in. However, beds come with their own issues — my clockwork key prevents me from sleeping on my back, and it's difficult to balance when lying on my side. The only option is to sleep face down."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Diary",
+      "text": "You've read my diary, so don't you think it's about time you shared some of your own secrets to even things out? Huh? Your Adventurer Handbook? Why would I want that? If I wanted to know what you do every day, I'd just get Katheryne to tell me."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Beliefs",
+      "text": "We may know each other better now, but once we arrive in Snezhnaya, we still have to follow the rules. After all, you've been fighting the Fatui since you arrived... Who knows what kind of a stir you'll cause over there. Naturally, I'll try my best not to make your life difficult. I'd appreciate it if you could do the same for me. Helping each other out based on mutual understanding — that's what companions do, right?"
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Stellar Linchpin",
+      "text": "It's a good fit for me — Cryo is useful. For instance, I no longer need to worry about overheating after lengthy calculations."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "With Pulonia gone, life suddenly felt a lot more difficult to navigate. That's why I created Fagio — my \"Facilitatrice Automatisee Generaliste Interactive et Omnitache.\" She can deal with a lot of trivial tasks that I'd rather not waste my time with — and she can fight. Huh? You think her full name's too long and... hard to understand? Is that not how all working machines get their names? Alain came up with Pulonia, which stands for \"Prospective Undulation Localized Observing and Investigating Automaton.\" I thought everyone named things that way. So, you think it's hereditary...?"
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Outside of my research, I sometimes like to ponder metaphysical questions. Just as people from every nation have their own beliefs about death. I often hear people talking about the \"afterlife,\" \"where souls go to rest,\" things like that... But from the time my core was damaged fighting Il Dottore, to the time the \"Stellar Linchpin\" activated Alain's legacy and reactivated me, my memory is blank — completely empty. Where do mechanical constructs, \"puppets,\" go when they die? How are our \"souls\" defined? Do we even have souls? There are no answers, so I always turn back to my research. But knowledge is the cornerstone of the world. I believe that as these stones continue to stack, one day their height alone will allow me to reach the answers to my doubts."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Citlali",
+      "text": "That great shaman seems nice. Is she really very old? Still seems like she's got plenty of energy to me — though she does get a little too worked up sometimes. What do I mean? Oh, well, recently, I was talking to her about you and me going underwater to look for something... and before that, I told her you were in Nod-Krai helping Columbina get her name back... She got so animated, her face turned bright red. I wonder if it has something to do with her age..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Lynette",
+      "text": "I don't know how she does it! That cat-girl always seems to find the weakest spot in every machine and then... beh, broken. I wish her brother would have a word with her. *sigh* Nevermind... I guess it's a talent, really. Maybe I should have her help me stress test my future creations. If my machines can't survive her curiosity, what chance do they have in battle?"
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Alain Guillotin",
+      "text": "After Alain died, I put up a tombstone for him. When he was alive, he said he wanted me to write his epitaph. So I did. It wasn't difficult — list out his deeds, then pick a quote that captures the way he thought. I went with, \"Regrettably, there's nothing more to say.\" It was something he often said. You think it sounds fatalistic? Hah, maybe to those who didn't know him. But he always said it with a smile. It wasn't resignation — he wasn't giving up. Ironically, it was almost like an expression of contentment. Like solving a mathematical problem. Death is just a silent equals sign, and he's moved to the other side of the equation."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About the Tsaritsa",
+      "text": "Even I still get bothered by the errors in my heart, but Her Majesty the Tsaritsa... How did she manage to freeze her emotions so completely?"
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About The Jester",
+      "text": "Always issuing orders... Somehow, the world reflected in his eyes seems farther away than it does with anyone else. The first time I saw him, I knew this world had taken too much from him."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About The Captain",
+      "text": "Everyone knows Il Capitano doesn't like to remove his mask, but it doesn't stop him from finishing his tea whenever we get together."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About The Doctor",
+      "text": "You might want to cover your ears. I'm afraid I won't be able to control my emotions."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Columbina: Annoying",
+      "text": "Columbina used to drive me up the wall — to be honest, she still does. I thought life would be quieter without her around. Who knew I'd find myself getting more annoyed once she wasn't here! Ugh, it's infuriating!"
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Columbina: Life",
+      "text": "She's living such a happy life right now. Her family and friends are by her side, and she gets to go traveling whenever she's free... Why can't I have that kind of fortune? Oh, forget it, I'm not jealous. We all know she deserves to be happy."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Arlecchino",
+      "text": "Arlecchino is a woman of her word. She acts decisively, and you can trust her to get things done. Purely from a professional standpoint, it would be nice if all my colleagues could try to emulate her."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About The Rooster",
+      "text": "He's the chairman of the Snezhnograd Veche, though he often feels more like... its overseer. Every vote cast in the Evaluation Council affects the interests of countless factions. Reconciling so many competing concerns can only be achieved by the shrewdest of operators. Once you understand this, you start to realize just how terrifying he really is."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Regrator",
+      "text": "You would think his relationship and dealings with Dottore would have been properly investigated from the start, right? Why did it take ten times longer for my research funds to be granted than that lunatic Dottore's? It's clear there was something shady going on! I even asked Pantalone about it to his face! He looked right at me with that stupid smile and said, \"Oh my, has our Lady Sandrone finally developed an interest in finances? I can recommend a few books if you'd like — maybe you should start with '100 Phrases to Teach You Manners.'\""
+    },
+    {
+      "id": "4013",
+      "type": 1,
+      "title": "About Rosalyne",
+      "text": "She always lived for herself. She loved in her own way, and hated in her own way, too. No wonder she burned out so fast. Still, her flame shone with a unique hue until the moment it flickered into nothing."
+    },
+    {
+      "id": "4014",
+      "type": 1,
+      "title": "About Childe",
+      "text": "Another pain in the... well, everything. He could happily just spend his days with his brothers and sisters — why insist on becoming a Harbinger at all? And when will he get it into his thick skull that not everyone is always looking for a fight?"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Sandrone: I",
+      "text": "Hmm? I'm not in the habit of casually sharing my life story with others. But if I'm going to open up, can we at least wait for pleasant weather and to do it over tea and cake?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Sandrone: II",
+      "text": "My colleagues in the Fatui might not be the ones I'd choose, but there's no denying that it's an excellent place to conduct research. The Tsaritsa is generous with her resources and funding. I'd say the equation balances out in my favor."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Sandrone: III",
+      "text": "It never bothered me that Alain created me to look like his sister Mary-Ann — or that he named me \"Marionette.\" The way I see it, these are simply the consequences of my birth. Does it bother you to look like your parents, or to bear their family name?"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Sandrone: IV",
+      "text": "I like mathematics. A world built on formulae and logic has a kind of elegance anchored in certainty. I also like music, which is similar in many ways. I used to think playing music should be approached like a mathematical problem, balancing the notes and the beat, no space for deviation. Later, I came to realize that some minor flaws — even mistakes — during a performance can actually make the music more beautiful. A slight pause here, a sudden improvisation there... Such tiny errors are where emotion is born. Reverberations of the performer's heart, you might say."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Sandrone: V",
+      "text": "What the world gives, the world will take away. To live is to gain and to lose, to pick up what the world can't seize, to hold onto it amid loss and farewells, and to keep walking forward. If a person desires merely \"to live,\" is that too insignificant a wish? Just like someone saving the world solely to \"save themselves\" — is such a reason too simple? To live, to feel, to witness. And then one day, perhaps those things the world cannot take away will grow numerous enough to shake it to its core."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Sandrone's Hobbies",
+      "text": "Besides music, machines, and mathematics, I also enjoy horticulture... when conditions allow. I like to document the process as my plants grow and flourish. Most of them require little intervention — they're independent, resilient. I used to believe I was the same."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Sandrone's Troubles",
+      "text": "Every time I see a fluffy little animal, I just wanna pick it up and give it a big hug... but most animals don't like machines, so they always run away when they see me. Hey! Don't look at me like that! I don't want your pity. So what if I can't hug them? It's not... it's not that big of a deal..."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Thanks to this body, I don't suffer from allergies or indigestion, so food is purely a matter of pleasure for me. But if I had to choose... Hmm, I think I like small, dainty pastries most of all. Just looking at their exquisite shape brings joy to my heart — it's a one-two punch for the eyes and soul."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I don't like greasy, spicy food. It's got nothing to do with taste — it's just hard to keep the smell from clinging to my clothes. It's very inelegant for a lady."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Hmm... Oh, I—I'll do you a favor and listen to how you prepared this. Perhaps I can give you a few pointers. It would be unladylike to let the opportunity go to waste."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Oh? That's not half bad. I'll have to return the favor next time we get together for tea."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Ugh... Fagio, I have something for you to clean up."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Hmph. Here, take this. I wouldn't normally give these out, but today's a special day — it marks the day you came into the world. I invited Arlecchino and Columbina, plus a few shared friends. I even baked a special cake for the occasion... so you'd best look forward to it."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Calculation underway."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Inputting variables..."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Progress is smooth."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Deconstructing the very order of things. Bet you're impressed with me now? Hahaha..."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Take a break."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "C'mon, keep up."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "How tiresome."
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Hmph."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Hehe..."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Pick up the pace."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Let's test my hypothesis."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "A spot of teatime entertainment."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Hmph, what a joke."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Huh? All that work for this?"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "So, what's inside? N—Not that I care!"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Certainly went out of your way for this, didn't you? It's all yours."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Fagio! Are you good to go on?"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Victory is in the balance..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Every battle has its twists!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Hey! Are you still with us?"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Be careful! I only know how to fix machines!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Were my calculations... unsound...?"
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "This tea party... is over..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Regrettably... there's nothing more to say..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Hands off."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: II",
+      "text": "How rude."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "You'll regret that...!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Got a death wish?"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Time to verify my formulae."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Let me help you out."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Let's go, Fagio."
+    }
+  ],
+  "effects": {
+    "11190007": {
+      "name": "Elevation",
+      "description": "Special DMG Boost effect. It is calculated independently of other DMG Boost effects.",
+      "color": ""
+    },
+    "11330001": {
+      "name": "Decoding",
+      "description": "Fagio will switch to this mode when using a Charged Attack.<br/>When in this mode, Fagio will engage any opponents ahead with a sweeping fire attack, as well as fire condensed beams at intervals, dealing <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>.<br/><span style=\"color:#FFD780FF\">Radiance: Stellar Glimmer</span>: The condensed beams will instead deal <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span> that is considered the corresponding Stellar Glimmer DMG.",
+      "color": ""
+    },
+    "11330002": {
+      "name": "Decoding Power",
+      "description": "When in <span style=\"color:#FFD780FF\">Decoding</span> mode, Fagio's <span style=\"color:#FFD780FF\">Decoding Power</span> will continuously increase. When its Decoding Power reaches the maximum, Fagio will be unable to maintain or re-enter Decoding mode.",
+      "color": ""
+    },
+    "11330003": {
+      "name": "Polestar Field",
+      "description": "When Stellar-Conduct is triggered, the surrounding area will transform into a <span style=\"color:#FFD780FF\">Polestar Field</span> for a short period of time, and when inside a Polestar Field, certain characters will enter the <span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> state, which grants various skill buffs.",
+      "color": ""
+    },
+    "11500004": {
+      "name": "Radiance: Stellar Glimmer",
+      "description": "<span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> and <span style=\"color:#FFD780FF\">Radiance: Stellar Swirl</span> are both considered <span style=\"color:#FFD780FF\">Radiance: Stellar Glimmer</span> states.<br/>Characters can only be affected by one Radiance state at any one time, and where more than one state can be triggered, <span style=\"color:#FFD780FF\">Radiance: Stellar-Conduct</span> shall apply first.",
+      "color": ""
+    }
+  }
+}

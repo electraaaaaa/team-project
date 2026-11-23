@@ -18,9 +18,8 @@ public class Game {
    * @param moneyPackages a mapping of game currency to the real life currency cost from packages in the game
    * @param collectables a list of collectables in the game
    * @throws IllegalArgumentException if the name is empty
-   * @throws IllegalArgumentException if the password or name are empty
    */
-  public Game(String name, String gameCurrency, Map<Float, Float> moneyPackages, List collectables, List<Banner> banners) {
+  public Game(String name, String gameCurrency, Map<Float, Float> moneyPackages, List<Collectable> collectables, List<Banner> banners) {
     if ("".equals(name)) {
       throw new IllegalArgumentException("Name cannot be empty");
     }
@@ -45,11 +44,20 @@ public class Game {
   }
 
   public int getCostOfPulls(int pulls) {
-    // TODO: implement this function
-    return -1;
+    return pulls * 160;
+  }
+
+  public Map<Float, Float> getMoneyPackages() {
+    return moneyPackages;
+  }
+
+  public String getPriceCurrency() {
+    return "CAD";
   }
 
   public List<Banner> getAllBanners() {
     return banners;
   }
+
+  public List<Collectable> getAllCollectables() { return collectables; }
 }

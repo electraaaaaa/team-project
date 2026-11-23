@@ -1,0 +1,2087 @@
+{
+  "_id": 10000033,
+  "id": "tartaglia",
+  "name": "Tartaglia",
+  "title": "Childe",
+  "description": "No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared on the battlefield.",
+  "weapon_type": {
+    "id": "bow",
+    "name": "Bow"
+  },
+  "element": {
+    "id": "hydro",
+    "name": "Hydro"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1605060000,
+  "substat": "Hydro DMG Bonus",
+  "stats": {
+    "base": {
+      "hp": 1020.0524,
+      "attack": 23.4612,
+      "defense": 63.4198
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 874.6027,
+        "attack": 20.114388,
+        "defense": 54.378,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1496.0309,
+        "attack": 34.40619,
+        "defense": 93.015,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0.072
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2324.6018,
+        "attack": 53.461926,
+        "defense": 144.531,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2946.03,
+        "attack": 67.75373,
+        "defense": 183.168,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3567.4585,
+        "attack": 82.04553,
+        "defense": 221.805,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0.216
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4188.8867,
+        "attack": 96.33733,
+        "defense": 260.442,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0.288
+        }
+      }
+    ]
+  },
+  "affiliation": "Fatui",
+  "region": {
+    "id": "fatui",
+    "name": "Fatui"
+  },
+  "rarity": 5,
+  "birthday": [
+    20,
+    7
+  ],
+  "constellation": "Monoceros Caeli",
+  "domain": "Forsaken Rift",
+  "cv": {
+    "english": "Griffin Burns",
+    "chinese": "鱼冻",
+    "japanese": "木村良平",
+    "korean": "Nam Do-hyeong"
+  },
+  "skills": [
+    {
+      "_id": 10331,
+      "id": "cutting_torrent",
+      "name": "Cutting Torrent",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 6 consecutive shots with a bow.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Performs a more precise <span style=\"color:#FFD780FF\">Aimed Shot</span> with increased DMG.<br/>While aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal <span style=\"color:#80C0FFFF\">Hydro DMG</span> and apply the Riptide status.<br/><br/><span style=\"color:#FFD780FF\">Riptide</span><br/>Opponents affected by Riptide will suffer from <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.<br/>·Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.<br/>·Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.<br/>When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "41.3%",
+            "44.6%",
+            "48%",
+            "52.8%",
+            "56.2%",
+            "60%",
+            "65.3%",
+            "70.6%",
+            "75.8%",
+            "81.6%",
+            "87.4%",
+            "93.1%",
+            "98.9%",
+            "104.6%",
+            "110.4%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "46.3%",
+            "50%",
+            "53.8%",
+            "59.2%",
+            "62.9%",
+            "67.3%",
+            "73.2%",
+            "79.1%",
+            "85%",
+            "91.5%",
+            "97.9%",
+            "104.4%",
+            "110.8%",
+            "117.3%",
+            "123.7%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "55.4%",
+            "59.9%",
+            "64.4%",
+            "70.8%",
+            "75.3%",
+            "80.5%",
+            "87.6%",
+            "94.7%",
+            "101.8%",
+            "109.5%",
+            "117.2%",
+            "124.9%",
+            "132.7%",
+            "140.4%",
+            "148.1%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "57%",
+            "61.7%",
+            "66.3%",
+            "72.9%",
+            "77.6%",
+            "82.9%",
+            "90.2%",
+            "97.5%",
+            "104.8%",
+            "112.7%",
+            "120.7%",
+            "128.6%",
+            "136.6%",
+            "144.5%",
+            "152.5%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "60.9%",
+            "65.8%",
+            "70.8%",
+            "77.9%",
+            "82.8%",
+            "88.5%",
+            "96.3%",
+            "104.1%",
+            "111.9%",
+            "120.4%",
+            "128.9%",
+            "137.4%",
+            "145.8%",
+            "154.3%",
+            "162.8%"
+          ]
+        },
+        {
+          "label": "6-Hit DMG",
+          "values": [
+            "72.8%",
+            "78.7%",
+            "84.6%",
+            "93.1%",
+            "99%",
+            "105.8%",
+            "115.1%",
+            "124.4%",
+            "133.7%",
+            "143.8%",
+            "154%",
+            "164.1%",
+            "174.3%",
+            "184.4%",
+            "194.6%"
+          ]
+        },
+        {
+          "label": "Aimed Shot",
+          "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.7%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "92.8%",
+            "98.9%",
+            "105.1%",
+            "111.2%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Fully-Charged Aimed Shot",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "Riptide Flash DMG",
+          "values": [
+            "12.4%×3",
+            "13.3%×3",
+            "14.3%×3",
+            "15.5%×3",
+            "16.4%×3",
+            "17.4%×3",
+            "18.6%×3",
+            "19.8%×3",
+            "21.1%×3",
+            "22.3%×3",
+            "23.6%×3",
+            "24.8%×3",
+            "26.4%×3",
+            "27.9%×3",
+            "29.4%×3"
+          ]
+        },
+        {
+          "label": "Riptide Burst DMG",
+          "values": [
+            "62%",
+            "66.6%",
+            "71.3%",
+            "77.5%",
+            "82.2%",
+            "86.8%",
+            "93%",
+            "99.2%",
+            "105.4%",
+            "111.6%",
+            "117.8%",
+            "124%",
+            "131.8%",
+            "139.5%",
+            "147.3%"
+          ]
+        },
+        {
+          "label": "Riptide Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10332,
+      "id": "foul_legacy_raging_tide",
+      "name": "Foul Legacy: Raging Tide",
+      "description": "Unleashes a set of weaponry made of pure water, dealing <span style=\"color:#80C0FFFF\">Hydro DMG</span> to surrounding opponents and entering Melee Stance.<br/>In this Stance, Tartaglia's Normal and Charged Attacks are converted to <span style=\"color:#80C0FFFF\">Hydro DMG</span> that cannot be overridden by any other elemental infusion and change as follows:<br/><br/><span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 6 consecutive <span style=\"color:#80C0FFFF\">Hydro</span> strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash a cross slash, dealing <span style=\"color:#80C0FFFF\">Hydro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Riptide Slash</span><br/>Hitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span>. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.<br/><br/>After 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD.<br/>If the return to a ranged stance occurs automatically after 30s, the CD is even longer.",
+      "info": "He chose the bow as his weapon precisely to overcome his weakness with it. But a serious fight demands that he gets serious...",
+      "attributes": [
+        {
+          "label": "Stance Change DMG",
+          "values": [
+            "72%",
+            "77.4%",
+            "82.8%",
+            "90%",
+            "95.4%",
+            "100.8%",
+            "108%",
+            "115.2%",
+            "122.4%",
+            "129.6%",
+            "136.8%",
+            "144%",
+            "153%",
+            "162%",
+            "171%"
+          ]
+        },
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "38.9%",
+            "42%",
+            "45.2%",
+            "49.7%",
+            "52.9%",
+            "56.5%",
+            "61.5%",
+            "66.4%",
+            "71.4%",
+            "76.8%",
+            "82.3%",
+            "87.7%",
+            "93.1%",
+            "98.5%",
+            "104%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "41.6%",
+            "45%",
+            "48.4%",
+            "53.2%",
+            "56.6%",
+            "60.5%",
+            "65.8%",
+            "71.1%",
+            "76.5%",
+            "82.3%",
+            "88.1%",
+            "93.9%",
+            "99.7%",
+            "105.5%",
+            "111.3%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "56.3%",
+            "60.9%",
+            "65.5%",
+            "72%",
+            "76.6%",
+            "81.9%",
+            "89.1%",
+            "96.3%",
+            "103.5%",
+            "111.3%",
+            "119.2%",
+            "127.1%",
+            "134.9%",
+            "142.8%",
+            "150.7%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "59.9%",
+            "64.8%",
+            "69.7%",
+            "76.7%",
+            "81.5%",
+            "87.1%",
+            "94.8%",
+            "102.5%",
+            "110.1%",
+            "118.5%",
+            "126.9%",
+            "135.2%",
+            "143.6%",
+            "151.9%",
+            "160.3%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "55.3%",
+            "59.8%",
+            "64.3%",
+            "70.7%",
+            "75.2%",
+            "80.4%",
+            "87.4%",
+            "94.5%",
+            "101.6%",
+            "109.3%",
+            "117%",
+            "124.7%",
+            "132.5%",
+            "140.2%",
+            "147.9%"
+          ]
+        },
+        {
+          "label": "6-Hit DMG",
+          "values": [
+            "35.4% + 37.7%",
+            "38.3% + 40.7%",
+            "41.2% + 43.8%",
+            "45.3% + 48.2%",
+            "48.2% + 51.2%",
+            "51.5% + 54.8%",
+            "56% + 59.6%",
+            "60.6% + 64.4%",
+            "65.1% + 69.2%",
+            "70% + 74.5%",
+            "75% + 79.7%",
+            "79.9% + 85%",
+            "84.9% + 90.2%",
+            "89.8% + 95.5%",
+            "94.8% + 100.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "60.2% + 72%",
+            "65.1% + 77.8%",
+            "70% + 83.7%",
+            "77% + 92.1%",
+            "81.9% + 97.9%",
+            "87.5% + 104.6%",
+            "95.2% + 113.8%",
+            "102.9% + 123%",
+            "110.6% + 132.2%",
+            "119% + 142.3%",
+            "127.4% + 152.3%",
+            "135.8% + 162.4%",
+            "144.2% + 172.4%",
+            "152.6% + 182.5%",
+            "161% + 192.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Riptide Slash",
+          "values": [
+            "60.2%",
+            "65.1%",
+            "70%",
+            "77%",
+            "81.9%",
+            "87.5%",
+            "95.2%",
+            "102.9%",
+            "110.6%",
+            "119%",
+            "127.4%",
+            "135.8%",
+            "144.2%",
+            "152.6%",
+            "161%"
+          ]
+        },
+        {
+          "label": "Max Duration",
+          "values": [
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s"
+          ]
+        },
+        {
+          "label": "Preemptive CD",
+          "values": [
+            "6-36s",
+            "6-36s",
+            "6-36s",
+            "6-36s",
+            "6-36s",
+            "6-36s",
+            "6-36s",
+            "6-36s",
+            "6-36s",
+            "6-36s",
+            "6-36s",
+            "6-36s",
+            "6-36s",
+            "6-36s",
+            "6-36s"
+          ]
+        },
+        {
+          "label": "Max CD",
+          "values": [
+            "45s",
+            "45s",
+            "45s",
+            "45s",
+            "45s",
+            "45s",
+            "45s",
+            "45s",
+            "45s",
+            "45s",
+            "45s",
+            "45s",
+            "45s",
+            "45s",
+            "45s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10333,
+      "id": "havoc_obliteration",
+      "name": "Havoc: Obliteration",
+      "description": "Performs different attacks based on what stance Tartaglia is in when casting.<br/><br/><span style=\"color:#FFD780FF\">Ranged Stance: Flash of Havoc</span><br/>Swiftly fires a Hydro-imbued magic arrow, dealing <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span> and applying the Riptide status.<br/>Returns a portion of its Energy Cost after use.<br/><br/><span style=\"color:#FFD780FF\">Melee Stance: Light of Obliteration</span><br/>Performs a slash with a large AoE, dealing massive <span style=\"color:#80C0FFFF\">Hydro DMG</span> to all surrounding opponents, which triggers Riptide Blast.<br/><br/><span style=\"color:#FFD780FF\">Riptide Blast</span><br/>When the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals <span style=\"color:#80C0FFFF\">AoE Hydro DMG</span>.<br/>DMG dealt in this way is considered Elemental Burst DMG.",
+      "info": "Rushing waters are rarely seen in his snowy homeland. Perhaps his ability to command water is due to his understanding of just how precious it is.",
+      "attributes": [
+        {
+          "label": "Skill DMG: Melee",
+          "values": [
+            "464%",
+            "498.8%",
+            "533.6%",
+            "580%",
+            "614.8%",
+            "649.6%",
+            "696%",
+            "742.4%",
+            "788.8%",
+            "835.2%",
+            "881.6%",
+            "928%",
+            "986%",
+            "1044%",
+            "1102%"
+          ]
+        },
+        {
+          "label": "Skill DMG: Ranged",
+          "values": [
+            "378.4%",
+            "406.8%",
+            "435.2%",
+            "473%",
+            "501.4%",
+            "529.8%",
+            "567.6%",
+            "605.4%",
+            "643.3%",
+            "681.1%",
+            "719%",
+            "756.8%",
+            "804.1%",
+            "851.4%",
+            "898.7%"
+          ]
+        },
+        {
+          "label": "Riptide Blast DMG",
+          "values": [
+            "120%",
+            "129%",
+            "138%",
+            "150%",
+            "159%",
+            "168%",
+            "180%",
+            "192%",
+            "204%",
+            "216%",
+            "228%",
+            "240%",
+            "255%",
+            "270%",
+            "285%"
+          ]
+        },
+        {
+          "label": "Energy Return (Ranged)",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "never_ending",
+      "name": "Never Ending",
+      "description": "Extends Riptide duration by 8s.",
+      "level": 1
+    },
+    {
+      "id": "sword_of_torrents",
+      "name": "Sword of Torrents",
+      "description": "When Tartaglia is in <span style=\"color:#FFD780FF\">Foul Legacy: Raging Tide</span>'s Melee Stance, on dealing a CRIT hit, Normal and Charged Attacks apply the Riptide status effect to opponents.",
+      "level": 4
+    },
+    {
+      "id": "master_of_weaponry",
+      "name": "Master of Weaponry",
+      "description": "Increases your own party members' <span style=\"color:#FFD780FF\">Normal Attack</span> Level by 1.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 331,
+      "id": "foul_legacy_tide_withholder",
+      "name": "Foul Legacy: Tide Withholder",
+      "description": "Decreases the CD of <span style=\"color:#FFD780FF\">Foul Legacy: Raging Tide</span> by 20%.",
+      "level": 1
+    },
+    {
+      "_id": 332,
+      "id": "foul_legacy_understream",
+      "name": "Foul Legacy: Understream",
+      "description": "When opponents affected by Riptide are defeated, Tartaglia regenerates 4 Elemental Energy.",
+      "level": 2
+    },
+    {
+      "_id": 333,
+      "id": "abyssal_mayhem_vortex_of_turmoil",
+      "name": "Abyssal Mayhem: Vortex of Turmoil",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Foul Legacy: Raging Tide</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 334,
+      "id": "abyssal_mayhem_hydrospout",
+      "name": "Abyssal Mayhem: Hydrospout",
+      "description": "If Tartaglia is in <span style=\"color:#FFD780FF\">Foul Legacy: Raging Tide</span>'s Melee Stance, triggers Riptide Slash against opponents on the field affected by Riptide every 4s, otherwise, triggers Riptide Flash.<br/>Riptide Slashes and Riptide Flashes triggered by this Constellation effect are not subject to the time intervals that would typically apply to these two Riptide effects, nor do they have any effect on those time intervals.",
+      "level": 4
+    },
+    {
+      "_id": 335,
+      "id": "havoc_formless_blade",
+      "name": "Havoc: Formless Blade",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Havoc: Obliteration</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 336,
+      "id": "havoc_annihilation",
+      "name": "Havoc: Annihilation",
+      "description": "When <span style=\"color:#FFD780FF\">Havoc: Obliteration</span> is cast in Melee Stance, the CD of <span style=\"color:#FFD780FF\">Foul Legacy: Raging Tide</span> is reset.<br/>This effect will only take place once Tartaglia returns to his Ranged Stance.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1020"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "23"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "63"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2646",
+            "3521"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "61",
+            "81"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "165",
+            "219"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5268",
+            "5889"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "121",
+            "135"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "328",
+            "366"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "0.0%",
+            "7.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104121,
+        "id": "varunada_lazurite_sliver",
+        "name": "Varunada Lazurite Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112032,
+        "id": "recruits_insignia",
+        "name": "Recruit's Insignia",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6776",
+            "7604"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "156",
+            "175"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "421",
+            "473"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "7.2%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113012,
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112032,
+        "id": "recruits_insignia",
+        "name": "Recruit's Insignia",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8500",
+            "9121"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "195",
+            "210"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "528",
+            "567"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "14.4%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104122,
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113012,
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112033,
+        "id": "sergeants_insignia",
+        "name": "Sergeant's Insignia",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10025",
+            "10647"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "231",
+            "245"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "623",
+            "662"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "14.4%",
+            "21.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113012,
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112033,
+        "id": "sergeants_insignia",
+        "name": "Sergeant's Insignia",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11561",
+            "12182"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "266",
+            "280"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "719",
+            "757"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "21.6%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104123,
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113012,
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112034,
+        "id": "lieutenants_insignia",
+        "name": "Lieutenant's Insignia",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "13103",
+            "13103"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "301",
+            "301"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "815",
+            "815"
+          ]
+        },
+        {
+          "label": "Hydro DMG Bonus",
+          "values": [
+            "28.8%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104124,
+        "id": "varunada_lazurite_gemstone",
+        "name": "Varunada Lazurite Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113012,
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112034,
+        "id": "lieutenants_insignia",
+        "name": "Lieutenant's Insignia",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104301,
+          "id": "teachings_of_freedom",
+          "name": "Teachings of Freedom",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112032,
+          "id": "recruits_insignia",
+          "name": "Recruit's Insignia",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112033,
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113014,
+          "id": "shard_of_a_foul_legacy",
+          "name": "Shard of a Foul Legacy",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113014,
+          "id": "shard_of_a_foul_legacy",
+          "name": "Shard of a Foul Legacy",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113014,
+          "id": "shard_of_a_foul_legacy",
+          "name": "Shard of a Foul Legacy",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112034,
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113014,
+          "id": "shard_of_a_foul_legacy",
+          "name": "Shard of a Foul Legacy",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 203300,
+      "name": "Blades of Glory",
+      "description": "Tartaglia's outfit. Illustrious attire that signifies Childe's position as the eleventh Fatui Harbinger.",
+      "isDefault": true,
+      "characterName": "Tartaglia",
+      "characterId": 10000033,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Tartaglia_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "I'm No. 11 of the Fatui Harbingers, codename Childe, but I also go by Tartaglia. And you... Hmm, you too like to cause quite the stir, don't you? Something tells me we're going to get along splendidly."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Idleness",
+      "text": "You know, there are better ways to seek out our enemies than... well, standing here."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Test of Skills",
+      "text": "This place is pretty dead... By which I mean, there's nothing to kill."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: The Fatui",
+      "text": "I wonder what the rest of the Harbingers are up to? Plotting and scheming on an ever-grander scale, no doubt."
+    },
+    {
+      "id": "1104",
+      "type": 1,
+      "title": "Chat: Snezhnaya",
+      "text": "Where I'm from, if we didn't keep moving, we'd freeze to death. Literally."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "Ah, perfect weather for fishing! The sound of the rain scares them away, but once it stops, they're yours for the taking."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Snows: Foreign Country",
+      "text": "Haha, ahh... could it be snowing in Snezhnaya too?"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows: Snezhnaya",
+      "text": "The world looks glorious in the snow. Pure white, like the light of the moon. A perfect backdrop for bloodshed."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When It's Windy",
+      "text": "The wind is picking up. There is conflict in the air."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing: Foreign Country",
+      "text": "Just look at that wind blow!"
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "When the Wind Is Blowing: Snezhnaya",
+      "text": "The wind permeates all, cleansing both mind and body. Excellent."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning, comrade! You're raring to go today, I see."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "You look well. What's your secret? Care to exchange notes?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Whew, dinner was quite the feast. A spot of exercise is in order."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Today was great. See you tomorrow, comrade!"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Tartaglia",
+      "text": "A warrior must always be ready to face any challenge with his blade. The outcome of the battle is irrelevant — what matters is that you learn from the experience."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Comrades",
+      "text": "Ah, I'm sure the Harbingers must know of my dealings with you by now. Oh, I'd love to see the look on their faces... Hahaha..."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Weapons",
+      "text": "I am the least adept with a bow. And that is precisely why I must master it."
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Us: Survival",
+      "text": "You wield such powers without owning a Vision... I really am excited to see what you have in store for us... Let's see how far you can go. Just don't go dying on me before you lay it all on the line in our final battle! I won't allow it!"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Us: Invitation",
+      "text": "Comrade, how would you like to join the Fatui? ...Actually, scrap that. With your capabilities, you and I could go head-to-head with the Harbingers and win. Wouldn't want to miss an opportunity like that."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "If it makes me stronger, I'll take it. Vision? Great. Delusion? Don't mind if I do. Heretical teachings from the Abyss? Sign me up."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "The skeletal-white snowscape devours life without leaving any trace. It is the invisible enemy we fight against each day."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "I once ventured deep into the abyss and came face-to-face with an enormous beast. I don't know its name, all I know is the sight of it chilled me to the bone. But mark my words, one day I will march back in there and behead that beast, and you, comrade, will be my witness!"
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Skirk",
+      "text": "It's been years since I last saw my master. I should hope that next we meet, I'll at least be able to force her to use both hands to beat me..."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Zhongli: Pondering",
+      "text": "There's far more to that man than meets the eye. As for the extent of his power... lots to look forward to, I think."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Zhongli: Challenge",
+      "text": "Tell me, how has Mr. Zhongli been lately? Not bad, you say? Seems he's had no problem acclimating to \"mortal\" life. Hmph, he sure had me fooled. Such a fiasco mustn't be so easily forgiven! The only way to reconciliation is fierce combat! What do you mean I'm no match for him? Hahaha..."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About the Tsaritsa",
+      "text": "Her Royal Highness the Tsaritsa is actually a gentle soul. Too gentle, in fact, and that's why she had to harden herself. Likewise, she declared war against the whole world only because she dreams of peace. And because she made an enemy of the world, I had the chance to become acquainted with you."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Varka",
+      "text": "Varka? Just the thought of one day going head-to-head with him in combat, the fabled Knight of Boreas himself, titan of the Knights of Favonius... It makes me buzz with excitement. It's a beautiful life we live in this world."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About The Jester",
+      "text": "He was the first ever Fatui Harbinger, and today he is our leader. He only appears on important occasions. As for his accomplishments... To be honest, I don't really care. I owe my loyalty and devotion to the Tsaritsa, no one else."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About The Captain",
+      "text": "I've seen him in battle before, and oh what a sight it was. Perhaps I'm ranked too low for him to notice me right now. Well, he may not recognize my strengths yet, but one day, I'll show him what I'm made of."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About The Doctor",
+      "text": "I heard that he took segments of himself at different ages, made prostheses out of them, and assigned different tasks to each one. I know... all my comrades are a little weird. Well, come to think of it, if I met another version of myself... Hah, we'd have to fight then and there to decide which one of us gets to survive."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Damselette",
+      "text": "The Fatui Harbingers are ranked by strength, and I have no idea why that girl is No. 3. I'd test my skills with every Harbinger who ranks above me if I had the chance, but when it comes to her... something just doesn't feel right. Anyway, you should be careful around her."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About The Knave",
+      "text": "Look, I've got nothing against people who have their own agendas — I myself joined the Fatui to get more experience in combat. But I don't like her at all. If she stood to benefit from betraying others, she'd turn against the Tsaritsa in a heartbeat. There isn't a sane bone in her body."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About The Rooster",
+      "text": "I don't know what his motivations could be, but he seems genuine about wanting to help me. He treats me just like family. Oh, and speaking of family — Tonia and Teucer are always telling me about the pastries and other gifts he brings them when they write. So while I've been away from Snezhnaya, he's kept his promise to take care of my family."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Marionette",
+      "text": "She always seems engrossed in her research. Hmm... I wonder if those machines have anything to do with her? Anyway, I've only met her a few times, but every time she looked like she wanted to murder me. I have no idea what I possibly could have done to annoy her, though."
+    },
+    {
+      "id": "4013",
+      "type": 1,
+      "title": "About Regrator",
+      "text": "Oh, now that guy has a head full of grandiose plans fueled by raw ambition. I don't understand a word he says once he starts talking about his theories... Eh, but as long as he keeps our cash reserves stocked up, I'm not complaining."
+    },
+    {
+      "id": "4014",
+      "type": 1,
+      "title": "About The Fair Lady",
+      "text": "I never got along with her, you know that. I guess there's not much more worth saying about her at this point. When you're a harbinger, you have to accept that death could come at any time... But don't worry about me. No matter what happens, I'll do whatever it takes to keep myself alive."
+    },
+    {
+      "id": "4015",
+      "type": 1,
+      "title": "About The Balladeer",
+      "text": "After he took the Gnosis, we lost all contact with him. Now comes the task of trying to hunt it down and get it back... I actually don't mind it — it means I get to travel all over. Wonder if I'll run into you somewhere along the way?"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Tartaglia: I",
+      "text": "Remember, comrade, one day I will conquer the world!"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Tartaglia: II",
+      "text": "Face me in person, man to man, and I'll always have a chance of beating you. Same goes if you're a deity or a monster from the abyss. But the Harbingers? They are more enamored with their intangible methods, spending their days scheming and maneuvering. This is why we cannot get along."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Tartaglia: III",
+      "text": "However far away my motherland may be, we all live under the same sky. That snow-white moon... My family must be able to see it too. I hope my siblings... *sigh* I hope that they have turned out to be formidable warriors as well."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Tartaglia: IV",
+      "text": "Comrade, a word of advice: Don't go yelling stupid things in the heat of battle. They might sound good in your head, but if you think about it, they make no sense at all. I'm talking about things like, \"I'm on fire!\" That's the last thing we want. Fire leaves behind nothing but ashes. And you must survive at all costs."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Tartaglia: V",
+      "text": "Ah, how time flies. One day, you will see how I conquer the world and crush the thrones of gods beneath my heel. In the meantime... no dying, comrade! Keep yourself alive! Hahaha."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Tartaglia's Hobbies",
+      "text": "Ice fishing and combat follow the same principle. Patience and decisiveness are key. Though having said that... I suppose the same is true of everything in life."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Tartaglia's Troubles",
+      "text": "My pet peeves? Hmm, well, to be honest, I'm far too busy journeying with you and slaying powerful enemies to dwell on such trifling matters."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "There's plenty of delicious food to sink your teeth into in this world... and plenty of fights to sink your teeth into as well. Life is beautiful."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Food is like weaponry. A true warrior never deliberates unduly over their choice of weapon, nor do they do so over the food they eat. Neither should you."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Eating delicious food really has a way of taking all your cares away. Now, how should I repay you?"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Your cooking skills seem to have improved quite a lot. Does that mean you're getting stronger all the time, too?"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Um, I'll admit the taste surprises me a little. Hmm? Okay... I'll try one more bite."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday, comrade! Anyone you need knocked off their perch today? Let me know. I'll happily oblige..."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Hohoho, I feel like I've gotten stronger! Now, who shall I use as my guinea pig..."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "\"A warrior's strength is like a dome. The bigger the dome, the more opponents he can challenge inside it.\" Hmm, who was it that said this again?"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Bravo, comrade! Thanks to your help, I am one step closer to my goal of conquering the world. I doubt even the Tsaritsa herself ever expected I would make it this far."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Comrade. Make sure you keep training too. Otherwise, who will be left to fight me to the death when the world lies defeated at my feet? Hahaha."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "You're mine!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Ha!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Tidal wave!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Bring it on!"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Who's next?"
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Hah..."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Riptide!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "You can run, but you can't hide!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Shouldn't let your guard down!"
+    },
+    {
+      "id": "200004",
+      "type": 2,
+      "title": "Elemental Burst: IV",
+      "text": "Brace yourself, this is gonna hurt!"
+    },
+    {
+      "id": "700001",
+      "type": 2,
+      "title": "Sprint Start: I",
+      "text": "No time to lose."
+    },
+    {
+      "id": "800001",
+      "type": 2,
+      "title": "Deploying Wind Glider: I",
+      "text": "I could get used to this."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Alright, now we're talkin'!"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Not bad... Not bad at all!"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Now I just need to get my hands on the rest!"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Heh, this is getting interesting."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "You're pretty good!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Death looms. My time to shine!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "What's the matter, out of practice?"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Step aside, it's my turn!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "How... I had only just..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Drat!"
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "I'm... quite impressed..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Amateur mistake."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Need to end a few enemies?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Keep your eyes wide open!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "C'mon, don't keep me waiting!"
+    }
+  ]
+}

@@ -6,24 +6,17 @@ package use_case.cost_conversion;
 public class ConversionInputData {
 
     private final String gameName;
-    private final String pullType;
     private final int numberOfPulls;
     private final String targetCurrency;
 
-    public ConversionInputData(String gameName, String pullType,
-                               int numberOfPulls, String targetCurrency) {
+    public ConversionInputData(String gameName, int numberOfPulls, String targetCurrency) {
         this.gameName = gameName;
-        this.pullType = pullType;
         this.numberOfPulls = numberOfPulls;
         this.targetCurrency = targetCurrency;
     }
 
     public String getGameName() {
         return gameName;
-    }
-
-    public String getPullType() {
-        return pullType;
     }
 
     public int getNumberOfPulls() {

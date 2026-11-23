@@ -1,0 +1,1769 @@
+{
+  "_id": 10000064,
+  "id": "yun_jin",
+  "name": "Yun Jin",
+  "title": "Stage Lucida",
+  "description": "A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.",
+  "weapon_type": {
+    "id": "polearm",
+    "name": "Polearm"
+  },
+  "element": {
+    "id": "geo",
+    "name": "Geo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1641333600,
+  "substat": "Energy Recharge",
+  "stats": {
+    "base": {
+      "hp": 893.5552,
+      "attack": 16.0272,
+      "defense": 61.5741
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 667.5315,
+        "attack": 11.97342,
+        "defense": 45.999,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1141.8302,
+        "attack": 20.48085,
+        "defense": 78.6825,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.0667
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1774.2284,
+        "attack": 31.82409,
+        "defense": 122.2605,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.1333
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2248.527,
+        "attack": 40.33152,
+        "defense": 154.944,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.1333
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2722.8257,
+        "attack": 48.83895,
+        "defense": 187.6275,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.2
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3197.1245,
+        "attack": 57.34638,
+        "defense": 220.311,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.2667
+        }
+      }
+    ]
+  },
+  "affiliation": "Yun-Han Opera Troupe",
+  "region": {
+    "id": "liyue",
+    "name": "Liyue"
+  },
+  "rarity": 4,
+  "birthday": [
+    21,
+    5
+  ],
+  "constellation": "Opera Grandis",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Judy Alice Lee & Yang Yang",
+    "chinese": "贺文潇&杨扬",
+    "japanese": "小岩井ことり & Yang Yang",
+    "korean": "Sah Moon-young & Yang Yang"
+  },
+  "skills": [
+    {
+      "_id": 10641,
+      "id": "cloudgrazing_strike",
+      "name": "Cloud-Grazing Strike",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 consecutive spear strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "40.5%",
+            "43.8%",
+            "47.1%",
+            "51.8%",
+            "55.1%",
+            "58.9%",
+            "64.1%",
+            "69.2%",
+            "74.4%",
+            "80.1%",
+            "85.7%",
+            "91.4%",
+            "97%",
+            "102.7%",
+            "108.3%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "40.2%",
+            "43.5%",
+            "46.8%",
+            "51.5%",
+            "54.8%",
+            "58.5%",
+            "63.6%",
+            "68.8%",
+            "73.9%",
+            "79.6%",
+            "85.2%",
+            "90.8%",
+            "96.4%",
+            "102%",
+            "107.6%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "23% + 27.5%",
+            "24.8% + 29.8%",
+            "26.7% + 32%",
+            "29.4% + 35.2%",
+            "31.2% + 37.4%",
+            "33.4% + 40%",
+            "36.3% + 43.5%",
+            "39.2% + 47%",
+            "42.2% + 50.6%",
+            "45.4% + 54.4%",
+            "48.6% + 58.2%",
+            "51.8% + 62.1%",
+            "55% + 65.9%",
+            "58.2% + 69.8%",
+            "61.4% + 73.6%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "24% + 28.8%",
+            "25.9% + 31.2%",
+            "27.9% + 33.5%",
+            "30.7% + 36.9%",
+            "32.6% + 39.2%",
+            "34.9% + 41.9%",
+            "37.9% + 45.6%",
+            "41% + 49.2%",
+            "44.1% + 52.9%",
+            "47.4% + 57%",
+            "50.8% + 61%",
+            "54.1% + 65%",
+            "57.5% + 69%",
+            "60.8% + 73%",
+            "64.2% + 77%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "67.3%",
+            "72.8%",
+            "78.3%",
+            "86.1%",
+            "91.6%",
+            "97.9%",
+            "106.5%",
+            "115.1%",
+            "123.7%",
+            "133.1%",
+            "142.5%",
+            "151.9%",
+            "161.3%",
+            "170.7%",
+            "180.1%"
+          ]
+        },
+        {
+          "label": "Charged Attack",
+          "values": [
+            "121.7%",
+            "131.6%",
+            "141.5%",
+            "155.7%",
+            "165.6%",
+            "176.9%",
+            "192.4%",
+            "208%",
+            "223.6%",
+            "240.6%",
+            "260%",
+            "282.9%",
+            "305.8%",
+            "328.6%",
+            "353.6%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10642,
+      "id": "opening_flourish",
+      "name": "Opening Flourish",
+      "description": "Ms. Yun may just be acting out fights on stage, but her skills with the spear are real enough to defend against her foes.<br/><br/><span style=\"color:#FFD780FF\">Press</span><br/>Flourishes her polearm in a cloud-grasping stance, dealing <span style=\"color:#FFE699FF\">Geo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Takes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.<br/>When the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing <span style=\"color:#FFE699FF\">Geo DMG</span>.<br/>Based on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.",
+      "info": "One glorious moment on-stage, a decade of preparation behind it.",
+      "attributes": [
+        {
+          "label": "Press DMG",
+          "values": [
+            "149.1% DEF",
+            "160.3% DEF",
+            "171.5% DEF",
+            "186.4% DEF",
+            "197.6% DEF",
+            "208.8% DEF",
+            "223.7% DEF",
+            "238.6% DEF",
+            "253.5% DEF",
+            "268.4% DEF",
+            "283.3% DEF",
+            "298.2% DEF",
+            "316.9% DEF",
+            "335.5% DEF",
+            "354.2% DEF"
+          ]
+        },
+        {
+          "label": "Charge Level 1 DMG",
+          "values": [
+            "261% DEF",
+            "280.5% DEF",
+            "300.1% DEF",
+            "326.2% DEF",
+            "345.8% DEF",
+            "365.3% DEF",
+            "391.4% DEF",
+            "417.5% DEF",
+            "443.6% DEF",
+            "469.7% DEF",
+            "495.8% DEF",
+            "521.9% DEF",
+            "554.5% DEF",
+            "587.2% DEF",
+            "619.8% DEF"
+          ]
+        },
+        {
+          "label": "Charge Level 2 DMG",
+          "values": [
+            "372.8% DEF",
+            "400.8% DEF",
+            "428.7% DEF",
+            "466% DEF",
+            "494% DEF",
+            "521.9% DEF",
+            "559.2% DEF",
+            "596.5% DEF",
+            "633.8% DEF",
+            "671% DEF",
+            "708.3% DEF",
+            "745.6% DEF",
+            "792.2% DEF",
+            "838.8% DEF",
+            "885.4% DEF"
+          ]
+        },
+        {
+          "label": "Shield DMG Absorption",
+          "values": [
+            "12% Max HP + 1155",
+            "12.9% Max HP + 1271",
+            "13.8% Max HP + 1396",
+            "15% Max HP + 1531",
+            "15.9% Max HP + 1675",
+            "16.8% Max HP + 1830",
+            "18% Max HP + 1993",
+            "19.2% Max HP + 2167",
+            "20.4% Max HP + 2350",
+            "21.6% Max HP + 2542",
+            "22.8% Max HP + 2744",
+            "24% Max HP + 2956",
+            "25.5% Max HP + 3178",
+            "27% Max HP + 3409",
+            "28.5% Max HP + 3650"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10643,
+      "id": "cliffbreakers_banner",
+      "name": "Cliffbreaker's Banner",
+      "description": "Deals <span style=\"color:#FFE699FF\">AoE Geo DMG</span> and grants all nearby party members a Flying Cloud Flag Formation.<br/><br/><span style=\"color:#FFD780FF\">Flying Cloud Flag Formation</span><br/>When Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.<br/><br/>The effects of this skill will be cleared after a set duration or after being triggered a specific number of times.<br/>When one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.",
+      "info": "As the drums resound, as swords and halberds weave and clash, the doyenne is transformed into a mighty general.<br/><i>As the instruments on stage strum in unison, lo, see how she vanquishes these demons!</i>",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "244%",
+            "262.3%",
+            "280.6%",
+            "305%",
+            "323.3%",
+            "341.6%",
+            "366%",
+            "390.4%",
+            "414.8%",
+            "439.2%",
+            "463.6%",
+            "488%",
+            "518.5%",
+            "549%",
+            "579.5%"
+          ]
+        },
+        {
+          "label": "DMG Increase",
+          "values": [
+            "32.2% DEF",
+            "34.6% DEF",
+            "37% DEF",
+            "40.2% DEF",
+            "42.6% DEF",
+            "45% DEF",
+            "48.2% DEF",
+            "51.5% DEF",
+            "54.7% DEF",
+            "57.9% DEF",
+            "61.1% DEF",
+            "64.3% DEF",
+            "68.3% DEF",
+            "72.4% DEF",
+            "76.4% DEF"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "Trigger Quota",
+          "values": [
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "true_to_oneself",
+      "name": "True to Oneself",
+      "description": "Using <span style=\"color:#FFD780FF\">Opening Flourish</span> at the precise moment when Yun Jin is attacked will unleash its Level 2 Charged (Hold) form.",
+      "level": 1
+    },
+    {
+      "id": "breaking_conventions",
+      "name": "Breaking Conventions",
+      "description": "The Normal Attack DMG Bonus granted by <span style=\"color:#FFD780FF\">Flying Cloud Flag Formation</span> is further increased by 2.5%/5%/7.5%/11.5% of Yun Jin's DEF when the party contains characters of 1/2/3/4 Elemental Types, respectively.",
+      "level": 4
+    },
+    {
+      "id": "light_nourishment",
+      "name": "Light Nourishment",
+      "description": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 641,
+      "id": "thespian_gallop",
+      "name": "Thespian Gallop",
+      "description": "<span style=\"color:#FFD780FF\">Opening Flourish's</span> CD is decreased by 18%.",
+      "level": 1
+    },
+    {
+      "_id": 642,
+      "id": "myriad_miseenscne",
+      "name": "Myriad Mise-En-Scène",
+      "description": "After <span style=\"color:#FFD780FF\">Cliffbreaker's Banner</span> is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s.",
+      "level": 2
+    },
+    {
+      "_id": 643,
+      "id": "seafaring_general",
+      "name": "Seafaring General",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Cliffbreaker's Banner</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 644,
+      "id": "flower_and_a_fighter",
+      "name": "Flower and a Fighter",
+      "description": "When Yun Jin triggers Crystallize or Lunar-Crystallize reactions, her DEF is increased by 20% for 12s.",
+      "level": 4
+    },
+    {
+      "_id": 645,
+      "id": "famed_throughout_the_land",
+      "name": "Famed Throughout the Land",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Opening Flourish</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 646,
+      "id": "decorous_harmony",
+      "name": "Decorous Harmony",
+      "description": "Characters under the effects of the <span style=\"color:#FFD780FF\">Flying Cloud Flag Formation</span> have their Normal ATK SPD increased by 12%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "894"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "16"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "62"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "-",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2296",
+            "2963"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "41",
+            "53"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "158",
+            "204"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4438",
+            "4913"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "80",
+            "88"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "306",
+            "339"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104171,
+        "id": "prithiva_topaz_sliver",
+        "name": "Prithiva Topaz Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100030,
+        "id": "glaze_lily",
+        "name": "Glaze Lily",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112005,
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5651",
+            "6283"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "101",
+            "113"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "389",
+            "433"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113030,
+        "id": "riftborn_regalia",
+        "name": "Riftborn Regalia",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100030,
+        "id": "glaze_lily",
+        "name": "Glaze Lily",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112005,
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7021",
+            "7495"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "126",
+            "134"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "484",
+            "517"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113030,
+        "id": "riftborn_regalia",
+        "name": "Riftborn Regalia",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100030,
+        "id": "glaze_lily",
+        "name": "Glaze Lily",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112006,
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8233",
+            "8707"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "148",
+            "156"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "567",
+            "600"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113030,
+        "id": "riftborn_regalia",
+        "name": "Riftborn Regalia",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100030,
+        "id": "glaze_lily",
+        "name": "Glaze Lily",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112006,
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9445",
+            "9919"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "169",
+            "178"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "651",
+            "684"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113030,
+        "id": "riftborn_regalia",
+        "name": "Riftborn Regalia",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100030,
+        "id": "glaze_lily",
+        "name": "Glaze Lily",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112007,
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10657",
+            "10657"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "191",
+            "191"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "734",
+            "734"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104174,
+        "id": "prithiva_topaz_gemstone",
+        "name": "Prithiva Topaz Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113030,
+        "id": "riftborn_regalia",
+        "name": "Riftborn Regalia",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100030,
+        "id": "glaze_lily",
+        "name": "Glaze Lily",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112007,
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104313,
+          "id": "teachings_of_diligence",
+          "name": "Teachings of Diligence",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112005,
+          "id": "damaged_mask",
+          "name": "Damaged Mask",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112006,
+          "id": "stained_mask",
+          "name": "Stained Mask",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113027,
+          "id": "ashen_heart",
+          "name": "Ashen Heart",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113027,
+          "id": "ashen_heart",
+          "name": "Ashen Heart",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113027,
+          "id": "ashen_heart",
+          "name": "Ashen Heart",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112007,
+          "id": "ominous_mask",
+          "name": "Ominous Mask",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113027,
+          "id": "ashen_heart",
+          "name": "Ashen Heart",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 206400,
+      "name": "Mistcloud Stage",
+      "description": "Yun Jin's outfit. It was made by skilled tailors from the Feiyun Commerce Guild. Yun Jin fell in love with it at first sight, and it is now her favorite set of casual wear.",
+      "isDefault": true,
+      "characterName": "Yun Jin",
+      "characterId": 10000064,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Yunjin_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "As the saying goes, you never truly know someone until you meet them in person, and at long last, I finally have the great honor of meeting you today. My name is Yun Jin, and I am humbled to be the director of the Yun-Han Opera Troupe. We have been performing at Heyu Tea House as of late, and we'd be honored to have you attend a performance sometime."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Sensitive Topic",
+      "text": "My waistband has been feeling a little snug these last couple of days... Methinks I perchance have overindulged..."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Relaxing",
+      "text": "Ahhh... Yes, I shall spare myself the hair and makeup routine today, and happily idle my time away!"
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Singing Opera",
+      "text": "(Translated) How gently do the clouds and flowers sway, as dancing winds meander through the vales."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "*gasp* D—Did you hear that? Whew, it really startled me!"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "(Translated) Fie! This cold shall be mine end!"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "What a sight to behold, the sun so warm and radiant..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning! The dew at dawn is perfect for brewing tea, so I made some for you. Drink up, and then we'll head off!"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "I'd like to indulge in a nap after lunch. Oh? ...You're not tired?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Let's go listen to tonight's storytelling performance together. Liu Su's rendition of \"Ring of Raining Blades\" is most sublime!"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "There's a chill in the air tonight, so you mustn't stay out late. Good night!"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Yun Jin: Schooling",
+      "text": "My schooling started very early. In fact, my earliest memories are of my father teaching me to read. Despite my best efforts, my ability is not half of his. Enough to write operas, but compared to his level of erudition, I still have much to strive for."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Yun Jin: Opera Training",
+      "text": "In her youth, my mother was a famous opera singer in Liyue Harbor, and I learned all the operas I know from her. But, you could never imagine how strict she was with me as a teacher. Thinking back on it now, I... *sigh* No, no, no, I'd rather not think about it at all."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Opera Troupe",
+      "text": "We have some grand performances coming up soon, and it just so happens that we have an opening for someone to play the part of a skilled swordfighter. I think you'd be a perfect match for the part. How about it? Would you like to join our troupe? We can even enjoy some tea together in between acts."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Rock 'n' Roll",
+      "text": "Huh? You like rock 'n' roll? Oh, that's great! I'll be sure to bring you along the next time I go out to see a show. And when I get back, I can just tell the senior troupe members that I went out to visit you... Hehe, that way, they won't have any reason to get on my case about going out."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Hmm? My Vision? Hehe, I suppose the Lord of Geo must be a fan of the opera. Perhaps the old man was so delighted with my performance that he decided to grant me a Vision."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share: Drinks",
+      "text": "One of my absolute favorite pastimes is trying out all kinds of new beverages. I've already tried all the sophisticated-sounding drinks that previous generations came up with — you know, like Pine Nectar Tea and Snow Blossom Tea. I'm beginning to worry that I'll run out of new drinks to try soon. You don't happen to have any recommendations, do you?"
+    },
+    {
+      "id": "3004",
+      "type": 1,
+      "title": "Something to Share: Dreams",
+      "text": "Sometimes, I just feel like casting off my opera costume and going traveling overseas. You know, to explore the outside world. For now, I'll need to keep working hard at what I'm doing, so someday that dream can come true."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "The chirping of the songbirds at daybreak always puts me in the best of moods."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Xinyan",
+      "text": "The elders of the troupe are always harping on about rock 'n' roll being a bad influence. Needless to say, they never approve of me going to see Xinyan's shows. \"It's for your own good,\" they say. Hmph, all it's really about is their inability to accept anything new. Whatever, those old fogies can't tell me what to do. I'm going to keep rocking out at Xinyan's gigs, every week, and that's that."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Hu Tao",
+      "text": "Ah yes, Hu Tao. Very expressive face, and she has a sharp mind too — you can be discussing the most mundane thing in the world, and she'll always bring out a string of witty remarks. I admire her a lot. There's never a dull moment when you have friends like her around."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Zhongli",
+      "text": "The customs of the opera are very particular, and are passed down from generation to generation. Sometimes I find that I only know the hows but not the whys behind what we do. But when speaking with Zhongli, it is abundantly evident that he knows the origins behind almost everything. Who wouldn't be delighted to have such a connoisseur in their audience?"
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Ningguang",
+      "text": "The Tianquan is a big spender and has made several very generous donations to our troupe. I can only return her generosity by delivering my best possible performance."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Xingqiu",
+      "text": "Oh, so you are also acquainted with Xingqiu? Haha, he is quite the clever one, and with a sharp wit as well. The moment you let your guard down, you're at risk of becoming the butt of one of his practical jokes... Don't say I didn't warn you."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Shenhe",
+      "text": "I have long since known \"The Divine Damsel of Devastation\" inside out, back to front, but it was only very recently that I learned that the \"divine damsel\" in question is actually a real person. Life is full of strange twists sometimes! My only hope is that she can find true friendship and never be lonely again."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Keqing",
+      "text": "I have yet to see the Yuheng ever attend an opera performance. Now that I think about it, whenever I happen to see her out on the street, she always seems to be in a great hurry."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Kaedehara Kazuha",
+      "text": "Kaedehara Kazuha is among the many outlanders who enjoy Liyue opera. Whether it's an orchestral section or a percussive piece, he always sits there and listens quietly. Talk about great manners!"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Yun Jin: I",
+      "text": "Many of the operas we've been performing recently are new ones that I wrote after assuming the directorship of the troupe. I suppose the fact that I can both write and sing my own material has contributed to my rising popularity in Liyue Harbor."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Yun Jin: II",
+      "text": "Per the tradition, actors must wrap their hair, put on full-face makeup and an elaborate costume, and make all sorts of other preparations before they take the stage. There's no doubt that an opera star in full attire looks spectacular, but achieving this look is frightfully exhausting. So I perform without hair and makeup whenever I have the option — and if I must perform in full dress, I try to select a costume that isn't too heavy. Fortunately, the good folks at Heyu Tea House are quite lenient with us. Otherwise, we'd be working ourselves to early graves."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Yun Jin: III",
+      "text": "At the start of my opera career, I have to say I did let the standing ovations from our audiences go to my head a little. It wasn't long before I developed a captious attitude... If I didn't like the script, or if the stage was too small, or if I thought there weren't enough people in the audience, I would refuse to perform. Looking back now, it was all terribly arrogant of me... my goodness. I shall never let myself become so vain again."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Yun Jin: IV",
+      "text": "Now that I think about it, the Yun-Han Opera Troupe has been under my leadership for quite some time now. Before taking it over, I only knew two things: how to write opera and how to perform it on stage. I never gave any thought to how to run a troupe. Becoming the troupe's director gave me a crash course in this unfamiliar area and I've experienced all the highs and lows of working with people along the way... Only now do I understand that life mirrors opera, just as opera reflects life."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Yun Jin: V",
+      "text": "Well you know, many of Liyue's legends are centered around stories of gods and the adepti, so most operas focus on the supernatural, too. A prime example would be \"The Divine Damsel of Devastation,\" which we have been performing recently. Long-time opera fans adore this sort of material, but in this age of humanity, I would rather like to tell stories about ordinary people. Yes, how grand it would be to sing about the hopes and dreams of ordinary people for all to hear. I've never shared these thoughts with anyone before... Thank you for listening so patiently. I'm fortunate to have a close friend like you."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Yun Jin's Hobbies",
+      "text": "My hobbies? Well, opera, of course! It's what I truly love and it's what I will be pursuing for the rest of my life."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Yun Jin's Troubles",
+      "text": "*sigh* Well, as you can probably imagine, I always have to be mindful of what I eat and make sure I stay in shape. It's a shame, because the temptation to indulge in all the tasty delicacies the city has to offer is just as strong to me as to anyone else..."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Tianshu Meat, Black-Back Perch Stew, Cured Pork Dry Hotpot... Oh, I just want them all! Unfortunately, I basically never get to eat such things, but... um, if you don't mind me asking... Can you cook any of those dishes?"
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Every day's the same... Stir-Fried Shrimp, day in and day out. No matter how they prepare it, it always tastes the same. Ugh, ghastly! I really can't stand it anymore..."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Mmm! There's no better feeling than indulging in your favorite food... It's a shame that I can only afford to have a little bite."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Oh, what a magnificent feast! Wait a second, I'll grab us some drinks to accompany the meal."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "I'm sorry... This meal isn't really agreeing with me."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Oh, so today's your birthday? Well, I wouldn't know how to throw you a feast if I tried... so how about I sing you a song? For you alone, an audience of one. So... what song would you like to hear me sing? The choice is yours."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "As the saying goes: \"Achievement in a field is the result of how hard you are willing to work at it, not how much you enjoy it.\""
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "It looks like all my rigorous training is finally paying off."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "I began my training in the art of the spear hoping to enhance my performance in stage combat. I stuck with it hoping to master the techniques of self-defense. Today, it looks like I have finally achieved both of these goals."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "The art of the spear is a vast and profound discipline... There is an almost infinite number of things one can learn. I am glad to have had you by my side during my training. Haha, I believe I've grasped the basics now. I daresay you'd better be careful when we're sparring together in the future."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "And step!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "And leap!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Flags up!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Flags fly!"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Observe!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Break a leg!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Strike as one!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Your grand finale!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "The troupe appreciates any donation."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Hmm... Anything the troupe could use on our journey?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "No need to stand on ceremony. I'll just take this."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Oof, watch the costume!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Ugh, the curtain's not down yet..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "This script needs a rewrite..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Exit stage right!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "I'll save the show!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Thank you... And goodnight..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "A true tragedy..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "The show... Must go on..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Stay in character..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "How embarrassing..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "This isn't stage fighting..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "(Translated) Ahem! Oh, Maestro!"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Hmm, which opera shall we perform today?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Let's get this show on the road!"
+    }
+  ]
+}

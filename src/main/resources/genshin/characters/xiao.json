@@ -1,0 +1,1727 @@
+{
+  "_id": 10000026,
+  "id": "xiao",
+  "name": "Xiao",
+  "title": "Vigilant Yaksha",
+  "description": "A yaksha adeptus who defends Liyue. Also heralded as the \"Conqueror of Demons\" and \"Vigilant Yaksha.\"",
+  "weapon_type": {
+    "id": "polearm",
+    "name": "Polearm"
+  },
+  "element": {
+    "id": "anemo",
+    "name": "Anemo"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1612216800,
+  "substat": "CRIT Rate",
+  "stats": {
+    "base": {
+      "hp": 991.4528,
+      "attack": 27.1852,
+      "defense": 62.2232
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 850.0811,
+        "attack": 23.307148,
+        "defense": 53.352,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1454.0862,
+        "attack": 39.86749,
+        "defense": 91.26,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.048
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2259.4263,
+        "attack": 61.947945,
+        "defense": 141.804,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2863.4312,
+        "attack": 78.508286,
+        "defense": 179.712,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3467.4363,
+        "attack": 95.06863,
+        "defense": 217.62,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4071.4412,
+        "attack": 111.628975,
+        "defense": 255.528,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.192
+        }
+      }
+    ]
+  },
+  "affiliation": "Liyue Adeptus",
+  "region": {
+    "id": "liyue",
+    "name": "Liyue"
+  },
+  "rarity": 5,
+  "birthday": [
+    17,
+    4
+  ],
+  "constellation": "Alatus Nemeseos",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Laila Berzins",
+    "chinese": "kinsen",
+    "japanese": "松岡禎丞",
+    "korean": "Shim Kyu-hyeok"
+  },
+  "skills": [
+    {
+      "_id": 10261,
+      "id": "whirlwind_thrust",
+      "name": "Whirlwind Thrust",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 6 consecutive spear strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to perform an upward thrust.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.<br/>Xiao does not take DMG from performing Plunging Attacks.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "27.5% + 27.5%",
+            "29.4% + 29.4%",
+            "31.3% + 31.3%",
+            "33.8% + 33.8%",
+            "35.7% + 35.7%",
+            "37.9% + 37.9%",
+            "40.7% + 40.7%",
+            "43.5% + 43.5%",
+            "46.3% + 46.3%",
+            "49.1% + 49.1%",
+            "52% + 52%",
+            "54.8% + 54.8%",
+            "57.6% + 57.6%",
+            "60.4% + 60.4%",
+            "63.2% + 63.2%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "56.9%",
+            "60.8%",
+            "64.7%",
+            "69.9%",
+            "73.8%",
+            "78.3%",
+            "84.1%",
+            "89.9%",
+            "95.8%",
+            "101.6%",
+            "107.4%",
+            "113.2%",
+            "119%",
+            "124.9%",
+            "130.7%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "68.6%",
+            "73.2%",
+            "77.9%",
+            "84.1%",
+            "88.8%",
+            "94.3%",
+            "101.3%",
+            "108.3%",
+            "115.3%",
+            "122.3%",
+            "129.3%",
+            "136.3%",
+            "143.3%",
+            "150.3%",
+            "157.4%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "37.7% + 37.7%",
+            "40.2% + 40.2%",
+            "42.8% + 42.8%",
+            "46.2% + 46.2%",
+            "48.8% + 48.8%",
+            "51.8% + 51.8%",
+            "55.6% + 55.6%",
+            "59.5% + 59.5%",
+            "63.3% + 63.3%",
+            "67.2% + 67.2%",
+            "71% + 71%",
+            "74.9% + 74.9%",
+            "78.8% + 78.8%",
+            "82.6% + 82.6%",
+            "86.5% + 86.5%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "71.5%",
+            "76.4%",
+            "81.3%",
+            "87.8%",
+            "92.7%",
+            "98.4%",
+            "105.7%",
+            "113%",
+            "120.3%",
+            "127.6%",
+            "135%",
+            "142.3%",
+            "149.6%",
+            "156.9%",
+            "164.2%"
+          ]
+        },
+        {
+          "label": "6-Hit DMG",
+          "values": [
+            "95.8%",
+            "102.4%",
+            "108.9%",
+            "117.6%",
+            "124.1%",
+            "131.8%",
+            "141.6%",
+            "151.4%",
+            "161.2%",
+            "171%",
+            "180.8%",
+            "190.6%",
+            "200.4%",
+            "210.2%",
+            "220%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "121.1%",
+            "129.3%",
+            "137.6%",
+            "148.6%",
+            "156.9%",
+            "166.5%",
+            "178.9%",
+            "191.3%",
+            "203.6%",
+            "216%",
+            "228.4%",
+            "240.8%",
+            "253.2%",
+            "265.6%",
+            "278%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "81.8%",
+            "88.5%",
+            "95.2%",
+            "104.7%",
+            "111.3%",
+            "118.9%",
+            "129.4%",
+            "139.9%",
+            "150.3%",
+            "161.8%",
+            "173.2%",
+            "184.6%",
+            "196%",
+            "207.4%",
+            "218.9%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "163.6% / 204.4%",
+            "177% / 221%",
+            "190.3% / 237.7%",
+            "209.3% / 261.4%",
+            "222.6% / 278.1%",
+            "237.8% / 297.1%",
+            "258.8% / 323.2%",
+            "279.7% / 349.4%",
+            "300.6% / 375.5%",
+            "323.5% / 404%",
+            "346.3% / 432.5%",
+            "369.1% / 461.1%",
+            "392% / 489.6%",
+            "414.8% / 518.1%",
+            "437.6% / 546.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10262,
+      "id": "lemniscatic_wind_cycling",
+      "name": "Lemniscatic Wind Cycling",
+      "description": "Xiao lunges forward, dealing <span style=\"color:#80FFD7FF\">Anemo DMG</span> to opponents in his path.<br/>Can be used in mid-air.<br/>Starts with 2 charges.",
+      "info": "According to the legends of another land, the world will someday be crushed by two great wind wheels. Xiao's mastery over polearms is transcendent, ripping his foes apart like those legendary wind wheels.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "252.8%",
+            "271.8%",
+            "290.7%",
+            "316%",
+            "335%",
+            "353.9%",
+            "379.2%",
+            "404.5%",
+            "429.8%",
+            "455%",
+            "480.3%",
+            "505.6%",
+            "537.2%",
+            "568.8%",
+            "600.4%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10265,
+      "id": "bane_of_all_evil",
+      "name": "Bane of All Evil",
+      "description": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.<br/><br/><span style=\"color:#FFD780FF\">Yaksha's Mask</span><br/>·Greatly increases Xiao's jumping ability.<br/>·Increases his attack AoE and attack DMG.<br/>·Converts attack DMG into <span style=\"color:#80FFD7FF\">Anemo DMG</span>, which cannot be overridden by any other elemental infusion.<br/><br/>In this state, Xiao will continuously lose HP.<br/>The effects of this skill end when Xiao leaves the field.",
+      "info": "Donning the Mask of the Yaksha, Xiao takes the terrifying, demon-conquering form of the Vigilant Yaksha. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"",
+      "attributes": [
+        {
+          "label": "Normal/Charged/Plunging Attack DMG Bonus",
+          "values": [
+            "58.5%",
+            "62%",
+            "65.5%",
+            "70%",
+            "73.5%",
+            "77%",
+            "81.5%",
+            "86.1%",
+            "90.6%",
+            "95.2%",
+            "99.8%",
+            "104.3%",
+            "108.9%",
+            "113.4%",
+            "118%"
+          ]
+        },
+        {
+          "label": "Life Drain",
+          "values": [
+            "3% Current HP Per Second",
+            "3% Current HP Per Second",
+            "3% Current HP Per Second",
+            "2.5% Current HP Per Second",
+            "2.5% Current HP Per Second",
+            "2.5% Current HP Per Second",
+            "2% Current HP Per Second",
+            "2% Current HP Per Second",
+            "2% Current HP Per Second",
+            "2% Current HP Per Second",
+            "2% Current HP Per Second",
+            "2% Current HP Per Second",
+            "2% Current HP Per Second",
+            "2% Current HP Per Second",
+            "2% Current HP Per Second"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "conqueror_of_evil_tamer_of_demons",
+      "name": "Conqueror of Evil: Tamer of Demons",
+      "description": "While under the effects of <span style=\"color:#FFD780FF\">Bane of All Evil</span>, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists.<br/>The maximum DMG Bonus is 25%.",
+      "level": 1
+    },
+    {
+      "id": "dissolution_eon_heaven_fall",
+      "name": "Dissolution Eon: Heaven Fall",
+      "description": "Using <span style=\"color:#FFD780FF\">Lemniscatic Wind Cycling</span> increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.<br/>This effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration.",
+      "level": 4
+    },
+    {
+      "id": "transcension_gravity_defier",
+      "name": "Transcension: Gravity Defier",
+      "description": "Decreases climbing Stamina consumption for your own party members by 20%.<br/>Not stackable with Passive Talents that provide the exact same effects.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 261,
+      "id": "dissolution_eon_destroyer_of_worlds",
+      "name": "Dissolution Eon: Destroyer of Worlds",
+      "description": "Increases <span style=\"color:#FFD780FF\">Lemniscatic Wind Cycling</span>'s charges by 1.",
+      "level": 1
+    },
+    {
+      "_id": 262,
+      "id": "annihilation_eon_blossom_of_kaleidos",
+      "name": "Annihilation Eon: Blossom of Kaleidos",
+      "description": "When in the party and not on the field, Xiao's Energy Recharge is increased by 25%.",
+      "level": 2
+    },
+    {
+      "_id": 263,
+      "id": "conqueror_of_evil_wrath_deity",
+      "name": "Conqueror of Evil: Wrath Deity",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Lemniscatic Wind Cycling</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 264,
+      "id": "transcension_extinction_of_suffering",
+      "name": "Transcension: Extinction of Suffering",
+      "description": "When Xiao's HP falls below 50%, he gains a 100% DEF Bonus.",
+      "level": 4
+    },
+    {
+      "_id": 265,
+      "id": "evolution_eon_origin_of_ignorance",
+      "name": "Evolution Eon: Origin of Ignorance",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Bane of All Evil</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 266,
+      "id": "conqueror_of_evil_guardian_yaksha",
+      "name": "Conqueror of Evil: Guardian Yaksha",
+      "description": "While under the effects of <span style=\"color:#FFD780FF\">Bane of All Evil</span>, hitting at least 2 opponents with Xiao's Plunging Attack will immediately grant him 1 charge of <span style=\"color:#FFD780FF\">Lemniscatic Wind Cycling</span>, and for the next 1s, he may use Lemniscatic Wind Cycling while ignoring its CD.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "991"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "27"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "62"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "-",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2572",
+            "3422"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "71",
+            "94"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "161",
+            "215"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5120",
+            "5724"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "140",
+            "157"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "321",
+            "359"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "9.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104151,
+        "id": "vayuda_turquoise_sliver",
+        "name": "Vayuda Turquoise Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100031,
+        "id": "qingxin",
+        "name": "Qingxin",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112002,
+        "id": "slime_condensate",
+        "name": "Slime Condensate",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6586",
+            "7391"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "181",
+            "203"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "413",
+            "464"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "9.8%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100031,
+        "id": "qingxin",
+        "name": "Qingxin",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112002,
+        "id": "slime_condensate",
+        "name": "Slime Condensate",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8262",
+            "8866"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "227",
+            "243"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "519",
+            "556"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100031,
+        "id": "qingxin",
+        "name": "Qingxin",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112003,
+        "id": "slime_secretions",
+        "name": "Slime Secretions",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9744",
+            "10348"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "267",
+            "284"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "612",
+            "649"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "19.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100031,
+        "id": "qingxin",
+        "name": "Qingxin",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112003,
+        "id": "slime_secretions",
+        "name": "Slime Secretions",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11236",
+            "11840"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "308",
+            "325"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "705",
+            "743"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "19.4%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100031,
+        "id": "qingxin",
+        "name": "Qingxin",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112004,
+        "id": "slime_concentrate",
+        "name": "Slime Concentrate",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12736",
+            "12736"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "349",
+            "349"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "799",
+            "799"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "24.2%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104154,
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Vayuda Turquoise Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100031,
+        "id": "qingxin",
+        "name": "Qingxin",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112004,
+        "id": "slime_concentrate",
+        "name": "Slime Concentrate",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104310,
+          "id": "teachings_of_prosperity",
+          "name": "Teachings of Prosperity",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112002,
+          "id": "slime_condensate",
+          "name": "Slime Condensate",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113015,
+          "id": "shadow_of_the_warrior",
+          "name": "Shadow of the Warrior",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113015,
+          "id": "shadow_of_the_warrior",
+          "name": "Shadow of the Warrior",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113015,
+          "id": "shadow_of_the_warrior",
+          "name": "Shadow of the Warrior",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113015,
+          "id": "shadow_of_the_warrior",
+          "name": "Shadow of the Warrior",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 202600,
+      "name": "Endurer of Eons",
+      "description": "Xiao's outfit. Classical battle-wear fit for a thousand years of evil-conquering.",
+      "isDefault": true,
+      "characterName": "Xiao",
+      "characterId": 10000026,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Xiao_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "If you awake to a knife at your throat, if monsters dig their claws into you, if death comes knocking at your door... Call out my name. Adeptus Xiao. I will be here when you call."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Idleness",
+      "text": "Reduced to just standing around... How absurd."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Wandering Spirits",
+      "text": "The damned will sooner die again than lay a hand on me."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Corruption",
+      "text": "Grrgh... Those memories, so dark..."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Demons do not stop for the rain. Move."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "The rain stopped? I don't concern myself with the weather."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Many mortals fear lightning... Incomprehensible. Fear of something so common."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Once the snow is thick enough, we can eat it..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "We're wasting time. Let's go."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Lunch... We'll go back to Wangshu Inn."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Night... When the darkness comes to envelop you. Don't stay outside."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Go. I'll be here."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Xiao: Inhuman",
+      "text": "I'm far from human. I can't make much of human emotions."
+    },
+    {
+      "id": "2006",
+      "type": 1,
+      "title": "About Xiao: Liyue",
+      "text": "Liyue is changing. Rapidly... Forget it. It means nothing to me."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Warnings",
+      "text": "If a day comes where even you are taken by the darkness, it will be up to me..."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Trust",
+      "text": "Do not fall prey to the darkness. I have no mercy.\\nThough, perhaps you can stand your ground alone."
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Us: Drowsiness",
+      "text": "Who's there? Oh... You think I sleep? You have no respect for the ways of the adepti."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Us: Lantern Rite",
+      "text": "The Lantern Rite? The time for humans to discard their glowing trash into the sea has returned... How childish...\\nThough, if you insist... I will go with you."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision: Desires",
+      "text": "Visions? Desire? Ha. Do not judge adepti by your mortal ideals. I have no desire."
+    },
+    {
+      "id": "3004",
+      "type": 1,
+      "title": "About the Vision: Reasons",
+      "text": "Hiding? I'm hiding nothing. I just won't speak of desire to others.\\nDo you mortals not have a rule about spoken wishes never coming true? Hm? What do you mean that's not the same?"
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "I deal in death. If you cannot bring yourself to kill — speak my name."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting things",
+      "text": "Dihua Islet was once deserted.\\nThough that was many decades... no, centuries ago..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Zhongli",
+      "text": "Can I ask... Zhongli — what does he do with his days? Huh? Birds, antiques, flowers...\\nHmm... What deeper meaning do they hold?"
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Beidou",
+      "text": "Beidou? I have nothing to do with her. Though there is such a thing as the leviathan. As a mere human, she has proven her power in defeating Haishan."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Baizhu",
+      "text": "You want... Baizhu to make a medicine to take away my pain? I understand your intentions, but mortal medicine has no effect on adepti."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Hu Tao",
+      "text": "Hu Tao? Her liveliness is irritating. Fortunately, she is also humorous, so you need not worry about her growing into a boring human."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Venti",
+      "text": "Venti? So that's the name he goes by. His tunes are... forget it."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Ganyu",
+      "text": "Ganyu is neither mortal nor illuminated beast. Wandering both the mortal and adepti realms with duty as her sole guide, it was inevitable that she would become perplexed... What? Me? You believe a yaksha who knows nothing more than how to massacre countless souls and emerge unscathed is a suitable mentor for such an individual? ...Your mind occupies a very different world from that which your body inhabits."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Shenhe",
+      "text": "It seems Shenhe places a great deal of trust in you. Well, how could she not. There are few people in the world as kind and good-natured as you."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Yelan",
+      "text": "I've heard that she once investigated The Chasm, following the trail of the Millelith. If she can investigate mysteries like that on her own, she must be someone of rare skill."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Xiao: I",
+      "text": "I'm willing to protect you.\\nBut don't think about getting close, and stay out of my way, or all that awaits you is regret."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Xiao: II",
+      "text": "In the thousands of years that have passed, I have taken countless wraiths. If you want no trouble, stay away from me. See me as a weapon, and nothing more."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Xiao: III",
+      "text": "Their voices... I can always hear them. Their screams, their cries, demanding more death...\\nThis is my burden to carry. It has nothing to do with you."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Xiao: IV",
+      "text": "Morax...? What do you know of this name!?\\nHe gave me the name Xiao, and released me from the endless pain I endured.\\nI will not forgive those that dare to speak against him, even you."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Xiao: V",
+      "text": "It's too late. The connection between us is too strong. Even if you wanted to, it's too late to sever it. Hm? You've never thought to sever it?\\n*sigh* This eternal dance of demon subjugation... My fight goes on.\\nBut, I would like to know more about you."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Xiao's Hobbies",
+      "text": "There's nothing timid about you, having the courage to ask about my hobbies.\\nSo, fight me. How long do you think your body will last against my blows?"
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Xiao's Troubles",
+      "text": "Trouble? Ha. Trouble means nothing to adepti. There is no trouble that can last for a thousand years."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food: Almond Tofu",
+      "text": "I have no interest in mortal food. Cooking is tedious and the wait is long. The one thing I can manage to stomach is almond tofu."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Favorite Food: Memories",
+      "text": "The taste of Almond Tofu feels like a fond dream..."
+    },
+    {
+      "id": "6005",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Wait. I am expected to place slices of meat in wrappings myself? And then... eat them? Together? Ugh, humans these days do not know what they are doing."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Mm... Not bad... Why are you staring at me?"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "No need."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Try something else next time."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "This mortal concept of commemorating the day of your birth really is redundant. Ahem. Wait. Uhh, have this. It's a butterfly I made from leaves.\\nOkay. Take it. It's an adepti amulet — it staves off evil."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "This is it? Nothing worth getting excited about."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "New power? All it will be used for is death."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "The limit to one's power is self-destruction. Answer me. Why do you persist?"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Countless souls have fallen prey to these hands. I too have been swallowed by the darkness — and yet you dare to drive me on. You may think of me as... your companion. You seek to find me salvation? \\n...You... really are a difficult being to comprehend."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Hmph."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Boring."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Useless."
+    },
+    {
+      "id": "110001",
+      "type": 2,
+      "title": "Plunging Attacks: I",
+      "text": "Here!"
+    },
+    {
+      "id": "110002",
+      "type": 2,
+      "title": "Plunging Attacks: II",
+      "text": "Worthless!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Disappear!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Evil conquering!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Lament!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "If it's useful, I'll take it."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Why would anyone want... *sigh* Forget it, it's not my concern."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Hmph... there's quality here."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Shut it."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Prepare to die, fool!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "*grunts* Good."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "...Weak."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Get back if you wanna survive."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Is this... retribution?"
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "The day... has finally come."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Impossible..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "That's it?"
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Ugh, get out of my way!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "You called?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Evil shall be dispersed."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Conquering demons is what I do."
+    }
+  ]
+}

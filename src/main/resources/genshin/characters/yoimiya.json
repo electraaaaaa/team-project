@@ -1,0 +1,1765 @@
+{
+  "_id": 10000049,
+  "id": "yoimiya",
+  "name": "Yoimiya",
+  "title": "Frolicking Flames",
+  "description": "Owner of Naganohara Fireworks. Known as the \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+  "weapon_type": {
+    "id": "bow",
+    "name": "Bow"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1628607600,
+  "substat": "CRIT Rate",
+  "stats": {
+    "base": {
+      "hp": 791.2556,
+      "attack": 25.137,
+      "defense": 47.864
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 678.4301,
+        "attack": 21.55113,
+        "defense": 41.04,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1160.4725,
+        "attack": 36.863773,
+        "defense": 70.2,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.048
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1803.1959,
+        "attack": 57.280636,
+        "defense": 109.08,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2285.2383,
+        "attack": 72.59328,
+        "defense": 138.24,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2767.2808,
+        "attack": 87.90592,
+        "defense": 167.4,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3249.3232,
+        "attack": 103.21857,
+        "defense": 196.56,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.192
+        }
+      }
+    ]
+  },
+  "affiliation": "Naganohara Fireworks",
+  "region": {
+    "id": "inazuma",
+    "name": "Inazuma"
+  },
+  "rarity": 5,
+  "birthday": [
+    21,
+    6
+  ],
+  "constellation": "Carassius Auratus",
+  "domain": "Violet Court",
+  "cv": {
+    "english": "Jenny Yokobori",
+    "chinese": "金娜",
+    "japanese": "植田佳奈",
+    "korean": "Park Shin-hee"
+  },
+  "skills": [
+    {
+      "_id": 10491,
+      "id": "firework_flareup",
+      "name": "Firework Flare-Up",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 consecutive shots with a bow.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Performs a more precise <span style=\"color:#FFD780FF\">Aimed Shot</span> with increased DMG.<br/>While aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:<br/>·Charge Level 1: Fires off a flaming arrow that deals <span style=\"color:#FF9999FF\">Pyro DMG</span>.<br/>·Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing <span style=\"color:#FF9999FF\">Pyro DMG</span> on hit.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "35.6%×2",
+            "38.1%×2",
+            "40.5%×2",
+            "43.7%×2",
+            "46.2%×2",
+            "49%×2",
+            "52.6%×2",
+            "56.3%×2",
+            "59.9%×2",
+            "63.6%×2",
+            "67.2%×2",
+            "70.9%×2",
+            "74.5%×2",
+            "78.2%×2",
+            "81.8%×2"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "68.4%",
+            "73%",
+            "77.7%",
+            "83.9%",
+            "88.6%",
+            "94%",
+            "101%",
+            "108%",
+            "115%",
+            "122%",
+            "129%",
+            "136%",
+            "143%",
+            "150%",
+            "157%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "88.9%",
+            "94.9%",
+            "101%",
+            "109.1%",
+            "115.2%",
+            "122.2%",
+            "131.3%",
+            "140.4%",
+            "149.5%",
+            "158.6%",
+            "167.7%",
+            "176.8%",
+            "185.9%",
+            "194.9%",
+            "204%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "46.4%×2",
+            "49.6%×2",
+            "52.8%×2",
+            "57%×2",
+            "60.1%×2",
+            "63.8%×2",
+            "68.6%×2",
+            "73.3%×2",
+            "78.1%×2",
+            "82.8%×2",
+            "87.6%×2",
+            "92.3%×2",
+            "97.1%×2",
+            "101.8%×2",
+            "106.6%×2"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "105.9%",
+            "113.1%",
+            "120.3%",
+            "129.9%",
+            "137.1%",
+            "145.6%",
+            "156.4%",
+            "167.2%",
+            "178%",
+            "188.9%",
+            "199.7%",
+            "210.5%",
+            "221.4%",
+            "232.2%",
+            "243%"
+          ]
+        },
+        {
+          "label": "Aimed Shot",
+          "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.7%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "92.8%",
+            "98.9%",
+            "105.1%",
+            "111.2%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Fully-Charged Aimed Shot",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "Kindling Arrow DMG",
+          "values": [
+            "16.4%",
+            "17.6%",
+            "18.9%",
+            "20.5%",
+            "21.7%",
+            "23%",
+            "24.6%",
+            "26.2%",
+            "27.9%",
+            "29.5%",
+            "31.2%",
+            "32.8%",
+            "34.8%",
+            "36.9%",
+            "39%"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10492,
+      "id": "niwabi_firedance",
+      "name": "Niwabi Fire-Dance",
+      "description": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.<br/><br/><span style=\"color:#FFD780FF\">Niwabi Enshou</span><br/>During this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to <span style=\"color:#FF9999FF\">Pyro DMG</span>. During this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2.<br/><br/>This effect will deactivate when Yoimiya leaves the field.",
+      "info": "\"Niwabi\" is a form of incense firework created by Yoimiya herself. Its ability to be lit without any prior training or preparation has made it a real hit. After many fire-related incidents, the Tenryou Commission ordered the use of \"Niwabi\" banned, but small, bright sparks can often still be seen springing up at night. If seen from above, they look almost like little twinkling stars.",
+      "attributes": [
+        {
+          "label": "Blazing Arrow DMG",
+          "values": [
+            "137.9% Normal Attack DMG",
+            "140.2% Normal Attack DMG",
+            "142.4% Normal Attack DMG",
+            "145.4% Normal Attack DMG",
+            "147.7% Normal Attack DMG",
+            "149.9% Normal Attack DMG",
+            "152.9% Normal Attack DMG",
+            "155.8% Normal Attack DMG",
+            "158.8% Normal Attack DMG",
+            "161.7% Normal Attack DMG",
+            "164.7% Normal Attack DMG",
+            "167.6% Normal Attack DMG",
+            "170.6% Normal Attack DMG",
+            "173.5% Normal Attack DMG",
+            "176.5% Normal Attack DMG"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10495,
+      "id": "ryuukin_saxifrage",
+      "name": "Ryuukin Saxifrage",
+      "description": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> and mark one of the hit opponents with Aurous Blaze.<br/><br/><span style=\"color:#FFD780FF\">Aurous Blaze</span><br/>All Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing <span style=\"color:#FF9999FF\">AoE Pyro DMG</span>.<br/>When an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.<br/><br/>One Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated.",
+      "info": "Fireworks are man-made starlight, comets fired into the sky. Though they last for but an instant, the memory of their brilliance shall surely live on.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "127.2%",
+            "136.7%",
+            "146.3%",
+            "159%",
+            "168.5%",
+            "178.1%",
+            "190.8%",
+            "203.5%",
+            "216.2%",
+            "229%",
+            "241.7%",
+            "254.4%",
+            "270.3%",
+            "286.2%",
+            "302.1%"
+          ]
+        },
+        {
+          "label": "Aurous Blaze Explosion DMG",
+          "values": [
+            "122%",
+            "131.2%",
+            "140.3%",
+            "152.5%",
+            "161.7%",
+            "170.8%",
+            "183%",
+            "195.2%",
+            "207.4%",
+            "219.6%",
+            "231.8%",
+            "244%",
+            "259.3%",
+            "274.5%",
+            "289.8%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "tricks_of_the_troublemaker",
+      "name": "Tricks of the Trouble-Maker",
+      "description": "During <span style=\"color:#FFD780FF\">Niwabi Fire-Dance</span>, shots from Yoimiya's Normal Attack will increase her <span style=\"color:#FF9999FF\">Pyro DMG Bonus</span> by 2% on hit. This effect lasts for 3s and can have a maximum of 10 stacks.",
+      "level": 1
+    },
+    {
+      "id": "summer_nights_dawn",
+      "name": "Summer Night's Dawn",
+      "description": "Using <span style=\"color:#FFD780FF\">Ryuukin Saxifrage</span> causes nearby party members (not including Yoimiya) to gain a 10% ATK increase for 15s. Additionally, a further ATK Bonus will be added on based on the number of Ascension Talent \"Tricks of the Trouble-Maker\" stacks Yoimiya possesses when using <span style=\"color:#FFD780FF\">Ryuukin Saxifrage</span>. Each stack increases this ATK Bonus by 1%.",
+      "level": 4
+    },
+    {
+      "id": "blazing_match",
+      "name": "Blazing Match",
+      "description": "When Yoimiya crafts Decoration, Ornament, and Landscape-type Furnishings, she has a 100% chance to refund a portion of the materials used.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 491,
+      "id": "agate_ryuukin",
+      "name": "Agate Ryuukin",
+      "description": "The Aurous Blaze created by <span style=\"color:#FFD780FF\">Ryuukin Saxifrage</span> lasts for an extra 4s.<br/>Additionally, when an opponent affected by Aurous Blaze is defeated within its duration, Yoimiya's ATK is increased by 20% for 20s.",
+      "level": 1
+    },
+    {
+      "_id": 492,
+      "id": "a_procession_of_bonfires",
+      "name": "A Procession of Bonfires",
+      "description": "When Yoimiya's <span style=\"color:#FF9999FF\">Pyro DMG</span> scores a CRIT Hit, Yoimiya will gain a 25% <span style=\"color:#FF9999FF\">Pyro DMG Bonus</span> for 6s.<br/>This effect can be triggered even when Yoimiya is not the active character.",
+      "level": 2
+    },
+    {
+      "_id": 493,
+      "id": "tricksters_flare",
+      "name": "Trickster's Flare",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Niwabi Fire-Dance</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 494,
+      "id": "pyrotechnic_professional",
+      "name": "Pyrotechnic Professional",
+      "description": "When Yoimiya's own Aurous Blaze triggers an explosion, <span style=\"color:#FFD780FF\">Niwabi Fire-Dance</span>'s CD is decreased by 1.2s.",
+      "level": 4
+    },
+    {
+      "_id": 495,
+      "id": "a_summer_festivals_eve",
+      "name": "A Summer Festival's Eve",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Ryuukin Saxifrage</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 496,
+      "id": "naganohara_meteor_swarm",
+      "name": "Naganohara Meteor Swarm",
+      "description": "During <span style=\"color:#FFD780FF\">Niwabi Fire-Dance</span>, Yoimiya's Normal Attacks have a 50% chance of firing an extra Blazing Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "791"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "25"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "48"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "-",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2053",
+            "2731"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "65",
+            "87"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "124",
+            "165"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "5.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4086",
+            "4568"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "130",
+            "145"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "247",
+            "276"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "5.0%",
+            "9.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104111,
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101205,
+        "id": "naku_weed",
+        "name": "Naku Weed",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Divining Scroll",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5256",
+            "5899"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "167",
+            "187"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "318",
+            "357"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "9.8%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113024,
+        "id": "smoldering_pearl",
+        "name": "Smoldering Pearl",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101205,
+        "id": "naku_weed",
+        "name": "Naku Weed",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Divining Scroll",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6593",
+            "7075"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "209",
+            "225"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "399",
+            "428"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "14.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113024,
+        "id": "smoldering_pearl",
+        "name": "Smoldering Pearl",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101205,
+        "id": "naku_weed",
+        "name": "Naku Weed",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7777",
+            "8259"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "247",
+            "262"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "470",
+            "500"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "14.6%",
+            "19.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113024,
+        "id": "smoldering_pearl",
+        "name": "Smoldering Pearl",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101205,
+        "id": "naku_weed",
+        "name": "Naku Weed",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8968",
+            "9450"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "285",
+            "300"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "542",
+            "572"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "19.4%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113024,
+        "id": "smoldering_pearl",
+        "name": "Smoldering Pearl",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101205,
+        "id": "naku_weed",
+        "name": "Naku Weed",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Forbidden Curse Scroll",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10164",
+            "10164"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "323",
+            "323"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "615",
+            "615"
+          ]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": [
+            "24.2%",
+            "24.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104114,
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113024,
+        "id": "smoldering_pearl",
+        "name": "Smoldering Pearl",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101205,
+        "id": "naku_weed",
+        "name": "Naku Weed",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Forbidden Curse Scroll",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104320,
+          "id": "teachings_of_transience",
+          "name": "Teachings of Transience",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112008,
+          "id": "divining_scroll",
+          "name": "Divining Scroll",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104321,
+          "id": "guide_to_transience",
+          "name": "Guide to Transience",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Sealed Scroll",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113017,
+          "id": "dragon_lords_crown",
+          "name": "Dragon Lord's Crown",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113017,
+          "id": "dragon_lords_crown",
+          "name": "Dragon Lord's Crown",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113017,
+          "id": "dragon_lords_crown",
+          "name": "Dragon Lord's Crown",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104322,
+          "id": "philosophies_of_transience",
+          "name": "Philosophies of Transience",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113017,
+          "id": "dragon_lords_crown",
+          "name": "Dragon Lord's Crown",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 204900,
+      "name": "Goldfish Firecracker",
+      "description": "Yoimiya's outfit. A patchwork of memories from festivals over the years.",
+      "isDefault": true,
+      "characterName": "Yoimiya",
+      "characterId": 10000049,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Yoimiya_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Time for a light show!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "The fuse is lit!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Fire hazard~"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "A festive reprise!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Goldfish of doom!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Here come the fireworks!"
+    },
+    {
+      "id": "800001",
+      "type": 2,
+      "title": "Deploying Wind Glider: I",
+      "text": "Up, up, and away!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Ooh! Will we find any firework materials in here?"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "What do we have here?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Ooh, let me open it!"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Uh-oh, uh-oh!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Oh, that hurt..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Gotta watch it..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "I've come to help!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Never fear, Yoimiya's here!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Burned... too... brightly..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Ohh... fizzled out..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "The festival... ends."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Lighter, please!"
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "That didn't count!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Are you going to hold a festival?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Let's go out and play!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "More companions. Hooray!"
+    },
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "Welcome to Naganohara! My name is Yoimiya — just let me know if you need anything! We have Kushikatsu, Egg Roll... Wait, no, we're not a restaurant. We make fireworks! Like these, see? Sparkling, crackling, little fireworks~"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Fireworks",
+      "text": "Fireworks are for now, but friends are forever."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Telling Stories",
+      "text": "If we've got nothing else to do, why don't I tell you a story?"
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Goldfish",
+      "text": "Have you ever kept goldfish as pets? They're very cute."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Ahh, the fireworks are going to get soaked! Let's find shelter, quick! Oh, we're not going to make it!"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Haha, watch me make a snowball... pew!"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Ah, this is great! I feel so relaxed all over, I could almost float away."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "The wind's so strong—! It's blowing my voice back at me—! Hahaha..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Ah... *yawns* Good morning. The morning air is the freshest. Come on, take a few extra breaths — it'll make you smarter~"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Time for lunch! ... Oh my, it's an egg with a double yolk. What wonderful luck!"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Now's the best time to test our fireworks out, though I'm sure they'll look good whether they explode in the sky or on the ground... Hehe, just kidding. I'll pay attention to safety."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Question time! So, what should you do after watching fireworks all day? Hehe, the answer is... to watch them again in your dreams, of course! Good night. See you tomorrow!"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Yoimiya: Family Matters",
+      "text": "My father's hearing isn't very good. When I was young, he would always smile no matter what I said to him, and so I thought that everything I said was correct. So I kept talking, and he would keep smiling. Later, I found out that he was smiling because he couldn't hear clearly, but... as long as he's truly happy, I'll keep talking to him."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Yoimiya: Talking",
+      "text": "I don't worry about \"loose lips sinking ships.\" The emotions contained in the words people say don't lie. Misunderstandings that arise from saying things wrongly can be resolved if you just talk more, but if you say nothing, the other person won't understand what you mean, and they can't get closer to you."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Rock, Paper, Scissors",
+      "text": "Let's have a game of rock paper scissors! On my count, now — rock, paper, scissors! Woohoo, I won! I won! ... Hmm? I didn't change my choice halfway. Why would I ever do that?"
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Us: Companionship",
+      "text": "It actually doesn't matter what I do. What matters are the people I work with. When I'm with you, even simple things like watching the scenery or kicking a small jar about make me happy. Talking to you never gets old, after all."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Let me let you in on a little secret. When I first received my Vision, I used it as a flint to light fireworks and boil water, before returning home, chucking it into a storeroom, and forgetting all about it. In the end, it was my father who found it and told me that it was a precious item that I should keep safe. Haha, at least it didn't get taken back by our dear Archon."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share: Lantern Rite",
+      "text": "Did you know? A lot of the fireworks used during Liyue's Lantern Rite were purchased from our shop. I made them to order before asking Beidou to ship them to Liyue. Exports like these aren't allowed under the Sakoku Decree, but... How can there be festivals without fireworks?"
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Something to Share: Cycles",
+      "text": "\"When the last sparks of the fireworks have disappeared into the sky, they turn into rain and snow, and will fall upon the earth again, nourishing the land and nurturing humanity, so that someday they can be sent up into the sky again and display their magnificence.\" Of the many stories my father told me, this one is my favorite."
+    },
+    {
+      "id": "3004",
+      "type": 1,
+      "title": "Something to Share: Spots of Light",
+      "text": "Did you ever try to step on a spot of light before as a child? You know, those patches on the ground created when the sunlight passes through the leaves. I once thought that it would disappear if I stepped on it, but it would always jump onto my foot instead. I tried and tried and tried, but I never succeeded... Quite the sore loser I was, then — sitting on a rock, sighing to myself and thinking, \"Ah, so there are things in this world that can't be stepped on...\""
+    },
+    {
+      "id": "3005",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "While squatting next to some children and watching them catch goldfish during one summer festival, I suddenly had a thought: could I make fireworks that could go off on the surface of the water? Thus, the \"Goldfish Fireworks\" were born! They can swim here and there, emit multi-colored lights, and they can even spit bubbles! I never thought that it would actually work, but I guess wonders never cease."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Beidou",
+      "text": "Beidou's been helping me ship my fireworks out ever since Inazuma was locked down. I prepared a huge boat-shaped firework just to surprise her — and when the Crux Fleet was about to leave, this firework went whoosh! Right in front of their eyes, straight into the sky. The sailors got such a huge fright — they thought one of their ships had somehow flown off! But Beidou liked that trick very much, saying that it was exactly what a pleasant surprise should be — very pleasant, and a surprise."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About the Raiden Shogun",
+      "text": "Fireworks are probably the furthest thing from the \"eternity\" that the Shogun pursues. She probably feels that their transient glory has no practical purpose in Inazuma. *sigh* It's probably something that one who has \"eternity\" in their grasp will find hard to comprehend. It is precisely because we mortals are like fleeting shadows that we need to treasure such flickers of beauty."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Kamisato Ayaka: Seriousness",
+      "text": "We cooperate a lot due to work. Unlike people in the other two Commissions, she always lets me finish speaking and answers me seriously without showing any impatience. I'd say that the word \"ladylike\" was practically made just for her."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Kamisato Ayaka: Baths",
+      "text": "We once discussed matters concerning the summer festival deep into the night. We were both really tired, and I invited her to go take a bath. But when she heard that it involved many people bathing in the same pool, she went red in an instant! That was when I first learned that noble ladies can't use public baths."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Thoma",
+      "text": "He's quite the talker and has reasons behind every word that he says. Sometimes, it might seem like there's no connection, but as he goes on, everything will eventually dovetail nicely towards a single purpose. It's... quite different from how I do things. I ask him for help whenever I encounter a matter I can't settle."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Yae Miko",
+      "text": "Ayaka once asked me during a ritual at the shrine if I could prepare some fireworks for the Lady Guuji's leisure. I thought to myself, \"isn't the Lady Guuji supposed to sit inside the shrine throughout the ritual?\" So I watched her the whole time during the ritual, wondering how she'd like to release fireworks. I waited, and I waited, and then Ayaka came over at length to tell me that the Lady Guuji was most pleased. I mean, what? She'd already released the fireworks? Was the person sitting inside the shrine not her, then?"
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Arataki Itto: Duels",
+      "text": "Oh, he may look scary, but he is very popular with the children. However, he can be very competitive. Every time we play with the children, it always turns into a showdown between him and me. For example, we'd drink a bowl of ramen soup in one go, or try to eat sour plums without making any faces. The children will cheer us both on and try to guess the winner. And when that happens... well, then I can't let him beat me, right?"
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Arataki Itto: Arataki's Gang",
+      "text": "Arataki's gang? Huh!? So he isn't just someone with too much free time on his hands?"
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Kaedehara Kazuha",
+      "text": "People with no worries like myself speak plainly, while those with many cares often speak of ancient poetry or the scenery. They talk of flowers and birds, wind and moon, but never about the reality that confronts them. He's got quite the tale to tell, I'm sure."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Kujou Sara",
+      "text": "Due to public safety and fire hazard-related concerns, I often get whisked off to the Tenryou Commission's place for a lecture. Kujou Sara's probably the most reasonable of the bunch. At least she'll hear me out before passing any judgment. If I'm in the right, she'll acknowledge my perspective, and if I'm wrong... Hehe, then I'll get Thoma to come and help me apologize to her!"
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Sayu",
+      "text": "Let me know if you see her, alright? I'd really love to take her to one of the festivals and introduce her to lots of new friends. She always looks a little down, but if she meets some people she can hang out with, maybe she'll slowly pick herself up again!"
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Klee",
+      "text": "Wait, you said there was a kid in Mondstadt who was good at making bombs?... Now, they aren't much different from fireworks. In other words, she might be a genius... Ohh, I'd love to meet her. *sigh* But isn't it dangerous to let children play with explosives? Don't the people of Mondstadt worry about that?"
+    },
+    {
+      "id": "4013",
+      "type": 1,
+      "title": "About Kirara",
+      "text": "The courier from Komaniya Express? She's super reliable and really quick on her feet! Ingredients used in coloring the fireworks always run out quickly, but she always delivers a new batch right when I need them! I gave her a firework once as a thank-you gift, but she was too scared to light it, saying that she got spooked once by the sound of fireworks. Hehe, so I told her to find a nice viewing spot far away and set it off for her."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Yoimiya: I",
+      "text": "You wanna hear a story? Alright, alright. Sit here, and I shall tell you the story I'm most proud of — the story of the Naganohara family! You'll rarely ever hear me talk about something this serious, you know?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Yoimiya: II",
+      "text": "Our family has a long tradition in which we will give every client who orders customized fireworks a note. Its contents can only be understood by our family, and it records the specific formula of the fireworks that were ordered. Whether ten years or a hundred years pass, our family can make exactly the same fireworks as they did in the past so long as the client brings us that note."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Yoimiya: III",
+      "text": "The loveliest fireworks go along with the most wondrous moments. Tiny little emotions that can easily slip away are captured within these fireworks and passed down in a different form. The notes we give our clients are like a key that awaits those who wish to open a gate to commemorate the past. We at Naganohara are the keepers of that gate."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Yoimiya: IV",
+      "text": "Every moment of the summer festival is a moving tale. Those who meet under the light of fireworks grow up, mature, and grow old. When they set off the same fireworks as they did in the beginning, the skies reflect that same image from years ago... Fireworks are not eternal, but I believe that the wonderful emotions behind them should walk alongside Inazuma into eternity."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Yoimiya: V",
+      "text": "I shan't tell the final tale, I think. Instead, let's watch the fireworks together in silence. You can record the beautiful scenery and all the things you wanna say down. Not that this is the end, of course. On the contrary, I believe that our story is only just beginning."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Yoimiya's Hobbies: Playing",
+      "text": "Fireworks! Wait, that doesn't count? Well then, let me think. Um... This one's a toughie. I like to chat with the neighbors, I like going to summer festivals with the children, swimming, picking wild fruits... Oh, I can't decide which I like most... Wait, I've got it! I love playing with everyone!"
+    },
+    {
+      "id": "6006",
+      "type": 1,
+      "title": "Yoimiya's Hobbies: Copycat",
+      "text": "*Blubbering noises* Hah! I'm copying the sound that Paimon makes while disappearing!"
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Yoimiya's Troubles",
+      "text": "The novel that I've been reading for a while finally reached its end. But the heroine lost her memory, and the planned wedding fell through... That's so... sad..."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I prefer snacks to entrees. I always go from stall to stall during festivals, eating as I go. By the way, are you any good at making snacks? I'll trade the dango I made with you. Here, have the big ones!"
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Ugh... Milk never fails to start some real fireworks in my stomach — crackle, kaboom! Y'know what I mean? But I can handle dishes and snacks made with milk for some reason, hmm. Maybe the little Seelie in my stomach is just pickier than most."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Wow, you've got a real knack for making tasty treats! You should totally set up a stall at a festival some time, oh it'd be a hit for sure!"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Good food really perks you up, and puts you in the mood to share some stories. Ooh, actually I got a good one, you've gotta hear this one...!"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Urgh, it feels like there's a Specter swirling around in my stomach... That can't be ideal."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Birthdays are never occasions for yourself alone. Those who send you cakes, light candles, applaud, and cheer... They are all truly thankful that you were born into this world. That's why it must be a lively occasion, so that everyone can get their chance to thank you! Well then — happy birthday! Are you ready? I'm about to ignite the fireworks!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "The higher they fly, the louder the explosion!"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Hehehe, let me give this \"shooting fireworks straight into the skies with a bow\" business a shot!"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "With all these combat skills I've learned from you, I should just become an adventurer on the side — apart from my day job making fireworks... Or... should I just become a hero instead?"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "\"Never fear, Yoimiya is here! Evil begone! Justice prevails!\"\\nThink this is a good way to introduce the powers you've taught me to the children? Isn't it cool? Hehe! Hey, tell me if anyone picks on you, too. I'll stick up for you!"
+    }
+  ]
+}

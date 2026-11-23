@@ -11,8 +11,8 @@ public class Collectable {
    * @param rarity the rarity of this collectable
    * @throws IllegalArgumentException if the name is empty
    */
-  public Collectable(String name, String type, int rarity) {
-    this.name = name;
+  public Collectable( String name, String type, int rarity) {
+      this.name = name;
     this.type = type;
     this.rarity = rarity;
   }

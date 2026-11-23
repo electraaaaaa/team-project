@@ -1,0 +1,1873 @@
+{
+  "_id": 10000046,
+  "id": "hu_tao",
+  "name": "Hu Tao",
+  "title": "Fragrance in Thaw",
+  "description": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
+  "weapon_type": {
+    "id": "polearm",
+    "name": "Polearm"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1614700800,
+  "substat": "CRIT DMG",
+  "stats": {
+    "base": {
+      "hp": 1210.7164,
+      "attack": 8.2859,
+      "defense": 68.2062
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 1038.0798,
+        "attack": 7.103891,
+        "defense": 58.482,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1775.6628,
+        "attack": 12.151393,
+        "defense": 100.035,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2759.107,
+        "attack": 18.881393,
+        "defense": 155.439,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 70,
+        "hp": 3496.69,
+        "attack": 23.928896,
+        "defense": 196.992,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 80,
+        "hp": 4234.273,
+        "attack": 28.976398,
+        "defense": 238.545,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.288
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4971.856,
+        "attack": 34.0239,
+        "defense": 280.098,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.384
+        }
+      }
+    ]
+  },
+  "affiliation": "Wangsheng Funeral Parlor",
+  "region": {
+    "id": "liyue",
+    "name": "Liyue"
+  },
+  "rarity": 5,
+  "birthday": [
+    15,
+    7
+  ],
+  "constellation": "Papilio Charontis",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Brianna Knickerbocker",
+    "chinese": "陶典",
+    "japanese": "高橋李依",
+    "korean": "Kim Ha-ru"
+  },
+  "skills": [
+    {
+      "_id": 10461,
+      "id": "secret_spear_of_wangsheng",
+      "name": "Secret Spear of Wangsheng",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 6 consecutive spear strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "46.9%",
+            "50.1%",
+            "53.3%",
+            "57.5%",
+            "60.7%",
+            "64.5%",
+            "69.3%",
+            "74.1%",
+            "78.9%",
+            "83.6%",
+            "88.4%",
+            "93.2%",
+            "98%",
+            "102.8%",
+            "107.6%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "48.3%",
+            "51.5%",
+            "54.8%",
+            "59.2%",
+            "62.5%",
+            "66.3%",
+            "71.3%",
+            "76.2%",
+            "81.2%",
+            "86.1%",
+            "91%",
+            "96%",
+            "100.9%",
+            "105.8%",
+            "110.8%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "61.1%",
+            "65.2%",
+            "69.4%",
+            "74.9%",
+            "79.1%",
+            "83.9%",
+            "90.2%",
+            "96.4%",
+            "102.7%",
+            "108.9%",
+            "115.2%",
+            "121.4%",
+            "127.6%",
+            "133.9%",
+            "140.1%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "65.6%",
+            "70.1%",
+            "74.6%",
+            "80.6%",
+            "85%",
+            "90.3%",
+            "97%",
+            "103.7%",
+            "110.4%",
+            "117.1%",
+            "123.8%",
+            "130.5%",
+            "137.2%",
+            "144%",
+            "150.7%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "33.3% + 35.2%",
+            "35.5% + 37.6%",
+            "37.8% + 40%",
+            "40.8% + 43.2%",
+            "43.1% + 45.6%",
+            "45.8% + 48.4%",
+            "49.2% + 52%",
+            "52.6% + 55.6%",
+            "56% + 59.2%",
+            "59.4% + 62.8%",
+            "62.8% + 66.4%",
+            "66.2% + 70%",
+            "69.6% + 73.6%",
+            "73% + 77.2%",
+            "76.4% + 80.8%"
+          ]
+        },
+        {
+          "label": "6-Hit DMG",
+          "values": [
+            "86%",
+            "91.8%",
+            "97.7%",
+            "105.5%",
+            "111.4%",
+            "118.2%",
+            "127%",
+            "135.8%",
+            "144.6%",
+            "153.4%",
+            "162.1%",
+            "170.9%",
+            "179.7%",
+            "188.5%",
+            "197.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack",
+          "values": [
+            "136%",
+            "145.2%",
+            "154.5%",
+            "166.9%",
+            "176.1%",
+            "186.9%",
+            "200.9%",
+            "214.8%",
+            "228.7%",
+            "242.6%",
+            "256.5%",
+            "270.4%",
+            "284.3%",
+            "298.2%",
+            "312.1%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "65.4%",
+            "69.9%",
+            "74.3%",
+            "80.3%",
+            "84.7%",
+            "90%",
+            "96.6%",
+            "103.3%",
+            "110%",
+            "116.7%",
+            "123.4%",
+            "130.1%",
+            "136.8%",
+            "143.5%",
+            "150.2%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "130.8% / 163.4%",
+            "139.7% / 174.5%",
+            "148.6% / 185.7%",
+            "160.5% / 200.5%",
+            "169.5% / 211.7%",
+            "179.9% / 224.7%",
+            "193.2% / 241.4%",
+            "206.6% / 258.1%",
+            "220% / 274.8%",
+            "233.4% / 291.5%",
+            "246.8% / 308.2%",
+            "260.1% / 324.9%",
+            "273.5% / 341.6%",
+            "286.9% / 358.3%",
+            "300.3% / 375.1%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10462,
+      "id": "guide_to_afterlife",
+      "name": "Guide to Afterlife",
+      "description": "Only an unwavering flame can cleanse the impurities of this world.<br/>Hu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.<br/><br/><span style=\"color:#FFD780FF\">Paramita Papilio</span><br/>·Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.<br/>·Converts attack DMG to <span style=\"color:#FF9999FF\">Pyro DMG</span>, which cannot be overridden by any other elemental infusion.<br/>·Charged Attacks apply the Blood Blossom effect to the enemies hit.<br/>·Increases Hu Tao's resistance to interruption.<br/><br/><span style=\"color:#FFD780FF\">Blood Blossom</span><br/>Enemies affected by Blood Blossom will take <span style=\"color:#FF9999FF\">Pyro DMG</span> every 4s. This DMG is considered Elemental Skill DMG.<br/>Each enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.<br/><br/><span style=\"color:#FFD780FF\">Paramita Papilio</span> ends when its duration is over, or Hu Tao has left the battlefield or fallen.",
+      "info": "Hu Tao's Secret Spear technique is based on several rules, the first of which is: \"The spear opens the path to the afterlife, and the butterflies bridge this world and the next.\"",
+      "attributes": [
+        {
+          "label": "Activation Cost",
+          "values": [
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP"
+          ]
+        },
+        {
+          "label": "ATK Increase",
+          "values": [
+            "3.84% Max HP",
+            "4.07% Max HP",
+            "4.3% Max HP",
+            "4.6% Max HP",
+            "4.83% Max HP",
+            "5.06% Max HP",
+            "5.36% Max HP",
+            "5.66% Max HP",
+            "5.96% Max HP",
+            "6.26% Max HP",
+            "6.55% Max HP",
+            "6.85% Max HP",
+            "7.15% Max HP",
+            "7.45% Max HP",
+            "7.75% Max HP"
+          ]
+        },
+        {
+          "label": "Blood Blossom DMG",
+          "values": [
+            "64%",
+            "68.8%",
+            "73.6%",
+            "80%",
+            "84.8%",
+            "89.6%",
+            "96%",
+            "102.4%",
+            "108.8%",
+            "115.2%",
+            "121.6%",
+            "128%",
+            "136%",
+            "144%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Blood Blossom Duration",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10463,
+      "id": "spirit_soother",
+      "name": "Spirit Soother",
+      "description": "Commands a blazing spirit to attack, dealing <span style=\"color:#FF9999FF\">Pyro DMG</span> in a large AoE.<br/>Upon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times, based on the number of enemies hit.<br/>If Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased.",
+      "info": "Supernatural activity by those who have already left this world is a source of great anxiety for the Wangsheng Funeral Parlor. In such cases, cremation always lets Hu Tao find peace of mind. The more anxious she feels, the stronger the flame.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "303.3%",
+            "321.4%",
+            "339.6%",
+            "363.2%",
+            "381.4%",
+            "399.5%",
+            "423.1%",
+            "446.7%",
+            "470.3%",
+            "494%",
+            "517.6%",
+            "541.2%",
+            "564.8%",
+            "588.4%",
+            "612%"
+          ]
+        },
+        {
+          "label": "Low HP Skill DMG",
+          "values": [
+            "379.1%",
+            "401.8%",
+            "424.5%",
+            "454%",
+            "476.7%",
+            "499.4%",
+            "528.9%",
+            "558.4%",
+            "587.9%",
+            "617.4%",
+            "647%",
+            "676.5%",
+            "706%",
+            "735.5%",
+            "765%"
+          ]
+        },
+        {
+          "label": "Skill HP Regeneration",
+          "values": [
+            "6.26% Max HP",
+            "6.64% Max HP",
+            "7.01% Max HP",
+            "7.5% Max HP",
+            "7.88% Max HP",
+            "8.25% Max HP",
+            "8.74% Max HP",
+            "9.22% Max HP",
+            "9.71% Max HP",
+            "10.2% Max HP",
+            "10.69% Max HP",
+            "11.18% Max HP",
+            "11.66% Max HP",
+            "12.15% Max HP",
+            "12.64% Max HP"
+          ]
+        },
+        {
+          "label": "Low HP Skill Regeneration",
+          "values": [
+            "8.35% Max HP",
+            "8.85% Max HP",
+            "9.35% Max HP",
+            "10% Max HP",
+            "10.5% Max HP",
+            "11% Max HP",
+            "11.65% Max HP",
+            "12.3% Max HP",
+            "12.95% Max HP",
+            "13.6% Max HP",
+            "14.25% Max HP",
+            "14.9% Max HP",
+            "15.55% Max HP",
+            "16.2% Max HP",
+            "16.85% Max HP"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "flutter_by",
+      "name": "Flutter By",
+      "description": "When a <span style=\"color:#FFD780FF\">Paramita Papilio</span> state activated by <span style=\"color:#FFD780FF\">Guide to Afterlife</span> ends, all allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 8s.",
+      "level": 1
+    },
+    {
+      "id": "sanguine_rouge",
+      "name": "Sanguine Rouge",
+      "description": "When Hu Tao's HP is equal to or less than 50%, her <span style=\"color:#FF9999FF\">Pyro DMG Bonus</span> is increased by 33%.",
+      "level": 4
+    },
+    {
+      "id": "the_more_the_merrier",
+      "name": "The More the Merrier",
+      "description": "When Hu Tao cooks a dish perfectly, she has an 18% chance to receive an additional \"Suspicious\" dish of the same type.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 461,
+      "id": "crimson_bouquet",
+      "name": "Crimson Bouquet",
+      "description": "While in a <span style=\"color:#FFD780FF\">Paramita Papilio</span> state activated by <span style=\"color:#FFD780FF\">Guide to Afterlife</span>, Hu Tao's Charged Attacks do not consume Stamina.",
+      "level": 1
+    },
+    {
+      "_id": 462,
+      "id": "ominous_rainfall",
+      "name": "Ominous Rainfall",
+      "description": "Increases the <span style=\"color:#FFD780FF\">Blood Blossom</span> DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied.<br/>Additionally, <span style=\"color:#FFD780FF\">Spirit Soother</span> will also apply the <span style=\"color:#FFD780FF\">Blood Blossom</span> effect.",
+      "level": 2
+    },
+    {
+      "_id": 463,
+      "id": "lingering_carmine",
+      "name": "Lingering Carmine",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Guide to Afterlife</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 464,
+      "id": "garden_of_eternal_rest",
+      "name": "Garden of Eternal Rest",
+      "description": "Upon defeating an enemy affected by a <span style=\"color:#FFD780FF\">Blood Blossom</span> that Hu Tao applied herself, all nearby allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 15s.",
+      "level": 4
+    },
+    {
+      "_id": 465,
+      "id": "floral_incense",
+      "name": "Floral Incense",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Spirit Soother</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 466,
+      "id": "butterflys_embrace",
+      "name": "Butterfly's Embrace",
+      "description": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:<br/>Hu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, her All Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.<br/>This effect triggers automatically when Hu Tao has 1 HP left.<br/>Can only occur once every 60s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1211"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "8"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "68"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "3141",
+            "4179"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "21",
+            "29"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "177",
+            "235"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6253",
+            "6990"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "43",
+            "48"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "352",
+            "394"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104111,
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100029,
+        "id": "silk_flower",
+        "name": "Silk Flower",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112038,
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8042",
+            "9026"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "55",
+            "62"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "453",
+            "508"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100029,
+        "id": "silk_flower",
+        "name": "Silk Flower",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112038,
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10089",
+            "10826"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "69",
+            "74"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "568",
+            "610"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100029,
+        "id": "silk_flower",
+        "name": "Silk Flower",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112039,
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11899",
+            "12637"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "81",
+            "86"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "670",
+            "712"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100029,
+        "id": "silk_flower",
+        "name": "Silk Flower",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112039,
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "13721",
+            "14459"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "94",
+            "99"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "773",
+            "815"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100029,
+        "id": "silk_flower",
+        "name": "Silk Flower",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112040,
+        "id": "energy_nectar",
+        "name": "Energy Nectar",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "15552",
+            "15552"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "106",
+            "106"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "876",
+            "876"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104114,
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113016,
+        "id": "juvenile_jade",
+        "name": "Juvenile Jade",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100029,
+        "id": "silk_flower",
+        "name": "Silk Flower",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112040,
+        "id": "energy_nectar",
+        "name": "Energy Nectar",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104313,
+          "id": "teachings_of_diligence",
+          "name": "Teachings of Diligence",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112038,
+          "id": "whopperflower_nectar",
+          "name": "Whopperflower Nectar",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104314,
+          "id": "guide_to_diligence",
+          "name": "Guide to Diligence",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112039,
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113014,
+          "id": "shard_of_a_foul_legacy",
+          "name": "Shard of a Foul Legacy",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113014,
+          "id": "shard_of_a_foul_legacy",
+          "name": "Shard of a Foul Legacy",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113014,
+          "id": "shard_of_a_foul_legacy",
+          "name": "Shard of a Foul Legacy",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104315,
+          "id": "philosophies_of_diligence",
+          "name": "Philosophies of Diligence",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112040,
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113014,
+          "id": "shard_of_a_foul_legacy",
+          "name": "Shard of a Foul Legacy",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 204601,
+      "name": "Cherries Snow-Laden",
+      "description": "Hu Tao's outfit. Styled in a palette lighter than the dark ceremonial wear favored by the Wangsheng Funeral Parlor, the dress is a special gift from her good friend Xiangling. The sunglasses, for their part, are from Hu Tao's personal collection.",
+      "isDefault": false,
+      "characterName": "Hu Tao",
+      "characterId": 10000046,
+      "source": [
+        "Purchased from the Shop"
+      ],
+      "filename_card": "UI_AvatarIcon_HutaoCostumeWinter_Card",
+      "filename_icon": "UI_AvatarIcon_HutaoCostumeWinter",
+      "filename_iconCircle": "UI_AvatarIcon_HutaoCostumeWinter_Circle",
+      "filename_splash": "UI_Costume_HutaoCostumeWinter",
+      "filename_sideIcon": "UI_AvatarIcon_Side_HutaoCostumeWinter"
+    },
+    {
+      "id": 204600,
+      "name": "Plum Blossom Bouquet",
+      "description": "Hu Tao's outfit. The daily work clothes of the Wangsheng Funeral Parlor's director.",
+      "isDefault": true,
+      "characterName": "Hu Tao",
+      "characterId": 10000046,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Hutao_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "Yoh, now just why might you be looking for me, hm? Oh, you didn't know? I'm the 77th Director of the Wangsheng Funeral Parlor, Hu Tao. Though by the looks of you... Radiant glow, healthy posture... Yes, you're definitely here for something other than that which falls within my regular line of work, aren't you?"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Wangsheng Funeral Parlor",
+      "text": "Wanna come over for tea?"
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Customers",
+      "text": "One client, two clients, three clients!"
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Taking a Break",
+      "text": "When the sun's out, bathe in sunlight. But when the moon's out, bathe in moonlight~"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "*sigh* What a bummer..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Lightning! Let's bolt!"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Snow!"
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When It's Windy",
+      "text": "Ahhhh~ What a nice breeze~"
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "My hat's gonna get blown away!"
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Well are those who rise in the early morn, while those late to bed I shall forewarn~"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Yo! Afternoon! Had lunch?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Hee-hee, moon's out, and so am I!"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Oh, you sleepy? Get some rest, I'm gonna take a walk by myself..."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Hu Tao: Name",
+      "text": "Hu as in \"Who put me in this coffin?\" and Tao as in \"I can't geT OUt!\" Hehe... No, not funny?"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Hu Tao: Favorite Tricks",
+      "text": "Lemme show you some fire tricks. First... Fire! And then... Whoosh! Fire butterfly! Be free!"
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Curiosity",
+      "text": "You've been all over, so you must've seen a lot. When you've got the time, tell me your story, yea?"
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Us: Night",
+      "text": "Run around all you like during the day, but you should be careful during the night. When I'm not around, best keep your wits about you."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Us: Helper",
+      "text": "Need a hand, need a hand? I'm here! If you need some assistance, I'm here to give it my all to the very end!"
+    },
+    {
+      "id": "2006",
+      "type": 1,
+      "title": "About Us: Battle",
+      "text": "Fighting's a pain. For me, it's not an objective so much as a means to an end. Using the means to reach the end, to fight for that which I will not compromise on — it's in this way that you and I are the same."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Vision... Vision...? Oh, this thing? Yeah, whatever..."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "We are entrusted by the people to loyally see out their wishes. Wangsheng Funeral Parlor is special, in that it carries a dual responsibility, to those both of this realm, and the next."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Some plants only grow in gloomier spots with ample moonlight. You ever seen any? Oh, no? Well, I'll have to show you next time."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Zhongli",
+      "text": "Zhongli looks young, but his personality is a bit dusty. Knows everything, but doesn't fret over anything. Hmm... Couldn't be that he's a...\\nHehe, forget it, whatever."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Qiqi",
+      "text": "Have you seen Qiqi? Tell me where she is, quickly. I need to go seal her away, hee-hee!"
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Baizhu",
+      "text": "Baizhu? Ugh, that guy..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Ningguang",
+      "text": "Tianquan Ningguang... Well-off, a radiant gaze, exquisite face, in the know and capable of anything!"
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Beidou",
+      "text": "Beidou is well-known in Liyue. She doesn't know me, but that's cool, me just knowing about her is enough. Aw man... I really do wanna make friends with her."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Xingqiu",
+      "text": "I hear master Xingqiu is writing a book? Standard novella, or a ghost story? I think I should go tell him about all the things I run into — that'd make for a really good read!"
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Chongyun",
+      "text": "All yang and no yin? Huh, who knew such people existed in this world?"
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Xiao",
+      "text": "What would I know of the adepti? Ai-yai-yai, that kind of stuff is top-secret! Don't come asking me about it!"
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Keqing",
+      "text": "The Yuheng, Keqing... she's quite hard to talk to. She's so uptight, hehe... Really makes me wanna mess with her. She wouldn't knock me in the head with her sword though, right? Or would she...?"
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Xiangling",
+      "text": "Xiangling's a riot! Only a little \"boo\" and she jumps, she's so easy to scare! Being in the industry that I am, I just love these kinds of people the most. Gotta keep it in check though, in case Guoba ends up toasting me instead."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Yun Jin",
+      "text": "Yun Jin always appears so graceful on formal occasions, but you'd be surprised how friendly she is in private! I made a bet with her once, and the loser had to sing lyrics of the winner's choice in their own singing style. My my, I wish you could have heard her operatic version of the Hilitune!"
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Shenhe",
+      "text": "She is quite the fascinating individual, completely different from anyone else I've encountered. Do you think if I started eating divine herbs and drinking the dew of the mountains every single day, I'd be able to look as pure and pristine as she does? Oh~!"
+    },
+    {
+      "id": "4013",
+      "type": 1,
+      "title": "About Lan Yan",
+      "text": "Lan Yan, you say? She's a lot stronger than she looks. She claims to only know a few of the Qimen arts, but she can get rid of dangerous things like fetor and illnesses! Aiya, there's only one problem... Removing all the bad stuff and making everyone all fit and strong isn't exactly good for the funeral business!"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Hu Tao: I",
+      "text": "♪Silly-churl, billy-churl, silly-billy hilichurl. Frilly-churl, willy-churl, frilly-willy hilichurl♪ \\nAh, hehe..."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Hu Tao: II",
+      "text": "Versemonger of the darkest alleys — that's me!"
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Hu Tao: III",
+      "text": "If you ask me, there's nothing hard or scary about working at Wangsheng Funeral Parlor, it's just a pain is all. It's a shame — others see us going out to work at night and just don't understand — and that's what scares them. *sigh* You all just don't understand!"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Hu Tao: IV",
+      "text": "I'm Wangsheng Funeral Parlor's 77th Funeral Director, my grandfather was the 75th. First thing I took over was funeral affairs. Haha, surprising huh? And just like that, it's already been a few years... Time really does go by so quickly."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Hu Tao: V",
+      "text": "Balance must be maintained, and yet destinies remain variable. Death has its own rules, and yet is still hard to predict. Remember — no matter where, no matter when, no matter what the reason — one should never poke fun at death. Only once you know and respect death can you truly understand the value of life."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Hu Tao's Hobbies",
+      "text": "A bright moon aloft amid the vast, clear skies... Moments like these are just perfect for writing poetry."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Hu Tao's Troubles",
+      "text": "*sigh* I gotta find something fun to do... Sitting around doing nothing is a fate worse than death."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "♪La~la~la~ Steamed fish with a side of prawn dumplings~"
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Qingxin Slime Condensate... Bleugh... Surely this is Xiangling getting payback..."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Splendid, splendid! Now, allow me to compose a poem in loving memory of this dish."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Sure you don't want my help? C'mon, it's a great deal: cook twice the amount in the same time!"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Ugh, I declare this dish dead, rest in peace."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Tonight the stars are dazzling and the moon majestic, it must be a special day... But just what day could it be... Haha, I know, I know! It's your birthday! It really is a great day."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "O-ya? O-ya-ya-ya?"
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Yeah, this is good, thanks!"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "I never imagined that I, Hu Tao, could ever be like this. Energy like a rushing torrent, a heart soaring like a gliding eagle! I feel great!"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "If I reach my full physical potential, then the next test is of the heart. It's largely thanks to you that I've been able to step foot into this uncharted territory. It is here that heart and soul are as one like clouds. Death is a constant for all among the multitudes that sit beneath the heavens."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Huh!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Chi!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Suh!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Time to go!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Cross over!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Pyre, pyre, pants on fire!"
+    },
+    {
+      "id": "700001",
+      "type": 2,
+      "title": "Sprint Start: I",
+      "text": "Huyoh!"
+    },
+    {
+      "id": "700002",
+      "type": 2,
+      "title": "Sprint Start: II",
+      "text": "Go~"
+    },
+    {
+      "id": "700003",
+      "type": 2,
+      "title": "Sprint Start: III",
+      "text": "Hyu~"
+    },
+    {
+      "id": "710001",
+      "type": 2,
+      "title": "Deploying Wind Glider: I",
+      "text": "With the wind~"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Jackpot!"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Oh, what a cute treasure coffin!"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "If we bury it, maybe it'll spring back to life!"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Ayaya!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Eeeeeee!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "This isn't good!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Take it easy!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Lemme have a go!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Is it... my time?"
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "I'll remember that..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Argh..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Quit it!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Oh? Is it time for me to join you?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Good eye!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Send one, send 'em all!"
+    }
+  ]
+}

@@ -1,0 +1,1809 @@
+{
+  "_id": 10000032,
+  "id": "bennett",
+  "name": "Bennett",
+  "title": "Trial by Fire",
+  "description": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1601244000,
+  "substat": "Energy Recharge",
+  "stats": {
+    "base": {
+      "hp": 1039.4418,
+      "attack": 16.0272,
+      "defense": 64.66425
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 776.5162,
+        "attack": 11.97342,
+        "defense": 48.3075,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1328.2513,
+        "attack": 20.48085,
+        "defense": 82.63125,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.0667
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2063.8984,
+        "attack": 31.82409,
+        "defense": 128.39626,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.1333
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2615.6335,
+        "attack": 40.33152,
+        "defense": 162.72,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.1333
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3167.3687,
+        "attack": 48.83895,
+        "defense": 197.04375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.2
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3719.104,
+        "attack": 57.34638,
+        "defense": 231.3675,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.2667
+        }
+      }
+    ]
+  },
+  "affiliation": "Adventurers' Guild",
+  "region": {
+    "id": "mondstadt",
+    "name": "Mondstadt"
+  },
+  "rarity": 4,
+  "birthday": [
+    29,
+    2
+  ],
+  "constellation": "Rota Calamitas",
+  "domain": "Forsaken Rift",
+  "cv": {
+    "english": "Cristina Vee Valenzuela",
+    "chinese": "穆雪婷",
+    "japanese": "逢坂良太",
+    "korean": "Song Ha-rim"
+  },
+  "skills": [
+    {
+      "_id": 10321,
+      "id": "strike_of_fortune",
+      "name": "Strike of Fortune",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 5 rapid strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "44.5%",
+            "48.2%",
+            "51.8%",
+            "57%",
+            "60.6%",
+            "64.8%",
+            "70.4%",
+            "76.1%",
+            "81.8%",
+            "88.1%",
+            "94.3%",
+            "100.5%",
+            "106.7%",
+            "112.9%",
+            "119.1%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "42.7%",
+            "46.2%",
+            "49.7%",
+            "54.7%",
+            "58.1%",
+            "62.1%",
+            "67.6%",
+            "73.1%",
+            "78.5%",
+            "84.5%",
+            "90.5%",
+            "96.4%",
+            "102.4%",
+            "108.3%",
+            "114.3%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "54.6%",
+            "59.1%",
+            "63.5%",
+            "69.8%",
+            "74.3%",
+            "79.4%",
+            "86.4%",
+            "93.3%",
+            "100.3%",
+            "107.9%",
+            "115.6%",
+            "123.2%",
+            "130.8%",
+            "138.4%",
+            "146%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "59.7%",
+            "64.5%",
+            "69.4%",
+            "76.3%",
+            "81.2%",
+            "86.8%",
+            "94.4%",
+            "102%",
+            "109.7%",
+            "118%",
+            "126.3%",
+            "134.6%",
+            "143%",
+            "151.3%",
+            "159.6%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "71.9%",
+            "77.7%",
+            "83.6%",
+            "92%",
+            "97.8%",
+            "104.5%",
+            "113.7%",
+            "122.9%",
+            "132.1%",
+            "142.1%",
+            "152.2%",
+            "162.2%",
+            "172.2%",
+            "182.2%",
+            "192.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "55.9% + 60.7%",
+            "60.5% + 65.7%",
+            "65% + 70.6%",
+            "71.5% + 77.7%",
+            "76% + 82.6%",
+            "81.3% + 88.3%",
+            "88.4% + 96%",
+            "95.5% + 103.8%",
+            "102.7% + 111.5%",
+            "110.5% + 120%",
+            "118.3% + 128.5%",
+            "126.1% + 137%",
+            "133.9% + 145.4%",
+            "141.7% + 153.9%",
+            "149.5% + 162.4%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10322,
+      "id": "passion_overload",
+      "name": "Passion Overload",
+      "description": "Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...<br/><br/><span style=\"color:#FFD780FF\">Press</span><br/>A single, swift flame strike that deals <span style=\"color:#FF9999FF\">Pyro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Hold (Short)</span><br/>Charges up, resulting in different effects when unleashed based on the Charge Level.<br/>·Level 1: Strikes twice, dealing <span style=\"color:#FF9999FF\">Pyro DMG</span> and launching opponents.<br/>·Level 2: Unleashes 3 consecutive attacks that deal impressive <span style=\"color:#FF9999FF\">Pyro DMG</span>, but the last attack triggers an explosion that launches both Bennett and the enemy.<br/>Bennett takes no damage from being launched.",
+      "info": "An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.",
+      "attributes": [
+        {
+          "label": "Press DMG",
+          "values": [
+            "137.6%",
+            "147.9%",
+            "158.2%",
+            "172%",
+            "182.3%",
+            "192.6%",
+            "206.4%",
+            "220.2%",
+            "233.9%",
+            "247.7%",
+            "261.4%",
+            "275.2%",
+            "292.4%",
+            "309.6%",
+            "326.8%"
+          ]
+        },
+        {
+          "label": "Charge Level 1 DMG",
+          "values": [
+            "84% + 92%",
+            "90.3% + 98.9%",
+            "96.6% + 105.8%",
+            "105% + 115%",
+            "111.3% + 121.9%",
+            "117.6% + 128.8%",
+            "126% + 138%",
+            "134.4% + 147.2%",
+            "142.8% + 156.4%",
+            "151.2% + 165.6%",
+            "159.6% + 174.8%",
+            "168% + 184%",
+            "178.5% + 195.5%",
+            "189% + 207%",
+            "199.5% + 218.5%"
+          ]
+        },
+        {
+          "label": "Charge Level 2 DMG",
+          "values": [
+            "88% + 96%",
+            "94.6% + 103.2%",
+            "101.2% + 110.4%",
+            "110% + 120%",
+            "116.6% + 127.2%",
+            "123.2% + 134.4%",
+            "132% + 144%",
+            "140.8% + 153.6%",
+            "149.6% + 163.2%",
+            "158.4% + 172.8%",
+            "167.2% + 182.4%",
+            "176% + 192%",
+            "187% + 204%",
+            "198% + 216%",
+            "209% + 228%"
+          ]
+        },
+        {
+          "label": "Explosion DMG",
+          "values": [
+            "132%",
+            "141.9%",
+            "151.8%",
+            "165%",
+            "174.9%",
+            "184.8%",
+            "198%",
+            "211.2%",
+            "224.4%",
+            "237.6%",
+            "250.8%",
+            "264%",
+            "280.5%",
+            "297%",
+            "313.5%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "5 / 7.5 / 10s",
+            "5 / 7.5 / 10s",
+            "5 / 7.5 / 10s",
+            "5 / 7.5 / 10s",
+            "5 / 7.5 / 10s",
+            "5 / 7.5 / 10s",
+            "5 / 7.5 / 10s",
+            "5 / 7.5 / 10s",
+            "5 / 7.5 / 10s",
+            "5 / 7.5 / 10s",
+            "5 / 7.5 / 10s",
+            "5 / 7.5 / 10s",
+            "5 / 7.5 / 10s",
+            "5 / 7.5 / 10s",
+            "5 / 7.5 / 10s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10323,
+      "id": "fantastic_voyage",
+      "name": "Fantastic Voyage",
+      "description": "Bennett performs a jumping attack that deals <span style=\"color:#FF9999FF\">Pyro DMG</span>, creating an Inspiration Field.<br/><br/><span style=\"color:#FFD780FF\">Inspiration Field</span><br/>·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.<br/>·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.<br/>·Imbues characters within the AoE with <span style=\"color:#FF9999FF\">Pyro</span>.",
+      "info": "Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "232.8%",
+            "250.3%",
+            "267.7%",
+            "291%",
+            "308.5%",
+            "325.9%",
+            "349.2%",
+            "372.5%",
+            "395.8%",
+            "419%",
+            "442.3%",
+            "465.6%",
+            "494.7%",
+            "523.8%",
+            "552.9%"
+          ]
+        },
+        {
+          "label": "Continuous Regeneration Per Sec",
+          "values": [
+            "6% Max HP + 577",
+            "6.45% Max HP + 635",
+            "6.9% Max HP + 698",
+            "7.5% Max HP + 765",
+            "7.95% Max HP + 837",
+            "8.4% Max HP + 914",
+            "9% Max HP + 996",
+            "9.6% Max HP + 1083",
+            "10.2% Max HP + 1174",
+            "10.8% Max HP + 1270",
+            "11.4% Max HP + 1371",
+            "12% Max HP + 1477",
+            "12.75% Max HP + 1588",
+            "13.5% Max HP + 1703",
+            "14.25% Max HP + 1824"
+          ]
+        },
+        {
+          "label": "ATK Bonus Ratio",
+          "values": [
+            "56%",
+            "60.2%",
+            "64.4%",
+            "70%",
+            "74.2%",
+            "78.4%",
+            "84%",
+            "89.6%",
+            "95.2%",
+            "100.8%",
+            "106.4%",
+            "112%",
+            "119%",
+            "126%",
+            "133%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "rekindle",
+      "name": "Rekindle",
+      "description": "Decreases <span style=\"color:#FFD780FF\">Passion Overload</span>'s CD by 20%.",
+      "level": 1
+    },
+    {
+      "id": "fearnaught",
+      "name": "Fearnaught",
+      "description": "Within the area created by <span style=\"color:#FFD780FF\">Fantastic Voyage</span>, <span style=\"color:#FFD780FF\">Passion Overload</span> takes on the following effects:<br/>·CD is reduced by 50%.<br/>·Bennett will not be launched by the effects of Charge Level 2.",
+      "level": 4
+    },
+    {
+      "id": "it_should_be_safe",
+      "name": "It Should Be Safe...",
+      "description": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 321,
+      "id": "grand_expectation",
+      "name": "Grand Expectation",
+      "description": "<span style=\"color:#FFD780FF\">Fantastic Voyage</span>'s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK.",
+      "level": 1
+    },
+    {
+      "_id": 322,
+      "id": "impasse_conqueror",
+      "name": "Impasse Conqueror",
+      "description": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.",
+      "level": 2
+    },
+    {
+      "_id": 323,
+      "id": "unstoppable_fervor",
+      "name": "Unstoppable Fervor",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Passion Overload</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 324,
+      "id": "unexpected_odyssey",
+      "name": "Unexpected Odyssey",
+      "description": "Using a Normal Attack as the second attack of <span style=\"color:#FFD780FF\">Passion Overload</span>'s Charge Level 1 will perform a follow-up attack.<br/>This additional attack does 135% of the second attack's DMG.",
+      "level": 4
+    },
+    {
+      "_id": 325,
+      "id": "true_explorer",
+      "name": "True Explorer",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Fantastic Voyage</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 326,
+      "id": "fire_ventures_with_me",
+      "name": "Fire Ventures With Me",
+      "description": "Sword, Claymore, or Polearm-wielding characters inside <span style=\"color:#FFD780FF\">Fantastic Voyage</span>'s radius gain a 15% <span style=\"color:#FF9999FF\">Pyro DMG Bonus</span> and their weapons are infused with <span style=\"color:#FF9999FF\">Pyro</span>.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1039"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "16"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "65"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "-",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2670",
+            "3447"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "41",
+            "53"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "166",
+            "214"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5163",
+            "5715"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "80",
+            "88"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "321",
+            "356"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104111,
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100024,
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112035,
+        "id": "treasure_hoarder_insignia",
+        "name": "Treasure Hoarder Insignia",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6573",
+            "7309"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "101",
+            "113"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "409",
+            "455"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100024,
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112035,
+        "id": "treasure_hoarder_insignia",
+        "name": "Treasure Hoarder Insignia",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8168",
+            "8719"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "126",
+            "134"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "508",
+            "542"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100024,
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112036,
+        "id": "silver_raven_insignia",
+        "name": "Silver Raven Insignia",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9577",
+            "10129"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "148",
+            "156"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "596",
+            "630"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100024,
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112036,
+        "id": "silver_raven_insignia",
+        "name": "Silver Raven Insignia",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10987",
+            "11539"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "169",
+            "178"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "684",
+            "718"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100024,
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112037,
+        "id": "golden_raven_insignia",
+        "name": "Golden Raven Insignia",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12397",
+            "12397"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "191",
+            "191"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "771",
+            "771"
+          ]
+        },
+        {
+          "label": "Energy Recharge",
+          "values": [
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104114,
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100024,
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112037,
+        "id": "golden_raven_insignia",
+        "name": "Golden Raven Insignia",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104304,
+          "id": "teachings_of_resistance",
+          "name": "Teachings of Resistance",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112035,
+          "id": "treasure_hoarder_insignia",
+          "name": "Treasure Hoarder Insignia",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104305,
+          "id": "guide_to_resistance",
+          "name": "Guide to Resistance",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112036,
+          "id": "silver_raven_insignia",
+          "name": "Silver Raven Insignia",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113003,
+          "id": "dvalins_plume",
+          "name": "Dvalin's Plume",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113003,
+          "id": "dvalins_plume",
+          "name": "Dvalin's Plume",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113003,
+          "id": "dvalins_plume",
+          "name": "Dvalin's Plume",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104306,
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of Resistance",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112037,
+          "id": "golden_raven_insignia",
+          "name": "Golden Raven Insignia",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113003,
+          "id": "dvalins_plume",
+          "name": "Dvalin's Plume",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 203201,
+      "name": "Adventures in Blazing Hue",
+      "description": "Bennett's traveling attire for his journeys in Natlan. Dyed lucky lakewater blue with hints of blazing orange, these clothes emanate an overflowing vitality that matches the land in which they are worn.",
+      "isDefault": false,
+      "characterName": "Bennett",
+      "characterId": 10000032,
+      "source": [
+        "Purchased from the Shop"
+      ],
+      "filename_card": "UI_AvatarIcon_BennettCostumeSummer_Card",
+      "filename_icon": "UI_AvatarIcon_BennettCostumeSummer",
+      "filename_iconCircle": "UI_AvatarIcon_BennettCostumeSummer_Circle",
+      "filename_splash": "UI_Costume_BennettCostumeSummer",
+      "filename_sideIcon": "UI_AvatarIcon_Side_BennettCostumeSummer"
+    },
+    {
+      "id": 203200,
+      "name": "Fortune's Favor",
+      "description": "Bennett's outfit. An old adventurer's uniform that has been patched and sewn up in various places.",
+      "isDefault": true,
+      "characterName": "Bennett",
+      "characterId": 10000032,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Bennett_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "This is your team? Cool... I like the vibe. I'm Bennett, leader of Benny's Adventure Team. Any chance we can team up? Please?"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Treasures",
+      "text": "Let's go find some treasure!"
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Adventures",
+      "text": "No one's joined me on an adventure in ages. C'mon, let's go!"
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Self-Deprecation",
+      "text": "\"Good things come to those who don't wait around!\" That's what they say, anyway. Knowing my luck, the opposite is probably true for me..."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "It always rains when I go on an adventure."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Don't stand too close to me, or you might get hit by lightning too."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Weather's not bad today... Oh crud, I jinxed it! Now it's bound to rain."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Careful! In this kind of wind, it's easy to get hit in the head by flying rocks."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning! Where's the adventure at today?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "I brought a sandwich. You want some? I'll give you hal- *choking* *spluttering* ...Phew. Sorry, nearly choked to death there!"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Hey, wanna go talk to my dads for a bit? They tell the best adventure stories!"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "You're headed off? Cool. It was awesome adventuring with you. We should totally do it again!"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Bennett: Adventure Team",
+      "text": "I'm the leader of Benny's Adventure Team — a rising star in the Mondstadt Adventurers' Guild! ...Where are the others? Ah, haha, they're all on leave right now."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Bennett: Bad Luck",
+      "text": "Eh, it's not as bad as you've heard! Everyone falls into a trapper's pit or gets hit on the head by a falling tree now and then, right?"
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Teammates",
+      "text": "Hahaha, you wish! Benny's Adventure Team has had no vacancies in ages... I mean, you must be spoiled for choice, right? Why'd you wanna join the unluckiest adventurer alive, anyway?"
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Us: Division of Labor",
+      "text": "From now on, I'll distract the monsters and set off the traps while you grab the treasure. Sound good? ...You don't like it? Oh — don't worry about me getting injured! It's what I'm best at... And for you, it would be my pleasure!"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Us: Dangerous Places",
+      "text": "I think I get why you teamed up with me now. It's 'cause we're the same, you and I — we both like that adrenaline rush you get from being in dangerous situations. That's what makes adventuring so addictive!"
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Getting recognized by the gods was the last thing I expected, seeing as how I'm so unlucky all the time. But if the gods haven't given up on me, I guess that means I shouldn't give up on me either."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Do you wanna come and see the view of Mondstadt from above some time? It's real pretty at night, when the city's all lit up and you can see the moon reflected on Cider Lake... Huh? From where? Haha, well, there was this one time when I got picked up by a tornado and ended up on this cliff way up high— Not interested? Oh, okay then, never mind."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "I actually quite like cabbage. It's not much to look at, but you can't imagine a world without it. You can grow it anywhere, it goes with everything, and the flavor never gets in the way. I dunno, there's something... nice about being ordinary."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Barbara",
+      "text": "She's the best singer and dancer out there! I always go to watch her in concert after an adventure goes south — it really lifts my mood, chanting along with all the other fans, cheering her on. It's really kinda magical! It's no wonder she's so popular... Boy, if I had even half her popularity as leader of my adventure team..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Klee",
+      "text": "She's a cute kid... but I have to keep my distance. Whenever she plays with me, her bombs always end up going off... It's not so much me I'm worried about, it would just be awful if something happened to Klee. The Knights of Favonius would never forgive me, that's for sure."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Fischl",
+      "text": "Oh yeah, the Prinzessin der Verurteilung from the world beyond! She's amazing. I keep asking her if we can go adventuring in her home world together, but each time I bring it up she sort of avoids the topic... She's probably just worried about my safety. Her home world sounds like a dangerous place, for sure."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Jean",
+      "text": "I keep meaning to ask Master Jean for some help with the Mondstadt Adventurers' Guild, but I don't know how to go about it. The Guild doesn't have as many rules and regulations as the Knights of Favonius, the dads and I are pretty laid back about everything. Pretty sure that attitude wouldn't fly with Jean though... I guess I should read up on the Knights' etiquette or something?"
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Varka",
+      "text": "He's my role model! Talk about team leaders — he's the Grand Master! Leads the whole darn Knights of Favonius! How incredible do you have to be to do that!? Recently, though, I've been thinking that having a smaller Adventure Team isn't such a bad thing after all. I mean, if things got too busy in the team, I'd have no time to look after all my dads in the guild, would I? Yeah... Yeah, things are fine the way they are."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Razor",
+      "text": "Wolvendom guy! Looks a little on the feral side... doesn't talk much... but he's alright! We both love eating meat, so we got that in common. I sometimes cook some meat for him, and he teaches me how wolves communicate in return. Haha! You should join us next time!"
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Amber",
+      "text": "Oh, I know who you mean. The girl who's always charging around all over the place. She's always off adventuring in the wild, just like me... But if you ever see her near a cooking pot, you'll soon find a cloud of thick black smoke blowing in your direction, followed by the smell of burnt steak... Huh, maybe she was born unlucky too?"
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Noelle",
+      "text": "Noelle's someone I've been watching for a while. She's really talented, and extremely hardworking. But somehow she's still a maid — the Knights of Favonius still haven't made her a knight. It's a shame, don't you think? Boy, if she switched to the Adventurers' Guild, she'd easily be one of the best there is."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Bennett: I",
+      "text": "Oh... you wanna know about me? Haha, I'm just your average adventurer. 'Cept I'm more unlucky than average. Anyway, I'm nothing compared to you — you're the star of all those legendary tales. What do I got to show for myself?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Bennett: II",
+      "text": "\"The dads...\" That's how I refer to all the older adventurers in Mondstadt. Apparently, I was an orphan kid that they rescued from the most perilous situation ever. How cool is that? I have such terrible luck all the time, and yet I was rescued against the odds and survived all this time. It's a miracle if you ask me."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Bennett: III",
+      "text": "You've, uh, noticed then... Heh. Yeah, Benny's Adventure Team has been me on my own for a long time now. Reason is, I have such bad luck that even the most benign of adventures end up turning into the adventure from hell, and no one wants to come with me... Do you feel the same way?"
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Bennett: IV",
+      "text": "I was born unlucky. That's just the way it is, and I've lived with it so long now that I'm just used to it. But you know what? Maybe it's a good thing. It means I know that whatever luck I do have left is gonna run out sooner rather than later... so I'd better make the most of my life while it lasts. You know, go on plenty of adventures, meet loads of people... I mean, if I didn't live like that, I may never have even met you! Can you imagine? Haha!"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Bennett: V",
+      "text": "Time flies! We've been a team for a while now, haven't we? Anyway, I have a dream I wanna tell you about. Once the Mondstadt Adventurers' Guild becomes the biggest branch in Teyvat, I wanna go adventuring all over the whole world! Benny's Adventure Team will be the greatest adventure team there ever was, because you and me are the greatest adventurers! ...\"Since when?\" Uh... I don't remember exactly when you signed onto Benny's Adventure Team. But whatever, it's just details, right?"
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Bennett's Hobbies",
+      "text": "I like all kinds of things, but most of all, I like adventures! One day, I'm gonna find the most valuable treasure in the whole world, and then my dads can have a better life... and the Mondstadt Adventurers' Guild will be back in business!"
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Bennett's Troubles",
+      "text": "Hmm... Well, if you really wanna know... When I have a bad day, I feel a bit glum. Like, it sucks when I come back empty-handed from an adventure, or when one of my dads' old injuries starts acting up. But... they're just small things, really. After a good night's sleep, I forget all about them. New day, new start! Haha!"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Meat! Meat is the best sustenance there is. Chicken-Mushroom Skewers, Steaks, and Sweet Madames are all my specialties. You won't go hungry if you come adventuring with me, that's for sure!"
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "You can't really afford to be picky as an adventurer. That said, I can't really handle spicy food. I find it hard to breathe after eating Jueyun Chilis, like the spice went right into my lungs. And there's no avoiding the diarrhea afterward... It's the devil's fruit, I say. Who knows where it came from?"
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Whoa, lucky me! Haha... Oh wait! Does that mean I just used all of my good luck for today...?"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Literally everything you cook ends up tasting amazing. Hehe, you're awesome!"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Oh no... my stomach hurts..."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday! Best of luck in the year ahead. Don't worry, bad luck isn't contagious! As long as I'm around, it'll be drawn to me and not you, so you're safe."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "I feel stronger in every sense! Just as unlucky as ever, though. Hehe."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "I'm catching up with you, Traveler! One step at a time."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Wow, check out all this power! How can I repay you, though? Hmm... Oh yeah! I know this Domain where there's a priceless treasure hidden somewhere inside! Let's go hit it up!"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Thanks to your help, I should finally be able to keep everyone safe now. Hopefully, people's opinions of me will start to change. Once the unluckiest guy alive, with a million cuts and bruises to show it. Now, a dependable adventurer at long last! ...Heh, well, I—I can hope."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Hah!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Let's light it up!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Get outta here!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Haah!"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Take cover!"
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Outta the way!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Everybody stand back!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "I'm going in!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Teamwork is dreamwork!"
+    },
+    {
+      "id": "700001",
+      "type": 2,
+      "title": "Sprint Start: I",
+      "text": "Adventure time!"
+    },
+    {
+      "id": "700002",
+      "type": 2,
+      "title": "Sprint Start: II",
+      "text": "Off we go!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Now that's what I call treasure!"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Even better than I imagined! It's my lucky day!"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "*chuckle* It's a miracle!"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Shoot, I can't afford any more bandages..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Don't worry. I got this."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "I always bounce back, just watch me..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "You're in over your head! Lemme try!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Hey, pick on someone your own size!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Benny's Adventure Team... I have failed you..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "This is just my luck..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Couldn't break... the curse..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Didn't see that coming."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "That's gonna hurt in the morning..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Why do they never miss?"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Y—You want me on your team?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "I won't hold you back! ...Much."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Gonna be epic!"
+    }
+  ]
+}

@@ -3,10 +3,18 @@ package entity;
 import java.util.List;
 
 public class PullHistory {
-    private final Game game;
+    private final String type;
     private final int totalPulls;
     private final int currentPity;
     private final List<Collectable> pullList;
+    /**
+     * Creates a new pull history object.
+     * @param game the game object assigned to a given game
+     * @param totalPulls the total amount of pulls in the pullList (equivalent to pullList.length())
+     * @param currentPity The current pity number
+     * @param pullList a list of pull objects in a collection/List
+     * @throws IllegalArgumentException if the name is empty
+     */
     public PullHistory(Game game, int totalPulls, int currentPity, List<Collectable> pullList){
         this.game = game;
         this.totalPulls = totalPulls;
@@ -16,6 +24,7 @@ public class PullHistory {
     public void addPull(Collectable pull){
         this.pullList.add(pull);
     }
+
 //    public int getCurrentPity(Banner bannerType){
 //        //TODO implement get current Pity
 //    }
@@ -28,5 +37,15 @@ public class PullHistory {
             }
         }
         return count;
+    }
+
+    public int getTotalPulls() {
+        return totalPulls;
+    }
+
+    public int getCurrentPity() { return currentPity; };
+
+    public String getType() {
+        return type;
     }
 }

@@ -1,0 +1,1900 @@
+{
+  "_id": 10000122,
+  "id": "nefer",
+  "name": "Nefer",
+  "title": "Secret Beneath the Sands",
+  "description": "The remarkably resourceful owner of the Curatorium of Secrets.",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "dendro",
+    "name": "Dendro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1760994000,
+  "substat": "CRIT DMG",
+  "stats": {
+    "base": {
+      "hp": 988.9742,
+      "attack": 26.8128,
+      "defense": 62.2232
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 847.95593,
+        "attack": 22.987871,
+        "defense": 53.352,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1450.4509,
+        "attack": 39.32136,
+        "defense": 91.26,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2253.7776,
+        "attack": 61.099342,
+        "defense": 141.804,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2856.2727,
+        "attack": 77.43283,
+        "defense": 179.712,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3458.7676,
+        "attack": 93.76632,
+        "defense": 217.62,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.288
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4061.2627,
+        "attack": 110.09981,
+        "defense": 255.528,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.384
+        }
+      }
+    ]
+  },
+  "affiliation": "Curatorium of Secrets",
+  "region": {
+    "id": "nodkrai",
+    "name": "Nod-Krai"
+  },
+  "rarity": 5,
+  "birthday": [
+    9,
+    5
+  ],
+  "constellation": "Ludus Latrunculorum",
+  "domain": "Domain of Mastery: Shadowed Legacy",
+  "cv": {
+    "english": "Ashleigh Haddad",
+    "chinese": "曾彤",
+    "japanese": "水樹奈々",
+    "korean": "Won Esther"
+  },
+  "skills": [
+    {
+      "_id": 11221,
+      "id": "striking_serpent",
+      "name": "Striking Serpent",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 kicks that deal <span style=\"color:#99FF88FF\">Dendro DMG</span> with the ferocity and grace of a striking serpent.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Nefer enters the Slither state, consuming Stamina to move rapidly forward for up to 2.5s. When the skill button is released, the duration ends, or Stamina runs out, Nefer will exit the Slither state and consume a certain amount of additional Stamina to deal <span style=\"color:#99FF88FF\">Dendro DMG</span> to opponents. When in the <link kind=\"effect\" id=\"11220001\"><span style=\"color:#FFD780FF\">Shadow Dance</span></link> state, additional Stamina consumption is decreased.<br/>Additionally, unleashing the Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"senet_strategy_dance_of_a_thousand_nights\">Senet Strategy: Dance of a Thousand Nights</link></span> or sprinting while Nefer is in the Slither state will not cause her to exit the state.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Calling upon the might of Dendro, Nefer plunges towards the ground from mid-air, damaging all opponents in her path and dealing <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "38.1%",
+            "40.9%",
+            "43.8%",
+            "47.6%",
+            "50.4%",
+            "53.3%",
+            "57.1%",
+            "60.9%",
+            "64.7%",
+            "68.5%",
+            "72.3%",
+            "76.1%",
+            "80.9%",
+            "85.7%",
+            "90.4%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "37.6%",
+            "40.4%",
+            "43.2%",
+            "47%",
+            "49.8%",
+            "52.6%",
+            "56.3%",
+            "60.1%",
+            "63.9%",
+            "67.6%",
+            "71.4%",
+            "75.1%",
+            "79.8%",
+            "84.5%",
+            "89.2%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "25.2%×2",
+            "27.1%×2",
+            "29%×2",
+            "31.6%×2",
+            "33.4%×2",
+            "35.3%×2",
+            "37.9%×2",
+            "40.4%×2",
+            "42.9%×2",
+            "45.4%×2",
+            "48%×2",
+            "50.5%×2",
+            "53.6%×2",
+            "56.8%×2",
+            "59.9%×2"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "61%",
+            "65.6%",
+            "70.1%",
+            "76.2%",
+            "80.8%",
+            "85.4%",
+            "91.5%",
+            "97.6%",
+            "103.7%",
+            "109.8%",
+            "115.9%",
+            "122%",
+            "129.6%",
+            "137.2%",
+            "144.9%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "130.9%",
+            "140.7%",
+            "150.5%",
+            "163.6%",
+            "173.4%",
+            "183.2%",
+            "196.3%",
+            "209.4%",
+            "222.5%",
+            "235.6%",
+            "248.7%",
+            "261.8%",
+            "278.1%",
+            "294.5%",
+            "310.8%"
+          ]
+        },
+        {
+          "label": "Charged Attack Charging Stamina Drain",
+          "values": [
+            "18.1/s",
+            "18.1/s",
+            "18.1/s",
+            "18.1/s",
+            "18.1/s",
+            "18.1/s",
+            "18.1/s",
+            "18.1/s",
+            "18.1/s",
+            "18.1/s",
+            "18.1/s",
+            "18.1/s",
+            "18.1/s",
+            "18.1/s",
+            "18.1/s"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Shadow Dance Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11222,
+      "id": "senet_strategy_dance_of_a_thousand_nights",
+      "name": "Senet Strategy: Dance of a Thousand Nights",
+      "description": "A dance that dissolved dynasties, as chilling as a winter's night on the great sea of sand, yet lingering with the tenderness of moonlit gauze. Nefer charges forward, dealing <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> and entering the <link kind=\"effect\" id=\"11220001\"><span style=\"color:#FFD780FF\">Shadow Dance</span></link> state.<br/>While in the Shadow Dance state, if you have at least 1 <link kind=\"effect\" id=\"11190008\"><span style=\"color:#FFD780FF\">Verdant Dew</span></link>, Nefer's Charged Attacks will be replaced with the special Charged Attack <link kind=\"effect\" id=\"11220002\"><span style=\"color:#FFD780FF\">Phantasm Performance</span></link>, which will not consume Stamina. When in the Shadow Dance state, Nefer's resistance to interruption is increased.<br/><br/>Two initial charges.",
+      "info": "\"The world is a game in which the pieces remain hidden behind a veil. To avoid falling into a trap, one must collect every piece of information one can. This is the meaning of secrets.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "76.4% ATK + 152.8% Elemental Mastery",
+            "82.1% ATK + 164.2% Elemental Mastery",
+            "87.8% ATK + 175.7% Elemental Mastery",
+            "95.5% ATK + 191% Elemental Mastery",
+            "101.2% ATK + 202.4% Elemental Mastery",
+            "106.9% ATK + 213.9% Elemental Mastery",
+            "114.6% ATK + 229.2% Elemental Mastery",
+            "122.2% ATK + 244.4% Elemental Mastery",
+            "129.9% ATK + 259.7% Elemental Mastery",
+            "137.5% ATK + 275% Elemental Mastery",
+            "145.1% ATK + 290.3% Elemental Mastery",
+            "152.8% ATK + 305.5% Elemental Mastery",
+            "162.3% ATK + 324.6% Elemental Mastery",
+            "171.9% ATK + 343.7% Elemental Mastery",
+            "181.4% ATK + 362.8% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Phantasm Performance 1-Hit DMG (Nefer)",
+          "values": [
+            "24.6% ATK + 49.3% Elemental Mastery",
+            "26.5% ATK + 53% Elemental Mastery",
+            "28.3% ATK + 56.7% Elemental Mastery",
+            "30.8% ATK + 61.6% Elemental Mastery",
+            "32.6% ATK + 65.3% Elemental Mastery",
+            "34.5% ATK + 69% Elemental Mastery",
+            "37% ATK + 73.9% Elemental Mastery",
+            "39.4% ATK + 78.8% Elemental Mastery",
+            "41.9% ATK + 83.8% Elemental Mastery",
+            "44.4% ATK + 88.7% Elemental Mastery",
+            "46.8% ATK + 93.6% Elemental Mastery",
+            "49.3% ATK + 98.6% Elemental Mastery",
+            "52.4% ATK + 104.7% Elemental Mastery",
+            "55.4% ATK + 110.9% Elemental Mastery",
+            "58.5% ATK + 117% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Phantasm Performance 2-Hit DMG (Nefer)",
+          "values": [
+            "32% ATK + 64.1% Elemental Mastery",
+            "34.4% ATK + 68.9% Elemental Mastery",
+            "36.8% ATK + 73.7% Elemental Mastery",
+            "40% ATK + 80.1% Elemental Mastery",
+            "42.4% ATK + 84.9% Elemental Mastery",
+            "44.8% ATK + 89.7% Elemental Mastery",
+            "48% ATK + 96.1% Elemental Mastery",
+            "51.3% ATK + 102.5% Elemental Mastery",
+            "54.5% ATK + 108.9% Elemental Mastery",
+            "57.7% ATK + 115.3% Elemental Mastery",
+            "60.9% ATK + 121.7% Elemental Mastery",
+            "64.1% ATK + 128.1% Elemental Mastery",
+            "68.1% ATK + 136.1% Elemental Mastery",
+            "72.1% ATK + 144.1% Elemental Mastery",
+            "76.1% ATK + 152.2% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Phantasm Performance 1-Hit DMG (Shades)",
+          "values": [
+            "96% Elemental Mastery",
+            "103.2% Elemental Mastery",
+            "110.4% Elemental Mastery",
+            "120% Elemental Mastery",
+            "127.2% Elemental Mastery",
+            "134.4% Elemental Mastery",
+            "144% Elemental Mastery",
+            "153.6% Elemental Mastery",
+            "163.2% Elemental Mastery",
+            "172.8% Elemental Mastery",
+            "182.4% Elemental Mastery",
+            "192% Elemental Mastery",
+            "204% Elemental Mastery",
+            "216% Elemental Mastery",
+            "228% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Phantasm Performance 2-Hit DMG (Shades)",
+          "values": [
+            "96% Elemental Mastery",
+            "103.2% Elemental Mastery",
+            "110.4% Elemental Mastery",
+            "120% Elemental Mastery",
+            "127.2% Elemental Mastery",
+            "134.4% Elemental Mastery",
+            "144% Elemental Mastery",
+            "153.6% Elemental Mastery",
+            "163.2% Elemental Mastery",
+            "172.8% Elemental Mastery",
+            "182.4% Elemental Mastery",
+            "192% Elemental Mastery",
+            "204% Elemental Mastery",
+            "216% Elemental Mastery",
+            "228% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Phantasm Performance 3-Hit DMG (Shades)",
+          "values": [
+            "128% Elemental Mastery",
+            "137.6% Elemental Mastery",
+            "147.2% Elemental Mastery",
+            "160% Elemental Mastery",
+            "169.6% Elemental Mastery",
+            "179.2% Elemental Mastery",
+            "192% Elemental Mastery",
+            "204.8% Elemental Mastery",
+            "217.6% Elemental Mastery",
+            "230.4% Elemental Mastery",
+            "243.2% Elemental Mastery",
+            "256% Elemental Mastery",
+            "272% Elemental Mastery",
+            "288% Elemental Mastery",
+            "304% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Phantasm Performance Charges",
+          "values": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ]
+        },
+        {
+          "label": "Shadow Dance Duration",
+          "values": [
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11225,
+      "id": "sacred_vow_true_eyes_phantasm",
+      "name": "Sacred Vow: True Eye's Phantasm",
+      "description": "Grant \"revelation\" to the mysteries of the false through Thoth's true sight, dealing <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> to opponents ahead. When unleashed, Nefer will consume all <link kind=\"effect\" id=\"11220003\"><span style=\"color:#FFD780FF\">Veils of Falsehood</span></link> to increase the DMG dealt by the current Elemental Burst.",
+      "info": "The blessings of the Ibis King proclaimed by the singers of the burning sands are, in truth, more akin to dire curses.",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "224.6% ATK + 449.3% Elemental Mastery",
+            "241.5% ATK + 483% Elemental Mastery",
+            "258.3% ATK + 516.7% Elemental Mastery",
+            "280.8% ATK + 561.6% Elemental Mastery",
+            "297.6% ATK + 595.3% Elemental Mastery",
+            "314.5% ATK + 629% Elemental Mastery",
+            "337% ATK + 673.9% Elemental Mastery",
+            "359.4% ATK + 718.8% Elemental Mastery",
+            "381.9% ATK + 763.8% Elemental Mastery",
+            "404.4% ATK + 808.7% Elemental Mastery",
+            "426.8% ATK + 853.6% Elemental Mastery",
+            "449.3% ATK + 898.6% Elemental Mastery",
+            "477.4% ATK + 954.7% Elemental Mastery",
+            "505.4% ATK + 1010.9% Elemental Mastery",
+            "533.5% ATK + 1067% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "337% ATK + 673.9% Elemental Mastery",
+            "362.2% ATK + 724.5% Elemental Mastery",
+            "387.5% ATK + 775% Elemental Mastery",
+            "421.2% ATK + 842.4% Elemental Mastery",
+            "446.5% ATK + 892.9% Elemental Mastery",
+            "471.7% ATK + 943.5% Elemental Mastery",
+            "505.4% ATK + 1010.9% Elemental Mastery",
+            "539.1% ATK + 1078.3% Elemental Mastery",
+            "572.8% ATK + 1145.7% Elemental Mastery",
+            "606.5% ATK + 1213.1% Elemental Mastery",
+            "640.2% ATK + 1280.4% Elemental Mastery",
+            "673.9% ATK + 1347.8% Elemental Mastery",
+            "716% ATK + 1432.1% Elemental Mastery",
+            "758.2% ATK + 1516.3% Elemental Mastery",
+            "800.3% ATK + 1600.6% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "DMG Bonus",
+          "values": [
+            "13% Per Veil of Falsehood Stack",
+            "16% Per Veil of Falsehood Stack",
+            "19% Per Veil of Falsehood Stack",
+            "22% Per Veil of Falsehood Stack",
+            "25% Per Veil of Falsehood Stack",
+            "28% Per Veil of Falsehood Stack",
+            "31% Per Veil of Falsehood Stack",
+            "34% Per Veil of Falsehood Stack",
+            "37% Per Veil of Falsehood Stack",
+            "40% Per Veil of Falsehood Stack",
+            "43% Per Veil of Falsehood Stack",
+            "46% Per Veil of Falsehood Stack",
+            "49% Per Veil of Falsehood Stack",
+            "52% Per Veil of Falsehood Stack",
+            "55% Per Veil of Falsehood Stack"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "a_wager_of_moonlight",
+      "name": "A Wager of Moonlight",
+      "description": "Nefer will be granted the corresponding buff effects based on the party's <span style=\"color:#FFD780FF\">Moonsign</span>.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span>: When she unleashes her Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"senet_strategy_dance_of_a_thousand_nights\">Senet Strategy: Dance of a Thousand Nights</link></span>, any Dendro Cores on the field will be converted to Seeds of Deceit, and any Lunar-Bloom reactions triggered by nearby characters in the following 15s that would create Dendro Cores or Bountiful Cores will instead create Seeds of Deceit. Seeds of Deceit cannot trigger Hyperbloom or Burgeon reactions and will not burst.<br/>When Nefer unleashes a Charged Attack or <link kind=\"effect\" id=\"11220002\"><span style=\"color:#FFD780FF\">Phantasm Performance</span></link>, she can absorb Seeds of Deceit within a certain range, gaining 1 stack of <link kind=\"effect\" id=\"11220003\"><span style=\"color:#FFD780FF\">Veil of Falsehood</span></link> for every seed absorbed. When this effect reaches 3 stacks, or when the third stack's duration is refreshed, Nefer's Elemental Mastery will be increased by 100 for 8s.",
+      "level": 1
+    },
+    {
+      "id": "daughter_of_the_dust_and_sand",
+      "name": "Daughter of the Dust and Sand",
+      "description": "When Nefer is in the <link kind=\"effect\" id=\"11220001\"><span style=\"color:#FFD780FF\">Shadow Dance</span></link> state, for 5s after a party member triggers a Lunar-Bloom reaction, Nefer's <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"striking_serpent\">Slither</link></span> state will provide additional <link kind=\"effect\" id=\"11190008\"><span style=\"color:#FFD780FF\">Verdant Dew</span></link>. Every 100 points of Nefer's Elemental Mastery beyond 500 will strengthen this additional provision effect by 10%. The maximum increase that can be achieved this way is 50%.",
+      "level": 4
+    },
+    {
+      "id": "moonsign_benediction_dusklit_eaves",
+      "name": "Moonsign Benediction: Dusklit Eaves",
+      "description": "When a party member triggers a Bloom reaction, it will be converted into the Lunar-Bloom reaction, with every point of Elemental Mastery that Nefer has increasing Lunar-Bloom's Base DMG by 0.0175%, up to a maximum of 14%.<br/><br/>Additionally, when Nefer is in the party, the party's <span style=\"color:#FFD780FF\">Moonsign</span> will increase by 1 level.",
+      "level": 0
+    },
+    {
+      "id": "conspiracy_of_the_golden_vault",
+      "name": "Conspiracy of the Golden Vault",
+      "description": "Gains 25% more rewards when dispatched on a Nod-Krai Expedition for 20 hours.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1221,
+      "id": "planning_breeds_success",
+      "name": "Planning Breeds Success",
+      "description": "The Base DMG for Lunar-Bloom reactions caused by Nefer's <link kind=\"effect\" id=\"11220002\"><span style=\"color:#FFD780FF\">Phantasm Performance</span></link> is increased by 60% of her Elemental Mastery. This effect is also boosted by <link kind=\"effect\" id=\"11220003\"><span style=\"color:#FFD780FF\">Veil of Falsehood</span></link>.",
+      "level": 1
+    },
+    {
+      "_id": 1222,
+      "id": "observation_feeds_strategy",
+      "name": "Observation Feeds Strategy",
+      "description": "Enhances the effects of the Ascension Talent <link kind=\"passive\" to=\"a_wager_of_moonlight\"><span style=\"color:#FFD780FF\">A Wager of Moonlight</span></link>: Extends <link kind=\"effect\" id=\"11220003\"><span style=\"color:#FFD780FF\">Veil of Falsehood</span></link>'s duration by 5s, and increases its stack limit to 5, as well as causing <link kind=\"effect\" id=\"11220002\"><span style=\"color:#FFD780FF\">Phantasm Performance</span></link> to deal up to 140% of its original DMG. When Nefer unleashes her Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"senet_strategy_dance_of_a_thousand_nights\">Senet Strategy: Dance of a Thousand Nights</link></span>, she will instantly gain 2 stacks of Veil of Falsehood. Additionally, when Veil of Falsehood reaches 5 stacks, or when the fifth stack's duration is refreshed, Nefer's Elemental Mastery will be increased by 200 for 8s instead.<br/>You must first unlock the Ascension Talent \"A Wager of Moonlight.\"",
+      "level": 2
+    },
+    {
+      "_id": 1223,
+      "id": "deceit_cloaks_the_truth",
+      "name": "Deceit Cloaks the Truth",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"senet_strategy_dance_of_a_thousand_nights\">Senet Strategy: Dance of a Thousand Nights</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1224,
+      "id": "delusion_ensnares_reason",
+      "name": "Delusion Ensnares Reason",
+      "description": "When Nefer is on the field and in the <link kind=\"effect\" id=\"11220001\"><span style=\"color:#FFD780FF\">Shadow Dance</span></link> state, you will gain Verdant Dew 25% faster.<br/>Additionally, while Nefer is in the Shadow Dance state, nearby opponents will have their <span style=\"color:#99FF88FF\">Dendro RES</span> decreased by 20%. When Nefer exits the Shadow Dance state or after she strays a certain distance away from the opponents, this effect will be removed after 4.5s.",
+      "level": 4
+    },
+    {
+      "_id": 1225,
+      "id": "opportunity_hides_in_the_margins",
+      "name": "Opportunity Hides in the Margins",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"sacred_vow_true_eyes_phantasm\">Sacred Vow: True Eye's Phantasm</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1226,
+      "id": "victory_flows_from_the_turning_of_tides",
+      "name": "Victory Flows from the Turning of Tides",
+      "description": "When Nefer unleashes <link kind=\"effect\" id=\"11220002\"><span style=\"color:#FFD780FF\">Phantasm Performance</span></link>, the second stage of DMG dealt by herself will be converted to deal <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> equal to 85% of her Elemental Mastery. Additionally, when the attacks from Phantasm Performance end, an extra instance of <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> equal to 120% of Nefer's Elemental Mastery will be dealt. All of the aforementioned DMG is considered Lunar-Bloom DMG dealt by Phantasm Performance.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span><br/>Nefer's Lunar-Bloom DMG is <link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">elevated</span></link> by 15%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "989"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "27"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "62"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2565",
+            "3413"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "70",
+            "93"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "161",
+            "215"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5107",
+            "5710"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "138",
+            "155"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "321",
+            "359"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104131,
+        "id": "nagadus_emerald_sliver",
+        "name": "Nagadus Emerald Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101263,
+        "id": "moonfall_silver",
+        "name": "Moonfall Silver",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112125,
+        "id": "tattered_warrant",
+        "name": "Tattered Warrant",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6569",
+            "7373"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "178",
+            "200"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "413",
+            "464"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104132,
+        "id": "nagadus_emerald_fragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113079,
+        "id": "radiant_antler",
+        "name": "Radiant Antler",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101263,
+        "id": "moonfall_silver",
+        "name": "Moonfall Silver",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112125,
+        "id": "tattered_warrant",
+        "name": "Tattered Warrant",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8241",
+            "8844"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "223",
+            "240"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "519",
+            "556"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104132,
+        "id": "nagadus_emerald_fragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113079,
+        "id": "radiant_antler",
+        "name": "Radiant Antler",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101263,
+        "id": "moonfall_silver",
+        "name": "Moonfall Silver",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112126,
+        "id": "immaculate_warrant",
+        "name": "Immaculate Warrant",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9720",
+            "10322"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "264",
+            "280"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "612",
+            "649"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104133,
+        "id": "nagadus_emerald_chunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113079,
+        "id": "radiant_antler",
+        "name": "Radiant Antler",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101263,
+        "id": "moonfall_silver",
+        "name": "Moonfall Silver",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112126,
+        "id": "immaculate_warrant",
+        "name": "Immaculate Warrant",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11208",
+            "11811"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "304",
+            "320"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "705",
+            "743"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104133,
+        "id": "nagadus_emerald_chunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113079,
+        "id": "radiant_antler",
+        "name": "Radiant Antler",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101263,
+        "id": "moonfall_silver",
+        "name": "Moonfall Silver",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112127,
+        "id": "frostetched_warrant",
+        "name": "Frost-Etched Warrant",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12704",
+            "12704"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "344",
+            "344"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "799",
+            "799"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104134,
+        "id": "nagadus_emerald_gemstone",
+        "name": "Nagadus Emerald Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113079,
+        "id": "radiant_antler",
+        "name": "Radiant Antler",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101263,
+        "id": "moonfall_silver",
+        "name": "Moonfall Silver",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112127,
+        "id": "frostetched_warrant",
+        "name": "Frost-Etched Warrant",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104359,
+          "id": "teachings_of_elysium",
+          "name": "Teachings of Elysium",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112125,
+          "id": "tattered_warrant",
+          "name": "Tattered Warrant",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104360,
+          "id": "guide_to_elysium",
+          "name": "Guide to Elysium",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104360,
+          "id": "guide_to_elysium",
+          "name": "Guide to Elysium",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104360,
+          "id": "guide_to_elysium",
+          "name": "Guide to Elysium",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104360,
+          "id": "guide_to_elysium",
+          "name": "Guide to Elysium",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104361,
+          "id": "philosophies_of_elysium",
+          "name": "Philosophies of Elysium",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113074,
+          "id": "ascended_sample_rook",
+          "name": "Ascended Sample: Rook",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104361,
+          "id": "philosophies_of_elysium",
+          "name": "Philosophies of Elysium",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113074,
+          "id": "ascended_sample_rook",
+          "name": "Ascended Sample: Rook",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104361,
+          "id": "philosophies_of_elysium",
+          "name": "Philosophies of Elysium",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113074,
+          "id": "ascended_sample_rook",
+          "name": "Ascended Sample: Rook",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104361,
+          "id": "philosophies_of_elysium",
+          "name": "Philosophies of Elysium",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113074,
+          "id": "ascended_sample_rook",
+          "name": "Ascended Sample: Rook",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 212200,
+      "name": "Emerald Cipher",
+      "description": "Nefer's outfit. Her words weave layer upon layer of riddles, their answers concealed behind her emerald eyes. No lie slips past her questioning, for she is the mistress of the game of stratagems, where schemes and stories are the pieces on her board.",
+      "isDefault": true,
+      "characterName": "Nefer",
+      "characterId": 10000122,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Nefer_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Pleasure to meet you. I'm Nefer, head of the Curatorium of Secrets. You may have heard a few rumors about me, but don't let that trouble you — fact or fiction, I assure you it won't impact our collaboration."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Ashru",
+      "text": "Why does Ashru sit up on the counter? To welcome our clients, of course. A kitty's gotta earn his kibble somehow."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Observation",
+      "text": "Don't trust your eyes uncritically. People only see what they want to — so don't be your own fool."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Emotions",
+      "text": "Emotions are like a raging torrent that surges through the mind. More often than not, if you try to hold them back, you'll be swept away by their unstoppable force. And if you try to ignore them entirely... you'll end up tearing yourself to pieces."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "The blessings of the heavens do not fall impartially."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Another liar exposed."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It's Windy",
+      "text": "Sounds like more trouble is blowing in."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "A deja vu I could've done without."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning. Ever the early bird, huh? Wish I could say the same for Jahoda..."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "*yawn* There are never any clients at this time of day. Guess I'll go take a nap."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Oh, look at the time... If you'll excuse me, there's somewhere I need to be. In the meantime, the tea should be ready — help yourself."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "It's almost bedtime. Pull those curtains nice and tight, now — the moon is always watching."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Nefer: Secrets of the Curatorium",
+      "text": "What kind of work do we do at the Curatorium of Secrets? Well, most clients seem to think that we're in the business of rescuing cats, chasing off dogs, and collecting debts... But personally, I don't tend to get involved in menial errands like that."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Nefer: The Curatorium of Secrets",
+      "text": "The Curatorium's doors are open to all, but only those with a \"key\" are granted access to the inner sanctum that is the Northern Intelligence Network. But whether they walk away with fool's gold or the real deal... Well, that depends entirely on their own abilities."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Homeland",
+      "text": "When people talk of their \"homeland,\" they often speak with great nostalgia. But there is nothing in my past to remember fondly. If there is a glimmer of hope to be found, it lies in what has yet to come..."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Inner Thoughts",
+      "text": "Most people are incapable of hiding their true feelings. As long as I watch their faces closely, I can see right through them. And when I can't? That's when Thoth's little blessing comes in handy... Hah, just kidding. To this day, I've never met anyone I couldn't read like a book."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Moon Wheel",
+      "text": "Maybe there really is some mysterious link between Thoth and the moon, and that's why I ended up with this thing. But I wouldn't exactly say it feels like \"the gaze of the gods\" — more like the gaze of that old trickster, watching my every step from behind. Not that I have any proof, of course, but... Heh, I guess a good liar is always afraid of being lied to themselves."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Back when I was at the Akademiya, I belonged to the Vahumana Darshan, which specializes in social studies and historical research. Back then, we desert-dwellers had only one purpose in the Akademiya's eyes: to record our tragic history as material for cautionary tales and polite conversation. Perhaps a few of them would even shed a few noble tears of pity for us poor souls... though, of course, they'd never actually lift a finger to help us."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "There are actually plenty of things to drink in the desert — like the moisture from plant roots, or water from damp sand, deep underground. But whatever you do, don't go drinking animal blood. It'll only make you thirstier, and it coats your throat like glue, making it impossible to spit out or swallow."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Lauma",
+      "text": "Our pure and merciful Lady Moonchanter... So kind, so gentle, and full of compassion for all. It's no wonder that people are drawn to her. Even the local wildlife can't help but nuzzle up against her hand as they walk by... But don't get too close, or you might just wake up one day to find she's charmed you into embracing a whole new religion...\\nOh, I see... She's won you over already, hasn't she?"
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Flins",
+      "text": "It is often said that politeness is the most effective means of keeping strangers at bay. I guess that makes Mr. Flins a master of the art of social distancing. He wears his etiquette like a suit of shining armor — impeccable, impenetrable, hiding whatever lies beneath. Don't get me wrong, I pride myself on being a tactful friend, and I know how to smile and play along. But whether Mr. Flins is a Lightkeeper or a fae, from Nod-Krai or Snezhnaya, it makes no difference to me. First and foremost, we are friends, and the foundation of friendship... is trust."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Jahoda",
+      "text": "Jahoda is the most capable — and frankly, the most valuable — of the Curatorium's employees. Without her, the whole place would surely grind to a halt. Yes, she can be reckless and proud, but she is also brave and kind. Some might call her immature, but I see that as a blessing. After all, once you've reached maturity in life, it's all downhill from there... heh, and I'm counting on her to run my errands for a few years yet."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Aino",
+      "text": "The robotic arm she made for Jahoda works surprisingly well, though it certainly didn't come cheap. Relax — I covered the manufacture and maintenance costs up front. Jahoda is my most valuable employee, after all — I'm not even charging interest on the repayments."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Dehya",
+      "text": "Word of the kind-hearted Flame-Mane reached my ears long ago. It's not every day you hear of mercenaries willing to spend that kind of money on raising a child... And if the rumors are true, the power in her gauntlets has some ties to King Deshret, too... That's life in the desert of Sumeru for you. Things that seem completely unrelated turn out to be connected by unseen threads — and then one day, when people least expect it, the tangled web of complexity bursts out into the open.\\nAnyway, it sounds like Dehya's done pretty well for herself. I hear she managed to get hired by a nice wealthy family."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Candace",
+      "text": "Candace and I go way back. We met when I first arrived at Aaru Village after losing my home. She was one of the few children willing to talk to me. We did all sorts of things together — drove off wild beasts, fought off bandits, cared for those in hardship... If that's not \"friendship,\" I'm not sure what is."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Cyno",
+      "text": "You've got to hand it to Hermanubis — he's a good judge of character. He managed to recruited someone with a very solid work ethic to do his bidding. And the General Mahamatra certainly has his work cut out for him... the Akademiya breathing down his neck on the one hand, and a tireless \"boss\" watching his every move on the other... I honestly wonder how he ever manages to unwind."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Dori",
+      "text": "Lord Sangemah Bay is a regular business partner of mine. Besides Mora, she also brings me news from Sumeru — of insomniac students sleepwalking through the library, poor souls cured of Eleazar, and a Vahumana Darshan now bustling with people and showing great promise... From the sounds of it, the Akademiya is finally beginning to show some signs of life. How very heartwarming."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Diluc",
+      "text": "Master Diluc Ragnvindr is a key informant of mine in Mondstadt. I generally refer to him by the codename \"Owl.\" As for how we met and came to work together... Well, out of consideration for his privacy, I won't go into the details. What I can say is this: working with Master Diluc is always a pleasure. At the very least... he pays promptly."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Yelan",
+      "text": "Miss Yelan is one of the Curatorium's... No, make that the entire Northern Intelligence Network's most valued clients. Whenever she comes looking for intel, she pays up front, in cash, and in full. She never leaves me even the slightest room to cash in a favor in the future — even with the most sensitive intel, which I don't give out easily. She'll throw down twice, even three times the asking price without flinching... until I finally cave in and hand it over.\\nPeople from Liyue Harbor sure know how to spend, I'll give them that. Must be nice having that kind of money..."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Nefer: I",
+      "text": "As you're no doubt aware, I'm the one in charge of the Curatorium of Secrets. My job? Solving problems that other people can't — or won't — deal with themselves. And for better or worse, there's plenty of those people around in Nod-Krai... So, I don't think I'll be going hungry any time soon."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Nefer: II",
+      "text": "Nod-Krai draws in all sorts — ambitious adventurers, lawless rogues, wanted criminals, and drifters with nowhere else left to go. They all come chasing dreams, eyes bright with aspiration, hoping to strike it rich or make a name for themselves in this anarchist's paradise. Me, you ask? Haha... Chasing your dreams is a high-risk, low-return venture — not my style at all. I'd rather help others chase theirs\\nAfter all, dreams are illusory and fleeting — but the dreamers themselves? They're real as real can be. And more than willing to pay for a little help."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Nefer: III",
+      "text": "I don't regard Sumeru as my \"homeland.\" It never offered me warmth or tenderness, just shoved a blade in my hand and left me to fight or die. Still, at least I had the chance to carve out my own path.\\nThey say that the winds of change are blowing in Sumeru. Perhaps I ought to see what all the fuss is about — though I find it hard to imagine that the Akademiya is any less dull than it used to be..."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Nefer: IV",
+      "text": "The way I see it, a person's \"hometown\" should be somewhere they can sleep soundly and breathe easy, free from fears and burdens... A place full of warm memories, old friends, and family, who welcome you back with open arms no matter how long you've been away. Somewhere you can stop to rest and gather your strength before setting out once more to face whatever the future holds.\\nTell me, is that what your hometown is like?"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Nefer: V",
+      "text": "I don't expect I'll ever find somewhere to truly call home, where I genuinely feel at peace. In my experience, every connection I ever make seems to get torn away eventually. Maybe that's just the price of accepting a gift from a trickster, huh? In the end, it is a fate that nothing and no one will escape — not you, not Jahoda, not Ashru... not even Nod-Krai itself.\\nYou'd still come to see me? Or at the very least, stay in touch?\\nHah, you really think that'll be enough to break the desert's curse? A little naive, but sure, why not. I'll be expecting your letters... and hoping they don't suddenly stop coming."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Nefer's Hobbies",
+      "text": "Every now and then, I watch people from my window and try to deduce what they're thinking or where they might be headed. You should try it sometime — it's good mental training, and actually surprisingly entertaining. Plus, if a friend or client happens to visit at the right moment, you can casually mention what that person outside does for a living, or what's been weighing on their mind lately. They'll either be thoroughly stunned... or thoroughly impressed."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Nefer's Troubles",
+      "text": "I still haven't found the answer Thoth needs, and I must say — being led around by someone else, mortal or divine, is not a particularly pleasant experience. The Ibis King seemed to find my response amusing enough, it's just a shame that it wasn't the \"correct\" answer King Deshret was looking for. Then again, if I ever do find it, Thoth will be set free... and frankly, I'm not too keen on the idea of handing over such a precious gift on a silver platter, least of all to that old swindler. So there it is... a classic lose-lose situation."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I don't really have any strong food preferences, but I am in the habit of drinking a lot of water. You should, too — it's good for you. Why water? Oh, just an old habit... born from less-than-pleasant experiences."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I'm not picky when it comes to food, but I do prefer it to be fully cooked. It just feels safer, that's all. As long as it's not raw or made with animal blood, I'm good."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Well, color me impressed... Ever thought about getting a day job? The Curatorium could use a chef like you. We'd pay top Mora for it, too."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Not bad, not bad at all... Didn't peg you for a cook."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Hmm. Well, it certainly has a... distinctive flavor... I'll see what Jahoda thinks of it later."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "I'm not the best at picking gifts, so how about this: I'll pose three questions to you, and if you find the correct answers, I'll... Relax, that was meant to be a joke. Here, take this book. It's a collection of desert folklore and fairy tales — some of the most complete versions that exist. Generations of desert-dwellers have grown up hearing them, then passed them on themselves. Who knows? Once you've finished reading them, perhaps you'll be able to thrive in the desert too."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Huh, interesting."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "A grain of truth... but a mere drop in the ocean."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Another path to the truth opens before me."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "It looks like the bond between us won't be broken so easily after all, wouldn't you say?"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "It all adds up."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "No more lies."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Can't hide the truth."
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "It all falls into place."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Time to come clean."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Let's see what you're made of."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "The deception ends here."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Seek within."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "The mystery unravels."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "This time, your curiosity paid off... But don't get careless."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Hmm... We got lucky. It could have been a trap."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "That looks like it's worth a pretty sum... Relax, your secret's safe with me."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "How farcical."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "I better wrap this up."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "What a joke."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Do you have a death wish?"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Don't risk your neck for nothing..."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "The sands of time got me..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "The riddle remains unsolved..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "I saw this... coming..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "How unfortunate."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: II",
+      "text": "Shameless."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Absurd..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Any promising leads?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "We'll discuss my fee afterwards."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Lucky you. I have some time to kill."
+    }
+  ],
+  "effects": {
+    "11190007": {
+      "name": "Elevation",
+      "description": "Special DMG Boost effect. It is calculated independently of other DMG Boost effects.",
+      "color": ""
+    },
+    "11190008": {
+      "name": "Verdant Dew",
+      "description": "When party members trigger Lunar-Bloom reactions, the party will receive such a resource.<br/>Your party will receive 1 Verdant Dew every 2.5s for 2.5s after triggering a Lunar-Bloom reaction. Your party can have up to 3 Verdant Dew. If you trigger another Lunar-Bloom reaction during this time, the duration of this effect will be reset.",
+      "color": ""
+    },
+    "11220001": {
+      "name": "Shadow Dance",
+      "description": "After using the Elemental Skill <span style=\"color:#FFD780FF\">Senet Strategy: Dance of a Thousand Nights</span>, Nefer will enter this state.<br/>While in the Shadow Dance state, if you have at least 1 Verdant Dew, Nefer's Charged Attacks will be replaced with the special Charged Attack Phantasm Performance.<br/>Nefer will exit the Shadow Dance state when she unleashes 3 Phantasm Performance(s) or the state's duration ends.",
+      "color": ""
+    },
+    "11220002": {
+      "name": "Phantasm Performance",
+      "description": "When in the Shadow Dance state caused by her Elemental Skill <span style=\"color:#FFD780FF\">Senet Strategy: Dance of a Thousand Nights</span>, if you have at least 1 Verdant Dew, Nefer's Charged Attacks will be replaced with the special Charged Attack Phantasm Performance, which will not consume Stamina.<br/>Nefer summons shades of herself to perform Coordinated Attacks against enemies. Nefer and the shades will deal 2 and 3 stages of <span style=\"color:#99FF88FF\">AoE Dendro DMG</span> respectively. DMG dealt by the shades is considered Lunar-Bloom DMG. 1 Verdant Dew will be consumed the first time shades are summoned after every Phantasm Performance.",
+      "color": ""
+    },
+    "11220003": {
+      "name": "Veil of Falsehood",
+      "description": "After absorbing Seeds of Deceit via the Ascension Talent A Wager of Moonlight, Nefer gains this effect, thereby increasing the DMG dealt by her Phantasm Performance.<br/>Each stack of Veil of Falsehood increases the DMG dealt by Nefer's Phantasm Performance by 8%. The initial maximum number of stacks is 3, with each stack lasting for 9s (each stack's duration is counted independently).",
+      "color": ""
+    }
+  }
+}

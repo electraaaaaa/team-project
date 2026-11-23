@@ -1,0 +1,1763 @@
+{
+  "_id": 10000076,
+  "id": "faruzan",
+  "name": "Faruzan",
+  "title": "Enigmatic Machinist",
+  "description": "A researcher from \"one hundred years ago.\" She enjoys self-identifying as everyone's senior, and has significant knowledge of ancient scripts and machines of all kinds.",
+  "weapon_type": {
+    "id": "bow",
+    "name": "Bow"
+  },
+  "element": {
+    "id": "anemo",
+    "name": "Anemo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1670277600,
+  "substat": "ATK%",
+  "stats": {
+    "base": {
+      "hp": 802.3761,
+      "attack": 16.4724,
+      "defense": 52.647
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 599.416,
+        "attack": 12.306015,
+        "defense": 39.33,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1025.3169,
+        "attack": 21.049763,
+        "defense": 67.275,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1593.1847,
+        "attack": 32.70809,
+        "defense": 104.535,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2019.0856,
+        "attack": 41.45184,
+        "defense": 132.48,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2444.9863,
+        "attack": 50.195587,
+        "defense": 160.425,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 2870.8872,
+        "attack": 58.939335,
+        "defense": 188.37,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Haravatat",
+  "region": {
+    "id": "sumeru",
+    "name": "Sumeru"
+  },
+  "rarity": 4,
+  "birthday": [
+    20,
+    8
+  ],
+  "constellation": "Flosculi Implexi",
+  "domain": "Steeple of Ignorance",
+  "cv": {
+    "english": "Chandni Parekh",
+    "chinese": "阎萌萌",
+    "japanese": "堀江由衣",
+    "korean": "Kim Yu-rim"
+  },
+  "skills": [
+    {
+      "_id": 10761,
+      "id": "parthian_shot",
+      "name": "Parthian Shot",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive shots with a bow.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Performs a more precise <span style=\"color:#FFD780FF\">Aimed Shot</span> with increased DMG.<br/>While aiming, mighty winds will accumulate on the arrowhead. A fully charged wind arrow will deal <span style=\"color:#80FFD7FF\">Anemo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Fires off a shower of arrows in mid-air before falling and striking the ground, hitting opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "44.7%",
+            "48.4%",
+            "52%",
+            "57.2%",
+            "60.9%",
+            "65%",
+            "70.7%",
+            "76.5%",
+            "82.2%",
+            "88.4%",
+            "94.7%",
+            "100.9%",
+            "107.1%",
+            "113.4%",
+            "119.6%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "42.2%",
+            "45.6%",
+            "49.1%",
+            "54%",
+            "57.4%",
+            "61.3%",
+            "66.7%",
+            "72.1%",
+            "77.5%",
+            "83.4%",
+            "89.3%",
+            "95.2%",
+            "101.1%",
+            "106.9%",
+            "112.8%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "53.2%",
+            "57.5%",
+            "61.8%",
+            "68%",
+            "72.3%",
+            "77.3%",
+            "84.1%",
+            "90.9%",
+            "97.7%",
+            "105.1%",
+            "112.5%",
+            "119.9%",
+            "127.3%",
+            "134.8%",
+            "142.2%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "70.6%",
+            "76.4%",
+            "82.1%",
+            "90.3%",
+            "96.1%",
+            "102.6%",
+            "111.7%",
+            "120.7%",
+            "129.7%",
+            "139.6%",
+            "149.5%",
+            "159.3%",
+            "169.2%",
+            "179%",
+            "188.9%"
+          ]
+        },
+        {
+          "label": "Aimed Shot",
+          "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.7%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "92.8%",
+            "98.9%",
+            "105.1%",
+            "111.2%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Fully-Charged Aimed Shot",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10762,
+      "id": "wind_realm_of_nasamjnin",
+      "name": "Wind Realm of Nasamjnin",
+      "description": "Faruzan deploys a polyhedron that deals <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span> to nearby opponents. She will also enter the Manifest Gale state.<br/>While in the Manifest Gale state, Faruzan's next fully charged shot will consume this state and will become a Hurricane Arrow that contains high-pressure currents. This arrow deals <span style=\"color:#80FFD7FF\">Anemo DMG</span> based on the DMG of a fully charged Aimed Shot from \"Normal Attack: Parthian Shot.\"<br/><br/><span style=\"color:#FFD780FF\">Pressurized Collapse</span><br/>The Hurricane Arrow will apply a Pressurized Collapse effect to the opponent or character hit. This effect will be removed after a short delay, creating a vortex that deals <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span> and pulls nearby objects and opponents in. If the Hurricane Arrow does not hit any opponent or character, it will create a Pressurized Collapse effect at its point of impact.<br/>The vortex DMG is considered Elemental Skill DMG.",
+      "info": "The winds of truth buffet the spirits of those who seek truth, dispersing the miasma of preconception.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "148.8%",
+            "160%",
+            "171.1%",
+            "186%",
+            "197.2%",
+            "208.3%",
+            "223.2%",
+            "238.1%",
+            "253%",
+            "267.8%",
+            "282.7%",
+            "297.6%",
+            "316.2%",
+            "334.8%",
+            "353.4%"
+          ]
+        },
+        {
+          "label": "Pressurized Collapse Vortex DMG",
+          "values": [
+            "108%",
+            "116.1%",
+            "124.2%",
+            "135%",
+            "143.1%",
+            "151.2%",
+            "162%",
+            "172.8%",
+            "183.6%",
+            "194.4%",
+            "205.2%",
+            "216%",
+            "229.5%",
+            "243%",
+            "256.5%"
+          ]
+        },
+        {
+          "label": "Manifest Gale Duration",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10765,
+      "id": "the_winds_secret_ways",
+      "name": "The Wind's Secret Ways",
+      "description": "Faruzan deploys a Dazzling Polyhedron that unleashes a Whirlwind Pulse and deals <span style=\"color:#80FFD7FF\">AoE Anemo DMG</span>.<br/>While the Dazzling Polyhedron persists, it will continuously move along a triangular path. Once it reaches each corner of that triangular path, it will unleash 1 more Whirlwind Pulse.<br/><br/><span style=\"color:#FFD780FF\">Whirlwind Pulse</span><br/>·When the Whirlwind Pulse is unleashed, it will apply Perfidious Wind's Bale to nearby opponents, decreasing their <span style=\"color:#80FFD7FF\">Anemo RES</span>.<br/>·The Whirlwind Pulse will also apply Prayerful Wind's Benefit to all nearby party members when it is unleashed, granting them an <span style=\"color:#80FFD7FF\">Anemo DMG Bonus</span>.",
+      "info": "One must have respect for the unknown wisdom that one might find hidden in ancient ruins.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "377.6%",
+            "405.9%",
+            "434.2%",
+            "472%",
+            "500.3%",
+            "528.6%",
+            "566.4%",
+            "604.2%",
+            "641.9%",
+            "679.7%",
+            "717.4%",
+            "755.2%",
+            "802.4%",
+            "849.6%",
+            "896.8%"
+          ]
+        },
+        {
+          "label": "Anemo DMG Bonus",
+          "values": [
+            "18%",
+            "19.4%",
+            "20.7%",
+            "22.5%",
+            "23.8%",
+            "25.2%",
+            "27%",
+            "28.8%",
+            "30.6%",
+            "32.4%",
+            "34.2%",
+            "36%",
+            "38.3%",
+            "40.5%",
+            "42.8%"
+          ]
+        },
+        {
+          "label": "Prayerful Wind's Benefit Duration",
+          "values": [
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s"
+          ]
+        },
+        {
+          "label": "Anemo RES Decrease",
+          "values": [
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%"
+          ]
+        },
+        {
+          "label": "Perfidious Wind's Bale Duration",
+          "values": [
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "impetuous_flow",
+      "name": "Impetuous Flow",
+      "description": "When Faruzan is in the Manifest Gale state created by <span style=\"color:#FFD780FF\">Wind Realm of Nasamjnin</span>, the amount of time taken to charge a shot is decreased by 60%, and she can apply <span style=\"color:#FFD780FF\">The Wind's Secret Ways</span>' Perfidious Wind's Bale to opponents who are hit by the vortex created by Pressurized Collapse.",
+      "level": 1
+    },
+    {
+      "id": "lost_wisdom_of_the_seven_caverns",
+      "name": "Lost Wisdom of the Seven Caverns",
+      "description": "When characters affected by <span style=\"color:#FFD780FF\">The Wind's Secret Ways</span>' Prayerful Wind's Benefit deal <span style=\"color:#80FFD7FF\">Anemo DMG</span> using Normal, Charged, Plunging Attacks, Elemental Skills, or Elemental Bursts to opponents, they will gain the Hurricane Guard effect: This DMG will be increased based on 32% of Faruzan's Base ATK. 1 instance of Hurricane Guard can occur once every 0.8s. This DMG Bonus will be cleared after Prayerful Wind's Benefit expires or after the effect is triggered once.",
+      "level": 4
+    },
+    {
+      "id": "tomes_light_the_path",
+      "name": "Tomes Light the Path",
+      "description": "Gains 25% more rewards when dispatched on a Sumeru Expedition for 20 hours.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 761,
+      "id": "truth_by_any_means",
+      "name": "Truth by Any Means",
+      "description": "Faruzan can fire off a maximum of 2 Hurricane Arrows using fully charged Aimed Shots while under the effect of a single Manifest Gale created by <span style=\"color:#FFD780FF\">Wind Realm of Nasamjnin</span>.",
+      "level": 1
+    },
+    {
+      "_id": 762,
+      "id": "overzealous_intellect",
+      "name": "Overzealous Intellect",
+      "description": "The duration of the Dazzling Polyhedron created by <span style=\"color:#FFD780FF\">The Wind's Secret Ways</span> is increased by 6s.",
+      "level": 2
+    },
+    {
+      "_id": 763,
+      "id": "spiritorchard_stroll",
+      "name": "Spirit-Orchard Stroll",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Wind Realm of Nasamjnin</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 764,
+      "id": "divine_comprehension",
+      "name": "Divine Comprehension",
+      "description": "The vortex created by <span style=\"color:#FFD780FF\">Pressurized Collapses</span> will restore Energy to Faruzan based on the number of opponents hit: If it hits 1 opponent, it will restore 2 Energy for Faruzan. Each additional opponent hit will restore 0.5 more Energy for Faruzan.<br/>A maximum of 4 Energy can be restored to her per vortex.",
+      "level": 4
+    },
+    {
+      "_id": 765,
+      "id": "wonderland_of_rumination",
+      "name": "Wonderland of Rumination",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">The Wind's Secret Ways</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 766,
+      "id": "the_wondrous_path_of_truth",
+      "name": "The Wondrous Path of Truth",
+      "description": "Characters affected by <span style=\"color:#FFD780FF\">The Wind's Secret Ways</span>' Prayerful Wind's Benefit have 40% increased CRIT DMG when they deal <span style=\"color:#80FFD7FF\">Anemo DMG</span>. When the active character deals DMG while affected by Prayerful Wind's Benefit, they will apply Pressurized Collapse to the opponent damaged. This effect can be triggered once every 3s. This CD is shared between all party members.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "802"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "16"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "53"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2061",
+            "2661"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "42",
+            "55"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "135",
+            "175"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "3985",
+            "4411"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "82",
+            "91"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "262",
+            "289"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104151,
+        "id": "vayuda_turquoise_sliver",
+        "name": "Vayuda Turquoise Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101220,
+        "id": "henna_berry",
+        "name": "Henna Berry",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112065,
+        "id": "faded_red_satin",
+        "name": "Faded Red Satin",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5074",
+            "5642"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "104",
+            "116"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "333",
+            "370"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113039,
+        "id": "light_guiding_tetrahedron",
+        "name": "Light Guiding Tetrahedron",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101220,
+        "id": "henna_berry",
+        "name": "Henna Berry",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112065,
+        "id": "faded_red_satin",
+        "name": "Faded Red Satin",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6305",
+            "6731"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "129",
+            "138"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "414",
+            "442"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113039,
+        "id": "light_guiding_tetrahedron",
+        "name": "Light Guiding Tetrahedron",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101220,
+        "id": "henna_berry",
+        "name": "Henna Berry",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112066,
+        "id": "trimmed_red_silk",
+        "name": "Trimmed Red Silk",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7393",
+            "7818"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "152",
+            "161"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "485",
+            "513"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113039,
+        "id": "light_guiding_tetrahedron",
+        "name": "Light Guiding Tetrahedron",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101220,
+        "id": "henna_berry",
+        "name": "Henna Berry",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112066,
+        "id": "trimmed_red_silk",
+        "name": "Trimmed Red Silk",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8481",
+            "8907"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "174",
+            "183"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "556",
+            "584"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113039,
+        "id": "light_guiding_tetrahedron",
+        "name": "Light Guiding Tetrahedron",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101220,
+        "id": "henna_berry",
+        "name": "Henna Berry",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112067,
+        "id": "rich_red_brocade",
+        "name": "Rich Red Brocade",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9570",
+            "9570"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "196",
+            "196"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "628",
+            "628"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104154,
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Vayuda Turquoise Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113039,
+        "id": "light_guiding_tetrahedron",
+        "name": "Light Guiding Tetrahedron",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101220,
+        "id": "henna_berry",
+        "name": "Henna Berry",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112067,
+        "id": "rich_red_brocade",
+        "name": "Rich Red Brocade",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104329,
+          "id": "teachings_of_admonition",
+          "name": "Teachings of Admonition",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112065,
+          "id": "faded_red_satin",
+          "name": "Faded Red Satin",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104330,
+          "id": "guide_to_admonition",
+          "name": "Guide to Admonition",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112066,
+          "id": "trimmed_red_silk",
+          "name": "Trimmed Red Silk",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104330,
+          "id": "guide_to_admonition",
+          "name": "Guide to Admonition",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112066,
+          "id": "trimmed_red_silk",
+          "name": "Trimmed Red Silk",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104330,
+          "id": "guide_to_admonition",
+          "name": "Guide to Admonition",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112066,
+          "id": "trimmed_red_silk",
+          "name": "Trimmed Red Silk",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104330,
+          "id": "guide_to_admonition",
+          "name": "Guide to Admonition",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112066,
+          "id": "trimmed_red_silk",
+          "name": "Trimmed Red Silk",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104331,
+          "id": "philosophies_of_admonition",
+          "name": "Philosophies of Admonition",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112067,
+          "id": "rich_red_brocade",
+          "name": "Rich Red Brocade",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104331,
+          "id": "philosophies_of_admonition",
+          "name": "Philosophies of Admonition",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112067,
+          "id": "rich_red_brocade",
+          "name": "Rich Red Brocade",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104331,
+          "id": "philosophies_of_admonition",
+          "name": "Philosophies of Admonition",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112067,
+          "id": "rich_red_brocade",
+          "name": "Rich Red Brocade",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104331,
+          "id": "philosophies_of_admonition",
+          "name": "Philosophies of Admonition",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112067,
+          "id": "rich_red_brocade",
+          "name": "Rich Red Brocade",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 207600,
+      "name": "Pristine Elegance",
+      "description": "Faruzan's outfit. The relatively plain yet elegant style represents her unfaltering purity. This style was very popular in the Akademiya a hundred years ago, but has now become an uncommon sight.",
+      "isDefault": true,
+      "characterName": "Faruzan",
+      "characterId": 10000076,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Faruzan_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Here's the Akademiya's Distinguished Scholar Award, this is the Sumeru Puzzlers' League Lifetime Achievement Award, and there's something from the Synopsium on Ruin Mechanisms... What do you think? Got any interest in becoming my student? Ahem, just as a note, I am from the Haravatat Darshan. You'll get lost if you try to find me in the halls of Kshahrewar."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Rules",
+      "text": "A hundred years have passed, yet there hasn't been any change to those dumb rules at the Akademiya..."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Honorifics",
+      "text": "Hm? What did you say? I'm old now, so every other phrase escapes my ears. Try calling me \"Madam Faruzan,\" and I'll see if I can pick that up."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Conducting Research",
+      "text": "Academic research isn't some kind of fad. Topics don't just go in and out of fashion."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "I haven't been a child for many, many years, so I don't see any reason to be excited about the rain."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Whoa! Wh—What? There's nothing wrong with being afraid of thunder even at an older age!"
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "How beautiful... How awe-inspiring... Achoo! *sniffle* Yes, and very cold-inducing as well..."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "How cozy... A breezy, open environment really is the best."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "Hey, how did we circle back here again..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Youngster, there's nothing quite like an enthusiastic greeting to start your morning! Try to remember now: What are you supposed to say?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "I'm starting to get hungry... How about we go get something from the Grand Bazaar? Anything goes as long as it's not overly \"innovative.\""
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Don't act so surprised — scholars of every generation pull all-nighters for their research. After all, the night offers a precious opportunity to contemplate ideas and topics in peace."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "This ancient text is making my head spin... Let's call it a night here and get some rest. I'll be heading to bed as well, so good night."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Faruzan: Senior Scholar",
+      "text": "What is it that you'd like to learn more about? Different forms of pressure-based puzzle mechanisms? The base layer design of Elemental Monuments? Huh, wait... Did you forget to call me \"Madam Faruzan\" just now when you asked your question?"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Faruzan: A Mentor's Struggles",
+      "text": "I want my students to truly enjoy the study of ancient texts. If I can't find anyone like that, then I just won't take on any students! Ah, right, about finding someone to help me with my work... It's pretty reasonable for students to help their mentors when they have some free time, right? I mean, even I did that back in the day..."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Student Recruitment",
+      "text": "Serious question: why don't you become my student? I'll tailor research topics to your needs and thoroughly explain everything you need to know. We can focus on practical ways to unlock modern-age puzzle mechanisms, and build on that with some work on the deciphering of associated texts. I've walked the walk, so I can promise you that everything you'd learn would be a great boon for your future adventures. There's no reason not to trust me!"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Solving Puzzles",
+      "text": "When I was trapped, I spent so long solving puzzles that I became numb to even the flow of time. Now that I'm free again, I no longer have to face the puzzles of the world all on my own. Maybe we'll be able to spend some fun times together copying inscriptions, deciphering runes, and solving puzzles... Every minute should be savored."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Hmph. My illustrious resume aside, my intellectual capabilities have been acknowledged even by the Anemo Archon himself. As for why I still can't find any students... Well, it's not due to any faults on my part or that of my Darshan. Maybe it's a matter of timing? I also received my Vision at precisely an opportune moment, after all."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share: Kshahrewar",
+      "text": "\"Going forward, Kshahrewar will be the only Darshan dedicated to the study of mechanisms\"... Hmph, if you ask me, the Kshahrewar scholars have gotten way ahead of themselves. When I was cracking puzzles all over Sumeru, they were still playing with rudimentary building blocks."
+    },
+    {
+      "id": "3005",
+      "type": 1,
+      "title": "Something to Share: Haravatat",
+      "text": "Those geezers at Haravatat love to decline my funding requests with the excuse that my research's become too niche and impractical. By that logic, since we're still the Darshan with the lowest enrollment numbers, we might as well close our doors altogether."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "I've visited numerous ruins of all shapes and sizes and interpreted what scant texts and symbols I could find. Ruin Drakes are indeed mechanisms of the highest order. Hmm... perhaps \"mechanism\" isn't the best word for them. You could argue that they're antiquated \"living organisms\" that have managed to survive until the present day..."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Lesser Lord Kusanali",
+      "text": "Knowledge is naturally something that cannot be limited or restrained. It's like how Kshahrewar can utilize Haravatat's research findings. All scholars will be grateful to Lesser Lord Kusanali for releasing the Akademiya— no, the entire City of Wisdom from the shackles of selfish desires. All who thirst for knowledge are now afforded the opportunity to search for treasures in the vast sea of knowledge."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Tighnari",
+      "text": "One of my favorite projects is researching rainforest ruins. Ah right, I should ask Tighnari to come with me next time. It's always fun to travel with the living copy of the Rainforest Survival Guide. I must say, even though I've been around for more than a hundred years, he's seen far more varieties of fungi than I've had the chance to taste..."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Collei",
+      "text": "Ah, Collei... She's respectful toward her elders, diligent, and has a hard-working attitude — truly the perfect student! Children like her deserve all the affection and praise. Tighnari really has no reason to be as strict as he has been. Hmph... I need to find a way to win her over... Ahem! What I meant to say was, as a senior scholar, I should find ways to improve the learning environment of younger students."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Cyno",
+      "text": "Cyno's jokes are composed using modern words and language patterns, but I still struggle to decipher any hidden meaning from his grammar and prose... Huh? It's all just literal meanings and homophones? Really...? Then, those jokes don't have any substance at all..."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Layla",
+      "text": "Sometimes, she'll lower her head and keep her distance when she sees me. However, she's all smiles and greetings at night... I don't quite get her. Anyway, most kids in Rtawahist are geniuses. A quirk or two isn't anything to concern myself with."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Kaveh",
+      "text": "Kaveh's a good kid with great potential. I had a casual chat with him once about some principles of mechanism construction. Hmm, how should I put it... He's too much of an artsy romantic, but at least he has some original ideas, which is rare nowadays. I've heard that he's fallen on some hard times, so I'm planning to invite him out for a good meal once my funding gets approved. It'll happen soon, promise."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Nilou",
+      "text": "I remember her; she's a courteous girl. I've only been to the Grand Bazaar a few times, but she's already remembered my name and face, and she's even tried to get the others to stop arguing with me. She really gets it! All youngsters should be more like her."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Sethos",
+      "text": "Oh? You mean the new arrival? Yes, didn't he show up at the perfect time! I still don't know which Darshan he belongs to, but I seem to run into him all the time these days: out on the streets, in shops, at restaurants... It's like he's everywhere at once. The way he nods his head when he talks, it's like... oh, I don't know, like... a little puppy, yes. Eloquent young fellow, too. Seems like a good egg. Anyway, are you acquainted with him? You must encourage him to enroll in my classes. Tell him Madam Faruzan will take good care of him."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Faruzan: I",
+      "text": "Interested in my story? Well, Madam Faruzan's life started more than a hundred years ago, and her story covers as much ground as some major academic publications. Still curious? Good, willingness to learn is an indispensable trait for scholars. You've got one foot in the door."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Faruzan: II",
+      "text": "Solving a truly ancient mechanical puzzle requires deciphering a deluge of ancient texts. I don't mean to boast, but they're probably on a completely different level from the ones you've solved on your adventures. Oh? Don't believe me? Then why don't you pick out some of the hardest ones you've done and show them to me? If I spend more than a half hour on any of them, it's your win."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Faruzan: III",
+      "text": "If I didn't accidentally lose myself in that King Deshret ruin, I could have contributed even more to Sumeru... Thankfully, my manuscripts and treatises were still put to good use. Those freeloading Kshahrewar used them to establish the fundamentals of the study of mechanisms. Haha, I'm not called \"Madam Faruzan\" for nothing, you know."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Faruzan: IV",
+      "text": "As a scholar, I should have the courage to accept failure and shoulder all of its consequences. I never wanted anyone to pity me, whether it be back then or right now. Also, don't forget that I eventually managed to solve that final puzzle by my own power, and freed myself from that accursed place... Instead of pity, shouldn't people feel encouragement and inspiration from my story?"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Faruzan: V",
+      "text": "My field of study is nowhere as esteemed as it used to be, and Haravatat has refused me funding more than once. Every now and then, Kshahrewar will try to invite me to teach under their banner, and the conditions they've offered me are truly out of this world. More students, a higher spending limit... I still turned them down, however. No matter what, someone has to keep studying niche topics, so we can expand the frontiers of humanity's knowledge."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Faruzan's Hobbies",
+      "text": "Some greedy merchants and mercenaries try to hawk \"antiques\" of unknown origin in Port Ormos at exorbitant prices, but their goods are nothing more than secondhand trash. Hmph, I bust their scams whenever I catch sight of one. My skill in antiques appraisal is probably second only to the gods of the Seven."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Faruzan's Troubles",
+      "text": "A hundred years ago, my greatest source of frustration was my inability to decipher the information engraved on ruin monuments. Now, nothing irritates me more than the struggle to get funding. Ugh, it's making my head hurt again..."
+    },
+    {
+      "id": "6005",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "You can improve the aroma of batter several times over if you bake it in the oven. Next time we're in the kitchen, I'll make some for you so you can get a taste of the flavors from my time. Since it'll be my super secret ancient recipe, I bet you won't find anything like it in the whole Grand Bazaar."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "There's a new dessert that they call Padisarah Pudding. Who decided to create it? Shouldn't puddings be made with rice? These culinary innovations are really getting out of hand. Thank you, but there's really no need to share it with me, even if you made it yourself."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "*munch* This is tastier than the food at most historic establishments. Could it be that the culinary arts haven't stopped improving?"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "The appearance, smell, and taste of this dish are all excellent. Do you read a lot of professional cooking books?"
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Hm? This indescribable taste... Are you trying to get me to figure out what this is?"
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday! Here's a small toy for you. It's an assembly of a number of miniature puzzle mechanisms — you can find a button and lever here, as well as a roller to the side. Just play with it however you want, and I'll take care of it if it breaks. Hmph, and don't think I'm treating you like a child. Everyone, regardless of age, could use a moment of happiness and relaxation."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Ha, aren't you an energetic youngster? So enthusiastic, even about collecting materials."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Oh? Have you unlocked some kind of mechanism? A continuous current of power is streaming in."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "Huh, you're really putting a lot into this... Don't worry, it's my responsibility as your senior to guide and protect you. I won't let you go astray."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "The past one hundred years have only afforded me the glimpse of a spindrift floating upon the endless sea of wisdom. As for the fields and puzzles that remain to be studied and explored... It'll be up to you and I to reveal their secrets."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Too late for regrets."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Dare to mess with me?"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "We'll see about that."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Gears of the storm!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Have fun with this gift!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Truth repeats its course."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "A historical artifact? Hmph... never mind."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "A find that was worth the trip."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Here you go. \"Thank you, Madam Faruzan.\""
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "This isn't new!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "This setback is nothing..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Don't underestimate me..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Careful, don't lose your life."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Watch and learn, youngster!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "The puzzle... is still unsolved..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "A scholar's journey... shouldn't end..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Time... didn't stop for me..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Wretched dastard!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "No sense of respect!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Need the help of an elder, huh?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Been a while since I've limbered up."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Sure, I'll hang out with you youngsters."
+    }
+  ]
+}

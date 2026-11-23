@@ -1,0 +1,1741 @@
+{
+  "_id": 10000092,
+  "id": "gaming",
+  "name": "Gaming",
+  "title": "Leonine Vanguard",
+  "description": "Guard of the Sword and Strongbox Secure Transport Agency, and the head of the \"Mighty Mythical Beasts\" Wushou troupe.",
+  "weapon_type": {
+    "id": "claymore",
+    "name": "Claymore"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1706565600,
+  "substat": "ATK%",
+  "stats": {
+    "base": {
+      "hp": 957.38055,
+      "attack": 25.28736,
+      "defense": 58.94175
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S4",
+      "attack": "GROW_CURVE_ATTACK_S4",
+      "defense": "GROW_CURVE_HP_S4"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 715.2123,
+        "attack": 18.891396,
+        "defense": 44.0325,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1223.3894,
+        "attack": 32.31423,
+        "defense": 75.31875,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.06
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1900.959,
+        "attack": 50.21134,
+        "defense": 117.03375,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2409.1362,
+        "attack": 63.634174,
+        "defense": 148.32,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.12
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2917.3132,
+        "attack": 77.05701,
+        "defense": 179.60625,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3425.4905,
+        "attack": 90.47984,
+        "defense": 210.8925,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.24
+        }
+      }
+    ]
+  },
+  "affiliation": "Sword and Strongbox Secure Transport Agency",
+  "region": {
+    "id": "liyue",
+    "name": "Liyue"
+  },
+  "rarity": 4,
+  "birthday": [
+    22,
+    12
+  ],
+  "constellation": "Leo Expergiscens",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Caleb Yen",
+    "chinese": "谢莹",
+    "japanese": "小松昌平",
+    "korean": "Kim Yoon-gi"
+  },
+  "skills": [
+    {
+      "_id": 10921,
+      "id": "stellar_rend",
+      "name": "Stellar Rend",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br/>At the end of the sequence, performs a more powerful slash. <br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "83.9%",
+            "90.7%",
+            "97.5%",
+            "107.3%",
+            "114.1%",
+            "121.9%",
+            "132.6%",
+            "143.3%",
+            "154.1%",
+            "165.8%",
+            "177.5%",
+            "189.2%",
+            "200.9%",
+            "212.6%",
+            "224.3%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "79%",
+            "85.5%",
+            "91.9%",
+            "101.1%",
+            "107.5%",
+            "114.9%",
+            "125%",
+            "135.1%",
+            "145.2%",
+            "156.3%",
+            "167.3%",
+            "178.3%",
+            "189.3%",
+            "200.4%",
+            "211.4%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "106.6%",
+            "115.3%",
+            "124%",
+            "136.4%",
+            "145.1%",
+            "155%",
+            "168.6%",
+            "182.3%",
+            "195.9%",
+            "210.8%",
+            "225.7%",
+            "240.6%",
+            "255.5%",
+            "270.3%",
+            "285.2%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "127.9%",
+            "138.4%",
+            "148.8%",
+            "163.7%",
+            "174.1%",
+            "186%",
+            "202.3%",
+            "218.7%",
+            "235.1%",
+            "252.9%",
+            "270.8%",
+            "288.6%",
+            "306.5%",
+            "324.3%",
+            "342.2%"
+          ]
+        },
+        {
+          "label": "Charged Attack Cyclic DMG",
+          "values": [
+            "62.5%",
+            "67.6%",
+            "72.7%",
+            "80%",
+            "85.1%",
+            "90.9%",
+            "98.9%",
+            "106.9%",
+            "114.9%",
+            "123.6%",
+            "132.3%",
+            "141%",
+            "149.8%",
+            "158.5%",
+            "167.2%"
+          ]
+        },
+        {
+          "label": "Charged Attack Final DMG",
+          "values": [
+            "113.1%",
+            "122.3%",
+            "131.5%",
+            "144.6%",
+            "153.9%",
+            "164.4%",
+            "178.8%",
+            "193.3%",
+            "207.8%",
+            "223.6%",
+            "239.3%",
+            "255.1%",
+            "270.9%",
+            "286.7%",
+            "302.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        },
+        {
+          "label": "Max Duration",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "64.1%",
+            "69.4%",
+            "74.6%",
+            "82%",
+            "87.3%",
+            "93.2%",
+            "101.4%",
+            "109.6%",
+            "117.8%",
+            "126.8%",
+            "135.8%",
+            "144.7%",
+            "153.7%",
+            "162.6%",
+            "171.6%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "128.3% / 160.2%",
+            "138.7% / 173.2%",
+            "149.1% / 186.3%",
+            "164.1% / 204.9%",
+            "174.5% / 218%",
+            "186.4% / 232.9%",
+            "202.8% / 253.4%",
+            "219.2% / 273.8%",
+            "235.6% / 294.3%",
+            "253.5% / 316.7%",
+            "271.4% / 339%",
+            "289.3% / 361.4%",
+            "307.2% / 383.8%",
+            "325.1% / 406.1%",
+            "343% / 428.5%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10922,
+      "id": "bestial_ascent",
+      "name": "Bestial Ascent",
+      "description": "Pounces forward using the Wushou arts, leaping high into the air after coming into contact with a target or surface.<br/>After Gaming has used Bestial Ascent to rise into the air, if he immediately uses a Plunging Attack, he will use the especially powerful Plunging Attack: Charmed Cloudstrider instead.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack: Charmed Cloudstrider</span><br/>The DMG from Plunging Attacks caused by Bestial Ascent is converted to <span style=\"color:#FF9999FF\">Pyro DMG</span> that cannot be overridden by other elemental infusions. Upon landing, Gaming will consume a fixed amount of HP. Gaming's HP cannot be reduced below 10% by this method.<br/>Charmed Cloudstrider DMG is considered Plunging Attack DMG.",
+      "info": "\"Auspicious beasts leap high to pluck the greens — that symbolizes good fortune and knowing how to make some serious green, y'know — so may we all rise to new heights, one step at a time!\"",
+      "attributes": [
+        {
+          "label": "Plunging Attack: Charmed Cloudstrider DMG",
+          "values": [
+            "230.4%",
+            "247.7%",
+            "265%",
+            "288%",
+            "305.3%",
+            "322.6%",
+            "345.6%",
+            "368.6%",
+            "391.7%",
+            "414.7%",
+            "437.8%",
+            "460.8%",
+            "489.6%",
+            "518.4%",
+            "547.2%"
+          ]
+        },
+        {
+          "label": "HP Cost",
+          "values": [
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10925,
+      "id": "suannis_gilded_dance",
+      "name": "Suanni's Gilded Dance",
+      "description": "Gaming enters Wushou Stance, briefly applying <span style=\"color:#FF9999FF\">Pyro</span> to him, recovering a fixed amount of HP, and summons his companion, the Suanni Man Chai, to smash into his target, dealing <span style=\"color:#FF9999FF\">AoE Pyro DMG</span>.<br/>After bashing its target, Man Chai will roll to a nearby location before moving towards Gaming. When it links up with Gaming, Man Chai will leave the field and reset the CD for Gaming's Elemental Skill, Bestial Ascent.<br/>While Wushou Stance is active, his resistance to interruption is increased, and when Gaming lands with Charmed Cloudstrider attack or completes the forward pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again.<br/>Each Gaming can only have 1 Man Chai on the field simultaneously.<br/>This effect will be canceled once Gaming leaves the field.",
+      "info": "\"The gilded Suanni spits out fortune like a fireworks show! Hey, now that's what's called prosperity, when business is really 'booming'!\"",
+      "attributes": [
+        {
+          "label": "Suanni Man Chai Smash DMG",
+          "values": [
+            "370.4%",
+            "398.2%",
+            "426%",
+            "463%",
+            "490.8%",
+            "518.6%",
+            "555.6%",
+            "592.6%",
+            "629.7%",
+            "666.7%",
+            "703.8%",
+            "740.8%",
+            "787.1%",
+            "833.4%",
+            "879.7%"
+          ]
+        },
+        {
+          "label": "Skill Healing",
+          "values": [
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP"
+          ]
+        },
+        {
+          "label": "Wushou Stance Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "dance_of_amity",
+      "name": "Dance of Amity",
+      "description": "After <span style=\"color:#FFD780FF\">Bestial Ascent</span>'s Plunging Attack: Charmed Cloudstrider hits an opponent, Gaming will regain 1.5% of his Max HP once every 0.2s for 0.8s.",
+      "level": 1
+    },
+    {
+      "id": "air_of_prosperity",
+      "name": "Air of Prosperity",
+      "description": "When Gaming has less than 50% HP, he will receive a 20% Incoming Healing Bonus. When Gaming has 50% HP or more, Plunging Attack: Charmed Cloudstrider will deal 20% more DMG.",
+      "level": 4
+    },
+    {
+      "id": "the_striding_beast",
+      "name": "The Striding Beast",
+      "description": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.<br/>Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 921,
+      "id": "bringer_of_blessing",
+      "name": "Bringer of Blessing",
+      "description": "When the Suanni Man Chai from <span style=\"color:#FFD780FF\">Suanni's Gilded Dance</span> meets back up with Gaming, it will heal 15% of Gaming's HP.",
+      "level": 1
+    },
+    {
+      "_id": 922,
+      "id": "plum_blossoms_underfoot",
+      "name": "Plum Blossoms Underfoot",
+      "description": "When Gaming receives healing and this instance of healing overflows, his ATK will be increased by 20% for 5s.",
+      "level": 2
+    },
+    {
+      "_id": 923,
+      "id": "awakening_spirit",
+      "name": "Awakening Spirit",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Bestial Ascent</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 924,
+      "id": "soar_across_mountains",
+      "name": "Soar Across Mountains",
+      "description": "When <span style=\"color:#FFD780FF\">Bestial Ascent</span>'s Plunging Attack: Charmed Cloudstrider hits an opponent, it will restore 2 Energy to Gaming. This effect can be triggered once every 0.2s.",
+      "level": 4
+    },
+    {
+      "_id": 925,
+      "id": "evildaunting_roar",
+      "name": "Evil-Daunting Roar",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Suanni's Gilded Dance</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 926,
+      "id": "to_tame_all_beasts",
+      "name": "To Tame All Beasts",
+      "description": "<span style=\"color:#FFD780FF\">Bestial Ascent</span>'s Plunging Attack: Charmed Cloudstrider CRIT Rate increased by 20% and CRIT DMG increased by 40%, and its attack radius will be increased.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "957"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "25"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "59"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2460",
+            "3175"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "65",
+            "84"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "151",
+            "195"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4755",
+            "5264"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "126",
+            "139"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "293",
+            "324"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104111,
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112002,
+        "id": "slime_condensate",
+        "name": "Slime Condensate",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6054",
+            "6732"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "160",
+            "178"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "373",
+            "414"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113051,
+        "id": "emperors_resolution",
+        "name": "Emperor's Resolution",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112002,
+        "id": "slime_condensate",
+        "name": "Slime Condensate",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7523",
+            "8031"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "199",
+            "212"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "463",
+            "494"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113051,
+        "id": "emperors_resolution",
+        "name": "Emperor's Resolution",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112003,
+        "id": "slime_secretions",
+        "name": "Slime Secretions",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8821",
+            "9329"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "233",
+            "246"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "543",
+            "574"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113051,
+        "id": "emperors_resolution",
+        "name": "Emperor's Resolution",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112003,
+        "id": "slime_secretions",
+        "name": "Slime Secretions",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10120",
+            "10628"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "267",
+            "281"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "623",
+            "654"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113051,
+        "id": "emperors_resolution",
+        "name": "Emperor's Resolution",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112004,
+        "id": "slime_concentrate",
+        "name": "Slime Concentrate",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11419",
+            "11419"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "302",
+            "302"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "703",
+            "703"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104114,
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113051,
+        "id": "emperors_resolution",
+        "name": "Emperor's Resolution",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100033,
+        "id": "starconch",
+        "name": "Starconch",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112004,
+        "id": "slime_concentrate",
+        "name": "Slime Concentrate",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104310,
+          "id": "teachings_of_prosperity",
+          "name": "Teachings of Prosperity",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112002,
+          "id": "slime_condensate",
+          "name": "Slime Condensate",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104311,
+          "id": "guide_to_prosperity",
+          "name": "Guide to Prosperity",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113056,
+          "id": "lightless_mass",
+          "name": "Lightless Mass",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113056,
+          "id": "lightless_mass",
+          "name": "Lightless Mass",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113056,
+          "id": "lightless_mass",
+          "name": "Lightless Mass",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104312,
+          "id": "philosophies_of_prosperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113056,
+          "id": "lightless_mass",
+          "name": "Lightless Mass",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 209200,
+      "name": "Ranging Rainbow",
+      "description": "Gaming's outfit. There's no need for a fancy getup when going out. A few plain layers, comfortable shoes, and voila, you're on solid footing!",
+      "isDefault": true,
+      "characterName": "Gaming",
+      "characterId": 10000092,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Gaming_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Hey, Boss! The name's Gaming — I'm a guard from the Communications Office. So, all this needs shipping, right? No, no, you grab a seat and have some tea — I'll get these packed up for you, no problem. It'll only take me a minute, then we can get the delivery scheduled. Oh! And if you ever wanna book a Wushou Dance, me and my crew are available in a heartbeat! The troupe's called the Mighty Mythical Beasts, and I'm the head, hehe, not to brag or anything."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Wushou Dance",
+      "text": "Boom-boom tsh, and eyes! And boom-boom tsh, and mouth! And... hmm... I need to tighten up that part."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Armed Escort",
+      "text": "Whether it takes me uphill, downhill, or out to the sticks, I get the goods from A to B — I'll even take 'em across the sea if needed. So don't worry, you're in safe hands. They don't call me the Gold-Standard Guard for nothing!"
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Dim Sum",
+      "text": "A pot of tea with a couple of nibbles, some seasonal greens, and a piping-hot bowl of fresh congee... Ahh, that's a dope breakfast right there! The perfect way to start your day."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Rain! Oh man, I hope I brought the laundry in!"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Hey, you hear that? Someone just got wrecked! If you're gonna swear on high heaven, don't make an oath you can't keep."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "Ahhh... Eh? Why can't I catch any in my mouth?"
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Great, sun's out! 'Bout time we had some dry heat. It's been so muggy lately."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "Dang, I bet water costs an arm and a leg around here? Good thing I brought my own."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Just finished my kung-fu practice. I'm about to go for dim sum, you wanna join?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "You know my favorite thing to have for lunch? Breakfast. Join me for dim sum?"
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "I managed to book this cool place for dinner! They only do evening service, and it's invite-only. Since you're here with me, wanna come with? Use it or snooze it. C'mon, let's go!"
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Hittin' the hay? No? ...You hungry? Wanna grab a bite?"
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Gaming: Hometown",
+      "text": "Ever been to Qiaoying Village? I grew up there. It's a big tea-growing region — Sunglo and Single-Origin Yauwan both come from there. You know what, no time like the present — I got a box of totally dope Single-Origin here, let's get to a teahouse and brew us a pot right now! I'll get some nibbles too, my treat!"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Gaming: This Day and Age",
+      "text": "The fact that I'm able to put food on my plate, and still have the time and energy to focus on my Wushou Dancing, in this day and age... it's all thanks to the folks who've supported me along the way. So I owe it to them to put a hundred and ten percent into this job. Of course, no one's complaining if I still manage to find time to do them the occasional favor and take them for dim sum, haha!"
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Show of Support",
+      "text": "When I'm not on a delivery run, I do wushou dancing on the streets of Liyue Harbor. Do you think you could come along and watch sometime to support me? No, no, it's completely free. As long as people are entertained, I'm a happy guy."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Dim Sum Time",
+      "text": "Always remember that you can rely on your friends. When the going gets tough, don't soldier on alone — just get in touch and I'll be there! Oh — but hopefully it won't come to that, knock on wood! Here's hoping that next time you get in touch, everything's peaches and cream, and you just need a dim sum buddy!"
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Some martial arts novels say that the key to becoming a kung-fu master is tapping into the body's yin-yang energy reserves, hidden in the governor and conception vessels. Well, that's what getting a Vision felt like! ...Haha, just kidding. I'm no kung-fu master — just a good neighbor, thanks to the extra energy it gives me. But that's just me — now imagine if you had a Vision... I mean, looking at everything you can already do without one... Man, that'd be something."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Man Chai's such a little rascal! I gave him the name 'cause it means \"well-behaved,\" hoping it would rub off on him. Heh... whole lot of good that did! But it's no biggie, all that hyperactive energy makes for a more exciting wushou dance. Also, I feel like watching Man Chai has helped me get a better handle on how suanni look in action. Soon as I put my Wushou head on, I'm right in the zone, roar!"
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "With a lot of herbs, flowers, and even the twigs and bark of certain trees, if you dry them out then boil them in water, it makes a really refreshing drink with a ton of health benefits! Cools you down, calms the mind, and so on. Granny and Aunty tell me that drinking one of these herbal teas before and after eating fried foods helps clear your system and reduce heatiness."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Xiangling",
+      "text": "Pretty much everything Chef Xiangling cooks is a winner, but my favorite has to be her Black-Back Perch Stew. I always try to rinse off the molten lava sauce before each bite, but I'm still like \"ss, ah, ss, ah\" trying to cool my mouth down, hahaha! Worth every bite though, and they do generous portions — you can see why it's Wanmin's signature dish. I'll be back for my next fix soon!"
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Xingqiu",
+      "text": "The Feiyun Commerce Guild's a longtime client of the Secure Transport Agency. The older brother's the one who usually takes care of business with us, but there was one time when Xingqiu piped up with a question for me. So I start rambling away, giving him all the routes and delivery dates for all their recent orders... Turns out all he wanted to know was when the Wanwen Bookhouse is getting their next delivery in, hahaha..."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Chongyun",
+      "text": "I heard that guy's got a \"pure-yang spirit\"? Where I'm from, we call that heatiness. Dude needs to drink more herbal teas, for real."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Keqing",
+      "text": "It's all thanks to the Yuheng that we don't get so many bandits on the road between Liyue Harbor and Yilong Wharf anymore. She's the one who spearheaded the crackdown on all that. ...You think my job's at risk, huh? Haha, they ain't gonna get rid of me that easily. Sure, maybe there's no more bandits to fight, but you're always gonna need a strong pair of arms to lug the cargo around."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Baizhu",
+      "text": "Working as a guard and doing Wushou Dancing means I have a pretty injury-prone lifestyle. Good thing is, Dr. Baizhu's medicine is always there to save the day. Seriously, it's like the one thing people should pack before going on a long journey or family vacation. My workmates at the Secure Transport Agency always get me to bring some back for them when I come to Liyue Harbor."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Qiqi",
+      "text": "Ah, Qiqi, the lovable munchkin. She's convinced that all my accidents are due to stiff joints, so whenever I'm at Bubu Pharmacy stocking up on medicine, she makes me do some stretches with her to limber me up, haha. It's easy, wanna try? Ok, after me: One, two three, four; two, two, three, four..."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Yun Jin",
+      "text": "Yun Jin's a huge inspiration to me! Everyone agrees that she's a fantastic singer, from the experts to the casual listener. Incredible. If the Mighty Mythical Beasts ever get half as successful as the Yun-Han Opera Troupe... don't pinch me, 'cause I won't wanna wake up!"
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Xinyan",
+      "text": "Xinyan's music is fire! No pun intended. Man Chai goes crazy for it — always gets him moshing away like a mad gremlin. I'd love to do a joint show together one day. \"Roaring Beasts: A Rock 'N' Roll Wushou Dance.\" Whaddya think, has it got legs?"
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Xianyun",
+      "text": "Aunty Xianyun always has my back. Once, she saw that my Wushou head was looking a little worse for wear, and instantly said she could make, like, ten more for me, all twice my size. She was pretty insistent — it took me forever to talk her down to just remodeling the one I already had... And boy, is this an improvement! It looks way more impressive, it's much lighter, and the lion blanket constantly rustles in the air like there's an adeptal wind making it dance. I couldn't be happier with it!"
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Zhongli",
+      "text": "Mr. Zhongli seems like the kind of guy who had an expensive education. Seems like whenever I make a delivery to a teahouse or opera house, he's always there drinking tea, listening to the storyteller, and looking like the smartest guy in the room. Dude, I once overheard him talking to someone about tea — I was like, man, if he ever got talking to my dad, that conversation would go on all night..."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Charlotte",
+      "text": "Oh, yeah, yeah, the journalist, I know who you mean! All the Fontainians in Yilong Wharf read The Steambird, and sometimes I take a peekski too. Seems like all the best articles have her name on them. Wait! And you were on the front page once! That was you, right?"
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Lan Yan",
+      "text": "Being friends with Lan Yan is a food-lover's dream! You've gotta ask her to take you into the mountains to try the local dishes. There's even a place where you can bring your own ingredients. Just tell her Gaming told you about it, and she'll know the one. Oh, the mountain roads are hard to navigate, so you'll definitely need her to lead the way. Don't want you getting lost out there! Anyway, eat as much as you want, okay? The boss is my friend, so just put it on my tab and call it a day!"
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Gaming: I",
+      "text": "I'm the best wushou-dancer in the Secure Transport Agency, and the busiest guard in the wushou-dancing community, how 'bout that? That do anything for ya?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Gaming: II",
+      "text": "You can tell if someone's a pushover just by looking at their basic kung fu skills: horse stance, kicks, splits, jumps, tumbling... If you can't even hack those, hoo boy. Best-case scenario, you might fall off a high pole during a wushou dance and be bedridden for a couple of weeks. Worst-case scenario, you run into bandits on a delivery run and you can't fight 'em off. Definitely lose the cargo, probably your life too... Scary thought, huh? Yeah, I thought so too — that's why I said it to the other guys in the agency to persuade them to train with me! Hahaha."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Gaming: III",
+      "text": "They're delicate y'know — the wushou head and blanket, the drums, the cymbals — and I practice a lot, so they deteriorate pretty quickly. You gotta be diligent about maintaining that stuff, and it costs a lot of Mora. Then there's the meals out with friends, gift-shopping for birthdays and festivals, spotting my buddies a few Mora when they're strapped for cash... It all adds up. And that's how I blow through pretty much my whole salary every month."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Gaming: IV",
+      "text": "My dad keeps hoping I'll come 'round to the idea of him teaching me how to do business one day. He doesn't seem to realize that the whole reason I left my hometown in the first place is 'cause I've already figured out what's best for me. Firstly, I wanna show him that my wushou dancing isn't just a phase — I'm gonna make a name for myself or die trying! Secondly... I'm done clashing with him all the time. I don't hate the guy, I mean, he's still my dad and everything, it's just... every time he opens his mouth, it's a verbal assault, and I'd rather stay out of his line of fire!"
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Gaming: V",
+      "text": "This bruise here's a fresh one, got it when I was practicing my kicks the other day... And this bump showed up after I took a knock during a somersault. That was last month, and it's almost healed now. This scar right here, though, that was a doozie and a half. I had a bad fall the first time I was practicing on the high pole — cut myself up pretty bad. There was so much blood, I thought my wushou dancing career was over before it began... I've had some near misses since then, but thankfully nothing serious. I'm still up to it... Just gotta keep at it..."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Gaming's Hobbies",
+      "text": "When you go for tea but stay for the dim sum, we call that \"yum cha.\" What you wanna do is get some sweet dim sum and some savory dim sum — gotta make it a balanced meal — and order a mix of ready-made dim sum and made-to-order dim sum, so that you can snack on dim sum while you're waiting on your other dim sum... Funnily enough, I never need lunch on a dim sum day. Lemme know when you're free, I'll take you some time! And don't be afraid to order a bit of everything, you can always pack up the leftovers and take them home."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Gaming's Troubles",
+      "text": "How much!? ...Alright fine, I'll bite the bullet on the service charge, but I'm not paying extra for a few wet wipes, okay? Matter of fact, I brought my own, so you can keep 'em!"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I was a little monster when I was a kid. I'd get into trouble, then refuse to apologize, and my exasperated mom would say \"I wish I'd given birth to a chunk of char siu instead of you!\" Now every time I eat char siu, it makes me think of her..."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Everyone says I have weird taste... Call me crazy, but all I want is for my fowl to taste like fowl, and my fish to taste like fish."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Dang, are you secretly a god? Because this tastes like heaven! No joke. I'm calling you \"kitchen god\" from now on."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "You made this yourself? Wow. You're too good to me! Seriously, you are an amazing cook."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "I'm a big believer in owning your mistakes and taking criticism on the chin... So next time I upset you, there's no need to go to all this trouble — you can just smack me in the face instead!"
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "So a little birdie told me that it's your birthday today... When were you planning on telling me? Tsk... Anyway, I went ahead and made a reservation at Xinyue Kiosk. Eight dishes, a soup, and as much rice as you can eat, with Longevity Buns and Tong Sui for dessert. Plus I invited all your friends along. Uh, and I also put together a little birthday wushou dance for you — nothing extravagant, just a bit of fun really — but yeah, I hope you like it!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Whoa, is this all for me? Dang, how much did this put you out? You shouldn't have..."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Oh man, you're trusting me with a lot of power here. But I promise you, it's in good hands. I'm gonna ramp up my kung fu training and hustle hard, watch me!"
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "If I can guard shipments, I can guard people. Since you seem to trust me, how 'bout I be your bodyguard from now on?"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "Thanks for doing the lion's share of the work to get me this far. I know better than to promise I can guarantee your safety in your future travels, but you'd better believe I'll bust a gut trying to help you achieve your dreams!"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Sorry, pal."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Alley-oop!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Congratulations!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Many happy returns."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Hop to it, Man Chai!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Mighty mythical beast!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Oh, cool! This stuff looks dope!"
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Where do you want this stuff delivered to, Boss?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Good things come to those who wait!"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "No pain, no gain..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "The feeling is mutual..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Still breathing!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Take five, I've got this!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Hey, don't push yourself!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "I gotta... run..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "Show's over, folks..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Forget about me, just go..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Hey, what gives!?"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Stop it now!"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Ready to rumble!"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Got it! I'll start my warm-up routine!"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Is there time to sneak in some dim sum first?"
+    }
+  ]
+}

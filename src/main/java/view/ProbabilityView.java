@@ -24,6 +24,7 @@ public class ProbabilityView extends JPanel implements ProbabilityViewModelListe
     private final JButton calculateButton = new JButton("Calculate");
 
     private final JLabel probabilityLabel = new JLabel(" ");
+    private final JLabel guaranteeLabel = new JLabel(" ");
     private final JLabel errorLabel = new JLabel(" ");
 
     public ProbabilityView(ProbabilityViewModel probabilityViewModel,
@@ -57,6 +58,7 @@ public class ProbabilityView extends JPanel implements ProbabilityViewModelListe
 
         probabilityLabel.setFont(probabilityLabel.getFont().deriveFont(Font.BOLD, 28f));
         probabilityLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
+        guaranteeLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
         errorLabel.setForeground(Color.RED);
         errorLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
 
@@ -69,6 +71,7 @@ public class ProbabilityView extends JPanel implements ProbabilityViewModelListe
         this.add(calculateButton);
         this.add(Box.createVerticalStrut(12));
         this.add(probabilityLabel);
+        this.add(guaranteeLabel);
         this.add(errorLabel);
     }
 
@@ -76,6 +79,7 @@ public class ProbabilityView extends JPanel implements ProbabilityViewModelListe
     public void stateChanged() {
         final ProbabilityState state = probabilityViewModel.getState();
         probabilityLabel.setText(orBlank(state.getProbabilityText()));
+        guaranteeLabel.setText(orBlank(state.getGuaranteeMessage()));
         errorLabel.setText(orBlank(state.getErrorMessage()));
     }
 
@@ -87,7 +91,7 @@ public class ProbabilityView extends JPanel implements ProbabilityViewModelListe
         this.probabilityController = probabilityController;
     }
 
-    // An empty JLabel collapses, so keep a space to stop the layout from jumping.
+    // empty label collapses, so use a space instead
     private static String orBlank(String text) {
         return text.isEmpty() ? " " : text;
     }

@@ -1,0 +1,1837 @@
+{
+  "_id": 10000030,
+  "id": "zhongli",
+  "name": "Zhongli",
+  "title": "Vago Mundo",
+  "description": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+  "weapon_type": {
+    "id": "polearm",
+    "name": "Polearm"
+  },
+  "element": {
+    "id": "geo",
+    "name": "Geo"
+  },
+  "gender": {
+    "id": "male",
+    "name": "Male"
+  },
+  "release": 1606874400,
+  "substat": "Geo DMG Bonus",
+  "stats": {
+    "base": {
+      "hp": 1143.984,
+      "attack": 19.551,
+      "defense": 57.4368
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 980.8628,
+        "attack": 16.762,
+        "defense": 49.248,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1677.7917,
+        "attack": 28.6718,
+        "defense": 84.24,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0.072
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2607.0303,
+        "attack": 44.5516,
+        "defense": 130.896,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 70,
+        "hp": 3303.959,
+        "attack": 56.4614,
+        "defense": 165.888,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 80,
+        "hp": 4000.888,
+        "attack": 68.3713,
+        "defense": 200.88,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0.216
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4697.817,
+        "attack": 80.2811,
+        "defense": 235.872,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0.288
+        }
+      }
+    ]
+  },
+  "affiliation": "Liyue Harbor",
+  "region": {
+    "id": "liyue",
+    "name": "Liyue"
+  },
+  "rarity": 5,
+  "birthday": [
+    31,
+    12
+  ],
+  "constellation": "???",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Keith Silverstein",
+    "chinese": "彭博",
+    "japanese": "前野智昭",
+    "korean": "Pyo Young-jae"
+  },
+  "skills": [
+    {
+      "_id": 10301,
+      "id": "rain_of_stone",
+      "name": "Rain of Stone",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 6 consecutive spear strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "30.8%",
+            "33.3%",
+            "35.8%",
+            "39.4%",
+            "41.9%",
+            "44.7%",
+            "48.7%",
+            "52.6%",
+            "56.5%",
+            "60.8%",
+            "65.7%",
+            "71.5%",
+            "77.3%",
+            "83.1%",
+            "89.4%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "31.2%",
+            "33.7%",
+            "36.2%",
+            "39.8%",
+            "42.4%",
+            "45.3%",
+            "49.3%",
+            "53.2%",
+            "57.2%",
+            "61.6%",
+            "66.6%",
+            "72.4%",
+            "78.3%",
+            "84.1%",
+            "90.5%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "38.6%",
+            "41.7%",
+            "44.9%",
+            "49.3%",
+            "52.5%",
+            "56.1%",
+            "61%",
+            "65.9%",
+            "70.9%",
+            "76.3%",
+            "82.4%",
+            "89.7%",
+            "96.9%",
+            "104.2%",
+            "112.1%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "42.9%",
+            "46.4%",
+            "49.9%",
+            "54.9%",
+            "58.4%",
+            "62.4%",
+            "67.9%",
+            "73.4%",
+            "78.9%",
+            "84.9%",
+            "91.7%",
+            "99.8%",
+            "107.9%",
+            "116%",
+            "124.8%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "10.8%×4",
+            "11.6%×4",
+            "12.5%×4",
+            "13.8%×4",
+            "14.6%×4",
+            "15.6%×4",
+            "17%×4",
+            "18.4%×4",
+            "19.8%×4",
+            "21.3%×4",
+            "23%×4",
+            "25%×4",
+            "27%×4",
+            "29%×4",
+            "31.2%×4"
+          ]
+        },
+        {
+          "label": "6-Hit DMG",
+          "values": [
+            "54.5%",
+            "58.9%",
+            "63.4%",
+            "69.7%",
+            "74.1%",
+            "79.2%",
+            "86.2%",
+            "93.2%",
+            "100.1%",
+            "107.7%",
+            "116.4%",
+            "126.7%",
+            "136.9%",
+            "147.2%",
+            "158.4%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "111%",
+            "120.1%",
+            "129.1%",
+            "142%",
+            "151%",
+            "161.4%",
+            "175.6%",
+            "189.8%",
+            "204%",
+            "219.5%",
+            "237.2%",
+            "258.1%",
+            "279%",
+            "299.8%",
+            "322.6%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10302,
+      "id": "dominus_lapidis",
+      "name": "Dominus Lapidis",
+      "description": "Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.<br/><br/><span style=\"color:#FFD780FF\">Press</span><br/>Commands the power of earth to create a Stone Stele.<br/><br/><span style=\"color:#FFD780FF\">Hold</span><br/>Causes nearby Geo energy to explode, causing the following effects:<br/>·If their maximum number hasn't been reached, creates a Stone Stele.<br/>·Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.<br/>·Deals <span style=\"color:#FFE699FF\">AoE Geo DMG</span>.<br/>·If there are nearby targets with the <span style=\"color:#FFE699FF\">Geo element</span>, it will drain a large amount of <span style=\"color:#FFE699FF\">Geo element</span> from a maximum of 2 such targets. This effect does not cause DMG.<br/><br/><span style=\"color:#FFD780FF\">Stone Stele</span><br/>When created, deals <span style=\"color:#FFE699FF\">AoE Geo DMG</span>.<br/>Additionally, it will intermittently resonate with other nearby <span style=\"color:#FFE699FF\">Geo constructs</span>, dealing <span style=\"color:#FFE699FF\">Geo DMG</span> to nearby opponents.<br/>The Stone Stele is considered a <span style=\"color:#FFE699FF\">Geo construct</span> that can both be climbed and used to block attacks.<br/>Only one Stele created by Zhongli himself may initially exist at any one time.<br/><br/><span style=\"color:#FFD780FF\">Jade Shield</span><br/>Possesses 150% DMG Absorption against all Elemental and Physical DMG.<br/>Characters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.",
+      "info": "A true master of stone may carve jade and shape gold.",
+      "attributes": [
+        {
+          "label": "Stone Stele/Resonance DMG",
+          "values": [
+            "16% / 32%",
+            "17.2% / 34.4%",
+            "18.4% / 36.8%",
+            "20% / 40%",
+            "21.2% / 42.4%",
+            "22.4% / 44.8%",
+            "24% / 48%",
+            "25.6% / 51.2%",
+            "27.2% / 54.4%",
+            "28.8% / 57.6%",
+            "30.4% / 60.8%",
+            "32% / 64%",
+            "34% / 68%",
+            "36% / 72%",
+            "38% / 76%"
+          ]
+        },
+        {
+          "label": "Press CD",
+          "values": [
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s"
+          ]
+        },
+        {
+          "label": "Hold DMG",
+          "values": [
+            "80%",
+            "86%",
+            "92%",
+            "100%",
+            "106%",
+            "112%",
+            "120%",
+            "128%",
+            "136%",
+            "144%",
+            "152%",
+            "160%",
+            "170%",
+            "180%",
+            "190%"
+          ]
+        },
+        {
+          "label": "Shield Base Absorption",
+          "values": [
+            "1232",
+            "1356",
+            "1489",
+            "1633",
+            "1787",
+            "1951",
+            "2126",
+            "2311",
+            "2506",
+            "2712",
+            "2927",
+            "3153",
+            "3389",
+            "3636",
+            "3893"
+          ]
+        },
+        {
+          "label": "Additional Shield Absorption",
+          "values": [
+            "12.8% Max HP",
+            "13.8% Max HP",
+            "14.7% Max HP",
+            "16% Max HP",
+            "17% Max HP",
+            "17.9% Max HP",
+            "19.2% Max HP",
+            "20.5% Max HP",
+            "21.8% Max HP",
+            "23% Max HP",
+            "24.3% Max HP",
+            "25.6% Max HP",
+            "27.2% Max HP",
+            "28.8% Max HP",
+            "30.4% Max HP"
+          ]
+        },
+        {
+          "label": "Shield Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Hold CD",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10303,
+      "id": "planet_befall",
+      "name": "Planet Befall",
+      "description": "Brings a falling meteor down to earth, dealing massive <span style=\"color:#FFE699FF\">Geo DMG</span> to opponents caught in its AoE and applying the <span style=\"color:#FFE699FF\">Petrification</span> status to them.<br/><br/><span style=\"color:#FFD780FF\">Petrification</span><br/>Opponents affected by the <span style=\"color:#FFE699FF\">Petrification</span> status cannot move.",
+      "info": "The falling meteor punishes the unjust.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "401.1%",
+            "444.4%",
+            "487.8%",
+            "542%",
+            "590.8%",
+            "639.6%",
+            "704.6%",
+            "769.6%",
+            "834.7%",
+            "899.7%",
+            "964.8%",
+            "1029.8%",
+            "1084%",
+            "1138.2%",
+            "1192.4%"
+          ]
+        },
+        {
+          "label": "Petrification Duration",
+          "values": [
+            "3.1s",
+            "3.2s",
+            "3.3s",
+            "3.4s",
+            "3.5s",
+            "3.6s",
+            "3.7s",
+            "3.8s",
+            "3.9s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "resonant_waves",
+      "name": "Resonant Waves",
+      "description": "When the Jade Shield takes DMG, it will Fortify:<br/>·Fortified characters have 5% increased Shield Strength.<br/>Can stack up to 5 times, and lasts until the Jade Shield disappears.",
+      "level": 1
+    },
+    {
+      "id": "dominance_of_earth",
+      "name": "Dominance of Earth",
+      "description": "Zhongli deals bonus DMG based on his Max HP:<br/>·Normal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP.<br/>·<span style=\"color:#FFD780FF\">Dominus Lapidis'</span> Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.<br/>·<span style=\"color:#FFD780FF\">Planet Befall's</span> DMG is increased by 33% of Max HP.",
+      "level": 4
+    },
+    {
+      "id": "arcanum_of_crystal",
+      "name": "Arcanum of Crystal",
+      "description": "Refunds 15% of the ore used when crafting Polearm-type weapons.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 301,
+      "id": "rock_the_backbone_of_earth",
+      "name": "Rock, the Backbone of Earth",
+      "description": "Increases the maximum number of Stone Steles created by <span style=\"color:#FFD780FF\">Dominus Lapidis</span> that may exist simultaneously to 2.",
+      "level": 1
+    },
+    {
+      "_id": 302,
+      "id": "stone_the_cradle_of_jade",
+      "name": "Stone, the Cradle of Jade",
+      "description": "<span style=\"color:#FFD780FF\">Planet Befall</span> grants nearby characters on the field a Jade Shield when it descends.",
+      "level": 2
+    },
+    {
+      "_id": 303,
+      "id": "jade_shimmering_through_darkness",
+      "name": "Jade, Shimmering through Darkness",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Dominus Lapidis</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 304,
+      "id": "topaz_unbreakable_and_fearless",
+      "name": "Topaz, Unbreakable and Fearless",
+      "description": "Increases <span style=\"color:#FFD780FF\">Planet Befall</span>'s AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s.",
+      "level": 4
+    },
+    {
+      "_id": 305,
+      "id": "lazuli_herald_of_the_order",
+      "name": "Lazuli, Herald of the Order",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Planet Befall</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 306,
+      "id": "chrysos_bounty_of_dominator",
+      "name": "Chrysos, Bounty of Dominator",
+      "description": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character.<br/>A single instance of regeneration cannot exceed 8% of that character's Max HP.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1144"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "20"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "57"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2967",
+            "3948"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "51",
+            "67"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "149",
+            "198"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5908",
+            "6605"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "101",
+            "113"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "297",
+            "332"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "0.0%",
+            "7.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104171,
+        "id": "prithiva_topaz_sliver",
+        "name": "Prithiva Topaz Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100058,
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112002,
+        "id": "slime_condensate",
+        "name": "Slime Condensate",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7599",
+            "8528"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "130",
+            "146"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "382",
+            "428"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "7.2%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113009,
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100058,
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112002,
+        "id": "slime_condensate",
+        "name": "Slime Condensate",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9533",
+            "10230"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "163",
+            "175"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "479",
+            "514"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "14.4%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113009,
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100058,
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112003,
+        "id": "slime_secretions",
+        "name": "Slime Secretions",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11243",
+            "11940"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "192",
+            "204"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "564",
+            "599"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "14.4%",
+            "21.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113009,
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100058,
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112003,
+        "id": "slime_secretions",
+        "name": "Slime Secretions",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12965",
+            "13662"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "222",
+            "233"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "651",
+            "686"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "21.6%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113009,
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100058,
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112004,
+        "id": "slime_concentrate",
+        "name": "Slime Concentrate",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "14695",
+            "14695"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "251",
+            "251"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "738",
+            "738"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "28.8%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104174,
+        "id": "prithiva_topaz_gemstone",
+        "name": "Prithiva Topaz Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113009,
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100058,
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112004,
+        "id": "slime_concentrate",
+        "name": "Slime Concentrate",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104316,
+          "id": "teachings_of_gold",
+          "name": "Teachings of Gold",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112002,
+          "id": "slime_condensate",
+          "name": "Slime Condensate",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112003,
+          "id": "slime_secretions",
+          "name": "Slime Secretions",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113013,
+          "id": "tusk_of_monoceros_caeli",
+          "name": "Tusk of Monoceros Caeli",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113013,
+          "id": "tusk_of_monoceros_caeli",
+          "name": "Tusk of Monoceros Caeli",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113013,
+          "id": "tusk_of_monoceros_caeli",
+          "name": "Tusk of Monoceros Caeli",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112004,
+          "id": "slime_concentrate",
+          "name": "Slime Concentrate",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113013,
+          "id": "tusk_of_monoceros_caeli",
+          "name": "Tusk of Monoceros Caeli",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 203000,
+      "name": "Hermit of Mortal Life",
+      "description": "Zhongli's outfit. This is the leisurewear of choice for Zhongli, the Wangsheng Funeral Parlor's consultant.",
+      "isDefault": true,
+      "characterName": "Zhongli",
+      "characterId": 10000030,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Zhongli_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "A new contract? Okay. I'm still on leave, but I can accompany you for a while. What name should I use on the contract? I have a great many names, though when on leave I tend to go by Zhongli. And you, Traveler? What name will you be signing on this contract?"
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Journeys",
+      "text": "Every journey has its final day. Don't rush."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Tours",
+      "text": "Where do you want to go next? If you'd like to see Liyue's tourist spots, I have a few references."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Liyue",
+      "text": "Boats are made for transferring commodities back and forth, and those that come across Liyue tend to stay a while, so it is where many things come to settle."
+    },
+    {
+      "id": "1104",
+      "type": 1,
+      "title": "Chat: Reminiscing",
+      "text": "Osmanthus wine tastes the same as I remember... But where are those who share the memory?"
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "Violetgrass is a plant that enjoys a moist environment and is best picked after it rains. If you should choose to pick any, be sure to store them appropriately."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "We should look for a place to take shelter. I'll be fine, but we don't want you catching a cold."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "This weather is no good for being on vacation. We should go and take in an opera."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "I hope today too shall be prosperous."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Want a quick meal to pick us back up? I know a good place in Chihu Rock."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "By this time of night, we will have already missed Ms. Yun's play, but Liyue is full of interesting places to explore, even at night."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "The market is closed and the port has settled. Go get some rest."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Zhongli",
+      "text": "Nothing can be accomplished without rules or standards. No matter if it is mortals or adepti, everyone has their place. This rule is what keeps Liyue in peace."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Gold",
+      "text": "Gold is Liyue's treasure. It is the blood that runs through her heart. As for whether your own heart shines like gold — we will have to wait and see."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Contracts",
+      "text": "You and I have a contract, so feel free to discuss anything at all within the scope of said contract."
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Us: Fairness",
+      "text": "We can discuss matters that fall outside of our contract, too. After all, I have been on this land for a time, and have come to know a thing or two. Of course, I do hope you can do some things for me as well. That would only be fair."
+    },
+    {
+      "id": "2006",
+      "type": 1,
+      "title": "About Us: Confusion",
+      "text": "Contracts cannot be used to define friendship, nor measure sentiment. So just what can we use to measure the weight of our emotions? Do you know the answer, friend?"
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "Visions... are also a type of contract. You should know that all power comes at a price. For every bit of power you gain, so too do you gain more responsibility."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Trade relies on both contracts and fairness. There is one thing you must never forget when making and abiding by a contract: if fairness is lost, then the contract shall become proof of one's deception."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "If you're heading to Jueyun Karst, please bring me back a bunch of Qingxin. Just one bunch is enough. Travel expenses...? Ah, I almost forgot. During the effective period of our contract, travel expenses are to be paid for by yourself. Sorry to bother you."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Xiao",
+      "text": "You speak of the young adeptus of Guili Plains... *sigh* Still fulfilling his duty to this very day. Please, give this Remedium Tertiorum to him on my behalf. Oh, yes... be sure not to let Paimon eat them. Nothing of this world can withstand the power of this medicine."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Venti",
+      "text": "*sniff* Tsk... It reeks of wine. That bard has just been through here, hasn't he? That drunkard is a disgrace to the arts. Oh... Has he tricked you into getting drunk? You're slurring a little. Wait a moment, I'll brew a pot of sobering tea. It'll be ready in only six hours, so just wait a moment."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Ningguang",
+      "text": "Despite the multitude of affairs that she deals with in a day, Ningguang always continues to press on. A rare gem indeed. I'm reminded of the time that she used to walk barefoot from Yaoguang Shoal to the south wharf, trying to sell her wares as she went. Time is cruel to humans."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Hu Tao",
+      "text": "The current overseer of the funeral parlor? Ahem. I cannot deal with that child."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Tartaglia: Composed",
+      "text": "That rascal from Snezhnaya has yet to depart from Liyue? Heh, no matter. Just let me know if he gives you any trouble. I shall deal with the matter swiftly."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Tartaglia: Drinks",
+      "text": "It's said that Childe and his reputation have yet again stirred up waves among the inner ranks of the Fatui. Knowing his type, he will be sure to swiftly depose anyone who dares to challenge his actions. Hmm... Come to think of it, there will be a lot of interesting news to be heard the next time we gather for drinks. Care to join me when the time comes, Traveler?"
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Ganyu",
+      "text": "Liyue's prosperity has not merely been built on Rex Lapis' oracles or wisdom. It is also thanks to the countless servants of the Geo Archon who have honored their end of the contract. Of them, Ganyu is the one who has served for the longest time. If you want to know about her past... You should ask her about it. I fear my wording would not be delicate enough to receive her approval."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Keqing",
+      "text": "She is the most impious of the Qixing — but I actually find the conviction of such people quite endearing. The only reason I was able to consider taking a step back from such overarching management of Liyue was because there are people like her. People who speak up when they believe themselves to be right, and then go and do something decisive about it."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Yanfei",
+      "text": "Despite never having signed a contract with me, she upholds order within many strata of Liyue society in her own way, dispelling misconceptions and correcting biases... Should her father one day return from his travels, I imagine that he would be even more delighted than I."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Baal",
+      "text": "Time tempers all volition. Yet she would give up everyone for her beliefs. Perhaps it is for this very reason that she has come to where she stands today... Should the chance come by me, I too would like to learn of the Eternity for which she so earnestly endeavors."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About Buer",
+      "text": "As well as ruling over all of Sumeru, the God of Wisdom, Buer, has a duty to guard Irminsul. Only one who possesses great wisdom could hope to shoulder these responsibilities. All life in Teyvat owes her gratitude for saving Irminsul."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "About Furina",
+      "text": "She made a contract with her own self to save the nation, strictly adhered to it for over five centuries without once wavering, and even fooled the Heavenly Principles in the end... I have great respect for approaches to justice that place exacting demands not only on others, but also on the self. Though her divinity has vanished and the throne of the Archon is no more, Furina will go down in Fontaine's history as a God of Justice worthy of recognition."
+    },
+    {
+      "id": "4013",
+      "type": 1,
+      "title": "About Xianyun",
+      "text": "I hear many merchants of Liyue tell tales of a Ms. Xianyun. By most accounts, she appears proud and taciturn upon first glance, yet in conversation, people find her to be forthright and fair-minded, and they are pleased to make her acquaintance. I am glad to hear this. But... I have also heard a great many accounts lauding her readiness to part with large sums of Mora..."
+    },
+    {
+      "id": "4014",
+      "type": 1,
+      "title": "About Haborym",
+      "text": "Natlan's long history of struggle fueled its warriors to overcome the Abyss and transcend fate to forge a new future. Behind this triumph stands a leader who wields both time and history as her weapons, with a level of strength that rivals the gods. She is impressive indeed."
+    },
+    {
+      "id": "4015",
+      "type": 1,
+      "title": "About the White Horse Adeptus",
+      "text": "The white horse... An old acquaintance, and one I haven't met in a very long time... One laments spring nights, how short they last, and autumn days that quickly pass. A steed that bolts and swiftly flees, a candle shivering in the breeze."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Zhongli: I",
+      "text": "Why is it that once you finally get a break, rather than taking a rest, you instead come to me? Is it that you want to hear one of my stories?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Zhongli: II",
+      "text": "Have you heard of the origin of the Blackcliff Forge? In the past, they would mine the ore veins of Mt. Tianheng, and then replace the cavities with factory equipment. Tunnels run in all directions throughout the mountain — some even run to the ruins deep within the earth. I doubt there is a person today who could map out all the tunnels."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Zhongli: III",
+      "text": "Have you heard of the origins of the Lantern Rite? In a war, long ago, the people of Liyue would release lanterns to remind their soldiers of the way home, and to never lose sight of themselves. Though in this day and age, I doubt there are any that remember."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Zhongli: IV",
+      "text": "The God of Contracts. Have you heard of him? He has an impressive memory. He remembers the name of every person he comes across, and the date that every ship built in Liyue sets sail. After all, only in being able to do so can he memorize all of the contracts he holds. With that said, not every memory is a happy one..."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Zhongli: V",
+      "text": "For those that live too long, the friends of days gone by and scenes from their adventures live on in their memories. As such, I have no regrets in meeting you, friend. Should the day ever come that we are not together, you will continue to shine like gold in my memories."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Zhongli's Hobbies",
+      "text": "I enjoy partaking in walks through the city — when time permits. I find it very calming. Yes... Just when did this feeling begin...?"
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Zhongli's Troubles",
+      "text": "To get people to abide by a contract and act in accordance with the guidelines set out within is simply to ask them to respect the concept of fairness. It is not a large request. How are there those who still do not understand such simplicity?"
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "There was once a drink I used to enjoy with friends — long ago... Is it because the climate has changed? A shame I will never be able to relish in its smooth flavor again."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "I don't like seafood. Just seeing it reminds me of that... slimy texture, and that scent that just won't wash off. As for why I hate it... *sigh* It's a long story, so let's just say my memory is a little too good."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "The finest ingredients cooked with true expertise. This is no small feat."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "The art of gastronomy is a fascinating one. That it appeals to you comes as no surprise."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Since you seem to have some time on your hands, why don't we find a quiet place and I'll share one of my stories with you."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy birthday. This is a dried Glaze Lily that came into bloom on the day of your birth. Long ago, the people of Liyue would say that this flower blooms bearing the weight of the beautiful memories and prayers of the land. I believe this to have applied on the day you were born as well."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "It seems my strength is returning. Not a lot, but enough."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "My power is growing, and so with it grows the burden on my body... I'm okay. My structure is not the same as that of normal people. Please, do not worry yourself."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "I see. Using a Vision harnesses elements. As far as the common folk are concerned, this is no small feat. So... back then... they were aware of this as they stood beside me..."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "After letting go of my Gnosis, I never expected to see a day like this again. Thank you, friend. Ah, yes, I have a new contract here. Care to take a look at it together?"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Rise!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Quake!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Crumble!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Gather."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Stabilize."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Solidify."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Order guide you."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "This is order."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "I will have order!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "One man's stone is another man's gem..."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Unsolicited... and all the more valuable for it."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Certainly worth the extra mile."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "I see your power."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Ha, this is getting interesting."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Emergency countermeasures aren't my thing."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Don't try to rush your enemy."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Take a rest. Leave it to me."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "Ugh... I'm feeling a little... off..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "You shouldn't see me like this..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Even bedrock can be turned to dust..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Careless..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Nothing to fear."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Sure."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "A walk would be nice."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "What shall we do?"
+    }
+  ]
+}

@@ -1,9 +1,6 @@
 package use_case.calculate_probability;
 
-/**
- * The pity and number of pulls are kept as the text the player entered,
- * so that the Interactor can explain which value is not valid.
- */
+// pity and pulls are strings so the interactor can check them
 public class ProbabilityInputData {
     private final String gameName;
     private final String bannerType;

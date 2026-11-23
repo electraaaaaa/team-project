@@ -1,0 +1,1677 @@
+{
+  "_id": 10000062,
+  "id": "aloy",
+  "name": "Aloy",
+  "title": "Savior From Another World",
+  "description": "Formerly an outcast, now a hunter of unparalleled skill. Ready to do the right thing at any time.",
+  "weapon_type": {
+    "id": "bow",
+    "name": "Bow"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1630443600,
+  "substat": "Cryo DMG Bonus",
+  "stats": {
+    "base": {
+      "hp": 848.4548,
+      "attack": 18.21036,
+      "defense": 52.6504
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ICE_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 727.47327,
+        "attack": 15.612596,
+        "defense": 45.144,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ICE_ADD_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1244.3622,
+        "attack": 26.705757,
+        "defense": 77.22,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ICE_ADD_HURT",
+          "value": 0.072
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1933.5474,
+        "attack": 41.49664,
+        "defense": 119.988,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ICE_ADD_HURT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2450.4363,
+        "attack": 52.589798,
+        "defense": 152.064,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ICE_ADD_HURT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2967.3252,
+        "attack": 63.68296,
+        "defense": 184.14,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ICE_ADD_HURT",
+          "value": 0.216
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3484.214,
+        "attack": 74.77612,
+        "defense": 216.216,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ICE_ADD_HURT",
+          "value": 0.288
+        }
+      }
+    ]
+  },
+  "affiliation": "Wandering Heroine",
+  "region": {
+    "id": "ranger",
+    "name": "RANGER"
+  },
+  "rarity": 5,
+  "birthday": [
+    4,
+    4
+  ],
+  "constellation": "Nora Fortis",
+  "domain": "Forsaken Rift",
+  "cv": {
+    "english": "—",
+    "chinese": "沐霏",
+    "japanese": "高垣彩陽",
+    "korean": "Jo Hyeon-jung"
+  },
+  "skills": [
+    {
+      "_id": 10621,
+      "id": "rapid_fire",
+      "name": "Rapid Fire",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive shots with a bow.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Performs a more precise <span style=\"color:#FFD780FF\">Aimed Shot</span> with increased DMG.<br/>While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <span style=\"color:#99FFFFFF\">Cryo DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "21.1% + 23.8%",
+            "22.6% + 25.4%",
+            "24% + 27%",
+            "25.9% + 29.2%",
+            "27.4% + 30.8%",
+            "29% + 32.7%",
+            "31.2% + 35.1%",
+            "33.4% + 37.5%",
+            "35.5% + 40%",
+            "37.7% + 42.4%",
+            "39.8% + 44.8%",
+            "42% + 47.3%",
+            "44.2% + 49.7%",
+            "46.3% + 52.1%",
+            "48.5% + 54.5%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "43.1%",
+            "46.1%",
+            "49%",
+            "52.9%",
+            "55.9%",
+            "59.3%",
+            "63.7%",
+            "68.1%",
+            "72.5%",
+            "76.9%",
+            "81.3%",
+            "85.8%",
+            "90.2%",
+            "94.6%",
+            "99%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "52.8%",
+            "56.4%",
+            "60%",
+            "64.8%",
+            "68.4%",
+            "72.6%",
+            "78%",
+            "83.4%",
+            "88.8%",
+            "94.2%",
+            "99.6%",
+            "105%",
+            "110.4%",
+            "115.8%",
+            "121.2%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "65.6%",
+            "70.1%",
+            "74.6%",
+            "80.6%",
+            "85%",
+            "90.3%",
+            "97%",
+            "103.7%",
+            "110.4%",
+            "117.1%",
+            "123.8%",
+            "130.6%",
+            "137.3%",
+            "144%",
+            "150.7%"
+          ]
+        },
+        {
+          "label": "Aimed Shot",
+          "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.7%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "92.8%",
+            "98.9%",
+            "105.1%",
+            "111.2%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Fully-Charged Aimed Shot",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10622,
+      "id": "frozen_wilds",
+      "name": "Frozen Wilds",
+      "description": "Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span>. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing <span style=\"color:#99FFFFFF\">Cryo DMG</span>.<br/>When a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.<br/>Aloy can gain up to 1 Coil stack every 0.1s.<br/><br/><span style=\"color:#FFD780FF\">Coil</span><br/>·Each stack increases Aloy's Normal Attack DMG.<br/>·When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to <span style=\"color:#99FFFFFF\">Cryo DMG</span>.<br/><br/>While in the Rushing Ice state, Aloy cannot obtain new Coil stacks.<br/>Coil effects will be cleared 30s after Aloy leaves combat.",
+      "info": "You think that's cold? Guess you've never been to The Cut.",
+      "attributes": [
+        {
+          "label": "Freeze Bomb DMG",
+          "values": [
+            "177.6%",
+            "190.9%",
+            "204.2%",
+            "222%",
+            "235.3%",
+            "248.6%",
+            "266.4%",
+            "284.2%",
+            "301.9%",
+            "319.7%",
+            "337.4%",
+            "355.2%",
+            "377.4%",
+            "399.6%",
+            "421.8%"
+          ]
+        },
+        {
+          "label": "Chillwater Bomblet DMG",
+          "values": [
+            "40%",
+            "43%",
+            "46%",
+            "50%",
+            "53%",
+            "56%",
+            "60%",
+            "64%",
+            "68%",
+            "72%",
+            "76%",
+            "80%",
+            "85%",
+            "90%",
+            "95%"
+          ]
+        },
+        {
+          "label": "ATK Decrease",
+          "values": [
+            "12%",
+            "12%",
+            "12%",
+            "13%",
+            "13%",
+            "13%",
+            "14%",
+            "14%",
+            "14%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%"
+          ]
+        },
+        {
+          "label": "ATK Decrease Duration",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        },
+        {
+          "label": "Coil Normal Attack DMG Bonus",
+          "values": [
+            "5.8% / 11.7% / 17.5%",
+            "6.2% / 12.4% / 18.6%",
+            "6.5% / 13.1% / 19.6%",
+            "7% / 14% / 21%",
+            "7.3% / 14.7% / 22.1%",
+            "7.7% / 15.4% / 23.1%",
+            "8.2% / 16.3% / 24.5%",
+            "8.6% / 17.2% / 25.8%",
+            "9.1% / 18.1% / 27.2%",
+            "9.5% / 19% / 28.6%",
+            "10% / 20% / 29.9%",
+            "10.4% / 20.9% / 31.3%",
+            "10.9% / 21.8% / 32.7%",
+            "11.3% / 22.7% / 34%",
+            "11.8% / 23.6% / 35.4%"
+          ]
+        },
+        {
+          "label": "Rushing Ice Normal Attack DMG Bonus",
+          "values": [
+            "29.2%",
+            "31%",
+            "32.7%",
+            "35%",
+            "36.8%",
+            "38.5%",
+            "40.8%",
+            "43%",
+            "45.3%",
+            "47.6%",
+            "49.9%",
+            "52.1%",
+            "54.4%",
+            "56.7%",
+            "59%"
+          ]
+        },
+        {
+          "label": "Rushing Ice Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10625,
+      "id": "prophecies_of_dawn",
+      "name": "Prophecies of Dawn",
+      "description": "Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing <span style=\"color:#99FFFFFF\">AoE Cryo DMG</span>.",
+      "info": "Whether \"Zero Dawn\" referred to hope or extinction no longer matters. Aloy has already saved her world, and the fate of this one is still being forged by its own heroes.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "359.2%",
+            "386.1%",
+            "413.1%",
+            "449%",
+            "475.9%",
+            "502.9%",
+            "538.8%",
+            "574.7%",
+            "610.6%",
+            "646.6%",
+            "682.5%",
+            "718.4%",
+            "763.3%",
+            "808.2%",
+            "853.1%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "combat_override",
+      "name": "Combat Override",
+      "description": "When Aloy receives the Coil effect from <span style=\"color:#FFD780FF\">Frozen Wilds</span>, her ATK is increased by 16%, while nearby party members' ATK is increased by 8%. This effect lasts 10s.",
+      "level": 1
+    },
+    {
+      "id": "strong_strike",
+      "name": "Strong Strike",
+      "description": "When Aloy is in the Rushing Ice state conferred by <span style=\"color:#FFD780FF\">Frozen Wilds</span>, her <span style=\"color:#99FFFFFF\">Cryo DMG Bonus</span> increases by 3.5% every 1s. A maximum <span style=\"color:#99FFFFFF\">Cryo DMG Bonus</span> increase of 35% can be gained in this way.",
+      "level": 4
+    },
+    {
+      "id": "easy_does_it",
+      "name": "Easy Does It",
+      "description": "When Aloy is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 621,
+      "id": "star_of_another_world",
+      "name": "Star of Another World",
+      "description": "The time has not yet come for this person's corner of the night sky to light up.",
+      "level": 1
+    },
+    {
+      "_id": 622,
+      "id": "star_of_another_world",
+      "name": "Star of Another World",
+      "description": "The time has not yet come for this person's corner of the night sky to light up.",
+      "level": 2
+    },
+    {
+      "_id": 623,
+      "id": "star_of_another_world",
+      "name": "Star of Another World",
+      "description": "The time has not yet come for this person's corner of the night sky to light up.",
+      "level": 3
+    },
+    {
+      "_id": 624,
+      "id": "star_of_another_world",
+      "name": "Star of Another World",
+      "description": "The time has not yet come for this person's corner of the night sky to light up.",
+      "level": 4
+    },
+    {
+      "_id": 625,
+      "id": "star_of_another_world",
+      "name": "Star of Another World",
+      "description": "The time has not yet come for this person's corner of the night sky to light up.",
+      "level": 5
+    },
+    {
+      "_id": 626,
+      "id": "star_of_another_world",
+      "name": "Star of Another World",
+      "description": "The time has not yet come for this person's corner of the night sky to light up.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "848"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "18"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "53"
+          ]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2201",
+            "2928"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "47",
+            "63"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "137",
+            "182"
+          ]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4382",
+            "4899"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "94",
+            "105"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "272",
+            "304"
+          ]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": [
+            "0.0%",
+            "7.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101203,
+        "id": "crystal_marrow",
+        "name": "Crystal Marrow",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112053,
+        "id": "spectral_husk",
+        "name": "Spectral Husk",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5636",
+            "6325"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "121",
+            "136"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "350",
+            "393"
+          ]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": [
+            "7.2%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113020,
+        "id": "crystalline_bloom",
+        "name": "Crystalline Bloom",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101203,
+        "id": "crystal_marrow",
+        "name": "Crystal Marrow",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112053,
+        "id": "spectral_husk",
+        "name": "Spectral Husk",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7070",
+            "7587"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "152",
+            "163"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "439",
+            "471"
+          ]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": [
+            "14.4%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113020,
+        "id": "crystalline_bloom",
+        "name": "Crystalline Bloom",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101203,
+        "id": "crystal_marrow",
+        "name": "Crystal Marrow",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112054,
+        "id": "spectral_heart",
+        "name": "Spectral Heart",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8339",
+            "8856"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "179",
+            "190"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "517",
+            "550"
+          ]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": [
+            "14.4%",
+            "21.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113020,
+        "id": "crystalline_bloom",
+        "name": "Crystalline Bloom",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101203,
+        "id": "crystal_marrow",
+        "name": "Crystal Marrow",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112054,
+        "id": "spectral_heart",
+        "name": "Spectral Heart",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9616",
+            "10133"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "206",
+            "217"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "597",
+            "629"
+          ]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": [
+            "21.6%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113020,
+        "id": "crystalline_bloom",
+        "name": "Crystalline Bloom",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101203,
+        "id": "crystal_marrow",
+        "name": "Crystal Marrow",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112055,
+        "id": "spectral_nucleus",
+        "name": "Spectral Nucleus",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10899",
+            "10899"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "234",
+            "234"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "676",
+            "676"
+          ]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": [
+            "28.8%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113020,
+        "id": "crystalline_bloom",
+        "name": "Crystalline Bloom",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101203,
+        "id": "crystal_marrow",
+        "name": "Crystal Marrow",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112055,
+        "id": "spectral_nucleus",
+        "name": "Spectral Nucleus",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104301,
+          "id": "teachings_of_freedom",
+          "name": "Teachings of Freedom",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112053,
+          "id": "spectral_husk",
+          "name": "Spectral Husk",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guide to Freedom",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112054,
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113025,
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113025,
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113025,
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Philosophies of Freedom",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112055,
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113025,
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 206200,
+      "name": "Machine Hunter",
+      "description": "Aloy's outfit. A hunter's garb suited to life in the wilds.",
+      "isDefault": true,
+      "characterName": "Aloy",
+      "characterId": 10000062,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Aloy_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1000",
+      "type": 1,
+      "title": "Hello",
+      "text": "Aloy here. I don't know this world, but my arrows are sharp and my bow's ready. If your party needs help, I'll do what I can."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Moving Out",
+      "text": "Come on. Enough standing around, let's keep moving."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Help",
+      "text": "Let's get going. There are people who need our help."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "Rain. One way to wash off the grime."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "Sky's running out of rain for now. Time to dry off."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "The world always seems quieter when it snows."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When It's Windy",
+      "text": "Wind's kicking up again. Feels good to breathe it in."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Wind is really whipping now. My face feels raw."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Morning. World's starting to stir again. Me too, I guess."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Day's half over, but we still have a lot to do."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Sunset. We'll be under the stars soon."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Night's here. Time to rest, unless we're going on by starlight."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Aloy",
+      "text": "I grew up an outcast, and it wasn't much fun. Even though I'm a stranger here, people are friendlier than the tribe that was supposed to raise me. It's... nice."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Action",
+      "text": "Everything I do is in the service of life, not death. That's why I'm here with you."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Oath",
+      "text": "An oath seems like a formality. But if you want mine, you've got it."
+    },
+    {
+      "id": "2004",
+      "type": 1,
+      "title": "About Us: Moving Forward",
+      "text": "I'll do whatever it takes to finish this with you. I won't hesitate. I won't falter."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "If I have to share something, it'll be my bow... in the service of people who need the help."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "This land has a past full of secrets, just like my world. I'll uncover all of it, if I have enough time."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Aloy: I",
+      "text": "I'm not much for talking about myself. The mission is what's important."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Aloy: II",
+      "text": "I never had parents. But a man named Rost raised me. He was stern, but kind and generous. And he trained me well. I miss him."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Aloy: III",
+      "text": "I spent my whole life looking for my mother and never found her, not really. But I found ancient messages from the woman I was... cloned from. It felt like she knew me. And how to inspire me."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Aloy: IV",
+      "text": "When I grew up, I didn't have any friends. Later in my travels, I made some. But I left that world before we could grow close. That's why I'm glad to have spent time with you."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Aloy: V",
+      "text": "Trust doesn't come easy for me, but I know I can trust you. You're a true friend, and I don't say that often."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Aloy's Hobbies",
+      "text": "Not sure if I have a hobby, unless you count reading things from the past. So, history... I guess?"
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Aloy's Troubles",
+      "text": "One world needed saving. Now another. There's never time to rest."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I'm not picky. Anything's better than traveling on an empty stomach."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Had an Oseram stew once that was so thick you could pave a road with it. Ugh."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Never put much stock in birthdays. Where I come from, it's a time to celebrate your mother, not yourself. Even so, I wish you a, uh... happy day."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "All right. Feels like we're making progress, but we can't stop now."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Getting better. Getting stronger. Always a good thing."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "No matter how good a hunter you are, you can always get better. Never rest. Never stop learning."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "When we started out, you were just another stranger in a world I didn't understand. But after everything we've been through, I can say this for certain: My bow is yours, now and always."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "This'll pack a punch!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Got something for you!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Ever seen one of these?"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "You're stuck now!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "This is a new one."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "The hunt is on!"
+    },
+    {
+      "id": "800001",
+      "type": 2,
+      "title": "Deploying Wind Glider: I",
+      "text": "Ha! This thing is fun!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "These things look like they could come in handy."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "Let's see, that looks edible... and this looks useful."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "Who put all these things here?"
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "This one's a fighter..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Come on, gotta find that weak spot..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "I'm out of my depth..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Watch out!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Don't get reckless!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "I failed..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "I'm down... I'm sorry..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Can't get up... It's over..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Ugh!"
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: II",
+      "text": "I got this."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Argh!"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Should've known this wouldn't be easy..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "Where to this time?"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "I'm Aloy. Ready for the hunt."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Need help? I'm here."
+    }
+  ]
+}

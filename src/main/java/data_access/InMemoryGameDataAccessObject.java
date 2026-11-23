@@ -1,7 +1,9 @@
 package data_access;
 import entity.PitySystem;
 import entity.PitySystemFactory;
+import entity.Game;
 import use_case.calculate_probability.ProbabilityPityDataAccessInterface;
+import use_case.cost_conversion.ConversionGameDataAccessInterface;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -9,7 +11,8 @@ import java.util.List;
 import java.util.Map;
 
 
-public class InMemoryGameDataAccessObject implements ProbabilityPityDataAccessInterface {
+public class InMemoryGameDataAccessObject implements ProbabilityPityDataAccessInterface,
+        ConversionGameDataAccessInterface  {
     public static final String GENSHIN = "Genshin Impact";
     public static final String STAR_RAIL = "Honkai: Star Rail";
     public static final String CHARACTER = "Character";
@@ -17,6 +20,7 @@ public class InMemoryGameDataAccessObject implements ProbabilityPityDataAccessIn
     public static final String STANDARD = "Standard";
 
     private final Map<String, Map<String, PitySystem>> pitySystems = new LinkedHashMap<>();
+    private final Map<String, Game> games = new LinkedHashMap<>();
 
     public InMemoryGameDataAccessObject() {
         final PitySystemFactory pitySystemFactory = new PitySystemFactory();
@@ -29,11 +33,23 @@ public class InMemoryGameDataAccessObject implements ProbabilityPityDataAccessIn
 
         final Map<String, PitySystem> starRail = new LinkedHashMap<>();
         starRail.put(CHARACTER, pitySystemFactory.create(0.006f, 74, 0.06f, 90));
-        // No exact soft pity increase was found for the Light Cone banner, so this uses the Genshin
-        // rule (the rate increases by base rate x 10 every pull): 0.8% x 10 = 8%.
+        // couldn't find the soft pity increase for light cones, using genshin's rule (base rate x 10 = 8%)
         starRail.put(WEAPON, pitySystemFactory.create(0.008f, 66, 0.08f, 80));
         starRail.put(STANDARD, pitySystemFactory.create(0.006f, 74, 0.06f, 90));
         pitySystems.put(STAR_RAIL, starRail);
+    }
+
+    public void addGame(Game game) {
+        games.put(game.getName(), game);
+    }
+
+    @Override
+    public Game getGame(String gameName) {
+        return games.get(gameName);
+    }
+
+    public List<Game> getAllGames() {
+        return new ArrayList<>(games.values());
     }
 
     @Override

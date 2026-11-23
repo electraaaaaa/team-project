@@ -1,0 +1,1769 @@
+{
+  "_id": 10000131,
+  "id": "nicole",
+  "name": "Nicole",
+  "title": "Clamor Within",
+  "description": "The Silent \"Mage,\" the Voiceless \"Angel.\"",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalyst"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1779138000,
+  "substat": "ATK%",
+  "stats": {
+    "base": {
+      "hp": 810.322,
+      "attack": 26.6266,
+      "defense": 43.79556
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 694.77783,
+        "attack": 22.828234,
+        "defense": 37.5516,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1188.4358,
+        "attack": 39.048294,
+        "defense": 64.233,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.072
+        }
+      },
+      {
+        "level": 60,
+        "hp": 1846.6464,
+        "attack": 60.67504,
+        "defense": 99.8082,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2340.3042,
+        "attack": 76.8951,
+        "defense": 126.4896,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 80,
+        "hp": 2833.9622,
+        "attack": 93.115166,
+        "defense": 153.171,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.216
+        }
+      },
+      {
+        "level": 90,
+        "hp": 3327.62,
+        "attack": 109.33523,
+        "defense": 179.8524,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.288
+        }
+      }
+    ]
+  },
+  "affiliation": "Hexenzirkel",
+  "region": {
+    "id": "hvision",
+    "name": "HVISION"
+  },
+  "rarity": 5,
+  "birthday": [
+    29,
+    9
+  ],
+  "constellation": "Reliquiarium",
+  "domain": "Domain of Mastery: Shadowed Legacy",
+  "cv": {
+    "english": "Sophie Shad",
+    "chinese": "云鹤追",
+    "japanese": "豊口めぐみ",
+    "korean": "Lee So-eun"
+  },
+  "skills": [
+    {
+      "_id": 11311,
+      "id": "allegoria",
+      "name": "Allegoria",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Proclaims a decree in the primordial tongue and performs up to 3 attacks that deal <span style=\"color:#FF9999FF\">Pyro DMG</span>.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to deal <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> to opponents in front of her after a short casting time.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Nicole plunges towards the ground from mid-air, damaging all opponents in her path. Also deals <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "35.2%",
+            "37.8%",
+            "40.5%",
+            "44%",
+            "46.6%",
+            "49.3%",
+            "52.8%",
+            "56.3%",
+            "59.8%",
+            "63.3%",
+            "66.8%",
+            "70.4%",
+            "74.8%",
+            "79.2%",
+            "83.6%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "29.6%",
+            "31.9%",
+            "34.1%",
+            "37%",
+            "39.3%",
+            "41.5%",
+            "44.5%",
+            "47.4%",
+            "50.4%",
+            "53.3%",
+            "56.3%",
+            "59.3%",
+            "63%",
+            "66.7%",
+            "70.4%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "46.2%",
+            "49.7%",
+            "53.1%",
+            "57.7%",
+            "61.2%",
+            "64.7%",
+            "69.3%",
+            "73.9%",
+            "78.5%",
+            "83.1%",
+            "87.8%",
+            "92.4%",
+            "98.1%",
+            "103.9%",
+            "109.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "112.3%",
+            "120.7%",
+            "129.2%",
+            "140.4%",
+            "148.8%",
+            "157.2%",
+            "168.5%",
+            "179.7%",
+            "190.9%",
+            "202.2%",
+            "213.4%",
+            "224.6%",
+            "238.7%",
+            "252.7%",
+            "266.8%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "152%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11312,
+      "id": "revelation_uncreated_light",
+      "name": "Revelation: Uncreated Light",
+      "description": "Recreates a fleeting glimpse of an age long past, when the angels acted on the authority of the heavens, bestowing the <link kind=\"effect\" id=\"11310001\"><span style=\"color:#FFD780FF\">Grace of Kenosis</span></link><link kind=\"effect\" id=\"11310002\"></link> effect on nearby party members. This increases their ATK and deals <span style=\"color:#FF9999FF\">AoE Pyro DMG</span>, as well as creates a Shield of Blazing Light.<br/>The Shield of Blazing Light's DMG Absorption is based on Nicole's ATK, and it will absorb <span style=\"color:#FF9999FF\">Pyro DMG</span> at 250% effectiveness.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "138.4%",
+            "148.8%",
+            "159.2%",
+            "173%",
+            "183.4%",
+            "193.8%",
+            "207.6%",
+            "221.4%",
+            "235.3%",
+            "249.1%",
+            "263%",
+            "276.8%",
+            "294.1%",
+            "311.4%",
+            "328.7%"
+          ]
+        },
+        {
+          "label": "Shield DMG Absorption",
+          "values": [
+            "221.2% ATK + 1387",
+            "237.8% ATK + 1525",
+            "254.4% ATK + 1676",
+            "276.5% ATK + 1837",
+            "293.1% ATK + 2011",
+            "309.7% ATK + 2196",
+            "331.8% ATK + 2392",
+            "353.9% ATK + 2600",
+            "376% ATK + 2820",
+            "398.1% ATK + 3051",
+            "420.2% ATK + 3294",
+            "442.4% ATK + 3548",
+            "470% ATK + 3814",
+            "497.7% ATK + 4091",
+            "525.3% ATK + 4380"
+          ]
+        },
+        {
+          "label": "Shield Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Grace of Kenosis ATK Bonus Ratio",
+          "values": [
+            "8.25% ATK",
+            "9% ATK",
+            "9.75% ATK",
+            "10.5% ATK",
+            "11.25% ATK",
+            "12% ATK",
+            "12.75% ATK",
+            "13.5% ATK",
+            "14.25% ATK",
+            "15% ATK",
+            "15.9% ATK",
+            "16.8% ATK",
+            "17.7% ATK",
+            "18.6% ATK",
+            "19.5% ATK"
+          ]
+        },
+        {
+          "label": "Grace of Kenosis Max ATK Bonus",
+          "values": [
+            "330",
+            "360",
+            "390",
+            "420",
+            "450",
+            "480",
+            "510",
+            "540",
+            "570",
+            "600",
+            "636",
+            "672",
+            "708",
+            "744",
+            "780"
+          ]
+        },
+        {
+          "label": "Grace of Kenosis Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11315,
+      "id": "revelation_ladder_of_divine_ascent",
+      "name": "Revelation: Ladder of Divine Ascent",
+      "description": "As Nicole weaves the path of anchored fate with golden threads of light, she deals <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> and switches to Silent Contemplation mode.<br/>In this mode, when nearby active party members hit an opponent, an Arcane Projection is summoned to perform a Coordinated Attack against the opponent, dealing AoE Elemental DMG of the character's corresponding Elemental Type. This DMG scales based on the corresponding character's ATK and will be considered as having been dealt by them.<br/>This effect can occur once every 3s, and can be triggered up to 4 times each time Nicole switches to Silent Contemplation mode.<br/><br/>It is worth noting that Hexerei characters' Arcane Projections appear to differ somehow in appearance from the others...",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "316.8%",
+            "340.6%",
+            "364.3%",
+            "396%",
+            "419.8%",
+            "443.5%",
+            "475.2%",
+            "506.9%",
+            "538.6%",
+            "570.2%",
+            "601.9%",
+            "633.6%",
+            "673.2%",
+            "712.8%",
+            "752.4%"
+          ]
+        },
+        {
+          "label": "Arcane Projection DMG",
+          "values": [
+            "99% Corresponding Character's ATK",
+            "108% Corresponding Character's ATK",
+            "117% Corresponding Character's ATK",
+            "126% Corresponding Character's ATK",
+            "135% Corresponding Character's ATK",
+            "144% Corresponding Character's ATK",
+            "153% Corresponding Character's ATK",
+            "162% Corresponding Character's ATK",
+            "171% Corresponding Character's ATK",
+            "180% Corresponding Character's ATK",
+            "190.8% Corresponding Character's ATK",
+            "201.6% Corresponding Character's ATK",
+            "212.4% Corresponding Character's ATK",
+            "223.2% Corresponding Character's ATK",
+            "234% Corresponding Character's ATK"
+          ]
+        },
+        {
+          "label": "Arcane Projection Attack Count",
+          "values": [
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ]
+        },
+        {
+          "label": "Silent Contemplation Duration",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "methexis",
+      "name": "Methexis",
+      "description": "For 20s after unleashing the Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"revelation_uncreated_light\">Revelation: Uncreated Light</link></span>, Nicole will continuously \"observe\" the other current active party members. After the observed character has remained on the field for 3s, their <link kind=\"effect\" id=\"11310001\"><span style=\"color:#FFD780FF\">Grace of Kenosis</span></link> is upgraded to <link kind=\"effect\" id=\"11310002\"><span style=\"color:#FFD780FF\">Guidance of Theosis</span></link>, increasing their ATK by an additional 300. If the observed character is a Hexerei character, <span style=\"color:#FFD780FF\">Grace of Kenosis</span> is upgraded to <span style=\"color:#FFD780FF\">Guidance of Theosis</span> straight away.<br/>When characters other than Nicole who have <span style=\"color:#FFD780FF\">Guidance of Theosis</span> leave the field, their effect reverts to <span style=\"color:#FFD780FF\">Grace of Kenosis</span>.",
+      "level": 1
+    },
+    {
+      "id": "philokalia",
+      "name": "Philokalia",
+      "description": "When Elemental DMG from nearby active party members hits an opponent, Nicole's own <link kind=\"effect\" id=\"11310001\"><span style=\"color:#FFD780FF\">Grace of Kenosis</span></link> effect is upgraded to <link kind=\"effect\" id=\"11310002\"><span style=\"color:#FFD780FF\">Guidance of Theosis</span></link> for 8s.",
+      "level": 4
+    },
+    {
+      "id": "nepsis",
+      "name": "Nepsis",
+      "description": "When you are in Teyvat and not in combat, Nicole's Charged Attack becomes \"Emissarial Guidance\" if you have already obtained the current region's Treasure Compass. Emissarial Guidance: Calls upon nearby Seelie to show the way, triggering an effect similar to the region's Treasure Compass.<br/>This effect has a cooldown time of 5 seconds and does not work in Domains, Trounce Domains, and the Spiral Abyss.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1311,
+      "id": "do_not_be_afraid_child_who_is_loved",
+      "name": "\"Do Not Be Afraid, Child Who Is Loved\"",
+      "description": "When the current active character of your own in the party hits an opponent, an additional special \"Arcane Projection: Unity\" will be summoned to perform a Coordinated Attack against the opponent, dealing AoE Elemental DMG of the character's corresponding Elemental Type at 600% of their ATK. This DMG will be considered as having been dealt by the corresponding character.<br/>This effect can trigger once every 6s.",
+      "level": 1
+    },
+    {
+      "_id": 1312,
+      "id": "i_will_guide_you_and_show_you_the_path_you_should_tread",
+      "name": "\"I Will Guide You and Show You the Path You Should Tread\"",
+      "description": "Enhances the effects of the Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"revelation_uncreated_light\">Revelation: Uncreated Light</link></span>: <link kind=\"effect\" id=\"11310001\"><span style=\"color:#FFD780FF\">Grace of Kenosis</span></link> increases ATK by an additional 300 (which does not count toward this effect's ATK Bonus limit), while <link kind=\"effect\" id=\"11310002\"><span style=\"color:#FFD780FF\">Guidance of Theosis</span></link> decreases nearby opponents' Elemental RES based on the corresponding character's Elemental Type by 25%. This effect does not stack for the same Element.<br/>Additionally, when Nicole unleashes her Elemental Skill <span style=\"color:#FFD780FF\">Revelation: Uncreated Light</span>, nearby active party members will also gain a Shield of Blazing Light.",
+      "level": 2
+    },
+    {
+      "_id": 1313,
+      "id": "a_lamp_by_your_side_a_light_to_shine_the_way",
+      "name": "\"A Lamp by Your Side, A Light to Shine the Way\"",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"revelation_uncreated_light\">Revelation: Uncreated Light</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1314,
+      "id": "whether_left_or_right_no_matter_which_way_you_turn",
+      "name": "\"Whether Left or Right, No Matter Which Way You Turn\"",
+      "description": "When nearby party members have their <link kind=\"effect\" id=\"11310001\"><span style=\"color:#FFD780FF\">Grace of Kenosis</span></link> upgraded to <link kind=\"effect\" id=\"11310002\"><span style=\"color:#FFD780FF\">Guidance of Theosis</span></link>, Nicole also bestows upon them the Pathfinder's Blessing effect for 20s. Each character can gain this effect once every 16s.<br/>The Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG of characters with Pathfinder's Blessing is increased by 70% of Nicole's ATK. This effect will be removed once it has taken effect 8 times or when its duration is over.<br/>When multiple opponents are hit at once, instances of Pathfinder's Blessing are consumed equal to the number of opponents hit. Each character's Pathfinder's Blessing is counted independently.",
+      "level": 4
+    },
+    {
+      "_id": 1315,
+      "id": "you_will_hear_my_voice_beside_you",
+      "name": "\"You Will Hear My Voice Beside You\"",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"revelation_ladder_of_divine_ascent\">Revelation: Ladder of Divine Ascent</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1316,
+      "id": "this_is_the_path_walk_it_without_delay",
+      "name": "\"This Is the Path, Walk It Without Delay\"",
+      "description": "When Nicole's <link kind=\"effect\" id=\"11310001\"><span style=\"color:#FFD780FF\">Grace of Kenosis</span></link> is upgraded to <link kind=\"effect\" id=\"11310002\"><span style=\"color:#FFD780FF\">Guidance of Theosis</span></link>, all nearby party members' <span style=\"color:#FFD780FF\">Grace of Kenosis</span> will also be upgraded to <span style=\"color:#FFD780FF\">Guidance of Theosis</span>. Once upgraded, <span style=\"color:#FFD780FF\">Guidance of Theosis</span> will no longer revert to <span style=\"color:#FFD780FF\">Grace of Kenosis</span>.<br/>Additionally, DMG dealt by characters with <span style=\"color:#FFD780FF\">Guidance of Theosis</span> will ignore 40% of opponents' DEF.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "810"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "27"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "44"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2102",
+            "2797"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "69",
+            "92"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "114",
+            "151"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4185",
+            "4678"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "138",
+            "154"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "226",
+            "253"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "7.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104111,
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101269,
+        "id": "pine_amber",
+        "name": "Pine Amber",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112125,
+        "id": "tattered_warrant",
+        "name": "Tattered Warrant",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5383",
+            "6041"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "177",
+            "198"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "291",
+            "326"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "7.2%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113084,
+        "id": "remnant_of_the_dreadwing",
+        "name": "Remnant of the Dreadwing",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101269,
+        "id": "pine_amber",
+        "name": "Pine Amber",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112125,
+        "id": "tattered_warrant",
+        "name": "Tattered Warrant",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6752",
+            "7246"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "222",
+            "238"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "365",
+            "392"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "14.4%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113084,
+        "id": "remnant_of_the_dreadwing",
+        "name": "Remnant of the Dreadwing",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101269,
+        "id": "pine_amber",
+        "name": "Pine Amber",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112126,
+        "id": "immaculate_warrant",
+        "name": "Immaculate Warrant",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7964",
+            "8458"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "262",
+            "278"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "430",
+            "457"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "14.4%",
+            "21.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113084,
+        "id": "remnant_of_the_dreadwing",
+        "name": "Remnant of the Dreadwing",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101269,
+        "id": "pine_amber",
+        "name": "Pine Amber",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112126,
+        "id": "immaculate_warrant",
+        "name": "Immaculate Warrant",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9184",
+            "9677"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "302",
+            "318"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "496",
+            "523"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "21.6%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113084,
+        "id": "remnant_of_the_dreadwing",
+        "name": "Remnant of the Dreadwing",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101269,
+        "id": "pine_amber",
+        "name": "Pine Amber",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112127,
+        "id": "frostetched_warrant",
+        "name": "Frost-Etched Warrant",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10409",
+            "10409"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "342",
+            "342"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "563",
+            "563"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "28.8%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104114,
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113084,
+        "id": "remnant_of_the_dreadwing",
+        "name": "Remnant of the Dreadwing",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101269,
+        "id": "pine_amber",
+        "name": "Pine Amber",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112127,
+        "id": "frostetched_warrant",
+        "name": "Frost-Etched Warrant",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104359,
+          "id": "teachings_of_elysium",
+          "name": "Teachings of Elysium",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112125,
+          "id": "tattered_warrant",
+          "name": "Tattered Warrant",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104360,
+          "id": "guide_to_elysium",
+          "name": "Guide to Elysium",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104360,
+          "id": "guide_to_elysium",
+          "name": "Guide to Elysium",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104360,
+          "id": "guide_to_elysium",
+          "name": "Guide to Elysium",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104360,
+          "id": "guide_to_elysium",
+          "name": "Guide to Elysium",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104361,
+          "id": "philosophies_of_elysium",
+          "name": "Philosophies of Elysium",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113087,
+          "id": "counterfeit_resin",
+          "name": "Counterfeit Resin",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104361,
+          "id": "philosophies_of_elysium",
+          "name": "Philosophies of Elysium",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113087,
+          "id": "counterfeit_resin",
+          "name": "Counterfeit Resin",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104361,
+          "id": "philosophies_of_elysium",
+          "name": "Philosophies of Elysium",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113087,
+          "id": "counterfeit_resin",
+          "name": "Counterfeit Resin",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104361,
+          "id": "philosophies_of_elysium",
+          "name": "Philosophies of Elysium",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113087,
+          "id": "counterfeit_resin",
+          "name": "Counterfeit Resin",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 213100,
+      "name": "Mimetic Interpretation",
+      "description": "Nicole's outfit. \"This is the winged raiment, woven from prose and poetry, of an angel who has wandered the earth for thousands of years...\" Just kidding, of course. If the above is true, why would this outfit not change every day? And to take a step back, this fantasy should not be further explored, lest one's tea parties turn into costume balls. And in any case, it's not as if the one in the heavens forbade people from dressing up as angels.",
+      "isDefault": true,
+      "characterName": "Nicole",
+      "characterId": 10000131,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Nicole_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "Oh, should I introduce myself again? Hm, looks like no interference from Alice's self-introduction magic this time, so I suppose I'll just go ahead... Ahem, I'm Nicole. As you can see, I'm— Ah, again! Guess I spoke too soon..."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Novels",
+      "text": "Hm... Not the best idea I've ever had."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Statue",
+      "text": "Mm... Metaphors speak for themselves."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Silence",
+      "text": "What am I now, you ask? Just a \"human\" who's lost her voice."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "After the Rain",
+      "text": "In truth, it's thanks to the Seelie that there's always treasure at the end of the rainbow."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Good afternoon."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "Nighttime is when inspiration strikes the most, so it was also the most common time for people of the past to encounter angels. I suppose they're the ones who are largely to blame for why we turned into a bunch of night owls. Although, that's not quite accurate. It's not like we had biological clocks or sleep cycles. What we did was more akin to... regular functional maintenance. So, I suppose it was just a matter of avoiding the evening hours..."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Heading to bed already? Hehe, good night, then."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Nicole: Popular Works",
+      "text": "As long as an author still lives, the most they can hope for is to create something popular. People are an amalgamation of the present, after all. Just as it's impossible for an Akademiya scholar to have twenty years of knowledge at the beginning of their studies, a modern author cannot hope to write a classic in their own time. In other words, all one can do is simply write what is interesting. Anyway, I'm not the one doing the writing, so I feel little pressure in that regard."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Nicole: Allegories",
+      "text": "In the past, angels often relied on allegory as a means of communication. Why? Because as society changes, allegories lose their effectiveness, so more often than not, the key to interpreting them is lost forever... and I must say, thank goodness for that. Sometimes, the people of the past would obsess over the strangest questions — the kinds we couldn't just answer or ignore. But toss a cryptic allegory at them and... Problem solved. All that to say, if an angel starts speaking in metaphors and allegories, you might be asking the wrong question. My sculptures are a perfect example of this tactic. The little squirrel is actually a metaphor for humanity."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Ghostwriting",
+      "text": "Lately, it's been getting harder and harder to get Mr. Nine to listen to me. Ever since regaining her intellect, all she does is argue with me about plot points and writing choices. You're quite knowledgeable. Any interest in becoming my new ghostwriter?"
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Adventuring",
+      "text": "In terms of us working together, I suppose going on adventures is the safest option. If I were to go through event after event since the beginning of time, things could get dangerous. You have my full trust, of course, but I'm not as free as Alice to do as I please. Although, if you're the only one I tell, I suppose it should be fine."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "This isn't just decorative. It's proof that I've been recognized by the heavens once again — but this time, as a \"human.\" Huh? What does being \"human\" mean to me? Oh. Well, it's being free and... not so free, I suppose. Come to think of it, perhaps my circumstances haven't improved that much."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "Oh, a story? You really want to hear one? You actually do, don't you? Hehe, that makes me so happy. Most of the time, when I open with, \"a long, long time ago\" it's because I'm explaining some complicated thing or another. But since we're just chatting... Hm, Arcadia, Lang-Gan, Delphi, Patra... There are so many stories I could tell."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "Do you know why squirrels are a good metaphor for humans? Because both belong to the, um... \"Euarchontoglires\" classification. Sure, let's go with that. Are you familiar with that term? I learned it from Alice."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Alice: Encounter",
+      "text": "Back then, after I sacrificed most of my knowledge, power, and ultimately my voice to maintain a human form, I spent the long, meandering days in listless wandering. Until I met Alice, and she corrupted me."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Alice: Daughter",
+      "text": "In truth, it's not that I'm any smarter than the other angels. I chose to offer up my voice back then because, well... How does that saying go? \"Fortune favors the bold\"? The heavens demanded silence and punishment, so I thought a lifetime of voicelessness could be a good bargaining chip. Alice had quite an interesting remark after hearing about it all. She said, \"The daughter of the sea offered up her voice to gain legs, the children of the air did the same to gain form, and now the daughter of the heavens sacrificed her voice to become human.\""
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Klee",
+      "text": "Klee is adorable. But Alice is worried I might have a bad influence on her brain development, so she doesn't let me speak in her head. Do you think that makes me seem weird to Klee? Ask her for me next time, will you? And put in a good word!"
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Albedo",
+      "text": "In another converged possibility, Albedo was the \"Primordial Human\" who traveled through worlds, recording and creating all. However, once that journey reached its end, no one would have been able to guarantee whether he would choose destruction or salvation. Luckily, you're the one who embarked on the journey this time. Hm? How did the alternate Albedo fare? I can no longer observe that possibility. Besides, copying someone else's answer is of little use. This journey is your own."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Mona",
+      "text": "So, for some strange reason, Mona and Barbie are still refusing to meet face to face, and their only contact is through letters? Well, I suppose it's understandable. It wasn't until after Rhinedottir turned twenty that I actually met her in person. Alice said it wasn't convenient for Khaenri'ahns to come and go, so she brought letters back and forth instead."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Prune",
+      "text": "Alice said she sent that little Witch Hunter on her quest \"because it makes life more entertaining.\" She warned me to be careful not to get caught, but this little girl sounds like quite an interesting child. If she actually manages to find me, I think it would be fun to go treasure hunting together."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Durin",
+      "text": "I've been Anya's fan since the beginning. I love all her stories. So, of course, I cannot wait to see how this final, ever-evolving masterpiece of hers is going to unfold — and I will protect it at all costs."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Zibai",
+      "text": "Um, I'd rather us... not meet, actually. It's not that I dislike her, it's more of a... complex on my part. Kinda like how a weak student feels running into the top of the class. The older angels loved to talk about the exceptional young woman from the neighboring area with ties to the Archangel. Safe to say, Zibai's name came up a lot."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Yae Miko",
+      "text": "It's such a shame that Yae Publishing House wasn't around during Anya's era of writing. I don't think commercial writing is at odds with Anya's style at all. I'm sure Miss Yae cares about the business side of things, but her personal taste is what drives her success. At the very least, she doesn't confine authors to a box or mass-produce a single trope until something more popular comes along. She focuses on introducing things that are new and fresh."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Fischl",
+      "text": "Hmph, I'm the one who deserves her admiration. The book was my idea to begin with. All Mr. Nine did was refine it, polish it, and... actually write it all out."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Nicole: I",
+      "text": "Making sculptures is my way of keeping records. The written word loses meaning over time. Besides, documents crumble and disintegrate, while paintings return to blank canvases as their pigment fades. Sculptures, at least, have a better chance of standing the test of time... And, no. It's not because my handwriting is ugly, I'm too lazy to write things down, or I can't be bothered to practice painting. Just so we're clear."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Nicole: II",
+      "text": "Hm, the idea of writing a novel came about after reading Anya's work. That's when I first discovered that the metaphors angels love so much could be used to tell stories. I had something to say, along with a wealth of indelible memories to draw upon. So, it felt both like something I was meant to do and a path to self-fulfillment all at once. In the end, though, I was far too lazy to follow through."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Nicole: III",
+      "text": "Lost knowledge can be relearned over time. Lost power can be regained with training. But, when certain possibilities run their course or fade away, it is best for them to remain forgotten. After all, what matters most is the stability of the present moment. Letting regret or remorse drive us to resurrect what has been lost could leave us with a future we are unable to control."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Nicole: IV",
+      "text": "The angels who forsook wisdom in favor of power became corrupted dragons like Ursa, ones without distinct Elemental characteristics. Of course, over time, heroes have hunted them to near extinction. What if I had chosen power like those dragons? ...It's difficult to imagine. I'd like to think my scales would have been a glittering silver, though."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Nicole: V",
+      "text": "Humanity is such an intriguing, brilliant species. Giving up my wings was not a fall from grace, but a chance to become part of something tangible. Sacrificing my voice did not silence me, but gave me the strength to listen before judging. Divine potential lies within each and every human, and each day I spend among you is more fascinating than the last."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Nicole's Hobbies",
+      "text": "Does that... not go without saying?"
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Nicole's Troubles",
+      "text": "At this point, all my closest friends know I'm a chatterbox. So does that mean I don't have to pretend anymore? But what if that gives people headaches, and no one wants to talk to me ever again... Hm, plus Klee's still not old enough. Guess I need to put on the dignified angel act a little longer."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "I'm not really picky about food. But, I love hot peppers, green onions, and garlic — the stronger the flavor, the better. Not necessarily because of the taste itself, though. When you don't have to open your mouth to speak, you don't have to worry about the spice burning your throat. So, when Alice, Barbie, and I had a spicy food-eating contest, I won. Even with tears streaming down my face, and feeling like my lips were on fire, I won. Sore throat, bad breath... Hehe, doesn't mean a thing to me. Of course, I did brush my teeth and wash out my mouth afterwards."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Hm... That's a tough question. As long as the food is made well, I'll pretty much eat anything."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Mmm! This is... absolutely delicious!"
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "How sweet. I can certainly tell how much thought you put into it."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "Wh—What a... curious aroma. Do I have to?"
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy Birthday! I hid your birthday gift inside a chest and set up a bunch of puzzles for you to solve. Come on, I'll guide you through it!"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "\"Just like that, the group was thrown into a panic, staring at Nicole in utter disbelief until a question broke the silence, 'You knocked Alice out? Why would you do that, Nicole?'\""
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "\"The very picture of calm, Nicole raised a finger and replied, 'Alice has exhausted her strength. She'd be nothing but a burden out here on the battlefield. Now, we can take her to rest.'\""
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "\"'But without Alice, how can we possibly hope to be a match for Rhinedottir?' the group wondered, dismissing Nicole's suggestion. Seeing their frowns of doubt, Nicole stepped forward...\""
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "\"'Before you stands an angel who has wandered this earth for millennia,' she replied. Upon her declaration, the clouds parted, a golden staircase unfolding at her feet, and with a simple step, Nicole began to ascend the stairs of divinity.\""
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Special Charged Attack: I",
+      "text": "Do I sense... treasure?"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Special Charged Attack: II",
+      "text": "Where is it..."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Special Charged Attack: III",
+      "text": "..."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "I think not."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Begone."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Such defiance."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Our little secret."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "I live within you."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "\"Heaven's will, made mine.\""
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Oooh! Ahem... Mmm."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "I'm not sure whose work this was, but this one was hidden quite well."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "..."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Alice! Barbie! A little help here!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Uh oh..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "...!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Rest, for I am with you."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "...!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "So much for that... novel..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "All possibilities... come to a close..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "..."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Oof..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "I shall be your guide."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Mhmhm..."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "..."
+    }
+  ],
+  "effects": {
+    "11310001": {
+      "name": "Grace of Kenosis",
+      "description": "After unleashing the Elemental Skill <span style=\"color:#FFD780FF\">Revelation: Uncreated Light</span>, Nicole bestows the following effect on all nearby party members: ATK is increased based on Nicole's ATK.<br/>After certain conditions are met, the <span style=\"color:#FFD780FF\">Grace of Kenosis</span> effect will be upgraded to <span style=\"color:#FFD780FF\">Guidance of Theosis</span>, further increasing ATK.",
+      "color": ""
+    },
+    "11310002": {
+      "name": "Guidance of Theosis",
+      "description": "Upgrading the <span style=\"color:#FFD780FF\">Grace of Kenosis</span> effect increases ATK by an additional 300.<br/>After unlocking the Ascension Talent \"Methexis\" and meeting any of the following observation conditions, <span style=\"color:#FFD780FF\">Grace of Kenosis</span> will be upgraded to <span style=\"color:#FFD780FF\">Guidance of Theosis</span> for the remainder of its duration:<br/>· Another character under observation remains on the field for longer than 3s; or<br/>· Another character under observation is a Hexerei character.<br/><br/>Additionally, after unlocking the Ascension Talent \"Philokalia,\" when a nearby active party member's Elemental DMG hits an opponent, Nicole's own <span style=\"color:#FFD780FF\">Grace of Kenosis</span> will be upgraded to <span style=\"color:#FFD780FF\">Guidance of Theosis</span> for 8s.<br/><br/>When characters other than Nicole who have <span style=\"color:#FFD780FF\">Guidance of Theosis</span> leave the field, their effect will revert to <span style=\"color:#FFD780FF\">Grace of Kenosis</span>.",
+      "color": ""
+    }
+  }
+}

@@ -1,0 +1,1809 @@
+{
+  "_id": 10000079,
+  "id": "dehya",
+  "name": "Dehya",
+  "title": "Flame-Mane",
+  "description": "A member of the Eremites, a mercenary organization that roams the sands of Sumeru. Valiant and powerful, she enjoys great fame amongst her fellow Eremites.",
+  "weapon_type": {
+    "id": "claymore",
+    "name": "Claymore"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1677535200,
+  "substat": "HP%",
+  "stats": {
+    "base": {
+      "hp": 1220.2496,
+      "attack": 20.6682,
+      "defense": 48.88111
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 1046.2537,
+        "attack": 17.719818,
+        "defense": 41.9121,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1789.6445,
+        "attack": 30.310215,
+        "defense": 71.69175,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.072
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2780.8323,
+        "attack": 47.097412,
+        "defense": 111.39795,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 70,
+        "hp": 3524.223,
+        "attack": 59.68781,
+        "defense": 141.1776,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.144
+        }
+      },
+      {
+        "level": 80,
+        "hp": 4267.614,
+        "attack": 72.278206,
+        "defense": 170.95724,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.216
+        }
+      },
+      {
+        "level": 90,
+        "hp": 5011.0044,
+        "attack": 84.8686,
+        "defense": 200.7369,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.288
+        }
+      }
+    ]
+  },
+  "affiliation": "The Eremites",
+  "region": {
+    "id": "sumeru",
+    "name": "Sumeru"
+  },
+  "rarity": 5,
+  "birthday": [
+    7,
+    4
+  ],
+  "constellation": "Mantichora",
+  "domain": "Steeple of Ignorance",
+  "cv": {
+    "english": "Amber May",
+    "chinese": "陈雨",
+    "japanese": "福原綾香",
+    "korean": "Kim Hyeon-sim"
+  },
+  "skills": [
+    {
+      "_id": 10791,
+      "id": "sandstorm_assault",
+      "name": "Sandstorm Assault",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 consecutive strikes using her Claymore and her martial arts.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Drains Stamina over time to perform continuous slashes.<br/>At the end of the sequence, performs a more powerful slash.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "62.1%",
+            "67.2%",
+            "72.2%",
+            "79.5%",
+            "84.5%",
+            "90.3%",
+            "98.2%",
+            "106.2%",
+            "114.1%",
+            "122.8%",
+            "131.5%",
+            "140.1%",
+            "148.8%",
+            "157.5%",
+            "166.1%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "61.7%",
+            "66.7%",
+            "71.8%",
+            "78.9%",
+            "84%",
+            "89.7%",
+            "97.6%",
+            "105.5%",
+            "113.4%",
+            "122%",
+            "130.6%",
+            "139.2%",
+            "147.8%",
+            "156.4%",
+            "165%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "76.6%",
+            "82.9%",
+            "89.1%",
+            "98%",
+            "104.3%",
+            "111.4%",
+            "121.2%",
+            "131%",
+            "140.8%",
+            "151.5%",
+            "162.2%",
+            "172.9%",
+            "183.6%",
+            "194.3%",
+            "204.9%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "95.3%",
+            "103%",
+            "110.8%",
+            "121.9%",
+            "129.6%",
+            "138.5%",
+            "150.7%",
+            "162.9%",
+            "175.1%",
+            "188.4%",
+            "201.7%",
+            "215%",
+            "228.3%",
+            "241.6%",
+            "254.8%"
+          ]
+        },
+        {
+          "label": "Charged Attack Cyclic DMG",
+          "values": [
+            "56.3%",
+            "60.9%",
+            "65.5%",
+            "72%",
+            "76.6%",
+            "81.9%",
+            "89.1%",
+            "96.3%",
+            "103.5%",
+            "111.3%",
+            "119.2%",
+            "127.1%",
+            "134.9%",
+            "142.8%",
+            "150.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack Final DMG",
+          "values": [
+            "101.8%",
+            "110.1%",
+            "118.4%",
+            "130.2%",
+            "138.5%",
+            "148%",
+            "161%",
+            "174%",
+            "187.1%",
+            "201.3%",
+            "215.5%",
+            "229.7%",
+            "243.9%",
+            "258.1%",
+            "272.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        },
+        {
+          "label": "Max Duration",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "74.6%",
+            "80.7%",
+            "86.7%",
+            "95.4%",
+            "101.5%",
+            "108.4%",
+            "118%",
+            "127.5%",
+            "137%",
+            "147.4%",
+            "157.8%",
+            "168.3%",
+            "178.7%",
+            "189.1%",
+            "199.5%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "149.1% / 186.3%",
+            "161.3% / 201.5%",
+            "173.4% / 216.6%",
+            "190.8% / 238.3%",
+            "202.9% / 253.4%",
+            "216.8% / 270.8%",
+            "235.9% / 294.6%",
+            "254.9% / 318.4%",
+            "274% / 342.3%",
+            "294.8% / 368.2%",
+            "315.6% / 394.2%",
+            "336.4% / 420.2%",
+            "357.3% / 446.2%",
+            "378.1% / 472.2%",
+            "398.9% / 498.2%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10792,
+      "id": "molten_inferno",
+      "name": "Molten Inferno",
+      "description": "This art of Dehya's own invention changes its method of use depending on the combat situation.<br/><br/><span style=\"color:#FFD780FF\">Indomitable Flame</span><br/>This skill will be unleashed should there be no Fiery Sanctum field created by Dehya herself present at the time.<br/>Deals <span style=\"color:#FF9999FF\">AoE Pyro DMG</span>, and creates a field known as Fiery Sanctum.<br/><br/><span style=\"color:#FFD780FF\">Ranging Flame</span><br/>This skill will be unleashed should a Fiery Sanctum field created by Dehya herself already exist.<br/>Dehya will perform a leaping attack, dealing <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> before recreating a Fiery Sanctum field at her new position.<br/>A Fiery Sanctum field created this way will inherit the remaining duration of the previous field.<br/><br/>Ranging Flame can be used only once throughout a single Fiery Sanctum field's duration.<br/><br/><span style=\"color:#FFD780FF\">Fiery Sanctum</span><br/>When an opponent within a Fiery Sanctum field takes DMG, the field will unleash a coordinated attack, dealing <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> to them based on Dehya's ATK and Max HP. This effect can be triggered once every 2.5s.<br/>Active characters within this field have their resistance to interruption increased, and when such characters take DMG, a portion of that damage will be mitigated and flow into Redmane's Blood. Dehya will then take this DMG over 10s. When the mitigated DMG stored by Redmane's Blood reaches or goes over a certain percentage of Dehya's Max HP, she will stop mitigating DMG in this way.<br/><br/>Only 1 Fiery Sanctum created by Dehya herself can exist at the same time.",
+      "info": "Walk this fiery ordeal with me and purge all impurity, just as a beast of flames that must descend from the blaze.",
+      "attributes": [
+        {
+          "label": "Indomitable Flame DMG",
+          "values": [
+            "112.9%",
+            "121.3%",
+            "129.8%",
+            "141.1%",
+            "149.6%",
+            "158%",
+            "169.3%",
+            "180.6%",
+            "191.9%",
+            "203.2%",
+            "214.5%",
+            "225.8%",
+            "239.9%",
+            "254%",
+            "268.1%"
+          ]
+        },
+        {
+          "label": "Ranging Flame DMG",
+          "values": [
+            "132.8%",
+            "142.8%",
+            "152.7%",
+            "166%",
+            "176%",
+            "185.9%",
+            "199.2%",
+            "212.5%",
+            "225.8%",
+            "239%",
+            "252.3%",
+            "265.6%",
+            "282.2%",
+            "298.8%",
+            "315.4%"
+          ]
+        },
+        {
+          "label": "Field DMG",
+          "values": [
+            "60.2% ATK + 1.03% Max HP",
+            "64.7% ATK + 1.11% Max HP",
+            "69.2% ATK + 1.19% Max HP",
+            "75.3% ATK + 1.29% Max HP",
+            "79.8% ATK + 1.37% Max HP",
+            "84.3% ATK + 1.44% Max HP",
+            "90.3% ATK + 1.55% Max HP",
+            "96.3% ATK + 1.65% Max HP",
+            "102.3% ATK + 1.75% Max HP",
+            "108.4% ATK + 1.86% Max HP",
+            "114.4% ATK + 1.96% Max HP",
+            "120.4% ATK + 2.06% Max HP",
+            "127.9% ATK + 2.19% Max HP",
+            "135.5% ATK + 2.32% Max HP",
+            "143% ATK + 2.45% Max HP"
+          ]
+        },
+        {
+          "label": "Mitigation",
+          "values": [
+            "32%",
+            "34%",
+            "36%",
+            "38%",
+            "40%",
+            "42%",
+            "44%",
+            "46%",
+            "48%",
+            "50%",
+            "52%",
+            "54%",
+            "56%",
+            "56%",
+            "56%"
+          ]
+        },
+        {
+          "label": "Redmane's Blood Maximum",
+          "values": [
+            "200% Max HP",
+            "200% Max HP",
+            "200% Max HP",
+            "200% Max HP",
+            "200% Max HP",
+            "200% Max HP",
+            "200% Max HP",
+            "200% Max HP",
+            "200% Max HP",
+            "200% Max HP",
+            "200% Max HP",
+            "200% Max HP",
+            "200% Max HP",
+            "200% Max HP",
+            "200% Max HP"
+          ]
+        },
+        {
+          "label": "Field Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10795,
+      "id": "leonine_bite",
+      "name": "Leonine Bite",
+      "description": "Unleashing her burning anger and casting her inconvenient blade aside, Dehya enters the Blazing Lioness state and increases her resistance to interruption.<br/>In this state, Dehya will automatically and continuously unleash the Flame-Mane's Fists, dealing <span style=\"color:#FF9999FF\">Pyro DMG</span> based on her ATK and Max HP, and when its duration ends, she will unleash an Incineration Drive, dealing <span style=\"color:#FF9999FF\">AoE Pyro DMG</span> based on her ATK and Max HP.<br/>If a Fiery Sanctum field created by Dehya's own Elemental Skill \"Molten Inferno\" exists when this ability is unleashed, Dehya will retrieve it, and then create another field once Blazing Lioness's duration expires. This field will take on the retrieved field's duration at the moment of its retrieval.<br/>In this state, Dehya will be unable to cast her Elemental Skill, or perform Normal, Charged, and Plunging Attacks. \"Normal Attack: Sandstorm Assault\" and Elemental Skill \"Molten Inferno\" will be replaced by \"Roaring Barrage.\"<br/><br/><span style=\"color:#FFD780FF\">Roaring Barrage</span><br/>Unleashing Roaring Barrage within 0.4s after each Flame-Mane's Fist strike will increase the speed at which the next Flame-Mane's Fist strike will be triggered.",
+      "info": "Even the flowing flames must obey her rage and at her command become her fangs and claws.",
+      "attributes": [
+        {
+          "label": "Flame-Mane's Fist DMG",
+          "values": [
+            "98.7% ATK + 1.69% Max HP",
+            "106.1% ATK + 1.82% Max HP",
+            "113.5% ATK + 1.95% Max HP",
+            "123.4% ATK + 2.11% Max HP",
+            "130.8% ATK + 2.24% Max HP",
+            "138.2% ATK + 2.37% Max HP",
+            "148% ATK + 2.54% Max HP",
+            "157.9% ATK + 2.71% Max HP",
+            "167.8% ATK + 2.88% Max HP",
+            "177.7% ATK + 3.05% Max HP",
+            "187.5% ATK + 3.21% Max HP",
+            "197.4% ATK + 3.38% Max HP",
+            "209.7% ATK + 3.6% Max HP",
+            "222.1% ATK + 3.81% Max HP",
+            "234.4% ATK + 4.02% Max HP"
+          ]
+        },
+        {
+          "label": "Incineration Drive DMG",
+          "values": [
+            "139.3% ATK + 2.39% Max HP",
+            "149.7% ATK + 2.57% Max HP",
+            "160.2% ATK + 2.75% Max HP",
+            "174.1% ATK + 2.99% Max HP",
+            "184.6% ATK + 3.16% Max HP",
+            "195% ATK + 3.34% Max HP",
+            "209% ATK + 3.58% Max HP",
+            "222.9% ATK + 3.82% Max HP",
+            "236.8% ATK + 4.06% Max HP",
+            "250.7% ATK + 4.3% Max HP",
+            "264.7% ATK + 4.54% Max HP",
+            "278.6% ATK + 4.78% Max HP",
+            "296% ATK + 5.07% Max HP",
+            "313.4% ATK + 5.37% Max HP",
+            "330.8% ATK + 5.67% Max HP"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "unstinting_succor",
+      "name": "Unstinting Succor",
+      "description": "Within 6 seconds after Dehya retrieves the Fiery Sanctum field through <span style=\"color:#FFD780FF\">Molten Inferno: Ranging Flame</span> or <span style=\"color:#FFD780FF\">Leonine Bite</span>, she will take 60% less DMG when receiving DMG from Redmane's Blood. This effect can be triggered once every 2s.<br/>Additionally, within 9s after Dehya unleashes <span style=\"color:#FFD780FF\">Molten Inferno: Indomitable Flame</span>, she will grant all party members the Gold-Forged Form state. This state will further increase a character's resistance to interruption when they are within the Fiery Sanctum field. Gold-Forged Form can be activated once every 18s.",
+      "level": 1
+    },
+    {
+      "id": "stalwart_and_true",
+      "name": "Stalwart and True",
+      "description": "When her HP is less than 40%, Dehya will recover 20% of her Max HP and will restore 6% of her Max HP every 2s for the next 10s. This effect can be triggered once every 20s.",
+      "level": 4
+    },
+    {
+      "id": "the_sunlit_way",
+      "name": "The Sunlit Way",
+      "description": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.<br/>Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 791,
+      "id": "the_flame_incandescent",
+      "name": "The Flame Incandescent",
+      "description": "Dehya's Max HP is increased by 20%, and she deals bonus DMG based on her Max HP when using the following attacks:<br/>·<span style=\"color:#FFD780FF\">Molten Inferno</span>'s DMG will be increased by 3.6% of her Max HP.<br/>·<span style=\"color:#FFD780FF\">Leonine Bite</span>'s DMG will be increased by 6% of her Max HP.",
+      "level": 1
+    },
+    {
+      "_id": 792,
+      "id": "the_sandblades_glittering",
+      "name": "The Sand-Blades Glittering",
+      "description": "When Dehya uses <span style=\"color:#FFD780FF\">Molten Inferno: Ranging Flame</span>, the duration of the recreated Fiery Sanctum field will be increased by 6s.<br/>Additionally, when a Fiery Sanctum exists on the field, DMG dealt by its next coordinated attack will be increased by 50% when active character(s) within the Fiery Sanctum field are attacked.",
+      "level": 2
+    },
+    {
+      "_id": 793,
+      "id": "a_rage_swift_as_fire",
+      "name": "A Rage Swift as Fire",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Leonine Bite</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 794,
+      "id": "an_oath_abiding",
+      "name": "An Oath Abiding",
+      "description": "When Flame-Mane's Fist and Incineration Drive attacks unleashed during <span style=\"color:#FFD780FF\">Leonine Bite</span> hit opponents, they will restore 1.5 Energy for Dehya and 2.5% of her Max HP. This effect can be triggered once every 0.2s.",
+      "level": 4
+    },
+    {
+      "_id": 795,
+      "id": "the_alpha_unleashed",
+      "name": "The Alpha Unleashed",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\">Molten Inferno</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 796,
+      "id": "the_burning_claws_cleaving",
+      "name": "The Burning Claws Cleaving",
+      "description": "The CRIT Rate of <span style=\"color:#FFD780FF\">Leonine Bite</span> is increased by 10%.<br/>Additionally, after a Flame-Mane's Fist attack hits an opponent and deals CRIT Hits during a single Blazing Lioness state, it will cause the CRIT DMG of Leonine Bite to increase by 15% for the rest of Blazing Lioness's duration and extend that duration by 0.5s. This effect can be triggered every 0.2s. The duration can be extended for a maximum of 2s and CRIT DMG can be increased by a maximum of 60% this way.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1220"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "21"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "49"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "3165",
+            "4212"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "54",
+            "71"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "127",
+            "169"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6302",
+            "7045"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "107",
+            "119"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "252",
+            "282"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "0.0%",
+            "7.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104111,
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101222,
+        "id": "sand_grease_pupa",
+        "name": "Sand Grease Pupa",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112065,
+        "id": "faded_red_satin",
+        "name": "Faded Red Satin",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8106",
+            "9097"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "137",
+            "154"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "325",
+            "364"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "7.2%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113039,
+        "id": "light_guiding_tetrahedron",
+        "name": "Light Guiding Tetrahedron",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101222,
+        "id": "sand_grease_pupa",
+        "name": "Sand Grease Pupa",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112065,
+        "id": "faded_red_satin",
+        "name": "Faded Red Satin",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10168",
+            "10912"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "172",
+            "185"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "407",
+            "437"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "14.4%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113039,
+        "id": "light_guiding_tetrahedron",
+        "name": "Light Guiding Tetrahedron",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101222,
+        "id": "sand_grease_pupa",
+        "name": "Sand Grease Pupa",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112066,
+        "id": "trimmed_red_silk",
+        "name": "Trimmed Red Silk",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11993",
+            "12736"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "203",
+            "216"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "480",
+            "510"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "14.4%",
+            "21.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113039,
+        "id": "light_guiding_tetrahedron",
+        "name": "Light Guiding Tetrahedron",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101222,
+        "id": "sand_grease_pupa",
+        "name": "Sand Grease Pupa",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112066,
+        "id": "trimmed_red_silk",
+        "name": "Trimmed Red Silk",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "13829",
+            "14573"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "234",
+            "247"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "554",
+            "584"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "21.6%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113039,
+        "id": "light_guiding_tetrahedron",
+        "name": "Light Guiding Tetrahedron",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101222,
+        "id": "sand_grease_pupa",
+        "name": "Sand Grease Pupa",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112067,
+        "id": "rich_red_brocade",
+        "name": "Rich Red Brocade",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "15675",
+            "15675"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "265",
+            "265"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "628",
+            "628"
+          ]
+        },
+        {
+          "label": "HP%",
+          "values": [
+            "28.8%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104114,
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113039,
+        "id": "light_guiding_tetrahedron",
+        "name": "Light Guiding Tetrahedron",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101222,
+        "id": "sand_grease_pupa",
+        "name": "Sand Grease Pupa",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112067,
+        "id": "rich_red_brocade",
+        "name": "Rich Red Brocade",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104335,
+          "id": "teachings_of_praxis",
+          "name": "Teachings of Praxis",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112065,
+          "id": "faded_red_satin",
+          "name": "Faded Red Satin",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guide to Praxis",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112066,
+          "id": "trimmed_red_silk",
+          "name": "Trimmed Red Silk",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guide to Praxis",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112066,
+          "id": "trimmed_red_silk",
+          "name": "Trimmed Red Silk",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guide to Praxis",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112066,
+          "id": "trimmed_red_silk",
+          "name": "Trimmed Red Silk",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guide to Praxis",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112066,
+          "id": "trimmed_red_silk",
+          "name": "Trimmed Red Silk",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Philosophies of Praxis",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112067,
+          "id": "rich_red_brocade",
+          "name": "Rich Red Brocade",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Philosophies of Praxis",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112067,
+          "id": "rich_red_brocade",
+          "name": "Rich Red Brocade",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Philosophies of Praxis",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112067,
+          "id": "rich_red_brocade",
+          "name": "Rich Red Brocade",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Philosophies of Praxis",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112067,
+          "id": "rich_red_brocade",
+          "name": "Rich Red Brocade",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 207900,
+      "name": "The Lioness and the Blazing Sun",
+      "description": "Dehya's outfit. It is said when the lion roars, even the scorching sun will quiver. Though Dehya is long past the age of believing in such stories, it doesn't stop her from gazing upon the sun sinking below the sands, reminiscing about the tales and storytellers of her childhood.",
+      "isDefault": true,
+      "characterName": "Dehya",
+      "characterId": 10000079,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Dehya_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "My name's Dehya. I'm the merc you hired. So what you got for me? A commission? A fight? Armed escort? Whatever it is — you know where to find me."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: Mercenaries",
+      "text": "We mercs have one simple rule: Whoever pays the most is your new boss."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Desert",
+      "text": "The desert's a tough adversary, but at least it doesn't hide anything. What you see is what you get, and whether you take on the challenge is entirely up to you."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: My People",
+      "text": "My people are used to the desert life... But still, I hope that one day, they'll be able to find an oasis of their own, and leave the sandstorms behind for a better life."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "According to some of the older Eremites, it does actually rain in the desert on occasion. And when it does, it's always a lot heavier than this."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Man, this thunder is loud. They won't hear us coming... or vice versa."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "*grimace* ...Are you kidding me? This is even colder than the nights in the desert..."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "When the Sun Is Out",
+      "text": "Ah, sun's out, guns out, hehe... Just sucks that I got so much work to do."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "When the Wind Is Blowing",
+      "text": "Wind's picking up... Let's play it safe and pitch camp downwind of our target."
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "Stay close, no going off on your own. The desert doesn't take prisoners."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Ready to roll? Good. Then let's pack up and move out."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "Where did the morning go... Alright, soon as I see a good spot, I'll set up the stove and cook us some lunch."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "You're still working at this hour? Ugh, and I thought we mercs had it tough."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "It's late. Go get some rest, I'll take the night watch."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Dehya: The Eremites",
+      "text": "\"The Eremites\" is just a title — any mercenary in Sumeru can call themselves a member. Sadly, you get some mercs throwing the term around to take advantage of outlanders who don't know any better... Hmph. We've got those jerks to thank for the increasingly abysmal reputation we have these days."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Dehya: Dad",
+      "text": "...Kusayla was his name. As a merc, he had a slapdash way of working and a whole lot of bravado. But he also saved me from the desert, and did whatever he could to pass on to me everything he had.\\nWithout him, I wouldn't be who I am today."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Great Deeds",
+      "text": "Your recent feats have been doing the rounds, you know. In my brigade alone, a lot of people have been talking about the things you've achieved. I've even had several people ask me if I can introduce them to you."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Comrades-in-Arms",
+      "text": "\"Friends\"? Hmm... I dunno, after everything we've been through, all the battles we've faced together? Somehow, \"friends\" just doesn't quite do it justice.\\nI think... yeah, \"comrades-in-arms\" sums it up best for me. The bond we share can only be forged in the heat of battle. It's one of the most unbreakable bonds there is."
+    },
+    {
+      "id": "3001",
+      "type": 1,
+      "title": "About the Vision",
+      "text": "How's my life changed since getting my Vision? Huh... Well, obviously it gives me an extra edge in battle, but honestly, the biggest thing for me is that it's helped me bring a few more mercs into the Blazing Beasts..."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "You know Ajilenakh Nuts, right? I used to go crazy for them as a kid... but my dad was the worst at shelling them. He'd just hack 'em to pieces with his knife, leaving a bunch of inedible mush behind. In the end, he'd salvage what he could by scraping pieces of the flesh off the shell, then mixing it with some milk and calling it porridge.\\n...I do miss the taste of that porridge sometimes... and I miss that old nut-cracker, too."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "A lot of people see the Red Vulture as an omen of death and disaster, because it feeds on the carcasses of the dead. But the way it soars high above the desert... I've always seen it as a symbol of the tenacity of life.\\nI wonder what the Great Red Sand looks like from all the way up there."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Tighnari",
+      "text": "Hahaha, the one that got away... I came thiiis close to doing a job for that guy. A contact put us in touch — I was supposed to be his guide through the desert for some kind of investigation. But then it got canceled out of the blue, no idea why. Wait, actually... I think there was something about him not being good with the heat? I'm not sure, but it could have been that..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Lesser Lord Kusanali",
+      "text": "Hmph... You know, I always thought the Akademiya's worst were just a bunch of greedy dogs, each fighting for their slice of the pie... Nope. Turns out they were a vicious pack of wolves who betrayed the whole nation. If you want my opinion... Lesser Lord Kusanali was too good to them. Those animals didn't deserve her mercy — she should've broken every single bone in their bodies! Instead, they got a nice little vacation in the rainforest... To say they got off lightly is just putting it mildly."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Candace",
+      "text": "Ah, Candace... I love her to bits, but she can be as stubborn as a Sumpter Beast sometimes. I keep telling her she oughtta cut herself some slack, take some time off, maybe go take a walk around Sumeru City, buy herself some nice new clothes or jewelry... but she always says the same old thing: She can't bear to leave the village unprotected. I dunno how many times she's turned me down now. Ugh, if I really can't persuade her, I guess I'll just have to watch the village for her sometime, and get one of my Eremite girls to take her shopping..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Alhaitham",
+      "text": "He offered me a position in the Akademiya once. I declined — working in a place like that would bore me to death. He, on the other hand, is exactly the kind of person I can imagine working there... always talking in long, convoluted sentences, and in that snooty tone... Tsk."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Cyno",
+      "text": "The General Mahamatra? Doesn't suffer fools gladly, and certainly doesn't beat around the bush. Having seen the way he works, he gets a thumbs up from me."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Nilou",
+      "text": "Now that the whole saga with the Akademiya's over, I guess she can finally dance as much as she wants. She offered me some of her face powder last time I saw her, but I didn't have the time to go fetch it. So I told her to give it to Candace instead. Hmm... I wonder how she's liking it? I need to go check sometime..."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Dori",
+      "text": "Ah, the famous merchant. I've heard that her prices aren't cheap, but is it true that she can get a hold of anything you want? Hahaha, then I should start talking to her, 'cause uh... some of the supplies we mercs need are impossible to get anywhere else on the market, no matter what you're willing to pay."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Layla",
+      "text": "Ahh, the sleepy girl, yeah, I think I remember her. I ran into her once at an oasis on the outskirts of the desert. She was out with some group from the Akademiya doing astronomical observations, or something. I wasn't really paying attention. ...Huh? Candace... what now? Emissary from the stars? The heck is that all about? Almost sounds like she didn't wake up before getting out of bed."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Sethos",
+      "text": "Oh yeah, I only found out about him being from the Temple of Silence recently, too. Ahh, sorry, no — I'm no expert in mysterious organizations like that. Seen him a few times in the desert though. He's very down-to-earth. Once when my guys got into some trouble in the desert, he was kind enough to share his drinking water with them. Nice guy."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Dehya: I",
+      "text": "I've lived around Eremites my whole life. As a little girl, I had a wooden sword for a toy. Everyone I knew growing up was either a merc or on their way to becoming one, and even the bowls we ate our meals from were carved by mercenary blades... After an upbringing like that, it'd be more surprising if I didn't become a merc when I grew up, right?"
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Dehya: II",
+      "text": "Where do I feel like I belong? No idea. I've never thought about that sort of thing before. If I had to pick... I've lived most of my life in the desert, so I guess that makes me a desert-dweller."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Dehya: III",
+      "text": "Being a merc is tough. The work itself is one thing, but the worst part is trying to get your client to pay you after you finish the job. The Akademiya's top of my list — they're pretty straightforward. The Adventurers' Guild isn't too bad either. But trading merchants can be a total nightmare. They're always telling me that their funds are tied up, so cash is tight, yadda yadda. \"Just a few more days,\" they say.\\nIf cash is so tight, how'd you pay for that big pile of goods on your cart, hmm? Tsk."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Dehya: IV",
+      "text": "The Akademiya have taken a kinder view of us since everything that went down. I heard that they even released a ton of new regulations to support the desert folk. Hmph, it'd take me till the end of time to read and understand all that documentation... I just hope from now on, the Wall of Samiel will only mark the place where sandstorms end, rather than my folks' hopes and dreams."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Dehya: V",
+      "text": "Most mercs are looking to make their fortune and leave their mark. They take on the hardest jobs they can find, hoping to earn as much Mora and prestige as possible. Some are lucky enough to survive and become legends, while others disappear into the desert before anyone's learned their name.\\nI don't have any grand aspirations though. I just want to keep the people I care about safe, so they can live their lives in peace. Of course, I won't complain if I can make some extra Mora along the way, haha."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Dehya's Hobbies",
+      "text": "I looove my make-up box. Sometimes I take it out and re-organize it when I have the time. I keep all my powders and brushes in here — paid top Mora for all of it. Just look at this texture! Isn't it just perfectly smooth? And even if you sweat or get caught in the rain, it doesn't run. Hehehe, you get what you pay for."
+    },
+    {
+      "id": "6002",
+      "type": 1,
+      "title": "Dehya's Troubles",
+      "text": "Some clients are behind on their payments again, and a few of the guys got themselves into trouble during their last job... *sigh* I'm not the boss, but somehow everything ends up being my problem..."
+    },
+    {
+      "id": "6005",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Candied Ajilenakh Nuts, no contest. Easy to take on the road, and of course delicious."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Anything bitter. Nope. Keep it away from me. Can't stand it."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "This tastes amazing! I'd better not have any more, or I'll never be able to go back to my usual rations."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "Mmm, not bad... compared to rations, anyway."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "You know, if nothing else, it's uh... filling, and if it fills you up — it's good grub! Hahaha..."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Happy Birthday! Reach into your pocket, your present's already in there. How'd I do it? Hehe, just a little trick of the trade. Anyway, more importantly, I've booked us a real feast at Lambad's Tavern, so let's get ourselves over there! ...Huh? Oh, don't worry, I didn't invite any of the other mercs. Nah, that rowdy bunch is always getting into arguments — not the kind of people you'd want at a birthday celebration. It'll just be me and you, like it should be... Ahem, c'mon, c'mon, let's go."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "Huh? How about that... I really did get stronger."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "Hey, this feels good. I think I'll be able to hit quite a bit harder with my sword now."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "So much power... I have to go test this out. You down to spar with me or what?"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "I never once imagined I could get to this level... All credit goes to you. What next? Do you have a job for me? Whatever it is, just say the word and I'll be there."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Let's get it on!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Buckle up!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Look alive!"
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Gloves off!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "You're dead meat!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "You asked for it!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "Well, how about that..."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "I call dibs! Hahaha."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "I could make a tidy sum selling some of this..."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "Urgh... We've got ourselves a tough cookie!"
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Alright, playtime's over!"
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Just great... Ugh!"
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Pull yourself together!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "Get out before I drag you out!"
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "They got me good..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "I done messed up..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Merc down..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "Your mommy teach you that?"
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "You ain't messing around..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "I gotcha, Boss."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Got a job for me?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Time to get down to business."
+    }
+  ]
+}

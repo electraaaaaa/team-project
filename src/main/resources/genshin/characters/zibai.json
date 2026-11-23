@@ -1,0 +1,1839 @@
+{
+  "_id": 10000126,
+  "id": "zibai",
+  "name": "Zibai",
+  "title": "White Horse's Fleeting Spring",
+  "description": "The White Horse Adeptus from Liyue's legends, known as Zibai. The most mysterious figure in Liyue's myths.",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "geo",
+    "name": "Geo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Female"
+  },
+  "release": 1770134400,
+  "substat": "CRIT DMG",
+  "stats": {
+    "base": {
+      "hp": 1005.7526,
+      "attack": 17.5028,
+      "defense": 74.48835
+    },
+    "crit_rate": 0.05,
+    "crit_damage": 0.5,
+    "curves": {
+      "hp": "GROW_CURVE_HP_S5",
+      "attack": "GROW_CURVE_ATTACK_S5",
+      "defense": "GROW_CURVE_HP_S5"
+    },
+    "promotion": [
+      {
+        "level": 20,
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 40,
+        "hp": 862.3419,
+        "attack": 15.006,
+        "defense": 63.8685,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0
+        }
+      },
+      {
+        "level": 50,
+        "hp": 1475.0585,
+        "attack": 25.6681,
+        "defense": 109.2488,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.096
+        }
+      },
+      {
+        "level": 60,
+        "hp": 2292.014,
+        "attack": 39.8843,
+        "defense": 169.7558,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 70,
+        "hp": 2904.7307,
+        "attack": 50.5464,
+        "defense": 215.136,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.192
+        }
+      },
+      {
+        "level": 80,
+        "hp": 3517.4473,
+        "attack": 61.2086,
+        "defense": 260.5163,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.288
+        }
+      },
+      {
+        "level": 90,
+        "hp": 4130.164,
+        "attack": 71.8707,
+        "defense": 305.8965,
+        "specialized": {
+          "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+          "value": 0.384
+        }
+      }
+    ]
+  },
+  "affiliation": "Liyue Harbor",
+  "region": {
+    "id": "nodkrai_zibai",
+    "name": "NODKRAI_ZIBAI"
+  },
+  "rarity": 5,
+  "birthday": [
+    15,
+    5
+  ],
+  "constellation": "Equa Alba",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Laura Welsh",
+    "chinese": "Mace",
+    "japanese": "福圓美里",
+    "korean": "Chun Song-e"
+  },
+  "skills": [
+    {
+      "_id": 11261,
+      "id": "golden_blades_petaled_touch",
+      "name": "Golden Blade's Petaled Touch",
+      "description": "<span style=\"color:#FFD780FF\">Normal Attack</span><br/>Performs up to 4 rapid strikes.<br/><br/><span style=\"color:#FFD780FF\">Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br/><br/><span style=\"color:#FFD780FF\">Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "50.6%",
+            "54.7%",
+            "58.8%",
+            "64.7%",
+            "68.8%",
+            "73.5%",
+            "79.9%",
+            "86.4%",
+            "92.9%",
+            "99.9%",
+            "107%",
+            "114%",
+            "121.1%",
+            "128.1%",
+            "135.2%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "46.6%",
+            "50.3%",
+            "54.1%",
+            "59.5%",
+            "63.3%",
+            "67.7%",
+            "73.6%",
+            "79.6%",
+            "85.5%",
+            "92%",
+            "98.5%",
+            "105%",
+            "111.5%",
+            "118%",
+            "124.5%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "30.9% + 30.9%",
+            "33.4% + 33.4%",
+            "35.9% + 35.9%",
+            "39.5% + 39.5%",
+            "42% + 42%",
+            "44.9% + 44.9%",
+            "48.8% + 48.8%",
+            "52.8% + 52.8%",
+            "56.7% + 56.7%",
+            "61.1% + 61.1%",
+            "65.4% + 65.4%",
+            "69.7% + 69.7%",
+            "74% + 74%",
+            "78.3% + 78.3%",
+            "82.6% + 82.6%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "77.9%",
+            "84.2%",
+            "90.6%",
+            "99.6%",
+            "106%",
+            "113.2%",
+            "123.2%",
+            "133.1%",
+            "143.1%",
+            "154%",
+            "164.8%",
+            "175.7%",
+            "186.6%",
+            "197.5%",
+            "208.3%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "73.7% + 73.7%",
+            "79.7% + 79.7%",
+            "85.7% + 85.7%",
+            "94.2% + 94.2%",
+            "100.2% + 100.2%",
+            "107.1% + 107.1%",
+            "116.5% + 116.5%",
+            "125.9% + 125.9%",
+            "135.3% + 135.3%",
+            "145.6% + 145.6%",
+            "155.9% + 155.9%",
+            "166.2% + 166.2%",
+            "176.4% + 176.4%",
+            "186.7% + 186.7%",
+            "197% + 197%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%",
+            "144.2%",
+            "153.1%",
+            "162.1%",
+            "171%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11262,
+      "id": "heaven_and_earth_made_manifest",
+      "name": "Heaven and Earth Made Manifest",
+      "description": "Summoning a shadow of her former powers, she switches to the <link kind=\"effect\" id=\"11260001\"><span style=\"color:#FFD780FF\">Lunar Phase Shift</span></link> mode.<br/>In this mode, Zibai's Normal Attacks and Charged Attacks will deal <span style=\"color:#FFE699FF\">Geo DMG</span> that cannot be overridden by other infusions, and she can accrue special <span style=\"color:#FFD780FF\">Phase Shift Radiance</span> through different methods. Zibai can consume Phase Shift Radiance to unleash the special Elemental Skill <span style=\"color:#FFD780FF\">Spirit Steed's Stride</span>.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span><br/>While in the <span style=\"color:#FFD780FF\">Lunar Phase Shift</span> mode, when Zibai performs Normal Attacks, the fourth attack will deal an additional instance of <span style=\"color:#FFE699FF\">Geo DMG</span>, which is considered Lunar-Crystallize Reaction DMG.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Lunar Phase Shift 1-Hit DMG",
+          "values": [
+            "56.6% DEF",
+            "60.8% DEF",
+            "65.1% DEF",
+            "70.7% DEF",
+            "75% DEF",
+            "79.2% DEF",
+            "84.9% DEF",
+            "90.5% DEF",
+            "96.2% DEF",
+            "101.8% DEF",
+            "107.5% DEF",
+            "113.2% DEF",
+            "120.2% DEF",
+            "127.3% DEF",
+            "134.4% DEF"
+          ]
+        },
+        {
+          "label": "Lunar Phase Shift 2-Hit DMG",
+          "values": [
+            "52.1% DEF",
+            "56% DEF",
+            "59.9% DEF",
+            "65.1% DEF",
+            "69% DEF",
+            "72.9% DEF",
+            "78.2% DEF",
+            "83.4% DEF",
+            "88.6% DEF",
+            "93.8% DEF",
+            "99% DEF",
+            "104.2% DEF",
+            "110.7% DEF",
+            "117.2% DEF",
+            "123.7% DEF"
+          ]
+        },
+        {
+          "label": "Lunar Phase Shift 3-Hit DMG",
+          "values": [
+            "34.6% + 34.6% DEF",
+            "37.2% + 37.2% DEF",
+            "39.8% + 39.8% DEF",
+            "43.2% + 43.2% DEF",
+            "45.8% + 45.8% DEF",
+            "48.4% + 48.4% DEF",
+            "51.9% + 51.9% DEF",
+            "55.3% + 55.3% DEF",
+            "58.8% + 58.8% DEF",
+            "62.2% + 62.2% DEF",
+            "65.7% + 65.7% DEF",
+            "69.1% + 69.1% DEF",
+            "73.5% + 73.5% DEF",
+            "77.8% + 77.8% DEF",
+            "82.1% + 82.1% DEF"
+          ]
+        },
+        {
+          "label": "Lunar Phase Shift 4-Hit DMG",
+          "values": [
+            "87.2% DEF",
+            "93.7% DEF",
+            "100.3% DEF",
+            "109% DEF",
+            "115.5% DEF",
+            "122.1% DEF",
+            "130.8% DEF",
+            "139.5% DEF",
+            "148.2% DEF",
+            "156.9% DEF",
+            "165.6% DEF",
+            "174.4% DEF",
+            "185.3% DEF",
+            "196.2% DEF",
+            "207% DEF"
+          ]
+        },
+        {
+          "label": "Lunar Phase Shift Charged Attack DMG",
+          "values": [
+            "66% + 66% DEF",
+            "70.9% + 70.9% DEF",
+            "75.8% + 75.8% DEF",
+            "82.4% + 82.4% DEF",
+            "87.4% + 87.4% DEF",
+            "92.3% + 92.3% DEF",
+            "98.9% + 98.9% DEF",
+            "105.5% + 105.5% DEF",
+            "112.1% + 112.1% DEF",
+            "118.7% + 118.7% DEF",
+            "125.3% + 125.3% DEF",
+            "131.9% + 131.9% DEF",
+            "140.1% + 140.1% DEF",
+            "148.4% + 148.4% DEF",
+            "156.6% + 156.6% DEF"
+          ]
+        },
+        {
+          "label": "Spirit Steed's Stride 1-Hit DMG",
+          "values": [
+            "172.5% DEF",
+            "185.5% DEF",
+            "198.4% DEF",
+            "215.7% DEF",
+            "228.6% DEF",
+            "241.5% DEF",
+            "258.8% DEF",
+            "276% DEF",
+            "293.3% DEF",
+            "310.6% DEF",
+            "327.8% DEF",
+            "345.1% DEF",
+            "366.6% DEF",
+            "388.2% DEF",
+            "409.8% DEF"
+          ]
+        },
+        {
+          "label": "Spirit Steed's Stride 2-Hit DMG",
+          "values": [
+            "141% DEF",
+            "151.5% DEF",
+            "162.1% DEF",
+            "176.2% DEF",
+            "186.8% DEF",
+            "197.4% DEF",
+            "211.5% DEF",
+            "225.5% DEF",
+            "239.6% DEF",
+            "253.7% DEF",
+            "267.8% DEF",
+            "281.9% DEF",
+            "299.6% DEF",
+            "317.2% DEF",
+            "334.8% DEF"
+          ]
+        },
+        {
+          "label": "Lunar Phase Shift 4-Hit Additional DMG",
+          "values": [
+            "29.5% DEF",
+            "31.7% DEF",
+            "33.9% DEF",
+            "36.8% DEF",
+            "39% DEF",
+            "41.2% DEF",
+            "44.2% DEF",
+            "47.1% DEF",
+            "50.1% DEF",
+            "53% DEF",
+            "56% DEF",
+            "58.9% DEF",
+            "62.6% DEF",
+            "66.3% DEF",
+            "70% DEF"
+          ]
+        },
+        {
+          "label": "Lunar Phase Shift Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 11265,
+      "id": "trisphere_eminence",
+      "name": "Tri-Sphere Eminence",
+      "description": "Zibai operates the Jadelight Canopy, dealing two instances of <span style=\"color:#FFE699FF\">Geo DMG</span>, with the second damage instance being considered Lunar-Crystallize Reaction DMG.<br/>When cast, if Zibai is in the <link kind=\"effect\" id=\"11260001\"><span style=\"color:#FFD780FF\">Lunar Phase Shift</span></link>, the duration of the current Lunar Phase Shift will extend by an additional 1.7s.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Skill 1-Hit DMG",
+          "values": [
+            "127% DEF",
+            "136.5% DEF",
+            "146% DEF",
+            "158.7% DEF",
+            "168.2% DEF",
+            "177.7% DEF",
+            "190.4% DEF",
+            "203.1% DEF",
+            "215.8% DEF",
+            "228.5% DEF",
+            "241.2% DEF",
+            "253.9% DEF",
+            "269.8% DEF",
+            "285.7% DEF",
+            "301.5% DEF"
+          ]
+        },
+        {
+          "label": "Skill 2-Hit DMG",
+          "values": [
+            "177.7% DEF",
+            "191.1% DEF",
+            "204.4% DEF",
+            "222.2% DEF",
+            "235.5% DEF",
+            "248.8% DEF",
+            "266.6% DEF",
+            "284.4% DEF",
+            "302.2% DEF",
+            "319.9% DEF",
+            "337.7% DEF",
+            "355.5% DEF",
+            "377.7% DEF",
+            "399.9% DEF",
+            "422.1% DEF"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "the_selenic_adeptus_descends",
+      "name": "The Selenic Adeptus Descends",
+      "description": "When casting the Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"heaven_and_earth_made_manifest\">Heaven and Earth Made Manifest</link></span>, or when nearby party members trigger Moondrift Harmony, Zibai gains the <span style=\"color:#FFD780FF\">Selenic Descent</span> effect for 4s: The DMG dealt by the 2nd hit of <link kind=\"effect\" id=\"11260001\"><span style=\"color:#FFD780FF\">Spirit Steed's Stride</span></link> is increased by 60% of Zibai's DEF.",
+      "level": 1
+    },
+    {
+      "id": "layered_peaks_pierce_the_clouds",
+      "name": "Layered Peaks Pierce the Clouds",
+      "description": "Other <span style=\"color:#FFE699FF\">Geo</span> party members increase Zibai's DEF by 15% each. <span style=\"color:#80C0FFFF\">Hydro</span> party members increase her Elemental Mastery by 60 each.",
+      "level": 4
+    },
+    {
+      "id": "moonsign_benediction_the_coursing_sun_and_moon",
+      "name": "Moonsign Benediction: The Coursing Sun and Moon",
+      "description": "When a party member triggers a Hydro Crystallize reaction, it will be converted into the Lunar-Crystallize reaction, with every 100 DEF that Zibai has increasing Lunar-Crystallize's Base DMG by 0.7%, up to a maximum of 14%.<br/><br/>Additionally, when Zibai is in the party, the party's <span style=\"color:#FFD780FF\">Moonsign</span> will increase by 1 level.",
+      "level": 0
+    },
+    {
+      "id": "moonlit_flower_forest",
+      "name": "Moonlit Flower Forest",
+      "description": "At night (18:00 – 06:00), when not in combat, restore 1 Elemental Energy to Zibai every 2 seconds.<br/>This effect does not work in Domains, Trounce Domains, or the Spiral Abyss.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1261,
+      "id": "burst_forth_with_vigor_but_enter_in_silence",
+      "name": "Burst Forth With Vigor, But Enter in Silence",
+      "description": "After using the Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"heaven_and_earth_made_manifest\">Heaven and Earth Made Manifest</link></span>, Zibai will immediately gain 100 <link kind=\"effect\" id=\"11260001\"><span style=\"color:#FFD780FF\">Phase Shift Radiance</span></link>, and the max number of <span style=\"color:#FFD780FF\">Spirit Steed's Stride</span> usages per <span style=\"color:#FFD780FF\">Lunar Phase Shift</span> mode is increased to 5 times.<br/>Additionally, each time you switch to the Lunar Phase Shift mode, the first Spirit Steed's Stride's 2nd-hit Lunar-Crystallize Reaction DMG is increased by 220%.",
+      "level": 1
+    },
+    {
+      "_id": 1262,
+      "id": "at_birth_are_souls_born_and_in_death_leave_but_husks",
+      "name": "At Birth Are Souls Born, and in Death Leave But Husks",
+      "description": "When in the <link kind=\"effect\" id=\"11260001\"><span style=\"color:#FFD780FF\">Lunar Phase Shift</span></link> mode, all nearby party members' Lunar-Crystallize Reaction DMG is increased by 30%.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span>: Ascension Talent <span style=\"color:#FFD780FF\"><link kind=\"passive\" to=\"the_selenic_adeptus_descends\">The Selenic Adeptus Descends</link></span> is enhanced: the DMG dealt by the 2nd hit of <span style=\"color:#FFD780FF\">Spirit Steed's Stride</span> is further increased by 550% of Zibai's DEF. You must first unlock the Ascension Talent \"The Selenic Adeptus Descends.\"",
+      "level": 2
+    },
+    {
+      "_id": 1263,
+      "id": "free_from_constraints_and_worldly_ties",
+      "name": "Free From Constraints and Worldly Ties",
+      "description": "Increases the Level of Elemental Skill <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"heaven_and_earth_made_manifest\">Heaven and Earth Made Manifest</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 1264,
+      "id": "the_spirit_passes_then_form_follows",
+      "name": "The Spirit Passes, Then Form Follows",
+      "description": "While in the <link kind=\"effect\" id=\"11260001\"><span style=\"color:#FFD780FF\">Lunar Phase Shift</span></link> mode, Zibai's Normal Attack sequence will not reset, and when <span style=\"color:#FFD780FF\">Spirit Steed's Stride</span> hits opponents, Zibai will gain the <span style=\"color:#FFD780FF\">\"Scattermoon Splendor\"</span> effect: The next time she uses Normal Attacks, the additional attack from her 4th hit will deal 250% of the original damage as Lunar-Crystallize Reaction DMG.",
+      "level": 4
+    },
+    {
+      "_id": 1265,
+      "id": "perceive_the_worthless_and_debate_it_not",
+      "name": "Perceive the Worthless and Debate It Not",
+      "description": "Increases the Level of <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"trisphere_eminence\">Tri-Sphere Eminence</link></span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 1266,
+      "id": "the_world_a_journey_in_passing",
+      "name": "The World, A Journey in Passing",
+      "description": "While Zibai is in the <link kind=\"effect\" id=\"11260001\"><span style=\"color:#FFD780FF\">Lunar Phase Shift</span></link> mode, her <span style=\"color:#FFD780FF\">Phase Shift Radiance</span> gain rate is increased by 50%.<br/>Additionally, <span style=\"color:#FFD780FF\">Spirit Steed's Stride</span> will change such that it will consume all Phase Shift Radiance. This will <link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">elevate</span></link> the DMG dealt by this instance of Spirit Steed's Stride and the Lunar-Crystallize Reaction DMG dealt by Zibai within the next 3s by 1.6% for every point consumed above 70. This effect cannot stack.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1006"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "18"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "74"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "cost": 0,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2609",
+            "3471"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "45",
+            "60"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "193",
+            "257"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5194",
+            "5807"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "90",
+            "101"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "385",
+            "430"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104171,
+        "id": "prithiva_topaz_sliver",
+        "name": "Prithiva Topaz Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100030,
+        "id": "glaze_lily",
+        "name": "Glaze Lily",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112125,
+        "id": "tattered_warrant",
+        "name": "Tattered Warrant",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6681",
+            "7498"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "116",
+            "130"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "495",
+            "555"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113084,
+        "id": "remnant_of_the_dreadwing",
+        "name": "Remnant of the Dreadwing",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100030,
+        "id": "glaze_lily",
+        "name": "Glaze Lily",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112125,
+        "id": "tattered_warrant",
+        "name": "Tattered Warrant",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8381",
+            "8994"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "146",
+            "157"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "621",
+            "666"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104172,
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113084,
+        "id": "remnant_of_the_dreadwing",
+        "name": "Remnant of the Dreadwing",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100030,
+        "id": "glaze_lily",
+        "name": "Glaze Lily",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112126,
+        "id": "immaculate_warrant",
+        "name": "Immaculate Warrant",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9885",
+            "10497"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "172",
+            "183"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "732",
+            "777"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113084,
+        "id": "remnant_of_the_dreadwing",
+        "name": "Remnant of the Dreadwing",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100030,
+        "id": "glaze_lily",
+        "name": "Glaze Lily",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112126,
+        "id": "immaculate_warrant",
+        "name": "Immaculate Warrant",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11399",
+            "12011"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "198",
+            "209"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "844",
+            "890"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104173,
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113084,
+        "id": "remnant_of_the_dreadwing",
+        "name": "Remnant of the Dreadwing",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100030,
+        "id": "glaze_lily",
+        "name": "Glaze Lily",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112127,
+        "id": "frostetched_warrant",
+        "name": "Frost-Etched Warrant",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12919",
+            "12919"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "225",
+            "225"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "957",
+            "957"
+          ]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "_id": 104174,
+        "id": "prithiva_topaz_gemstone",
+        "name": "Prithiva Topaz Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113084,
+        "id": "remnant_of_the_dreadwing",
+        "name": "Remnant of the Dreadwing",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100030,
+        "id": "glaze_lily",
+        "name": "Glaze Lily",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112127,
+        "id": "frostetched_warrant",
+        "name": "Frost-Etched Warrant",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104316,
+          "id": "teachings_of_gold",
+          "name": "Teachings of Gold",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112125,
+          "id": "tattered_warrant",
+          "name": "Tattered Warrant",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104317,
+          "id": "guide_to_gold",
+          "name": "Guide to Gold",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112126,
+          "id": "immaculate_warrant",
+          "name": "Immaculate Warrant",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113075,
+          "id": "ascended_sample_queen",
+          "name": "Ascended Sample: Queen",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113075,
+          "id": "ascended_sample_queen",
+          "name": "Ascended Sample: Queen",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113075,
+          "id": "ascended_sample_queen",
+          "name": "Ascended Sample: Queen",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104318,
+          "id": "philosophies_of_gold",
+          "name": "Philosophies of Gold",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112127,
+          "id": "frostetched_warrant",
+          "name": "Frost-Etched Warrant",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113075,
+          "id": "ascended_sample_queen",
+          "name": "Ascended Sample: Queen",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "outfits": [
+    {
+      "id": 212600,
+      "name": "Moonlit Courser",
+      "description": "Zibai's outfit, made out of silk and hemp. It is said that thousands of years ago, the ancient nation of Lang-Gan possessed exquisite weaving techniques that were brought down to the mortal world by Zibai, a messenger from the high heavens. Ages passed, that old kingdom and its long history faded away, scattered by time until they became as elusive as the moon's reflection on water. Yet their craft has somehow endured. Even now, it still lives on in every pulley and wooden frame of the spinning wheels in Liyue Harbor.",
+      "isDefault": true,
+      "characterName": "Zibai",
+      "characterId": 10000126,
+      "filename_card": "UI_AvatarIcon_Costume_Card",
+      "filename_iconCircle": "UI_AvatarIcon_Zibai_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Hello",
+      "text": "My name is Zibai. I was once known to mortals as the White Horse Adeptus, but now that I have descended to the mortal plane, you may simply call me Zibai."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Chat: The Moon",
+      "text": "The whole world shares the bounty of the skies, the rain and clouds that grace the earth beneath. The moon was never meant to be a foreign realm..."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Chat: Mathematics",
+      "text": "Mathematics is the foundation of all things. If you're interested, I can teach you some arithmetic... First, hold out both your hands. We'll start with the ten fingers."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Chat: Adeptus Art",
+      "text": "The Adeptus Arts are most miraculous, but unless one first cultivates the mind before cultivating these arts, all their feats will be like the moon's reflection on water, shattering at the slightest touch."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "When It Rains",
+      "text": "The moon is barely visible..."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "When Thunder Strikes",
+      "text": "Hark, the thunderous wrath of heaven."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "When It Snows",
+      "text": "At least it's not as cold as on the moon."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "In the Desert",
+      "text": "...Journeying through the desert is as arduous as one might imagine."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Good Morning",
+      "text": "Good morning. Did you sleep well last night?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Good Afternoon",
+      "text": "The sun is now at its peak. If you are tired, you should take a rest."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Good Evening",
+      "text": "The moon creeps silently into the sky... until, all of a sudden, we notice it shining down from the heavens."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Good Night",
+      "text": "Hehe, are you trying to stay up longer than the moon? You should go to sleep now. Goodnight."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "About Zibai: Travels",
+      "text": "After I severed my Three Deadly Selves, my third self wandered the mortal realm and experienced many things. The most well-known of these are recorded in the book, Moonlit Bamboo Forest, which recounts my nighttime wanderings. Perhaps I should visit the bamboo forest for myself when I have the time."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "About Zibai: Seclusion",
+      "text": "When I lived alone, I would often resort to mathematics to pass the time, devising and solving arithmetic puzzles. If you are interested, I can take you through some of the more amusing ones."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "About Us: Moongazing",
+      "text": "When the people of Liyue write poems about homesickness, they often express their feelings by waxing lyrical about the moon. This makes abundant sense, as no matter how far apart we may be, everyone in the world shares the same moonlight. And yet, to truly appreciate the experience of gazing at the moon, surely the traveler would prefer to return home and share it with their friends and family. For, as the saying goes: \"The moon always shines brightest back home.\""
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "About Us: Another Realm",
+      "text": "You mentioned before that you do not hail from this world, and that you were separated from kin... Yet, despite the great hardships and dangers you have faced in this foreign land, you have fought on most courageously, displaying a rare degree of fortitude. Heaven does not forsake those who strive on — I am confident that you will achieve what you hope for. I do not say this as mere consolation, either. The people of Liyue often wish upon the moon for family reunions, and as a long-time resident of the lunar plane, surely my blessing counts for more than most."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "About the Moon Wheel",
+      "text": "Once divine power is obtained, one may wield it as they will. As for me... Since I now dwell in Liyue, protecting this land naturally comes first."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Something to Share",
+      "text": "My Third Deadly Self, counted among the Eight Adepts, was named the Gold-Eyed Celadon Mare — but in fact, I... or, \"she\" had very little to do with the other adepts outside of the Tao Dou incident. She spent most of her time roaming elsewhere. According to my later memories, several other members of the Eight Adepts attempted to track her down, but four legs will always outrun two... I don't believe they ever did catch up with that horse."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Interesting Things",
+      "text": "I am amazed that the Glaze Lily survives to this day... I still remember how the Yunlai Angler and the Wuwang Kid enjoyed pairing the petals with a glass of wine. Then, a few drinks later, they'd start doing a sword routine to add to the fun... Was some mysterious sword style born in the process? It's possible. All too often, however, they got too drunk to remember anything after the fact."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "About Zhongli",
+      "text": "Though mortals call me the White Horse Adeptus, I was not bestowed with this title by Morax, the Prime of Adepti. I joined the celestial ranks very long ago, in ancient times, where I served as a moon envoy. But what is past is settled, and there is no need to dwell on it. Here in the present, people seem accustomed to calling me the White Horse Adeptus, and that is fine by me. Do I ever see Zhongli around, you ask? Why yes, I occasionally see him walking the streets with Director Hu or enjoying a cup of tea on his own. I must say, his life as a consultant seems far more pleasant and relaxed than his life as Rex Lapis."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "About Ningguang",
+      "text": "I understand that the Liyue of today is built on trade and commerce — a highly involved and complex affair. For the Tianquan to shoulder the enormous responsibility of ruling Liyue, she must be a truly exceptional person. But I have heard that there are a total of seven Qixing within the Ministry of Civil Affairs, and I have only met a handful of them. I wonder where the others are? Hmm, I suppose they must be busy elsewhere with their duties..."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "About Keqing",
+      "text": "I ran into the Yuheng once on the outskirts of Liyue. She was there with a team from the Ministry of Civil Affairs to conduct some land measurements. The terrain was inhospitable — mountainous, with sheer cliff faces, but there she was, leading from the front. I happened to notice her, and was about to clear some overgrown brambles from her path when, to my surprise, she drew her sword and swiftly cleared the path ahead by herself. I had heard that she had a reputation for being a bold and unstoppable commander, and I must say she certainly lives up to it."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "About Qiqi",
+      "text": "Qiqi is an odd case. A little girl with the body of an adeptus, but not the soul, whose mental clarity fades in and out. I believe I have seen these symptoms before, hmm... If fate permits, I should like to examine her more fully and diagnose her condition."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "About Xianyun",
+      "text": "I have met with Cloud Retainer — or \"Xianyun,\" as she has taken to calling herself. Although she is an adeptus, she rarely makes use of her attendant powers, preferring instead to tinker away with her mechanical devices. She explained that she seeks to create mechanisms that even ordinary mortals can use with ease. As it happened, I recalled some mechanical blueprints from Lang-Gan, so I proceeded to draw them for her. However, those mechanisms are so ancient that I'm not sure they'll be of any use in this day and age..."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "About Yanfei",
+      "text": "I understand this young lady is part-human, part-adeptus? Most remarkable. From what Streetward Rambler has told me, it would seem that she belongs to a younger generation of adepti who have never seen war in their lifetime. And with her consummate mastery of the legal code, I also doubt she has to rely on her adeptal powers to gain wisdom. Heh... I still remember a few examples of case law from ancient times. I'll have to write them down in the coming days and ask Streetward Rambler to pass them on to her. I hope she'll like them."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "About Xiao",
+      "text": "I've heard there was a time when the Yakshas, led by Morax, cleansed evil from all corners of the land. They performed many outstanding military feats in the process, but it came at the cost of a karmic debt which tormented them... Today, only General Alatus remains. I wonder if his karmic debt still troubles him? Perhaps there is some way in which I could help... What? Someone has already healed him? I see... Very good. I'm glad he's at peace."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "About Yaoyao",
+      "text": "A disciple of Streetward Rambler, if I'm not mistaken. She possesses commendable strength and spirit for a mere mortal. Cloud Retainer has taken on several disciples as well, yes? Hmm... It is good to have successors. I wonder why I have never heard Mountain Shaper or Moon Carver display any interest in taking on disciples... Could it be that they haven't found any suitable candidates? Or perhaps they're too busy trotting off to enjoy themselves to think about such matters? Hah... Each of the adepti is so mystifying in their own unique way..."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "About Lan Yan",
+      "text": "Lan Yan must surely be a descendant of Wind Reader. I recall that Wind Reader traveled with the Jade-Plumed Silverwing for a time, creating quite an enchanting tale. I'm sure both of them would be delighted to know how very wise and capable their latter-day descendants have turned out."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "About Hu Tao",
+      "text": "I am well apprised of Director Hu's heroic act — facing death alone to protect the lives of others... Her courage and determination make her a worthy successor to the Wuwang Kid's legacy. It is most fortunate indeed that, thanks to your help, Director Hu did not end up like the Lone Butterfly of the Crimson Flame... Ahem, never mind that. No sense dwelling on what is past and gone."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "About the Three Moon Sisters",
+      "text": "The Three Moon Sisters? Well... I understand that they had a very close relationship. When one of them did not feel like being on duty, she would beg another to take her place, then make it up to her later with gifts of makeup and jewelry. However, so liberal were they with this ad-hoc shift-swapping business that it sometimes led to chaos. For instance, there once was a year when all three moons aligned, but this only happened because they all got the timing mixed up. And so, there came a day on which only one moon should have been on duty, but all three appeared in the sky at once. They hurried to line up in a row, two moons trying their best to hide behind the one who was supposed to be on duty... but alas, they still gave the poor people down below a most terrible fright. They burned incense for several days straight... After that incident, the sisters asked me to try to convey to the people of the world that the sight of three moons together in the sky was not an omen of impending disaster, nor a sign that regime change was nigh. Naturally, I put the question back to them, inquiring what such a phenomenon should represent to humanity. They hemmed and hawed for a while before finally saying: \"It means... It means a festival is coming, and... everyone should eat Fullmoon Cakes, and... stuff...\""
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "More About Zibai: I",
+      "text": "The Liyue of today is a vastly different place from the land I once knew. Even the name \"Liyue\" did not exist back then. Many moons have passed and many tides have turned since that age, and everything I remember is now long gone. Poets like to say that time flies like a white steed — and curiously enough, my Third Deadly Self was known as the \"White Horse Adeptus.\" Perhaps this is karma at work... You'd like to hear more about my past? Very well, one more person knowing the truth can only be a good thing."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "More About Zibai: II",
+      "text": "Long ago, I descended from the heavens to Lang-Gan to act as an envoy, guiding the people of that nation towards a peaceful future. The people of Lang-Gan called me the \"God of Soil and Grain,\" believing that I blessed their nation with favorable weather and bountiful harvests. I indeed had some influence over the weather, but the bountiful harvests were entirely due to the hard work of the nation's people. How did I guide Lang-Gan? Not with any grandeur or majesty, that's for sure. Save for a few interventions to divine the future, ward off evil, and prevent disasters, I spent the majority of my time as a teacher. I taught children how to read and write, do arithmetic, and play music. In my spare time, I compiled and edited texts on matters of etiquette, music, and the like."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "More About Zibai: III",
+      "text": "In my view, the most important thing to focus on when guiding a nation into the future is the education of the heart. A people without virtue cannot build a nation that endures, however abundant their material wealth may be. Consider those from Liyue who climb the mountains in search of the adepti, motivated only by selfish gain. Even if they are lucky enough to obtain adeptal treasures, those treasures will ultimately be their undoing if their intentions are impure. Now, of course, while cultivating virtue in one's heart, one must also sharpen the blade in one's hand. As the saying goes, one ought to hope for the best but prepare for the worst."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "More About Zibai: IV",
+      "text": "I have always been an avid reader. Nowadays, books are the only place where I can find the home and friends that I once knew. As ever, I annotate the text whenever I find factual errors. Recently, someone noticed my annotations and spent several days tracking me down to request that I teach history at his school. He was quite insistent, but his attitude seemed sincere to me, so I acquiesced and taught the classics there for a month... The sight of those students, eager to gain knowledge, took me right back to when I taught at the school in Lang-Gan. I never imagined that I would become a teacher again today... I suppose it was meant to be."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "More About Zibai: V",
+      "text": "Although I spend much of my time wandering, I occasionally return to Liyue to teach classes at various schools, where I take the opportunity to correct the historical records on Lang-Gan. Back in my day, the study of history was considered a singularly important affair. After all, the mirror of the past teaches us lessons for the future. I'm sure the ancient sages would be delighted to know that someone is still curating the historical records of Lang-Gan all these centuries later.\\n...You don't think this is very adeptus-like of me? Well, so be it. What the Liyue Harbor of today needs is not the extraordinary might of a handful of adepti, but the combined strength of its mortal populace united. I'm sure the other adepti are quite cognizant of this fact too. In any case, my role is to be a guide, and I continue to fulfill that by being an educator."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Zibai's Hobbies",
+      "text": "I suppose my hobby would be moon gazing. Now that I think about it, the thought of moon-gazing in Liyue is quite an interesting one."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Zibai's Troubles",
+      "text": "The idioms used in literature of this day and age are most... idiosyncratic. I fail to understand most of them, and trying to trace their origins is a very laborious endeavor. I suppose it will take me some time to get acquainted with the modern parlance..."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Favorite Food",
+      "text": "Have you ever tried a Fullmoon Cake? I used to share them with friends while moon gazing, but now... I can't seem to find them anywhere. It's quite a pity."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Least Favorite Food",
+      "text": "Raw meat is quite simply... Ahem. I just think meat should be cooked through prior to consumption."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Receiving a Gift: I",
+      "text": "Had I been able to sample such fine delicacies during my lunar exile, perhaps I would have stayed a little longer. Pah, I jest."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Receiving a Gift: II",
+      "text": "A fine meal. I will savor it."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Receiving a Gift: III",
+      "text": "This dish tastes... rather peculiar. Innovative, even."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Birthday",
+      "text": "Today is your birthday? Then we must celebrate. I recall that it is customary for the elderly to eat Longevity Noodles... Hehe, and while you appear youthful, I suspect that if we were to count the years since your birth, you would in fact be older than most people in Liyue Harbor. In that sense, preparing a bowl of Longevity Noodles for you would not be an inappropriate gesture... Hmm? Of course I know how to make them. I may have joined the celestial ranks in my time, but I wasn't born with a silver spoon in my mouth... *sigh* Frankly, the only reason I no longer have much of an appetite these days is probably all that time I spent in the heavens without any facility to cook... But I digress. Eating is the second most important affair in the world, so we must ensure that you enjoy a good bowl of Longevity Noodles before the day is through."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Feelings About Ascension: Intro",
+      "text": "I see."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Feelings About Ascension: Building Up",
+      "text": "The moon waxes and wanes..."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Feelings About Ascension: Climax",
+      "text": "The spirit returns to its dwelling."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Feelings About Ascension: Conclusion",
+      "text": "As an adeptus, I must fulfill my duty."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Be cleansed."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Without further ado."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Smite the dust."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Divine light, shield them."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Lofty wisdom will show us the way."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "The skies clear, the glaze moon shines."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Opening Treasure Chest: I",
+      "text": "A gift from the heavens. I shall gladly accept it."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Opening Treasure Chest: II",
+      "text": "There is no harm in claiming forsaken possessions."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Opening Treasure Chest: III",
+      "text": "You should take it. It may prove useful."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Low HP: I",
+      "text": "...I was insufficiently prepared."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Low HP: II",
+      "text": "Remain steadfast..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Low HP: III",
+      "text": "Time to conclude this."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Ally at Low HP: I",
+      "text": "Be not reckless."
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Ally at Low HP: II",
+      "text": "...Perhaps you should reconsider."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fallen: I",
+      "text": "All things... must end."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fallen: II",
+      "text": "I cannot see the moon..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fallen: III",
+      "text": "Dark clouds obscure the sky..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Light Hit Taken: I",
+      "text": "My mistake."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Light Hit Taken: II",
+      "text": "A minor mishap."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Heavy Hit Taken: I",
+      "text": "Arrogant and presumptuous."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Heavy Hit Taken: II",
+      "text": "Foolish and ignorant."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Joining Party: I",
+      "text": "You shall have my company."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Joining Party: II",
+      "text": "Where to?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Joining Party: III",
+      "text": "Clear skies grace our onward journey."
+    }
+  ],
+  "effects": {
+    "11190007": {
+      "name": "Elevation",
+      "description": "Special DMG Boost effect. It is calculated independently of other DMG Boost effects.",
+      "color": ""
+    },
+    "11260001": {
+      "name": "Lunar Phase Shift",
+      "description": "After using the Elemental Skill <span style=\"color:#FFD780FF\">Heaven and Earth Made Manifest</span>, Zibai will change to this mode. This mode lasts at most 15s and has the following properties:<br/>· Normal and Charged Attacks are converted into <span style=\"color:#FFE699FF\">Geo DMG</span> that cannot be overridden by other infusions.<br/>· The Elemental Skill <span style=\"color:#FFD780FF\">Heaven and Earth Made Manifest</span> will also be converted to the Elemental Skill <span style=\"color:#FFD780FF\">Spirit Steed's Stride</span>: When Zibai has at least 70 <span style=\"color:#FFD780FF\">Phase Shift Radiance</span>, she can consume 70 Phase Shift Radiance to unleash Spirit Steed's Stride and cause two instances of <span style=\"color:#FFE699FF\">Geo DMG</span>. The second instance will be considered Lunar-Crystallize Reaction DMG.<br/><br/>A maximum of 100 <span style=\"color:#FFD780FF\">Phase Shift Radiance</span> points can be accrued, and Zibai can accumulate them in the following ways:<br/>· She gains 10 points every second she is in the <span style=\"color:#FFD780FF\">Lunar Phase Shift</span> mode.<br/>· She gains 5 points when hitting an opponent with her Normal Attacks. She can gain Phase Shift Radiance points in this way once every 0.5s.<br/><br/><span style=\"color:#FFD780FF\">Moonsign: Ascendant Gleam</span><br/>When nearby party members trigger Lunar-Crystallize, they will also accrue 35 <span style=\"color:#FFD780FF\">Phase Shift Radiance</span> points for Zibai. Points can be gained this way once every 4s. Unleashing the special elemental skill <span style=\"color:#FFD780FF\">Spirit Steed's Stride</span> will reset the CD for <span style=\"color:#FFD780FF\">Phase Shift Radiance</span> gained this way.<br/><br/>Zibai will leave this mode after unleashing <span style=\"color:#FFD780FF\">Spirit Steed's Stride</span> 4 times, or when the skill's duration ends.",
+      "color": ""
+    }
+  }
+}

@@ -7,6 +7,10 @@ public class Main {
         JFrame application = appbuilder
                 .addProbabilityView()
                 .addProbabilityUseCase()
+                .addConversionView()
+                .addConversionUseCase()
+                .addPullHistoryView()
+                .addPullHistoryUseCase()
                 .build();
 
         application.pack();

@@ -1,5 +1,11 @@
 package use_case.simulate_pulls;
 
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.data.statistics.HistogramDataset;
+import org.jfree.data.statistics.HistogramType;
+
 import java.util.SplittableRandom;
 
 /**
@@ -62,12 +68,13 @@ public class SimulateInteractor implements SimulateInputBoundary{
         else {
             //otherwise run simulation and prepare success view
             double[] results = runSimulation(numOfSims,pullCountPerSim,hardPity,softPity,baseRate,softPityIncreaseRate, guaranteeLimited);
+            JFreeChart chart = createChart(results);
             double[] quartiles = statisticsHandler.findQuartiles(results);
             double mean = statisticsHandler.mean(results);
             double Q1 = quartiles[0];
             double Q2 = quartiles[1];
             double Q3 = quartiles[2];
-            SimulateOutputData simulateOutputData = new SimulateOutputData(results, mean, Q1, Q2, Q3);
+            SimulateOutputData simulateOutputData = new SimulateOutputData(chart, mean, Q1, Q2, Q3);
             this.simulatePresenter.prepareSuccessView(simulateOutputData);
         }
     }
@@ -122,6 +129,23 @@ public class SimulateInteractor implements SimulateInputBoundary{
             results[sim] = limitedPulled;
         }
         return results;
+    }
+    private JFreeChart createChart(double[] data){
+        HistogramDataset dataset = new HistogramDataset();
+        dataset.setType(HistogramType.FREQUENCY); // Default: raw counts
+        dataset.addSeries("Test Scores", data, 20); // 20 bins
+
+        // 3. Create the JFreeChart instance
+        return ChartFactory.createHistogram(
+                "Score Distribution",     // Chart title
+                "Number of Limiteds",                  // X-Axis label
+                "Frequency",              // Y-Axis label
+                dataset,                  // Dataset
+                PlotOrientation.VERTICAL, // Orientation
+                true,                     // Show legend
+                true,                     // Show tooltips
+                false                     // Show URLs
+        );
     }
 
 }

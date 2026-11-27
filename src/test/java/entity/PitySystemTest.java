@@ -9,14 +9,14 @@ class PitySystemTest {
     private final PitySystem genshinCharacter = new PitySystem(0.006f, 74, 0.06f, 90);
 
     @Test
-    void rateFollowsPityRules() {
+    void rateTest() {
         assertEquals(0.006f, genshinCharacter.getRateAt(73), 1e-6);
         assertEquals(0.066f, genshinCharacter.getRateAt(74), 1e-6);
         assertEquals(1f, genshinCharacter.getRateAt(90), 1e-6);
     }
 
     @Test
-    void probabilityBeforeSoftPityMatchesFixedRateFormula() {
+    void probabilityBeforeSoftPityTest() {
         double expected = 1 - Math.pow(1 - 0.006, 10);
         assertEquals(expected, genshinCharacter.probabilityWithin(0, 10), 1e-5);
     }
